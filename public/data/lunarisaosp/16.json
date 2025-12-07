@@ -1,10 +1,10 @@
 {
   "rom_id": "lunarisaosp",
   "branch": "16",
-  "generated_at": "2025-12-06T01:25:10.260157+00:00",
-  "since_date": "2025-09-07",
-  "total_projects": 132,
-  "total_commits": 1636,
+  "generated_at": "2025-12-07T01:35:00.912945+00:00",
+  "since_date": "2025-09-08",
+  "total_projects": 126,
+  "total_commits": 1617,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -5513,8 +5513,24 @@
       "path": "vendor/OTA",
       "repo_url": "https://github.com/Lunaris-AOSP/OTA",
       "remote": "lunaris",
-      "commit_count": 87,
+      "commit_count": 88,
       "commits": [
+        {
+          "sha": "b6d9ab8",
+          "message": "Merge pull request #65 from JNWSG/16",
+          "author": "GHOST | ゴースト",
+          "date": "Sat Dec 6 10:03:33 2025 +0530",
+          "timestamp": 1764995613,
+          "url": "https://github.com/Lunaris-AOSP/OTA/commit/b6d9ab8"
+        },
+        {
+          "sha": "c757ea3",
+          "message": "fogos: OTA 06/12/2025",
+          "author": "JNWSG",
+          "date": "Sat Dec 6 09:22:35 2025 +0530",
+          "timestamp": 1764993155,
+          "url": "https://github.com/Lunaris-AOSP/OTA/commit/c757ea3"
+        },
         {
           "sha": "e7e96a8",
           "message": "Merge pull request #64 from Derpfest-Peridot/16",
@@ -6202,14 +6218,6 @@
           "date": "Wed Sep 10 12:06:46 2025 +0000",
           "timestamp": 1757506006,
           "url": "https://github.com/Lunaris-AOSP/OTA/commit/d129bf3"
-        },
-        {
-          "sha": "c9a9770",
-          "message": "Pong: 07-09",
-          "author": "Ghosuto",
-          "date": "Sun Sep 7 16:43:53 2025 +0000",
-          "timestamp": 1757263433,
-          "url": "https://github.com/Lunaris-AOSP/OTA/commit/c9a9770"
         }
       ]
     },
@@ -6980,7 +6988,7 @@
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/Lunaris-AOSP/device_lineage_sepolicy",
       "remote": "lunaris",
-      "commit_count": 45,
+      "commit_count": 44,
       "commits": [
         {
           "sha": "849ef7d",
@@ -7333,14 +7341,6 @@
           "date": "Wed Oct 15 18:13:48 2025 +0000",
           "timestamp": 1760552028,
           "url": "https://github.com/Lunaris-AOSP/device_lineage_sepolicy/commit/6810925"
-        },
-        {
-          "sha": "070a3e1",
-          "message": "qcom: Label acl LiveDisplay sysfs node",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 7 15:12:23 2025 +0000",
-          "timestamp": 1757257943,
-          "url": "https://github.com/Lunaris-AOSP/device_lineage_sepolicy/commit/070a3e1"
         }
       ]
     },
@@ -9063,191 +9063,6 @@
       ]
     },
     {
-      "name": "art",
-      "path": "art",
-      "repo_url": "https://github.com/Lunaris-AOSP/art",
-      "remote": "lunaris",
-      "commit_count": 22,
-      "commits": [
-        {
-          "sha": "5a929e99",
-          "message": "jit: Use default jit hotness threshold for debug builds",
-          "author": "rmp22",
-          "date": "Sat Nov 15 14:35:47 2025 +0000",
-          "timestamp": 1763217347,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/5a929e99"
-        },
-        {
-          "sha": "ac5fdaab",
-          "message": "gc: Disable dead objects poisoning on debug builds",
-          "author": "rmp22",
-          "date": "Sat Nov 15 14:35:47 2025 +0000",
-          "timestamp": 1763217347,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/ac5fdaab"
-        },
-        {
-          "sha": "18c59800",
-          "message": "runtime: Disable kCheckDebugDisallowReadBarrierCount",
-          "author": "rmp22",
-          "date": "Sat Nov 15 14:35:47 2025 +0000",
-          "timestamp": 1763217347,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/18c59800"
-        },
-        {
-          "sha": "913bf1ed",
-          "message": "art: Optimize the entirity of ART for performance",
-          "author": "Vaisakh Murali",
-          "date": "Tue Sep 16 09:31:56 2025 +0000",
-          "timestamp": 1758015116,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/913bf1ed"
-        },
-        {
-          "sha": "66b26495",
-          "message": "Release memory back to the OS when the app goes into the background.",
-          "author": "qiubowen",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/66b26495"
-        },
-        {
-          "sha": "f867ea11",
-          "message": "Integrate the adjacent chunks that also need to be freed and call madvice uniformly to improve free efficiency",
-          "author": "qiubowen",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/f867ea11"
-        },
-        {
-          "sha": "e55d22fa",
-          "message": "Combine releasing pages to reduce how often madvise is called",
-          "author": "qiubowen",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/e55d22fa"
-        },
-        {
-          "sha": "dc0f44e0",
-          "message": "Bug #1900503 dex2oat: compile some small dexes one time and Skip the last GC [root cause  ] the last gc in CompileDexFilesIndividually                is unnecessary, and can be saved. [changes     ] 1. compile some small dexes                2. skip the last gc [side effects] no [self test   ]: yes [download normally]: yes [power on/off normally]: yes [do common repository/branch inspection]: yes [is there dependence]: no [confirm dependent commit]: no [board]: all go products [test case]: build, install apk, check dex2oat log [reviewers   ] donghui.bai [change_type ] AOB --> sprd_adaptation [tag_product ] common",
-          "author": "Yunlong Wang",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/dc0f44e0"
-        },
-        {
-          "sha": "a0762783",
-          "message": "Bug #1900503 dex2oat: Do not Compile Small App Individually [root cause  ] Individually compiling small app is unnecessary                and cost more time due to individually GC. [changes     ] add threshold for individually compiling [side effects] no [self test   ]: yes [download normally]: yes [power on/off normally]: yes [do common repository/branch inspection]: yes [is there dependence]: no [confirm dependent commit]: no [board]: all go products [test case]: build, install small apk, check dex2oat time [reviewers   ] donghui.bai [change_type ] AOB --> sprd_adaptation [tag_product ] common",
-          "author": "Yunlong Wang",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/a0762783"
-        },
-        {
-          "sha": "94242d10",
-          "message": "Reduce severity of 'cannot load the jdwp agent' logs to remove spam",
-          "author": "Abdelrahman Daim",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/94242d10"
-        },
-        {
-          "sha": "f2738ba8",
-          "message": "optimized hprof speed",
-          "author": "Guanyou Chen",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/f2738ba8"
-        },
-        {
-          "sha": "4774f307",
-          "message": "Use stp/ldp while calling native functions in arm64",
-          "author": "Jing Ji",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/4774f307"
-        },
-        {
-          "sha": "1e85eb15",
-          "message": "ART: dex2oat and instruction_set_features: utilize modified runtime capabilities set",
-          "author": "XeonDead",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/1e85eb15"
-        },
-        {
-          "sha": "5fb6bdd9",
-          "message": "Revert \"Add visibility attributes in runtime/arch\"",
-          "author": "John Galt",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/5fb6bdd9"
-        },
-        {
-          "sha": "0342c106",
-          "message": "art: add check for __ARM_FEATURE_ATOMICS that indicates LSE atomics availability on target",
-          "author": "XeonDead",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/0342c106"
-        },
-        {
-          "sha": "6753afd9",
-          "message": "art: Add Kryo585 support",
-          "author": "Raphiel Rollerscaperers",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/6753afd9"
-        },
-        {
-          "sha": "5492e014",
-          "message": "art: Kryo785 supports dotprod",
-          "author": "minaripenguin37",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/5492e014"
-        },
-        {
-          "sha": "c4d05971",
-          "message": "art: Disable debug tracing on production builds",
-          "author": "Danny Lin",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/c4d05971"
-        },
-        {
-          "sha": "20951b3c",
-          "message": "art: add kryo785 architecture variant.",
-          "author": "Sungwook Jung",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/20951b3c"
-        },
-        {
-          "sha": "2475272f",
-          "message": "Revert \"Remove strip.keep_symbols from libart defaults\"",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/2475272f"
-        },
-        {
-          "sha": "22e6204f",
-          "message": "art: Add support for Cortex-A510",
-          "author": "Jake Weinstein",
-          "date": "Tue Sep 16 09:31:55 2025 +0000",
-          "timestamp": 1758015115,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/22e6204f"
-        },
-        {
-          "sha": "c09a5c72",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/art into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:51:28 2025 +0300",
-          "timestamp": 1757688688,
-          "url": "https://github.com/Lunaris-AOSP/art/commit/c09a5c72"
-        }
-      ]
-    },
-    {
       "name": "vendor_extras",
       "path": "vendor/extras",
       "repo_url": "https://github.com/Lunaris-AOSP/vendor_extras",
@@ -9731,11 +9546,140 @@
       ]
     },
     {
+      "name": "art",
+      "path": "art",
+      "repo_url": "https://github.com/Lunaris-AOSP/art",
+      "remote": "lunaris",
+      "commit_count": 15,
+      "commits": [
+        {
+          "sha": "852ee343",
+          "message": "jit: Use default jit hotness threshold for debug builds",
+          "author": "rmp22",
+          "date": "Sat Dec 6 16:54:31 2025 +0000",
+          "timestamp": 1765040071,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/852ee343"
+        },
+        {
+          "sha": "d14f3c87",
+          "message": "gc: Disable dead objects poisoning on debug builds",
+          "author": "rmp22",
+          "date": "Sat Dec 6 16:54:31 2025 +0000",
+          "timestamp": 1765040071,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/d14f3c87"
+        },
+        {
+          "sha": "bf4cdfbc",
+          "message": "runtime: Disable kCheckDebugDisallowReadBarrierCount",
+          "author": "rmp22",
+          "date": "Sat Dec 6 16:54:31 2025 +0000",
+          "timestamp": 1765040071,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/bf4cdfbc"
+        },
+        {
+          "sha": "bfc9e67c",
+          "message": "art: Optimize the entirity of ART for performance",
+          "author": "Vaisakh Murali",
+          "date": "Sat Dec 6 16:54:31 2025 +0000",
+          "timestamp": 1765040071,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/bfc9e67c"
+        },
+        {
+          "sha": "4774f307",
+          "message": "Use stp/ldp while calling native functions in arm64",
+          "author": "Jing Ji",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/4774f307"
+        },
+        {
+          "sha": "1e85eb15",
+          "message": "ART: dex2oat and instruction_set_features: utilize modified runtime capabilities set",
+          "author": "XeonDead",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/1e85eb15"
+        },
+        {
+          "sha": "5fb6bdd9",
+          "message": "Revert \"Add visibility attributes in runtime/arch\"",
+          "author": "John Galt",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/5fb6bdd9"
+        },
+        {
+          "sha": "0342c106",
+          "message": "art: add check for __ARM_FEATURE_ATOMICS that indicates LSE atomics availability on target",
+          "author": "XeonDead",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/0342c106"
+        },
+        {
+          "sha": "6753afd9",
+          "message": "art: Add Kryo585 support",
+          "author": "Raphiel Rollerscaperers",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/6753afd9"
+        },
+        {
+          "sha": "5492e014",
+          "message": "art: Kryo785 supports dotprod",
+          "author": "minaripenguin37",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/5492e014"
+        },
+        {
+          "sha": "c4d05971",
+          "message": "art: Disable debug tracing on production builds",
+          "author": "Danny Lin",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/c4d05971"
+        },
+        {
+          "sha": "20951b3c",
+          "message": "art: add kryo785 architecture variant.",
+          "author": "Sungwook Jung",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/20951b3c"
+        },
+        {
+          "sha": "2475272f",
+          "message": "Revert \"Remove strip.keep_symbols from libart defaults\"",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/2475272f"
+        },
+        {
+          "sha": "22e6204f",
+          "message": "art: Add support for Cortex-A510",
+          "author": "Jake Weinstein",
+          "date": "Tue Sep 16 09:31:55 2025 +0000",
+          "timestamp": 1758015115,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/22e6204f"
+        },
+        {
+          "sha": "c09a5c72",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/art into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:51:28 2025 +0300",
+          "timestamp": 1757688688,
+          "url": "https://github.com/Lunaris-AOSP/art/commit/c09a5c72"
+        }
+      ]
+    },
+    {
       "name": "android",
       "path": "android",
       "repo_url": "https://github.com/Lunaris-AOSP/android",
       "remote": "lunaris",
-      "commit_count": 15,
+      "commit_count": 14,
       "commits": [
         {
           "sha": "e63115c",
@@ -9848,14 +9792,6 @@
           "date": "Wed Sep 10 09:41:21 2025 +0300",
           "timestamp": 1757486481,
           "url": "https://github.com/Lunaris-AOSP/android/commit/257de19"
-        },
-        {
-          "sha": "307ab65",
-          "message": "lineage: Remove Android.mk guard for msm8998/sdm845",
-          "author": "Nolen Johnson",
-          "date": "Sun Sep 7 15:31:19 2025 +0000",
-          "timestamp": 1757259079,
-          "url": "https://github.com/Lunaris-AOSP/android/commit/307ab65"
         }
       ]
     },
@@ -11390,71 +11326,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "b28a32c",
-          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 19:53:45 2025 +0100",
-          "timestamp": 1763924025,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
-        },
-        {
-          "sha": "a6b7ae6",
-          "message": "legacy: Disallow system_server from loading kernel modules",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 17:14:09 2025 +0100",
-          "timestamp": 1763914449,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
-        },
-        {
-          "sha": "e6959ab",
-          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 17:32:19 2025 +0100",
-          "timestamp": 1762101139,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
-        },
-        {
-          "sha": "57d39af",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 15:12:10 2025 +0000",
-          "timestamp": 1762096330,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
-        },
-        {
-          "sha": "c5a86cf",
-          "message": "sepolicy: Move hal_soter attribute to public",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:30:17 2025 +0000",
-          "timestamp": 1762090217,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
-        },
-        {
-          "sha": "5fa0de2",
-          "message": "legacy: Copy AIDL NFC HAL policy from non-legacy",
-          "author": "Edwin Moquete",
-          "date": "Sat Sep 27 10:25:32 2025 +0200",
-          "timestamp": 1758961532,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/5fa0de2"
-        },
-        {
-          "sha": "f59019e",
-          "message": "sdm660: Label more video4linux wakeup nodes",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 21:51:43 2025 +0200",
-          "timestamp": 1757274703,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f59019e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8550",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -11902,6 +11773,63 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "b28a32c",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:53:45 2025 +0100",
+          "timestamp": 1763924025,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
+        },
+        {
+          "sha": "a6b7ae6",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:14:09 2025 +0100",
+          "timestamp": 1763914449,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
+        },
+        {
+          "sha": "e6959ab",
+          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 17:32:19 2025 +0100",
+          "timestamp": 1762101139,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
+        },
+        {
+          "sha": "57d39af",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 15:12:10 2025 +0000",
+          "timestamp": 1762096330,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
+        },
+        {
+          "sha": "c5a86cf",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:30:17 2025 +0000",
+          "timestamp": 1762090217,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
+        },
+        {
+          "sha": "5fa0de2",
+          "message": "legacy: Copy AIDL NFC HAL policy from non-legacy",
+          "author": "Edwin Moquete",
+          "date": "Sat Sep 27 10:25:32 2025 +0200",
+          "timestamp": 1758961532,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/5fa0de2"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_lineage_interfaces",
       "path": "hardware/lineage/interfaces",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
@@ -12069,63 +11997,6 @@
           "date": "Mon Sep 8 04:54:56 2025 -0700",
           "timestamp": 1757332496,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/c2ca91b"
-        }
-      ]
-    },
-    {
-      "name": "hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/Lunaris-AOSP/hardware_interfaces",
-      "remote": "lunaris",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "88f0c51c",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Fri Nov 21 11:43:04 2025 +0000",
-          "timestamp": 1763725384,
-          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/88f0c51c"
-        },
-        {
-          "sha": "dad4c2cd",
-          "message": "preventing audio service from utilizing high energy cores",
-          "author": "rmp22",
-          "date": "Thu Nov 13 16:37:12 2025 +0000",
-          "timestamp": 1763051832,
-          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/dad4c2cd"
-        },
-        {
-          "sha": "1529bf60",
-          "message": "compatibility_matrices: Add p/android-4.4 into FCM 5",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 16:37:12 2025 +0000",
-          "timestamp": 1763051832,
-          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/1529bf60"
-        },
-        {
-          "sha": "19bf745b",
-          "message": "Restore q/android-4.9 again",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 16:37:12 2025 +0000",
-          "timestamp": 1763051832,
-          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/19bf745b"
-        },
-        {
-          "sha": "25fab976",
-          "message": "Bluetooth HAL: fix suspend behavior",
-          "author": "Eric Laurent",
-          "date": "Fri Sep 26 09:53:38 2025 +0530",
-          "timestamp": 1758860618,
-          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/25fab976"
-        },
-        {
-          "sha": "d68c6c9a",
-          "message": "libradiocompat: Deprecate getDeviceIdentity and use getImei instead",
-          "author": "Luofan Chen",
-          "date": "Sun Sep 7 13:26:06 2025 +0000",
-          "timestamp": 1757251566,
-          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/d68c6c9a"
         }
       ]
     },
@@ -12538,6 +12409,55 @@
       ]
     },
     {
+      "name": "hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/Lunaris-AOSP/hardware_interfaces",
+      "remote": "lunaris",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "88f0c51c",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Fri Nov 21 11:43:04 2025 +0000",
+          "timestamp": 1763725384,
+          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/88f0c51c"
+        },
+        {
+          "sha": "dad4c2cd",
+          "message": "preventing audio service from utilizing high energy cores",
+          "author": "rmp22",
+          "date": "Thu Nov 13 16:37:12 2025 +0000",
+          "timestamp": 1763051832,
+          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/dad4c2cd"
+        },
+        {
+          "sha": "1529bf60",
+          "message": "compatibility_matrices: Add p/android-4.4 into FCM 5",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 16:37:12 2025 +0000",
+          "timestamp": 1763051832,
+          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/1529bf60"
+        },
+        {
+          "sha": "19bf745b",
+          "message": "Restore q/android-4.9 again",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 16:37:12 2025 +0000",
+          "timestamp": 1763051832,
+          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/19bf745b"
+        },
+        {
+          "sha": "25fab976",
+          "message": "Bluetooth HAL: fix suspend behavior",
+          "author": "Eric Laurent",
+          "date": "Fri Sep 26 09:53:38 2025 +0530",
+          "timestamp": 1758860618,
+          "url": "https://github.com/Lunaris-AOSP/hardware_interfaces/commit/25fab976"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_external_dtc",
       "path": "external/dtc",
       "repo_url": "https://github.com/LineageOS/android_external_dtc",
@@ -12899,39 +12819,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "70d1609",
-          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:03 2025 -0700",
-          "timestamp": 1762617483,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
-        },
-        {
-          "sha": "30034c7",
-          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:16 2025 -0600",
-          "timestamp": 1760795836,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
-        },
-        {
-          "sha": "6760647",
-          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:45 2025 -0600",
-          "timestamp": 1758982965,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -12965,35 +12852,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "84c74ff",
-          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:08 2025 -0700",
-          "timestamp": 1762617488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
         },
         {
-          "sha": "c1498b6",
-          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "sha": "30034c7",
+          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:20 2025 -0600",
-          "timestamp": 1760795840,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
+          "date": "Sat Oct 18 07:57:16 2025 -0600",
+          "timestamp": 1760795836,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
         },
         {
-          "sha": "c18e219",
-          "message": "Update Chromium Webview x86 to 140.0.7339.207",
+          "sha": "6760647",
+          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:49 2025 -0600",
-          "timestamp": 1758982969,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
+          "date": "Sat Sep 27 08:22:45 2025 -0600",
+          "timestamp": 1758982965,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
@@ -13027,6 +12914,39 @@
           "date": "Sat Sep 27 08:22:53 2025 -0600",
           "timestamp": 1758982973,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+        },
+        {
+          "sha": "c1498b6",
+          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:20 2025 -0600",
+          "timestamp": 1760795840,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
+        },
+        {
+          "sha": "c18e219",
+          "message": "Update Chromium Webview x86 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:49 2025 -0600",
+          "timestamp": 1758982969,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
         }
       ]
     },
@@ -13163,39 +13083,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_power",
-      "path": "vendor/qcom/opensource/power",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "97a0bce",
-          "message": "power: Drop non-existent android.hardware.power-impl",
-          "author": "basamaryan",
-          "date": "Mon Nov 24 06:00:51 2025 -0500",
-          "timestamp": 1763982051,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
-        },
-        {
-          "sha": "f47d3a6",
-          "message": "power: Bump QTI power HAL version to 6",
-          "author": "Bruno Martins",
-          "date": "Sun Sep 7 21:46:28 2025 +0100",
-          "timestamp": 1757277988,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/f47d3a6"
-        },
-        {
-          "sha": "8f0b87c",
-          "message": "power: Abstract android.hardware.power-ndk dependency",
-          "author": "Bruno Martins",
-          "date": "Sun Sep 7 21:46:15 2025 +0100",
-          "timestamp": 1757277975,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/8f0b87c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_usb",
       "path": "vendor/qcom/opensource/usb",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
@@ -13225,39 +13112,6 @@
           "date": "Sun Sep 21 06:59:08 2025 -0700",
           "timestamp": 1758463148,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/13fb188"
-        }
-      ]
-    },
-    {
-      "name": "frameworks_libs_systemui",
-      "path": "frameworks/libs/systemui",
-      "repo_url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui",
-      "remote": "lunaris",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "45f57ef",
-          "message": "suppressing icon cache corruption that leads to anr",
-          "author": "rmp22",
-          "date": "Mon Nov 24 06:38:17 2025 +0000",
-          "timestamp": 1763966297,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui/commit/45f57ef"
-        },
-        {
-          "sha": "4f44333",
-          "message": "Multiple work profile badge colors for Launcher3",
-          "author": "Tommy Webb",
-          "date": "Sat Oct 18 08:19:42 2025 +0000",
-          "timestamp": 1760775582,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui/commit/4f44333"
-        },
-        {
-          "sha": "7bb449e",
-          "message": "fix dynamic icon components",
-          "author": "rmp22",
-          "date": "Sun Sep 7 09:25:40 2025 +0000",
-          "timestamp": 1757237140,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui/commit/7bb449e"
         }
       ]
     },
@@ -13570,6 +13424,31 @@
       ]
     },
     {
+      "name": "frameworks_libs_systemui",
+      "path": "frameworks/libs/systemui",
+      "repo_url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui",
+      "remote": "lunaris",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "45f57ef",
+          "message": "suppressing icon cache corruption that leads to anr",
+          "author": "rmp22",
+          "date": "Mon Nov 24 06:38:17 2025 +0000",
+          "timestamp": 1763966297,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui/commit/45f57ef"
+        },
+        {
+          "sha": "4f44333",
+          "message": "Multiple work profile badge colors for Launcher3",
+          "author": "Tommy Webb",
+          "date": "Sat Oct 18 08:19:42 2025 +0000",
+          "timestamp": 1760775582,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_libs_systemui/commit/4f44333"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_GameSpace",
       "path": "packages/apps/GameSpace",
       "repo_url": "https://github.com/Lunaris-AOSP/packages_apps_GameSpace",
@@ -13739,40 +13618,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8998/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "717b078",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:04 2025 +0000",
-          "timestamp": 1757258824,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sdm845/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d5ad5c1",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:16 2025 +0000",
-          "timestamp": 1757258836,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -13807,23 +13652,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8953/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9861d78",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 18:28:41 2025 +0000",
-          "timestamp": 1757269721,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9861d78"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8750/display/hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
@@ -13837,57 +13665,6 @@
           "date": "Thu Nov 20 20:02:43 2025 +0000",
           "timestamp": 1763668963,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8998/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "125f0e3",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Mon Sep 8 02:04:40 2025 +0300",
-          "timestamp": 1757286280,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/125f0e3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm660/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2098857",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 18:28:57 2025 +0000",
-          "timestamp": 1757269737,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm845/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c14d815",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 23:04:11 2025 +0000",
-          "timestamp": 1757286251,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
         }
       ]
     },
@@ -14130,6 +13907,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-intf",
+      "path": "hardware/qcom-caf/sm8750/display/intf",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "19b5c05",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:03:11 2025 +0000",
+          "timestamp": 1763668991,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c05"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
       "path": "vendor/qcom/opensource/healthd-ext",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext",
@@ -14147,19 +13941,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-intf",
-      "path": "hardware/qcom-caf/sm8750/display/intf",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf",
+      "name": "LineageOS/android_vendor_qcom_opensource_power",
+      "path": "vendor/qcom/opensource/power",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "19b5c05",
-          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf into HEAD",
-          "author": "Bruno Martins",
-          "date": "Thu Nov 20 20:03:11 2025 +0000",
-          "timestamp": 1763668991,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c05"
+          "sha": "97a0bce",
+          "message": "power: Drop non-existent android.hardware.power-impl",
+          "author": "basamaryan",
+          "date": "Mon Nov 24 06:00:51 2025 -0500",
+          "timestamp": 1763982051,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
         }
       ]
     },
