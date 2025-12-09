@@ -2,35 +2,37 @@
 
 > **Automatically track and visualize recent commits across Custom Android ROM repositories**
 
-A GitHub Actions-powered tool that monitors source code changes across multiple Custom ROM projects, providing developers and enthusiasts with an up-to-date view of development activity.
+A GitHub Actions-powered tool that monitors source code changes across multiple Custom ROM projects.  
+It provides developers and enthusiasts with an up-to-date view of development activity.
 
 ## ⚙️ How It Works
 
-- All ROM data is centralized in `roms_config.yaml`
+- All ROM data is stored in `roms_config.yaml`  
 - GitHub Actions automatically:
-  - Syncs the repositories  
-  - Processes commit data  
-  - Updates the web interface  
-- Fully self-maintaining—no manual intervention required
+  - Sync repositories  
+  - Process commit data  
+  - Update the web interface  
+- Fully self-maintaining—no manual intervention needed
 
 ## 📊 Data Updates
 
-- **Frequency:** Every 24 hours
-- **Commit window:** Last 90 days each repo
-- **Update time:** Runs at 00:00 UTC everyday
+- **Frequency:** Every 24 hours  
+- **Commit window:** Last 90 days for each repo  
+- **Update time:** 00:00 UTC daily
 
 ## 🚫 AOSP Source Exclusion
 
-This tracker intentionally **excludes AOSP repositories** to save storage and respect GitHub Runner limits.
+This tracker **excludes AOSP repositories** to save storage and stay within GitHub Runner limits.
 
 ## 🔧 Adding a New ROM
 
-To track a new ROM, add it to `roms_config.yaml` and submit a pull request:
+To track a new ROM:
 
-```yaml
-  - id: my-rom
-    display_name: My Custom ROM
-    manifest_url: https://github.com/my-rom/manifest.git
-    branches:
-      - main
-      - development
+1. Add it to `roms_config.yaml`  
+2. Submit a pull request  
+
+**Example entry:**
+- `id`: `my-rom`  
+- `display_name`: `My Custom ROM`  
+- `manifest_url`: `https://github.com/my-rom/manifest.git`  
+- `branches`: `main`, `development`

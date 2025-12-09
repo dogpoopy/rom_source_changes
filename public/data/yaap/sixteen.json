@@ -1,353 +1,545 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-12-04T01:22:16.478691+00:00",
-  "since_date": "2025-09-05",
-  "total_projects": 45,
-  "total_commits": 271,
+  "generated_at": "2025-12-09T01:22:42.264841+00:00",
+  "since_date": "2025-09-10",
+  "total_projects": 84,
+  "total_commits": 384,
   "projects": [
     {
       "name": "frameworks_base",
       "path": "frameworks/base",
       "repo_url": "https://github.com/yaap/frameworks_base",
       "remote": "yaap",
-      "commit_count": 42,
+      "commit_count": 66,
       "commits": [
         {
-          "sha": "744f918c",
+          "sha": "a612c7f5b5",
+          "message": "SystemUI: Adapt luminanace and chroma factors to A16/QPR1 [1/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Dec 7 12:31:38 2025 +0200",
+          "timestamp": 1765103498,
+          "url": "https://github.com/yaap/frameworks_base/commit/a612c7f5b5"
+        },
+        {
+          "sha": "07a34833ed",
+          "message": "BrightnessSlider: Adjust brightness icon size and corner radius",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 6 18:48:07 2025 +0200",
+          "timestamp": 1765039687,
+          "url": "https://github.com/yaap/frameworks_base/commit/07a34833ed"
+        },
+        {
+          "sha": "ae86933540",
+          "message": "BrightnessSlider: Extend haptics for auto brightness button",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 6 18:48:07 2025 +0200",
+          "timestamp": 1765039687,
+          "url": "https://github.com/yaap/frameworks_base/commit/ae86933540"
+        },
+        {
+          "sha": "35d5d30001",
+          "message": "BrightnessSlider: Adapt haptic feedback toggle for A16/QPR1",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 6 18:48:07 2025 +0200",
+          "timestamp": 1765039687,
+          "url": "https://github.com/yaap/frameworks_base/commit/35d5d30001"
+        },
+        {
+          "sha": "d720f315c8",
+          "message": "Revert \"Disable blurs during critical thermal state\"",
+          "author": "John Galt",
+          "date": "Sat Dec 6 11:12:19 2025 -0500",
+          "timestamp": 1765037539,
+          "url": "https://github.com/yaap/frameworks_base/commit/d720f315c8"
+        },
+        {
+          "sha": "077742b244",
+          "message": "Revert \"Adjust the threshold for disabling blur on thermal status\"",
+          "author": "John Galt",
+          "date": "Sat Dec 6 11:12:06 2025 -0500",
+          "timestamp": 1765037526,
+          "url": "https://github.com/yaap/frameworks_base/commit/077742b244"
+        },
+        {
+          "sha": "8813478169",
+          "message": "SystemUI: Use Material3 switches for internet and BT dialog tile",
+          "author": "Abhay Singh Gill",
+          "date": "Sat Dec 6 09:45:36 2025 -0500",
+          "timestamp": 1765032336,
+          "url": "https://github.com/yaap/frameworks_base/commit/8813478169"
+        },
+        {
+          "sha": "dddd5289ea",
+          "message": "SystemUI: Use Material3 switches for screenrecord options",
+          "author": "Abhay Singh Gill",
+          "date": "Sat Dec 6 09:43:52 2025 -0500",
+          "timestamp": 1765032232,
+          "url": "https://github.com/yaap/frameworks_base/commit/dddd5289ea"
+        },
+        {
+          "sha": "4d60010800",
+          "message": "SettingsLib: Enable expressive by default in spa environment",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 6 09:42:06 2025 -0500",
+          "timestamp": 1765032126,
+          "url": "https://github.com/yaap/frameworks_base/commit/4d60010800"
+        },
+        {
+          "sha": "f6dd17dac2",
+          "message": "SystemUI: Support non-animated custom brightness icons",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 6 16:14:44 2025 +0200",
+          "timestamp": 1765030484,
+          "url": "https://github.com/yaap/frameworks_base/commit/f6dd17dac2"
+        },
+        {
+          "sha": "b4aba2e4bd",
+          "message": "SystemUI: Increase spacer size in brightness icon to avoid clipping in tracking mode",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 6 16:14:21 2025 +0200",
+          "timestamp": 1765030461,
+          "url": "https://github.com/yaap/frameworks_base/commit/b4aba2e4bd"
+        },
+        {
+          "sha": "c4112f183d",
+          "message": "SystemUI: Add tunable for showing brightness icon",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 6 16:13:58 2025 +0200",
+          "timestamp": 1765030438,
+          "url": "https://github.com/yaap/frameworks_base/commit/c4112f183d"
+        },
+        {
+          "sha": "ab292e22d9",
+          "message": "SystemUI: Add auto brightness toggle in brightness slider in new compose QS",
+          "author": "rmp22",
+          "date": "Sat Dec 6 16:06:08 2025 +0200",
+          "timestamp": 1765029968,
+          "url": "https://github.com/yaap/frameworks_base/commit/ab292e22d9"
+        },
+        {
+          "sha": "31d265282e",
+          "message": "SystemUI: Allow to change brightness slider positioning in new compose QS",
+          "author": "Abhay Singh Gill",
+          "date": "Sat Dec 6 15:02:09 2025 +0200",
+          "timestamp": 1765026129,
+          "url": "https://github.com/yaap/frameworks_base/commit/31d265282e"
+        },
+        {
+          "sha": "4eec7abbea",
+          "message": "InternetDialog: Add missing setOnClickListener for data toggle",
+          "author": "Pranav Vashi",
+          "date": "Fri Dec 5 16:59:30 2025 -0500",
+          "timestamp": 1764971970,
+          "url": "https://github.com/yaap/frameworks_base/commit/4eec7abbea"
+        },
+        {
+          "sha": "5d20cf0a83",
+          "message": "RotationButtonController: Fix a NPE",
+          "author": "Cyber Knight",
+          "date": "Sat Dec 6 05:17:48 2025 +0800",
+          "timestamp": 1764969468,
+          "url": "https://github.com/yaap/frameworks_base/commit/5d20cf0a83"
+        },
+        {
+          "sha": "0761df25a4",
+          "message": "KeyguardPreviewSmartspaceViewBinder: Fix NPE",
+          "author": "ExtremeXT",
+          "date": "Sat Dec 6 04:09:36 2025 +0800",
+          "timestamp": 1764965376,
+          "url": "https://github.com/yaap/frameworks_base/commit/0761df25a4"
+        },
+        {
+          "sha": "8880ee5c94",
+          "message": "SystemUI: Default to show vibrate icon on statusbar",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 6 02:01:10 2025 +0800",
+          "timestamp": 1764957670,
+          "url": "https://github.com/yaap/frameworks_base/commit/8880ee5c94"
+        },
+        {
+          "sha": "6f9ebd6358",
+          "message": "SystemUI: Inject missing QSTileConfig for our custom tiles",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 6 02:01:10 2025 +0800",
+          "timestamp": 1764957670,
+          "url": "https://github.com/yaap/frameworks_base/commit/6f9ebd6358"
+        },
+        {
+          "sha": "930a9a0aac",
+          "message": "PhoneWindowManager: Adapt long press power for torch for A16/QPR1",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 6 02:01:09 2025 +0800",
+          "timestamp": 1764957669,
+          "url": "https://github.com/yaap/frameworks_base/commit/930a9a0aac"
+        },
+        {
+          "sha": "69ca5423d0",
+          "message": "Revert \"SystemUI: Allow choosing statusbar clock position [1/2]\"",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 6 02:01:09 2025 +0800",
+          "timestamp": 1764957669,
+          "url": "https://github.com/yaap/frameworks_base/commit/69ca5423d0"
+        },
+        {
+          "sha": "4dfa783377",
+          "message": "[WIP] Revert \"SystemUI: Implement Reverse-engineered Smartspace\"",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 21:51:00 2025 +0200",
+          "timestamp": 1764877860,
+          "url": "https://github.com/yaap/frameworks_base/commit/4dfa783377"
+        },
+        {
+          "sha": "eb8f11904a",
+          "message": "Revert \"SystemUI: Introduce Flashlight Strength Tile\"",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 21:51:00 2025 +0200",
+          "timestamp": 1764877860,
+          "url": "https://github.com/yaap/frameworks_base/commit/eb8f11904a"
+        },
+        {
+          "sha": "0d8b4676fd",
+          "message": "SystemUI: DnsTile: Adapt to A16/QPR1",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 21:51:00 2025 +0200",
+          "timestamp": 1764877860,
+          "url": "https://github.com/yaap/frameworks_base/commit/0d8b4676fd"
+        },
+        {
+          "sha": "3af290c22c",
+          "message": "PhoneWindowManager: Adapt 3 finger screenshot gesture to A16/QPR1",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 21:50:59 2025 +0200",
+          "timestamp": 1764877859,
+          "url": "https://github.com/yaap/frameworks_base/commit/3af290c22c"
+        },
+        {
+          "sha": "25b681103c",
+          "message": "Revert \"base: Add api to take screenshots\"",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 21:50:59 2025 +0200",
+          "timestamp": 1764877859,
+          "url": "https://github.com/yaap/frameworks_base/commit/25b681103c"
+        },
+        {
+          "sha": "5f19845ac5",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 21:50:53 2025 +0200",
+          "timestamp": 1764877853,
+          "url": "https://github.com/yaap/frameworks_base/commit/5f19845ac5"
+        },
+        {
+          "sha": "744f918c8e",
           "message": "ScreenshotNotificationsController: Properly group and dismiss grouped",
           "author": "Ido Ben-Hur",
           "date": "Fri Nov 7 03:09:07 2025 +0200",
           "timestamp": 1762477747,
-          "url": "https://github.com/yaap/frameworks_base/commit/744f918c"
+          "url": "https://github.com/yaap/frameworks_base/commit/744f918c8e"
         },
         {
-          "sha": "c45c2984",
+          "sha": "c45c298426",
           "message": "KeyboxImitationHooks: Persist generated verified boot hash",
           "author": "Abhay Singh Gill",
           "date": "Fri Oct 24 16:08:52 2025 +0300",
           "timestamp": 1761311332,
-          "url": "https://github.com/yaap/frameworks_base/commit/c45c2984"
+          "url": "https://github.com/yaap/frameworks_base/commit/c45c298426"
         },
         {
-          "sha": "e5b364d7",
+          "sha": "e5b364d780",
           "message": "libs/hwui: default disable UltraHDR behaviors",
           "author": "John Galt",
           "date": "Thu Oct 16 18:16:21 2025 -0400",
           "timestamp": 1760652981,
-          "url": "https://github.com/yaap/frameworks_base/commit/e5b364d7"
+          "url": "https://github.com/yaap/frameworks_base/commit/e5b364d780"
         },
         {
-          "sha": "c5744efd",
+          "sha": "c5744efddd",
           "message": "base: Allow turning on mobile data when pressing the tile [1/2]",
           "author": "Ido Ben-Hur",
           "date": "Wed Oct 8 00:49:38 2025 +0300",
           "timestamp": 1759873778,
-          "url": "https://github.com/yaap/frameworks_base/commit/c5744efd"
+          "url": "https://github.com/yaap/frameworks_base/commit/c5744efddd"
         },
         {
-          "sha": "dda3bb88",
+          "sha": "dda3bb8892",
           "message": "UdfpsHelper: Exclude dim layer from screenshots",
           "author": "pjgowtham",
           "date": "Wed Oct 1 13:17:18 2025 -0400",
           "timestamp": 1759339038,
-          "url": "https://github.com/yaap/frameworks_base/commit/dda3bb88"
+          "url": "https://github.com/yaap/frameworks_base/commit/dda3bb8892"
         },
         {
-          "sha": "20f6013d",
+          "sha": "20f6013d16",
           "message": "Disable concurrent MQ in SysUI",
           "author": "Shai Barack",
           "date": "Wed Oct 1 11:05:45 2025 -0400",
           "timestamp": 1759331145,
-          "url": "https://github.com/yaap/frameworks_base/commit/20f6013d"
+          "url": "https://github.com/yaap/frameworks_base/commit/20f6013d16"
         },
         {
-          "sha": "a41fdee6",
+          "sha": "a41fdee61b",
           "message": "Fix a bug where turning off Bluetooth before CDM BLE device discovery timeout results in a crash.",
           "author": "Raphael Kim",
           "date": "Wed Oct 1 11:05:44 2025 -0400",
           "timestamp": 1759331144,
-          "url": "https://github.com/yaap/frameworks_base/commit/a41fdee6"
+          "url": "https://github.com/yaap/frameworks_base/commit/a41fdee61b"
         },
         {
-          "sha": "47a64f81",
+          "sha": "47a64f8103",
           "message": "Remove CompanionServicesRegister",
           "author": "Evan Chen",
           "date": "Wed Oct 1 11:05:26 2025 -0400",
           "timestamp": 1759331126,
-          "url": "https://github.com/yaap/frameworks_base/commit/47a64f81"
+          "url": "https://github.com/yaap/frameworks_base/commit/47a64f8103"
         },
         {
-          "sha": "bffb0fe7",
+          "sha": "bffb0fe718",
           "message": "Fix association XML parsing issues",
           "author": "Guojing Yuan",
           "date": "Wed Oct 1 11:05:26 2025 -0400",
           "timestamp": 1759331126,
-          "url": "https://github.com/yaap/frameworks_base/commit/bffb0fe7"
+          "url": "https://github.com/yaap/frameworks_base/commit/bffb0fe718"
         },
         {
-          "sha": "fe8ff309",
+          "sha": "fe8ff30978",
           "message": "Fix deadlock b/w historical and discrete registry in xml implementation",
           "author": "Manjeet Rulhania",
           "date": "Wed Oct 1 11:05:14 2025 -0400",
           "timestamp": 1759331114,
-          "url": "https://github.com/yaap/frameworks_base/commit/fe8ff309"
+          "url": "https://github.com/yaap/frameworks_base/commit/fe8ff30978"
         },
         {
-          "sha": "9fd8f4a2",
+          "sha": "9fd8f4a296",
           "message": "SystemUI: Adapt UDFPS dim layer to Sep/2025 SPL changes",
           "author": "Ido Ben-Hur",
           "date": "Mon Sep 22 13:10:49 2025 +0300",
           "timestamp": 1758535849,
-          "url": "https://github.com/yaap/frameworks_base/commit/9fd8f4a2"
+          "url": "https://github.com/yaap/frameworks_base/commit/9fd8f4a296"
         },
         {
-          "sha": "4160a007",
+          "sha": "4160a00776",
           "message": "Implement onNullBinding() in autofill service connection",
           "author": "Haoran Zhang",
           "date": "Mon Sep 22 03:36:57 2025 +0300",
           "timestamp": 1758501417,
-          "url": "https://github.com/yaap/frameworks_base/commit/4160a007"
+          "url": "https://github.com/yaap/frameworks_base/commit/4160a00776"
         },
         {
-          "sha": "fc804624",
+          "sha": "fc8046243c",
           "message": "PrintSpooler: Require empty output for PDF",
           "author": "Benjamin Gordon",
           "date": "Mon Sep 22 03:36:50 2025 +0300",
           "timestamp": 1758501410,
-          "url": "https://github.com/yaap/frameworks_base/commit/fc804624"
+          "url": "https://github.com/yaap/frameworks_base/commit/fc8046243c"
         },
         {
-          "sha": "c534e63f",
+          "sha": "c534e63fd5",
           "message": "Add resolveActivityAsUserForExplicitType api to pm",
           "author": "oli",
           "date": "Mon Sep 22 03:36:41 2025 +0300",
           "timestamp": 1758501401,
-          "url": "https://github.com/yaap/frameworks_base/commit/c534e63f"
+          "url": "https://github.com/yaap/frameworks_base/commit/c534e63fd5"
         },
         {
-          "sha": "5bc7bf7f",
+          "sha": "5bc7bf7f7c",
           "message": "cleanup: Fix permission protection of setObservedMotionEventSources",
           "author": "Daniel Norman",
           "date": "Mon Sep 22 03:36:33 2025 +0300",
           "timestamp": 1758501393,
-          "url": "https://github.com/yaap/frameworks_base/commit/5bc7bf7f"
+          "url": "https://github.com/yaap/frameworks_base/commit/5bc7bf7f7c"
         },
         {
-          "sha": "ab120082",
+          "sha": "ab120082d5",
           "message": "Trim oversized strings in setId and setConversationId",
           "author": "Alisa Hung",
           "date": "Mon Sep 22 03:36:24 2025 +0300",
           "timestamp": 1758501384,
-          "url": "https://github.com/yaap/frameworks_base/commit/ab120082"
+          "url": "https://github.com/yaap/frameworks_base/commit/ab120082d5"
         },
         {
-          "sha": "5c1de8be",
+          "sha": "5c1de8be50",
           "message": "Check DPC package validity during package updates",
           "author": "Rubin Xu",
           "date": "Mon Sep 22 03:36:17 2025 +0300",
           "timestamp": 1758501377,
-          "url": "https://github.com/yaap/frameworks_base/commit/5c1de8be"
+          "url": "https://github.com/yaap/frameworks_base/commit/5c1de8be50"
         },
         {
-          "sha": "05b7fa7f",
+          "sha": "05b7fa7fe5",
           "message": "DevicePolicyManager: ignore invalid proxy settings",
           "author": "Rubin Xu",
           "date": "Mon Sep 22 03:36:11 2025 +0300",
           "timestamp": 1758501371,
-          "url": "https://github.com/yaap/frameworks_base/commit/05b7fa7f"
+          "url": "https://github.com/yaap/frameworks_base/commit/05b7fa7fe5"
         },
         {
-          "sha": "23e9ad9e",
+          "sha": "23e9ad9ef7",
           "message": "Ensuring valid packageName when granting slice permission",
           "author": "Sunny Goyal",
           "date": "Mon Sep 22 03:36:03 2025 +0300",
           "timestamp": 1758501363,
-          "url": "https://github.com/yaap/frameworks_base/commit/23e9ad9e"
+          "url": "https://github.com/yaap/frameworks_base/commit/23e9ad9ef7"
         },
         {
-          "sha": "339f546e",
+          "sha": "339f546e3a",
           "message": "[RESTRICT AUTOMERGE] Disallow PINNED in setLaunchWindowingMode",
           "author": "Hongwei Wang",
           "date": "Mon Sep 22 03:35:55 2025 +0300",
           "timestamp": 1758501355,
-          "url": "https://github.com/yaap/frameworks_base/commit/339f546e"
+          "url": "https://github.com/yaap/frameworks_base/commit/339f546e3a"
         },
         {
-          "sha": "8cc75c5c",
+          "sha": "8cc75c5c11",
           "message": "Prevent root from getting unverified attributions from non system apps",
           "author": "Nate Myren",
           "date": "Mon Sep 22 03:35:49 2025 +0300",
           "timestamp": 1758501349,
-          "url": "https://github.com/yaap/frameworks_base/commit/8cc75c5c"
+          "url": "https://github.com/yaap/frameworks_base/commit/8cc75c5c11"
         },
         {
-          "sha": "b12bd23f",
+          "sha": "b12bd23f5c",
           "message": "Check sound Uri permission when creating a notification channel",
           "author": "Iavor-Valentin Iftime",
           "date": "Mon Sep 22 03:35:42 2025 +0300",
           "timestamp": 1758501342,
-          "url": "https://github.com/yaap/frameworks_base/commit/b12bd23f"
+          "url": "https://github.com/yaap/frameworks_base/commit/b12bd23f5c"
         },
         {
-          "sha": "a49ad976",
+          "sha": "a49ad97630",
           "message": "Don't allow SdkSandbox to bypass systemUid check.",
           "author": "Aseem Kumar",
           "date": "Mon Sep 22 03:35:33 2025 +0300",
           "timestamp": 1758501333,
-          "url": "https://github.com/yaap/frameworks_base/commit/a49ad976"
+          "url": "https://github.com/yaap/frameworks_base/commit/a49ad97630"
         },
         {
-          "sha": "a4d02a8f",
+          "sha": "a4d02a8ffa",
           "message": "Calculate how much memory is used per account.",
           "author": "Dmitry Dementyev",
           "date": "Mon Sep 22 03:35:18 2025 +0300",
           "timestamp": 1758501318,
-          "url": "https://github.com/yaap/frameworks_base/commit/a4d02a8f"
+          "url": "https://github.com/yaap/frameworks_base/commit/a4d02a8ffa"
         },
         {
-          "sha": "a885889d",
+          "sha": "a885889d21",
           "message": "Prevent non-system ShutdownActivity from being launched by BatteryService",
           "author": "Dmitri Plotnikov",
           "date": "Mon Sep 22 03:35:11 2025 +0300",
           "timestamp": 1758501311,
-          "url": "https://github.com/yaap/frameworks_base/commit/a885889d"
+          "url": "https://github.com/yaap/frameworks_base/commit/a885889d21"
         },
         {
-          "sha": "a4e16b80",
+          "sha": "a4e16b80d0",
           "message": "Don't allow hiding SysUi",
           "author": "Pavel Grafov",
           "date": "Mon Sep 22 03:35:04 2025 +0300",
           "timestamp": 1758501304,
-          "url": "https://github.com/yaap/frameworks_base/commit/a4e16b80"
+          "url": "https://github.com/yaap/frameworks_base/commit/a4e16b80d0"
         },
         {
-          "sha": "b7fff46a",
+          "sha": "b7fff46af4",
           "message": "Avoid mixups between different CPSes in ZenModeConditions",
           "author": "Matías Hernández",
           "date": "Mon Sep 22 03:34:57 2025 +0300",
           "timestamp": 1758501297,
-          "url": "https://github.com/yaap/frameworks_base/commit/b7fff46a"
+          "url": "https://github.com/yaap/frameworks_base/commit/b7fff46af4"
         },
         {
-          "sha": "7c73086e",
+          "sha": "7c73086e26",
           "message": "Defer remove splash screen while device is locked",
           "author": "wilsonshih",
           "date": "Mon Sep 22 03:34:49 2025 +0300",
           "timestamp": 1758501289,
-          "url": "https://github.com/yaap/frameworks_base/commit/7c73086e"
+          "url": "https://github.com/yaap/frameworks_base/commit/7c73086e26"
         },
         {
-          "sha": "6fee6e5f",
+          "sha": "6fee6e5f03",
           "message": "Move BP window to Keyguard_dialog",
           "author": "Austin Delgado",
           "date": "Mon Sep 22 03:34:42 2025 +0300",
           "timestamp": 1758501282,
-          "url": "https://github.com/yaap/frameworks_base/commit/6fee6e5f"
+          "url": "https://github.com/yaap/frameworks_base/commit/6fee6e5f03"
         },
         {
-          "sha": "68b38022",
+          "sha": "68b3802246",
           "message": "[CDM] Revoke NLS when all associations are removed.",
           "author": "Guojing Yuan",
           "date": "Mon Sep 22 03:34:02 2025 +0300",
           "timestamp": 1758501242,
-          "url": "https://github.com/yaap/frameworks_base/commit/68b38022"
+          "url": "https://github.com/yaap/frameworks_base/commit/68b3802246"
         },
         {
-          "sha": "89f49bcf",
+          "sha": "89f49bcf51",
           "message": "Limits the display name to 1024 characters",
           "author": "Evan Chen",
           "date": "Mon Sep 22 03:33:55 2025 +0300",
           "timestamp": 1758501235,
-          "url": "https://github.com/yaap/frameworks_base/commit/89f49bcf"
+          "url": "https://github.com/yaap/frameworks_base/commit/89f49bcf51"
         },
         {
-          "sha": "12da168e",
+          "sha": "12da168ebf",
           "message": "Do not allow custom animation of untrusted Toast",
           "author": "Riddle Hsu",
           "date": "Mon Sep 22 03:33:48 2025 +0300",
           "timestamp": 1758501228,
-          "url": "https://github.com/yaap/frameworks_base/commit/12da168e"
+          "url": "https://github.com/yaap/frameworks_base/commit/12da168ebf"
         },
         {
-          "sha": "752e99e7",
+          "sha": "752e99e7d4",
           "message": "Use consistent animation when forcibly hiding non system overlay",
           "author": "Riddle Hsu",
           "date": "Mon Sep 22 03:33:40 2025 +0300",
           "timestamp": 1758501220,
-          "url": "https://github.com/yaap/frameworks_base/commit/752e99e7"
+          "url": "https://github.com/yaap/frameworks_base/commit/752e99e7d4"
         },
         {
-          "sha": "92faaf2e",
+          "sha": "92faaf2e5f",
           "message": "Ignore pinned Windows",
           "author": "Achim Thesmann",
           "date": "Mon Sep 22 03:33:31 2025 +0300",
           "timestamp": 1758501211,
-          "url": "https://github.com/yaap/frameworks_base/commit/92faaf2e"
+          "url": "https://github.com/yaap/frameworks_base/commit/92faaf2e5f"
         },
         {
-          "sha": "54516be5",
+          "sha": "54516be57c",
           "message": "Unexport ControlsActivity",
           "author": "Behnam Heydarshahi",
           "date": "Mon Sep 22 03:33:22 2025 +0300",
           "timestamp": 1758501202,
-          "url": "https://github.com/yaap/frameworks_base/commit/54516be5"
+          "url": "https://github.com/yaap/frameworks_base/commit/54516be57c"
         },
         {
-          "sha": "8c0c58b0",
+          "sha": "8c0c58b037",
           "message": "NotificationHistory validate position value",
           "author": "Devin Moore",
           "date": "Mon Sep 22 03:33:09 2025 +0300",
           "timestamp": 1758501189,
-          "url": "https://github.com/yaap/frameworks_base/commit/8c0c58b0"
+          "url": "https://github.com/yaap/frameworks_base/commit/8c0c58b037"
         },
         {
-          "sha": "06cb029b",
+          "sha": "06cb029b3a",
           "message": "Don't show dismissible keyguard in app pinning mode",
           "author": "Beverly",
           "date": "Mon Sep 22 03:33:00 2025 +0300",
           "timestamp": 1758501180,
-          "url": "https://github.com/yaap/frameworks_base/commit/06cb029b"
+          "url": "https://github.com/yaap/frameworks_base/commit/06cb029b3a"
         },
         {
-          "sha": "e740d2bd",
+          "sha": "e740d2bd82",
           "message": "Fix starting the activity with incorrect pid/uid",
           "author": "Louis Chang",
           "date": "Mon Sep 22 03:32:45 2025 +0300",
           "timestamp": 1758501165,
-          "url": "https://github.com/yaap/frameworks_base/commit/e740d2bd"
+          "url": "https://github.com/yaap/frameworks_base/commit/e740d2bd82"
         },
         {
-          "sha": "3f0e37a1",
+          "sha": "3f0e37a1ec",
           "message": "base: Allow disabling time to full on keyguard [1/2]",
           "author": "Ido Ben-Hur",
           "date": "Sun Sep 14 11:00:25 2025 +0300",
           "timestamp": 1757836825,
-          "url": "https://github.com/yaap/frameworks_base/commit/3f0e37a1"
-        },
-        {
-          "sha": "6353e5ba",
-          "message": "SystemUI: Fixup long press on mobile data for SubId settings",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Sep 6 22:17:50 2025 +0300",
-          "timestamp": 1757186270,
-          "url": "https://github.com/yaap/frameworks_base/commit/6353e5ba"
-        },
-        {
-          "sha": "cb852152",
-          "message": "SystemUI: Expandable: Fixup long click implementation after A16 merge",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Sep 6 21:43:46 2025 +0300",
-          "timestamp": 1757184226,
-          "url": "https://github.com/yaap/frameworks_base/commit/cb852152"
-        },
-        {
-          "sha": "2c2ce278",
-          "message": "SystemUI: Some visual improvements to keyguard bottom indicator",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Sep 6 18:13:12 2025 +0300",
-          "timestamp": 1757171592,
-          "url": "https://github.com/yaap/frameworks_base/commit/2c2ce278"
+          "url": "https://github.com/yaap/frameworks_base/commit/3f0e37a1ec"
         }
       ]
     },
@@ -356,7 +548,7 @@
       "path": "external/vanadium",
       "repo_url": "https://gitlab.com/GrapheneOS/platform_external_vanadium",
       "remote": "gitlab",
-      "commit_count": 26,
+      "commit_count": 24,
       "commits": [
         {
           "sha": "7d442dc",
@@ -549,22 +741,199 @@
           "date": "Wed Sep 17 15:33:06 2025 -0400",
           "timestamp": 1758137586,
           "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/80f3cb3"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
+      "remote": "yaap",
+      "commit_count": 23,
+      "commits": [
+        {
+          "sha": "ced548de27",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Dec 5 02:12:01 2025 +0200",
+          "timestamp": 1764893521,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/ced548de27"
         },
         {
-          "sha": "da407ca",
-          "message": "version 140.0.7339.123.0",
-          "author": "Daniel Micay",
-          "date": "Tue Sep 9 19:17:47 2025 -0400",
-          "timestamp": 1757459867,
-          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/da407ca"
+          "sha": "2aee937db3",
+          "message": "Set ACTION_ACL_CONNECTED as foreground intent for batteryless devices",
+          "author": "Leon Li",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2aee937db3"
         },
         {
-          "sha": "825542b",
-          "message": "Vanadium Config version 121",
-          "author": "Daniel Micay",
-          "date": "Tue Sep 9 16:54:09 2025 -0400",
-          "timestamp": 1757451249,
-          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/825542b"
+          "sha": "8d78b0dc5d",
+          "message": "Memory Leak Issue in SDP",
+          "author": "Ritvik Mahesh",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8d78b0dc5d"
+        },
+        {
+          "sha": "7009c25b57",
+          "message": "LE_Scan: Scanclient is not getting cleared due to race condition",
+          "author": "janardhana rao bokka",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/7009c25b57"
+        },
+        {
+          "sha": "8bdd617097",
+          "message": "SBC Dual Channel (SBC HD) support - redux",
+          "author": "Luca Stefani",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8bdd617097"
+        },
+        {
+          "sha": "30b6364fb3",
+          "message": "ignore invalid mask",
+          "author": "rmp22",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/30b6364fb3"
+        },
+        {
+          "sha": "68b28b5e82",
+          "message": "Reconnection from remote failing due to authentication failure",
+          "author": "Venkata Jagadeesh Garaga",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/68b28b5e82"
+        },
+        {
+          "sha": "1fc1303f43",
+          "message": "Pairing popup is seen on DUT after powering on paired HOGP remote",
+          "author": "Venkata Jagadeesh Garaga",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/1fc1303f43"
+        },
+        {
+          "sha": "33479a2f71",
+          "message": "Update valid phone number for VoIP call",
+          "author": "sarvsaur",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/33479a2f71"
+        },
+        {
+          "sha": "56a8ecda39",
+          "message": "Initiate codec negotiation when AT+BCC is received",
+          "author": "sarvsaur",
+          "date": "Thu Oct 16 11:53:50 2025 -0400",
+          "timestamp": 1760630030,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/56a8ecda39"
+        },
+        {
+          "sha": "3aa45d8fec",
+          "message": "link commands triggered after classic link disconnection",
+          "author": "wentjin",
+          "date": "Thu Oct 16 11:53:49 2025 -0400",
+          "timestamp": 1760630029,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/3aa45d8fec"
+        },
+        {
+          "sha": "b375e7bd9c",
+          "message": "HF profile reconnecting Headset after HF disconnetion from UI",
+          "author": "janardhana rao bokka",
+          "date": "Thu Oct 16 11:53:49 2025 -0400",
+          "timestamp": 1760630029,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/b375e7bd9c"
+        },
+        {
+          "sha": "05019a6f7f",
+          "message": "Bluetooth: Add missing connect permission",
+          "author": "Alvin Francis",
+          "date": "Thu Oct 16 11:53:49 2025 -0400",
+          "timestamp": 1760630029,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/05019a6f7f"
+        },
+        {
+          "sha": "db4f3af2c0",
+          "message": "gd: hci: Allow disabling erroneous data reporting",
+          "author": "SamarV-121",
+          "date": "Thu Oct 16 11:53:49 2025 -0400",
+          "timestamp": 1760630029,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/db4f3af2c0"
+        },
+        {
+          "sha": "813d78b74f",
+          "message": "Fix BT noise issue during startup",
+          "author": "Weifan",
+          "date": "Thu Oct 16 11:53:42 2025 -0400",
+          "timestamp": 1760630022,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/813d78b74f"
+        },
+        {
+          "sha": "2e4f06ac0b",
+          "message": "Fix the parameter ordering of btm_send_hci_set_scan_params",
+          "author": "Ömer Faruk Yılmaz",
+          "date": "Wed Oct 1 11:23:06 2025 -0400",
+          "timestamp": 1759332186,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2e4f06ac0b"
+        },
+        {
+          "sha": "ff222cec38",
+          "message": "Change Android Headtracker Codec ID to 0x0002",
+          "author": "Himanshu Rawat",
+          "date": "Wed Oct 1 11:23:06 2025 -0400",
+          "timestamp": 1759332186,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/ff222cec38"
+        },
+        {
+          "sha": "8404d51df2",
+          "message": "25Q3: Remove sdp_ccb_clean_up_after_l2cap_disc",
+          "author": "Jack He",
+          "date": "Wed Oct 1 11:23:06 2025 -0400",
+          "timestamp": 1759332186,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8404d51df2"
+        },
+        {
+          "sha": "82937328f1",
+          "message": "SDP: Clean up CCBs when L2CAP disconnects",
+          "author": "Katherine Lai",
+          "date": "Wed Oct 1 11:23:06 2025 -0400",
+          "timestamp": 1759332186,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/82937328f1"
+        },
+        {
+          "sha": "63b040b48d",
+          "message": "Add flag for cleaning up SDP CCBs when L2CAP disconnects",
+          "author": "Katherine Lai",
+          "date": "Wed Oct 1 11:22:58 2025 -0400",
+          "timestamp": 1759332178,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/63b040b48d"
+        },
+        {
+          "sha": "e0d766eee0",
+          "message": "Fix use after free in acl_arbiter",
+          "author": "Brian Delwiche",
+          "date": "Mon Sep 22 03:44:00 2025 +0300",
+          "timestamp": 1758501840,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/e0d766eee0"
+        },
+        {
+          "sha": "4f4031bad9",
+          "message": "Remove flag bonded_device_smp_failure_handling",
+          "author": "Brian Delwiche",
+          "date": "Mon Sep 22 03:43:54 2025 +0300",
+          "timestamp": 1758501834,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/4f4031bad9"
+        },
+        {
+          "sha": "c8dc74647c",
+          "message": "Remove flag btsec_check_valid_discovery_database",
+          "author": "Brian Delwiche",
+          "date": "Mon Sep 22 03:43:42 2025 +0300",
+          "timestamp": 1758501822,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/c8dc74647c"
         }
       ]
     },
@@ -754,187 +1123,187 @@
       ]
     },
     {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
+      "name": "packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "repo_url": "https://github.com/yaap/packages_apps_Settings",
       "remote": "yaap",
       "commit_count": 22,
       "commits": [
         {
-          "sha": "2aee937db",
-          "message": "Set ACTION_ACL_CONNECTED as foreground intent for batteryless devices",
-          "author": "Leon Li",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2aee937db"
+          "sha": "4e7cfd3f2",
+          "message": "FirmwareVersionSettings: Point back to our custom page",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 6 22:36:02 2025 +0800",
+          "timestamp": 1765031762,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/4e7cfd3f2"
         },
         {
-          "sha": "8d78b0dc5",
-          "message": "Memory Leak Issue in SDP",
-          "author": "Ritvik Mahesh",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8d78b0dc5"
+          "sha": "d1c3e645d",
+          "message": "MainlineModuleVersionPreference: Fully hide if intent is null",
+          "author": "LuK1337",
+          "date": "Sat Dec 6 22:36:02 2025 +0800",
+          "timestamp": 1765031762,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/d1c3e645d"
         },
         {
-          "sha": "7009c25b5",
-          "message": "LE_Scan: Scanclient is not getting cleared due to race condition",
-          "author": "janardhana rao bokka",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/7009c25b5"
+          "sha": "6354eb46b",
+          "message": "fixup! Settings: Network setup UI changes for SUW",
+          "author": "ExtremeXT",
+          "date": "Sat Dec 6 22:35:59 2025 +0800",
+          "timestamp": 1765031759,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/6354eb46b"
         },
         {
-          "sha": "8bdd61709",
-          "message": "SBC Dual Channel (SBC HD) support - redux",
-          "author": "Luca Stefani",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8bdd61709"
+          "sha": "68848f039",
+          "message": "Settings: Hide volume dialog position toggle for now",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Dec 5 18:00:58 2025 +0200",
+          "timestamp": 1764950458,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/68848f039"
         },
         {
-          "sha": "30b6364fb",
-          "message": "ignore invalid mask",
-          "author": "rmp22",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/30b6364fb"
+          "sha": "f50e9d8cd",
+          "message": "Settings: Hide statusbar battery style options for now",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Dec 5 18:00:58 2025 +0200",
+          "timestamp": 1764950458,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/f50e9d8cd"
         },
         {
-          "sha": "68b28b5e8",
-          "message": "Reconnection from remote failing due to authentication failure",
-          "author": "Venkata Jagadeesh Garaga",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/68b28b5e8"
+          "sha": "494ecc719",
+          "message": "Settings: Remove clock position settings for now",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Dec 5 01:47:23 2025 +0200",
+          "timestamp": 1764892043,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/494ecc719"
         },
         {
-          "sha": "1fc1303f4",
-          "message": "Pairing popup is seen on DUT after powering on paired HOGP remote",
-          "author": "Venkata Jagadeesh Garaga",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/1fc1303f4"
+          "sha": "a72f4e325",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 17:54:44 2025 +0200",
+          "timestamp": 1764863684,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/a72f4e325"
         },
         {
-          "sha": "33479a2f7",
-          "message": "Update valid phone number for VoIP call",
-          "author": "sarvsaur",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/33479a2f7"
+          "sha": "a6712a23a",
+          "message": "Settings: add Portuguese (Brazil) translations (#47)",
+          "author": "Luiz Renato",
+          "date": "Thu Nov 6 17:54:18 2025 +0200",
+          "timestamp": 1762444458,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/a6712a23a"
         },
         {
-          "sha": "56a8ecda3",
-          "message": "Initiate codec negotiation when AT+BCC is received",
-          "author": "sarvsaur",
-          "date": "Thu Oct 16 11:53:50 2025 -0400",
-          "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/56a8ecda3"
+          "sha": "d826afd9d",
+          "message": "DisplayWakeGesturePageController: Hide or disable show ambient toggles",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Oct 19 18:22:19 2025 +0300",
+          "timestamp": 1760887339,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/d826afd9d"
         },
         {
-          "sha": "3aa45d8fe",
-          "message": "link commands triggered after classic link disconnection",
-          "author": "wentjin",
-          "date": "Thu Oct 16 11:53:49 2025 -0400",
-          "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/3aa45d8fe"
+          "sha": "c845715a5",
+          "message": "Settings: gestures: Refactor wake gestures",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Oct 19 18:18:49 2025 +0300",
+          "timestamp": 1760887129,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/c845715a5"
         },
         {
-          "sha": "b375e7bd9",
-          "message": "HF profile reconnecting Headset after HF disconnetion from UI",
-          "author": "janardhana rao bokka",
-          "date": "Thu Oct 16 11:53:49 2025 -0400",
-          "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/b375e7bd9"
+          "sha": "d706a2b3c",
+          "message": "Settings: Allow turning on mobile data when pressing the tile [2/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Oct 8 00:50:38 2025 +0300",
+          "timestamp": 1759873838,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/d706a2b3c"
         },
         {
-          "sha": "05019a6f7",
-          "message": "Bluetooth: Add missing connect permission",
-          "author": "Alvin Francis",
-          "date": "Thu Oct 16 11:53:49 2025 -0400",
-          "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/05019a6f7"
+          "sha": "afb2d5244",
+          "message": "Hide sensistive content from locked profiles",
+          "author": "Julia Reynolds",
+          "date": "Mon Sep 22 03:43:06 2025 +0300",
+          "timestamp": 1758501786,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/afb2d5244"
         },
         {
-          "sha": "db4f3af2c",
-          "message": "gd: hci: Allow disabling erroneous data reporting",
-          "author": "SamarV-121",
-          "date": "Thu Oct 16 11:53:49 2025 -0400",
-          "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/db4f3af2c"
+          "sha": "f25b5b59a",
+          "message": "Ignore face settings extras when called by an external package.",
+          "author": "Joe Bolinger",
+          "date": "Mon Sep 22 03:42:56 2025 +0300",
+          "timestamp": 1758501776,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/f25b5b59a"
         },
         {
-          "sha": "813d78b74",
-          "message": "Fix BT noise issue during startup",
-          "author": "Weifan",
-          "date": "Thu Oct 16 11:53:42 2025 -0400",
-          "timestamp": 1760630022,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/813d78b74"
+          "sha": "30f2d07f8",
+          "message": "startActivityForResult with earlier new Intent",
+          "author": "Adam Bookatz",
+          "date": "Mon Sep 22 03:42:49 2025 +0300",
+          "timestamp": 1758501769,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/30f2d07f8"
         },
         {
-          "sha": "2e4f06ac0",
-          "message": "Fix the parameter ordering of btm_send_hci_set_scan_params",
-          "author": "Ömer Faruk Yılmaz",
-          "date": "Wed Oct 1 11:23:06 2025 -0400",
-          "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2e4f06ac0"
+          "sha": "129b0a915",
+          "message": "Prevent SettingsSliceProvider from accessing unused packages",
+          "author": "Mill Chen",
+          "date": "Mon Sep 22 03:42:41 2025 +0300",
+          "timestamp": 1758501761,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/129b0a915"
         },
         {
-          "sha": "ff222cec3",
-          "message": "Change Android Headtracker Codec ID to 0x0002",
-          "author": "Himanshu Rawat",
-          "date": "Wed Oct 1 11:23:06 2025 -0400",
-          "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/ff222cec3"
+          "sha": "a7010094a",
+          "message": "Hide notification content in history",
+          "author": "Julia Reynolds",
+          "date": "Mon Sep 22 03:42:36 2025 +0300",
+          "timestamp": 1758501756,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/a7010094a"
         },
         {
-          "sha": "8404d51df",
-          "message": "25Q3: Remove sdp_ccb_clean_up_after_l2cap_disc",
-          "author": "Jack He",
-          "date": "Wed Oct 1 11:23:06 2025 -0400",
-          "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8404d51df"
+          "sha": "b28ce2fa9",
+          "message": "Use correct API to get calling package name in CredentialStorage",
+          "author": "Rubin Xu",
+          "date": "Mon Sep 22 03:42:30 2025 +0300",
+          "timestamp": 1758501750,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/b28ce2fa9"
         },
         {
-          "sha": "82937328f",
-          "message": "SDP: Clean up CCBs when L2CAP disconnects",
-          "author": "Katherine Lai",
-          "date": "Wed Oct 1 11:23:06 2025 -0400",
-          "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/82937328f"
+          "sha": "f1800449f",
+          "message": "Drop PendingIntent extras from external packages during enrollment.",
+          "author": "Joe Bolinger",
+          "date": "Mon Sep 22 03:42:24 2025 +0300",
+          "timestamp": 1758501744,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/f1800449f"
         },
         {
-          "sha": "63b040b48",
-          "message": "Add flag for cleaning up SDP CCBs when L2CAP disconnects",
-          "author": "Katherine Lai",
-          "date": "Wed Oct 1 11:22:58 2025 -0400",
-          "timestamp": 1759332178,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/63b040b48"
+          "sha": "de950a9b9",
+          "message": "Do not enable the Content Protection toggle for non-admin users.",
+          "author": "Adam Bookatz",
+          "date": "Mon Sep 22 03:42:18 2025 +0300",
+          "timestamp": 1758501738,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/de950a9b9"
         },
         {
-          "sha": "e0d766eee",
-          "message": "Fix use after free in acl_arbiter",
-          "author": "Brian Delwiche",
-          "date": "Mon Sep 22 03:44:00 2025 +0300",
-          "timestamp": 1758501840,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/e0d766eee"
+          "sha": "dad3495c3",
+          "message": "Add ComponentName explicitly to make sure arbitary intents aren't launched from Settings.",
+          "author": "Aseem Kumar",
+          "date": "Mon Sep 22 03:42:12 2025 +0300",
+          "timestamp": 1758501732,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/dad3495c3"
         },
         {
-          "sha": "4f4031bad",
-          "message": "Remove flag bonded_device_smp_failure_handling",
-          "author": "Brian Delwiche",
-          "date": "Mon Sep 22 03:43:54 2025 +0300",
-          "timestamp": 1758501834,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/4f4031bad"
+          "sha": "39535995a",
+          "message": "AppRestrictions - use vetted component",
+          "author": "Adam Bookatz",
+          "date": "Mon Sep 22 03:42:05 2025 +0300",
+          "timestamp": 1758501725,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/39535995a"
         },
         {
-          "sha": "c8dc74647",
-          "message": "Remove flag btsec_check_valid_discovery_database",
-          "author": "Brian Delwiche",
-          "date": "Mon Sep 22 03:43:42 2025 +0300",
-          "timestamp": 1758501822,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/c8dc74647"
+          "sha": "99294ad23",
+          "message": "Settings: Allow disabling time to full on keyguard [2/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Sep 14 11:01:20 2025 +0300",
+          "timestamp": 1757836880,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/99294ad23"
         }
       ]
     },
@@ -945,6 +1314,22 @@
       "remote": "yaap",
       "commit_count": 20,
       "commits": [
+        {
+          "sha": "44bf2ae",
+          "message": "interfaces/composer: uprev to graphics.common-V7",
+          "author": "John Galt",
+          "date": "Fri Nov 14 13:33:50 2025 -0500",
+          "timestamp": 1763145230,
+          "url": "https://github.com/yaap/vendor_lindroid/commit/44bf2ae"
+        },
+        {
+          "sha": "e137eeb",
+          "message": "ComposerImpl: seed one refresh on plug",
+          "author": "John Galt",
+          "date": "Mon Oct 27 09:50:58 2025 -0400",
+          "timestamp": 1761573058,
+          "url": "https://github.com/yaap/vendor_lindroid/commit/e137eeb"
+        },
         {
           "sha": "86efefa",
           "message": "ComposerImpl: add missing error handling",
@@ -1088,22 +1473,6 @@
           "date": "Wed Sep 10 12:15:55 2025 -0400",
           "timestamp": 1757520955,
           "url": "https://github.com/yaap/vendor_lindroid/commit/0d785f6"
-        },
-        {
-          "sha": "b6baf53",
-          "message": "perspectived: set task_profiles",
-          "author": "John Galt",
-          "date": "Tue Sep 9 12:38:55 2025 -0400",
-          "timestamp": 1757435935,
-          "url": "https://github.com/yaap/vendor_lindroid/commit/b6baf53"
-        },
-        {
-          "sha": "cada0d4",
-          "message": "lxc/template: add audio workaround",
-          "author": "John Galt",
-          "date": "Mon Sep 8 08:42:18 2025 -0400",
-          "timestamp": 1757335338,
-          "url": "https://github.com/yaap/vendor_lindroid/commit/cada0d4"
         }
       ]
     },
@@ -1112,7 +1481,7 @@
       "path": "external/arm-optimized-routines",
       "repo_url": "https://github.com/yaap/external_arm-optimized-routines",
       "remote": "yaap",
-      "commit_count": 17,
+      "commit_count": 15,
       "commits": [
         {
           "sha": "3f2dace",
@@ -1233,159 +1602,362 @@
           "date": "Tue Sep 16 09:22:57 2025 +0000",
           "timestamp": 1758014577,
           "url": "https://github.com/yaap/external_arm-optimized-routines/commit/d07cb7c"
-        },
-        {
-          "sha": "1aad38d",
-          "message": "math: Remove WANT_SIMD_EXCEPT",
-          "author": "Dylan Fleming",
-          "date": "Mon Sep 8 08:54:09 2025 +0000",
-          "timestamp": 1757321649,
-          "url": "https://github.com/yaap/external_arm-optimized-routines/commit/1aad38d"
-        },
-        {
-          "sha": "ea97940",
-          "message": "fp: add GNU-style comparison functions.",
-          "author": "Simon Tatham",
-          "date": "Fri Sep 5 11:50:53 2025 +0100",
-          "timestamp": 1757069453,
-          "url": "https://github.com/yaap/external_arm-optimized-routines/commit/ea97940"
         }
       ]
     },
     {
-      "name": "packages_apps_Settings",
-      "path": "packages/apps/Settings",
-      "repo_url": "https://github.com/yaap/packages_apps_Settings",
+      "name": "bionic",
+      "path": "bionic",
+      "repo_url": "https://github.com/yaap/bionic",
       "remote": "yaap",
-      "commit_count": 16,
+      "commit_count": 10,
       "commits": [
         {
-          "sha": "a6712a23a",
-          "message": "Settings: add Portuguese (Brazil) translations (#47)",
-          "author": "Luiz Renato",
-          "date": "Thu Nov 6 17:54:18 2025 +0200",
-          "timestamp": 1762444458,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/a6712a23a"
-        },
-        {
-          "sha": "d826afd9d",
-          "message": "DisplayWakeGesturePageController: Hide or disable show ambient toggles",
+          "sha": "36cef80b",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
           "author": "Ido Ben-Hur",
-          "date": "Sun Oct 19 18:22:19 2025 +0300",
-          "timestamp": 1760887339,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/d826afd9d"
+          "date": "Fri Nov 14 19:37:24 2025 +0200",
+          "timestamp": 1763141844,
+          "url": "https://github.com/yaap/bionic/commit/36cef80b"
         },
         {
-          "sha": "c845715a5",
-          "message": "Settings: gestures: Refactor wake gestures",
+          "sha": "ccd50684",
+          "message": "Revert \"bionic: use jemalloc by default and allow opt-in to scudo (3/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:13:25 2025 -0500",
+          "timestamp": 1763129605,
+          "url": "https://github.com/yaap/bionic/commit/ccd50684"
+        },
+        {
+          "sha": "3f686e89",
+          "message": "Revert \"libc: allow selectively enabling jemalloc's zero-filling\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:13:24 2025 -0500",
+          "timestamp": 1763129604,
+          "url": "https://github.com/yaap/bionic/commit/3f686e89"
+        },
+        {
+          "sha": "27462ca0",
+          "message": "Reapply \"Add better jemalloc stat logging.\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:13:23 2025 -0500",
+          "timestamp": 1763129603,
+          "url": "https://github.com/yaap/bionic/commit/27462ca0"
+        },
+        {
+          "sha": "12cca69a",
+          "message": "bionic: Fix align usage for fast lookup hosts file data",
+          "author": "Pranav Vashi",
+          "date": "Wed Oct 22 16:47:23 2025 -0400",
+          "timestamp": 1761166043,
+          "url": "https://github.com/yaap/bionic/commit/12cca69a"
+        },
+        {
+          "sha": "ec6b59e0",
+          "message": "Ensure prop has zero padding",
+          "author": "canyie",
+          "date": "Wed Oct 22 16:47:23 2025 -0400",
+          "timestamp": 1761166043,
+          "url": "https://github.com/yaap/bionic/commit/ec6b59e0"
+        },
+        {
+          "sha": "61d0d49d",
+          "message": "Prevent serial of ro props from self increment",
+          "author": "LoveSy",
+          "date": "Wed Oct 22 16:47:06 2025 -0400",
+          "timestamp": 1761166026,
+          "url": "https://github.com/yaap/bionic/commit/61d0d49d"
+        },
+        {
+          "sha": "4539a1d7",
+          "message": "getaddrinfo: Use Cloudflare DNS instead of Google DNS",
+          "author": "Chirayu Desai",
+          "date": "Wed Oct 22 16:46:52 2025 -0400",
+          "timestamp": 1761166012,
+          "url": "https://github.com/yaap/bionic/commit/4539a1d7"
+        },
+        {
+          "sha": "7bf6db6a",
+          "message": "bionic: Support wildcards in cached hosts file",
+          "author": "Tom Marshall",
+          "date": "Wed Oct 22 16:46:13 2025 -0400",
+          "timestamp": 1761165973,
+          "url": "https://github.com/yaap/bionic/commit/7bf6db6a"
+        },
+        {
+          "sha": "27452c01",
+          "message": "bionic: Sort and cache hosts file data for fast lookup",
+          "author": "Tom Marshall",
+          "date": "Wed Oct 22 16:45:56 2025 -0400",
+          "timestamp": 1761165956,
+          "url": "https://github.com/yaap/bionic/commit/27452c01"
+        }
+      ]
+    },
+    {
+      "name": "manifest",
+      "path": "manifest",
+      "repo_url": "https://github.com/yaap/manifest",
+      "remote": "yaap",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "b0e6ef3",
+          "message": "manifest: Track a few repos back from AOSP",
           "author": "Ido Ben-Hur",
-          "date": "Sun Oct 19 18:18:49 2025 +0300",
-          "timestamp": 1760887129,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/c845715a5"
+          "date": "Fri Nov 28 21:30:53 2025 +0200",
+          "timestamp": 1764358253,
+          "url": "https://github.com/yaap/manifest/commit/b0e6ef3"
         },
         {
-          "sha": "d706a2b3c",
-          "message": "Settings: Allow turning on mobile data when pressing the tile [2/2]",
+          "sha": "1aa46a8",
+          "message": "manifest: Stop tracking bazel",
           "author": "Ido Ben-Hur",
-          "date": "Wed Oct 8 00:50:38 2025 +0300",
-          "timestamp": 1759873838,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/d706a2b3c"
+          "date": "Sat Nov 15 12:23:56 2025 +0200",
+          "timestamp": 1763202236,
+          "url": "https://github.com/yaap/manifest/commit/1aa46a8"
         },
         {
-          "sha": "afb2d5244",
-          "message": "Hide sensistive content from locked profiles",
-          "author": "Julia Reynolds",
-          "date": "Mon Sep 22 03:43:06 2025 +0300",
-          "timestamp": 1758501786,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/afb2d5244"
-        },
-        {
-          "sha": "f25b5b59a",
-          "message": "Ignore face settings extras when called by an external package.",
-          "author": "Joe Bolinger",
-          "date": "Mon Sep 22 03:42:56 2025 +0300",
-          "timestamp": 1758501776,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/f25b5b59a"
-        },
-        {
-          "sha": "30f2d07f8",
-          "message": "startActivityForResult with earlier new Intent",
-          "author": "Adam Bookatz",
-          "date": "Mon Sep 22 03:42:49 2025 +0300",
-          "timestamp": 1758501769,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/30f2d07f8"
-        },
-        {
-          "sha": "129b0a915",
-          "message": "Prevent SettingsSliceProvider from accessing unused packages",
-          "author": "Mill Chen",
-          "date": "Mon Sep 22 03:42:41 2025 +0300",
-          "timestamp": 1758501761,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/129b0a915"
-        },
-        {
-          "sha": "a7010094a",
-          "message": "Hide notification content in history",
-          "author": "Julia Reynolds",
-          "date": "Mon Sep 22 03:42:36 2025 +0300",
-          "timestamp": 1758501756,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/a7010094a"
-        },
-        {
-          "sha": "b28ce2fa9",
-          "message": "Use correct API to get calling package name in CredentialStorage",
-          "author": "Rubin Xu",
-          "date": "Mon Sep 22 03:42:30 2025 +0300",
-          "timestamp": 1758501750,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/b28ce2fa9"
-        },
-        {
-          "sha": "f1800449f",
-          "message": "Drop PendingIntent extras from external packages during enrollment.",
-          "author": "Joe Bolinger",
-          "date": "Mon Sep 22 03:42:24 2025 +0300",
-          "timestamp": 1758501744,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/f1800449f"
-        },
-        {
-          "sha": "de950a9b9",
-          "message": "Do not enable the Content Protection toggle for non-admin users.",
-          "author": "Adam Bookatz",
-          "date": "Mon Sep 22 03:42:18 2025 +0300",
-          "timestamp": 1758501738,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/de950a9b9"
-        },
-        {
-          "sha": "dad3495c3",
-          "message": "Add ComponentName explicitly to make sure arbitary intents aren't launched from Settings.",
-          "author": "Aseem Kumar",
-          "date": "Mon Sep 22 03:42:12 2025 +0300",
-          "timestamp": 1758501732,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/dad3495c3"
-        },
-        {
-          "sha": "39535995a",
-          "message": "AppRestrictions - use vetted component",
-          "author": "Adam Bookatz",
-          "date": "Mon Sep 22 03:42:05 2025 +0300",
-          "timestamp": 1758501725,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/39535995a"
-        },
-        {
-          "sha": "99294ad23",
-          "message": "Settings: Allow disabling time to full on keyguard [2/2]",
+          "sha": "c90800d",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
           "author": "Ido Ben-Hur",
-          "date": "Sun Sep 14 11:01:20 2025 +0300",
-          "timestamp": 1757836880,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/99294ad23"
+          "date": "Sat Nov 15 12:19:20 2025 +0200",
+          "timestamp": 1763201960,
+          "url": "https://github.com/yaap/manifest/commit/c90800d"
         },
         {
-          "sha": "0fce1e7ff",
-          "message": "Settings: BatterySaverAdvancedSettings: Conditionally hide AOD toggle",
+          "sha": "1c05e13",
+          "message": "track aosp zlib",
+          "author": "John Galt",
+          "date": "Fri Nov 14 14:18:00 2025 -0500",
+          "timestamp": 1763147880,
+          "url": "https://github.com/yaap/manifest/commit/1c05e13"
+        },
+        {
+          "sha": "ef8d662",
+          "message": "yaap: track AOSP jemalloc_new",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:23:00 2025 -0500",
+          "timestamp": 1763130180,
+          "url": "https://github.com/yaap/manifest/commit/ef8d662"
+        },
+        {
+          "sha": "551f738",
+          "message": "Manifest for Android 16.0.0 Release 3 (BP3A.250905.014)",
+          "author": "The Android Open Source Project",
+          "date": "Tue Nov 11 15:40:14 2025 -0800",
+          "timestamp": 1762904414,
+          "url": "https://github.com/yaap/manifest/commit/551f738"
+        },
+        {
+          "sha": "7d7f4ba",
+          "message": "Manifest for android16-qpr1-release",
+          "author": "The Android Open Source Project",
+          "date": "Tue Nov 11 22:29:06 2025 +0000",
+          "timestamp": 1762900146,
+          "url": "https://github.com/yaap/manifest/commit/7d7f4ba"
+        },
+        {
+          "sha": "8368f80",
+          "message": "manifest: Stop tracking lz4",
           "author": "Ido Ben-Hur",
-          "date": "Sat Sep 6 18:10:52 2025 +0300",
-          "timestamp": 1757171452,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/0fce1e7ff"
+          "date": "Thu Oct 23 16:00:10 2025 +0300",
+          "timestamp": 1761224410,
+          "url": "https://github.com/yaap/manifest/commit/8368f80"
+        },
+        {
+          "sha": "9291511",
+          "message": "lineage: track forks for recommended patches",
+          "author": "John Galt",
+          "date": "Fri Oct 3 07:37:40 2025 -0400",
+          "timestamp": 1759491460,
+          "url": "https://github.com/yaap/manifest/commit/9291511"
+        },
+        {
+          "sha": "a1aa671",
+          "message": "manifest: Track packages/modules/IntentResolver from LOS",
+          "author": "Ido Ben-Hur",
+          "date": "Mon Sep 22 03:57:32 2025 +0300",
+          "timestamp": 1758502652,
+          "url": "https://github.com/yaap/manifest/commit/a1aa671"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "remote": "yaap",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "95cbeab7e",
+          "message": "[HACK:] BackgroundAppState: do not depend on hiding homescreen for blur",
+          "author": "John Galt",
+          "date": "Mon Dec 8 17:30:57 2025 -0500",
+          "timestamp": 1765233057,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/95cbeab7e"
+        },
+        {
+          "sha": "8e897bbfb",
+          "message": "Revert \"Launcher3: disable live tile\"",
+          "author": "John Galt",
+          "date": "Mon Dec 8 17:06:26 2025 -0500",
+          "timestamp": 1765231586,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8e897bbfb"
+        },
+        {
+          "sha": "421a40b02",
+          "message": "Launcher3: Adapt Lens & Clear all actions for 16 QPR1",
+          "author": "Cyber Knight",
+          "date": "Mon Dec 8 17:06:20 2025 -0500",
+          "timestamp": 1765231580,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/421a40b02"
+        },
+        {
+          "sha": "5e934ef33",
+          "message": "Launcher3: Fix Overview Actions buttons spacing (#21)",
+          "author": "Adarsh Singh",
+          "date": "Sun Dec 7 01:31:46 2025 +0800",
+          "timestamp": 1765042306,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/5e934ef33"
+        },
+        {
+          "sha": "eb16c59dd",
+          "message": "StashedHandleView: add gestural burn in protection",
+          "author": "John Galt",
+          "date": "Sat Dec 6 10:23:19 2025 -0500",
+          "timestamp": 1765034599,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/eb16c59dd"
+        },
+        {
+          "sha": "03834825a",
+          "message": "Revert \"All Apps: make header protection transparent\"",
+          "author": "John Galt",
+          "date": "Sat Dec 6 09:54:29 2025 -0500",
+          "timestamp": 1765032869,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/03834825a"
+        },
+        {
+          "sha": "b8bc54fe8",
+          "message": "Fixup: ccb3a5c25c1f6",
+          "author": "John Galt",
+          "date": "Fri Dec 5 12:08:53 2025 -0500",
+          "timestamp": 1764954533,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/b8bc54fe8"
+        },
+        {
+          "sha": "f17a121b5",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 18:03:34 2025 +0200",
+          "timestamp": 1764864214,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/f17a121b5"
+        },
+        {
+          "sha": "8f38bdcf3",
+          "message": "Launcher3: Allow to always show page indicator dots",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Oct 9 13:20:19 2025 +0300",
+          "timestamp": 1760005219,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8f38bdcf3"
+        },
+        {
+          "sha": "dea667483",
+          "message": "Launcher3: Add 4x6 and 4x7 grid sizes",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Oct 9 13:20:19 2025 +0300",
+          "timestamp": 1760005219,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea667483"
+        }
+      ]
+    },
+    {
+      "name": "vendor_yaap",
+      "path": "vendor/yaap",
+      "repo_url": "https://github.com/yaap/vendor_yaap",
+      "remote": "yaap",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "33a2467",
+          "message": "common: cleanup blur flag",
+          "author": "John Galt",
+          "date": "Sat Dec 6 10:08:03 2025 -0500",
+          "timestamp": 1765033683,
+          "url": "https://github.com/yaap/vendor_yaap/commit/33a2467"
+        },
+        {
+          "sha": "c1babcd",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Fri Dec 5 14:36:26 2025 +0800",
+          "timestamp": 1764916586,
+          "url": "https://github.com/yaap/vendor_yaap/commit/c1babcd"
+        },
+        {
+          "sha": "2d898e6",
+          "message": "soong/generator: update for BP3A",
+          "author": "John Galt",
+          "date": "Fri Nov 14 17:56:20 2025 +0200",
+          "timestamp": 1763135780,
+          "url": "https://github.com/yaap/vendor_yaap/commit/2d898e6"
+        },
+        {
+          "sha": "e9b497b",
+          "message": "release: Update for BP3A",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:38:07 2025 +0200",
+          "timestamp": 1763066287,
+          "url": "https://github.com/yaap/vendor_yaap/commit/e9b497b"
+        },
+        {
+          "sha": "a7a0713",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Wed Oct 29 00:00:20 2025 +0800",
+          "timestamp": 1761667220,
+          "url": "https://github.com/yaap/vendor_yaap/commit/a7a0713"
+        },
+        {
+          "sha": "1d16ff0",
+          "message": "Revert \"[HACK]: release: disable new_hdr_brightness_modifier\"",
+          "author": "John Galt",
+          "date": "Thu Oct 16 18:17:18 2025 -0400",
+          "timestamp": 1760653038,
+          "url": "https://github.com/yaap/vendor_yaap/commit/1d16ff0"
+        },
+        {
+          "sha": "4144baa",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Fri Oct 3 23:35:58 2025 +0800",
+          "timestamp": 1759505758,
+          "url": "https://github.com/yaap/vendor_yaap/commit/4144baa"
+        },
+        {
+          "sha": "fc82d57",
+          "message": "overlay: Drop config_defaultQrCodeComponent",
+          "author": "Cyber Knight",
+          "date": "Tue Sep 23 20:04:00 2025 +0800",
+          "timestamp": 1758629040,
+          "url": "https://github.com/yaap/vendor_yaap/commit/fc82d57"
+        },
+        {
+          "sha": "5e9034c",
+          "message": "Bump Security String to 2025-09-01",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 22 03:53:12 2025 +0300",
+          "timestamp": 1758502392,
+          "url": "https://github.com/yaap/vendor_yaap/commit/5e9034c"
+        },
+        {
+          "sha": "6ab6994",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Sun Sep 14 23:00:23 2025 +0800",
+          "timestamp": 1757862023,
+          "url": "https://github.com/yaap/vendor_yaap/commit/6ab6994"
         }
       ]
     },
@@ -1471,93 +2043,20 @@
       ]
     },
     {
-      "name": "bionic",
-      "path": "bionic",
-      "repo_url": "https://github.com/yaap/bionic",
-      "remote": "yaap",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "ccd50684",
-          "message": "Revert \"bionic: use jemalloc by default and allow opt-in to scudo (3/4)\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:13:25 2025 -0500",
-          "timestamp": 1763129605,
-          "url": "https://github.com/yaap/bionic/commit/ccd50684"
-        },
-        {
-          "sha": "3f686e89",
-          "message": "Revert \"libc: allow selectively enabling jemalloc's zero-filling\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:13:24 2025 -0500",
-          "timestamp": 1763129604,
-          "url": "https://github.com/yaap/bionic/commit/3f686e89"
-        },
-        {
-          "sha": "27462ca0",
-          "message": "Reapply \"Add better jemalloc stat logging.\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:13:23 2025 -0500",
-          "timestamp": 1763129603,
-          "url": "https://github.com/yaap/bionic/commit/27462ca0"
-        },
-        {
-          "sha": "12cca69a",
-          "message": "bionic: Fix align usage for fast lookup hosts file data",
-          "author": "Pranav Vashi",
-          "date": "Wed Oct 22 16:47:23 2025 -0400",
-          "timestamp": 1761166043,
-          "url": "https://github.com/yaap/bionic/commit/12cca69a"
-        },
-        {
-          "sha": "ec6b59e0",
-          "message": "Ensure prop has zero padding",
-          "author": "canyie",
-          "date": "Wed Oct 22 16:47:23 2025 -0400",
-          "timestamp": 1761166043,
-          "url": "https://github.com/yaap/bionic/commit/ec6b59e0"
-        },
-        {
-          "sha": "61d0d49d",
-          "message": "Prevent serial of ro props from self increment",
-          "author": "LoveSy",
-          "date": "Wed Oct 22 16:47:06 2025 -0400",
-          "timestamp": 1761166026,
-          "url": "https://github.com/yaap/bionic/commit/61d0d49d"
-        },
-        {
-          "sha": "4539a1d7",
-          "message": "getaddrinfo: Use Cloudflare DNS instead of Google DNS",
-          "author": "Chirayu Desai",
-          "date": "Wed Oct 22 16:46:52 2025 -0400",
-          "timestamp": 1761166012,
-          "url": "https://github.com/yaap/bionic/commit/4539a1d7"
-        },
-        {
-          "sha": "7bf6db6a",
-          "message": "bionic: Support wildcards in cached hosts file",
-          "author": "Tom Marshall",
-          "date": "Wed Oct 22 16:46:13 2025 -0400",
-          "timestamp": 1761165973,
-          "url": "https://github.com/yaap/bionic/commit/7bf6db6a"
-        },
-        {
-          "sha": "27452c01",
-          "message": "bionic: Sort and cache hosts file data for fast lookup",
-          "author": "Tom Marshall",
-          "date": "Wed Oct 22 16:45:56 2025 -0400",
-          "timestamp": 1761165956,
-          "url": "https://github.com/yaap/bionic/commit/27452c01"
-        }
-      ]
-    },
-    {
       "name": "frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/yaap/frameworks_native",
       "remote": "yaap",
-      "commit_count": 7,
+      "commit_count": 8,
       "commits": [
+        {
+          "sha": "870326e4a",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:27:21 2025 +0200",
+          "timestamp": 1763040441,
+          "url": "https://github.com/yaap/frameworks_native/commit/870326e4a"
+        },
         {
           "sha": "187a9ffa4",
           "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
@@ -1613,71 +2112,6 @@
           "date": "Mon Sep 22 03:38:34 2025 +0300",
           "timestamp": 1758501514,
           "url": "https://github.com/yaap/frameworks_native/commit/c40e21ae7"
-        }
-      ]
-    },
-    {
-      "name": "vendor_yaap",
-      "path": "vendor/yaap",
-      "repo_url": "https://github.com/yaap/vendor_yaap",
-      "remote": "yaap",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "a7a0713",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Wed Oct 29 00:00:20 2025 +0800",
-          "timestamp": 1761667220,
-          "url": "https://github.com/yaap/vendor_yaap/commit/a7a0713"
-        },
-        {
-          "sha": "1d16ff0",
-          "message": "Revert \"[HACK]: release: disable new_hdr_brightness_modifier\"",
-          "author": "John Galt",
-          "date": "Thu Oct 16 18:17:18 2025 -0400",
-          "timestamp": 1760653038,
-          "url": "https://github.com/yaap/vendor_yaap/commit/1d16ff0"
-        },
-        {
-          "sha": "4144baa",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Fri Oct 3 23:35:58 2025 +0800",
-          "timestamp": 1759505758,
-          "url": "https://github.com/yaap/vendor_yaap/commit/4144baa"
-        },
-        {
-          "sha": "fc82d57",
-          "message": "overlay: Drop config_defaultQrCodeComponent",
-          "author": "Cyber Knight",
-          "date": "Tue Sep 23 20:04:00 2025 +0800",
-          "timestamp": 1758629040,
-          "url": "https://github.com/yaap/vendor_yaap/commit/fc82d57"
-        },
-        {
-          "sha": "5e9034c",
-          "message": "Bump Security String to 2025-09-01",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 22 03:53:12 2025 +0300",
-          "timestamp": 1758502392,
-          "url": "https://github.com/yaap/vendor_yaap/commit/5e9034c"
-        },
-        {
-          "sha": "6ab6994",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Sun Sep 14 23:00:23 2025 +0800",
-          "timestamp": 1757862023,
-          "url": "https://github.com/yaap/vendor_yaap/commit/6ab6994"
-        },
-        {
-          "sha": "cc620f6",
-          "message": "config/common: add TARGET_BUILD_LINDROID var",
-          "author": "John Galt",
-          "date": "Fri Sep 5 14:52:12 2025 -0400",
-          "timestamp": 1757098332,
-          "url": "https://github.com/yaap/vendor_yaap/commit/cc620f6"
         }
       ]
     },
@@ -1739,6 +2173,63 @@
       ]
     },
     {
+      "name": "packages_modules_Connectivity",
+      "path": "packages/modules/Connectivity",
+      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
+      "remote": "yaap",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "b19b748",
+          "message": "[DNM] BpfNetMaps: hax for legacy",
+          "author": "Yumi Yukimura",
+          "date": "Thu Dec 4 19:31:22 2025 +0200",
+          "timestamp": 1764869482,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/b19b748"
+        },
+        {
+          "sha": "1816029",
+          "message": "netbpfload: Relax kernel version requirement",
+          "author": "Nanhumly",
+          "date": "Thu Nov 13 21:45:22 2025 +0200",
+          "timestamp": 1763063122,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/1816029"
+        },
+        {
+          "sha": "87ff4a4",
+          "message": "netd: Remove <4.14 kernel restrictions",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 21:45:22 2025 +0200",
+          "timestamp": 1763063122,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/87ff4a4"
+        },
+        {
+          "sha": "ea790ba",
+          "message": "netbpfload: Support <4.14 kernels",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 21:45:22 2025 +0200",
+          "timestamp": 1763063122,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ea790ba"
+        },
+        {
+          "sha": "447b4de",
+          "message": "Connectivity: Add capability to allow tethering to use VPN upstreams",
+          "author": "Oliver Scott",
+          "date": "Thu Nov 13 21:45:22 2025 +0200",
+          "timestamp": 1763063122,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/447b4de"
+        },
+        {
+          "sha": "c65b516",
+          "message": "stripped import @ b8f6d5a45e3b8ef98ddcfc50e38c6664cdc35e06",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 21:45:06 2025 +0200",
+          "timestamp": 1763063106,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/c65b516"
+        }
+      ]
+    },
+    {
       "name": "android_packages_apps_Camelot",
       "path": "packages/apps/Camelot",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
@@ -1788,61 +2279,20 @@
       ]
     },
     {
-      "name": "manifest",
-      "path": "manifest",
-      "repo_url": "https://github.com/yaap/manifest",
-      "remote": "yaap",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "1c05e13",
-          "message": "track aosp zlib",
-          "author": "John Galt",
-          "date": "Fri Nov 14 14:18:00 2025 -0500",
-          "timestamp": 1763147880,
-          "url": "https://github.com/yaap/manifest/commit/1c05e13"
-        },
-        {
-          "sha": "ef8d662",
-          "message": "yaap: track AOSP jemalloc_new",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:23:00 2025 -0500",
-          "timestamp": 1763130180,
-          "url": "https://github.com/yaap/manifest/commit/ef8d662"
-        },
-        {
-          "sha": "8368f80",
-          "message": "manifest: Stop tracking lz4",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 23 16:00:10 2025 +0300",
-          "timestamp": 1761224410,
-          "url": "https://github.com/yaap/manifest/commit/8368f80"
-        },
-        {
-          "sha": "9291511",
-          "message": "lineage: track forks for recommended patches",
-          "author": "John Galt",
-          "date": "Fri Oct 3 07:37:40 2025 -0400",
-          "timestamp": 1759491460,
-          "url": "https://github.com/yaap/manifest/commit/9291511"
-        },
-        {
-          "sha": "a1aa671",
-          "message": "manifest: Track packages/modules/IntentResolver from LOS",
-          "author": "Ido Ben-Hur",
-          "date": "Mon Sep 22 03:57:32 2025 +0300",
-          "timestamp": 1758502652,
-          "url": "https://github.com/yaap/manifest/commit/a1aa671"
-        }
-      ]
-    },
-    {
       "name": "build_make",
       "path": "build/make",
       "repo_url": "https://github.com/yaap/build_make",
       "remote": "yaap",
-      "commit_count": 4,
+      "commit_count": 5,
       "commits": [
+        {
+          "sha": "158567bc",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Nov 14 19:30:08 2025 +0200",
+          "timestamp": 1763141408,
+          "url": "https://github.com/yaap/build_make/commit/158567bc"
+        },
         {
           "sha": "69f81c56",
           "message": "Revert \"build: make: use jemalloc by default and allow opt-in to scudo (1/4)\"",
@@ -1882,8 +2332,16 @@
       "path": "packages/modules/Wifi",
       "repo_url": "https://github.com/yaap/packages_modules_Wifi",
       "remote": "yaap",
-      "commit_count": 4,
+      "commit_count": 5,
       "commits": [
+        {
+          "sha": "e0060b12d",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Dec 3 15:24:25 2025 +0200",
+          "timestamp": 1764768265,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/e0060b12d"
+        },
         {
           "sha": "7aa23c2a6",
           "message": "Log caller UID for wifi toggle metrics",
@@ -1919,12 +2377,61 @@
       ]
     },
     {
+      "name": "device_qcom_sepolicy_vndr_sm8650",
+      "path": "device/qcom/sepolicy_vndr/sm8650",
+      "repo_url": "https://github.com/yaap/device_qcom_sepolicy_vndr_sm8650",
+      "remote": "yaap",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "67c4176",
+          "message": "sepolicy_vndr: Drop binder call to connectivity_native_service",
+          "author": "anky894",
+          "date": "Thu Dec 4 19:29:09 2025 +0200",
+          "timestamp": 1764869349,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_sm8650/commit/67c4176"
+        },
+        {
+          "sha": "06b671e",
+          "message": "Revert \"sepolicy_vndr: Allow init/vendor_init to write proc firmware config\"",
+          "author": "Bruno Martins",
+          "date": "Thu Dec 4 18:43:45 2025 +0200",
+          "timestamp": 1764866625,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_sm8650/commit/06b671e"
+        },
+        {
+          "sha": "fd9c2f5",
+          "message": "Revert \"sepolicy_vndr: Label proc firmware config node\"",
+          "author": "Bruno Martins",
+          "date": "Thu Dec 4 18:43:38 2025 +0200",
+          "timestamp": 1764866618,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_sm8650/commit/fd9c2f5"
+        },
+        {
+          "sha": "ee3e2d6",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Thu Dec 4 18:43:26 2025 +0200",
+          "timestamp": 1764866606,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_sm8650/commit/ee3e2d6"
+        }
+      ]
+    },
+    {
       "name": "build_soong",
       "path": "build/soong",
       "repo_url": "https://github.com/yaap/build_soong",
       "remote": "yaap",
-      "commit_count": 3,
+      "commit_count": 4,
       "commits": [
+        {
+          "sha": "8707770f",
+          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/build/soong into sixteen-merge",
+          "author": "John Galt",
+          "date": "Fri Nov 14 12:06:51 2025 -0500",
+          "timestamp": 1763140011,
+          "url": "https://github.com/yaap/build_soong/commit/8707770f"
+        },
         {
           "sha": "905c05ef",
           "message": "Revert \"build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
@@ -1956,8 +2463,16 @@
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/yaap/frameworks_opt_telephony",
       "remote": "yaap",
-      "commit_count": 3,
+      "commit_count": 4,
       "commits": [
+        {
+          "sha": "9cfc1acb5",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:32:46 2025 +0200",
+          "timestamp": 1763040766,
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/9cfc1acb5"
+        },
         {
           "sha": "1d74b5edd",
           "message": "satellite data service policy fixes",
@@ -1985,68 +2500,43 @@
       ]
     },
     {
-      "name": "packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "name": "hardware_qcom-caf_wlan",
+      "path": "hardware/qcom-caf/wlan",
+      "repo_url": "https://github.com/yaap/hardware_qcom-caf_wlan",
       "remote": "yaap",
-      "commit_count": 3,
+      "commit_count": 4,
       "commits": [
         {
-          "sha": "18b0f6081",
-          "message": "StashedHandleView: add gestural burn in protection",
-          "author": "John Galt",
-          "date": "Tue Nov 25 13:24:26 2025 -0500",
-          "timestamp": 1764095066,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/18b0f6081"
+          "sha": "7f93221",
+          "message": "qcwcn: Build wpa_supplicant.conf from make to soong",
+          "author": "Bill Yang",
+          "date": "Sat Nov 29 18:10:48 2025 +0200",
+          "timestamp": 1764432648,
+          "url": "https://github.com/yaap/hardware_qcom-caf_wlan/commit/7f93221"
         },
         {
-          "sha": "8f38bdcf3",
-          "message": "Launcher3: Allow to always show page indicator dots",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 9 13:20:19 2025 +0300",
-          "timestamp": 1760005219,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8f38bdcf3"
+          "sha": "7aa5591",
+          "message": "Merge tag 'WLAN.LA.1.0.r1-08900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into staging/lineage-23.0_merge-WLAN.LA.1.0.r1-08900-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:39:10 2025 +0200",
+          "timestamp": 1762609150,
+          "url": "https://github.com/yaap/hardware_qcom-caf_wlan/commit/7aa5591"
         },
         {
-          "sha": "dea667483",
-          "message": "Launcher3: Add 4x6 and 4x7 grid sizes",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 9 13:20:19 2025 +0300",
-          "timestamp": 1760005219,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea667483"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Connectivity",
-      "path": "packages/modules/Connectivity",
-      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "ba87078",
-          "message": "Remove pending BT request when service disconnects",
-          "author": "Quang Anh Luong",
-          "date": "Wed Oct 1 11:25:20 2025 -0400",
-          "timestamp": 1759332320,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ba87078"
+          "sha": "82a363c",
+          "message": "Revert \"wifi_hal: Fix KW issue\"",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:38:57 2025 +0200",
+          "timestamp": 1762609137,
+          "url": "https://github.com/yaap/hardware_qcom-caf_wlan/commit/82a363c"
         },
         {
-          "sha": "8fbb1f8",
-          "message": "clatd: disable seccomp",
-          "author": "Maciej Żenczykowski",
-          "date": "Wed Oct 1 11:25:20 2025 -0400",
-          "timestamp": 1759332320,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/8fbb1f8"
-        },
-        {
-          "sha": "0377f8d",
-          "message": "Fix NetworkAgent 4-way binder interlock",
-          "author": "Chalard Jean",
-          "date": "Wed Oct 1 11:25:11 2025 -0400",
-          "timestamp": 1759332311,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/0377f8d"
+          "sha": "7a6738b",
+          "message": "Merge cadf5ceb8a694276529fb387727c8fc04a23c820 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Sep 16 02:15:15 2025 -0700",
+          "timestamp": 1758014115,
+          "url": "https://github.com/yaap/hardware_qcom-caf_wlan/commit/7a6738b"
         }
       ]
     },
@@ -2055,8 +2545,16 @@
       "path": "packages/providers/MediaProvider",
       "repo_url": "https://github.com/yaap/packages_providers_MediaProvider",
       "remote": "yaap",
-      "commit_count": 3,
+      "commit_count": 4,
       "commits": [
+        {
+          "sha": "e26da56a3",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:03:49 2025 +0200",
+          "timestamp": 1763064229,
+          "url": "https://github.com/yaap/packages_providers_MediaProvider/commit/e26da56a3"
+        },
         {
           "sha": "045a98928",
           "message": "[security-aosp-25Q2-staging] Remove default ignoreable characters before regex checks",
@@ -2084,35 +2582,233 @@
       ]
     },
     {
-      "name": "vendor_qcom_opensource_power",
-      "path": "vendor/qcom/opensource/power",
-      "repo_url": "https://github.com/yaap/vendor_qcom_opensource_power",
+      "name": "frameworks_libs_systemui",
+      "path": "frameworks/libs/systemui",
+      "repo_url": "https://github.com/yaap/frameworks_libs_systemui",
       "remote": "yaap",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "0ff2f72",
-          "message": "power: Bump QTI power HAL version to 6",
-          "author": "Bruno Martins",
-          "date": "Tue Sep 9 09:40:29 2025 -0400",
-          "timestamp": 1757425229,
-          "url": "https://github.com/yaap/vendor_qcom_opensource_power/commit/0ff2f72"
+          "sha": "5af43db",
+          "message": "monet: Adapt luminanace and chroma factors to A16/QPR1 [2/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Dec 7 12:31:47 2025 +0200",
+          "timestamp": 1765103507,
+          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/5af43db"
         },
         {
-          "sha": "72396e8",
-          "message": "power: Abstract android.hardware.power-ndk dependency",
-          "author": "Bruno Martins",
-          "date": "Tue Sep 9 09:40:23 2025 -0400",
-          "timestamp": 1757425223,
-          "url": "https://github.com/yaap/vendor_qcom_opensource_power/commit/72396e8"
+          "sha": "5e7ac1d",
+          "message": "fixup/reapply: [HACK]: iconloader: force monochrome icons on themed icons",
+          "author": "John Galt",
+          "date": "Fri Dec 5 17:07:48 2025 -0500",
+          "timestamp": 1764972468,
+          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/5e7ac1d"
         },
         {
-          "sha": "5590016",
-          "message": "PowerHintSession: Remove logging for no-op functions",
-          "author": "Omkar Chandorkar",
-          "date": "Tue Sep 9 09:39:44 2025 -0400",
-          "timestamp": 1757425184,
-          "url": "https://github.com/yaap/vendor_qcom_opensource_power/commit/5590016"
+          "sha": "a5c4141",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:18:49 2025 +0200",
+          "timestamp": 1763039929,
+          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/a5c4141"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/yaap/frameworks_av",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "ac09c6b1b",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 12:01:13 2025 +0200",
+          "timestamp": 1763028073,
+          "url": "https://github.com/yaap/frameworks_av/commit/ac09c6b1b"
+        },
+        {
+          "sha": "7b876febd",
+          "message": "AudioFlinger: more duplicating mixer fixes",
+          "author": "Eric Laurent",
+          "date": "Wed Oct 1 10:59:19 2025 -0400",
+          "timestamp": 1759330759,
+          "url": "https://github.com/yaap/frameworks_av/commit/7b876febd"
+        },
+        {
+          "sha": "b283aff39",
+          "message": "AudioFlinger: duplicating output underrun improvements",
+          "author": "Eric Laurent",
+          "date": "Wed Oct 1 10:59:15 2025 -0400",
+          "timestamp": 1759330755,
+          "url": "https://github.com/yaap/frameworks_av/commit/b283aff39"
+        }
+      ]
+    },
+    {
+      "name": "hardware_lineage_compat",
+      "path": "hardware/lineage/compat",
+      "repo_url": "https://github.com/yaap/hardware_lineage_compat",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "69ee366",
+          "message": "libui-v34: Depend on android.hardware.graphics.common-V7",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 14:19:43 2025 +0800",
+          "timestamp": 1765174783,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/69ee366"
+        },
+        {
+          "sha": "594f7fb",
+          "message": "compat: Provide libui-v34",
+          "author": "Frost",
+          "date": "Mon Dec 8 14:19:43 2025 +0800",
+          "timestamp": 1765174783,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/594f7fb"
+        },
+        {
+          "sha": "fcaa1e7",
+          "message": "libinput: Provide A16 QPR0 android::MotionEvent::initialize() symbol",
+          "author": "LuK1337",
+          "date": "Sat Dec 6 17:06:52 2025 +0800",
+          "timestamp": 1765012012,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/fcaa1e7"
+        }
+      ]
+    },
+    {
+      "name": "hardware_lineage_interfaces",
+      "path": "hardware/lineage/interfaces",
+      "repo_url": "https://github.com/yaap/hardware_lineage_interfaces",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "e3b82af",
+          "message": "touch: Set UseGenericConfig() to true",
+          "author": "Cyber Knight",
+          "date": "Sat Dec 6 01:39:41 2025 +0800",
+          "timestamp": 1764956381,
+          "url": "https://github.com/yaap/hardware_lineage_interfaces/commit/e3b82af"
+        },
+        {
+          "sha": "871ade8",
+          "message": "vibrator: Remove no longer used custom HIDL",
+          "author": "Bruno Martins",
+          "date": "Sat Dec 6 01:37:29 2025 +0800",
+          "timestamp": 1764956249,
+          "url": "https://github.com/yaap/hardware_lineage_interfaces/commit/871ade8"
+        },
+        {
+          "sha": "e246cea",
+          "message": "vibrator: port default HIDL service to AIDL",
+          "author": "Han Sol Jin",
+          "date": "Sat Dec 6 01:37:23 2025 +0800",
+          "timestamp": 1764956243,
+          "url": "https://github.com/yaap/hardware_lineage_interfaces/commit/e246cea"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "repo_url": "https://github.com/yaap/packages_apps_Contacts",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "34a0607",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:23:26 2025 +0200",
+          "timestamp": 1763105006,
+          "url": "https://github.com/yaap/packages_apps_Contacts/commit/34a0607"
+        },
+        {
+          "sha": "3751e5b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:40 2025 +0000",
+          "timestamp": 1758744400,
+          "url": "https://github.com/yaap/packages_apps_Contacts/commit/3751e5b"
+        },
+        {
+          "sha": "a184e27",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:55:35 2025 +0300",
+          "timestamp": 1757688935,
+          "url": "https://github.com/yaap/packages_apps_Contacts/commit/a184e27"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Permission",
+      "path": "packages/modules/Permission",
+      "repo_url": "https://github.com/yaap/packages_modules_Permission",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "a9e3b4610",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:01:18 2025 +0200",
+          "timestamp": 1763064078,
+          "url": "https://github.com/yaap/packages_modules_Permission/commit/a9e3b4610"
+        },
+        {
+          "sha": "7eecfbbff",
+          "message": "Stop one-time sessions iff when no one-time permission is granted",
+          "author": "mrulhania",
+          "date": "Mon Sep 22 03:46:17 2025 +0300",
+          "timestamp": 1758501977,
+          "url": "https://github.com/yaap/packages_modules_Permission/commit/7eecfbbff"
+        },
+        {
+          "sha": "e064063fb",
+          "message": "Ensure Gallery always shows as system fixed",
+          "author": "Nate Myren",
+          "date": "Mon Sep 22 03:46:11 2025 +0300",
+          "timestamp": 1758501971,
+          "url": "https://github.com/yaap/packages_modules_Permission/commit/e064063fb"
+        }
+      ]
+    },
+    {
+      "name": "system_core",
+      "path": "system/core",
+      "repo_url": "https://github.com/yaap/system_core",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "3adf94f6",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Nov 14 19:32:47 2025 +0200",
+          "timestamp": 1763141567,
+          "url": "https://github.com/yaap/system_core/commit/3adf94f6"
+        },
+        {
+          "sha": "d2be5911",
+          "message": "Revert \"debuggerd: use jemalloc by default and allow opt-in to scudo (4/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:22:05 2025 -0500",
+          "timestamp": 1763130125,
+          "url": "https://github.com/yaap/system_core/commit/d2be5911"
+        },
+        {
+          "sha": "719e30c3",
+          "message": "libprocessgroup: Mount cpuset v1 with cpuset_v2_mode",
+          "author": "T.J. Mercier",
+          "date": "Wed Oct 1 11:27:31 2025 -0400",
+          "timestamp": 1759332451,
+          "url": "https://github.com/yaap/system_core/commit/719e30c3"
         }
       ]
     },
@@ -2150,31 +2846,6 @@
       ]
     },
     {
-      "name": "android_build_release",
-      "path": "build/release",
-      "repo_url": "https://github.com/LineageOS/android_build_release",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "f11d54a5",
-          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
-          "author": "Thomas Girardier",
-          "date": "Fri Sep 26 14:19:59 2025 +0200",
-          "timestamp": 1758889199,
-          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
-        },
-        {
-          "sha": "324f68f4",
-          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
-          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
-          "date": "Fri Sep 26 14:19:52 2025 +0200",
-          "timestamp": 1758889192,
-          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
-        }
-      ]
-    },
-    {
       "name": "android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -2196,31 +2867,6 @@
           "date": "Wed Oct 29 11:39:55 2025 +0100",
           "timestamp": 1761734395,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
-        }
-      ]
-    },
-    {
-      "name": "android_system_apex",
-      "path": "system/apex",
-      "repo_url": "https://github.com/LineageOS/android_system_apex",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "740076a",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/system/apex into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 6 11:49:09 2025 +0200",
-          "timestamp": 1762422549,
-          "url": "https://github.com/LineageOS/android_system_apex/commit/740076a"
-        },
-        {
-          "sha": "37a7810",
-          "message": "apexd: loosen no-overlap check on install",
-          "author": "Jooyung Han",
-          "date": "Fri Sep 26 14:21:44 2025 +0200",
-          "timestamp": 1758889304,
-          "url": "https://github.com/LineageOS/android_system_apex/commit/37a7810"
         }
       ]
     },
@@ -2250,155 +2896,20 @@
       ]
     },
     {
-      "name": "frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/yaap/frameworks_av",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "7b876febd",
-          "message": "AudioFlinger: more duplicating mixer fixes",
-          "author": "Eric Laurent",
-          "date": "Wed Oct 1 10:59:19 2025 -0400",
-          "timestamp": 1759330759,
-          "url": "https://github.com/yaap/frameworks_av/commit/7b876febd"
-        },
-        {
-          "sha": "b283aff39",
-          "message": "AudioFlinger: duplicating output underrun improvements",
-          "author": "Eric Laurent",
-          "date": "Wed Oct 1 10:59:15 2025 -0400",
-          "timestamp": 1759330755,
-          "url": "https://github.com/yaap/frameworks_av/commit/b283aff39"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Permission",
-      "path": "packages/modules/Permission",
-      "repo_url": "https://github.com/yaap/packages_modules_Permission",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "7eecfbbff",
-          "message": "Stop one-time sessions iff when no one-time permission is granted",
-          "author": "mrulhania",
-          "date": "Mon Sep 22 03:46:17 2025 +0300",
-          "timestamp": 1758501977,
-          "url": "https://github.com/yaap/packages_modules_Permission/commit/7eecfbbff"
-        },
-        {
-          "sha": "e064063fb",
-          "message": "Ensure Gallery always shows as system fixed",
-          "author": "Nate Myren",
-          "date": "Mon Sep 22 03:46:11 2025 +0300",
-          "timestamp": 1758501971,
-          "url": "https://github.com/yaap/packages_modules_Permission/commit/e064063fb"
-        }
-      ]
-    },
-    {
-      "name": "system_core",
-      "path": "system/core",
-      "repo_url": "https://github.com/yaap/system_core",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "d2be5911",
-          "message": "Revert \"debuggerd: use jemalloc by default and allow opt-in to scudo (4/4)\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:22:05 2025 -0500",
-          "timestamp": 1763130125,
-          "url": "https://github.com/yaap/system_core/commit/d2be5911"
-        },
-        {
-          "sha": "719e30c3",
-          "message": "libprocessgroup: Mount cpuset v1 with cpuset_v2_mode",
-          "author": "T.J. Mercier",
-          "date": "Wed Oct 1 11:27:31 2025 -0400",
-          "timestamp": 1759332451,
-          "url": "https://github.com/yaap/system_core/commit/719e30c3"
-        }
-      ]
-    },
-    {
-      "name": "android_frameworks_proto_logging",
-      "path": "frameworks/proto_logging",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_proto_logging",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fcbbaa85",
-          "message": "Log UID in wifi toggle metrics",
-          "author": "Oscar Shu",
-          "date": "Fri Sep 26 14:20:57 2025 +0200",
-          "timestamp": 1758889257,
-          "url": "https://github.com/LineageOS/android_frameworks_proto_logging/commit/fcbbaa85"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8998/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "717b078",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:04 2025 +0000",
-          "timestamp": 1757258824,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sdm845/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d5ad5c1",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:16 2025 +0000",
-          "timestamp": 1757258836,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
-        }
-      ]
-    },
-    {
-      "name": "android_packages_modules_IntentResolver",
-      "path": "packages/modules/IntentResolver",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_IntentResolver",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1682d31c",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/IntentResolver into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:58:41 2025 +0300",
-          "timestamp": 1757689121,
-          "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/1682d31c"
-        }
-      ]
-    },
-    {
       "name": "art",
       "path": "art",
       "repo_url": "https://github.com/yaap/art",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "27cca137",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:29:58 2025 +0200",
+          "timestamp": 1763026198,
+          "url": "https://github.com/yaap/art/commit/27cca137"
+        },
         {
           "sha": "75bfd780",
           "message": "Throw an exception in JNI::NewObject for abstract classes.",
@@ -2414,8 +2925,16 @@
       "path": "hardware/libhardware",
       "repo_url": "https://github.com/yaap/hardware_libhardware",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "11a2a38",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:34:12 2025 +0200",
+          "timestamp": 1763040852,
+          "url": "https://github.com/yaap/hardware_libhardware/commit/11a2a38"
+        },
         {
           "sha": "dd2a814",
           "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
@@ -2431,8 +2950,16 @@
       "path": "hardware/interfaces",
       "repo_url": "https://github.com/yaap/hardware_interfaces",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "651b168c7",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:38:03 2025 +0200",
+          "timestamp": 1763041083,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/651b168c7"
+        },
         {
           "sha": "4a07f0a03",
           "message": "Bluetooth HAL: fix suspend behavior",
@@ -2444,29 +2971,20 @@
       ]
     },
     {
-      "name": "packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/yaap/packages_apps_Contacts",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "6ed6589d",
-          "message": "Show account selection dialog when a single account exists.",
-          "author": "Kelly Ng",
-          "date": "Mon Sep 22 03:41:04 2025 +0300",
-          "timestamp": 1758501664,
-          "url": "https://github.com/yaap/packages_apps_Contacts/commit/6ed6589d"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_DocumentsUI",
       "path": "packages/apps/DocumentsUI",
       "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "5afc9b47",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Mon Dec 1 16:50:37 2025 +0200",
+          "timestamp": 1764600637,
+          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/5afc9b47"
+        },
         {
           "sha": "cdf2cb00",
           "message": "Trim the application name to make it safe for presentation",
@@ -2482,8 +3000,16 @@
       "path": "packages/apps/Stk",
       "repo_url": "https://github.com/yaap/packages_apps_Stk",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "665552f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 17:36:13 2025 +0200",
+          "timestamp": 1763048173,
+          "url": "https://github.com/yaap/packages_apps_Stk/commit/665552f"
+        },
         {
           "sha": "6e00ce3",
           "message": "Fxied edge-to-edge UX support for StkLauncherActivity.",
@@ -2495,12 +3021,45 @@
       ]
     },
     {
+      "name": "packages_apps_ThemePicker",
+      "path": "packages/apps/ThemePicker",
+      "repo_url": "https://github.com/yaap/packages_apps_ThemePicker",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "82c9e72b",
+          "message": "ThemePicker: Update color stub from mustang A16 QPR1",
+          "author": "Pranav Vashi",
+          "date": "Fri Dec 5 22:38:50 2025 -0500",
+          "timestamp": 1764992330,
+          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/82c9e72b"
+        },
+        {
+          "sha": "74e56363",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 17:40:02 2025 +0200",
+          "timestamp": 1763048402,
+          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/74e56363"
+        }
+      ]
+    },
+    {
       "name": "packages_services_Telecomm",
       "path": "packages/services/Telecomm",
       "repo_url": "https://github.com/yaap/packages_services_Telecomm",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "f6cef7cd",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:13:26 2025 +0200",
+          "timestamp": 1763064806,
+          "url": "https://github.com/yaap/packages_services_Telecomm/commit/f6cef7cd"
+        },
         {
           "sha": "dd33c3a7",
           "message": "Prevent infinite SPEAKER_OFF looping",
@@ -2516,8 +3075,16 @@
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/yaap/packages_services_Telephony",
       "remote": "yaap",
-      "commit_count": 1,
+      "commit_count": 2,
       "commits": [
+        {
+          "sha": "385ba0e70",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Mon Nov 17 16:06:35 2025 +0200",
+          "timestamp": 1763388395,
+          "url": "https://github.com/yaap/packages_services_Telephony/commit/385ba0e70"
+        },
         {
           "sha": "90a64a8be",
           "message": "fix: Use permission check for contact URI validation",
@@ -2529,19 +3096,673 @@
       ]
     },
     {
-      "name": "vendor_qcom_opensource_arpal-lx-sm8650",
-      "path": "hardware/qcom-caf/sm8650/audio/pal",
-      "repo_url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650",
+      "name": "yaosp/vendor_google_gms",
+      "path": "vendor/google/gms",
+      "repo_url": "https://gitlab.com/yaosp/vendor_google_gms",
+      "remote": "gitlab",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "45594ed",
+          "message": "gms: Update for A16 QPR1",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 4 22:16:53 2025 +0200",
+          "timestamp": 1764879413,
+          "url": "https://gitlab.com/yaosp/vendor_google_gms/commit/45594ed"
+        },
+        {
+          "sha": "828a75b",
+          "message": "gms: Add default notification permission for Google Clock",
+          "author": "Jake Weinstein",
+          "date": "Sat Oct 18 00:51:34 2025 +0800",
+          "timestamp": 1760719894,
+          "url": "https://gitlab.com/yaosp/vendor_google_gms/commit/828a75b"
+        }
+      ]
+    },
+    {
+      "name": "bootable_recovery",
+      "path": "bootable/recovery",
+      "repo_url": "https://github.com/yaap/bootable_recovery",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "1c5c41f",
-          "message": "Revert \"pal: fix redefinition of epoll_event\"",
-          "author": "John Galt",
-          "date": "Mon Nov 24 10:47:24 2025 -0500",
-          "timestamp": 1763999244,
-          "url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650/commit/1c5c41f"
+          "sha": "c1fd094",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:30:02 2025 +0200",
+          "timestamp": 1763026202,
+          "url": "https://github.com/yaap/bootable_recovery/commit/c1fd094"
+        }
+      ]
+    },
+    {
+      "name": "external_avb",
+      "path": "external/avb",
+      "repo_url": "https://github.com/yaap/external_avb",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1add321",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:56:43 2025 +0200",
+          "timestamp": 1763027803,
+          "url": "https://github.com/yaap/external_avb/commit/1add321"
+        }
+      ]
+    },
+    {
+      "name": "external_bouncycastle",
+      "path": "external/bouncycastle",
+      "repo_url": "https://github.com/yaap/external_bouncycastle",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "deb2fee",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:56:40 2025 +0200",
+          "timestamp": 1763027800,
+          "url": "https://github.com/yaap/external_bouncycastle/commit/deb2fee"
+        }
+      ]
+    },
+    {
+      "name": "external_e2fsprogs",
+      "path": "external/e2fsprogs",
+      "repo_url": "https://github.com/yaap/external_e2fsprogs",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1889a96",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:56:46 2025 +0200",
+          "timestamp": 1763027806,
+          "url": "https://github.com/yaap/external_e2fsprogs/commit/1889a96"
+        }
+      ]
+    },
+    {
+      "name": "external_exfatprogs",
+      "path": "external/exfatprogs",
+      "repo_url": "https://github.com/yaap/external_exfatprogs",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a93cff6",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:56:49 2025 +0200",
+          "timestamp": 1763027809,
+          "url": "https://github.com/yaap/external_exfatprogs/commit/a93cff6"
+        }
+      ]
+    },
+    {
+      "name": "external_f2fs-tools",
+      "path": "external/f2fs-tools",
+      "repo_url": "https://github.com/yaap/external_f2fs-tools",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8896459",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:56:52 2025 +0200",
+          "timestamp": 1763027812,
+          "url": "https://github.com/yaap/external_f2fs-tools/commit/8896459"
+        }
+      ]
+    },
+    {
+      "name": "external_freetype",
+      "path": "external/freetype",
+      "repo_url": "https://github.com/yaap/external_freetype",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1235178",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:56:54 2025 +0200",
+          "timestamp": 1763027814,
+          "url": "https://github.com/yaap/external_freetype/commit/1235178"
+        }
+      ]
+    },
+    {
+      "name": "external_libpng",
+      "path": "external/libpng",
+      "repo_url": "https://github.com/yaap/external_libpng",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "076bfba",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:57:01 2025 +0200",
+          "timestamp": 1763027821,
+          "url": "https://github.com/yaap/external_libpng/commit/076bfba"
+        }
+      ]
+    },
+    {
+      "name": "external_setupcompat",
+      "path": "external/setupcompat",
+      "repo_url": "https://github.com/yaap/external_setupcompat",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5f75d42",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:57:06 2025 +0200",
+          "timestamp": 1763027826,
+          "url": "https://github.com/yaap/external_setupcompat/commit/5f75d42"
+        }
+      ]
+    },
+    {
+      "name": "external_sqlite",
+      "path": "external/sqlite",
+      "repo_url": "https://github.com/yaap/external_sqlite",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "98ca552",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:57:15 2025 +0200",
+          "timestamp": 1763027835,
+          "url": "https://github.com/yaap/external_sqlite/commit/98ca552"
+        }
+      ]
+    },
+    {
+      "name": "external_zstd",
+      "path": "external/zstd",
+      "repo_url": "https://github.com/yaap/external_zstd",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0da684bf",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:57:29 2025 +0200",
+          "timestamp": 1763027849,
+          "url": "https://github.com/yaap/external_zstd/commit/0da684bf"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_minikin",
+      "path": "frameworks/minikin",
+      "repo_url": "https://github.com/yaap/frameworks_minikin",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "62c9188",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:18:54 2025 +0200",
+          "timestamp": 1763039934,
+          "url": "https://github.com/yaap/frameworks_minikin/commit/62c9188"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_opt_net_ims",
+      "path": "frameworks/opt/net/ims",
+      "repo_url": "https://github.com/yaap/frameworks_opt_net_ims",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "384c902",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:32:54 2025 +0200",
+          "timestamp": 1763040774,
+          "url": "https://github.com/yaap/frameworks_opt_net_ims/commit/384c902"
+        }
+      ]
+    },
+    {
+      "name": "external_skia",
+      "path": "external/skia",
+      "repo_url": "https://github.com/yaap/external_skia",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "cde0d0868",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:57:12 2025 +0200",
+          "timestamp": 1763027832,
+          "url": "https://github.com/yaap/external_skia/commit/cde0d0868"
+        }
+      ]
+    },
+    {
+      "name": "hardware_google_pixel-sepolicy",
+      "path": "hardware/google/pixel-sepolicy",
+      "repo_url": "https://github.com/yaap/hardware_google_pixel-sepolicy",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "240f95c",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:34:07 2025 +0200",
+          "timestamp": 1763040847,
+          "url": "https://github.com/yaap/hardware_google_pixel-sepolicy/commit/240f95c"
+        }
+      ]
+    },
+    {
+      "name": "hardware_google_pixel",
+      "path": "hardware/google/pixel",
+      "repo_url": "https://github.com/yaap/hardware_google_pixel",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3093486",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:33:23 2025 +0200",
+          "timestamp": 1763040803,
+          "url": "https://github.com/yaap/hardware_google_pixel/commit/3093486"
+        }
+      ]
+    },
+    {
+      "name": "external_tensorflow",
+      "path": "external/tensorflow",
+      "repo_url": "https://github.com/yaap/external_tensorflow",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "321e9dd8d",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 11:57:25 2025 +0200",
+          "timestamp": 1763027845,
+          "url": "https://github.com/yaap/external_tensorflow/commit/321e9dd8d"
+        }
+      ]
+    },
+    {
+      "name": "hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/yaap/hardware_qcom-caf_common",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8be56e7",
+          "message": "qcom: Include additional wlan soong namespace",
+          "author": "Michael Bestas",
+          "date": "Fri Dec 5 22:46:43 2025 +0800",
+          "timestamp": 1764946003,
+          "url": "https://github.com/yaap/hardware_qcom-caf_common/commit/8be56e7"
+        }
+      ]
+    },
+    {
+      "name": "kernel_configs",
+      "path": "kernel/configs",
+      "repo_url": "https://github.com/yaap/kernel_configs",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "99d78b7",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:38:09 2025 +0200",
+          "timestamp": 1763041089,
+          "url": "https://github.com/yaap/kernel_configs/commit/99d78b7"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/yaap/packages_apps_Dialer",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "aa136d59",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:42:12 2025 +0200",
+          "timestamp": 1763041332,
+          "url": "https://github.com/yaap/packages_apps_Dialer/commit/aa136d59"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_EmergencyInfo",
+      "path": "packages/apps/EmergencyInfo",
+      "repo_url": "https://github.com/yaap/packages_apps_EmergencyInfo",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a1952db",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:48:33 2025 +0200",
+          "timestamp": 1763041713,
+          "url": "https://github.com/yaap/packages_apps_EmergencyInfo/commit/a1952db"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_PhoneCommon",
+      "path": "packages/apps/PhoneCommon",
+      "repo_url": "https://github.com/yaap/packages_apps_PhoneCommon",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e88cc46",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 16:42:38 2025 +0200",
+          "timestamp": 1763044958,
+          "url": "https://github.com/yaap/packages_apps_PhoneCommon/commit/e88cc46"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Seedvault",
+      "path": "packages/apps/Seedvault",
+      "repo_url": "https://github.com/yaap/packages_apps_Seedvault",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "25cd50c",
+          "message": "SnapshotFragment: Adapt to A16/QPR1",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Nov 30 23:16:49 2025 +0200",
+          "timestamp": 1764537409,
+          "url": "https://github.com/yaap/packages_apps_Seedvault/commit/25cd50c"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_WallpaperPicker2",
+      "path": "packages/apps/WallpaperPicker2",
+      "repo_url": "https://github.com/yaap/packages_apps_WallpaperPicker2",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d137e66a",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 17:40:07 2025 +0200",
+          "timestamp": 1763048407,
+          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/d137e66a"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Nfc",
+      "path": "packages/modules/Nfc",
+      "repo_url": "https://github.com/yaap/packages_modules_Nfc",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "de96889f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:00:33 2025 +0200",
+          "timestamp": 1763064033,
+          "url": "https://github.com/yaap/packages_modules_Nfc/commit/de96889f"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_StatsD",
+      "path": "packages/modules/StatsD",
+      "repo_url": "https://github.com/yaap/packages_modules_StatsD",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4831b8e1",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:01:23 2025 +0200",
+          "timestamp": 1763064083,
+          "url": "https://github.com/yaap/packages_modules_StatsD/commit/4831b8e1"
+        }
+      ]
+    },
+    {
+      "name": "packages_providers_CalendarProvider",
+      "path": "packages/providers/CalendarProvider",
+      "repo_url": "https://github.com/yaap/packages_providers_CalendarProvider",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "b9fdcc8",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:02:18 2025 +0200",
+          "timestamp": 1763064138,
+          "url": "https://github.com/yaap/packages_providers_CalendarProvider/commit/b9fdcc8"
+        }
+      ]
+    },
+    {
+      "name": "packages_providers_ContactsProvider",
+      "path": "packages/providers/ContactsProvider",
+      "repo_url": "https://github.com/yaap/packages_providers_ContactsProvider",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6c11ab0",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:02:22 2025 +0200",
+          "timestamp": 1763064142,
+          "url": "https://github.com/yaap/packages_providers_ContactsProvider/commit/6c11ab0"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_DeviceAsWebcam",
+      "path": "packages/services/DeviceAsWebcam",
+      "repo_url": "https://github.com/yaap/packages_services_DeviceAsWebcam",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "bf70998",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:04:00 2025 +0200",
+          "timestamp": 1763064240,
+          "url": "https://github.com/yaap/packages_services_DeviceAsWebcam/commit/bf70998"
+        }
+      ]
+    },
+    {
+      "name": "packages_providers_TelephonyProvider",
+      "path": "packages/providers/TelephonyProvider",
+      "repo_url": "https://github.com/yaap/packages_providers_TelephonyProvider",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f4257d4",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:03:56 2025 +0200",
+          "timestamp": 1763064236,
+          "url": "https://github.com/yaap/packages_providers_TelephonyProvider/commit/f4257d4"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_Iwlan",
+      "path": "packages/services/Iwlan",
+      "repo_url": "https://github.com/yaap/packages_services_Iwlan",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "450527d",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:04:06 2025 +0200",
+          "timestamp": 1763064246,
+          "url": "https://github.com/yaap/packages_services_Iwlan/commit/450527d"
+        }
+      ]
+    },
+    {
+      "name": "system_bpf",
+      "path": "system/bpf",
+      "repo_url": "https://github.com/yaap/system_bpf",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fe08e26",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:14:02 2025 +0200",
+          "timestamp": 1763064842,
+          "url": "https://github.com/yaap/system_bpf/commit/fe08e26"
+        }
+      ]
+    },
+    {
+      "name": "system_libvintf",
+      "path": "system/libvintf",
+      "repo_url": "https://github.com/yaap/system_libvintf",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d794d3c",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:22:29 2025 +0200",
+          "timestamp": 1763065349,
+          "url": "https://github.com/yaap/system_libvintf/commit/d794d3c"
+        }
+      ]
+    },
+    {
+      "name": "system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/yaap/system_media",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a7f14fd",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:22:30 2025 +0200",
+          "timestamp": 1763065350,
+          "url": "https://github.com/yaap/system_media/commit/a7f14fd"
+        }
+      ]
+    },
+    {
+      "name": "system_memory_libmeminfo",
+      "path": "system/memory/libmeminfo",
+      "repo_url": "https://github.com/yaap/system_memory_libmeminfo",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f2cc388",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:22:32 2025 +0200",
+          "timestamp": 1763065352,
+          "url": "https://github.com/yaap/system_memory_libmeminfo/commit/f2cc388"
+        }
+      ]
+    },
+    {
+      "name": "system_memory_lmkd",
+      "path": "system/memory/lmkd",
+      "repo_url": "https://github.com/yaap/system_memory_lmkd",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c9f1e13",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:22:34 2025 +0200",
+          "timestamp": 1763065354,
+          "url": "https://github.com/yaap/system_memory_lmkd/commit/c9f1e13"
+        }
+      ]
+    },
+    {
+      "name": "system_update_engine",
+      "path": "system/update_engine",
+      "repo_url": "https://github.com/yaap/system_update_engine",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5723095",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:23:16 2025 +0200",
+          "timestamp": 1763065396,
+          "url": "https://github.com/yaap/system_update_engine/commit/5723095"
+        }
+      ]
+    },
+    {
+      "name": "system_vold",
+      "path": "system/vold",
+      "repo_url": "https://github.com/yaap/system_vold",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "27a380f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:23:18 2025 +0200",
+          "timestamp": 1763065398,
+          "url": "https://github.com/yaap/system_vold/commit/27a380f"
         }
       ]
     },
@@ -2563,19 +3784,53 @@
       ]
     },
     {
-      "name": "yaosp/vendor_google_gms",
-      "path": "vendor/google/gms",
-      "repo_url": "https://gitlab.com/yaosp/vendor_google_gms",
+      "name": "vendor_qcom_opensource_arpal-lx-sm8650",
+      "path": "hardware/qcom-caf/sm8650/audio/pal",
+      "repo_url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1c5c41f",
+          "message": "Revert \"pal: fix redefinition of epoll_event\"",
+          "author": "John Galt",
+          "date": "Mon Nov 24 10:47:24 2025 -0500",
+          "timestamp": 1763999244,
+          "url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650/commit/1c5c41f"
+        }
+      ]
+    },
+    {
+      "name": "system_sepolicy",
+      "path": "system/sepolicy",
+      "repo_url": "https://github.com/yaap/system_sepolicy",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0bfefd15",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:23:11 2025 +0200",
+          "timestamp": 1763065391,
+          "url": "https://github.com/yaap/system_sepolicy/commit/0bfefd15"
+        }
+      ]
+    },
+    {
+      "name": "yaosp/vendor_google_pixel",
+      "path": "vendor/google/pixel",
+      "repo_url": "https://gitlab.com/yaosp/vendor_google_pixel",
       "remote": "gitlab",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "828a75b",
-          "message": "gms: Add default notification permission for Google Clock",
-          "author": "Jake Weinstein",
-          "date": "Sat Oct 18 00:51:34 2025 +0800",
-          "timestamp": 1760719894,
-          "url": "https://gitlab.com/yaosp/vendor_google_gms/commit/828a75b"
+          "sha": "2035945",
+          "message": "pixel: Update for A16 QPR1",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 21:48:12 2025 +0200",
+          "timestamp": 1763063292,
+          "url": "https://gitlab.com/yaosp/vendor_google_pixel/commit/2035945"
         }
       ]
     }
