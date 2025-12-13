@@ -1,10 +1,10 @@
 {
   "rom_id": "halcyon",
   "branch": "16.1",
-  "generated_at": "2025-12-12T01:35:39.672502+00:00",
-  "since_date": "2025-09-13",
+  "generated_at": "2025-12-13T01:27:46.892465+00:00",
+  "since_date": "2025-09-14",
   "total_projects": 70,
-  "total_commits": 686,
+  "total_commits": 692,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -2567,8 +2567,24 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "lineage",
-      "commit_count": 39,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "76f9a6a",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:54 2025 +0000",
+          "timestamp": 1765535514,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/76f9a6a"
+        },
+        {
+          "sha": "afff3ed",
+          "message": "qva: Label AOSP NXP keymint and weaver HALs",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:32 2025 +0000",
+          "timestamp": 1765535492,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/afff3ed"
+        },
         {
           "sha": "dd78185",
           "message": "sepolicy: Label SEC NFC device & HAL",
@@ -2884,6 +2900,303 @@
       ]
     },
     {
+      "name": "android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "remote": "lineage",
+      "commit_count": 36,
+      "commits": [
+        {
+          "sha": "ef0ffef",
+          "message": "extract_utils: bp_builder: use existing `target` element if possible",
+          "author": "LuK1337",
+          "date": "Fri Dec 12 14:10:19 2025 +0100",
+          "timestamp": 1765545019,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ef0ffef"
+        },
+        {
+          "sha": "bb4f248",
+          "message": "extract_utils: allow passing proprietary files to ExtractUtilsModule",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/bb4f248"
+        },
+        {
+          "sha": "c6385ca",
+          "message": "extract_utils: add support for virtual proprietary files",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c6385ca"
+        },
+        {
+          "sha": "640c56e",
+          "message": "extract_utils: add support for 7z extraction",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/640c56e"
+        },
+        {
+          "sha": "70d8244",
+          "message": "extract_utils: fix multiple backing up prints",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/70d8244"
+        },
+        {
+          "sha": "bd8e6c5",
+          "message": "extract_utils: makefiles: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/bd8e6c5"
+        },
+        {
+          "sha": "ab812ca",
+          "message": "extract_utils: fixups: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ab812ca"
+        },
+        {
+          "sha": "4de9d94",
+          "message": "extract_utils: fixups_lib: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4de9d94"
+        },
+        {
+          "sha": "0ea30ed",
+          "message": "extract_utils: fixups_blob: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/0ea30ed"
+        },
+        {
+          "sha": "cac372e",
+          "message": "extract_utils: elf: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/cac372e"
+        },
+        {
+          "sha": "2347a5a",
+          "message": "extract_utils: elf_parser: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/2347a5a"
+        },
+        {
+          "sha": "39d6754",
+          "message": "extract_utils: file: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/39d6754"
+        },
+        {
+          "sha": "f642e54",
+          "message": "extract_utils: bp_encoder: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/f642e54"
+        },
+        {
+          "sha": "73daa05",
+          "message": "extract_utils: bp_builder: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/73daa05"
+        },
+        {
+          "sha": "c2c84dd",
+          "message": "extract_utils: extract_misc: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c2c84dd"
+        },
+        {
+          "sha": "138ce00",
+          "message": "extract_utils: extract_super_retrofit: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/138ce00"
+        },
+        {
+          "sha": "3a4836c",
+          "message": "extract_utils: lp: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3a4836c"
+        },
+        {
+          "sha": "77fb6c7",
+          "message": "extract_utils: module: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/77fb6c7"
+        },
+        {
+          "sha": "70c4f35",
+          "message": "extract_utils: main: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/70c4f35"
+        },
+        {
+          "sha": "97c5f8f",
+          "message": "extract_utils: extract_star: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/97c5f8f"
+        },
+        {
+          "sha": "6d7abf6",
+          "message": "extract_utils: extract_pixel: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6d7abf6"
+        },
+        {
+          "sha": "115cdec",
+          "message": "extract_utils: extract: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/115cdec"
+        },
+        {
+          "sha": "4fb32ae",
+          "message": "extract_utils: utils: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4fb32ae"
+        },
+        {
+          "sha": "e19e99c",
+          "message": "extract_utils: source: fix typing",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e19e99c"
+        },
+        {
+          "sha": "0db42ca",
+          "message": "extract_utils: fix reverse patch application",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/0db42ca"
+        },
+        {
+          "sha": "f51fdd4",
+          "message": "extract_utils: unpack old dictionary extract fns in ExtractUtilsModule",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/f51fdd4"
+        },
+        {
+          "sha": "7b5ccb8",
+          "message": "extract_utils: fix backup copy check",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/7b5ccb8"
+        },
+        {
+          "sha": "f0e115f",
+          "message": "extract_utils: rename root_path to printable_path and move to a property",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/f0e115f"
+        },
+        {
+          "sha": "c452d62",
+          "message": "Revert \"extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7\"",
+          "author": "LuK1337",
+          "date": "Thu Dec 4 17:04:20 2025 +0100",
+          "timestamp": 1764864260,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c452d62"
+        },
+        {
+          "sha": "75e9174",
+          "message": "extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7",
+          "author": "Nikita Savchenko",
+          "date": "Wed Dec 3 17:58:54 2025 +0000",
+          "timestamp": 1764784734,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/75e9174"
+        },
+        {
+          "sha": "4bbc4b9",
+          "message": "extract_utils: update pre-commit hooks to the latest versions",
+          "author": "LuK1337",
+          "date": "Sun Nov 9 13:15:25 2025 +0100",
+          "timestamp": 1762690525,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4bbc4b9"
+        },
+        {
+          "sha": "4e62c34",
+          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4e62c34"
+        },
+        {
+          "sha": "ceaf573",
+          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ceaf573"
+        },
+        {
+          "sha": "4afac1d",
+          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4afac1d"
+        },
+        {
+          "sha": "ce77849",
+          "message": "extract-utils: Make it REUSE compatible",
+          "author": "Michael Bestas",
+          "date": "Fri Oct 10 20:58:34 2025 +0300",
+          "timestamp": 1760119114,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ce77849"
+        },
+        {
+          "sha": "c7e9116",
+          "message": "extract-utils: Drop LineageOS copyright years",
+          "author": "Michael Bestas",
+          "date": "Fri Oct 10 20:58:29 2025 +0300",
+          "timestamp": 1760119109,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_Settings",
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/halcyonproject/packages_apps_Settings",
@@ -3161,271 +3474,6 @@
           "date": "Sat Sep 27 04:54:44 2025 +0800",
           "timestamp": 1758920084,
           "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/7eff1ae30"
-        }
-      ]
-    },
-    {
-      "name": "android_tools_extract-utils",
-      "path": "tools/extract-utils",
-      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
-      "remote": "lineage",
-      "commit_count": 32,
-      "commits": [
-        {
-          "sha": "70d8244",
-          "message": "extract_utils: fix multiple backing up prints",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/70d8244"
-        },
-        {
-          "sha": "bd8e6c5",
-          "message": "extract_utils: makefiles: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/bd8e6c5"
-        },
-        {
-          "sha": "ab812ca",
-          "message": "extract_utils: fixups: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ab812ca"
-        },
-        {
-          "sha": "4de9d94",
-          "message": "extract_utils: fixups_lib: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4de9d94"
-        },
-        {
-          "sha": "0ea30ed",
-          "message": "extract_utils: fixups_blob: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/0ea30ed"
-        },
-        {
-          "sha": "cac372e",
-          "message": "extract_utils: elf: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/cac372e"
-        },
-        {
-          "sha": "2347a5a",
-          "message": "extract_utils: elf_parser: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/2347a5a"
-        },
-        {
-          "sha": "39d6754",
-          "message": "extract_utils: file: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/39d6754"
-        },
-        {
-          "sha": "f642e54",
-          "message": "extract_utils: bp_encoder: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/f642e54"
-        },
-        {
-          "sha": "73daa05",
-          "message": "extract_utils: bp_builder: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/73daa05"
-        },
-        {
-          "sha": "c2c84dd",
-          "message": "extract_utils: extract_misc: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c2c84dd"
-        },
-        {
-          "sha": "138ce00",
-          "message": "extract_utils: extract_super_retrofit: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/138ce00"
-        },
-        {
-          "sha": "3a4836c",
-          "message": "extract_utils: lp: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3a4836c"
-        },
-        {
-          "sha": "77fb6c7",
-          "message": "extract_utils: module: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/77fb6c7"
-        },
-        {
-          "sha": "70c4f35",
-          "message": "extract_utils: main: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/70c4f35"
-        },
-        {
-          "sha": "97c5f8f",
-          "message": "extract_utils: extract_star: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/97c5f8f"
-        },
-        {
-          "sha": "6d7abf6",
-          "message": "extract_utils: extract_pixel: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6d7abf6"
-        },
-        {
-          "sha": "115cdec",
-          "message": "extract_utils: extract: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/115cdec"
-        },
-        {
-          "sha": "4fb32ae",
-          "message": "extract_utils: utils: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4fb32ae"
-        },
-        {
-          "sha": "e19e99c",
-          "message": "extract_utils: source: fix typing",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e19e99c"
-        },
-        {
-          "sha": "0db42ca",
-          "message": "extract_utils: fix reverse patch application",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/0db42ca"
-        },
-        {
-          "sha": "f51fdd4",
-          "message": "extract_utils: unpack old dictionary extract fns in ExtractUtilsModule",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/f51fdd4"
-        },
-        {
-          "sha": "7b5ccb8",
-          "message": "extract_utils: fix backup copy check",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/7b5ccb8"
-        },
-        {
-          "sha": "f0e115f",
-          "message": "extract_utils: rename root_path to printable_path and move to a property",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Dec 9 01:52:01 2025 +0200",
-          "timestamp": 1765237921,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/f0e115f"
-        },
-        {
-          "sha": "c452d62",
-          "message": "Revert \"extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7\"",
-          "author": "LuK1337",
-          "date": "Thu Dec 4 17:04:20 2025 +0100",
-          "timestamp": 1764864260,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c452d62"
-        },
-        {
-          "sha": "75e9174",
-          "message": "extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7",
-          "author": "Nikita Savchenko",
-          "date": "Wed Dec 3 17:58:54 2025 +0000",
-          "timestamp": 1764784734,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/75e9174"
-        },
-        {
-          "sha": "4bbc4b9",
-          "message": "extract_utils: update pre-commit hooks to the latest versions",
-          "author": "LuK1337",
-          "date": "Sun Nov 9 13:15:25 2025 +0100",
-          "timestamp": 1762690525,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4bbc4b9"
-        },
-        {
-          "sha": "4e62c34",
-          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Nov 1 13:01:18 2025 +0100",
-          "timestamp": 1761998478,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4e62c34"
-        },
-        {
-          "sha": "ceaf573",
-          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Nov 1 13:01:18 2025 +0100",
-          "timestamp": 1761998478,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ceaf573"
-        },
-        {
-          "sha": "4afac1d",
-          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Nov 1 13:01:18 2025 +0100",
-          "timestamp": 1761998478,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4afac1d"
-        },
-        {
-          "sha": "ce77849",
-          "message": "extract-utils: Make it REUSE compatible",
-          "author": "Michael Bestas",
-          "date": "Fri Oct 10 20:58:34 2025 +0300",
-          "timestamp": 1760119114,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ce77849"
-        },
-        {
-          "sha": "c7e9116",
-          "message": "extract-utils: Drop LineageOS copyright years",
-          "author": "Michael Bestas",
-          "date": "Fri Oct 10 20:58:29 2025 +0300",
-          "timestamp": 1760119109,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
         }
       ]
     },
@@ -5492,31 +5540,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sm8350/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "6afc6e6",
-          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:18:58 2025 +0200",
-          "timestamp": 1762607938,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/6afc6e6"
-        },
-        {
-          "sha": "52aa6a1",
-          "message": "configs: lahaina: Set C2 as preferred codec",
-          "author": "Manish Kumar",
-          "date": "Wed Sep 24 02:08:29 2025 -0700",
-          "timestamp": 1758704909,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/52aa6a1"
-        }
-      ]
-    },
-    {
       "name": "android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -5538,6 +5561,31 @@
           "date": "Sat Sep 27 17:53:32 2025 +0200",
           "timestamp": 1758988412,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/06775df"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sm8350/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "6afc6e6",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:18:58 2025 +0200",
+          "timestamp": 1762607938,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/6afc6e6"
+        },
+        {
+          "sha": "52aa6a1",
+          "message": "configs: lahaina: Set C2 as preferred codec",
+          "author": "Manish Kumar",
+          "date": "Wed Sep 24 02:08:29 2025 -0700",
+          "timestamp": 1758704909,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/52aa6a1"
         }
       ]
     },
@@ -5769,23 +5817,6 @@
     },
     {
       "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8550/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3415b63",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:21 2025 +0200",
-          "timestamp": 1765227501,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8350/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "lineage",
@@ -5803,23 +5834,6 @@
     },
     {
       "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8650/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fe52304",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:40 2025 +0200",
-          "timestamp": 1765227520,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe52304"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8450/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "lineage",
@@ -5832,6 +5846,40 @@
           "date": "Mon Dec 8 22:58:07 2025 +0200",
           "timestamp": 1765227487,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8550/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3415b63",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:21 2025 +0200",
+          "timestamp": 1765227501,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8650/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fe52304",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:40 2025 +0200",
+          "timestamp": 1765227520,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe52304"
         }
       ]
     },
@@ -6023,23 +6071,6 @@
       ]
     },
     {
-      "name": "packages_apps_Etar",
-      "path": "packages/apps/Etar",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Etar",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1b1b59c",
-          "message": "Etar: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 19:53:49 2025 +0800",
-          "timestamp": 1761306829,
-          "url": "https://github.com/halcyonproject/packages_apps_Etar/commit/1b1b59c"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_ExactCalculator",
       "path": "packages/apps/ExactCalculator",
       "repo_url": "https://github.com/halcyonproject/packages_apps_ExactCalculator",
@@ -6053,6 +6084,23 @@
           "date": "Fri Oct 24 19:57:08 2025 +0800",
           "timestamp": 1761307028,
           "url": "https://github.com/halcyonproject/packages_apps_ExactCalculator/commit/988c697"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Etar",
+      "path": "packages/apps/Etar",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Etar",
+      "remote": "halcyon",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1b1b59c",
+          "message": "Etar: Import new Enchanted icon",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 19:53:49 2025 +0800",
+          "timestamp": 1761306829,
+          "url": "https://github.com/halcyonproject/packages_apps_Etar/commit/1b1b59c"
         }
       ]
     },
@@ -6074,23 +6122,6 @@
       ]
     },
     {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/halcyonproject/packages_modules_Bluetooth",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8d633bb25",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/Bluetooth into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:34 2025 +0800",
-          "timestamp": 1763293894,
-          "url": "https://github.com/halcyonproject/packages_modules_Bluetooth/commit/8d633bb25"
-        }
-      ]
-    },
-    {
       "name": "packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/halcyonproject/packages_services_Telephony",
@@ -6104,6 +6135,23 @@
           "date": "Sun Nov 16 19:51:36 2025 +0800",
           "timestamp": 1763293896,
           "url": "https://github.com/halcyonproject/packages_services_Telephony/commit/d70d13450"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/halcyonproject/packages_modules_Bluetooth",
+      "remote": "halcyon",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8d633bb25",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/Bluetooth into android-16.0",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:51:34 2025 +0800",
+          "timestamp": 1763293894,
+          "url": "https://github.com/halcyonproject/packages_modules_Bluetooth/commit/8d633bb25"
         }
       ]
     },

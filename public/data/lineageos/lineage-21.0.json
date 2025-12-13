@@ -1,8 +1,8 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-21.0",
-  "generated_at": "2025-12-12T01:21:22.576203+00:00",
-  "since_date": "2025-09-13",
+  "generated_at": "2025-12-13T01:16:51.126194+00:00",
+  "since_date": "2025-09-14",
   "total_projects": 41,
   "total_commits": 276,
   "projects": [
@@ -11,7 +11,7 @@
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 87,
+      "commit_count": 86,
       "commits": [
         {
           "sha": "33a6888",
@@ -700,14 +700,6 @@
           "date": "Sun Sep 14 09:43:08 2025 +0200",
           "timestamp": 1757835788,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/2744973"
-        },
-        {
-          "sha": "ca24d88",
-          "message": "wiki: Update pioneer maintainers",
-          "author": "LuK1337",
-          "date": "Sat Sep 13 22:17:19 2025 +0200",
-          "timestamp": 1757794639,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ca24d88"
         }
       ]
     },
@@ -716,8 +708,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 48,
+      "commit_count": 49,
       "commits": [
+        {
+          "sha": "8b286fc",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Dec 12 23:30:45 2025 +0000",
+          "timestamp": 1765582245,
+          "url": "https://github.com/LineageOS/hudson/commit/8b286fc"
+        },
         {
           "sha": "dc400bb",
           "message": "after like a year, we figured out the stupid BSOD issue",
@@ -1859,39 +1859,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -1921,6 +1888,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -2550,23 +2550,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9e1100041",
-          "message": "Remove flags for b#314331379",
-          "author": "Brian Delwiche",
-          "date": "Sun Sep 21 10:08:13 2025 -0600",
-          "timestamp": 1758470893,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/9e1100041"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Trebuchet",
       "path": "packages/apps/Trebuchet",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Trebuchet",
@@ -2580,6 +2563,23 @@
           "date": "Wed Oct 1 21:52:19 2025 +0000",
           "timestamp": 1759355539,
           "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/af0e0a067"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9e1100041",
+          "message": "Remove flags for b#314331379",
+          "author": "Brian Delwiche",
+          "date": "Sun Sep 21 10:08:13 2025 -0600",
+          "timestamp": 1758470893,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/9e1100041"
         }
       ]
     }

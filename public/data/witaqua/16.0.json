@@ -1,10 +1,10 @@
 {
   "rom_id": "witaqua",
   "branch": "16.0",
-  "generated_at": "2025-12-12T01:42:49.631493+00:00",
-  "since_date": "2025-09-13",
+  "generated_at": "2025-12-13T01:32:59.979247+00:00",
+  "since_date": "2025-09-14",
   "total_projects": 127,
-  "total_commits": 1334,
+  "total_commits": 1341,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1471,6 +1471,14 @@
       "commit_count": 172,
       "commits": [
         {
+          "sha": "edb3814594d",
+          "message": "base: Add option to bypass low target SDK installation block [1/2]",
+          "author": "misakazip",
+          "date": "Thu Dec 11 14:45:18 2025 +0900",
+          "timestamp": 1765431918,
+          "url": "https://github.com/WitAqua/frameworks_base/commit/edb3814594d"
+        },
+        {
           "sha": "41f72e38764",
           "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
           "author": "Toufu",
@@ -2429,14 +2437,6 @@
           "date": "Wed Oct 15 12:46:43 2025 +0900",
           "timestamp": 1760500003,
           "url": "https://github.com/WitAqua/frameworks_base/commit/9f236de3947"
-        },
-        {
-          "sha": "3e9b3594a30",
-          "message": "SystemUI: Disable ongoing progress by default",
-          "author": "Ghosuto",
-          "date": "Wed Oct 15 12:46:43 2025 +0900",
-          "timestamp": 1760500003,
-          "url": "https://github.com/WitAqua/frameworks_base/commit/3e9b3594a30"
         },
         {
           "sha": "dbc227e71b8",
@@ -4993,8 +4993,24 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 39,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "76f9a6a",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:54 2025 +0000",
+          "timestamp": 1765535514,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/76f9a6a"
+        },
+        {
+          "sha": "afff3ed",
+          "message": "qva: Label AOSP NXP keymint and weaver HALs",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:32 2025 +0000",
+          "timestamp": 1765535492,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/afff3ed"
+        },
         {
           "sha": "dd78185",
           "message": "sepolicy: Label SEC NFC device & HAL",
@@ -5635,8 +5651,40 @@
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
       "remote": "github",
-      "commit_count": 32,
+      "commit_count": 36,
       "commits": [
+        {
+          "sha": "ef0ffef",
+          "message": "extract_utils: bp_builder: use existing `target` element if possible",
+          "author": "LuK1337",
+          "date": "Fri Dec 12 14:10:19 2025 +0100",
+          "timestamp": 1765545019,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ef0ffef"
+        },
+        {
+          "sha": "bb4f248",
+          "message": "extract_utils: allow passing proprietary files to ExtractUtilsModule",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/bb4f248"
+        },
+        {
+          "sha": "c6385ca",
+          "message": "extract_utils: add support for virtual proprietary files",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c6385ca"
+        },
+        {
+          "sha": "640c56e",
+          "message": "extract_utils: add support for 7z extraction",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/640c56e"
+        },
         {
           "sha": "70d8244",
           "message": "extract_utils: fix multiple backing up prints",
@@ -7243,8 +7291,16 @@
       "path": "packages/apps/WitAquaMagic",
       "repo_url": "https://github.com/WitAqua/packages_apps_WitAquaMagic",
       "remote": "witaqua",
-      "commit_count": 16,
+      "commit_count": 17,
       "commits": [
+        {
+          "sha": "da472bf",
+          "message": "WitAquaMagic: Add option to bypass low target SDK installation block [2/2]",
+          "author": "misakazip",
+          "date": "Thu Dec 11 14:47:28 2025 +0900",
+          "timestamp": 1765432048,
+          "url": "https://github.com/WitAqua/packages_apps_WitAquaMagic/commit/da472bf"
+        },
         {
           "sha": "804fa4b",
           "message": "WitAquaMagic: Allow to suppress notifications sound/vibration if screen is ON [2/2]",
@@ -7626,119 +7682,6 @@
       ]
     },
     {
-      "name": "lineage-sdk",
-      "path": "lineage-sdk",
-      "repo_url": "https://github.com/WitAqua/lineage-sdk",
-      "remote": "witaqua",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "f9e9486",
-          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
-          "author": "Toufu",
-          "date": "Tue Dec 9 16:01:44 2025 +0900",
-          "timestamp": 1765263704,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/f9e9486"
-        },
-        {
-          "sha": "214c2c4",
-          "message": "LineagePreferenceLib: Ensure the preference is available before replacing",
-          "author": "Nick Reuter",
-          "date": "Thu Dec 4 09:50:39 2025 +0000",
-          "timestamp": 1764841839,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/214c2c4"
-        },
-        {
-          "sha": "50e46bb",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:12 2025 +0000",
-          "timestamp": 1764600792,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/50e46bb"
-        },
-        {
-          "sha": "2cda05b",
-          "message": "lineage-sdk: add dotted circle style",
-          "author": "Jean-Pierre Rasquin",
-          "date": "Sun Nov 30 09:39:07 2025 +0000",
-          "timestamp": 1764495547,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/2cda05b"
-        },
-        {
-          "sha": "e471b6d",
-          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
-          "author": "Toufu",
-          "date": "Tue Nov 25 09:41:40 2025 +0900",
-          "timestamp": 1764031300,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/e471b6d"
-        },
-        {
-          "sha": "60d0477",
-          "message": "LineagePreferenceLib: RIP DropDownPreference type",
-          "author": "Bruno Martins",
-          "date": "Sun Nov 23 12:15:38 2025 +0000",
-          "timestamp": 1763900138,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/60d0477"
-        },
-        {
-          "sha": "39cff88",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:55 2025 +0000",
-          "timestamp": 1763229715,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/39cff88"
-        },
-        {
-          "sha": "be7db97",
-          "message": "Merge changes Iff3288dd,I45fc4be8 into 16.0",
-          "author": "Toufu",
-          "date": "Tue Nov 4 03:10:24 2025 +0000",
-          "timestamp": 1762225824,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/be7db97"
-        },
-        {
-          "sha": "64eb7a2",
-          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
-          "author": "Toufu",
-          "date": "Tue Nov 4 11:18:02 2025 +0900",
-          "timestamp": 1762222682,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/64eb7a2"
-        },
-        {
-          "sha": "d518e8d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:36 2025 +0000",
-          "timestamp": 1762026516,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/d518e8d"
-        },
-        {
-          "sha": "c4dfcca",
-          "message": "PowerMenuUtils: Enable advanced reboot by default [1/2]",
-          "author": "NurKeinNeid",
-          "date": "Sun Oct 19 06:38:40 2025 +0900",
-          "timestamp": 1760823520,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/c4dfcca"
-        },
-        {
-          "sha": "1225e1e",
-          "message": "Merge remote-tracking branch 'github/lineage-23.0' into HEAD",
-          "author": "Toufu",
-          "date": "Mon Oct 13 15:29:27 2025 +0900",
-          "timestamp": 1760336967,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/1225e1e"
-        },
-        {
-          "sha": "f26071c",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:38 2025 +0000",
-          "timestamp": 1758744398,
-          "url": "https://github.com/WitAqua/lineage-sdk/commit/f26071c"
-        }
-      ]
-    },
-    {
       "name": "manifest",
       "path": "manifest",
       "repo_url": "https://github.com/WitAqua/manifest",
@@ -7848,6 +7791,119 @@
           "date": "Sun Sep 14 13:01:58 2025 +0300",
           "timestamp": 1757844118,
           "url": "https://github.com/WitAqua/manifest/commit/2eb6f1c"
+        }
+      ]
+    },
+    {
+      "name": "lineage-sdk",
+      "path": "lineage-sdk",
+      "repo_url": "https://github.com/WitAqua/lineage-sdk",
+      "remote": "witaqua",
+      "commit_count": 13,
+      "commits": [
+        {
+          "sha": "f9e9486",
+          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
+          "author": "Toufu",
+          "date": "Tue Dec 9 16:01:44 2025 +0900",
+          "timestamp": 1765263704,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/f9e9486"
+        },
+        {
+          "sha": "214c2c4",
+          "message": "LineagePreferenceLib: Ensure the preference is available before replacing",
+          "author": "Nick Reuter",
+          "date": "Thu Dec 4 09:50:39 2025 +0000",
+          "timestamp": 1764841839,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/214c2c4"
+        },
+        {
+          "sha": "50e46bb",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:12 2025 +0000",
+          "timestamp": 1764600792,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/50e46bb"
+        },
+        {
+          "sha": "2cda05b",
+          "message": "lineage-sdk: add dotted circle style",
+          "author": "Jean-Pierre Rasquin",
+          "date": "Sun Nov 30 09:39:07 2025 +0000",
+          "timestamp": 1764495547,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/2cda05b"
+        },
+        {
+          "sha": "e471b6d",
+          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
+          "author": "Toufu",
+          "date": "Tue Nov 25 09:41:40 2025 +0900",
+          "timestamp": 1764031300,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/e471b6d"
+        },
+        {
+          "sha": "60d0477",
+          "message": "LineagePreferenceLib: RIP DropDownPreference type",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 23 12:15:38 2025 +0000",
+          "timestamp": 1763900138,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/60d0477"
+        },
+        {
+          "sha": "39cff88",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:55 2025 +0000",
+          "timestamp": 1763229715,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/39cff88"
+        },
+        {
+          "sha": "be7db97",
+          "message": "Merge changes Iff3288dd,I45fc4be8 into 16.0",
+          "author": "Toufu",
+          "date": "Tue Nov 4 03:10:24 2025 +0000",
+          "timestamp": 1762225824,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/be7db97"
+        },
+        {
+          "sha": "64eb7a2",
+          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
+          "author": "Toufu",
+          "date": "Tue Nov 4 11:18:02 2025 +0900",
+          "timestamp": 1762222682,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/64eb7a2"
+        },
+        {
+          "sha": "d518e8d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:36 2025 +0000",
+          "timestamp": 1762026516,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/d518e8d"
+        },
+        {
+          "sha": "c4dfcca",
+          "message": "PowerMenuUtils: Enable advanced reboot by default [1/2]",
+          "author": "NurKeinNeid",
+          "date": "Sun Oct 19 06:38:40 2025 +0900",
+          "timestamp": 1760823520,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/c4dfcca"
+        },
+        {
+          "sha": "1225e1e",
+          "message": "Merge remote-tracking branch 'github/lineage-23.0' into HEAD",
+          "author": "Toufu",
+          "date": "Mon Oct 13 15:29:27 2025 +0900",
+          "timestamp": 1760336967,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/1225e1e"
+        },
+        {
+          "sha": "f26071c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:38 2025 +0000",
+          "timestamp": 1758744398,
+          "url": "https://github.com/WitAqua/lineage-sdk/commit/f26071c"
         }
       ]
     },
@@ -9481,55 +9537,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_build_release",
-      "path": "build/release",
-      "repo_url": "https://github.com/LineageOS/android_build_release",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "fa3e8d4a",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Sun Dec 7 20:44:30 2025 +0200",
-          "timestamp": 1765133070,
-          "url": "https://github.com/LineageOS/android_build_release/commit/fa3e8d4a"
-        },
-        {
-          "sha": "c655b946",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35129096'] into 25Q2-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Fri Oct 10 14:28:35 2025 -0700",
-          "timestamp": 1760131715,
-          "url": "https://github.com/LineageOS/android_build_release/commit/c655b946"
-        },
-        {
-          "sha": "b11607ea",
-          "message": "Select sqlite 3.44.5 on ap3a",
-          "author": "Lee Shombert",
-          "date": "Fri Oct 10 13:57:59 2025 -0700",
-          "timestamp": 1760129879,
-          "url": "https://github.com/LineageOS/android_build_release/commit/b11607ea"
-        },
-        {
-          "sha": "f11d54a5",
-          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
-          "author": "Thomas Girardier",
-          "date": "Fri Sep 26 14:19:59 2025 +0200",
-          "timestamp": 1758889199,
-          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
-        },
-        {
-          "sha": "324f68f4",
-          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
-          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
-          "date": "Fri Sep 26 14:19:52 2025 +0200",
-          "timestamp": 1758889192,
-          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -9575,6 +9582,55 @@
           "date": "Sun Sep 14 20:13:34 2025 -0700",
           "timestamp": 1757906014,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build_release",
+      "path": "build/release",
+      "repo_url": "https://github.com/LineageOS/android_build_release",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "fa3e8d4a",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Sun Dec 7 20:44:30 2025 +0200",
+          "timestamp": 1765133070,
+          "url": "https://github.com/LineageOS/android_build_release/commit/fa3e8d4a"
+        },
+        {
+          "sha": "c655b946",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35129096'] into 25Q2-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Fri Oct 10 14:28:35 2025 -0700",
+          "timestamp": 1760131715,
+          "url": "https://github.com/LineageOS/android_build_release/commit/c655b946"
+        },
+        {
+          "sha": "b11607ea",
+          "message": "Select sqlite 3.44.5 on ap3a",
+          "author": "Lee Shombert",
+          "date": "Fri Oct 10 13:57:59 2025 -0700",
+          "timestamp": 1760129879,
+          "url": "https://github.com/LineageOS/android_build_release/commit/b11607ea"
+        },
+        {
+          "sha": "f11d54a5",
+          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
+          "author": "Thomas Girardier",
+          "date": "Fri Sep 26 14:19:59 2025 +0200",
+          "timestamp": 1758889199,
+          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
+        },
+        {
+          "sha": "324f68f4",
+          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
+          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
+          "date": "Fri Sep 26 14:19:52 2025 +0200",
+          "timestamp": 1758889192,
+          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
         }
       ]
     },
@@ -11754,23 +11810,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_power",
-      "path": "vendor/qcom/opensource/power",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "97a0bce",
-          "message": "power: Drop non-existent android.hardware.power-impl",
-          "author": "basamaryan",
-          "date": "Mon Nov 24 06:00:51 2025 -0500",
-          "timestamp": 1763982051,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
       "path": "vendor/qcom/opensource/vibrator",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
@@ -11784,6 +11823,23 @@
           "date": "Tue Oct 28 09:18:03 2025 +0100",
           "timestamp": 1761639483,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_power",
+      "path": "vendor/qcom/opensource/power",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "97a0bce",
+          "message": "power: Drop non-existent android.hardware.power-impl",
+          "author": "basamaryan",
+          "date": "Mon Nov 24 06:00:51 2025 -0500",
+          "timestamp": 1763982051,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
         }
       ]
     },

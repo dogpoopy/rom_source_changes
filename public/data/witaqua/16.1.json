@@ -1,10 +1,10 @@
 {
   "rom_id": "witaqua",
   "branch": "16.1",
-  "generated_at": "2025-12-12T01:44:12.101697+00:00",
-  "since_date": "2025-09-13",
+  "generated_at": "2025-12-13T01:34:04.869306+00:00",
+  "since_date": "2025-09-14",
   "total_projects": 123,
-  "total_commits": 1324,
+  "total_commits": 1332,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1471,6 +1471,14 @@
       "commit_count": 172,
       "commits": [
         {
+          "sha": "edb3814594d",
+          "message": "base: Add option to bypass low target SDK installation block [1/2]",
+          "author": "misakazip",
+          "date": "Thu Dec 11 14:45:18 2025 +0900",
+          "timestamp": 1765431918,
+          "url": "https://github.com/WitAqua/frameworks_base/commit/edb3814594d"
+        },
+        {
           "sha": "41f72e38764",
           "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
           "author": "Toufu",
@@ -2429,14 +2437,6 @@
           "date": "Wed Oct 15 12:46:43 2025 +0900",
           "timestamp": 1760500003,
           "url": "https://github.com/WitAqua/frameworks_base/commit/9f236de3947"
-        },
-        {
-          "sha": "3e9b3594a30",
-          "message": "SystemUI: Disable ongoing progress by default",
-          "author": "Ghosuto",
-          "date": "Wed Oct 15 12:46:43 2025 +0900",
-          "timestamp": 1760500003,
-          "url": "https://github.com/WitAqua/frameworks_base/commit/3e9b3594a30"
         },
         {
           "sha": "dbc227e71b8",
@@ -4993,8 +4993,24 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 39,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "76f9a6a",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:54 2025 +0000",
+          "timestamp": 1765535514,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/76f9a6a"
+        },
+        {
+          "sha": "afff3ed",
+          "message": "qva: Label AOSP NXP keymint and weaver HALs",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:32 2025 +0000",
+          "timestamp": 1765535492,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/afff3ed"
+        },
         {
           "sha": "dd78185",
           "message": "sepolicy: Label SEC NFC device & HAL",
@@ -5635,8 +5651,40 @@
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
       "remote": "github",
-      "commit_count": 32,
+      "commit_count": 36,
       "commits": [
+        {
+          "sha": "ef0ffef",
+          "message": "extract_utils: bp_builder: use existing `target` element if possible",
+          "author": "LuK1337",
+          "date": "Fri Dec 12 14:10:19 2025 +0100",
+          "timestamp": 1765545019,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ef0ffef"
+        },
+        {
+          "sha": "bb4f248",
+          "message": "extract_utils: allow passing proprietary files to ExtractUtilsModule",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/bb4f248"
+        },
+        {
+          "sha": "c6385ca",
+          "message": "extract_utils: add support for virtual proprietary files",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c6385ca"
+        },
+        {
+          "sha": "640c56e",
+          "message": "extract_utils: add support for 7z extraction",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/640c56e"
+        },
         {
           "sha": "70d8244",
           "message": "extract_utils: fix multiple backing up prints",
@@ -7243,8 +7291,16 @@
       "path": "packages/apps/WitAquaMagic",
       "repo_url": "https://github.com/WitAqua/packages_apps_WitAquaMagic",
       "remote": "witaqua",
-      "commit_count": 16,
+      "commit_count": 17,
       "commits": [
+        {
+          "sha": "da472bf",
+          "message": "WitAquaMagic: Add option to bypass low target SDK installation block [2/2]",
+          "author": "misakazip",
+          "date": "Thu Dec 11 14:47:28 2025 +0900",
+          "timestamp": 1765432048,
+          "url": "https://github.com/WitAqua/packages_apps_WitAquaMagic/commit/da472bf"
+        },
         {
           "sha": "804fa4b",
           "message": "WitAquaMagic: Allow to suppress notifications sound/vibration if screen is ON [2/2]",
@@ -9481,55 +9537,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_build_release",
-      "path": "build/release",
-      "repo_url": "https://github.com/LineageOS/android_build_release",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "fa3e8d4a",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Sun Dec 7 20:44:30 2025 +0200",
-          "timestamp": 1765133070,
-          "url": "https://github.com/LineageOS/android_build_release/commit/fa3e8d4a"
-        },
-        {
-          "sha": "c655b946",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35129096'] into 25Q2-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Fri Oct 10 14:28:35 2025 -0700",
-          "timestamp": 1760131715,
-          "url": "https://github.com/LineageOS/android_build_release/commit/c655b946"
-        },
-        {
-          "sha": "b11607ea",
-          "message": "Select sqlite 3.44.5 on ap3a",
-          "author": "Lee Shombert",
-          "date": "Fri Oct 10 13:57:59 2025 -0700",
-          "timestamp": 1760129879,
-          "url": "https://github.com/LineageOS/android_build_release/commit/b11607ea"
-        },
-        {
-          "sha": "f11d54a5",
-          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
-          "author": "Thomas Girardier",
-          "date": "Fri Sep 26 14:19:59 2025 +0200",
-          "timestamp": 1758889199,
-          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
-        },
-        {
-          "sha": "324f68f4",
-          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
-          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
-          "date": "Fri Sep 26 14:19:52 2025 +0200",
-          "timestamp": 1758889192,
-          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -9575,6 +9582,55 @@
           "date": "Sun Sep 14 20:13:34 2025 -0700",
           "timestamp": 1757906014,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build_release",
+      "path": "build/release",
+      "repo_url": "https://github.com/LineageOS/android_build_release",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "fa3e8d4a",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Sun Dec 7 20:44:30 2025 +0200",
+          "timestamp": 1765133070,
+          "url": "https://github.com/LineageOS/android_build_release/commit/fa3e8d4a"
+        },
+        {
+          "sha": "c655b946",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35129096'] into 25Q2-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Fri Oct 10 14:28:35 2025 -0700",
+          "timestamp": 1760131715,
+          "url": "https://github.com/LineageOS/android_build_release/commit/c655b946"
+        },
+        {
+          "sha": "b11607ea",
+          "message": "Select sqlite 3.44.5 on ap3a",
+          "author": "Lee Shombert",
+          "date": "Fri Oct 10 13:57:59 2025 -0700",
+          "timestamp": 1760129879,
+          "url": "https://github.com/LineageOS/android_build_release/commit/b11607ea"
+        },
+        {
+          "sha": "f11d54a5",
+          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
+          "author": "Thomas Girardier",
+          "date": "Fri Sep 26 14:19:59 2025 +0200",
+          "timestamp": 1758889199,
+          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
+        },
+        {
+          "sha": "324f68f4",
+          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
+          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
+          "date": "Fri Sep 26 14:19:52 2025 +0200",
+          "timestamp": 1758889192,
+          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
         }
       ]
     },
@@ -10547,6 +10603,39 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sm8350/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "c1c4d03",
+          "message": "hal: Fix lvimfs log message",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 11 20:41:38 2025 +0200",
+          "timestamp": 1765478498,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c1c4d03"
+        },
+        {
+          "sha": "6afc6e6",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:18:58 2025 +0200",
+          "timestamp": 1762607938,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/6afc6e6"
+        },
+        {
+          "sha": "52aa6a1",
+          "message": "configs: lahaina: Set C2 as preferred codec",
+          "author": "Manish Kumar",
+          "date": "Wed Sep 24 02:08:29 2025 -0700",
+          "timestamp": 1758704909,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/52aa6a1"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_wlan",
       "path": "hardware/qcom-caf/wlan",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
@@ -10816,31 +10905,6 @@
           "date": "Sun Sep 14 15:31:32 2025 +0300",
           "timestamp": 1757853092,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sm8350/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "6afc6e6",
-          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:18:58 2025 +0200",
-          "timestamp": 1762607938,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/6afc6e6"
-        },
-        {
-          "sha": "52aa6a1",
-          "message": "configs: lahaina: Set C2 as preferred codec",
-          "author": "Manish Kumar",
-          "date": "Wed Sep 24 02:08:29 2025 -0700",
-          "timestamp": 1758704909,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/52aa6a1"
         }
       ]
     },
@@ -11265,23 +11329,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8350/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e9bbe9a",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 21:53:29 2025 +0200",
-          "timestamp": 1765223609,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8450/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -11294,6 +11341,23 @@
           "date": "Mon Dec 8 22:58:07 2025 +0200",
           "timestamp": 1765227487,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8350/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e9bbe9a",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 21:53:29 2025 +0200",
+          "timestamp": 1765223609,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
         }
       ]
     },
@@ -11417,23 +11481,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_UprobeStats",
-      "path": "packages/modules/UprobeStats",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a3440fa",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 4 01:23:12 2025 +0200",
-          "timestamp": 1764804192,
-          "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/a3440fa"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_Nfc",
       "path": "packages/modules/Nfc",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_Nfc",
@@ -11447,6 +11494,23 @@
           "date": "Thu Dec 4 01:23:07 2025 +0200",
           "timestamp": 1764804187,
           "url": "https://github.com/LineageOS/android_packages_modules_Nfc/commit/9a4b4ef1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_UprobeStats",
+      "path": "packages/modules/UprobeStats",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a3440fa",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 4 01:23:12 2025 +0200",
+          "timestamp": 1764804192,
+          "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/a3440fa"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "rom_id": "axion",
   "branch": "lineage-23.0",
-  "generated_at": "2025-12-12T01:29:12.580735+00:00",
-  "since_date": "2025-09-13",
+  "generated_at": "2025-12-13T01:23:12.228033+00:00",
+  "since_date": "2025-09-14",
   "total_projects": 134,
-  "total_commits": 1793,
+  "total_commits": 1798,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -5120,7 +5120,7 @@
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 87,
+      "commit_count": 86,
       "commits": [
         {
           "sha": "33a6888",
@@ -5809,14 +5809,6 @@
           "date": "Sun Sep 14 09:43:08 2025 +0200",
           "timestamp": 1757835788,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/2744973"
-        },
-        {
-          "sha": "ca24d88",
-          "message": "wiki: Update pioneer maintainers",
-          "author": "LuK1337",
-          "date": "Sat Sep 13 22:17:19 2025 +0200",
-          "timestamp": 1757794639,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ca24d88"
         }
       ]
     },
@@ -6931,8 +6923,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 48,
+      "commit_count": 49,
       "commits": [
+        {
+          "sha": "8b286fc",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Dec 12 23:30:45 2025 +0000",
+          "timestamp": 1765582245,
+          "url": "https://github.com/LineageOS/hudson/commit/8b286fc"
+        },
         {
           "sha": "dc400bb",
           "message": "after like a year, we figured out the stupid BSOD issue",
@@ -8054,8 +8054,24 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 39,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "76f9a6a",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:54 2025 +0000",
+          "timestamp": 1765535514,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/76f9a6a"
+        },
+        {
+          "sha": "afff3ed",
+          "message": "qva: Label AOSP NXP keymint and weaver HALs",
+          "author": "dianlujitao",
+          "date": "Fri Dec 12 10:31:32 2025 +0000",
+          "timestamp": 1765535492,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/afff3ed"
+        },
         {
           "sha": "dd78185",
           "message": "sepolicy: Label SEC NFC device & HAL",
@@ -8688,8 +8704,40 @@
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
       "remote": "github",
-      "commit_count": 32,
+      "commit_count": 36,
       "commits": [
+        {
+          "sha": "ef0ffef",
+          "message": "extract_utils: bp_builder: use existing `target` element if possible",
+          "author": "LuK1337",
+          "date": "Fri Dec 12 14:10:19 2025 +0100",
+          "timestamp": 1765545019,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ef0ffef"
+        },
+        {
+          "sha": "bb4f248",
+          "message": "extract_utils: allow passing proprietary files to ExtractUtilsModule",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/bb4f248"
+        },
+        {
+          "sha": "c6385ca",
+          "message": "extract_utils: add support for virtual proprietary files",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c6385ca"
+        },
+        {
+          "sha": "640c56e",
+          "message": "extract_utils: add support for 7z extraction",
+          "author": "Cosmin Tanislav",
+          "date": "Tue Dec 9 01:52:01 2025 +0200",
+          "timestamp": 1765237921,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/640c56e"
+        },
         {
           "sha": "70d8244",
           "message": "extract_utils: fix multiple backing up prints",
@@ -10791,151 +10839,6 @@
       ]
     },
     {
-      "name": "android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/AxionAOSP/android_build_soong",
-      "remote": "axion",
-      "commit_count": 17,
-      "commits": [
-        {
-          "sha": "d037edd1",
-          "message": "[build] simplifying soong binary allowlist",
-          "author": "rmp22",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/d037edd1"
-        },
-        {
-          "sha": "b0c905e8",
-          "message": "soong: check_boot_jars: Whitelist Xiaomi Extensions",
-          "author": "johnmart19",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/b0c905e8"
-        },
-        {
-          "sha": "f006eb0a",
-          "message": "soong: check_boot_jars: Whitelist Camera Extensions",
-          "author": "johnmart19",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/f006eb0a"
-        },
-        {
-          "sha": "b99bff55",
-          "message": "adding maintainer variable to dumpvars",
-          "author": "rmp22",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/b99bff55"
-        },
-        {
-          "sha": "322b14eb",
-          "message": "soong: Disable sandbox",
-          "author": "Akash",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/322b14eb"
-        },
-        {
-          "sha": "1ebd9a03",
-          "message": "gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/1ebd9a03"
-        },
-        {
-          "sha": "288c45b1",
-          "message": "overriding LineageOS properties",
-          "author": "rmp22",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/288c45b1"
-        },
-        {
-          "sha": "4606b646",
-          "message": "Add support for kryo785 CPU variant in arm64 device configuration",
-          "author": "andy",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/4606b646"
-        },
-        {
-          "sha": "8d2591d9",
-          "message": "check_boot_jars: Add more OnePlus packages to whitelist",
-          "author": "ShevT",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/8d2591d9"
-        },
-        {
-          "sha": "12028d57",
-          "message": "allow convert usage",
-          "author": "rmp22",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/12028d57"
-        },
-        {
-          "sha": "36588516",
-          "message": "config.go: Allow running numfmt",
-          "author": "rmp22",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/36588516"
-        },
-        {
-          "sha": "310c0921",
-          "message": "Add ability to enable scudo-free 32-bit libc variant.",
-          "author": "Quallenauge",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/310c0921"
-        },
-        {
-          "sha": "d3b3659b",
-          "message": "soong: increase heap size for metalava",
-          "author": "LeddaZ",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/d3b3659b"
-        },
-        {
-          "sha": "125994af",
-          "message": "gen_build_prop: Always return release-keys",
-          "author": "minaripenguin",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/125994af"
-        },
-        {
-          "sha": "1ab0574d",
-          "message": "soong: Always return release-keys",
-          "author": "Pranav Vashi",
-          "date": "Mon Dec 8 10:26:16 2025 +0800",
-          "timestamp": 1765160776,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/1ab0574d"
-        },
-        {
-          "sha": "4397b793",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 4 01:18:54 2025 +0200",
-          "timestamp": 1764803934,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/4397b793"
-        },
-        {
-          "sha": "cff28f53",
-          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
-          "author": "Colin Cross",
-          "date": "Mon Oct 27 22:57:34 2025 +0000",
-          "timestamp": 1761605854,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/cff28f53"
-        }
-      ]
-    },
-    {
       "name": "android_device_lineage_sepolicy",
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/AxionAOSP/android_device_lineage_sepolicy",
@@ -11077,6 +10980,151 @@
           "date": "Wed Oct 15 18:13:48 2025 +0000",
           "timestamp": 1760552028,
           "url": "https://github.com/AxionAOSP/android_device_lineage_sepolicy/commit/6810925"
+        }
+      ]
+    },
+    {
+      "name": "android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/AxionAOSP/android_build_soong",
+      "remote": "axion",
+      "commit_count": 17,
+      "commits": [
+        {
+          "sha": "d037edd1",
+          "message": "[build] simplifying soong binary allowlist",
+          "author": "rmp22",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/d037edd1"
+        },
+        {
+          "sha": "b0c905e8",
+          "message": "soong: check_boot_jars: Whitelist Xiaomi Extensions",
+          "author": "johnmart19",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/b0c905e8"
+        },
+        {
+          "sha": "f006eb0a",
+          "message": "soong: check_boot_jars: Whitelist Camera Extensions",
+          "author": "johnmart19",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/f006eb0a"
+        },
+        {
+          "sha": "b99bff55",
+          "message": "adding maintainer variable to dumpvars",
+          "author": "rmp22",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/b99bff55"
+        },
+        {
+          "sha": "322b14eb",
+          "message": "soong: Disable sandbox",
+          "author": "Akash",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/322b14eb"
+        },
+        {
+          "sha": "1ebd9a03",
+          "message": "gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds",
+          "author": "Dmitry Muhomor",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/1ebd9a03"
+        },
+        {
+          "sha": "288c45b1",
+          "message": "overriding LineageOS properties",
+          "author": "rmp22",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/288c45b1"
+        },
+        {
+          "sha": "4606b646",
+          "message": "Add support for kryo785 CPU variant in arm64 device configuration",
+          "author": "andy",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/4606b646"
+        },
+        {
+          "sha": "8d2591d9",
+          "message": "check_boot_jars: Add more OnePlus packages to whitelist",
+          "author": "ShevT",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/8d2591d9"
+        },
+        {
+          "sha": "12028d57",
+          "message": "allow convert usage",
+          "author": "rmp22",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/12028d57"
+        },
+        {
+          "sha": "36588516",
+          "message": "config.go: Allow running numfmt",
+          "author": "rmp22",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/36588516"
+        },
+        {
+          "sha": "310c0921",
+          "message": "Add ability to enable scudo-free 32-bit libc variant.",
+          "author": "Quallenauge",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/310c0921"
+        },
+        {
+          "sha": "d3b3659b",
+          "message": "soong: increase heap size for metalava",
+          "author": "LeddaZ",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/d3b3659b"
+        },
+        {
+          "sha": "125994af",
+          "message": "gen_build_prop: Always return release-keys",
+          "author": "minaripenguin",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/125994af"
+        },
+        {
+          "sha": "1ab0574d",
+          "message": "soong: Always return release-keys",
+          "author": "Pranav Vashi",
+          "date": "Mon Dec 8 10:26:16 2025 +0800",
+          "timestamp": 1765160776,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/1ab0574d"
+        },
+        {
+          "sha": "4397b793",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 4 01:18:54 2025 +0200",
+          "timestamp": 1764803934,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/4397b793"
+        },
+        {
+          "sha": "cff28f53",
+          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Colin Cross",
+          "date": "Mon Oct 27 22:57:34 2025 +0000",
+          "timestamp": 1761605854,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/cff28f53"
         }
       ]
     },
@@ -12026,95 +12074,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_AxionWidgets",
-      "path": "packages/apps/AxionWidgets",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets",
-      "remote": "axion",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "b82f60a",
-          "message": "[ax_scheduling] initial integrate",
-          "author": "rmp22",
-          "date": "Wed Nov 12 22:23:45 2025 +0800",
-          "timestamp": 1762957425,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b82f60a"
-        },
-        {
-          "sha": "c1fade6",
-          "message": "[ax_schedule] cpu scheduling integrate",
-          "author": "rmp22",
-          "date": "Tue Nov 11 12:27:13 2025 +0800",
-          "timestamp": 1762835233,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/c1fade6"
-        },
-        {
-          "sha": "8a1a27f",
-          "message": "fixing privapp list typo",
-          "author": "rmp22",
-          "date": "Wed Nov 5 11:06:16 2025 +0800",
-          "timestamp": 1762311976,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8a1a27f"
-        },
-        {
-          "sha": "65254e8",
-          "message": "making widgets service persistent",
-          "author": "rmp22",
-          "date": "Sun Nov 2 22:20:55 2025 +0800",
-          "timestamp": 1762093255,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/65254e8"
-        },
-        {
-          "sha": "d17a18c",
-          "message": "widgets fixes and enhancements",
-          "author": "rmp22",
-          "date": "Sun Oct 12 10:23:28 2025 +0800",
-          "timestamp": 1760235808,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/d17a18c"
-        },
-        {
-          "sha": "8ff84e7",
-          "message": "adding warmup protection to update service",
-          "author": "rmp22",
-          "date": "Wed Oct 1 19:21:49 2025 +0800",
-          "timestamp": 1759317709,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8ff84e7"
-        },
-        {
-          "sha": "1130bda",
-          "message": "add screen time widget",
-          "author": "rmp22",
-          "date": "Mon Sep 22 18:59:43 2025 +0800",
-          "timestamp": 1758538783,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/1130bda"
-        },
-        {
-          "sha": "b4a2812",
-          "message": "using ringerModeInternal to avoid activating DND on silent mode",
-          "author": "rmp22",
-          "date": "Mon Sep 22 16:17:13 2025 +0800",
-          "timestamp": 1758529033,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b4a2812"
-        },
-        {
-          "sha": "7aaad5c",
-          "message": "photo widget structure fix | update",
-          "author": "rmp22",
-          "date": "Sun Sep 21 15:51:01 2025 +0800",
-          "timestamp": 1758441061,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/7aaad5c"
-        },
-        {
-          "sha": "de964e1",
-          "message": "fix logic errors",
-          "author": "rmp22",
-          "date": "Sat Sep 13 20:14:16 2025 +0800",
-          "timestamp": 1757765656,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/de964e1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8750",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -12435,6 +12394,87 @@
           "date": "Wed Sep 24 20:06:38 2025 +0000",
           "timestamp": 1758744398,
           "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/f26071c"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_AxionWidgets",
+      "path": "packages/apps/AxionWidgets",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets",
+      "remote": "axion",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "b82f60a",
+          "message": "[ax_scheduling] initial integrate",
+          "author": "rmp22",
+          "date": "Wed Nov 12 22:23:45 2025 +0800",
+          "timestamp": 1762957425,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b82f60a"
+        },
+        {
+          "sha": "c1fade6",
+          "message": "[ax_schedule] cpu scheduling integrate",
+          "author": "rmp22",
+          "date": "Tue Nov 11 12:27:13 2025 +0800",
+          "timestamp": 1762835233,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/c1fade6"
+        },
+        {
+          "sha": "8a1a27f",
+          "message": "fixing privapp list typo",
+          "author": "rmp22",
+          "date": "Wed Nov 5 11:06:16 2025 +0800",
+          "timestamp": 1762311976,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8a1a27f"
+        },
+        {
+          "sha": "65254e8",
+          "message": "making widgets service persistent",
+          "author": "rmp22",
+          "date": "Sun Nov 2 22:20:55 2025 +0800",
+          "timestamp": 1762093255,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/65254e8"
+        },
+        {
+          "sha": "d17a18c",
+          "message": "widgets fixes and enhancements",
+          "author": "rmp22",
+          "date": "Sun Oct 12 10:23:28 2025 +0800",
+          "timestamp": 1760235808,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/d17a18c"
+        },
+        {
+          "sha": "8ff84e7",
+          "message": "adding warmup protection to update service",
+          "author": "rmp22",
+          "date": "Wed Oct 1 19:21:49 2025 +0800",
+          "timestamp": 1759317709,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8ff84e7"
+        },
+        {
+          "sha": "1130bda",
+          "message": "add screen time widget",
+          "author": "rmp22",
+          "date": "Mon Sep 22 18:59:43 2025 +0800",
+          "timestamp": 1758538783,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/1130bda"
+        },
+        {
+          "sha": "b4a2812",
+          "message": "using ringerModeInternal to avoid activating DND on silent mode",
+          "author": "rmp22",
+          "date": "Mon Sep 22 16:17:13 2025 +0800",
+          "timestamp": 1758529033,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b4a2812"
+        },
+        {
+          "sha": "7aaad5c",
+          "message": "photo widget structure fix | update",
+          "author": "rmp22",
+          "date": "Sun Sep 21 15:51:01 2025 +0800",
+          "timestamp": 1758441061,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/7aaad5c"
         }
       ]
     },
@@ -14589,31 +14629,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_skia",
-      "path": "external/skia",
-      "repo_url": "https://github.com/LineageOS/android_external_skia",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "4c18a968",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35440757'] into 25Q2-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Tue Oct 14 19:43:04 2025 -0700",
-          "timestamp": 1760496184,
-          "url": "https://github.com/LineageOS/android_external_skia/commit/4c18a968"
-        },
-        {
-          "sha": "40c3f0a5",
-          "message": "Backport DNG SDK 1.7.1 support in SkRawCodec",
-          "author": "John Reck",
-          "date": "Tue Oct 14 19:42:53 2025 -0700",
-          "timestamp": 1760496173,
-          "url": "https://github.com/LineageOS/android_external_skia/commit/40c3f0a5"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom-caf_common",
       "path": "hardware/qcom-caf/common",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
@@ -14660,6 +14675,31 @@
           "date": "Sun Sep 14 15:31:32 2025 +0300",
           "timestamp": 1757853092,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_skia",
+      "path": "external/skia",
+      "repo_url": "https://github.com/LineageOS/android_external_skia",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4c18a968",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35440757'] into 25Q2-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Tue Oct 14 19:43:04 2025 -0700",
+          "timestamp": 1760496184,
+          "url": "https://github.com/LineageOS/android_external_skia/commit/4c18a968"
+        },
+        {
+          "sha": "40c3f0a5",
+          "message": "Backport DNG SDK 1.7.1 support in SkRawCodec",
+          "author": "John Reck",
+          "date": "Tue Oct 14 19:42:53 2025 -0700",
+          "timestamp": 1760496173,
+          "url": "https://github.com/LineageOS/android_external_skia/commit/40c3f0a5"
         }
       ]
     },
@@ -15167,23 +15207,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8450/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c2d1986",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:07 2025 +0200",
-          "timestamp": 1765227487,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8550/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -15196,6 +15219,23 @@
           "date": "Mon Dec 8 22:58:21 2025 +0200",
           "timestamp": 1765227501,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8450/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c2d1986",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:07 2025 +0200",
+          "timestamp": 1765227487,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
         }
       ]
     },
@@ -15268,23 +15308,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_Nfc",
-      "path": "packages/modules/Nfc",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_Nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9a4b4ef1",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 4 01:23:07 2025 +0200",
-          "timestamp": 1764804187,
-          "url": "https://github.com/LineageOS/android_packages_modules_Nfc/commit/9a4b4ef1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_UprobeStats",
       "path": "packages/modules/UprobeStats",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
@@ -15298,6 +15321,23 @@
           "date": "Thu Dec 4 01:23:12 2025 +0200",
           "timestamp": 1764804192,
           "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/a3440fa"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_Nfc",
+      "path": "packages/modules/Nfc",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_Nfc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9a4b4ef1",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 4 01:23:07 2025 +0200",
+          "timestamp": 1764804187,
+          "url": "https://github.com/LineageOS/android_packages_modules_Nfc/commit/9a4b4ef1"
         }
       ]
     },
@@ -15387,23 +15427,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_power",
-      "path": "vendor/qcom/opensource/power",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "97a0bce",
-          "message": "power: Drop non-existent android.hardware.power-impl",
-          "author": "basamaryan",
-          "date": "Mon Nov 24 06:00:51 2025 -0500",
-          "timestamp": 1763982051,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
       "path": "vendor/qcom/opensource/vibrator",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
@@ -15417,6 +15440,23 @@
           "date": "Tue Oct 28 09:18:03 2025 +0100",
           "timestamp": 1761639483,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_power",
+      "path": "vendor/qcom/opensource/power",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "97a0bce",
+          "message": "power: Drop non-existent android.hardware.power-impl",
+          "author": "basamaryan",
+          "date": "Mon Nov 24 06:00:51 2025 -0500",
+          "timestamp": 1763982051,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
         }
       ]
     },
