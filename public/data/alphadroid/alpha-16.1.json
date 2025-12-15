@@ -1,10 +1,10 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-12-14T01:39:49.539890+00:00",
-  "since_date": "2025-09-15",
+  "generated_at": "2025-12-15T01:32:43.826941+00:00",
+  "since_date": "2025-09-16",
   "total_projects": 32,
-  "total_commits": 928,
+  "total_commits": 1003,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -5013,6 +5013,447 @@
       ]
     },
     {
+      "name": "frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/alphadroid-project/frameworks_av",
+      "remote": "alpha",
+      "commit_count": 54,
+      "commits": [
+        {
+          "sha": "ccfacc5",
+          "message": "Null Pointer Exception in CameraServer during user switch",
+          "author": "Phoenix wang",
+          "date": "Sun Dec 14 13:14:48 2025 +0000",
+          "timestamp": 1765718088,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/ccfacc5"
+        },
+        {
+          "sha": "202b988",
+          "message": "skip mediametrics when statsd is not available",
+          "author": "rmp22",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/202b988"
+        },
+        {
+          "sha": "dac66d9",
+          "message": "Revert \"MultiAccessUnit reflector helper allocated once per ComponentStore\"",
+          "author": "Abhay Singh Gill",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/dac66d9"
+        },
+        {
+          "sha": "4e29b0c",
+          "message": "CameraProviderExtension: add enabled bool and always set torch",
+          "author": "John Galt",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/4e29b0c"
+        },
+        {
+          "sha": "b0b632c",
+          "message": "CameraProviderExtension: Reset strength level on torch off",
+          "author": "bengris32",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/b0b632c"
+        },
+        {
+          "sha": "aac7a96",
+          "message": "CameraProviderExtension: Update mTorchStrengthLevel with new level",
+          "author": "bengris32",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/aac7a96"
+        },
+        {
+          "sha": "1f04bf6",
+          "message": "CameraProviderExtension: Return BAD_VALUE for invalid strength level",
+          "author": "bengris32",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/1f04bf6"
+        },
+        {
+          "sha": "07105ec",
+          "message": "CameraProviderExtension: Use weak linkage for default implementations",
+          "author": "bengris32",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/07105ec"
+        },
+        {
+          "sha": "613e831",
+          "message": "CameraProviderExtension: Inject strength in fixupTorchStrengthTags",
+          "author": "bengris32",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/613e831"
+        },
+        {
+          "sha": "0413b8c",
+          "message": "camera: Add extension to control torch light strength",
+          "author": "Dhina17",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/0413b8c"
+        },
+        {
+          "sha": "5c2d0bc",
+          "message": "Extends \"Camera: Skip stream size check for whitelisted apps\"",
+          "author": "someone5678",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/5c2d0bc"
+        },
+        {
+          "sha": "630cdc9",
+          "message": "Fix usb camera number is not correct after plug out.",
+          "author": "eric_kuang.rs",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/630cdc9"
+        },
+        {
+          "sha": "1f4b7c9",
+          "message": "updatePolicyState after updating all EffectHandle state.",
+          "author": "xialei6",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/1f4b7c9"
+        },
+        {
+          "sha": "4478e49",
+          "message": "libcameraservice: support disabling torch control support",
+          "author": "John Galt",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/4478e49"
+        },
+        {
+          "sha": "331b4d4",
+          "message": "fixup! av: support per-app volume [1/3]",
+          "author": "someone5678",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/331b4d4"
+        },
+        {
+          "sha": "53089d6",
+          "message": "audio: Remove UID check from per-app volume commands",
+          "author": "Adithya R",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/53089d6"
+        },
+        {
+          "sha": "4890ac9",
+          "message": "av: support per-app volume [1/3]",
+          "author": "cjybyjk",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/4890ac9"
+        },
+        {
+          "sha": "9e14a3f",
+          "message": "audio: Check MODIFY_AUDIO_ROUTING permission for per-app volume",
+          "author": "Adithya R",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/9e14a3f"
+        },
+        {
+          "sha": "1b0d00b",
+          "message": "libcameraservice: Fixup! add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB",
+          "author": "Terminator-J",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/1b0d00b"
+        },
+        {
+          "sha": "f92e136",
+          "message": "libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB",
+          "author": "Hikari-no-Tenshi",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/f92e136"
+        },
+        {
+          "sha": "4a67e8b",
+          "message": "libcameraservice: Fixup! Add support to set vendor tag with client package name",
+          "author": "Terminator-J",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/4a67e8b"
+        },
+        {
+          "sha": "587ef2a",
+          "message": "libcameraservice: Add support to set vendor tag with client package name",
+          "author": "cjh1249131356",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/587ef2a"
+        },
+        {
+          "sha": "a876089",
+          "message": "issue: After connecting the Bluetooth earphones and projecting the screen, music will play from the earphones. At this point, disconnect the earphones, click play, and the projection will be silent",
+          "author": "fengxiaoshuang",
+          "date": "Thu Oct 23 17:30:23 2025 +0530",
+          "timestamp": 1761220823,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/a876089"
+        },
+        {
+          "sha": "18cf1f7",
+          "message": "MediaHTTP: resolve mName race condition issue",
+          "author": "yifeng Cao",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/18cf1f7"
+        },
+        {
+          "sha": "991b6b8",
+          "message": "Fix EglFramebuffer leak",
+          "author": "Abdelrahman Daim",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/991b6b8"
+        },
+        {
+          "sha": "4341656",
+          "message": "AudioPlaybackCapture: solve patchTrack unable to update speed issue",
+          "author": "chongyin",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/4341656"
+        },
+        {
+          "sha": "5b5e7aa",
+          "message": "Fix SwAudioOutputCollection indexing in closeOutput()",
+          "author": "Sampath Shetty",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/5b5e7aa"
+        },
+        {
+          "sha": "88a4fcf",
+          "message": "audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag",
+          "author": "Raghu Ballappa Bankapur",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/88a4fcf"
+        },
+        {
+          "sha": "615bb7a",
+          "message": "Audio: fix ~refbase() crash caused by race condition",
+          "author": "zhouchenchang",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/615bb7a"
+        },
+        {
+          "sha": "5776595",
+          "message": "MediaProfiles: Check before overriding media settings xml",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/5776595"
+        },
+        {
+          "sha": "a50f9b6",
+          "message": "media: Add changes to pick target specific media xml's",
+          "author": "Uma Mehta",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/a50f9b6"
+        },
+        {
+          "sha": "aebef1e",
+          "message": "media: OMXStore: Import loading libstagefrightdolby",
+          "author": "johnmart19",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/aebef1e"
+        },
+        {
+          "sha": "2df2bbb",
+          "message": "OMX: Remove support for prebuilt ac4 decoder",
+          "author": "Adithya R",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/2df2bbb"
+        },
+        {
+          "sha": "d22fcec",
+          "message": "libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib",
+          "author": "Paul Keith",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/d22fcec"
+        },
+        {
+          "sha": "f2131ee",
+          "message": "frameworks/av: Import Xiaomi Image Tags defenitions",
+          "author": "johnmart19",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/f2131ee"
+        },
+        {
+          "sha": "d27b4e6",
+          "message": "av: Initial support for 24bit encoding and 6 channels",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/d27b4e6"
+        },
+        {
+          "sha": "33f4099",
+          "message": "nuplayer: Avoid crash when codec fails to load",
+          "author": "Steve Kondik",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/33f4099"
+        },
+        {
+          "sha": "2c2283e",
+          "message": "StagefrightRecorder: Add \"set-title\" parameter",
+          "author": "cjh1249131356",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/2c2283e"
+        },
+        {
+          "sha": "178947b",
+          "message": "libstagefright: Allow HFR-60 in HAL-3 recording",
+          "author": "Manikanta Kanamarlapudi",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/178947b"
+        },
+        {
+          "sha": "024859d",
+          "message": "libstagefright: Support YVU420SemiPlanar camera format",
+          "author": "Ethan Chen",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/024859d"
+        },
+        {
+          "sha": "236b236",
+          "message": "stagefright: add changes related to high-framerates in CameraSource",
+          "author": "Paras Nagda",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/236b236"
+        },
+        {
+          "sha": "84a3c87",
+          "message": "camera: Don't segfault if we get a NULL parameter",
+          "author": "Steve Kondik",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/84a3c87"
+        },
+        {
+          "sha": "653e5a4",
+          "message": "Camera: Removing cachedump call to miminimize delay during close.",
+          "author": "Venugopal Nadipalli",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/653e5a4"
+        },
+        {
+          "sha": "5bf86c2",
+          "message": "Camera: Flush Improvements - Result drain optimization",
+          "author": "Susmitha Gummalla",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/5bf86c2"
+        },
+        {
+          "sha": "6eb2692",
+          "message": "CameraService: Fix deadlock in binder death cleanup",
+          "author": "Mounika Reddy Tangirala",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/6eb2692"
+        },
+        {
+          "sha": "f2de029",
+          "message": "av: Remove restrictions for system audio record",
+          "author": "jhenrique09",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/f2de029"
+        },
+        {
+          "sha": "659ccd3",
+          "message": "Camera: Add support for preview frame fd",
+          "author": "Susmitha Gummalla",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/659ccd3"
+        },
+        {
+          "sha": "8ce5b15",
+          "message": "fixup! Camera: Skip stream size check for whitelisted apps",
+          "author": "Arian",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/8ce5b15"
+        },
+        {
+          "sha": "ec092f3",
+          "message": "CAMX: CHI: Added support for handling jpeg debug data.",
+          "author": "Abhinav sohane",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/ec092f3"
+        },
+        {
+          "sha": "2eb98d8",
+          "message": "Effects: Do not allow SW dolby effect to be supsended",
+          "author": "Ghosuto",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/2eb98d8"
+        },
+        {
+          "sha": "21ab04a",
+          "message": "Effects: Do not allow ViperFx effect to be supsended",
+          "author": "rmp22",
+          "date": "Thu Oct 23 17:30:22 2025 +0530",
+          "timestamp": 1761220822,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/21ab04a"
+        },
+        {
+          "sha": "5e79d5e",
+          "message": "camera: bypass `isSensorPixelModeConsistent` check for priv-app camera apps",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 14 09:48:38 2025 +0200",
+          "timestamp": 1760428118,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/5e79d5e"
+        },
+        {
+          "sha": "8a1d0df",
+          "message": "AudioFlinger: more duplicating mixer fixes",
+          "author": "Eric Laurent",
+          "date": "Fri Sep 26 10:30:59 2025 +0530",
+          "timestamp": 1758862859,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/8a1d0df"
+        },
+        {
+          "sha": "f19e42d",
+          "message": "AudioFlinger: duplicating output underrun improvements",
+          "author": "Eric Laurent",
+          "date": "Fri Sep 26 10:30:56 2025 +0530",
+          "timestamp": 1758862856,
+          "url": "https://github.com/alphadroid-project/frameworks_av/commit/f19e42d"
+        }
+      ]
+    },
+    {
       "name": "build_soong",
       "path": "build/soong",
       "repo_url": "https://github.com/alphadroid-project/build_soong",
@@ -5402,8 +5843,16 @@
       "path": "vendor/OTA",
       "repo_url": "https://github.com/alphadroid-devices/OTA",
       "remote": "alpha-devices",
-      "commit_count": 38,
+      "commit_count": 39,
       "commits": [
+        {
+          "sha": "dce83c5",
+          "message": "sweet: update 14/12/2025",
+          "author": "sm6150-dreams",
+          "date": "Sun Dec 14 18:11:41 2025 +0100",
+          "timestamp": 1765732301,
+          "url": "https://github.com/alphadroid-devices/OTA/commit/dce83c5"
+        },
         {
           "sha": "7cb0f5c",
           "message": "aston: alpha 4.2",
@@ -6028,8 +6477,40 @@
       "path": "manifest",
       "repo_url": "https://github.com/alphadroid-project/manifest",
       "remote": "alpha",
-      "commit_count": 34,
+      "commit_count": 35,
       "commits": [
+        {
+          "sha": "f835927",
+          "message": "Track frameworks/av from Alpha",
+          "author": "elpaablo",
+          "date": "Sun Dec 14 13:12:54 2025 +0000",
+          "timestamp": 1765717974,
+          "url": "https://github.com/alphadroid-project/manifest/commit/f835927"
+        },
+        {
+          "sha": "0ab742a",
+          "message": "Track more repos from Alpha",
+          "author": "elpaablo",
+          "date": "Sun Dec 14 13:02:45 2025 +0000",
+          "timestamp": 1765717365,
+          "url": "https://github.com/alphadroid-project/manifest/commit/0ab742a"
+        },
+        {
+          "sha": "3247005",
+          "message": "Unpin AOSP repos",
+          "author": "elpaablo",
+          "date": "Sun Dec 14 09:33:14 2025 +0000",
+          "timestamp": 1765704794,
+          "url": "https://github.com/alphadroid-project/manifest/commit/3247005"
+        },
+        {
+          "sha": "5550ebf",
+          "message": "Track DocumentsUI from alpha",
+          "author": "elpaablo",
+          "date": "Sun Dec 14 09:17:22 2025 +0000",
+          "timestamp": 1765703842,
+          "url": "https://github.com/alphadroid-project/manifest/commit/5550ebf"
+        },
         {
           "sha": "24c4070",
           "message": "Unpin fwb and alpha settings",
@@ -6277,30 +6758,6 @@
           "date": "Wed Sep 17 09:14:19 2025 +0100",
           "timestamp": 1758096859,
           "url": "https://github.com/alphadroid-project/manifest/commit/43f2e1e"
-        },
-        {
-          "sha": "431dbb8",
-          "message": "manifest: Switch to lineage-23.0 for available projects",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 15 19:38:00 2025 +0530",
-          "timestamp": 1757945280,
-          "url": "https://github.com/alphadroid-project/manifest/commit/431dbb8"
-        },
-        {
-          "sha": "e5245b0",
-          "message": "Merge 'lineage-23.0' into 16.0",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 15 19:35:25 2025 +0530",
-          "timestamp": 1757945125,
-          "url": "https://github.com/alphadroid-project/manifest/commit/e5245b0"
-        },
-        {
-          "sha": "56dbd53",
-          "message": "Split gms repo",
-          "author": "elpaablo",
-          "date": "Mon Sep 15 10:05:02 2025 +0100",
-          "timestamp": 1757927102,
-          "url": "https://github.com/alphadroid-project/manifest/commit/56dbd53"
         }
       ]
     },
@@ -6582,6 +7039,215 @@
           "date": "Tue Sep 16 09:22:57 2025 +0000",
           "timestamp": 1758014577,
           "url": "https://github.com/alphadroid-project/external_arm-optimized-routines/commit/d07cb7c"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_native",
+      "path": "frameworks/native",
+      "repo_url": "https://github.com/alphadroid-project/frameworks_native",
+      "remote": "alpha",
+      "commit_count": 25,
+      "commits": [
+        {
+          "sha": "f7a852f1",
+          "message": "gui: Fix buffer caching issue causing flicker",
+          "author": "zhangjun.yu",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/f7a852f1"
+        },
+        {
+          "sha": "394833f1",
+          "message": "libui: Do not restrict instr limit",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/394833f1"
+        },
+        {
+          "sha": "207b4082",
+          "message": "libgui: Do no restrict instr limit",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/207b4082"
+        },
+        {
+          "sha": "5c775a77",
+          "message": "surfaceflinger: do not restrict instr limit",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/5c775a77"
+        },
+        {
+          "sha": "d3b770f9",
+          "message": "libbinder: do not restrict instr limit",
+          "author": "John Galt",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/d3b770f9"
+        },
+        {
+          "sha": "d9c52b3c",
+          "message": "surfaceflinger: Enable -O3 optimizations",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/d9c52b3c"
+        },
+        {
+          "sha": "78255825",
+          "message": "renderengine: Enable -O3 optimizations",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/78255825"
+        },
+        {
+          "sha": "a77e9141",
+          "message": "binder: Enable O3 optimizations",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/a77e9141"
+        },
+        {
+          "sha": "5129a395",
+          "message": "Native: ProducerListener: Import ON_BUFFER_DETACHED Changes",
+          "author": "johnmart19",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/5129a395"
+        },
+        {
+          "sha": "02aa07fd",
+          "message": "SF: change LatchUnsignaledConfig property precedence",
+          "author": "Govind R Sekhar",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/02aa07fd"
+        },
+        {
+          "sha": "5d7da6cc",
+          "message": "SF: Restore debug.sf.latch_unsignaled sysprop",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/5d7da6cc"
+        },
+        {
+          "sha": "fe5631d3",
+          "message": "SF: Bring back support for disabling backpressure propagation",
+          "author": "Adithya R",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/fe5631d3"
+        },
+        {
+          "sha": "061c673a",
+          "message": "SF: Do not force idle refresh rate in some more scenarios",
+          "author": "Adithya R",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/061c673a"
+        },
+        {
+          "sha": "e087b898",
+          "message": "SF: Fix opportunistic idling and make it more aggressive",
+          "author": "Adithya R",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/e087b898"
+        },
+        {
+          "sha": "8ee2f882",
+          "message": "SF: Scheduler: set an expiration for heuristic layer's high refresh rate usages",
+          "author": "Adithya R",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/8ee2f882"
+        },
+        {
+          "sha": "03917ffb",
+          "message": "SF: Scheduler: touch boost whenever possible",
+          "author": "Juhyung Park",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/03917ffb"
+        },
+        {
+          "sha": "5ee734da",
+          "message": "SF: Scheduler: opportunistically enter idle after touch",
+          "author": "Juhyung Park",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/5ee734da"
+        },
+        {
+          "sha": "368479e8",
+          "message": "SF: Scheduler: relax measurements for heuristic mode",
+          "author": "Juhyung Park",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/368479e8"
+        },
+        {
+          "sha": "533b22b3",
+          "message": "SF: Scheduler: remove presentTime check in calculateAverageFrameTime()",
+          "author": "Juhyung Park",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/533b22b3"
+        },
+        {
+          "sha": "70444cb8",
+          "message": "SF: Scheduler: maintain current refresh rate if no layers are detected",
+          "author": "Juhyung Park",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/70444cb8"
+        },
+        {
+          "sha": "4737cd45",
+          "message": "SF: Don't enable expensive rendering for unknown dataspace",
+          "author": "Adithya R",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/4737cd45"
+        },
+        {
+          "sha": "b6183205",
+          "message": "Native: Camera: Import Release Slot Xiaomi Changes",
+          "author": "johnmart19",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/b6183205"
+        },
+        {
+          "sha": "07da32e8",
+          "message": "libbinder: Suppress log spam when unlinking death recipients",
+          "author": "Danny Lin",
+          "date": "Mon Sep 29 02:45:32 2025 +0530",
+          "timestamp": 1759094132,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/07da32e8"
+        },
+        {
+          "sha": "4c953eac",
+          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
+          "author": "Dennis Kiilerich",
+          "date": "Thu Sep 25 20:51:45 2025 +0530",
+          "timestamp": 1758813705,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/4c953eac"
+        },
+        {
+          "sha": "9297ad6a",
+          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
+          "author": "Dennis Kiilerich",
+          "date": "Thu Sep 25 20:43:53 2025 +0530",
+          "timestamp": 1758813233,
+          "url": "https://github.com/alphadroid-project/frameworks_native/commit/9297ad6a"
         }
       ]
     },
@@ -7362,39 +8028,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "path": "external/chromium-webview/prebuilt/arm64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
@@ -7428,35 +8061,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "84c74ff",
-          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:08 2025 -0700",
-          "timestamp": 1762617488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
         },
         {
-          "sha": "c1498b6",
-          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:20 2025 -0600",
-          "timestamp": 1760795840,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
         },
         {
-          "sha": "c18e219",
-          "message": "Update Chromium Webview x86 to 140.0.7339.207",
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:49 2025 -0600",
-          "timestamp": 1758982969,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -7490,6 +8123,39 @@
           "date": "Sat Sep 27 08:22:53 2025 -0600",
           "timestamp": 1758982973,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+        },
+        {
+          "sha": "c1498b6",
+          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:20 2025 -0600",
+          "timestamp": 1760795840,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
+        },
+        {
+          "sha": "c18e219",
+          "message": "Update Chromium Webview x86 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:49 2025 -0600",
+          "timestamp": 1758982969,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
         }
       ]
     },
@@ -7560,39 +8226,6 @@
       ]
     },
     {
-      "name": "vendor_pixel_themepicker",
-      "path": "vendor/pixel/themepicker",
-      "repo_url": "https://gitlab.com/alphadroid-project/vendor_pixel_themepicker",
-      "remote": "alpha-gitlab",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "4e67726",
-          "message": "ThemePicker: update overlays",
-          "author": "elpaablo",
-          "date": "Mon Oct 13 10:04:06 2025 +0100",
-          "timestamp": 1760346246,
-          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_themepicker/commit/4e67726"
-        },
-        {
-          "sha": "6bb63e2",
-          "message": "Remove overrides",
-          "author": "elpaablo",
-          "date": "Tue Sep 16 00:34:13 2025 +0100",
-          "timestamp": 1757979253,
-          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_themepicker/commit/6bb63e2"
-        },
-        {
-          "sha": "8a067d6",
-          "message": "Remove unnecessary guard",
-          "author": "elpaablo",
-          "date": "Mon Sep 15 23:09:01 2025 +0100",
-          "timestamp": 1757974141,
-          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_themepicker/commit/8a067d6"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_Backgrounds",
       "path": "packages/apps/Backgrounds",
       "repo_url": "https://github.com/alphadroid-project/packages_apps_Backgrounds",
@@ -7622,7 +8255,7 @@
       "path": "packages/apps/FlipFlap",
       "repo_url": "https://github.com/alphadroid-project/packages_apps_FlipFlap",
       "remote": "alpha",
-      "commit_count": 2,
+      "commit_count": 1,
       "commits": [
         {
           "sha": "4fbc839",
@@ -7631,39 +8264,6 @@
           "date": "Sun Nov 2 10:06:03 2025 +0000",
           "timestamp": 1762077963,
           "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/4fbc839"
-        },
-        {
-          "sha": "dd49d55",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/dd49d55"
-        }
-      ]
-    },
-    {
-      "name": "vendor_pixel_launcher",
-      "path": "vendor/pixel/launcher",
-      "repo_url": "https://gitlab.com/alphadroid-project/vendor_pixel_launcher",
-      "remote": "alpha-gitlab",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "42870e6",
-          "message": "Remove overrides",
-          "author": "elpaablo",
-          "date": "Tue Sep 16 00:33:48 2025 +0100",
-          "timestamp": 1757979228,
-          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_launcher/commit/42870e6"
-        },
-        {
-          "sha": "b0d8bff",
-          "message": "Remove unnecessary guard",
-          "author": "elpaablo",
-          "date": "Mon Sep 15 23:08:08 2025 +0100",
-          "timestamp": 1757974088,
-          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_launcher/commit/b0d8bff"
         }
       ]
     },
@@ -7702,19 +8302,19 @@
       ]
     },
     {
-      "name": "vendor_pixel_gms",
-      "path": "vendor/pixel/gms",
-      "repo_url": "https://gitlab.com/alphadroid-project/vendor_pixel_gms",
+      "name": "vendor_pixel_themepicker",
+      "path": "vendor/pixel/themepicker",
+      "repo_url": "https://gitlab.com/alphadroid-project/vendor_pixel_themepicker",
       "remote": "alpha-gitlab",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "5bb0652",
-          "message": "Clean config",
+          "sha": "4e67726",
+          "message": "ThemePicker: update overlays",
           "author": "elpaablo",
-          "date": "Mon Sep 15 23:06:13 2025 +0100",
-          "timestamp": 1757973973,
-          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_gms/commit/5bb0652"
+          "date": "Mon Oct 13 10:04:06 2025 +0100",
+          "timestamp": 1760346246,
+          "url": "https://gitlab.com/alphadroid-project/vendor_pixel_themepicker/commit/4e67726"
         }
       ]
     }
