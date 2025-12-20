@@ -1,8 +1,8 @@
 {
   "rom_id": "cloverproject",
   "branch": "16-qpr1",
-  "generated_at": "2025-12-19T01:34:52.053399+00:00",
-  "since_date": "2025-09-20",
+  "generated_at": "2025-12-20T01:39:39.168438+00:00",
+  "since_date": "2025-09-21",
   "total_projects": 111,
   "total_commits": 1270,
   "projects": [
@@ -7433,8 +7433,24 @@
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "LineageOS",
-      "commit_count": 16,
+      "commit_count": 18,
       "commits": [
+        {
+          "sha": "a7b848f",
+          "message": "lahaina: Label additional read_ahead_kb node",
+          "author": "Nolen Johnson",
+          "date": "Fri Dec 19 01:49:59 2025 -0500",
+          "timestamp": 1766126999,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a7b848f"
+        },
+        {
+          "sha": "a848889",
+          "message": "sepolicy_vndr: lahaina: Allow vendor_qti_init_shell write to /proc/sys/vm/swappiness",
+          "author": "Nolen Johnson",
+          "date": "Fri Dec 19 01:43:02 2025 -0500",
+          "timestamp": 1766126582,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a848889"
+        },
         {
           "sha": "06af10e",
           "message": "sepolicy_vndr: lahaina: Label additional wakeup nodes",
@@ -8195,87 +8211,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8750",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "LineageOS",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "6748e02",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:29:17 2025 +0200",
-          "timestamp": 1764426557,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
-        },
-        {
-          "sha": "dd8ebd7",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Sat Nov 22 00:26:59 2025 +0200",
-          "timestamp": 1763764019,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
-        },
-        {
-          "sha": "447107e",
-          "message": "removing get_prop function as it set_prop provides the same functionality",
-          "author": "abarnwal",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
-        },
-        {
-          "sha": "ba4de13",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Amruth Naga",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
-        },
-        {
-          "sha": "4088120",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
-        },
-        {
-          "sha": "71e3f76",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:41 2025 +0200",
-          "timestamp": 1762608401,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
-        },
-        {
-          "sha": "e8391b6",
-          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 21 01:47:01 2025 -0700",
-          "timestamp": 1758444421,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
-        },
-        {
-          "sha": "9e8d9ec",
-          "message": "sun: Match all read_ahead_kb nodes",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:57:06 2025 +0100",
-          "timestamp": 1758376626,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
-        },
-        {
-          "sha": "e63498e",
-          "message": "qva: Allow weaver HAL to request wakelock",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:56:58 2025 +0100",
-          "timestamp": 1758376618,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_resources_devicesettings",
       "path": "packages/resources/devicesettings",
       "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
@@ -8811,6 +8746,71 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "LineageOS",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "6748e02",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:29:17 2025 +0200",
+          "timestamp": 1764426557,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
+        },
+        {
+          "sha": "dd8ebd7",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:59 2025 +0200",
+          "timestamp": 1763764019,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
+        },
+        {
+          "sha": "447107e",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
+        },
+        {
+          "sha": "ba4de13",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
+        },
+        {
+          "sha": "4088120",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
+        },
+        {
+          "sha": "71e3f76",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:41 2025 +0200",
+          "timestamp": 1762608401,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
+        },
+        {
+          "sha": "e8391b6",
+          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 21 01:47:01 2025 -0700",
+          "timestamp": 1758444421,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
+        }
+      ]
+    },
+    {
       "name": "external_gptfdisk",
       "path": "external/gptfdisk",
       "repo_url": "https://github.com/The-Clover-Project/external_gptfdisk",
@@ -9259,55 +9259,6 @@
       ]
     },
     {
-      "name": "packages_services_Telecomm",
-      "path": "packages/services/Telecomm",
-      "repo_url": "https://github.com/The-Clover-Project/packages_services_Telecomm",
-      "remote": "clover",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "ecf8f0c5",
-          "message": "Telecomm: Provide required permissions for Telephony",
-          "author": "johnmart19",
-          "date": "Wed Nov 19 11:42:27 2025 +0530",
-          "timestamp": 1763532747,
-          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/ecf8f0c5"
-        },
-        {
-          "sha": "c1e5a99c",
-          "message": "Telecomm: More improvements for Incall vibrations",
-          "author": "Pranav Vashi",
-          "date": "Mon Nov 17 16:35:14 2025 +0530",
-          "timestamp": 1763377514,
-          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/c1e5a99c"
-        },
-        {
-          "sha": "8f081e3e",
-          "message": "Telecomm: Get rid of deprecation in Incall vibrations",
-          "author": "Ido Ben-Hur",
-          "date": "Mon Nov 17 16:35:13 2025 +0530",
-          "timestamp": 1763377513,
-          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/8f081e3e"
-        },
-        {
-          "sha": "9e65a620",
-          "message": "Telecomm: Incall vibration options [2/3]",
-          "author": "beanstown106",
-          "date": "Mon Nov 17 16:34:57 2025 +0530",
-          "timestamp": 1763377497,
-          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/9e65a620"
-        },
-        {
-          "sha": "94be11d7",
-          "message": "CallLog: Get rid of warning",
-          "author": "Michael W",
-          "date": "Mon Nov 17 16:32:30 2025 +0530",
-          "timestamp": 1763377350,
-          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/94be11d7"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_Connectivity",
       "path": "packages/modules/Connectivity",
       "repo_url": "https://github.com/The-Clover-Project/packages_modules_Connectivity",
@@ -9353,6 +9304,55 @@
           "date": "Mon Nov 17 16:24:12 2025 +0530",
           "timestamp": 1763376852,
           "url": "https://github.com/The-Clover-Project/packages_modules_Connectivity/commit/5f19cb73f"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_Telecomm",
+      "path": "packages/services/Telecomm",
+      "repo_url": "https://github.com/The-Clover-Project/packages_services_Telecomm",
+      "remote": "clover",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "ecf8f0c5",
+          "message": "Telecomm: Provide required permissions for Telephony",
+          "author": "johnmart19",
+          "date": "Wed Nov 19 11:42:27 2025 +0530",
+          "timestamp": 1763532747,
+          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/ecf8f0c5"
+        },
+        {
+          "sha": "c1e5a99c",
+          "message": "Telecomm: More improvements for Incall vibrations",
+          "author": "Pranav Vashi",
+          "date": "Mon Nov 17 16:35:14 2025 +0530",
+          "timestamp": 1763377514,
+          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/c1e5a99c"
+        },
+        {
+          "sha": "8f081e3e",
+          "message": "Telecomm: Get rid of deprecation in Incall vibrations",
+          "author": "Ido Ben-Hur",
+          "date": "Mon Nov 17 16:35:13 2025 +0530",
+          "timestamp": 1763377513,
+          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/8f081e3e"
+        },
+        {
+          "sha": "9e65a620",
+          "message": "Telecomm: Incall vibration options [2/3]",
+          "author": "beanstown106",
+          "date": "Mon Nov 17 16:34:57 2025 +0530",
+          "timestamp": 1763377497,
+          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/9e65a620"
+        },
+        {
+          "sha": "94be11d7",
+          "message": "CallLog: Get rid of warning",
+          "author": "Michael W",
+          "date": "Mon Nov 17 16:32:30 2025 +0530",
+          "timestamp": 1763377350,
+          "url": "https://github.com/The-Clover-Project/packages_services_Telecomm/commit/94be11d7"
         }
       ]
     },
@@ -10657,6 +10657,23 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8350/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "LineageOS",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e9bbe9a",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 21:53:29 2025 +0200",
+          "timestamp": 1765223609,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8250/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "LineageOS",
@@ -10669,23 +10686,6 @@
           "date": "Fri Oct 31 09:10:35 2025 +0000",
           "timestamp": 1761901835,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/9ec8cc0"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8550/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "LineageOS",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3415b63",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:21 2025 +0200",
-          "timestamp": 1765227501,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
         }
       ]
     },
@@ -10708,18 +10708,18 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8350/display",
+      "path": "hardware/qcom-caf/sm8550/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "LineageOS",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "e9bbe9a",
+          "sha": "3415b63",
           "message": "qmaa: Fix soong namespace imports",
           "author": "Michael Bestas",
-          "date": "Mon Dec 8 21:53:29 2025 +0200",
-          "timestamp": 1765223609,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
+          "date": "Mon Dec 8 22:58:21 2025 +0200",
+          "timestamp": 1765227501,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
         }
       ]
     },
@@ -11030,6 +11030,23 @@
       ]
     },
     {
+      "name": "system_keymaster",
+      "path": "system/keymaster",
+      "repo_url": "https://github.com/The-Clover-Project/system_keymaster",
+      "remote": "clover",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e702a06",
+          "message": "Restore ImportKeyRequest::SetKeyMaterial",
+          "author": "Aaron Kling",
+          "date": "Tue Nov 18 00:16:40 2025 +0530",
+          "timestamp": 1763405200,
+          "url": "https://github.com/The-Clover-Project/system_keymaster/commit/e702a06"
+        }
+      ]
+    },
+    {
       "name": "system_libhidl",
       "path": "system/libhidl",
       "repo_url": "https://github.com/The-Clover-Project/system_libhidl",
@@ -11060,23 +11077,6 @@
           "date": "Mon Nov 17 16:43:45 2025 +0530",
           "timestamp": 1763378025,
           "url": "https://github.com/The-Clover-Project/system_libhwbinder/commit/2af3b1c"
-        }
-      ]
-    },
-    {
-      "name": "system_keymaster",
-      "path": "system/keymaster",
-      "repo_url": "https://github.com/The-Clover-Project/system_keymaster",
-      "remote": "clover",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e702a06",
-          "message": "Restore ImportKeyRequest::SetKeyMaterial",
-          "author": "Aaron Kling",
-          "date": "Tue Nov 18 00:16:40 2025 +0530",
-          "timestamp": 1763405200,
-          "url": "https://github.com/The-Clover-Project/system_keymaster/commit/e702a06"
         }
       ]
     },
