@@ -1,10 +1,10 @@
 {
   "rom_id": "evolutionx",
   "branch": "bq1",
-  "generated_at": "2025-12-24T01:35:58.789400+00:00",
-  "since_date": "2025-09-25",
+  "generated_at": "2025-12-25T01:49:14.165637+00:00",
+  "since_date": "2025-09-26",
   "total_projects": 171,
-  "total_commits": 1797,
+  "total_commits": 1780,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1471,6 +1471,14 @@
       "commit_count": 100,
       "commits": [
         {
+          "sha": "6a85ddb",
+          "message": "Garnet: 12/24/2025 Update",
+          "author": "Evolution X - Jenkins",
+          "date": "Wed Dec 24 20:25:46 2025 +0100",
+          "timestamp": 1766604346,
+          "url": "https://github.com/Evolution-X/OTA/commit/6a85ddb"
+        },
+        {
           "sha": "db29482",
           "message": "Shiba: 12/18/2025 Update",
           "author": "Evolution X - Jenkins",
@@ -2261,14 +2269,6 @@
           "date": "Mon Dec 1 12:51:20 2025 +0100",
           "timestamp": 1764589880,
           "url": "https://github.com/Evolution-X/OTA/commit/ba72656"
-        },
-        {
-          "sha": "999ce5e",
-          "message": "Bluejay/Oriole/Raven: 10/12/2025 Update",
-          "author": "osm1019",
-          "date": "Mon Dec 1 12:51:20 2025 +0100",
-          "timestamp": 1764589880,
-          "url": "https://github.com/Evolution-X/OTA/commit/999ce5e"
         }
       ]
     },
@@ -6359,375 +6359,6 @@
       ]
     },
     {
-      "name": "build",
-      "path": "build/make",
-      "repo_url": "https://github.com/Evolution-X/build",
-      "remote": "evo",
-      "commit_count": 45,
-      "commits": [
-        {
-          "sha": "e27ef56",
-          "message": "product: Enable gestural navigation overlay to match default nav mode",
-          "author": "Daniel Micay",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/e27ef56"
-        },
-        {
-          "sha": "85882f0",
-          "message": "build: Remove su",
-          "author": "jhenrique09",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/85882f0"
-        },
-        {
-          "sha": "7e43094",
-          "message": "always use UTC as the time zone for build dates",
-          "author": "Daniel Micay",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/7e43094"
-        },
-        {
-          "sha": "9275ebb",
-          "message": "build: Turn off debug props on userdebug builds",
-          "author": "Pranav Vashi",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/9275ebb"
-        },
-        {
-          "sha": "338b91e",
-          "message": "build: Clamp first api level to 32",
-          "author": "Pranav Vashi",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/338b91e"
-        },
-        {
-          "sha": "c2dcbfb",
-          "message": "build: Do not leak lineage_ prefixes in build.prop",
-          "author": "Pranav Vashi",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/c2dcbfb"
-        },
-        {
-          "sha": "8f72057",
-          "message": "Replace device_kernel_headers with generated_kernel_headers",
-          "author": "Michael Bestas",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/8f72057"
-        },
-        {
-          "sha": "5d439c1",
-          "message": "Replace old-style kernel headers only when building inline",
-          "author": "Chirayu Desai",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/5d439c1"
-        },
-        {
-          "sha": "a6aafe3",
-          "message": "build: Automatically replace old-style kernel header includes with new header lib",
-          "author": "Rashed Abdel-Tawab",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/a6aafe3"
-        },
-        {
-          "sha": "f1a1cce",
-          "message": "releasetools: do not remove dynamic partitions in system-only builds",
-          "author": "Peter Cai",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/f1a1cce"
-        },
-        {
-          "sha": "74b7fae",
-          "message": "Correct logic for obtaining the path to full recovery image",
-          "author": "Ricky Cheung",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/74b7fae"
-        },
-        {
-          "sha": "e10bd60",
-          "message": "Don't make recovery patch for devices with prebuilt vendor",
-          "author": "TheScarastic",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/e10bd60"
-        },
-        {
-          "sha": "a9cdd4c",
-          "message": "Move recovery-from-boot.p from /system to /vendor",
-          "author": "dianlujitao",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/a9cdd4c"
-        },
-        {
-          "sha": "a8b5713",
-          "message": "build_image: get squashfs partition size from image size",
-          "author": "jabashque",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/a8b5713"
-        },
-        {
-          "sha": "427f4b9",
-          "message": "Exclude Camera2 for lineage builds",
-          "author": "Michael Bestas",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/427f4b9"
-        },
-        {
-          "sha": "8ba073c",
-          "message": "envsetup: Drop the unnecessary spam_for_lunch",
-          "author": "Sourajit Karmakar",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/8ba073c"
-        },
-        {
-          "sha": "1cdc105",
-          "message": "Don't build QuickSearchBox",
-          "author": "Danny Lin",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/1cdc105"
-        },
-        {
-          "sha": "c5b1216",
-          "message": "core: sysprop: Write build display id to product prop",
-          "author": "Adithya R",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/c5b1216"
-        },
-        {
-          "sha": "828e97c",
-          "message": "Allow longer fingerprint",
-          "author": "wrapped",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/828e97c"
-        },
-        {
-          "sha": "f87a216",
-          "message": "evnsetup.sh: Add missing lunch commands",
-          "author": "Aidan Warner",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/f87a216"
-        },
-        {
-          "sha": "08bcbc2",
-          "message": "disable memory tagging for surfaceflinger",
-          "author": "Dmitry Muhomor",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/08bcbc2"
-        },
-        {
-          "sha": "405d270",
-          "message": "build: Erase resource-cache upon flashing",
-          "author": "rmp22",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/405d270"
-        },
-        {
-          "sha": "877d4ea",
-          "message": "build: Erase package_cache upon flashing",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/877d4ea"
-        },
-        {
-          "sha": "8e85ae1",
-          "message": "releasetools: Don't compress with brotli",
-          "author": "Alexander Winkowski",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/8e85ae1"
-        },
-        {
-          "sha": "8eaf1a0",
-          "message": "build: dont include tasks from tests and platform_testing",
-          "author": "maxwen",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/8eaf1a0"
-        },
-        {
-          "sha": "641befb",
-          "message": "combo: Add kryo585 architecture to known v8 cores",
-          "author": "johnmart19",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/641befb"
-        },
-        {
-          "sha": "360ab36",
-          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
-          "author": "minaripenguin",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/360ab36"
-        },
-        {
-          "sha": "6e726f6",
-          "message": "combo: Add cortex-a76 to known v8-2a cores",
-          "author": "Jason Edson",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/6e726f6"
-        },
-        {
-          "sha": "e66839c",
-          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
-          "author": "Alexander Koskovich",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/e66839c"
-        },
-        {
-          "sha": "6d516b9",
-          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
-          "author": "ShevT",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/6d516b9"
-        },
-        {
-          "sha": "b563e12",
-          "message": "envsetup.sh: Setup and enable ccache",
-          "author": "minaripenguin",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/b563e12"
-        },
-        {
-          "sha": "569c1f1",
-          "message": "build: Add backuptool by default",
-          "author": "Pranav Vashi",
-          "date": "Sat Dec 13 12:42:46 2025 +0900",
-          "timestamp": 1765597366,
-          "url": "https://github.com/Evolution-X/build/commit/569c1f1"
-        },
-        {
-          "sha": "78df271",
-          "message": "core: lineage-priv > evolution-priv",
-          "author": "AnierinB",
-          "date": "Sat Dec 13 12:42:42 2025 +0900",
-          "timestamp": 1765597362,
-          "url": "https://github.com/Evolution-X/build/commit/78df271"
-        },
-        {
-          "sha": "0df2841",
-          "message": "Reland: build: Enable super image build rules depending on single super block device",
-          "author": "Yumi Yukimura",
-          "date": "Tue Dec 2 15:56:15 2025 -0500",
-          "timestamp": 1764708975,
-          "url": "https://github.com/Evolution-X/build/commit/0df2841"
-        },
-        {
-          "sha": "23eee04",
-          "message": "Revert \"Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS.\"",
-          "author": "Nolen Johnson",
-          "date": "Tue Dec 2 15:45:06 2025 -0500",
-          "timestamp": 1764708306,
-          "url": "https://github.com/Evolution-X/build/commit/23eee04"
-        },
-        {
-          "sha": "aa89feb",
-          "message": "Revert \"Remove Virtual A/B Retrofit support.\"",
-          "author": "Nolen Johnson",
-          "date": "Mon Dec 1 23:53:45 2025 -0500",
-          "timestamp": 1764651225,
-          "url": "https://github.com/Evolution-X/build/commit/aa89feb"
-        },
-        {
-          "sha": "c5a0de6",
-          "message": "Revert \"Remove retrofit dynamic partition support from otatools.\"",
-          "author": "Nolen Johnson",
-          "date": "Mon Dec 1 23:53:25 2025 -0500",
-          "timestamp": 1764651205,
-          "url": "https://github.com/Evolution-X/build/commit/c5a0de6"
-        },
-        {
-          "sha": "00fcf46",
-          "message": "Exclude perf-setup-sh from userdebug builds",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 18:12:03 2025 +0200",
-          "timestamp": 1764432723,
-          "url": "https://github.com/Evolution-X/build/commit/00fcf46"
-        },
-        {
-          "sha": "ed851bf",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:33:02 2025 +0200",
-          "timestamp": 1763667182,
-          "url": "https://github.com/Evolution-X/build/commit/ed851bf"
-        },
-        {
-          "sha": "ebb2d13",
-          "message": "Reapply \"Drop legacy vboot support.\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:32:31 2025 +0200",
-          "timestamp": 1763667151,
-          "url": "https://github.com/Evolution-X/build/commit/ebb2d13"
-        },
-        {
-          "sha": "768ea6a",
-          "message": "Revert \"build: Enable super image build rules depending on single super block device\"",
-          "author": "Michael Bestas",
-          "date": "Mon Nov 17 16:13:18 2025 +0200",
-          "timestamp": 1763388798,
-          "url": "https://github.com/Evolution-X/build/commit/768ea6a"
-        },
-        {
-          "sha": "083aa4a",
-          "message": "Merge commit 'cda08bfbf55aed1e4c79efe6a66bb930d19a8a13' into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 6 11:46:17 2025 +0200",
-          "timestamp": 1762422377,
-          "url": "https://github.com/Evolution-X/build/commit/083aa4a"
-        },
-        {
-          "sha": "4e5717d",
-          "message": "envsetup: Build OOT kernel during lunch if needed",
-          "author": "Michael Bestas",
-          "date": "Thu Oct 23 11:53:35 2025 +0300",
-          "timestamp": 1761209615,
-          "url": "https://github.com/Evolution-X/build/commit/4e5717d"
-        },
-        {
-          "sha": "ae602b8",
-          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 00:45:31 2025 +0800",
-          "timestamp": 1760805931,
-          "url": "https://github.com/Evolution-X/build/commit/ae602b8"
-        },
-        {
-          "sha": "63edc91",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Thu Sep 25 20:56:55 2025 +0530",
-          "timestamp": 1758814015,
-          "url": "https://github.com/Evolution-X/build/commit/63edc91"
-        }
-      ]
-    },
-    {
       "name": "device_evolution_sepolicy",
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/Evolution-X/device_evolution_sepolicy",
@@ -7085,6 +6716,367 @@
           "date": "Wed Oct 15 18:13:48 2025 +0000",
           "timestamp": 1760552028,
           "url": "https://github.com/Evolution-X/device_evolution_sepolicy/commit/6810925"
+        }
+      ]
+    },
+    {
+      "name": "build",
+      "path": "build/make",
+      "repo_url": "https://github.com/Evolution-X/build",
+      "remote": "evo",
+      "commit_count": 44,
+      "commits": [
+        {
+          "sha": "e27ef56",
+          "message": "product: Enable gestural navigation overlay to match default nav mode",
+          "author": "Daniel Micay",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/e27ef56"
+        },
+        {
+          "sha": "85882f0",
+          "message": "build: Remove su",
+          "author": "jhenrique09",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/85882f0"
+        },
+        {
+          "sha": "7e43094",
+          "message": "always use UTC as the time zone for build dates",
+          "author": "Daniel Micay",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/7e43094"
+        },
+        {
+          "sha": "9275ebb",
+          "message": "build: Turn off debug props on userdebug builds",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/9275ebb"
+        },
+        {
+          "sha": "338b91e",
+          "message": "build: Clamp first api level to 32",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/338b91e"
+        },
+        {
+          "sha": "c2dcbfb",
+          "message": "build: Do not leak lineage_ prefixes in build.prop",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/c2dcbfb"
+        },
+        {
+          "sha": "8f72057",
+          "message": "Replace device_kernel_headers with generated_kernel_headers",
+          "author": "Michael Bestas",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/8f72057"
+        },
+        {
+          "sha": "5d439c1",
+          "message": "Replace old-style kernel headers only when building inline",
+          "author": "Chirayu Desai",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/5d439c1"
+        },
+        {
+          "sha": "a6aafe3",
+          "message": "build: Automatically replace old-style kernel header includes with new header lib",
+          "author": "Rashed Abdel-Tawab",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/a6aafe3"
+        },
+        {
+          "sha": "f1a1cce",
+          "message": "releasetools: do not remove dynamic partitions in system-only builds",
+          "author": "Peter Cai",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/f1a1cce"
+        },
+        {
+          "sha": "74b7fae",
+          "message": "Correct logic for obtaining the path to full recovery image",
+          "author": "Ricky Cheung",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/74b7fae"
+        },
+        {
+          "sha": "e10bd60",
+          "message": "Don't make recovery patch for devices with prebuilt vendor",
+          "author": "TheScarastic",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/e10bd60"
+        },
+        {
+          "sha": "a9cdd4c",
+          "message": "Move recovery-from-boot.p from /system to /vendor",
+          "author": "dianlujitao",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/a9cdd4c"
+        },
+        {
+          "sha": "a8b5713",
+          "message": "build_image: get squashfs partition size from image size",
+          "author": "jabashque",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/a8b5713"
+        },
+        {
+          "sha": "427f4b9",
+          "message": "Exclude Camera2 for lineage builds",
+          "author": "Michael Bestas",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/427f4b9"
+        },
+        {
+          "sha": "8ba073c",
+          "message": "envsetup: Drop the unnecessary spam_for_lunch",
+          "author": "Sourajit Karmakar",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/8ba073c"
+        },
+        {
+          "sha": "1cdc105",
+          "message": "Don't build QuickSearchBox",
+          "author": "Danny Lin",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/1cdc105"
+        },
+        {
+          "sha": "c5b1216",
+          "message": "core: sysprop: Write build display id to product prop",
+          "author": "Adithya R",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/c5b1216"
+        },
+        {
+          "sha": "828e97c",
+          "message": "Allow longer fingerprint",
+          "author": "wrapped",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/828e97c"
+        },
+        {
+          "sha": "f87a216",
+          "message": "evnsetup.sh: Add missing lunch commands",
+          "author": "Aidan Warner",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/f87a216"
+        },
+        {
+          "sha": "08bcbc2",
+          "message": "disable memory tagging for surfaceflinger",
+          "author": "Dmitry Muhomor",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/08bcbc2"
+        },
+        {
+          "sha": "405d270",
+          "message": "build: Erase resource-cache upon flashing",
+          "author": "rmp22",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/405d270"
+        },
+        {
+          "sha": "877d4ea",
+          "message": "build: Erase package_cache upon flashing",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/877d4ea"
+        },
+        {
+          "sha": "8e85ae1",
+          "message": "releasetools: Don't compress with brotli",
+          "author": "Alexander Winkowski",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/8e85ae1"
+        },
+        {
+          "sha": "8eaf1a0",
+          "message": "build: dont include tasks from tests and platform_testing",
+          "author": "maxwen",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/8eaf1a0"
+        },
+        {
+          "sha": "641befb",
+          "message": "combo: Add kryo585 architecture to known v8 cores",
+          "author": "johnmart19",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/641befb"
+        },
+        {
+          "sha": "360ab36",
+          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
+          "author": "minaripenguin",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/360ab36"
+        },
+        {
+          "sha": "6e726f6",
+          "message": "combo: Add cortex-a76 to known v8-2a cores",
+          "author": "Jason Edson",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/6e726f6"
+        },
+        {
+          "sha": "e66839c",
+          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
+          "author": "Alexander Koskovich",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/e66839c"
+        },
+        {
+          "sha": "6d516b9",
+          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
+          "author": "ShevT",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/6d516b9"
+        },
+        {
+          "sha": "b563e12",
+          "message": "envsetup.sh: Setup and enable ccache",
+          "author": "minaripenguin",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/b563e12"
+        },
+        {
+          "sha": "569c1f1",
+          "message": "build: Add backuptool by default",
+          "author": "Pranav Vashi",
+          "date": "Sat Dec 13 12:42:46 2025 +0900",
+          "timestamp": 1765597366,
+          "url": "https://github.com/Evolution-X/build/commit/569c1f1"
+        },
+        {
+          "sha": "78df271",
+          "message": "core: lineage-priv > evolution-priv",
+          "author": "AnierinB",
+          "date": "Sat Dec 13 12:42:42 2025 +0900",
+          "timestamp": 1765597362,
+          "url": "https://github.com/Evolution-X/build/commit/78df271"
+        },
+        {
+          "sha": "0df2841",
+          "message": "Reland: build: Enable super image build rules depending on single super block device",
+          "author": "Yumi Yukimura",
+          "date": "Tue Dec 2 15:56:15 2025 -0500",
+          "timestamp": 1764708975,
+          "url": "https://github.com/Evolution-X/build/commit/0df2841"
+        },
+        {
+          "sha": "23eee04",
+          "message": "Revert \"Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS.\"",
+          "author": "Nolen Johnson",
+          "date": "Tue Dec 2 15:45:06 2025 -0500",
+          "timestamp": 1764708306,
+          "url": "https://github.com/Evolution-X/build/commit/23eee04"
+        },
+        {
+          "sha": "aa89feb",
+          "message": "Revert \"Remove Virtual A/B Retrofit support.\"",
+          "author": "Nolen Johnson",
+          "date": "Mon Dec 1 23:53:45 2025 -0500",
+          "timestamp": 1764651225,
+          "url": "https://github.com/Evolution-X/build/commit/aa89feb"
+        },
+        {
+          "sha": "c5a0de6",
+          "message": "Revert \"Remove retrofit dynamic partition support from otatools.\"",
+          "author": "Nolen Johnson",
+          "date": "Mon Dec 1 23:53:25 2025 -0500",
+          "timestamp": 1764651205,
+          "url": "https://github.com/Evolution-X/build/commit/c5a0de6"
+        },
+        {
+          "sha": "00fcf46",
+          "message": "Exclude perf-setup-sh from userdebug builds",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 18:12:03 2025 +0200",
+          "timestamp": 1764432723,
+          "url": "https://github.com/Evolution-X/build/commit/00fcf46"
+        },
+        {
+          "sha": "ed851bf",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:33:02 2025 +0200",
+          "timestamp": 1763667182,
+          "url": "https://github.com/Evolution-X/build/commit/ed851bf"
+        },
+        {
+          "sha": "ebb2d13",
+          "message": "Reapply \"Drop legacy vboot support.\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:32:31 2025 +0200",
+          "timestamp": 1763667151,
+          "url": "https://github.com/Evolution-X/build/commit/ebb2d13"
+        },
+        {
+          "sha": "768ea6a",
+          "message": "Revert \"build: Enable super image build rules depending on single super block device\"",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 17 16:13:18 2025 +0200",
+          "timestamp": 1763388798,
+          "url": "https://github.com/Evolution-X/build/commit/768ea6a"
+        },
+        {
+          "sha": "083aa4a",
+          "message": "Merge commit 'cda08bfbf55aed1e4c79efe6a66bb930d19a8a13' into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:46:17 2025 +0200",
+          "timestamp": 1762422377,
+          "url": "https://github.com/Evolution-X/build/commit/083aa4a"
+        },
+        {
+          "sha": "4e5717d",
+          "message": "envsetup: Build OOT kernel during lunch if needed",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 23 11:53:35 2025 +0300",
+          "timestamp": 1761209615,
+          "url": "https://github.com/Evolution-X/build/commit/4e5717d"
+        },
+        {
+          "sha": "ae602b8",
+          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
+          "author": "Yumi Yukimura",
+          "date": "Sun Oct 19 00:45:31 2025 +0800",
+          "timestamp": 1760805931,
+          "url": "https://github.com/Evolution-X/build/commit/ae602b8"
         }
       ]
     },
@@ -9228,7 +9220,7 @@
       "path": "frameworks/native",
       "repo_url": "https://github.com/Evolution-X/frameworks_native",
       "remote": "evo",
-      "commit_count": 31,
+      "commit_count": 29,
       "commits": [
         {
           "sha": "b2a002108",
@@ -9461,22 +9453,6 @@
           "date": "Fri Nov 14 08:57:10 2025 +0200",
           "timestamp": 1763103430,
           "url": "https://github.com/Evolution-X/frameworks_native/commit/4aa5dfd85"
-        },
-        {
-          "sha": "4c953eac8",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Thu Sep 25 20:51:45 2025 +0530",
-          "timestamp": 1758813705,
-          "url": "https://github.com/Evolution-X/frameworks_native/commit/4c953eac8"
-        },
-        {
-          "sha": "9297ad6a6",
-          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
-          "author": "Dennis Kiilerich",
-          "date": "Thu Sep 25 20:43:53 2025 +0530",
-          "timestamp": 1758813233,
-          "url": "https://github.com/Evolution-X/frameworks_native/commit/9297ad6a6"
         }
       ]
     },
@@ -9485,7 +9461,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 29,
+      "commit_count": 28,
       "commits": [
         {
           "sha": "6496c15",
@@ -9710,14 +9686,6 @@
           "date": "Fri Sep 26 16:44:51 2025 +0530",
           "timestamp": 1758885291,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/154a88f"
-        },
-        {
-          "sha": "791ba13",
-          "message": "sepolicy: Allow Perf hal to access retire_frame_event.",
-          "author": "simran jaiswal",
-          "date": "Thu Sep 25 15:48:08 2025 +0530",
-          "timestamp": 1758795488,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/791ba13"
         }
       ]
     },
@@ -10229,159 +10197,6 @@
       ]
     },
     {
-      "name": "vendor_extras",
-      "path": "vendor/extras",
-      "repo_url": "https://github.com/Evolution-X/vendor_extras",
-      "remote": "evo",
-      "commit_count": 18,
-      "commits": [
-        {
-          "sha": "70f0962",
-          "message": "extras: Set default game props [SQUASHED]",
-          "author": "Tejas Singh",
-          "date": "Thu Dec 18 02:47:23 2025 +0900",
-          "timestamp": 1765993643,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/70f0962"
-        },
-        {
-          "sha": "022f7e7",
-          "message": "extras: iconshapes: drop legacy iconshapes for now",
-          "author": "John Galt",
-          "date": "Wed Dec 17 12:46:26 2025 +0900",
-          "timestamp": 1765943186,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/022f7e7"
-        },
-        {
-          "sha": "79cad37",
-          "message": "extras: Don't build several packages for Android 16 QPR1",
-          "author": "Joey",
-          "date": "Wed Dec 17 11:28:46 2025 +0900",
-          "timestamp": 1765938526,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/79cad37"
-        },
-        {
-          "sha": "89f49da",
-          "message": "extras: Update BCR to Version 1.87",
-          "author": "chaitanya",
-          "date": "Fri Dec 5 01:27:11 2025 +0900",
-          "timestamp": 1764865631,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/89f49da"
-        },
-        {
-          "sha": "f7062b3",
-          "message": "extras: SystemUIClocks: Update to mustang BD3A.251105.010.E1",
-          "author": "Joey",
-          "date": "Wed Nov 19 23:00:05 2025 +0900",
-          "timestamp": 1763560805,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/f7062b3"
-        },
-        {
-          "sha": "eb139c0",
-          "message": "extras: fonts_customization: update to bp3a",
-          "author": "aswin7469",
-          "date": "Wed Nov 19 23:00:05 2025 +0900",
-          "timestamp": 1763560805,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/eb139c0"
-        },
-        {
-          "sha": "cfa87a4",
-          "message": "extras: Update BCR to Version 1.85",
-          "author": "chaitanya",
-          "date": "Wed Nov 19 22:58:41 2025 +0900",
-          "timestamp": 1763560721,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/cfa87a4"
-        },
-        {
-          "sha": "e804488",
-          "message": "extras: Drop a16 wifioverlay",
-          "author": "Ghosuto",
-          "date": "Sun Nov 16 11:30:48 2025 +0900",
-          "timestamp": 1763260248,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/e804488"
-        },
-        {
-          "sha": "9f242c6",
-          "message": "extras: UDFPS: import Keqing's icon and animation",
-          "author": "kamikaonashi",
-          "date": "Sun Nov 9 17:48:59 2025 +0900",
-          "timestamp": 1762678139,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/9f242c6"
-        },
-        {
-          "sha": "e86f9ce",
-          "message": "extras: Add new oplus fp icon",
-          "author": "Ghosuto",
-          "date": "Sun Nov 9 10:42:38 2025 +0900",
-          "timestamp": 1762652558,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/e86f9ce"
-        },
-        {
-          "sha": "222b60c",
-          "message": "extras: Update configuration for sony sketch font",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 6 15:30:11 2025 +0900",
-          "timestamp": 1762410611,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/222b60c"
-        },
-        {
-          "sha": "acb4efb",
-          "message": "extras: Add IBM Plex Sans font",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Nov 6 15:30:11 2025 +0900",
-          "timestamp": 1762410611,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/acb4efb"
-        },
-        {
-          "sha": "1c50cb8",
-          "message": "extras: Update BCR to Version 1.83",
-          "author": "chaitanya",
-          "date": "Mon Nov 3 08:40:39 2025 +0900",
-          "timestamp": 1762126839,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/1c50cb8"
-        },
-        {
-          "sha": "964b760",
-          "message": "extras: Add FontSpaceGroteskOverlay font",
-          "author": "Ghosuto",
-          "date": "Mon Oct 27 09:26:22 2025 +0900",
-          "timestamp": 1761524782,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/964b760"
-        },
-        {
-          "sha": "21408ee",
-          "message": "Revert \"extras: Add AOD wallpaper overlay\"",
-          "author": "Joey",
-          "date": "Wed Oct 15 08:40:45 2025 +0900",
-          "timestamp": 1760485245,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/21408ee"
-        },
-        {
-          "sha": "2f37402",
-          "message": "extras: Update BCR to Version 1.80",
-          "author": "chaitanya",
-          "date": "Tue Oct 7 01:05:08 2025 +0900",
-          "timestamp": 1759766708,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/2f37402"
-        },
-        {
-          "sha": "ab55bbe",
-          "message": "extras: iconpacks: Misc fixes",
-          "author": "Joey",
-          "date": "Fri Sep 26 08:25:22 2025 +0900",
-          "timestamp": 1758842722,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/ab55bbe"
-        },
-        {
-          "sha": "e8a82a0",
-          "message": "extras: Iconpack: Do not overlay setting search icon from icon-pack",
-          "author": "darkphnx",
-          "date": "Thu Sep 25 23:23:26 2025 +0900",
-          "timestamp": 1758810206,
-          "url": "https://github.com/Evolution-X/vendor_extras/commit/e8a82a0"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_lineage_interfaces",
       "path": "hardware/lineage/interfaces",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
@@ -10672,147 +10487,139 @@
       ]
     },
     {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/Evolution-X/packages_modules_Bluetooth",
+      "name": "vendor_extras",
+      "path": "vendor/extras",
+      "repo_url": "https://github.com/Evolution-X/vendor_extras",
       "remote": "evo",
-      "commit_count": 17,
+      "commit_count": 16,
       "commits": [
         {
-          "sha": "56383bcc8",
-          "message": "Refactor Bluetooth AIDL constants into filegroup and fix framework dependencies",
-          "author": "Shra1V32",
-          "date": "Thu Dec 4 22:26:51 2025 +0900",
-          "timestamp": 1764854811,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/56383bcc8"
+          "sha": "70f0962",
+          "message": "extras: Set default game props [SQUASHED]",
+          "author": "Tejas Singh",
+          "date": "Thu Dec 18 02:47:23 2025 +0900",
+          "timestamp": 1765993643,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/70f0962"
         },
         {
-          "sha": "cc861f52c",
-          "message": "SBC Dual Channel (SBC HD) support - redux",
-          "author": "Luca Stefani",
-          "date": "Thu Dec 4 22:26:45 2025 +0900",
-          "timestamp": 1764854805,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/cc861f52c"
+          "sha": "022f7e7",
+          "message": "extras: iconshapes: drop legacy iconshapes for now",
+          "author": "John Galt",
+          "date": "Wed Dec 17 12:46:26 2025 +0900",
+          "timestamp": 1765943186,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/022f7e7"
         },
         {
-          "sha": "525995be3",
-          "message": "[hack] skip abort crash on failed init",
-          "author": "rmp22",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/525995be3"
+          "sha": "79cad37",
+          "message": "extras: Don't build several packages for Android 16 QPR1",
+          "author": "Joey",
+          "date": "Wed Dec 17 11:28:46 2025 +0900",
+          "timestamp": 1765938526,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/79cad37"
         },
         {
-          "sha": "34c5aa1be",
-          "message": "disable Bluetooth auto-on feature by default",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/34c5aa1be"
+          "sha": "89f49da",
+          "message": "extras: Update BCR to Version 1.87",
+          "author": "chaitanya",
+          "date": "Fri Dec 5 01:27:11 2025 +0900",
+          "timestamp": 1764865631,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/89f49da"
         },
         {
-          "sha": "de5a992f2",
-          "message": "[BUGFIX] ignore EnableRealTimeScheduling failures",
-          "author": "rmp22",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/de5a992f2"
+          "sha": "f7062b3",
+          "message": "extras: SystemUIClocks: Update to mustang BD3A.251105.010.E1",
+          "author": "Joey",
+          "date": "Wed Nov 19 23:00:05 2025 +0900",
+          "timestamp": 1763560805,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/f7062b3"
         },
         {
-          "sha": "9bf05396d",
-          "message": "Update valid phone number for VoIP call",
-          "author": "sarvsaur",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/9bf05396d"
+          "sha": "eb139c0",
+          "message": "extras: fonts_customization: update to bp3a",
+          "author": "aswin7469",
+          "date": "Wed Nov 19 23:00:05 2025 +0900",
+          "timestamp": 1763560805,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/eb139c0"
         },
         {
-          "sha": "62755fc4e",
-          "message": "Initiate codec negotiation when AT+BCC is received",
-          "author": "sarvsaur",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/62755fc4e"
+          "sha": "cfa87a4",
+          "message": "extras: Update BCR to Version 1.85",
+          "author": "chaitanya",
+          "date": "Wed Nov 19 22:58:41 2025 +0900",
+          "timestamp": 1763560721,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/cfa87a4"
         },
         {
-          "sha": "56acd01d6",
-          "message": "link commands triggered after classic link disconnection",
-          "author": "wentjin",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/56acd01d6"
+          "sha": "e804488",
+          "message": "extras: Drop a16 wifioverlay",
+          "author": "Ghosuto",
+          "date": "Sun Nov 16 11:30:48 2025 +0900",
+          "timestamp": 1763260248,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/e804488"
         },
         {
-          "sha": "496c36dd3",
-          "message": "ignore invalid mask",
-          "author": "rmp22",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/496c36dd3"
+          "sha": "9f242c6",
+          "message": "extras: UDFPS: import Keqing's icon and animation",
+          "author": "kamikaonashi",
+          "date": "Sun Nov 9 17:48:59 2025 +0900",
+          "timestamp": 1762678139,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/9f242c6"
         },
         {
-          "sha": "d71e6bd20",
-          "message": "Bluetooth: Add missing connect permission",
-          "author": "Alvin Francis",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/d71e6bd20"
+          "sha": "e86f9ce",
+          "message": "extras: Add new oplus fp icon",
+          "author": "Ghosuto",
+          "date": "Sun Nov 9 10:42:38 2025 +0900",
+          "timestamp": 1762652558,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/e86f9ce"
         },
         {
-          "sha": "0fcdb5b67",
-          "message": "Fix BT noise issue during startup",
-          "author": "Weifan",
-          "date": "Tue Nov 25 18:16:10 2025 +0900",
-          "timestamp": 1764062170,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/0fcdb5b67"
+          "sha": "222b60c",
+          "message": "extras: Update configuration for sony sketch font",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 6 15:30:11 2025 +0900",
+          "timestamp": 1762410611,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/222b60c"
         },
         {
-          "sha": "98c3bd923",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:44:05 2025 +0200",
-          "timestamp": 1763106245,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/98c3bd923"
+          "sha": "acb4efb",
+          "message": "extras: Add IBM Plex Sans font",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 6 15:30:11 2025 +0900",
+          "timestamp": 1762410611,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/acb4efb"
         },
         {
-          "sha": "bf95acfe4",
-          "message": "Fix the parameter ordering of btm_send_hci_set_scan_params",
-          "author": "Ömer Faruk Yılmaz",
-          "date": "Fri Sep 26 09:28:35 2025 +0530",
-          "timestamp": 1758859115,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/bf95acfe4"
+          "sha": "1c50cb8",
+          "message": "extras: Update BCR to Version 1.83",
+          "author": "chaitanya",
+          "date": "Mon Nov 3 08:40:39 2025 +0900",
+          "timestamp": 1762126839,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/1c50cb8"
         },
         {
-          "sha": "92472d2ec",
-          "message": "Change Android Headtracker Codec ID to 0x0002",
-          "author": "Himanshu Rawat",
-          "date": "Fri Sep 26 09:10:42 2025 +0530",
-          "timestamp": 1758858042,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/92472d2ec"
+          "sha": "964b760",
+          "message": "extras: Add FontSpaceGroteskOverlay font",
+          "author": "Ghosuto",
+          "date": "Mon Oct 27 09:26:22 2025 +0900",
+          "timestamp": 1761524782,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/964b760"
         },
         {
-          "sha": "b8a94470a",
-          "message": "25Q3: Remove sdp_ccb_clean_up_after_l2cap_disc",
-          "author": "Jack He",
-          "date": "Thu Sep 25 22:17:47 2025 +0530",
-          "timestamp": 1758818867,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/b8a94470a"
+          "sha": "21408ee",
+          "message": "Revert \"extras: Add AOD wallpaper overlay\"",
+          "author": "Joey",
+          "date": "Wed Oct 15 08:40:45 2025 +0900",
+          "timestamp": 1760485245,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/21408ee"
         },
         {
-          "sha": "b952f1a7f",
-          "message": "SDP: Clean up CCBs when L2CAP disconnects",
-          "author": "Katherine Lai",
-          "date": "Thu Sep 25 22:09:42 2025 +0530",
-          "timestamp": 1758818382,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/b952f1a7f"
-        },
-        {
-          "sha": "af64ccc58",
-          "message": "Add flag for cleaning up SDP CCBs when L2CAP disconnects",
-          "author": "Katherine Lai",
-          "date": "Thu Sep 25 22:08:07 2025 +0530",
-          "timestamp": 1758818287,
-          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/af64ccc58"
+          "sha": "2f37402",
+          "message": "extras: Update BCR to Version 1.80",
+          "author": "chaitanya",
+          "date": "Tue Oct 7 01:05:08 2025 +0900",
+          "timestamp": 1759766708,
+          "url": "https://github.com/Evolution-X/vendor_extras/commit/2f37402"
         }
       ]
     },
@@ -10938,123 +10745,123 @@
       ]
     },
     {
-      "name": "frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/Evolution-X/frameworks_opt_telephony",
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/Evolution-X/packages_modules_Bluetooth",
       "remote": "evo",
       "commit_count": 14,
       "commits": [
         {
-          "sha": "5c0a9cab6",
-          "message": "[Telephony][Security Fix] Launch Browser only if device is unlocked.",
-          "author": "arunvoddu",
-          "date": "Thu Dec 18 01:58:06 2025 +0900",
-          "timestamp": 1765990686,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/5c0a9cab6"
+          "sha": "56383bcc8",
+          "message": "Refactor Bluetooth AIDL constants into filegroup and fix framework dependencies",
+          "author": "Shra1V32",
+          "date": "Thu Dec 4 22:26:51 2025 +0900",
+          "timestamp": 1764854811,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/56383bcc8"
         },
         {
-          "sha": "19f902d1b",
-          "message": "Introduce `Force LTE_CA` override on per subscription basis [2/3]",
-          "author": "Arindam Bhattacharjee",
-          "date": "Thu Dec 4 08:19:15 2025 +0900",
-          "timestamp": 1764803955,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/19f902d1b"
+          "sha": "cc861f52c",
+          "message": "SBC Dual Channel (SBC HD) support - redux",
+          "author": "Luca Stefani",
+          "date": "Thu Dec 4 22:26:45 2025 +0900",
+          "timestamp": 1764854805,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/cc861f52c"
         },
         {
-          "sha": "fe70cef03",
-          "message": "Revert \"Clear up the obsoleted cascading signal strength polling logic\"",
-          "author": "Han Sol Jin",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/fe70cef03"
+          "sha": "525995be3",
+          "message": "[hack] skip abort crash on failed init",
+          "author": "rmp22",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/525995be3"
         },
         {
-          "sha": "229ff687c",
-          "message": "Telephony: Fix crash while updating Operator Name",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/229ff687c"
+          "sha": "34c5aa1be",
+          "message": "disable Bluetooth auto-on feature by default",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/34c5aa1be"
         },
         {
-          "sha": "6b1d4f898",
-          "message": "Ignore PLMN bit when SPN is required",
-          "author": "LibXZR",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/6b1d4f898"
+          "sha": "de5a992f2",
+          "message": "[BUGFIX] ignore EnableRealTimeScheduling failures",
+          "author": "rmp22",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/de5a992f2"
         },
         {
-          "sha": "697a6bc3c",
-          "message": "telephony: Check for LTE_CA in physical channel config",
-          "author": "Adithya R",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/697a6bc3c"
+          "sha": "9bf05396d",
+          "message": "Update valid phone number for VoIP call",
+          "author": "sarvsaur",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/9bf05396d"
         },
         {
-          "sha": "f17ea14c2",
-          "message": "When logging UiccSlot, ignore error if we cant print IccIds",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/f17ea14c2"
+          "sha": "62755fc4e",
+          "message": "Initiate codec negotiation when AT+BCC is received",
+          "author": "sarvsaur",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/62755fc4e"
         },
         {
-          "sha": "360abd958",
-          "message": "Fix NPE with 1.0 and 1.1 CardStatus",
-          "author": "Christian Hoffmann",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/360abd958"
+          "sha": "56acd01d6",
+          "message": "link commands triggered after classic link disconnection",
+          "author": "wentjin",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/56acd01d6"
         },
         {
-          "sha": "9ba1ff5f3",
-          "message": "Provide a default executor",
-          "author": "Christian Hoffmann",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/9ba1ff5f3"
+          "sha": "496c36dd3",
+          "message": "ignore invalid mask",
+          "author": "rmp22",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/496c36dd3"
         },
         {
-          "sha": "bf51642d1",
-          "message": "telephony: Disable handling audio direction changes on IMS calls.",
-          "author": "Quallenauge",
-          "date": "Fri Nov 21 14:33:49 2025 +0900",
-          "timestamp": 1763703229,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/bf51642d1"
+          "sha": "d71e6bd20",
+          "message": "Bluetooth: Add missing connect permission",
+          "author": "Alvin Francis",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/d71e6bd20"
         },
         {
-          "sha": "2a6a29d45",
-          "message": "Ignore null action in ImsResolver.",
-          "author": "gang.huang",
-          "date": "Fri Nov 21 14:33:46 2025 +0900",
-          "timestamp": 1763703226,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/2a6a29d45"
+          "sha": "0fcdb5b67",
+          "message": "Fix BT noise issue during startup",
+          "author": "Weifan",
+          "date": "Tue Nov 25 18:16:10 2025 +0900",
+          "timestamp": 1764062170,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/0fcdb5b67"
         },
         {
-          "sha": "9f5f0cbb9",
+          "sha": "98c3bd923",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:56:53 2025 +0200",
-          "timestamp": 1763103413,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/9f5f0cbb9"
+          "date": "Fri Nov 14 09:44:05 2025 +0200",
+          "timestamp": 1763106245,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/98c3bd923"
         },
         {
-          "sha": "dc2430384",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Thu Sep 25 21:12:15 2025 +0530",
-          "timestamp": 1758814935,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/dc2430384"
+          "sha": "bf95acfe4",
+          "message": "Fix the parameter ordering of btm_send_hci_set_scan_params",
+          "author": "Ömer Faruk Yılmaz",
+          "date": "Fri Sep 26 09:28:35 2025 +0530",
+          "timestamp": 1758859115,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/bf95acfe4"
         },
         {
-          "sha": "4820f09b9",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Thu Sep 25 20:58:34 2025 +0530",
-          "timestamp": 1758814114,
-          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/4820f09b9"
+          "sha": "92472d2ec",
+          "message": "Change Android Headtracker Codec ID to 0x0002",
+          "author": "Himanshu Rawat",
+          "date": "Fri Sep 26 09:10:42 2025 +0530",
+          "timestamp": 1758858042,
+          "url": "https://github.com/Evolution-X/packages_modules_Bluetooth/commit/92472d2ec"
         }
       ]
     },
@@ -11293,119 +11100,6 @@
       ]
     },
     {
-      "name": "packages_services_Telecomm",
-      "path": "packages/services/Telecomm",
-      "repo_url": "https://github.com/Evolution-X/packages_services_Telecomm",
-      "remote": "evo",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "6cee720e",
-          "message": "Catch IllegalArgumentException when unbinding CallRedirectionServiceConnection",
-          "author": "Pranav Madapurmath",
-          "date": "Thu Dec 18 02:01:13 2025 +0900",
-          "timestamp": 1765990873,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/6cee720e"
-        },
-        {
-          "sha": "aabcc099",
-          "message": "Add back increasing ring feature (1/3)",
-          "author": "Danny Baumann",
-          "date": "Mon Dec 1 20:36:39 2025 +0900",
-          "timestamp": 1764588999,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/aabcc099"
-        },
-        {
-          "sha": "b29f3a32",
-          "message": "Telecomm: More improvements for incall vibrations",
-          "author": "Pranav Vashi",
-          "date": "Mon Dec 1 20:36:38 2025 +0900",
-          "timestamp": 1764588998,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/b29f3a32"
-        },
-        {
-          "sha": "e844cec1",
-          "message": "Telecomm: Get rid of deprecation in incall vibrations",
-          "author": "Ido Ben-Hur",
-          "date": "Mon Dec 1 20:36:38 2025 +0900",
-          "timestamp": 1764588998,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/e844cec1"
-        },
-        {
-          "sha": "afbbe3ae",
-          "message": "Incall vibration options [2/3]",
-          "author": "beanstown106",
-          "date": "Mon Dec 1 20:36:38 2025 +0900",
-          "timestamp": 1764588998,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/afbbe3ae"
-        },
-        {
-          "sha": "5c7af24a",
-          "message": "Telecomm: Phone ringtone setting for Multi SIM device [3/3]",
-          "author": "Ting Yu",
-          "date": "Mon Dec 1 20:36:22 2025 +0900",
-          "timestamp": 1764588982,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/5c7af24a"
-        },
-        {
-          "sha": "0caf24a0",
-          "message": "CallAudioRouteController: Add NPE check to avoid crash on invalid audio route",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 29 22:17:41 2025 +0900",
-          "timestamp": 1764422261,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/0caf24a0"
-        },
-        {
-          "sha": "eca39189",
-          "message": "Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users",
-          "author": "Dmitry Muhomor",
-          "date": "Sat Nov 29 22:17:41 2025 +0900",
-          "timestamp": 1764422261,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/eca39189"
-        },
-        {
-          "sha": "1befb47e",
-          "message": "Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users",
-          "author": "Dmitry Muhomor",
-          "date": "Sat Nov 29 22:17:41 2025 +0900",
-          "timestamp": 1764422261,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/1befb47e"
-        },
-        {
-          "sha": "852a924f",
-          "message": "Telcomm: Enable support for blocking callers not in contacts",
-          "author": "Pratyush",
-          "date": "Sat Nov 29 22:17:41 2025 +0900",
-          "timestamp": 1764422261,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/852a924f"
-        },
-        {
-          "sha": "5743f103",
-          "message": "Telecomm: Provide required permissions for Telephony",
-          "author": "johnmart19",
-          "date": "Sat Nov 29 22:17:38 2025 +0900",
-          "timestamp": 1764422258,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/5743f103"
-        },
-        {
-          "sha": "5286249c",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:53:25 2025 +0200",
-          "timestamp": 1763110405,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/5286249c"
-        },
-        {
-          "sha": "1cfce4f5",
-          "message": "Prevent infinite SPEAKER_OFF looping",
-          "author": "Pranav Madapurmath",
-          "date": "Thu Sep 25 22:19:46 2025 +0530",
-          "timestamp": 1758818986,
-          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/1cfce4f5"
-        }
-      ]
-    },
-    {
       "name": "art",
       "path": "art",
       "repo_url": "https://github.com/Evolution-X/art",
@@ -11511,107 +11205,212 @@
       ]
     },
     {
-      "name": "packages_modules_Connectivity",
-      "path": "packages/modules/Connectivity",
-      "repo_url": "https://github.com/Evolution-X/packages_modules_Connectivity",
+      "name": "frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/Evolution-X/frameworks_opt_telephony",
       "remote": "evo",
       "commit_count": 12,
       "commits": [
         {
-          "sha": "e6837e797",
-          "message": "use Cloudflare DNS for MTU detection in CLAT initialization",
-          "author": "Dmitry Muhomor",
-          "date": "Sun Nov 30 23:26:44 2025 +0900",
-          "timestamp": 1764512804,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/e6837e797"
+          "sha": "5c0a9cab6",
+          "message": "[Telephony][Security Fix] Launch Browser only if device is unlocked.",
+          "author": "arunvoddu",
+          "date": "Thu Dec 18 01:58:06 2025 +0900",
+          "timestamp": 1765990686,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/5c0a9cab6"
         },
         {
-          "sha": "0a9b5a6c0",
-          "message": "Use Cloudflare DNS servers instead of Google DNS servers for diagnostics, connectivity checking and tethering",
-          "author": "flawedworld",
-          "date": "Sun Nov 30 23:26:21 2025 +0900",
-          "timestamp": 1764512781,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/0a9b5a6c0"
+          "sha": "19f902d1b",
+          "message": "Introduce `Force LTE_CA` override on per subscription basis [2/3]",
+          "author": "Arindam Bhattacharjee",
+          "date": "Thu Dec 4 08:19:15 2025 +0900",
+          "timestamp": 1764803955,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/19f902d1b"
         },
         {
-          "sha": "fc637d898",
-          "message": "NetdUpdatable: remove kernel requirement",
-          "author": "meloalfa159",
-          "date": "Fri Nov 21 18:47:30 2025 +0900",
-          "timestamp": 1763718450,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/fc637d898"
+          "sha": "fe70cef03",
+          "message": "Revert \"Clear up the obsoleted cascading signal strength polling logic\"",
+          "author": "Han Sol Jin",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/fe70cef03"
         },
         {
-          "sha": "dc2b1eee9",
-          "message": "netbpfload: extend support for <5.10 kernels",
-          "author": "meloalfa159",
-          "date": "Fri Nov 21 18:47:30 2025 +0900",
-          "timestamp": 1763718450,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/dc2b1eee9"
+          "sha": "229ff687c",
+          "message": "Telephony: Fix crash while updating Operator Name",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/229ff687c"
         },
         {
-          "sha": "09901a49e",
-          "message": "netd: Remove <5.4 kernel restrictions",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 18:47:30 2025 +0900",
-          "timestamp": 1763718450,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/09901a49e"
+          "sha": "6b1d4f898",
+          "message": "Ignore PLMN bit when SPN is required",
+          "author": "LibXZR",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/6b1d4f898"
         },
         {
-          "sha": "3656843e3",
-          "message": "[DNM] BpfNetMaps: hax for legacy",
-          "author": "Yumi Yukimura",
-          "date": "Fri Nov 21 12:53:50 2025 +0900",
-          "timestamp": 1763697230,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/3656843e3"
+          "sha": "697a6bc3c",
+          "message": "telephony: Check for LTE_CA in physical channel config",
+          "author": "Adithya R",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/697a6bc3c"
         },
         {
-          "sha": "fb5cced6a",
-          "message": "Tethering: Fix allow clients to use VPN toggle post QPR2",
-          "author": "Ido Ben-Hur",
-          "date": "Fri Nov 21 12:53:50 2025 +0900",
-          "timestamp": 1763697230,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/fb5cced6a"
+          "sha": "f17ea14c2",
+          "message": "When logging UiccSlot, ignore error if we cant print IccIds",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/f17ea14c2"
         },
         {
-          "sha": "63decc5a6",
-          "message": "Add more 'Private DNS' options",
-          "author": "Tad",
-          "date": "Fri Nov 21 12:53:46 2025 +0900",
-          "timestamp": 1763697226,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/63decc5a6"
+          "sha": "360abd958",
+          "message": "Fix NPE with 1.0 and 1.1 CardStatus",
+          "author": "Christian Hoffmann",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/360abd958"
         },
         {
-          "sha": "c7f07b6a1",
+          "sha": "9ba1ff5f3",
+          "message": "Provide a default executor",
+          "author": "Christian Hoffmann",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/9ba1ff5f3"
+        },
+        {
+          "sha": "bf51642d1",
+          "message": "telephony: Disable handling audio direction changes on IMS calls.",
+          "author": "Quallenauge",
+          "date": "Fri Nov 21 14:33:49 2025 +0900",
+          "timestamp": 1763703229,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/bf51642d1"
+        },
+        {
+          "sha": "2a6a29d45",
+          "message": "Ignore null action in ImsResolver.",
+          "author": "gang.huang",
+          "date": "Fri Nov 21 14:33:46 2025 +0900",
+          "timestamp": 1763703226,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/2a6a29d45"
+        },
+        {
+          "sha": "9f5f0cbb9",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:29:02 2025 +0200",
-          "timestamp": 1763108942,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/c7f07b6a1"
+          "date": "Fri Nov 14 08:56:53 2025 +0200",
+          "timestamp": 1763103413,
+          "url": "https://github.com/Evolution-X/frameworks_opt_telephony/commit/9f5f0cbb9"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_Telecomm",
+      "path": "packages/services/Telecomm",
+      "repo_url": "https://github.com/Evolution-X/packages_services_Telecomm",
+      "remote": "evo",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "6cee720e",
+          "message": "Catch IllegalArgumentException when unbinding CallRedirectionServiceConnection",
+          "author": "Pranav Madapurmath",
+          "date": "Thu Dec 18 02:01:13 2025 +0900",
+          "timestamp": 1765990873,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/6cee720e"
         },
         {
-          "sha": "7fe8e5653",
-          "message": "Remove pending BT request when service disconnects",
-          "author": "Quang Anh Luong",
-          "date": "Thu Sep 25 22:18:38 2025 +0530",
-          "timestamp": 1758818918,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/7fe8e5653"
+          "sha": "aabcc099",
+          "message": "Add back increasing ring feature (1/3)",
+          "author": "Danny Baumann",
+          "date": "Mon Dec 1 20:36:39 2025 +0900",
+          "timestamp": 1764588999,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/aabcc099"
         },
         {
-          "sha": "f94e84502",
-          "message": "clatd: disable seccomp",
-          "author": "Maciej Żenczykowski",
-          "date": "Thu Sep 25 21:25:26 2025 +0530",
-          "timestamp": 1758815726,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/f94e84502"
+          "sha": "b29f3a32",
+          "message": "Telecomm: More improvements for incall vibrations",
+          "author": "Pranav Vashi",
+          "date": "Mon Dec 1 20:36:38 2025 +0900",
+          "timestamp": 1764588998,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/b29f3a32"
         },
         {
-          "sha": "58323d3f2",
-          "message": "Fix NetworkAgent 4-way binder interlock",
-          "author": "Chalard Jean",
-          "date": "Thu Sep 25 21:18:59 2025 +0530",
-          "timestamp": 1758815339,
-          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/58323d3f2"
+          "sha": "e844cec1",
+          "message": "Telecomm: Get rid of deprecation in incall vibrations",
+          "author": "Ido Ben-Hur",
+          "date": "Mon Dec 1 20:36:38 2025 +0900",
+          "timestamp": 1764588998,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/e844cec1"
+        },
+        {
+          "sha": "afbbe3ae",
+          "message": "Incall vibration options [2/3]",
+          "author": "beanstown106",
+          "date": "Mon Dec 1 20:36:38 2025 +0900",
+          "timestamp": 1764588998,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/afbbe3ae"
+        },
+        {
+          "sha": "5c7af24a",
+          "message": "Telecomm: Phone ringtone setting for Multi SIM device [3/3]",
+          "author": "Ting Yu",
+          "date": "Mon Dec 1 20:36:22 2025 +0900",
+          "timestamp": 1764588982,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/5c7af24a"
+        },
+        {
+          "sha": "0caf24a0",
+          "message": "CallAudioRouteController: Add NPE check to avoid crash on invalid audio route",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 29 22:17:41 2025 +0900",
+          "timestamp": 1764422261,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/0caf24a0"
+        },
+        {
+          "sha": "eca39189",
+          "message": "Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users",
+          "author": "Dmitry Muhomor",
+          "date": "Sat Nov 29 22:17:41 2025 +0900",
+          "timestamp": 1764422261,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/eca39189"
+        },
+        {
+          "sha": "1befb47e",
+          "message": "Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users",
+          "author": "Dmitry Muhomor",
+          "date": "Sat Nov 29 22:17:41 2025 +0900",
+          "timestamp": 1764422261,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/1befb47e"
+        },
+        {
+          "sha": "852a924f",
+          "message": "Telcomm: Enable support for blocking callers not in contacts",
+          "author": "Pratyush",
+          "date": "Sat Nov 29 22:17:41 2025 +0900",
+          "timestamp": 1764422261,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/852a924f"
+        },
+        {
+          "sha": "5743f103",
+          "message": "Telecomm: Provide required permissions for Telephony",
+          "author": "johnmart19",
+          "date": "Sat Nov 29 22:17:38 2025 +0900",
+          "timestamp": 1764422258,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/5743f103"
+        },
+        {
+          "sha": "5286249c",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:53:25 2025 +0200",
+          "timestamp": 1763110405,
+          "url": "https://github.com/Evolution-X/packages_services_Telecomm/commit/5286249c"
         }
       ]
     },
@@ -11980,6 +11779,95 @@
       ]
     },
     {
+      "name": "packages_modules_Connectivity",
+      "path": "packages/modules/Connectivity",
+      "repo_url": "https://github.com/Evolution-X/packages_modules_Connectivity",
+      "remote": "evo",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "153d12719",
+          "message": "TrafficStats: Stop the spam",
+          "author": "Subhajeet Muhuri",
+          "date": "Wed Dec 24 23:23:30 2025 +0900",
+          "timestamp": 1766586210,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/153d12719"
+        },
+        {
+          "sha": "e6837e797",
+          "message": "use Cloudflare DNS for MTU detection in CLAT initialization",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Nov 30 23:26:44 2025 +0900",
+          "timestamp": 1764512804,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/e6837e797"
+        },
+        {
+          "sha": "0a9b5a6c0",
+          "message": "Use Cloudflare DNS servers instead of Google DNS servers for diagnostics, connectivity checking and tethering",
+          "author": "flawedworld",
+          "date": "Sun Nov 30 23:26:21 2025 +0900",
+          "timestamp": 1764512781,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/0a9b5a6c0"
+        },
+        {
+          "sha": "fc637d898",
+          "message": "NetdUpdatable: remove kernel requirement",
+          "author": "meloalfa159",
+          "date": "Fri Nov 21 18:47:30 2025 +0900",
+          "timestamp": 1763718450,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/fc637d898"
+        },
+        {
+          "sha": "dc2b1eee9",
+          "message": "netbpfload: extend support for <5.10 kernels",
+          "author": "meloalfa159",
+          "date": "Fri Nov 21 18:47:30 2025 +0900",
+          "timestamp": 1763718450,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/dc2b1eee9"
+        },
+        {
+          "sha": "09901a49e",
+          "message": "netd: Remove <5.4 kernel restrictions",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 18:47:30 2025 +0900",
+          "timestamp": 1763718450,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/09901a49e"
+        },
+        {
+          "sha": "3656843e3",
+          "message": "[DNM] BpfNetMaps: hax for legacy",
+          "author": "Yumi Yukimura",
+          "date": "Fri Nov 21 12:53:50 2025 +0900",
+          "timestamp": 1763697230,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/3656843e3"
+        },
+        {
+          "sha": "fb5cced6a",
+          "message": "Tethering: Fix allow clients to use VPN toggle post QPR2",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Nov 21 12:53:50 2025 +0900",
+          "timestamp": 1763697230,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/fb5cced6a"
+        },
+        {
+          "sha": "63decc5a6",
+          "message": "Add more 'Private DNS' options",
+          "author": "Tad",
+          "date": "Fri Nov 21 12:53:46 2025 +0900",
+          "timestamp": 1763697226,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/63decc5a6"
+        },
+        {
+          "sha": "c7f07b6a1",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:29:02 2025 +0200",
+          "timestamp": 1763108942,
+          "url": "https://github.com/Evolution-X/packages_modules_Connectivity/commit/c7f07b6a1"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Seedvault",
       "path": "packages/apps/Seedvault",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Seedvault",
@@ -12138,87 +12026,6 @@
           "date": "Fri Sep 26 14:53:05 2025 +0300",
           "timestamp": 1758887585,
           "url": "https://github.com/Evolution-X/manifest/commit/9548d9e"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/Evolution-X/packages_modules_Wifi",
-      "remote": "evo",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "ba67cd00",
-          "message": "Increase 5 GHz network signal tolerance",
-          "author": "Danny Lin",
-          "date": "Mon Dec 1 13:42:08 2025 +0900",
-          "timestamp": 1764564128,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/ba67cd00"
-        },
-        {
-          "sha": "0a4685dc",
-          "message": "WiFiInfo: Fix crash on google setup wizard",
-          "author": "Pranav Vashi",
-          "date": "Mon Dec 1 13:42:08 2025 +0900",
-          "timestamp": 1764564128,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/0a4685dc"
-        },
-        {
-          "sha": "57ce6256",
-          "message": "Reduce refresh times for non-persistent MACs",
-          "author": "Tommy Webb",
-          "date": "Mon Dec 1 13:41:55 2025 +0900",
-          "timestamp": 1764564115,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/57ce6256"
-        },
-        {
-          "sha": "7e7f7939",
-          "message": "WifiChipAidlImpl: ignore debug logging requests on MTE Pixel devices",
-          "author": "Dmitry Muhomor",
-          "date": "Sun Nov 30 23:39:29 2025 +0900",
-          "timestamp": 1764513569,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/7e7f7939"
-        },
-        {
-          "sha": "5fb936e9",
-          "message": "add option of always randomizing MAC addresses",
-          "author": "Pratyush",
-          "date": "Sun Nov 30 23:39:25 2025 +0900",
-          "timestamp": 1764513565,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/5fb936e9"
-        },
-        {
-          "sha": "7e02db99",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:48:28 2025 +0200",
-          "timestamp": 1763110108,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/7e02db99"
-        },
-        {
-          "sha": "f55b2f7a",
-          "message": "Log caller UID for wifi toggle metrics",
-          "author": "Oscar Shu",
-          "date": "Thu Sep 25 22:03:55 2025 +0530",
-          "timestamp": 1758818035,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/f55b2f7a"
-        },
-        {
-          "sha": "155229ec",
-          "message": "Set minimum connect choice RSSI",
-          "author": "Oscar Shu",
-          "date": "Thu Sep 25 21:22:01 2025 +0530",
-          "timestamp": 1758815521,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/155229ec"
-        },
-        {
-          "sha": "7ad55f06",
-          "message": "Enable support for Continuous Nan Ranging",
-          "author": "Shreyat Pandey",
-          "date": "Thu Sep 25 21:21:01 2025 +0530",
-          "timestamp": 1758815461,
-          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/7ad55f06"
         }
       ]
     },
@@ -12885,6 +12692,63 @@
           "date": "Thu Nov 13 18:17:13 2025 +0200",
           "timestamp": 1763050633,
           "url": "https://github.com/Evolution-X/kernel_configs/commit/735b513"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Wifi",
+      "path": "packages/modules/Wifi",
+      "repo_url": "https://github.com/Evolution-X/packages_modules_Wifi",
+      "remote": "evo",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "ba67cd00",
+          "message": "Increase 5 GHz network signal tolerance",
+          "author": "Danny Lin",
+          "date": "Mon Dec 1 13:42:08 2025 +0900",
+          "timestamp": 1764564128,
+          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/ba67cd00"
+        },
+        {
+          "sha": "0a4685dc",
+          "message": "WiFiInfo: Fix crash on google setup wizard",
+          "author": "Pranav Vashi",
+          "date": "Mon Dec 1 13:42:08 2025 +0900",
+          "timestamp": 1764564128,
+          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/0a4685dc"
+        },
+        {
+          "sha": "57ce6256",
+          "message": "Reduce refresh times for non-persistent MACs",
+          "author": "Tommy Webb",
+          "date": "Mon Dec 1 13:41:55 2025 +0900",
+          "timestamp": 1764564115,
+          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/57ce6256"
+        },
+        {
+          "sha": "7e7f7939",
+          "message": "WifiChipAidlImpl: ignore debug logging requests on MTE Pixel devices",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Nov 30 23:39:29 2025 +0900",
+          "timestamp": 1764513569,
+          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/7e7f7939"
+        },
+        {
+          "sha": "5fb936e9",
+          "message": "add option of always randomizing MAC addresses",
+          "author": "Pratyush",
+          "date": "Sun Nov 30 23:39:25 2025 +0900",
+          "timestamp": 1764513565,
+          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/5fb936e9"
+        },
+        {
+          "sha": "7e02db99",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:48:28 2025 +0200",
+          "timestamp": 1763110108,
+          "url": "https://github.com/Evolution-X/packages_modules_Wifi/commit/7e02db99"
         }
       ]
     },
@@ -13865,39 +13729,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_libhardware",
-      "path": "hardware/libhardware",
-      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "9461b55",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:03 2025 +0200",
-          "timestamp": 1763050623,
-          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/9461b55"
-        },
-        {
-          "sha": "d8e910c",
-          "message": "Revert \"hardware/libhw: Add display_defs.h to declare custom enums/flags\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 09:50:26 2025 +0000",
-          "timestamp": 1762681826,
-          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/d8e910c"
-        },
-        {
-          "sha": "2c0db7e",
-          "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
-          "author": "jiabin",
-          "date": "Fri Sep 26 10:44:16 2025 +0530",
-          "timestamp": 1758863656,
-          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/2c0db7e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_skia",
       "path": "external/skia",
       "repo_url": "https://github.com/LineageOS/android_external_skia",
@@ -13927,6 +13758,39 @@
           "date": "Tue Oct 14 19:42:53 2025 -0700",
           "timestamp": 1760496173,
           "url": "https://github.com/LineageOS/android_external_skia/commit/40c3f0a5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_libhardware",
+      "path": "hardware/libhardware",
+      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "9461b55",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:03 2025 +0200",
+          "timestamp": 1763050623,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/9461b55"
+        },
+        {
+          "sha": "d8e910c",
+          "message": "Revert \"hardware/libhw: Add display_defs.h to declare custom enums/flags\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 09:50:26 2025 +0000",
+          "timestamp": 1762681826,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/d8e910c"
+        },
+        {
+          "sha": "2c0db7e",
+          "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
+          "author": "jiabin",
+          "date": "Fri Sep 26 10:44:16 2025 +0530",
+          "timestamp": 1758863656,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/2c0db7e"
         }
       ]
     },
@@ -14437,6 +14301,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_CellBroadcastReceiver",
+      "path": "packages/apps/CellBroadcastReceiver",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4c3f17af",
+          "message": "Reapply \"[US] Bypass DND for critical alerts and provide toggle for overriding DND\"",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 08:28:40 2025 +0200",
+          "timestamp": 1763101720,
+          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/4c3f17af"
+        },
+        {
+          "sha": "eb141abb",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:20 2025 +0200",
+          "timestamp": 1763050640,
+          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/eb141abb"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_EmergencyInfo",
       "path": "packages/apps/EmergencyInfo",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_EmergencyInfo",
@@ -14483,31 +14372,6 @@
           "date": "Thu Nov 13 18:17:24 2025 +0200",
           "timestamp": 1763050644,
           "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/7ee3fd58"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_CellBroadcastReceiver",
-      "path": "packages/apps/CellBroadcastReceiver",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "4c3f17af",
-          "message": "Reapply \"[US] Bypass DND for critical alerts and provide toggle for overriding DND\"",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:28:40 2025 +0200",
-          "timestamp": 1763101720,
-          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/4c3f17af"
-        },
-        {
-          "sha": "eb141abb",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:20 2025 +0200",
-          "timestamp": 1763050640,
-          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/eb141abb"
         }
       ]
     },
@@ -14562,31 +14426,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_inputmethods_LatinIME",
-      "path": "packages/inputmethods/LatinIME",
-      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "5253c60",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:40 2025 +0000",
-          "timestamp": 1762026520,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/5253c60"
-        },
-        {
-          "sha": "dd0d927",
-          "message": "Update Turkish Keyboard Layout XML Files",
-          "author": "Ali Riza KESKIN",
-          "date": "Sat Sep 27 20:09:29 2025 +0000",
-          "timestamp": 1759003769,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/dd0d927"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_ThemePicker",
       "path": "packages/apps/ThemePicker",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_ThemePicker",
@@ -14608,6 +14447,31 @@
           "date": "Mon Nov 17 20:04:43 2025 +0200",
           "timestamp": 1763402683,
           "url": "https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/fd6492a2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_inputmethods_LatinIME",
+      "path": "packages/inputmethods/LatinIME",
+      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "5253c60",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:40 2025 +0000",
+          "timestamp": 1762026520,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/5253c60"
+        },
+        {
+          "sha": "dd0d927",
+          "message": "Update Turkish Keyboard Layout XML Files",
+          "author": "Ali Riza KESKIN",
+          "date": "Sat Sep 27 20:09:29 2025 +0000",
+          "timestamp": 1759003769,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/dd0d927"
         }
       ]
     },
@@ -14712,6 +14576,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_services_Car",
+      "path": "packages/services/Car",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "5cf2d9b15",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:52:22 2025 +0200",
+          "timestamp": 1763110342,
+          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/5cf2d9b15"
+        },
+        {
+          "sha": "51ffd503a",
+          "message": "Car: Enforce EPPE",
+          "author": "Nolen Johnson",
+          "date": "Thu Oct 16 19:54:14 2025 -0400",
+          "timestamp": 1760658854,
+          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_codeaurora_telephony",
       "path": "vendor/codeaurora/telephony",
       "repo_url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony",
@@ -14787,31 +14676,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8750/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0295669",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:12 2025 +0200",
-          "timestamp": 1762608372,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0295669"
-        },
-        {
-          "sha": "93d4457",
-          "message": "Merge ad3f011db26baa77a3f3fb66739a162a6060535b on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Oct 8 02:08:24 2025 -0700",
-          "timestamp": 1759914504,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/93d4457"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
       "path": "vendor/qcom/opensource/commonsys-intf/audio",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
@@ -14837,27 +14701,27 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_Car",
-      "path": "packages/services/Car",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8750/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "remote": "github",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "5cf2d9b15",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "sha": "0295669",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
           "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:52:22 2025 +0200",
-          "timestamp": 1763110342,
-          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/5cf2d9b15"
+          "date": "Sat Nov 8 15:26:12 2025 +0200",
+          "timestamp": 1762608372,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0295669"
         },
         {
-          "sha": "51ffd503a",
-          "message": "Car: Enforce EPPE",
-          "author": "Nolen Johnson",
-          "date": "Thu Oct 16 19:54:14 2025 -0400",
-          "timestamp": 1760658854,
-          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
+          "sha": "93d4457",
+          "message": "Merge ad3f011db26baa77a3f3fb66739a162a6060535b on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Wed Oct 8 02:08:24 2025 -0700",
+          "timestamp": 1759914504,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/93d4457"
         }
       ]
     },
@@ -15021,23 +14885,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_lineage_car",
-      "path": "device/lineage/car",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_car",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0ce8254",
-          "message": "car: Switch to vehicle AIDL HAL V4",
-          "author": "Yumi Yukimura",
-          "date": "Sat Nov 29 00:57:11 2025 +0800",
-          "timestamp": 1764349031,
-          "url": "https://github.com/LineageOS/android_device_lineage_car/commit/0ce8254"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_development",
       "path": "development",
       "repo_url": "https://github.com/LineageOS/android_development",
@@ -15051,6 +14898,23 @@
           "date": "Thu Nov 13 18:15:39 2025 +0200",
           "timestamp": 1763050539,
           "url": "https://github.com/LineageOS/android_development/commit/297af62e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_lineage_car",
+      "path": "device/lineage/car",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_car",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0ce8254",
+          "message": "car: Switch to vehicle AIDL HAL V4",
+          "author": "Yumi Yukimura",
+          "date": "Sat Nov 29 00:57:11 2025 +0800",
+          "timestamp": 1764349031,
+          "url": "https://github.com/LineageOS/android_device_lineage_car/commit/0ce8254"
         }
       ]
     },
@@ -15260,23 +15124,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8450/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c2d1986",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:07 2025 +0200",
-          "timestamp": 1765227487,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8550/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -15289,6 +15136,23 @@
           "date": "Mon Dec 8 22:58:21 2025 +0200",
           "timestamp": 1765227501,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8450/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c2d1986",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:07 2025 +0200",
+          "timestamp": 1765227487,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
         }
       ]
     },
@@ -15378,23 +15242,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Car_SystemUI",
-      "path": "packages/apps/Car/SystemUI",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Car_SystemUI",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9ea14ed8",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:09:11 2025 +0200",
-          "timestamp": 1763104151,
-          "url": "https://github.com/LineageOS/android_packages_apps_Car_SystemUI/commit/9ea14ed8"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Car_Settings",
       "path": "packages/apps/Car/Settings",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Car_Settings",
@@ -15408,6 +15255,23 @@
           "date": "Fri Nov 14 09:08:04 2025 +0200",
           "timestamp": 1763104084,
           "url": "https://github.com/LineageOS/android_packages_apps_Car_Settings/commit/6576ac96"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Car_SystemUI",
+      "path": "packages/apps/Car/SystemUI",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Car_SystemUI",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9ea14ed8",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:09:11 2025 +0200",
+          "timestamp": 1763104151,
+          "url": "https://github.com/LineageOS/android_packages_apps_Car_SystemUI/commit/9ea14ed8"
         }
       ]
     },
@@ -15497,23 +15361,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_UprobeStats",
-      "path": "packages/modules/UprobeStats",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8aa8fd6",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:43:14 2025 +0200",
-          "timestamp": 1763109794,
-          "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/8aa8fd6"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_WallpaperPicker2",
       "path": "packages/apps/WallpaperPicker2",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_WallpaperPicker2",
@@ -15531,19 +15378,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_common",
-      "path": "packages/modules/common",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_common",
+      "name": "LineageOS/android_packages_modules_UprobeStats",
+      "path": "packages/modules/UprobeStats",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "5d83212",
+          "sha": "8aa8fd6",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:45:26 2025 +0200",
-          "timestamp": 1763106326,
-          "url": "https://github.com/LineageOS/android_packages_modules_common/commit/5d83212"
+          "date": "Fri Nov 14 10:43:14 2025 +0200",
+          "timestamp": 1763109794,
+          "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/8aa8fd6"
         }
       ]
     },
@@ -15561,6 +15408,23 @@
           "date": "Fri Nov 14 10:32:57 2025 +0200",
           "timestamp": 1763109177,
           "url": "https://github.com/LineageOS/android_packages_modules_Nfc/commit/20bdcc9e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_common",
+      "path": "packages/modules/common",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_common",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5d83212",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:45:26 2025 +0200",
+          "timestamp": 1763106326,
+          "url": "https://github.com/LineageOS/android_packages_modules_common/commit/5d83212"
         }
       ]
     },
@@ -15633,23 +15497,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_DeviceAsWebcam",
-      "path": "packages/services/DeviceAsWebcam",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_DeviceAsWebcam",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "04f32df",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:18:56 2025 +0200",
-          "timestamp": 1763050736,
-          "url": "https://github.com/LineageOS/android_packages_services_DeviceAsWebcam/commit/04f32df"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_MediaProvider",
       "path": "packages/providers/MediaProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
@@ -15667,19 +15514,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_libziparchive",
-      "path": "system/libziparchive",
-      "repo_url": "https://github.com/LineageOS/android_system_libziparchive",
+      "name": "LineageOS/android_packages_services_DeviceAsWebcam",
+      "path": "packages/services/DeviceAsWebcam",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_DeviceAsWebcam",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "59e8c74",
+          "sha": "04f32df",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:19:23 2025 +0200",
-          "timestamp": 1763050763,
-          "url": "https://github.com/LineageOS/android_system_libziparchive/commit/59e8c74"
+          "date": "Thu Nov 13 18:18:56 2025 +0200",
+          "timestamp": 1763050736,
+          "url": "https://github.com/LineageOS/android_packages_services_DeviceAsWebcam/commit/04f32df"
         }
       ]
     },
@@ -15697,6 +15544,23 @@
           "date": "Thu Nov 13 18:19:19 2025 +0200",
           "timestamp": 1763050759,
           "url": "https://github.com/LineageOS/android_system_keymaster/commit/292a59f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_libziparchive",
+      "path": "system/libziparchive",
+      "repo_url": "https://github.com/LineageOS/android_system_libziparchive",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "59e8c74",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:19:23 2025 +0200",
+          "timestamp": 1763050763,
+          "url": "https://github.com/LineageOS/android_system_libziparchive/commit/59e8c74"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "rom_id": "projectmica",
   "branch": "16-qpr2",
-  "generated_at": "2025-12-24T01:29:48.398468+00:00",
-  "since_date": "2025-09-25",
+  "generated_at": "2025-12-25T01:38:30.979008+00:00",
+  "since_date": "2025-09-26",
   "total_projects": 64,
-  "total_commits": 623,
+  "total_commits": 627,
   "projects": [
     {
       "name": "frameworks_base",
@@ -820,7 +820,7 @@
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/Project-Mica/packages_apps_Settings",
       "remote": "mica",
-      "commit_count": 96,
+      "commit_count": 94,
       "commits": [
         {
           "sha": "0521f6e84",
@@ -1573,22 +1573,6 @@
           "date": "Thu Sep 25 20:31:12 2025 -0700",
           "timestamp": 1758857472,
           "url": "https://github.com/Project-Mica/packages_apps_Settings/commit/0ca1a333a"
-        },
-        {
-          "sha": "ee3ed8ada",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35948783'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Sep 25 02:01:03 2025 -0700",
-          "timestamp": 1758790863,
-          "url": "https://github.com/Project-Mica/packages_apps_Settings/commit/ee3ed8ada"
-        },
-        {
-          "sha": "0521e14c3",
-          "message": "Override isAvailable to control entry point visibility",
-          "author": "Andrew Neampong",
-          "date": "Thu Sep 25 01:51:19 2025 -0700",
-          "timestamp": 1758790279,
-          "url": "https://github.com/Project-Mica/packages_apps_Settings/commit/0521e14c3"
         }
       ]
     },
@@ -2014,8 +1998,32 @@
       "path": "frameworks/native",
       "repo_url": "https://github.com/Project-Mica/frameworks_native",
       "remote": "mica",
-      "commit_count": 47,
+      "commit_count": 50,
       "commits": [
+        {
+          "sha": "62389a94d",
+          "message": "Revert \"BLASTBufferQueue: Add epoll_pwait2 fallback for older kernels\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 24 03:27:31 2025 +0530",
+          "timestamp": 1766527051,
+          "url": "https://github.com/Project-Mica/frameworks_native/commit/62389a94d"
+        },
+        {
+          "sha": "c87e816ba",
+          "message": "gpuwork: Don't abort in case map doesn't exist",
+          "author": "Luca Stefani",
+          "date": "Wed Dec 24 03:27:10 2025 +0530",
+          "timestamp": 1766527030,
+          "url": "https://github.com/Project-Mica/frameworks_native/commit/c87e816ba"
+        },
+        {
+          "sha": "53dd49778",
+          "message": "Revert \"gpuservice: Validate BPF map structures before initialization\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 24 03:26:17 2025 +0530",
+          "timestamp": 1766526977,
+          "url": "https://github.com/Project-Mica/frameworks_native/commit/53dd49778"
+        },
         {
           "sha": "1935a3242",
           "message": "sf/inputflinger: Switch to -O3 and disable debugging",
@@ -2399,111 +2407,127 @@
       "path": "vendor/mica",
       "repo_url": "https://github.com/Project-Mica/vendor_mica",
       "remote": "mica",
-      "commit_count": 43,
+      "commit_count": 45,
       "commits": [
         {
-          "sha": "92a1577",
+          "sha": "f3850a6",
+          "message": "release: disable new dozing keyguard states",
+          "author": "John Galt",
+          "date": "Wed Dec 24 14:52:33 2025 +0530",
+          "timestamp": 1766568153,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/f3850a6"
+        },
+        {
+          "sha": "6ff97ed",
+          "message": "mica: Convert Settings overlay to rro",
+          "author": "aswin7469",
+          "date": "Wed Dec 24 14:50:09 2025 +0530",
+          "timestamp": 1766568009,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/6ff97ed"
+        },
+        {
+          "sha": "4eeb03d",
           "message": "Revert \"[TEST] Enable desktop mode in dev options\"",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:47:39 2025 +0530",
-          "timestamp": 1765793859,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/92a1577"
+          "date": "Wed Dec 24 14:48:33 2025 +0530",
+          "timestamp": 1766567913,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/4eeb03d"
         },
         {
-          "sha": "18a3edd",
+          "sha": "168eff1",
           "message": "[TEST] mica: Enable psb reskin",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:46:27 2025 +0530",
-          "timestamp": 1765793787,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/18a3edd"
+          "date": "Wed Dec 24 14:48:33 2025 +0530",
+          "timestamp": 1766567913,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/168eff1"
         },
         {
-          "sha": "949d413",
+          "sha": "14751bc",
           "message": "overlay: Enable RBC Setting for all",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:46:27 2025 +0530",
-          "timestamp": 1765793787,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/949d413"
+          "date": "Wed Dec 24 14:48:33 2025 +0530",
+          "timestamp": 1766567913,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/14751bc"
         },
         {
-          "sha": "506c7da",
+          "sha": "a8e7c5b",
           "message": "overlay: Enable UMO on the glanceable hub when media is playing for mobile also",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/506c7da"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/a8e7c5b"
         },
         {
-          "sha": "1587612",
+          "sha": "51a6520",
           "message": "aconfig: Enable location indicator",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/1587612"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/51a6520"
         },
         {
-          "sha": "adbe072",
+          "sha": "b3c7dbb",
           "message": "overlay: Enable GPSU",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/adbe072"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/b3c7dbb"
         },
         {
-          "sha": "a5f5f54",
+          "sha": "3c1911e",
           "message": "release: Enable navbar_flip_order_option",
           "author": "Michael Bestas",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/a5f5f54"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/3c1911e"
         },
         {
-          "sha": "86d9230",
+          "sha": "6deba2b",
           "message": "aconfig: Add back reactive clock",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/86d9230"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/6deba2b"
         },
         {
-          "sha": "1b4d620",
+          "sha": "f691225",
           "message": "overlay: Enable Lockscreen widgets settings on mobile",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/1b4d620"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/f691225"
         },
         {
-          "sha": "78b682f",
+          "sha": "fa87adc",
           "message": "mica: Move build-manifest.xml build rule into `build/tasks`",
           "author": "Yumi Yukimura",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/78b682f"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/fa87adc"
         },
         {
-          "sha": "e8b93e1",
+          "sha": "5a27083",
           "message": "mica: update prebuilts to bp4a",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:42 2025 +0530",
-          "timestamp": 1765793742,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/e8b93e1"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/5a27083"
         },
         {
-          "sha": "c68fbe1",
+          "sha": "d2dd403",
           "message": "build: fix soong generator after BP4A",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:41 2025 +0530",
-          "timestamp": 1765793741,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/c68fbe1"
+          "date": "Wed Dec 24 14:48:32 2025 +0530",
+          "timestamp": 1766567912,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/d2dd403"
         },
         {
-          "sha": "a8f2b70",
+          "sha": "5e8ef3f",
           "message": "aconfig: sync our flag_declarations with aosp_current",
           "author": "aswin7469",
-          "date": "Mon Dec 15 15:45:41 2025 +0530",
-          "timestamp": 1765793741,
-          "url": "https://github.com/Project-Mica/vendor_mica/commit/a8f2b70"
+          "date": "Wed Dec 24 14:48:31 2025 +0530",
+          "timestamp": 1766567911,
+          "url": "https://github.com/Project-Mica/vendor_mica/commit/5e8ef3f"
         },
         {
           "sha": "a634552",
@@ -3017,7 +3041,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 26,
+      "commit_count": 25,
       "commits": [
         {
           "sha": "76f9a6a",
@@ -3218,14 +3242,6 @@
           "date": "Fri Sep 26 16:44:51 2025 +0530",
           "timestamp": 1758885291,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/154a88f"
-        },
-        {
-          "sha": "791ba13",
-          "message": "sepolicy: Allow Perf hal to access retire_frame_event.",
-          "author": "simran jaiswal",
-          "date": "Thu Sep 25 15:48:08 2025 +0530",
-          "timestamp": 1758795488,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/791ba13"
         }
       ]
     },
@@ -3234,8 +3250,40 @@
       "path": "vendor/gms",
       "repo_url": "https://github.com/Project-Mica/vendor_gms",
       "remote": "mica",
-      "commit_count": 21,
+      "commit_count": 25,
       "commits": [
+        {
+          "sha": "9f54b42",
+          "message": "gms: use gesture navigation by default",
+          "author": "Dyneteve",
+          "date": "Wed Dec 24 22:43:29 2025 +0530",
+          "timestamp": 1766596409,
+          "url": "https://github.com/Project-Mica/vendor_gms/commit/9f54b42"
+        },
+        {
+          "sha": "6782133",
+          "message": "gms: Add UdfpsOverlay",
+          "author": "aswin7469",
+          "date": "Wed Dec 24 22:43:29 2025 +0530",
+          "timestamp": 1766596409,
+          "url": "https://github.com/Project-Mica/vendor_gms/commit/6782133"
+        },
+        {
+          "sha": "ea52335",
+          "message": "gms: remove Pixel tethering overlay",
+          "author": "aswin7469",
+          "date": "Wed Dec 24 22:43:29 2025 +0530",
+          "timestamp": 1766596409,
+          "url": "https://github.com/Project-Mica/vendor_gms/commit/ea52335"
+        },
+        {
+          "sha": "bd06f42",
+          "message": "fixup! gms: Enable Glancable Hub",
+          "author": "aswin7469",
+          "date": "Thu Dec 18 01:24:26 2025 +0530",
+          "timestamp": 1766001266,
+          "url": "https://github.com/Project-Mica/vendor_gms/commit/bd06f42"
+        },
         {
           "sha": "ad6df9f",
           "message": "gms: winter cleanup",
@@ -3665,103 +3713,6 @@
       ]
     },
     {
-      "name": "hardware_google_pixel",
-      "path": "hardware/google/pixel",
-      "repo_url": "https://github.com/Project-Mica/hardware_google_pixel",
-      "remote": "mica",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "bda22ca",
-          "message": "Revert \"PowerHal: Dump powerhal flag status\"",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 21:45:19 2025 +0530",
-          "timestamp": 1764778519,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/bda22ca"
-        },
-        {
-          "sha": "692ff78",
-          "message": "Revert \"Add support for powerhint.json flagging and add a flag provider\"",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 21:33:14 2025 +0530",
-          "timestamp": 1764777794,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/692ff78"
-        },
-        {
-          "sha": "1b7193b",
-          "message": "Revert \"Add a flag to disable sf prefer high cap\"",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 21:27:16 2025 +0530",
-          "timestamp": 1764777436,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/1b7193b"
-        },
-        {
-          "sha": "74e3958",
-          "message": "Revert \"ADPF: Remove initial_hboost_severe flag and feature\"",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 21:27:06 2025 +0530",
-          "timestamp": 1764777426,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/74e3958"
-        },
-        {
-          "sha": "aeb2420",
-          "message": "Revert \"Add flag to bypass hboost severe jank level for Chrome.\"",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 21:18:33 2025 +0530",
-          "timestamp": 1764776913,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/aeb2420"
-        },
-        {
-          "sha": "1d26369",
-          "message": "Merge tag 'android-16.0.0_r4' of https://android.googlesource.com/platform/hardware/google/pixel into 16-qpr2",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 02:11:07 2025 +0530",
-          "timestamp": 1764708067,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/1d26369"
-        },
-        {
-          "sha": "6f6eb0b",
-          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/hardware/google/pixel into HEAD",
-          "author": "aswin7469",
-          "date": "Wed Nov 12 11:19:41 2025 +0530",
-          "timestamp": 1762926581,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/6f6eb0b"
-        },
-        {
-          "sha": "b38821a",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35947839', 'googleplex-android-review.googlesource.com/35965393', 'googleplex-android-review.googlesource.com/36027081'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Tue Sep 30 03:58:47 2025 -0700",
-          "timestamp": 1759229927,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/b38821a"
-        },
-        {
-          "sha": "25cd959",
-          "message": "pixelstats: get ssrdump path from config",
-          "author": "Filip Konieczny",
-          "date": "Tue Sep 30 03:56:02 2025 -0700",
-          "timestamp": 1759229762,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/25cd959"
-        },
-        {
-          "sha": "ab58781",
-          "message": "pixelstats: add reporter for SSR crash reports",
-          "author": "Filip Konieczny",
-          "date": "Tue Sep 30 03:55:56 2025 -0700",
-          "timestamp": 1759229756,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/ab58781"
-        },
-        {
-          "sha": "3b0d9ce",
-          "message": "pixelatoms: Add SSRestart atom definition",
-          "author": "Filip Konieczny",
-          "date": "Tue Sep 30 03:55:50 2025 -0700",
-          "timestamp": 1759229750,
-          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/3b0d9ce"
-        }
-      ]
-    },
-    {
       "name": "build_soong",
       "path": "build/soong",
       "repo_url": "https://github.com/Project-Mica/build_soong",
@@ -3855,6 +3806,103 @@
           "date": "Sun Oct 12 23:25:12 2025 -0700",
           "timestamp": 1760336712,
           "url": "https://github.com/Project-Mica/build_soong/commit/cdcb6b51"
+        }
+      ]
+    },
+    {
+      "name": "hardware_google_pixel",
+      "path": "hardware/google/pixel",
+      "repo_url": "https://github.com/Project-Mica/hardware_google_pixel",
+      "remote": "mica",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "bda22ca",
+          "message": "Revert \"PowerHal: Dump powerhal flag status\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 21:45:19 2025 +0530",
+          "timestamp": 1764778519,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/bda22ca"
+        },
+        {
+          "sha": "692ff78",
+          "message": "Revert \"Add support for powerhint.json flagging and add a flag provider\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 21:33:14 2025 +0530",
+          "timestamp": 1764777794,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/692ff78"
+        },
+        {
+          "sha": "1b7193b",
+          "message": "Revert \"Add a flag to disable sf prefer high cap\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 21:27:16 2025 +0530",
+          "timestamp": 1764777436,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/1b7193b"
+        },
+        {
+          "sha": "74e3958",
+          "message": "Revert \"ADPF: Remove initial_hboost_severe flag and feature\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 21:27:06 2025 +0530",
+          "timestamp": 1764777426,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/74e3958"
+        },
+        {
+          "sha": "aeb2420",
+          "message": "Revert \"Add flag to bypass hboost severe jank level for Chrome.\"",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 21:18:33 2025 +0530",
+          "timestamp": 1764776913,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/aeb2420"
+        },
+        {
+          "sha": "1d26369",
+          "message": "Merge tag 'android-16.0.0_r4' of https://android.googlesource.com/platform/hardware/google/pixel into 16-qpr2",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 02:11:07 2025 +0530",
+          "timestamp": 1764708067,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/1d26369"
+        },
+        {
+          "sha": "6f6eb0b",
+          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/hardware/google/pixel into HEAD",
+          "author": "aswin7469",
+          "date": "Wed Nov 12 11:19:41 2025 +0530",
+          "timestamp": 1762926581,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/6f6eb0b"
+        },
+        {
+          "sha": "b38821a",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35947839', 'googleplex-android-review.googlesource.com/35965393', 'googleplex-android-review.googlesource.com/36027081'] into 25Q4-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Tue Sep 30 03:58:47 2025 -0700",
+          "timestamp": 1759229927,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/b38821a"
+        },
+        {
+          "sha": "25cd959",
+          "message": "pixelstats: get ssrdump path from config",
+          "author": "Filip Konieczny",
+          "date": "Tue Sep 30 03:56:02 2025 -0700",
+          "timestamp": 1759229762,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/25cd959"
+        },
+        {
+          "sha": "ab58781",
+          "message": "pixelstats: add reporter for SSR crash reports",
+          "author": "Filip Konieczny",
+          "date": "Tue Sep 30 03:55:56 2025 -0700",
+          "timestamp": 1759229756,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/ab58781"
+        },
+        {
+          "sha": "3b0d9ce",
+          "message": "pixelatoms: Add SSRestart atom definition",
+          "author": "Filip Konieczny",
+          "date": "Tue Sep 30 03:55:50 2025 -0700",
+          "timestamp": 1759229750,
+          "url": "https://github.com/Project-Mica/hardware_google_pixel/commit/3b0d9ce"
         }
       ]
     },
@@ -4257,63 +4305,6 @@
       ]
     },
     {
-      "name": "hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/Project-Mica/hardware_interfaces",
-      "remote": "mica",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "650be990c",
-          "message": "Merge tag 'android-16.0.0_r4' of https://android.googlesource.com/platform/hardware/interfaces into 16-qpr1",
-          "author": "aswin7469",
-          "date": "Wed Dec 3 02:11:37 2025 +0530",
-          "timestamp": 1764708097,
-          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/650be990c"
-        },
-        {
-          "sha": "67ce4f670",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Mon Nov 17 23:47:14 2025 +0530",
-          "timestamp": 1763403434,
-          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/67ce4f670"
-        },
-        {
-          "sha": "1b5431069",
-          "message": "compatibility_matrices: Bring HIDL Radio entries to FCM 7",
-          "author": "Yumi Yukimura",
-          "date": "Mon Nov 17 23:46:49 2025 +0530",
-          "timestamp": 1763403409,
-          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/1b5431069"
-        },
-        {
-          "sha": "2e4aadd40",
-          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/hardware/interfaces into HEAD",
-          "author": "aswin7469",
-          "date": "Wed Nov 12 11:21:00 2025 +0530",
-          "timestamp": 1762926660,
-          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/2e4aadd40"
-        },
-        {
-          "sha": "aa229558c",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/35950716'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Sep 25 02:00:59 2025 -0700",
-          "timestamp": 1758790859,
-          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/aa229558c"
-        },
-        {
-          "sha": "2e20580fb",
-          "message": "Ensured AIDL version support this HAL",
-          "author": "gwenlin",
-          "date": "Thu Sep 25 01:51:05 2025 -0700",
-          "timestamp": 1758790265,
-          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/2e20580fb"
-        }
-      ]
-    },
-    {
       "name": "system_core",
       "path": "system/core",
       "repo_url": "https://github.com/Project-Mica/system_core",
@@ -4645,6 +4636,47 @@
           "date": "Wed Nov 12 11:15:56 2025 +0530",
           "timestamp": 1762926356,
           "url": "https://github.com/Project-Mica/build/commit/796f900"
+        }
+      ]
+    },
+    {
+      "name": "hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/Project-Mica/hardware_interfaces",
+      "remote": "mica",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "650be990c",
+          "message": "Merge tag 'android-16.0.0_r4' of https://android.googlesource.com/platform/hardware/interfaces into 16-qpr1",
+          "author": "aswin7469",
+          "date": "Wed Dec 3 02:11:37 2025 +0530",
+          "timestamp": 1764708097,
+          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/650be990c"
+        },
+        {
+          "sha": "67ce4f670",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Mon Nov 17 23:47:14 2025 +0530",
+          "timestamp": 1763403434,
+          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/67ce4f670"
+        },
+        {
+          "sha": "1b5431069",
+          "message": "compatibility_matrices: Bring HIDL Radio entries to FCM 7",
+          "author": "Yumi Yukimura",
+          "date": "Mon Nov 17 23:46:49 2025 +0530",
+          "timestamp": 1763403409,
+          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/1b5431069"
+        },
+        {
+          "sha": "2e4aadd40",
+          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/hardware/interfaces into HEAD",
+          "author": "aswin7469",
+          "date": "Wed Nov 12 11:21:00 2025 +0530",
+          "timestamp": 1762926660,
+          "url": "https://github.com/Project-Mica/hardware_interfaces/commit/2e4aadd40"
         }
       ]
     },
@@ -5054,31 +5086,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8750/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0295669",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:12 2025 +0200",
-          "timestamp": 1762608372,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0295669"
-        },
-        {
-          "sha": "93d4457",
-          "message": "Merge ad3f011db26baa77a3f3fb66739a162a6060535b on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Oct 8 02:08:24 2025 -0700",
-          "timestamp": 1759914504,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/93d4457"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
       "path": "vendor/qcom/opensource/commonsys-intf/audio",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
@@ -5100,6 +5107,31 @@
           "date": "Thu Sep 25 23:58:05 2025 -0700",
           "timestamp": 1758869885,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/ed621aa"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8750/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0295669",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:12 2025 +0200",
+          "timestamp": 1762608372,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0295669"
+        },
+        {
+          "sha": "93d4457",
+          "message": "Merge ad3f011db26baa77a3f3fb66739a162a6060535b on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Wed Oct 8 02:08:24 2025 -0700",
+          "timestamp": 1759914504,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/93d4457"
         }
       ]
     },
@@ -5364,6 +5396,23 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8450/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c2d1986",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:07 2025 +0200",
+          "timestamp": 1765227487,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8350/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -5393,23 +5442,6 @@
           "date": "Mon Dec 8 22:58:21 2025 +0200",
           "timestamp": 1765227501,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8450/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c2d1986",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:07 2025 +0200",
-          "timestamp": 1765227487,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
         }
       ]
     },
