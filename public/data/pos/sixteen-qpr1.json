@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "sixteen-qpr1",
-  "generated_at": "2025-12-27T01:26:58.222804+00:00",
-  "since_date": "2025-09-28",
+  "generated_at": "2025-12-28T01:35:25.154180+00:00",
+  "since_date": "2025-09-29",
   "total_projects": 105,
-  "total_commits": 1202,
+  "total_commits": 1204,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -7138,8 +7138,16 @@
       "path": "hardware/lineage/interfaces",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
       "remote": "lineageos",
-      "commit_count": 16,
+      "commit_count": 17,
       "commits": [
+        {
+          "sha": "320587d",
+          "message": "Revert \"Import Motorola Health HAL\"",
+          "author": "Bruno Martins",
+          "date": "Sat Dec 27 18:25:20 2025 +0000",
+          "timestamp": 1766859920,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/320587d"
+        },
         {
           "sha": "9f240a0",
           "message": "Extend the CPU_LOAD_RESET hint",
@@ -7549,7 +7557,7 @@
       "path": "lineage/scripts",
       "repo_url": "https://github.com/PixelOS-AOSP/scripts",
       "remote": "github",
-      "commit_count": 15,
+      "commit_count": 14,
       "commits": [
         {
           "sha": "fc9cafb",
@@ -7662,14 +7670,6 @@
           "date": "Sat Oct 11 23:45:28 2025 +0000",
           "timestamp": 1760226328,
           "url": "https://github.com/PixelOS-AOSP/scripts/commit/2619421"
-        },
-        {
-          "sha": "7b8ba9e",
-          "message": "best-caf-kernel: chmod +x",
-          "author": "LuK1337",
-          "date": "Sun Sep 28 21:29:32 2025 +0200",
-          "timestamp": 1759087772,
-          "url": "https://github.com/PixelOS-AOSP/scripts/commit/7b8ba9e"
         }
       ]
     },
@@ -8395,71 +8395,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_hardware_google_pixel",
-      "path": "hardware/google/pixel",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "435d949",
-          "message": "pixel: Restore drv2624 vibrator HAL APEX",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/435d949"
-        },
-        {
-          "sha": "55d753e",
-          "message": "pixel: Add lineage health HAL",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/55d753e"
-        },
-        {
-          "sha": "a4c4d76",
-          "message": "pixel: Implement PowerShare HAL",
-          "author": "Alessandro Astone",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/a4c4d76"
-        },
-        {
-          "sha": "48c4396",
-          "message": "pixel: Add lineage touch HAL",
-          "author": "Alessandro Astone",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/48c4396"
-        },
-        {
-          "sha": "7a37ccf",
-          "message": "kernel_headers: Guard with soong namespace",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/7a37ccf"
-        },
-        {
-          "sha": "22ccf4f",
-          "message": "citadel: Guard with proprietary source presence",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/22ccf4f"
-        },
-        {
-          "sha": "215ac8d",
-          "message": "pixel: Disable userdebug diagnostics",
-          "author": "Ethan Chen",
-          "date": "Fri Nov 21 15:54:15 2025 +0530",
-          "timestamp": 1763720655,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/215ac8d"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_hardware_google_pixel-sepolicy",
       "path": "hardware/google/pixel-sepolicy",
       "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel-sepolicy",
@@ -8525,6 +8460,71 @@
       ]
     },
     {
+      "name": "PixelOS-AOSP/android_hardware_google_pixel",
+      "path": "hardware/google/pixel",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "435d949",
+          "message": "pixel: Restore drv2624 vibrator HAL APEX",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/435d949"
+        },
+        {
+          "sha": "55d753e",
+          "message": "pixel: Add lineage health HAL",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/55d753e"
+        },
+        {
+          "sha": "a4c4d76",
+          "message": "pixel: Implement PowerShare HAL",
+          "author": "Alessandro Astone",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/a4c4d76"
+        },
+        {
+          "sha": "48c4396",
+          "message": "pixel: Add lineage touch HAL",
+          "author": "Alessandro Astone",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/48c4396"
+        },
+        {
+          "sha": "7a37ccf",
+          "message": "kernel_headers: Guard with soong namespace",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/7a37ccf"
+        },
+        {
+          "sha": "22ccf4f",
+          "message": "citadel: Guard with proprietary source presence",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/22ccf4f"
+        },
+        {
+          "sha": "215ac8d",
+          "message": "pixel: Disable userdebug diagnostics",
+          "author": "Ethan Chen",
+          "date": "Fri Nov 21 15:54:15 2025 +0530",
+          "timestamp": 1763720655,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/215ac8d"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -8578,6 +8578,63 @@
           "date": "Sun Nov 2 13:30:17 2025 +0000",
           "timestamp": 1762090217,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "remote": "lineageos",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "5733095",
+          "message": "RO: Fixup Digi.Mobil APN Carrier Name",
+          "author": "ExtremeXT",
+          "date": "Sat Dec 27 19:31:18 2025 +0000",
+          "timestamp": 1766863878,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/5733095"
+        },
+        {
+          "sha": "e0d054f",
+          "message": "RO: Kill \"DIGI Proxy\" APN",
+          "author": "ExtremeXT",
+          "date": "Sat Dec 27 19:31:18 2025 +0000",
+          "timestamp": 1766863878,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e0d054f"
+        },
+        {
+          "sha": "e09a80d",
+          "message": "Add Bait MX",
+          "author": "DqrKnzx",
+          "date": "Thu Dec 4 22:40:23 2025 +0100",
+          "timestamp": 1764884423,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e09a80d"
+        },
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
         }
       ]
     },
@@ -8786,55 +8843,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "b6f4597a0",
-          "message": "BondStateMachine: Check name for validity before access",
-          "author": "electimon",
-          "date": "Fri Nov 21 17:09:05 2025 +0530",
-          "timestamp": 1763725145,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/b6f4597a0"
-        },
-        {
-          "sha": "ef704ba65",
-          "message": "BondStateMachine: Allow skipping confirm for some remotes",
-          "author": "Aaron Kling",
-          "date": "Fri Nov 21 17:09:01 2025 +0530",
-          "timestamp": 1763725141,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/ef704ba65"
-        },
-        {
-          "sha": "b53fbfdda",
-          "message": "Add property to disable APCF extended features",
-          "author": "me-cafebabe",
-          "date": "Fri Nov 21 17:06:29 2025 +0530",
-          "timestamp": 1763724989,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/b53fbfdda"
-        },
-        {
-          "sha": "18531dcbc",
-          "message": "legacy: Split header for hci legacy definitions",
-          "author": "Christian Hoffmann",
-          "date": "Fri Nov 21 17:06:28 2025 +0530",
-          "timestamp": 1763724988,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/18531dcbc"
-        },
-        {
-          "sha": "a10c76a20",
-          "message": "bluetooth: abandon app local certificate",
-          "author": "Ji Luo",
-          "date": "Fri Nov 21 17:06:25 2025 +0530",
-          "timestamp": 1763724985,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/a10c76a20"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony",
@@ -8880,6 +8888,55 @@
           "date": "Fri Nov 21 20:13:05 2025 +0530",
           "timestamp": 1763736185,
           "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/e63fe6778"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "b6f4597a0",
+          "message": "BondStateMachine: Check name for validity before access",
+          "author": "electimon",
+          "date": "Fri Nov 21 17:09:05 2025 +0530",
+          "timestamp": 1763725145,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/b6f4597a0"
+        },
+        {
+          "sha": "ef704ba65",
+          "message": "BondStateMachine: Allow skipping confirm for some remotes",
+          "author": "Aaron Kling",
+          "date": "Fri Nov 21 17:09:01 2025 +0530",
+          "timestamp": 1763725141,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/ef704ba65"
+        },
+        {
+          "sha": "b53fbfdda",
+          "message": "Add property to disable APCF extended features",
+          "author": "me-cafebabe",
+          "date": "Fri Nov 21 17:06:29 2025 +0530",
+          "timestamp": 1763724989,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/b53fbfdda"
+        },
+        {
+          "sha": "18531dcbc",
+          "message": "legacy: Split header for hci legacy definitions",
+          "author": "Christian Hoffmann",
+          "date": "Fri Nov 21 17:06:28 2025 +0530",
+          "timestamp": 1763724988,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/18531dcbc"
+        },
+        {
+          "sha": "a10c76a20",
+          "message": "bluetooth: abandon app local certificate",
+          "author": "Ji Luo",
+          "date": "Fri Nov 21 17:06:25 2025 +0530",
+          "timestamp": 1763724985,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/a10c76a20"
         }
       ]
     },
@@ -9019,47 +9076,6 @@
           "date": "Tue Oct 7 09:13:59 2025 +0200",
           "timestamp": 1759821239,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_apn",
-      "path": "vendor/apn",
-      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
-      "remote": "lineageos",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "e09a80d",
-          "message": "Add Bait MX",
-          "author": "DqrKnzx",
-          "date": "Thu Dec 4 22:40:23 2025 +0100",
-          "timestamp": 1764884423,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e09a80d"
-        },
-        {
-          "sha": "060d567",
-          "message": "Add WE EG",
-          "author": "keosh1",
-          "date": "Thu Nov 13 21:27:36 2025 +0000",
-          "timestamp": 1763069256,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
-        },
-        {
-          "sha": "2341ff2",
-          "message": "Add a helper to pretty format apn xmls and run it",
-          "author": "Arian",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
-        },
-        {
-          "sha": "ebf7f73",
-          "message": "Initial commit",
-          "author": "LuK1337",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
         }
       ]
     },
@@ -9303,39 +9319,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_bionic",
-      "path": "bionic",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_bionic",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "dc1e685",
-          "message": "Add ability to build scudo-free 32-bit libc variant.",
-          "author": "Quallenauge",
-          "date": "Fri Nov 21 16:09:02 2025 +0530",
-          "timestamp": 1763721542,
-          "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/dc1e685"
-        },
-        {
-          "sha": "68d7ac7",
-          "message": "libc: Also make libstdc++ available on product",
-          "author": "Bruno Martins",
-          "date": "Fri Nov 21 16:08:58 2025 +0530",
-          "timestamp": 1763721538,
-          "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/68d7ac7"
-        },
-        {
-          "sha": "8788cbd",
-          "message": "libc: libstdc++: Introduce libstdc++_vendor",
-          "author": "me-cafebabe",
-          "date": "Fri Nov 21 16:08:55 2025 +0530",
-          "timestamp": 1763721535,
-          "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/8788cbd"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_device_custom_sepolicy",
       "path": "device/custom/sepolicy",
       "repo_url": "https://github.com/PixelOS-AOSP/android_device_custom_sepolicy",
@@ -9365,6 +9348,39 @@
           "date": "Sun Oct 12 09:22:24 2025 +0545",
           "timestamp": 1760240244,
           "url": "https://github.com/PixelOS-AOSP/android_device_custom_sepolicy/commit/58017bc"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_bionic",
+      "path": "bionic",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_bionic",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "dc1e685",
+          "message": "Add ability to build scudo-free 32-bit libc variant.",
+          "author": "Quallenauge",
+          "date": "Fri Nov 21 16:09:02 2025 +0530",
+          "timestamp": 1763721542,
+          "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/dc1e685"
+        },
+        {
+          "sha": "68d7ac7",
+          "message": "libc: Also make libstdc++ available on product",
+          "author": "Bruno Martins",
+          "date": "Fri Nov 21 16:08:58 2025 +0530",
+          "timestamp": 1763721538,
+          "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/68d7ac7"
+        },
+        {
+          "sha": "8788cbd",
+          "message": "libc: libstdc++: Introduce libstdc++_vendor",
+          "author": "me-cafebabe",
+          "date": "Fri Nov 21 16:08:55 2025 +0530",
+          "timestamp": 1763721535,
+          "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/8788cbd"
         }
       ]
     },
@@ -10009,31 +10025,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
-      "path": "vendor/pixel/gms",
-      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
-      "remote": "gitlab",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "44ec538",
-          "message": "gms: Import from caiman-ota-bp3a.250905.014",
-          "author": "inferno0230",
-          "date": "Sun Dec 7 09:40:11 2025 +0530",
-          "timestamp": 1765080611,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/44ec538"
-        },
-        {
-          "sha": "8d5c697",
-          "message": "Initial empty repository",
-          "author": "inferno0230",
-          "date": "Sun Dec 7 09:39:21 2025 +0530",
-          "timestamp": 1765080561,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/8d5c697"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/proprietary_vendor_pixel_clocks",
       "path": "vendor/pixel/clocks",
       "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks",
@@ -10055,6 +10046,31 @@
           "date": "Mon Nov 24 14:07:33 2025 +0530",
           "timestamp": 1763973453,
           "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks/commit/ab059f9"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
+      "path": "vendor/pixel/gms",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
+      "remote": "gitlab",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "44ec538",
+          "message": "gms: Import from caiman-ota-bp3a.250905.014",
+          "author": "inferno0230",
+          "date": "Sun Dec 7 09:40:11 2025 +0530",
+          "timestamp": 1765080611,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/44ec538"
+        },
+        {
+          "sha": "8d5c697",
+          "message": "Initial empty repository",
+          "author": "inferno0230",
+          "date": "Sun Dec 7 09:39:21 2025 +0530",
+          "timestamp": 1765080561,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/8d5c697"
         }
       ]
     },
@@ -10144,23 +10160,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0b70a90",
-          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:23:04 2025 +0200",
-          "timestamp": 1762608184,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
       "remote": "lineageos",
@@ -10173,6 +10172,23 @@
           "date": "Sat Oct 4 12:54:48 2025 +0800",
           "timestamp": 1759553688,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/19b9d01"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0b70a90",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:23:04 2025 +0200",
+          "timestamp": 1762608184,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
         }
       ]
     },
