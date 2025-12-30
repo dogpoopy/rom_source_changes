@@ -1,10 +1,10 @@
 {
   "rom_id": "projectinfnityx",
   "branch": "16",
-  "generated_at": "2025-12-29T01:39:06.716333+00:00",
-  "since_date": "2025-09-30",
+  "generated_at": "2025-12-30T01:36:25.073527+00:00",
+  "since_date": "2025-10-01",
   "total_projects": 168,
-  "total_commits": 1349,
+  "total_commits": 1344,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1471,6 +1471,14 @@
       "commit_count": 100,
       "commits": [
         {
+          "sha": "356b8cf",
+          "message": "config: Add PERF_ANIM_OVERRIDE flag",
+          "author": "rmp22",
+          "date": "Mon Dec 29 15:58:07 2025 +0000",
+          "timestamp": 1767023887,
+          "url": "https://github.com/ProjectInfinity-X/vendor_infinity/commit/356b8cf"
+        },
+        {
           "sha": "3a57fd4",
           "message": "config: Only include UpdaterGMSOverlay if Official",
           "author": "Tejas Singh",
@@ -2261,14 +2269,6 @@
           "date": "Tue Nov 4 12:24:20 2025 +0100",
           "timestamp": 1762255460,
           "url": "https://github.com/ProjectInfinity-X/vendor_infinity/commit/d186241"
-        },
-        {
-          "sha": "45094fb",
-          "message": "apns: Add APN for Netgsm",
-          "author": "Doğancan yılmazer",
-          "date": "Mon Nov 3 23:25:24 2025 +0000",
-          "timestamp": 1762212324,
-          "url": "https://github.com/ProjectInfinity-X/vendor_infinity/commit/45094fb"
         }
       ]
     },
@@ -2674,6 +2674,391 @@
       ]
     },
     {
+      "name": "build",
+      "path": "build/make",
+      "repo_url": "https://github.com/ProjectInfinity-X/build",
+      "remote": "infinity",
+      "commit_count": 47,
+      "commits": [
+        {
+          "sha": "4bb7327",
+          "message": "Replace device_kernel_headers with generated_kernel_headers",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 29 13:34:16 2025 +0000",
+          "timestamp": 1767015256,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/4bb7327"
+        },
+        {
+          "sha": "9853674",
+          "message": "Replace old-style kernel headers only when building inline",
+          "author": "Chirayu Desai",
+          "date": "Mon Dec 29 13:34:16 2025 +0000",
+          "timestamp": 1767015256,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/9853674"
+        },
+        {
+          "sha": "ace98fa",
+          "message": "build: Automatically replace old-style kernel header includes with new header lib",
+          "author": "Rashed Abdel-Tawab",
+          "date": "Mon Dec 29 13:34:16 2025 +0000",
+          "timestamp": 1767015256,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/ace98fa"
+        },
+        {
+          "sha": "a8c646f",
+          "message": "fix: date command syntax for PLATFORM_SECURITY_PATCH_TIMESTAMP",
+          "author": "khong gi bang bi ngkhac da",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/a8c646f"
+        },
+        {
+          "sha": "e93c006",
+          "message": "always use UTC as the time zone for build dates",
+          "author": "Daniel Micay",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/e93c006"
+        },
+        {
+          "sha": "8ec22e8",
+          "message": "build: Turn off debug props on userdebug builds",
+          "author": "Pranav Vashi",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/8ec22e8"
+        },
+        {
+          "sha": "ced98a2",
+          "message": "envsetup: Drop the unnecessary spam_for_lunch",
+          "author": "Sourajit Karmakar",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/ced98a2"
+        },
+        {
+          "sha": "9fee106",
+          "message": "core: sysprop: Write build display id to product prop",
+          "author": "Adithya R",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/9fee106"
+        },
+        {
+          "sha": "f6d8040",
+          "message": "Allow longer fingerprint",
+          "author": "wrapped",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/f6d8040"
+        },
+        {
+          "sha": "b3303fa",
+          "message": "Use SOONG_ZIP for all zip usages",
+          "author": "Simao Gomes Viana",
+          "date": "Tue Dec 23 21:01:38 2025 +0000",
+          "timestamp": 1766523698,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/b3303fa"
+        },
+        {
+          "sha": "5b7e83c",
+          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
+          "author": "ShevT",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/5b7e83c"
+        },
+        {
+          "sha": "b5f252f",
+          "message": "combo: Add kryo585 architecture to known v8 cores",
+          "author": "johnmart19",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/b5f252f"
+        },
+        {
+          "sha": "4dc5189",
+          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
+          "author": "minaripenguin",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/4dc5189"
+        },
+        {
+          "sha": "d82e4d3",
+          "message": "combo: Add cortex-a76 to known v8-2a cores",
+          "author": "Jason Edson",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/d82e4d3"
+        },
+        {
+          "sha": "00ea729",
+          "message": "build: disable memory tagging for surfaceflinger",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/00ea729"
+        },
+        {
+          "sha": "225bb8b",
+          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
+          "author": "Alexander Koskovich",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/225bb8b"
+        },
+        {
+          "sha": "617d884",
+          "message": "releasetools: do not remove dynamic partitions in system-only builds",
+          "author": "Peter Cai",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/617d884"
+        },
+        {
+          "sha": "e1c99e3",
+          "message": "Correct logic for obtaining the path to full recovery image",
+          "author": "Ricky Cheung",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/e1c99e3"
+        },
+        {
+          "sha": "7319871",
+          "message": "Don't make recovery patch for devices with prebuilt vendor",
+          "author": "TheScarastic",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/7319871"
+        },
+        {
+          "sha": "a81198d",
+          "message": "Move recovery-from-boot.p from /system to /vendor",
+          "author": "dianlujitao",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/a81198d"
+        },
+        {
+          "sha": "ae83528",
+          "message": "build_image: get squashfs partition size from image size",
+          "author": "jabashque",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/ae83528"
+        },
+        {
+          "sha": "a0c1e97",
+          "message": "build: Erase package_cache upon flashing",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/a0c1e97"
+        },
+        {
+          "sha": "6bf4551",
+          "message": "Don't build useless html viewer",
+          "author": "ezio84",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/6bf4551"
+        },
+        {
+          "sha": "21781a8",
+          "message": "core: set pkg target files deflate level to 1",
+          "author": "Simão Gomes Viana",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/21781a8"
+        },
+        {
+          "sha": "b913bfa",
+          "message": "make: sysprop.mk: Treat dev/test-keys as release-keys",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/b913bfa"
+        },
+        {
+          "sha": "02db86e",
+          "message": "build: Unconditionally use \"user\" prop",
+          "author": "Henrique Silva",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/02db86e"
+        },
+        {
+          "sha": "2a3f8cd",
+          "message": "Exclude packages for custom builds",
+          "author": "tejas101k",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/2a3f8cd"
+        },
+        {
+          "sha": "d14711b",
+          "message": "build: Don't store recovery.img in non-A/B OTA Unconditionally",
+          "author": "tejas101k",
+          "date": "Tue Dec 23 21:01:37 2025 +0000",
+          "timestamp": 1766523697,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/d14711b"
+        },
+        {
+          "sha": "2979412",
+          "message": "build: Add flashpage ANSI Art",
+          "author": "tejas101k",
+          "date": "Tue Dec 23 21:00:21 2025 +0000",
+          "timestamp": 1766523621,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/2979412"
+        },
+        {
+          "sha": "4814e89",
+          "message": "build: Clean up ASCII art",
+          "author": "tejas101k",
+          "date": "Tue Dec 23 21:00:03 2025 +0000",
+          "timestamp": 1766523603,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/4814e89"
+        },
+        {
+          "sha": "e712fce",
+          "message": "build: Add Project Infinity X ASCII art on lunch",
+          "author": "AgentFabulous",
+          "date": "Tue Dec 23 21:00:03 2025 +0000",
+          "timestamp": 1766523603,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/e712fce"
+        },
+        {
+          "sha": "913d302",
+          "message": "envsetup.sh: Setup and enable ccache",
+          "author": "minaripenguin",
+          "date": "Tue Dec 23 20:59:52 2025 +0000",
+          "timestamp": 1766523592,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/913d302"
+        },
+        {
+          "sha": "1b2ba92",
+          "message": "release_config: Set TARGET_RELEASE to bp3a",
+          "author": "tejas101k",
+          "date": "Tue Dec 23 20:59:27 2025 +0000",
+          "timestamp": 1766523567,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/1b2ba92"
+        },
+        {
+          "sha": "60bf4a7",
+          "message": "make: envsetup: Always use latest release for lunch",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Dec 23 19:58:45 2025 +0000",
+          "timestamp": 1766519925,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/60bf4a7"
+        },
+        {
+          "sha": "8b46440",
+          "message": "Revert \"Add roomservice\"",
+          "author": "tejas101k",
+          "date": "Tue Dec 23 19:58:44 2025 +0000",
+          "timestamp": 1766519924,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/8b46440"
+        },
+        {
+          "sha": "920c549",
+          "message": "build: Add Infinity-X build support",
+          "author": "Luca Stefani",
+          "date": "Tue Dec 23 19:58:30 2025 +0000",
+          "timestamp": 1766519910,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/920c549"
+        },
+        {
+          "sha": "0df2841",
+          "message": "Reland: build: Enable super image build rules depending on single super block device",
+          "author": "Yumi Yukimura",
+          "date": "Tue Dec 2 15:56:15 2025 -0500",
+          "timestamp": 1764708975,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/0df2841"
+        },
+        {
+          "sha": "23eee04",
+          "message": "Revert \"Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS.\"",
+          "author": "Nolen Johnson",
+          "date": "Tue Dec 2 15:45:06 2025 -0500",
+          "timestamp": 1764708306,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/23eee04"
+        },
+        {
+          "sha": "aa89feb",
+          "message": "Revert \"Remove Virtual A/B Retrofit support.\"",
+          "author": "Nolen Johnson",
+          "date": "Mon Dec 1 23:53:45 2025 -0500",
+          "timestamp": 1764651225,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/aa89feb"
+        },
+        {
+          "sha": "c5a0de6",
+          "message": "Revert \"Remove retrofit dynamic partition support from otatools.\"",
+          "author": "Nolen Johnson",
+          "date": "Mon Dec 1 23:53:25 2025 -0500",
+          "timestamp": 1764651205,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/c5a0de6"
+        },
+        {
+          "sha": "00fcf46",
+          "message": "Exclude perf-setup-sh from userdebug builds",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 18:12:03 2025 +0200",
+          "timestamp": 1764432723,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/00fcf46"
+        },
+        {
+          "sha": "ed851bf",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:33:02 2025 +0200",
+          "timestamp": 1763667182,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/ed851bf"
+        },
+        {
+          "sha": "ebb2d13",
+          "message": "Reapply \"Drop legacy vboot support.\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:32:31 2025 +0200",
+          "timestamp": 1763667151,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/ebb2d13"
+        },
+        {
+          "sha": "768ea6a",
+          "message": "Revert \"build: Enable super image build rules depending on single super block device\"",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 17 16:13:18 2025 +0200",
+          "timestamp": 1763388798,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/768ea6a"
+        },
+        {
+          "sha": "083aa4a",
+          "message": "Merge commit 'cda08bfbf55aed1e4c79efe6a66bb930d19a8a13' into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:46:17 2025 +0200",
+          "timestamp": 1762422377,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/083aa4a"
+        },
+        {
+          "sha": "4e5717d",
+          "message": "envsetup: Build OOT kernel during lunch if needed",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 23 11:53:35 2025 +0300",
+          "timestamp": 1761209615,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/4e5717d"
+        },
+        {
+          "sha": "ae602b8",
+          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
+          "author": "Yumi Yukimura",
+          "date": "Sun Oct 19 00:45:31 2025 +0800",
+          "timestamp": 1760805931,
+          "url": "https://github.com/ProjectInfinity-X/build/commit/ae602b8"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Etar",
       "path": "packages/apps/Etar",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Etar",
@@ -3047,367 +3432,6 @@
           "date": "Thu Oct 9 20:54:13 2025 +0200",
           "timestamp": 1760036053,
           "url": "https://github.com/LineageOS/android_packages_apps_Etar/commit/442888b"
-        }
-      ]
-    },
-    {
-      "name": "build",
-      "path": "build/make",
-      "repo_url": "https://github.com/ProjectInfinity-X/build",
-      "remote": "infinity",
-      "commit_count": 44,
-      "commits": [
-        {
-          "sha": "a8c646f",
-          "message": "fix: date command syntax for PLATFORM_SECURITY_PATCH_TIMESTAMP",
-          "author": "khong gi bang bi ngkhac da",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/a8c646f"
-        },
-        {
-          "sha": "e93c006",
-          "message": "always use UTC as the time zone for build dates",
-          "author": "Daniel Micay",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/e93c006"
-        },
-        {
-          "sha": "8ec22e8",
-          "message": "build: Turn off debug props on userdebug builds",
-          "author": "Pranav Vashi",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/8ec22e8"
-        },
-        {
-          "sha": "ced98a2",
-          "message": "envsetup: Drop the unnecessary spam_for_lunch",
-          "author": "Sourajit Karmakar",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/ced98a2"
-        },
-        {
-          "sha": "9fee106",
-          "message": "core: sysprop: Write build display id to product prop",
-          "author": "Adithya R",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/9fee106"
-        },
-        {
-          "sha": "f6d8040",
-          "message": "Allow longer fingerprint",
-          "author": "wrapped",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/f6d8040"
-        },
-        {
-          "sha": "b3303fa",
-          "message": "Use SOONG_ZIP for all zip usages",
-          "author": "Simao Gomes Viana",
-          "date": "Tue Dec 23 21:01:38 2025 +0000",
-          "timestamp": 1766523698,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/b3303fa"
-        },
-        {
-          "sha": "5b7e83c",
-          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
-          "author": "ShevT",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/5b7e83c"
-        },
-        {
-          "sha": "b5f252f",
-          "message": "combo: Add kryo585 architecture to known v8 cores",
-          "author": "johnmart19",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/b5f252f"
-        },
-        {
-          "sha": "4dc5189",
-          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
-          "author": "minaripenguin",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/4dc5189"
-        },
-        {
-          "sha": "d82e4d3",
-          "message": "combo: Add cortex-a76 to known v8-2a cores",
-          "author": "Jason Edson",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/d82e4d3"
-        },
-        {
-          "sha": "00ea729",
-          "message": "build: disable memory tagging for surfaceflinger",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/00ea729"
-        },
-        {
-          "sha": "225bb8b",
-          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
-          "author": "Alexander Koskovich",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/225bb8b"
-        },
-        {
-          "sha": "617d884",
-          "message": "releasetools: do not remove dynamic partitions in system-only builds",
-          "author": "Peter Cai",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/617d884"
-        },
-        {
-          "sha": "e1c99e3",
-          "message": "Correct logic for obtaining the path to full recovery image",
-          "author": "Ricky Cheung",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/e1c99e3"
-        },
-        {
-          "sha": "7319871",
-          "message": "Don't make recovery patch for devices with prebuilt vendor",
-          "author": "TheScarastic",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/7319871"
-        },
-        {
-          "sha": "a81198d",
-          "message": "Move recovery-from-boot.p from /system to /vendor",
-          "author": "dianlujitao",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/a81198d"
-        },
-        {
-          "sha": "ae83528",
-          "message": "build_image: get squashfs partition size from image size",
-          "author": "jabashque",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/ae83528"
-        },
-        {
-          "sha": "a0c1e97",
-          "message": "build: Erase package_cache upon flashing",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/a0c1e97"
-        },
-        {
-          "sha": "6bf4551",
-          "message": "Don't build useless html viewer",
-          "author": "ezio84",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/6bf4551"
-        },
-        {
-          "sha": "21781a8",
-          "message": "core: set pkg target files deflate level to 1",
-          "author": "Simão Gomes Viana",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/21781a8"
-        },
-        {
-          "sha": "b913bfa",
-          "message": "make: sysprop.mk: Treat dev/test-keys as release-keys",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/b913bfa"
-        },
-        {
-          "sha": "02db86e",
-          "message": "build: Unconditionally use \"user\" prop",
-          "author": "Henrique Silva",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/02db86e"
-        },
-        {
-          "sha": "2a3f8cd",
-          "message": "Exclude packages for custom builds",
-          "author": "tejas101k",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/2a3f8cd"
-        },
-        {
-          "sha": "d14711b",
-          "message": "build: Don't store recovery.img in non-A/B OTA Unconditionally",
-          "author": "tejas101k",
-          "date": "Tue Dec 23 21:01:37 2025 +0000",
-          "timestamp": 1766523697,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/d14711b"
-        },
-        {
-          "sha": "2979412",
-          "message": "build: Add flashpage ANSI Art",
-          "author": "tejas101k",
-          "date": "Tue Dec 23 21:00:21 2025 +0000",
-          "timestamp": 1766523621,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/2979412"
-        },
-        {
-          "sha": "4814e89",
-          "message": "build: Clean up ASCII art",
-          "author": "tejas101k",
-          "date": "Tue Dec 23 21:00:03 2025 +0000",
-          "timestamp": 1766523603,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/4814e89"
-        },
-        {
-          "sha": "e712fce",
-          "message": "build: Add Project Infinity X ASCII art on lunch",
-          "author": "AgentFabulous",
-          "date": "Tue Dec 23 21:00:03 2025 +0000",
-          "timestamp": 1766523603,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/e712fce"
-        },
-        {
-          "sha": "913d302",
-          "message": "envsetup.sh: Setup and enable ccache",
-          "author": "minaripenguin",
-          "date": "Tue Dec 23 20:59:52 2025 +0000",
-          "timestamp": 1766523592,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/913d302"
-        },
-        {
-          "sha": "1b2ba92",
-          "message": "release_config: Set TARGET_RELEASE to bp3a",
-          "author": "tejas101k",
-          "date": "Tue Dec 23 20:59:27 2025 +0000",
-          "timestamp": 1766523567,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/1b2ba92"
-        },
-        {
-          "sha": "60bf4a7",
-          "message": "make: envsetup: Always use latest release for lunch",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 23 19:58:45 2025 +0000",
-          "timestamp": 1766519925,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/60bf4a7"
-        },
-        {
-          "sha": "8b46440",
-          "message": "Revert \"Add roomservice\"",
-          "author": "tejas101k",
-          "date": "Tue Dec 23 19:58:44 2025 +0000",
-          "timestamp": 1766519924,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/8b46440"
-        },
-        {
-          "sha": "920c549",
-          "message": "build: Add Infinity-X build support",
-          "author": "Luca Stefani",
-          "date": "Tue Dec 23 19:58:30 2025 +0000",
-          "timestamp": 1766519910,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/920c549"
-        },
-        {
-          "sha": "0df2841",
-          "message": "Reland: build: Enable super image build rules depending on single super block device",
-          "author": "Yumi Yukimura",
-          "date": "Tue Dec 2 15:56:15 2025 -0500",
-          "timestamp": 1764708975,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/0df2841"
-        },
-        {
-          "sha": "23eee04",
-          "message": "Revert \"Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS.\"",
-          "author": "Nolen Johnson",
-          "date": "Tue Dec 2 15:45:06 2025 -0500",
-          "timestamp": 1764708306,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/23eee04"
-        },
-        {
-          "sha": "aa89feb",
-          "message": "Revert \"Remove Virtual A/B Retrofit support.\"",
-          "author": "Nolen Johnson",
-          "date": "Mon Dec 1 23:53:45 2025 -0500",
-          "timestamp": 1764651225,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/aa89feb"
-        },
-        {
-          "sha": "c5a0de6",
-          "message": "Revert \"Remove retrofit dynamic partition support from otatools.\"",
-          "author": "Nolen Johnson",
-          "date": "Mon Dec 1 23:53:25 2025 -0500",
-          "timestamp": 1764651205,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/c5a0de6"
-        },
-        {
-          "sha": "00fcf46",
-          "message": "Exclude perf-setup-sh from userdebug builds",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 18:12:03 2025 +0200",
-          "timestamp": 1764432723,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/00fcf46"
-        },
-        {
-          "sha": "ed851bf",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:33:02 2025 +0200",
-          "timestamp": 1763667182,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/ed851bf"
-        },
-        {
-          "sha": "ebb2d13",
-          "message": "Reapply \"Drop legacy vboot support.\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:32:31 2025 +0200",
-          "timestamp": 1763667151,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/ebb2d13"
-        },
-        {
-          "sha": "768ea6a",
-          "message": "Revert \"build: Enable super image build rules depending on single super block device\"",
-          "author": "Michael Bestas",
-          "date": "Mon Nov 17 16:13:18 2025 +0200",
-          "timestamp": 1763388798,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/768ea6a"
-        },
-        {
-          "sha": "083aa4a",
-          "message": "Merge commit 'cda08bfbf55aed1e4c79efe6a66bb930d19a8a13' into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 6 11:46:17 2025 +0200",
-          "timestamp": 1762422377,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/083aa4a"
-        },
-        {
-          "sha": "4e5717d",
-          "message": "envsetup: Build OOT kernel during lunch if needed",
-          "author": "Michael Bestas",
-          "date": "Thu Oct 23 11:53:35 2025 +0300",
-          "timestamp": 1761209615,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/4e5717d"
-        },
-        {
-          "sha": "ae602b8",
-          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 00:45:31 2025 +0800",
-          "timestamp": 1760805931,
-          "url": "https://github.com/ProjectInfinity-X/build/commit/ae602b8"
         }
       ]
     },
@@ -5973,231 +5997,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8650",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 27,
-      "commits": [
-        {
-          "sha": "6496c15",
-          "message": "qva: Allow weaver HAL to request wakelock",
-          "author": "dianlujitao",
-          "date": "Sun Dec 14 21:54:17 2025 +0530",
-          "timestamp": 1765729457,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6496c15"
-        },
-        {
-          "sha": "4412888",
-          "message": "qva: Label AOSP NXP keymint and weaver HALs",
-          "author": "dianlujitao",
-          "date": "Sun Dec 14 21:54:15 2025 +0530",
-          "timestamp": 1765729455,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4412888"
-        },
-        {
-          "sha": "51d387c",
-          "message": "sepolicy_vndr: Drop binder call to connectivity_native_service",
-          "author": "anky894",
-          "date": "Thu Dec 4 22:44:57 2025 +0530",
-          "timestamp": 1764868497,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/51d387c"
-        },
-        {
-          "sha": "029a166",
-          "message": "Revert \"sepolicy_vndr: Allow init/vendor_init to write proc firmware config\"",
-          "author": "Bruno Martins",
-          "date": "Sat Nov 29 16:28:24 2025 +0200",
-          "timestamp": 1764426504,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/029a166"
-        },
-        {
-          "sha": "9b67643",
-          "message": "Revert \"sepolicy_vndr: Label proc firmware config node\"",
-          "author": "Bruno Martins",
-          "date": "Sat Nov 29 16:28:24 2025 +0200",
-          "timestamp": 1764426504,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9b67643"
-        },
-        {
-          "sha": "dd78185",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:28:24 2025 +0200",
-          "timestamp": 1764426504,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd78185"
-        },
-        {
-          "sha": "2c83259",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Sat Nov 22 00:26:50 2025 +0200",
-          "timestamp": 1763764010,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2c83259"
-        },
-        {
-          "sha": "d6d84e1",
-          "message": "removing get_prop function as it set_prop provides the same functionality",
-          "author": "abarnwal",
-          "date": "Sun Nov 9 11:29:36 2025 +0200",
-          "timestamp": 1762680576,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d6d84e1"
-        },
-        {
-          "sha": "8e0d783",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Amruth Naga",
-          "date": "Sun Nov 9 11:29:36 2025 +0200",
-          "timestamp": 1762680576,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8e0d783"
-        },
-        {
-          "sha": "f1b185b",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:29:36 2025 +0200",
-          "timestamp": 1762680576,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f1b185b"
-        },
-        {
-          "sha": "56f1a2d",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:25:26 2025 +0200",
-          "timestamp": 1762608326,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/56f1a2d"
-        },
-        {
-          "sha": "0e104b4",
-          "message": "Merge 1912c39bbeaf0bec930e5873c1daa8e9e1f16739 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 26 01:32:12 2025 -0700",
-          "timestamp": 1761467532,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0e104b4"
-        },
-        {
-          "sha": "1912c39",
-          "message": "Merge \"sepolicy: Allow Perf hal to access retire_frame_event for niobe.\"",
-          "author": "QCTECMDR Service",
-          "date": "Tue Oct 14 08:06:34 2025 -0700",
-          "timestamp": 1760454394,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1912c39"
-        },
-        {
-          "sha": "83af703",
-          "message": "Merge \"Added Sepolicy rules for enable_tag_resolver property\"",
-          "author": "QCTECMDR Service",
-          "date": "Tue Oct 14 06:40:53 2025 -0700",
-          "timestamp": 1760449253,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/83af703"
-        },
-        {
-          "sha": "d74ee1e",
-          "message": "Merge \"sepolicy_vndr: Add SELinux policy for Gunyah panic notifier sysfs\"",
-          "author": "QCTECMDR Service",
-          "date": "Tue Oct 14 00:01:42 2025 -0700",
-          "timestamp": 1760425302,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d74ee1e"
-        },
-        {
-          "sha": "e8c7f51",
-          "message": "sepolicy: Allow Perf hal to access retire_frame_event for niobe.",
-          "author": "simran jaiswal",
-          "date": "Tue Oct 14 10:42:18 2025 +0530",
-          "timestamp": 1760418738,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8c7f51"
-        },
-        {
-          "sha": "8f61aa6",
-          "message": "Merge \"sepolicy : Add sysfs_net related path entries\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Oct 13 10:12:49 2025 -0700",
-          "timestamp": 1760375569,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8f61aa6"
-        },
-        {
-          "sha": "775008f",
-          "message": "Merge \"sensors: Fix vendor_sensors read & watch denials on device directories\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Oct 13 04:26:59 2025 -0700",
-          "timestamp": 1760354819,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/775008f"
-        },
-        {
-          "sha": "8a04840",
-          "message": "sepolicy : Add sysfs_net related path entries",
-          "author": "manojbm",
-          "date": "Fri Oct 10 18:42:44 2025 +0530",
-          "timestamp": 1760101964,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8a04840"
-        },
-        {
-          "sha": "ab9bee9",
-          "message": "Merge \"sepolicy_vndr: Add persist vendor property for hal_health\"",
-          "author": "QCTECMDR Service",
-          "date": "Thu Oct 9 04:27:31 2025 -0700",
-          "timestamp": 1760009251,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ab9bee9"
-        },
-        {
-          "sha": "2430c57",
-          "message": "sepolicy_vndr: Add SELinux policy for Gunyah panic notifier sysfs",
-          "author": "Mukesh Pilaniya",
-          "date": "Thu Oct 9 14:59:36 2025 +0530",
-          "timestamp": 1760002176,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2430c57"
-        },
-        {
-          "sha": "a36e431",
-          "message": "Merge 4b530101e280a873c3aa21306d9f4912f791fcaa on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Oct 7 14:32:11 2025 -0700",
-          "timestamp": 1759872731,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a36e431"
-        },
-        {
-          "sha": "9c901e4",
-          "message": "Added Sepolicy rules for enable_tag_resolver property",
-          "author": "Sanchit Sharma",
-          "date": "Tue Oct 7 22:40:27 2025 +0530",
-          "timestamp": 1759857027,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9c901e4"
-        },
-        {
-          "sha": "de69153",
-          "message": "QRS SePolicy Changes For Product Resolver",
-          "author": "Sanchit Sharma",
-          "date": "Tue Oct 7 21:28:08 2025 +0530",
-          "timestamp": 1759852688,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/de69153"
-        },
-        {
-          "sha": "d17473a",
-          "message": "sensors: Fix vendor_sensors read & watch denials on device directories",
-          "author": "Bhanu Vivek Matsa",
-          "date": "Mon Oct 6 16:15:01 2025 +0530",
-          "timestamp": 1759747501,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d17473a"
-        },
-        {
-          "sha": "eb2a353",
-          "message": "Sepolicy rule to create dm_suspend file to stop DM after onboarding is done",
-          "author": "nnimish",
-          "date": "Tue Sep 30 03:34:16 2025 -0700",
-          "timestamp": 1759228456,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/eb2a353"
-        },
-        {
-          "sha": "419e932",
-          "message": "Merge \"sepolicy: Allow Perf hal to access retire_frame_event.\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 29 21:48:48 2025 -0700",
-          "timestamp": 1759207728,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/419e932"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_Parts",
       "path": "packages/apps/LineageParts",
       "repo_url": "https://github.com/ProjectInfinity-X/packages_apps_Parts",
@@ -6419,6 +6218,215 @@
           "date": "Thu Oct 16 01:24:24 2025 +0000",
           "timestamp": 1760577864,
           "url": "https://github.com/ProjectInfinity-X/packages_apps_Parts/commit/c18b998"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8650",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 25,
+      "commits": [
+        {
+          "sha": "6496c15",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Sun Dec 14 21:54:17 2025 +0530",
+          "timestamp": 1765729457,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6496c15"
+        },
+        {
+          "sha": "4412888",
+          "message": "qva: Label AOSP NXP keymint and weaver HALs",
+          "author": "dianlujitao",
+          "date": "Sun Dec 14 21:54:15 2025 +0530",
+          "timestamp": 1765729455,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4412888"
+        },
+        {
+          "sha": "51d387c",
+          "message": "sepolicy_vndr: Drop binder call to connectivity_native_service",
+          "author": "anky894",
+          "date": "Thu Dec 4 22:44:57 2025 +0530",
+          "timestamp": 1764868497,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/51d387c"
+        },
+        {
+          "sha": "029a166",
+          "message": "Revert \"sepolicy_vndr: Allow init/vendor_init to write proc firmware config\"",
+          "author": "Bruno Martins",
+          "date": "Sat Nov 29 16:28:24 2025 +0200",
+          "timestamp": 1764426504,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/029a166"
+        },
+        {
+          "sha": "9b67643",
+          "message": "Revert \"sepolicy_vndr: Label proc firmware config node\"",
+          "author": "Bruno Martins",
+          "date": "Sat Nov 29 16:28:24 2025 +0200",
+          "timestamp": 1764426504,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9b67643"
+        },
+        {
+          "sha": "dd78185",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:28:24 2025 +0200",
+          "timestamp": 1764426504,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd78185"
+        },
+        {
+          "sha": "2c83259",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:50 2025 +0200",
+          "timestamp": 1763764010,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2c83259"
+        },
+        {
+          "sha": "d6d84e1",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d6d84e1"
+        },
+        {
+          "sha": "8e0d783",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8e0d783"
+        },
+        {
+          "sha": "f1b185b",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f1b185b"
+        },
+        {
+          "sha": "56f1a2d",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:25:26 2025 +0200",
+          "timestamp": 1762608326,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/56f1a2d"
+        },
+        {
+          "sha": "0e104b4",
+          "message": "Merge 1912c39bbeaf0bec930e5873c1daa8e9e1f16739 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 26 01:32:12 2025 -0700",
+          "timestamp": 1761467532,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0e104b4"
+        },
+        {
+          "sha": "1912c39",
+          "message": "Merge \"sepolicy: Allow Perf hal to access retire_frame_event for niobe.\"",
+          "author": "QCTECMDR Service",
+          "date": "Tue Oct 14 08:06:34 2025 -0700",
+          "timestamp": 1760454394,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1912c39"
+        },
+        {
+          "sha": "83af703",
+          "message": "Merge \"Added Sepolicy rules for enable_tag_resolver property\"",
+          "author": "QCTECMDR Service",
+          "date": "Tue Oct 14 06:40:53 2025 -0700",
+          "timestamp": 1760449253,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/83af703"
+        },
+        {
+          "sha": "d74ee1e",
+          "message": "Merge \"sepolicy_vndr: Add SELinux policy for Gunyah panic notifier sysfs\"",
+          "author": "QCTECMDR Service",
+          "date": "Tue Oct 14 00:01:42 2025 -0700",
+          "timestamp": 1760425302,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d74ee1e"
+        },
+        {
+          "sha": "e8c7f51",
+          "message": "sepolicy: Allow Perf hal to access retire_frame_event for niobe.",
+          "author": "simran jaiswal",
+          "date": "Tue Oct 14 10:42:18 2025 +0530",
+          "timestamp": 1760418738,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8c7f51"
+        },
+        {
+          "sha": "8f61aa6",
+          "message": "Merge \"sepolicy : Add sysfs_net related path entries\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Oct 13 10:12:49 2025 -0700",
+          "timestamp": 1760375569,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8f61aa6"
+        },
+        {
+          "sha": "775008f",
+          "message": "Merge \"sensors: Fix vendor_sensors read & watch denials on device directories\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Oct 13 04:26:59 2025 -0700",
+          "timestamp": 1760354819,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/775008f"
+        },
+        {
+          "sha": "8a04840",
+          "message": "sepolicy : Add sysfs_net related path entries",
+          "author": "manojbm",
+          "date": "Fri Oct 10 18:42:44 2025 +0530",
+          "timestamp": 1760101964,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8a04840"
+        },
+        {
+          "sha": "ab9bee9",
+          "message": "Merge \"sepolicy_vndr: Add persist vendor property for hal_health\"",
+          "author": "QCTECMDR Service",
+          "date": "Thu Oct 9 04:27:31 2025 -0700",
+          "timestamp": 1760009251,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ab9bee9"
+        },
+        {
+          "sha": "2430c57",
+          "message": "sepolicy_vndr: Add SELinux policy for Gunyah panic notifier sysfs",
+          "author": "Mukesh Pilaniya",
+          "date": "Thu Oct 9 14:59:36 2025 +0530",
+          "timestamp": 1760002176,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2430c57"
+        },
+        {
+          "sha": "a36e431",
+          "message": "Merge 4b530101e280a873c3aa21306d9f4912f791fcaa on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Oct 7 14:32:11 2025 -0700",
+          "timestamp": 1759872731,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a36e431"
+        },
+        {
+          "sha": "9c901e4",
+          "message": "Added Sepolicy rules for enable_tag_resolver property",
+          "author": "Sanchit Sharma",
+          "date": "Tue Oct 7 22:40:27 2025 +0530",
+          "timestamp": 1759857027,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9c901e4"
+        },
+        {
+          "sha": "de69153",
+          "message": "QRS SePolicy Changes For Product Resolver",
+          "author": "Sanchit Sharma",
+          "date": "Tue Oct 7 21:28:08 2025 +0530",
+          "timestamp": 1759852688,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/de69153"
+        },
+        {
+          "sha": "d17473a",
+          "message": "sensors: Fix vendor_sensors read & watch denials on device directories",
+          "author": "Bhanu Vivek Matsa",
+          "date": "Mon Oct 6 16:15:01 2025 +0530",
+          "timestamp": 1759747501,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d17473a"
         }
       ]
     },
@@ -7462,111 +7470,6 @@
       ]
     },
     {
-      "name": "art",
-      "path": "art",
-      "repo_url": "https://github.com/ProjectInfinity-X/art",
-      "remote": "infinity",
-      "commit_count": 12,
-      "commits": [
-        {
-          "sha": "4199d40",
-          "message": "optimized hprof speed",
-          "author": "Guanyou Chen",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/4199d40"
-        },
-        {
-          "sha": "544da9b",
-          "message": "Use stp/ldp while calling native functions in arm64",
-          "author": "Jing Ji",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/544da9b"
-        },
-        {
-          "sha": "46de8b5",
-          "message": "art: Optimize the entirity of ART for performance",
-          "author": "Vaisakh Murali",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/46de8b5"
-        },
-        {
-          "sha": "034d751",
-          "message": "ART: dex2oat and instruction_set_features: utilize modified runtime capabilities set",
-          "author": "XeonDead",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/034d751"
-        },
-        {
-          "sha": "70a1332",
-          "message": "Revert \"Add visibility attributes in runtime/arch\"",
-          "author": "John Galt",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/70a1332"
-        },
-        {
-          "sha": "94382f2",
-          "message": "art: add check for __ARM_FEATURE_ATOMICS that indicates LSE atomics availability on target",
-          "author": "XeonDead",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/94382f2"
-        },
-        {
-          "sha": "a9c1a18",
-          "message": "art: Add Kryo585 support",
-          "author": "Raphiel Rollerscaperers",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/a9c1a18"
-        },
-        {
-          "sha": "b0c5de8",
-          "message": "art: Kryo785 supports dotprod",
-          "author": "minaripenguin37",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/b0c5de8"
-        },
-        {
-          "sha": "9dfce16",
-          "message": "art: Disable debug tracing on production builds",
-          "author": "Danny Lin",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/9dfce16"
-        },
-        {
-          "sha": "2077381",
-          "message": "art: add kryo785 architecture variant.",
-          "author": "Sungwook Jung",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/2077381"
-        },
-        {
-          "sha": "2fbada8",
-          "message": "Revert \"Remove strip.keep_symbols from libart defaults\"",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Dec 23 22:51:54 2025 +0000",
-          "timestamp": 1766530314,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/2fbada8"
-        },
-        {
-          "sha": "8d84dcf",
-          "message": "art: Add support for Cortex-A510",
-          "author": "Jake Weinstein",
-          "date": "Tue Dec 23 22:51:48 2025 +0000",
-          "timestamp": 1766530308,
-          "url": "https://github.com/ProjectInfinity-X/art/commit/8d84dcf"
-        }
-      ]
-    },
-    {
       "name": "bionic",
       "path": "bionic",
       "repo_url": "https://github.com/ProjectInfinity-X/bionic",
@@ -7668,6 +7571,111 @@
           "date": "Fri Nov 14 08:40:44 2025 +0200",
           "timestamp": 1763102444,
           "url": "https://github.com/ProjectInfinity-X/bionic/commit/af2d948"
+        }
+      ]
+    },
+    {
+      "name": "art",
+      "path": "art",
+      "repo_url": "https://github.com/ProjectInfinity-X/art",
+      "remote": "infinity",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "4199d40",
+          "message": "optimized hprof speed",
+          "author": "Guanyou Chen",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/4199d40"
+        },
+        {
+          "sha": "544da9b",
+          "message": "Use stp/ldp while calling native functions in arm64",
+          "author": "Jing Ji",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/544da9b"
+        },
+        {
+          "sha": "46de8b5",
+          "message": "art: Optimize the entirity of ART for performance",
+          "author": "Vaisakh Murali",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/46de8b5"
+        },
+        {
+          "sha": "034d751",
+          "message": "ART: dex2oat and instruction_set_features: utilize modified runtime capabilities set",
+          "author": "XeonDead",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/034d751"
+        },
+        {
+          "sha": "70a1332",
+          "message": "Revert \"Add visibility attributes in runtime/arch\"",
+          "author": "John Galt",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/70a1332"
+        },
+        {
+          "sha": "94382f2",
+          "message": "art: add check for __ARM_FEATURE_ATOMICS that indicates LSE atomics availability on target",
+          "author": "XeonDead",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/94382f2"
+        },
+        {
+          "sha": "a9c1a18",
+          "message": "art: Add Kryo585 support",
+          "author": "Raphiel Rollerscaperers",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/a9c1a18"
+        },
+        {
+          "sha": "b0c5de8",
+          "message": "art: Kryo785 supports dotprod",
+          "author": "minaripenguin37",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/b0c5de8"
+        },
+        {
+          "sha": "9dfce16",
+          "message": "art: Disable debug tracing on production builds",
+          "author": "Danny Lin",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/9dfce16"
+        },
+        {
+          "sha": "2077381",
+          "message": "art: add kryo785 architecture variant.",
+          "author": "Sungwook Jung",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/2077381"
+        },
+        {
+          "sha": "2fbada8",
+          "message": "Revert \"Remove strip.keep_symbols from libart defaults\"",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Dec 23 22:51:54 2025 +0000",
+          "timestamp": 1766530314,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/2fbada8"
+        },
+        {
+          "sha": "8d84dcf",
+          "message": "art: Add support for Cortex-A510",
+          "author": "Jake Weinstein",
+          "date": "Tue Dec 23 22:51:48 2025 +0000",
+          "timestamp": 1766530308,
+          "url": "https://github.com/ProjectInfinity-X/art/commit/8d84dcf"
         }
       ]
     },
@@ -7874,6 +7882,103 @@
       ]
     },
     {
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth",
+      "remote": "infinity",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "e5a2ee49d",
+          "message": "skip abort crash on failed init",
+          "author": "rmp22",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/e5a2ee49d"
+        },
+        {
+          "sha": "ed2acba24",
+          "message": "disable Bluetooth auto-on feature by default",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/ed2acba24"
+        },
+        {
+          "sha": "000143bcd",
+          "message": "ignore EnableRealTimeScheduling failures",
+          "author": "rmp22",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/000143bcd"
+        },
+        {
+          "sha": "4d42ec667",
+          "message": "SBC Dual Channel (SBC HD) support - redux",
+          "author": "Luca Stefani",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/4d42ec667"
+        },
+        {
+          "sha": "90bc0b920",
+          "message": "ignore invalid mask",
+          "author": "rmp22",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/90bc0b920"
+        },
+        {
+          "sha": "8f917c19c",
+          "message": "Update valid phone number for VoIP call",
+          "author": "sarvsaur",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/8f917c19c"
+        },
+        {
+          "sha": "7c67a735f",
+          "message": "Initiate codec negotiation when AT+BCC is received",
+          "author": "sarvsaur",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/7c67a735f"
+        },
+        {
+          "sha": "4ab0ef5e4",
+          "message": "link commands triggered after classic link disconnection",
+          "author": "wentjin",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/4ab0ef5e4"
+        },
+        {
+          "sha": "3fb340687",
+          "message": "Bluetooth: Add missing connect permission",
+          "author": "Alvin Francis",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/3fb340687"
+        },
+        {
+          "sha": "c9fce8e3c",
+          "message": "Fix BT noise issue during startup",
+          "author": "Weifan",
+          "date": "Sun Dec 28 03:41:19 2025 +0000",
+          "timestamp": 1766893279,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/c9fce8e3c"
+        },
+        {
+          "sha": "98c3bd923",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:44:05 2025 +0200",
+          "timestamp": 1763106245,
+          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/98c3bd923"
+        }
+      ]
+    },
+    {
       "name": "vendor_extras",
       "path": "vendor/extras",
       "repo_url": "https://github.com/ProjectInfinity-X/vendor_extras",
@@ -8068,103 +8173,6 @@
       ]
     },
     {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth",
-      "remote": "infinity",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "e5a2ee49d",
-          "message": "skip abort crash on failed init",
-          "author": "rmp22",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/e5a2ee49d"
-        },
-        {
-          "sha": "ed2acba24",
-          "message": "disable Bluetooth auto-on feature by default",
-          "author": "Dmitry Muhomor",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/ed2acba24"
-        },
-        {
-          "sha": "000143bcd",
-          "message": "ignore EnableRealTimeScheduling failures",
-          "author": "rmp22",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/000143bcd"
-        },
-        {
-          "sha": "4d42ec667",
-          "message": "SBC Dual Channel (SBC HD) support - redux",
-          "author": "Luca Stefani",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/4d42ec667"
-        },
-        {
-          "sha": "90bc0b920",
-          "message": "ignore invalid mask",
-          "author": "rmp22",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/90bc0b920"
-        },
-        {
-          "sha": "8f917c19c",
-          "message": "Update valid phone number for VoIP call",
-          "author": "sarvsaur",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/8f917c19c"
-        },
-        {
-          "sha": "7c67a735f",
-          "message": "Initiate codec negotiation when AT+BCC is received",
-          "author": "sarvsaur",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/7c67a735f"
-        },
-        {
-          "sha": "4ab0ef5e4",
-          "message": "link commands triggered after classic link disconnection",
-          "author": "wentjin",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/4ab0ef5e4"
-        },
-        {
-          "sha": "3fb340687",
-          "message": "Bluetooth: Add missing connect permission",
-          "author": "Alvin Francis",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/3fb340687"
-        },
-        {
-          "sha": "c9fce8e3c",
-          "message": "Fix BT noise issue during startup",
-          "author": "Weifan",
-          "date": "Sun Dec 28 03:41:19 2025 +0000",
-          "timestamp": 1766893279,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/c9fce8e3c"
-        },
-        {
-          "sha": "98c3bd923",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:44:05 2025 +0200",
-          "timestamp": 1763106245,
-          "url": "https://github.com/ProjectInfinity-X/packages_modules_Bluetooth/commit/98c3bd923"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8450",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -8250,95 +8258,6 @@
           "date": "Wed Oct 29 00:30:15 2025 +0000",
           "timestamp": 1761697815,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e39b56b"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_Twelve",
-      "path": "packages/apps/Twelve",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "1180426",
-          "message": "Twelve: Fix post calls",
-          "author": "Timi",
-          "date": "Mon Dec 15 20:33:53 2025 +0000",
-          "timestamp": 1765830833,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/1180426"
-        },
-        {
-          "sha": "4df0e7e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:20 2025 +0000",
-          "timestamp": 1764600800,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/4df0e7e"
-        },
-        {
-          "sha": "6b0152d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:02:00 2025 +0000",
-          "timestamp": 1763229720,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152d"
-        },
-        {
-          "sha": "516d1f4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:39 2025 +0000",
-          "timestamp": 1762026519,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/516d1f4"
-        },
-        {
-          "sha": "00e6068",
-          "message": "Twelve: Provide our own androidx.navigation libs",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 22:51:10 2025 +0200",
-          "timestamp": 1760734270,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/00e6068"
-        },
-        {
-          "sha": "3b25367",
-          "message": "Twelve: Upgrade android.navigation to 2.9.5",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 22:50:59 2025 +0200",
-          "timestamp": 1760734259,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3b25367"
-        },
-        {
-          "sha": "f6fa65c",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:26 2025 +0000",
-          "timestamp": 1760577866,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/f6fa65c"
-        },
-        {
-          "sha": "7d3642d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 19:38:04 2025 +0000",
-          "timestamp": 1759347484,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3642d"
-        },
-        {
-          "sha": "214b513",
-          "message": "Twelve: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 21:44:48 2025 +0200",
-          "timestamp": 1759261488,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/214b513"
-        },
-        {
-          "sha": "684ec67",
-          "message": "Twelve: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 21:43:46 2025 +0200",
-          "timestamp": 1759261426,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/684ec67"
         }
       ]
     },
@@ -8675,75 +8594,75 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Glimpse",
-      "path": "packages/apps/Glimpse",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
+      "name": "LineageOS/android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
       "remote": "github",
       "commit_count": 8,
       "commits": [
         {
-          "sha": "d4c1100",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:15 2025 +0000",
-          "timestamp": 1764600795,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/d4c1100"
+          "sha": "1180426",
+          "message": "Twelve: Fix post calls",
+          "author": "Timi",
+          "date": "Mon Dec 15 20:33:53 2025 +0000",
+          "timestamp": 1765830833,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/1180426"
         },
         {
-          "sha": "6a365d1",
+          "sha": "4df0e7e",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:38 2025 +0000",
-          "timestamp": 1762026518,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6a365d1"
+          "date": "Mon Dec 1 14:53:20 2025 +0000",
+          "timestamp": 1764600800,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/4df0e7e"
         },
         {
-          "sha": "a0f94e7",
-          "message": "Glimpse: Provide our own androidx.navigation libs",
+          "sha": "6b0152d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:00 2025 +0000",
+          "timestamp": 1763229720,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152d"
+        },
+        {
+          "sha": "516d1f4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:39 2025 +0000",
+          "timestamp": 1762026519,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/516d1f4"
+        },
+        {
+          "sha": "00e6068",
+          "message": "Twelve: Provide our own androidx.navigation libs",
           "author": "LuK1337",
-          "date": "Mon Oct 20 23:46:27 2025 +0200",
-          "timestamp": 1760996787,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a0f94e7"
+          "date": "Fri Oct 17 22:51:10 2025 +0200",
+          "timestamp": 1760734270,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/00e6068"
         },
         {
-          "sha": "6b146b8",
-          "message": "Glimpse: Upgrade android.navigation to 2.9.5",
+          "sha": "3b25367",
+          "message": "Twelve: Upgrade android.navigation to 2.9.5",
           "author": "LuK1337",
-          "date": "Mon Oct 20 23:46:27 2025 +0200",
-          "timestamp": 1760996787,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6b146b8"
+          "date": "Fri Oct 17 22:50:59 2025 +0200",
+          "timestamp": 1760734259,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3b25367"
         },
         {
-          "sha": "7d0417c",
+          "sha": "f6fa65c",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:24 2025 +0000",
-          "timestamp": 1760577864,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7d0417c"
+          "date": "Thu Oct 16 01:24:26 2025 +0000",
+          "timestamp": 1760577866,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/f6fa65c"
         },
         {
-          "sha": "b990370",
-          "message": "Glimpse: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 19:53:21 2025 +0000",
-          "timestamp": 1759262001,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b990370"
-        },
-        {
-          "sha": "3978d71",
-          "message": "Glimpse: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 19:53:21 2025 +0000",
-          "timestamp": 1759262001,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/3978d71"
-        },
-        {
-          "sha": "6fcd70c",
-          "message": "Glimpse: Add file size to media info",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 20:44:31 2025 +0200",
-          "timestamp": 1759257871,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c"
+          "sha": "7d3642d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 19:38:04 2025 +0000",
+          "timestamp": 1759347484,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3642d"
         }
       ]
     },
@@ -9570,51 +9489,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Jelly",
-      "path": "packages/apps/Jelly",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
+      "name": "LineageOS/android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
       "remote": "github",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "ed83532",
+          "sha": "d4c1100",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Dec 1 14:53:15 2025 +0000",
           "timestamp": 1764600795,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/ed83532"
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/d4c1100"
         },
         {
-          "sha": "e7bc9a2",
+          "sha": "6a365d1",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:58 2025 +0000",
-          "timestamp": 1763229718,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2"
+          "date": "Sat Nov 1 19:48:38 2025 +0000",
+          "timestamp": 1762026518,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6a365d1"
         },
         {
-          "sha": "384ff77",
-          "message": "Jelly: Update Gradle wrapper",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 30 19:52:29 2025 +0000",
-          "timestamp": 1759261949,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/384ff77"
+          "sha": "a0f94e7",
+          "message": "Glimpse: Provide our own androidx.navigation libs",
+          "author": "LuK1337",
+          "date": "Mon Oct 20 23:46:27 2025 +0200",
+          "timestamp": 1760996787,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a0f94e7"
         },
         {
-          "sha": "238436a",
-          "message": "Jelly: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 19:52:29 2025 +0000",
-          "timestamp": 1759261949,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/238436a"
+          "sha": "6b146b8",
+          "message": "Glimpse: Upgrade android.navigation to 2.9.5",
+          "author": "LuK1337",
+          "date": "Mon Oct 20 23:46:27 2025 +0200",
+          "timestamp": 1760996787,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6b146b8"
         },
         {
-          "sha": "b0d6afb",
-          "message": "Jelly: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 19:52:29 2025 +0000",
-          "timestamp": 1759261949,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/b0d6afb"
+          "sha": "7d0417c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:24 2025 +0000",
+          "timestamp": 1760577864,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7d0417c"
         }
       ]
     },
@@ -10491,31 +10410,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -10537,6 +10431,31 @@
           "date": "Sat Oct 18 07:57:11 2025 -0600",
           "timestamp": 1760795831,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
         }
       ]
     },
@@ -10566,31 +10485,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "84c74ff",
-          "message": "Update Chromium Webview x86 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:08 2025 -0700",
-          "timestamp": 1762617488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
-        },
-        {
-          "sha": "c1498b6",
-          "message": "Update Chromium Webview x86 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:20 2025 -0600",
-          "timestamp": 1760795840,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "path": "external/chromium-webview/prebuilt/x86_64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
@@ -10612,6 +10506,31 @@
           "date": "Sat Oct 18 07:57:24 2025 -0600",
           "timestamp": 1760795844,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+        },
+        {
+          "sha": "c1498b6",
+          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:20 2025 -0600",
+          "timestamp": 1760795840,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
         }
       ]
     },
@@ -10666,31 +10585,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_libhardware",
-      "path": "hardware/libhardware",
-      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "9461b55",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:03 2025 +0200",
-          "timestamp": 1763050623,
-          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/9461b55"
-        },
-        {
-          "sha": "d8e910c",
-          "message": "Revert \"hardware/libhw: Add display_defs.h to declare custom enums/flags\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 09:50:26 2025 +0000",
-          "timestamp": 1762681826,
-          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/d8e910c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_lineage_compat",
       "path": "hardware/lineage/compat",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_compat",
@@ -10712,6 +10606,31 @@
           "date": "Thu Nov 20 22:02:17 2025 +0200",
           "timestamp": 1763668937,
           "url": "https://github.com/LineageOS/android_hardware_lineage_compat/commit/9dfd6a3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_libhardware",
+      "path": "hardware/libhardware",
+      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "9461b55",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:03 2025 +0200",
+          "timestamp": 1763050623,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/9461b55"
+        },
+        {
+          "sha": "d8e910c",
+          "message": "Revert \"hardware/libhw: Add display_defs.h to declare custom enums/flags\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 09:50:26 2025 +0000",
+          "timestamp": 1762681826,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/d8e910c"
         }
       ]
     },
@@ -10787,6 +10706,31 @@
           "date": "Wed Oct 8 02:03:31 2025 -0700",
           "timestamp": 1759914211,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/ddfedc6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8650/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2042c24",
+          "message": "libhistogram: Remove unused argument from log",
+          "author": "Michael Bestas",
+          "date": "Fri Dec 12 20:47:45 2025 +0200",
+          "timestamp": 1765565265,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/2042c24"
+        },
+        {
+          "sha": "fe52304",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:40 2025 +0200",
+          "timestamp": 1765227520,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe52304"
         }
       ]
     },
@@ -10941,6 +10885,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Jelly",
+      "path": "packages/apps/Jelly",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "ed83532",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:15 2025 +0000",
+          "timestamp": 1764600795,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/ed83532"
+        },
+        {
+          "sha": "e7bc9a2",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:58 2025 +0000",
+          "timestamp": 1763229718,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_TvSystemUI",
       "path": "packages/apps/TvSystemUI",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI",
@@ -11091,6 +11060,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_services_Car",
+      "path": "packages/services/Car",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "5cf2d9b15",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:52:22 2025 +0200",
+          "timestamp": 1763110342,
+          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/5cf2d9b15"
+        },
+        {
+          "sha": "51ffd503a",
+          "message": "Car: Enforce EPPE",
+          "author": "Nolen Johnson",
+          "date": "Thu Oct 16 19:54:14 2025 -0400",
+          "timestamp": 1760658854,
+          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_agm",
       "path": "hardware/qcom-caf/sm8750/audio/agm",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
@@ -11166,31 +11160,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_Car",
-      "path": "packages/services/Car",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "5cf2d9b15",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:52:22 2025 +0200",
-          "timestamp": 1763110342,
-          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/5cf2d9b15"
-        },
-        {
-          "sha": "51ffd503a",
-          "message": "Car: Enforce EPPE",
-          "author": "Nolen Johnson",
-          "date": "Thu Oct 16 19:54:14 2025 -0400",
-          "timestamp": 1760658854,
-          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_usb",
       "path": "vendor/qcom/opensource/usb",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
@@ -11212,6 +11181,31 @@
           "date": "Sun Oct 12 01:58:09 2025 -0700",
           "timestamp": 1760259489,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/6572823"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
+      "path": "vendor/qcom/opensource/vibrator",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "411ec49",
+          "message": "vibrator: Switch to the real boolean values in Soong config",
+          "author": "Yumi Yukimura",
+          "date": "Sun Dec 14 19:24:38 2025 +0100",
+          "timestamp": 1765736678,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/411ec49"
+        },
+        {
+          "sha": "a362998",
+          "message": "vibrator: Add support for aw-haptic-hv",
+          "author": "Arian",
+          "date": "Tue Oct 28 09:18:03 2025 +0100",
+          "timestamp": 1761639483,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
         }
       ]
     },
@@ -11325,23 +11319,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_lineage_car",
-      "path": "device/lineage/car",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_car",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0ce8254",
-          "message": "car: Switch to vehicle AIDL HAL V4",
-          "author": "Yumi Yukimura",
-          "date": "Sat Nov 29 00:57:11 2025 +0800",
-          "timestamp": 1764349031,
-          "url": "https://github.com/LineageOS/android_device_lineage_car/commit/0ce8254"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_development",
       "path": "development",
       "repo_url": "https://github.com/LineageOS/android_development",
@@ -11355,6 +11332,23 @@
           "date": "Thu Nov 13 18:15:39 2025 +0200",
           "timestamp": 1763050539,
           "url": "https://github.com/LineageOS/android_development/commit/297af62e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_lineage_car",
+      "path": "device/lineage/car",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_car",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0ce8254",
+          "message": "car: Switch to vehicle AIDL HAL V4",
+          "author": "Yumi Yukimura",
+          "date": "Sat Nov 29 00:57:11 2025 +0800",
+          "timestamp": 1764349031,
+          "url": "https://github.com/LineageOS/android_device_lineage_car/commit/0ce8254"
         }
       ]
     },
@@ -11496,23 +11490,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0b70a90",
-          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:23:04 2025 +0200",
-          "timestamp": 1762608184,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
       "remote": "github",
@@ -11525,6 +11502,23 @@
           "date": "Sat Oct 4 12:54:48 2025 +0800",
           "timestamp": 1759553688,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/19b9d01"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0b70a90",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:23:04 2025 +0200",
+          "timestamp": 1762608184,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
         }
       ]
     },
@@ -11564,23 +11558,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8350/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e9bbe9a",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 21:53:29 2025 +0200",
-          "timestamp": 1765223609,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8450/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -11598,6 +11575,23 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8350/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e9bbe9a",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 21:53:29 2025 +0200",
+          "timestamp": 1765223609,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8550/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -11610,23 +11604,6 @@
           "date": "Mon Dec 8 22:58:21 2025 +0200",
           "timestamp": 1765227501,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8650/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fe52304",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:40 2025 +0200",
-          "timestamp": 1765227520,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe52304"
         }
       ]
     },
@@ -11767,23 +11744,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Tag",
-      "path": "packages/apps/Tag",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Tag",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d4b44d4",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:46 2025 +0200",
-          "timestamp": 1763050666,
-          "url": "https://github.com/LineageOS/android_packages_apps_Tag/commit/d4b44d4"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Stk",
       "path": "packages/apps/Stk",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Stk",
@@ -11797,6 +11757,23 @@
           "date": "Thu Nov 13 18:17:44 2025 +0200",
           "timestamp": 1763050664,
           "url": "https://github.com/LineageOS/android_packages_apps_Stk/commit/3577a45"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Tag",
+      "path": "packages/apps/Tag",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Tag",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d4b44d4",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:46 2025 +0200",
+          "timestamp": 1763050666,
+          "url": "https://github.com/LineageOS/android_packages_apps_Tag/commit/d4b44d4"
         }
       ]
     },
@@ -11903,23 +11880,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_TelephonyProvider",
-      "path": "packages/providers/TelephonyProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "68c011a",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:18:49 2025 +0200",
-          "timestamp": 1763050729,
-          "url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider/commit/68c011a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_Permission",
       "path": "packages/modules/Permission",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_Permission",
@@ -11933,6 +11893,23 @@
           "date": "Fri Nov 14 10:41:45 2025 +0200",
           "timestamp": 1763109705,
           "url": "https://github.com/LineageOS/android_packages_modules_Permission/commit/0cdcd1bd7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_providers_TelephonyProvider",
+      "path": "packages/providers/TelephonyProvider",
+      "repo_url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "68c011a",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:18:49 2025 +0200",
+          "timestamp": 1763050729,
+          "url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider/commit/68c011a"
         }
       ]
     },
@@ -12141,23 +12118,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
-      "path": "vendor/qcom/opensource/vibrator",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a362998",
-          "message": "vibrator: Add support for aw-haptic-hv",
-          "author": "Arian",
-          "date": "Tue Oct 28 09:18:03 2025 +0100",
-          "timestamp": 1761639483,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
-        }
-      ]
-    },
-    {
       "name": "external_bouncycastle",
       "path": "external/bouncycastle",
       "repo_url": "https://github.com/ProjectInfinity-X/external_bouncycastle",
@@ -12209,23 +12169,6 @@
       ]
     },
     {
-      "name": "frameworks_base",
-      "path": "frameworks/base",
-      "repo_url": "https://codeberg.org/LFS-dump/frameworks_base",
-      "remote": "lfs",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f3dbe3d0",
-          "message": "",
-          "author": "lfspush-ci",
-          "date": "Mon Dec 29 01:13:05 2025 +0000",
-          "timestamp": 1766970785,
-          "url": "https://codeberg.org/LFS-dump/frameworks_base/commit/f3dbe3d0"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_InfinitySuite",
       "path": "packages/apps/InfinitySuite",
       "repo_url": "https://codeberg.org/LFS-dump/packages_apps_InfinitySuite",
@@ -12243,6 +12186,40 @@
       ]
     },
     {
+      "name": "frameworks_base",
+      "path": "frameworks/base",
+      "repo_url": "https://codeberg.org/LFS-dump/frameworks_base",
+      "remote": "lfs",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "72c19668",
+          "message": "",
+          "author": "lfspush-ci",
+          "date": "Mon Dec 29 17:14:43 2025 +0000",
+          "timestamp": 1767028483,
+          "url": "https://codeberg.org/LFS-dump/frameworks_base/commit/72c19668"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://codeberg.org/LFS-dump/packages_apps_Launcher3",
+      "remote": "lfs",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fb83b91",
+          "message": "",
+          "author": "lfspush-ci",
+          "date": "Mon Dec 29 15:57:56 2025 +0000",
+          "timestamp": 1767023876,
+          "url": "https://codeberg.org/LFS-dump/packages_apps_Launcher3/commit/fb83b91"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_OmniStyle",
       "path": "packages/apps/OmniStyle",
       "repo_url": "https://codeberg.org/LFS-dump/packages_apps_OmniStyle",
@@ -12256,23 +12233,6 @@
           "date": "Wed Dec 3 22:07:44 2025 +0000",
           "timestamp": 1764799664,
           "url": "https://codeberg.org/LFS-dump/packages_apps_OmniStyle/commit/14659f1"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://codeberg.org/LFS-dump/packages_apps_Launcher3",
-      "remote": "lfs",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9b9020e",
-          "message": "",
-          "author": "lfspush-ci",
-          "date": "Sun Dec 28 18:39:09 2025 +0000",
-          "timestamp": 1766947149,
-          "url": "https://codeberg.org/LFS-dump/packages_apps_Launcher3/commit/9b9020e"
         }
       ]
     },
