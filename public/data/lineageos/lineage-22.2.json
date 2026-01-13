@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2026-01-12T01:27:32.242732+00:00",
-  "since_date": "2025-10-14",
-  "total_projects": 66,
-  "total_commits": 385,
+  "generated_at": "2026-01-13T01:20:54.729419+00:00",
+  "since_date": "2025-10-15",
+  "total_projects": 67,
+  "total_commits": 387,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "3e3bd46",
+          "message": "templates: device_install: State how to navigate without touch",
+          "author": "Nolen Johnson",
+          "date": "Sun Jan 11 22:20:47 2026 -0500",
+          "timestamp": 1768188047,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3e3bd46"
+        },
         {
           "sha": "aee498f",
           "message": "wiki: Fix validate.rb parallel execution exit status",
@@ -804,14 +812,6 @@
           "date": "Fri Oct 17 14:56:15 2025 +0200",
           "timestamp": 1760705775,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/d420d72"
-        },
-        {
-          "sha": "50f2737",
-          "message": "devices: waffle: Promote to 23.0",
-          "author": "chandu078",
-          "date": "Fri Oct 17 08:13:29 2025 +0000",
-          "timestamp": 1760688809,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/50f2737"
         }
       ]
     },
@@ -820,7 +820,7 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 61,
+      "commit_count": 59,
       "commits": [
         {
           "sha": "f5cc699",
@@ -1293,22 +1293,6 @@
           "date": "Wed Oct 15 23:30:46 2025 +0000",
           "timestamp": 1760571046,
           "url": "https://github.com/LineageOS/hudson/commit/8c53562"
-        },
-        {
-          "sha": "8f71c76",
-          "message": "Spacewar: Promote to 23.0",
-          "author": "BrainKub",
-          "date": "Tue Oct 14 17:04:17 2025 +0300",
-          "timestamp": 1760450657,
-          "url": "https://github.com/LineageOS/hudson/commit/8f71c76"
-        },
-        {
-          "sha": "a91a243",
-          "message": "Regenerate device dependency mappings",
-          "author": "LineageOS Infra",
-          "date": "Tue Oct 14 06:55:48 2025 +0000",
-          "timestamp": 1760424948,
-          "url": "https://github.com/LineageOS/hudson/commit/a91a243"
         }
       ]
     },
@@ -1856,8 +1840,16 @@
       "path": "frameworks/base",
       "repo_url": "https://github.com/LineageOS/android_frameworks_base",
       "remote": "github",
-      "commit_count": 11,
+      "commit_count": 12,
       "commits": [
+        {
+          "sha": "b2baa33f0f",
+          "message": "Fix HDMI CEC volume control setting being ignored",
+          "author": "João Oliveira",
+          "date": "Wed Jan 7 00:58:33 2026 +0000",
+          "timestamp": 1767747513,
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/b2baa33f0f"
+        },
         {
           "sha": "235c4f3830",
           "message": "Automatic translation import",
@@ -2357,6 +2349,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "fae6816",
+          "message": "common: private: add libgui WAR props",
+          "author": "Thomas Makin",
+          "date": "Sun Jan 11 17:44:01 2026 +0000",
+          "timestamp": 1768153441,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/fae6816"
+        },
+        {
+          "sha": "bcc0b83",
+          "message": "qcom: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 11:55:32 2025 +0100",
+          "timestamp": 1761735332,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83"
+        },
+        {
+          "sha": "97c91ea",
+          "message": "qcom: Allow platform_app to use Soter HAL",
+          "author": "dianlujitao",
+          "date": "Wed Oct 29 08:04:32 2025 +0000",
+          "timestamp": 1761725072,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/97c91ea"
+        },
+        {
+          "sha": "253ba44",
+          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 21:13:01 2025 +0300",
+          "timestamp": 1760551981,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/253ba44"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Aperture",
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
@@ -2558,39 +2591,6 @@
           "date": "Sat Nov 1 21:55:52 2025 +0000",
           "timestamp": 1762034152,
           "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "bcc0b83",
-          "message": "qcom: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Wed Oct 29 11:55:32 2025 +0100",
-          "timestamp": 1761735332,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83"
-        },
-        {
-          "sha": "97c91ea",
-          "message": "qcom: Allow platform_app to use Soter HAL",
-          "author": "dianlujitao",
-          "date": "Wed Oct 29 08:04:32 2025 +0000",
-          "timestamp": 1761725072,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/97c91ea"
-        },
-        {
-          "sha": "253ba44",
-          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
-          "author": "Michael Bestas",
-          "date": "Wed Oct 15 21:13:01 2025 +0300",
-          "timestamp": 1760551981,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/253ba44"
         }
       ]
     },
@@ -3158,6 +3158,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_frameworks_native",
+      "path": "frameworks/native",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_native",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "81d46279a",
+          "message": "gui: add buffer queue timeout workarounds",
+          "author": "SylveonDeko",
+          "date": "Sun Jan 11 19:11:19 2026 +0000",
+          "timestamp": 1768158679,
+          "url": "https://github.com/LineageOS/android_frameworks_native/commit/81d46279a"
+        },
+        {
+          "sha": "8912630c1",
+          "message": "Merge tag 'android-security-15.0.0_r12' into staging/lineage-22.2_merge-android-security-15.0.0_r12",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 4 22:46:50 2025 +0200",
+          "timestamp": 1764881210,
+          "url": "https://github.com/LineageOS/android_frameworks_native/commit/8912630c1"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_AudioFX",
       "path": "packages/apps/AudioFX",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
@@ -3426,19 +3451,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_native",
-      "path": "frameworks/native",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_native",
+      "name": "LineageOS/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "8912630c1",
-          "message": "Merge tag 'android-security-15.0.0_r12' into staging/lineage-22.2_merge-android-security-15.0.0_r12",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 4 22:46:50 2025 +0200",
-          "timestamp": 1764881210,
-          "url": "https://github.com/LineageOS/android_frameworks_native/commit/8912630c1"
+          "sha": "d9590e019",
+          "message": "gralloc: fix mutex deadlock with Tegra driver",
+          "author": "SylveonDeko",
+          "date": "Sun Jan 11 19:07:54 2026 +0000",
+          "timestamp": 1768158474,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/d9590e019"
         }
       ]
     },
@@ -3579,23 +3604,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "eceb06387",
-          "message": "Merge tag 'android-security-15.0.0_r11' into staging/lineage-22.2_merge-android-security-15.0.0_r11",
-          "author": "Michael Bestas",
-          "date": "Wed Nov 12 10:43:16 2025 +0200",
-          "timestamp": 1762936996,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/eceb06387"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_DownloadProvider",
       "path": "packages/providers/DownloadProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider",
@@ -3609,6 +3617,23 @@
           "date": "Thu Jan 1 20:11:26 2026 +0000",
           "timestamp": 1767298286,
           "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/c53574f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "eceb06387",
+          "message": "Merge tag 'android-security-15.0.0_r11' into staging/lineage-22.2_merge-android-security-15.0.0_r11",
+          "author": "Michael Bestas",
+          "date": "Wed Nov 12 10:43:16 2025 +0200",
+          "timestamp": 1762936996,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/eceb06387"
         }
       ]
     },
