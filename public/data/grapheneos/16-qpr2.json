@@ -1,10 +1,10 @@
 {
   "rom_id": "grapheneos",
   "branch": "16-qpr2",
-  "generated_at": "2026-01-14T01:44:44.265418+00:00",
-  "since_date": "2025-10-16",
+  "generated_at": "2026-01-15T01:40:45.537902+00:00",
+  "since_date": "2025-10-17",
   "total_projects": 93,
-  "total_commits": 1146,
+  "total_commits": 1140,
   "projects": [
     {
       "name": "platform_frameworks_base",
@@ -13,6 +13,14 @@
       "remote": "grapheneos",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "ca73a0bc",
+          "message": "fix an upstream infinite loop bug in ProtoFieldFilter.skipBytes()",
+          "author": "Dmitry Muhomor",
+          "date": "Wed Jan 14 17:52:21 2026 -0500",
+          "timestamp": 1768431141,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/ca73a0bc"
+        },
         {
           "sha": "664969b1",
           "message": "gmscompat: add stub for ContentResolver.acquireUnstableProvider()",
@@ -804,14 +812,6 @@
           "date": "Sat Dec 6 00:19:40 2025 +0200",
           "timestamp": 1764973180,
           "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/f3465b26"
-        },
-        {
-          "sha": "f033f73f",
-          "message": "fix Keyguard slice",
-          "author": "Fred Underwood",
-          "date": "Sat Dec 6 00:19:40 2025 +0200",
-          "timestamp": 1764973180,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/f033f73f"
         }
       ]
     },
@@ -2374,7 +2374,7 @@
       "path": "build/make",
       "repo_url": "https://github.com/GrapheneOS/platform_build",
       "remote": "grapheneos",
-      "commit_count": 90,
+      "commit_count": 84,
       "commits": [
         {
           "sha": "b24bd38",
@@ -3047,54 +3047,6 @@
           "date": "Thu Oct 16 21:16:48 2025 -0700",
           "timestamp": 1760674608,
           "url": "https://github.com/GrapheneOS/platform_build/commit/33899a5"
-        },
-        {
-          "sha": "0a070e1",
-          "message": "[coastguard skipped] Merge sparse cherrypicks from sparse-14281006-L34100030026465612 into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 17:10:38 2025 -0700",
-          "timestamp": 1760659838,
-          "url": "https://github.com/GrapheneOS/platform_build/commit/0a070e1"
-        },
-        {
-          "sha": "77a3a22",
-          "message": "Version bump to BP4A.250916.032.B1 [core/build_id.mk]",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 17:09:21 2025 -0700",
-          "timestamp": 1760659761,
-          "url": "https://github.com/GrapheneOS/platform_build/commit/77a3a22"
-        },
-        {
-          "sha": "9924ca3",
-          "message": "[coastguard skipped] Merge sparse cherrypicks from sparse-14281006-L94600030026337827 into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 11:58:27 2025 -0700",
-          "timestamp": 1760641107,
-          "url": "https://github.com/GrapheneOS/platform_build/commit/9924ca3"
-        },
-        {
-          "sha": "ddcaac0",
-          "message": "Version bump to BP4A.250916.032.W1 [core/build_id.mk]",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 11:57:13 2025 -0700",
-          "timestamp": 1760641033,
-          "url": "https://github.com/GrapheneOS/platform_build/commit/ddcaac0"
-        },
-        {
-          "sha": "7f493b9",
-          "message": "Version bump to BP4A.250916.032 [core/build_id.mk]",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 08:12:03 2025 -0700",
-          "timestamp": 1760627523,
-          "url": "https://github.com/GrapheneOS/platform_build/commit/7f493b9"
-        },
-        {
-          "sha": "c2ecaf6",
-          "message": "Version bump to BP4A.250916.031 [core/build_id.mk]",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 04:30:48 2025 -0700",
-          "timestamp": 1760614248,
-          "url": "https://github.com/GrapheneOS/platform_build/commit/c2ecaf6"
         }
       ]
     },
@@ -3464,7 +3416,7 @@
       "path": "build/release",
       "repo_url": "https://github.com/GrapheneOS/platform_build_release",
       "remote": "grapheneos",
-      "commit_count": 39,
+      "commit_count": 35,
       "commits": [
         {
           "sha": "39b55739",
@@ -3745,38 +3697,6 @@
           "date": "Tue Oct 21 01:30:45 2025 -0700",
           "timestamp": 1761035445,
           "url": "https://github.com/GrapheneOS/platform_build_release/commit/c25e4073"
-        },
-        {
-          "sha": "c6ff43d7",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36365969'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 08:11:47 2025 -0700",
-          "timestamp": 1760627507,
-          "url": "https://github.com/GrapheneOS/platform_build_release/commit/c6ff43d7"
-        },
-        {
-          "sha": "24ca38cb",
-          "message": "Advance Kernel to Build: 14274806 in 25Q4 for MUSTANG, BLAZER, FRANKEL, RANGO",
-          "author": "Shy Robot",
-          "date": "Thu Oct 16 08:11:21 2025 -0700",
-          "timestamp": 1760627481,
-          "url": "https://github.com/GrapheneOS/platform_build_release/commit/24ca38cb"
-        },
-        {
-          "sha": "ca01ce21",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36206571'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 04:27:19 2025 -0700",
-          "timestamp": 1760614039,
-          "url": "https://github.com/GrapheneOS/platform_build_release/commit/ca01ce21"
-        },
-        {
-          "sha": "667061aa",
-          "message": "Rollback RELEASE_USE_DEX_V41 flag. Cherrypick-From: https://googleplex-android-review.googlesource.com/q/commit:9a8c04fbab88454f48924c761427dc1463facd5f Merged-In: I47ddbc5f54bb303cd8e671df340ffc1c9e5eb619 Change-Id: I47ddbc5f54bb303cd8e671df340ffc1c9e5eb619",
-          "author": "David Srbecky",
-          "date": "Thu Oct 16 04:15:04 2025 -0700",
-          "timestamp": 1760613304,
-          "url": "https://github.com/GrapheneOS/platform_build_release/commit/667061aa"
         }
       ]
     },
@@ -4066,6 +3986,279 @@
           "date": "Fri Dec 5 18:07:35 2025 +0200",
           "timestamp": 1764950855,
           "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/9a77b6e"
+        }
+      ]
+    },
+    {
+      "name": "platform_external_vanadium",
+      "path": "external/vanadium",
+      "repo_url": "https://gitlab.com/grapheneos/platform_external_vanadium",
+      "remote": "grapheneos-gitlab",
+      "commit_count": 33,
+      "commits": [
+        {
+          "sha": "a967414",
+          "message": "version 144.0.7559.76.0",
+          "author": "Daniel Micay",
+          "date": "Wed Jan 14 16:27:07 2026 -0500",
+          "timestamp": 1768426027,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/a967414"
+        },
+        {
+          "sha": "4a6afd0",
+          "message": "Vanadium Config version 146",
+          "author": "Daniel Micay",
+          "date": "Wed Jan 14 13:36:47 2026 -0500",
+          "timestamp": 1768415807,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/4a6afd0"
+        },
+        {
+          "sha": "e2b4496",
+          "message": "version 144.0.7559.59.1",
+          "author": "Daniel Micay",
+          "date": "Sun Jan 11 18:51:34 2026 -0500",
+          "timestamp": 1768175494,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/e2b4496"
+        },
+        {
+          "sha": "3bb3274",
+          "message": "Vanadium Config version 145",
+          "author": "Daniel Micay",
+          "date": "Sun Jan 11 18:51:02 2026 -0500",
+          "timestamp": 1768175462,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/3bb3274"
+        },
+        {
+          "sha": "9833886",
+          "message": "version 144.0.7559.59.0",
+          "author": "Daniel Micay",
+          "date": "Thu Jan 8 00:02:38 2026 -0500",
+          "timestamp": 1767848558,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/9833886"
+        },
+        {
+          "sha": "32d2321",
+          "message": "Vanadium Config version 144",
+          "author": "Daniel Micay",
+          "date": "Wed Jan 7 20:34:47 2026 -0500",
+          "timestamp": 1767836087,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/32d2321"
+        },
+        {
+          "sha": "bb086f4",
+          "message": "version 143.0.7499.192.0",
+          "author": "Daniel Micay",
+          "date": "Wed Jan 7 03:37:20 2026 -0500",
+          "timestamp": 1767775040,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/bb086f4"
+        },
+        {
+          "sha": "72740b9",
+          "message": "Vanadium Config version 143",
+          "author": "Daniel Micay",
+          "date": "Tue Jan 6 18:33:56 2026 -0500",
+          "timestamp": 1767742436,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/72740b9"
+        },
+        {
+          "sha": "f0113d1",
+          "message": "version 143.0.7499.146.0",
+          "author": "Daniel Micay",
+          "date": "Tue Dec 16 21:43:52 2025 -0500",
+          "timestamp": 1765939432,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/f0113d1"
+        },
+        {
+          "sha": "dc50bf9",
+          "message": "Vanadium Config version 142",
+          "author": "Daniel Micay",
+          "date": "Tue Dec 16 17:26:25 2025 -0500",
+          "timestamp": 1765923985,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/dc50bf9"
+        },
+        {
+          "sha": "836a302",
+          "message": "version 143.0.7499.109.0",
+          "author": "Daniel Micay",
+          "date": "Thu Dec 11 14:54:27 2025 -0500",
+          "timestamp": 1765482867,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/836a302"
+        },
+        {
+          "sha": "4d0ab74",
+          "message": "Vanadium Config version 141",
+          "author": "Daniel Micay",
+          "date": "Thu Dec 11 05:42:41 2025 -0500",
+          "timestamp": 1765449761,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/4d0ab74"
+        },
+        {
+          "sha": "2614739",
+          "message": "version 143.0.7499.52.0",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 3 09:03:46 2025 -0500",
+          "timestamp": 1764770626,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/2614739"
+        },
+        {
+          "sha": "5ef8286",
+          "message": "Vanadium Config version 140",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 3 01:19:45 2025 -0500",
+          "timestamp": 1764742785,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5ef8286"
+        },
+        {
+          "sha": "41f1ebc",
+          "message": "version 143.0.7499.34.2",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 3 01:19:44 2025 -0500",
+          "timestamp": 1764742784,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/41f1ebc"
+        },
+        {
+          "sha": "2fb5c6f",
+          "message": "Vanadium Config version 139",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 3 01:19:36 2025 -0500",
+          "timestamp": 1764742776,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/2fb5c6f"
+        },
+        {
+          "sha": "5bada7d",
+          "message": "version 143.0.7499.34.1",
+          "author": "Daniel Micay",
+          "date": "Wed Nov 26 08:40:01 2025 -0500",
+          "timestamp": 1764164401,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5bada7d"
+        },
+        {
+          "sha": "5c8ce03",
+          "message": "Vanadium Config version 138",
+          "author": "Daniel Micay",
+          "date": "Wed Nov 26 05:16:19 2025 -0500",
+          "timestamp": 1764152179,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5c8ce03"
+        },
+        {
+          "sha": "9449044",
+          "message": "Vanadium Config version 137",
+          "author": "Daniel Micay",
+          "date": "Sun Nov 23 21:22:34 2025 -0500",
+          "timestamp": 1763950954,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/9449044"
+        },
+        {
+          "sha": "99174a5",
+          "message": "version 143.0.7499.34.0",
+          "author": "Daniel Micay",
+          "date": "Sat Nov 22 00:51:56 2025 -0500",
+          "timestamp": 1763790716,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/99174a5"
+        },
+        {
+          "sha": "ee9cc80",
+          "message": "Vanadium Config version 136",
+          "author": "Daniel Micay",
+          "date": "Fri Nov 21 21:40:28 2025 -0500",
+          "timestamp": 1763779228,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/ee9cc80"
+        },
+        {
+          "sha": "3f2af63",
+          "message": "version 142.0.7444.171.0",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 18 17:25:42 2025 -0500",
+          "timestamp": 1763504742,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/3f2af63"
+        },
+        {
+          "sha": "f3f1b91",
+          "message": "Vanadium Config version 135",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 18 17:20:13 2025 -0500",
+          "timestamp": 1763504413,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/f3f1b91"
+        },
+        {
+          "sha": "7d442dc",
+          "message": "version 142.0.7444.158.0",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 11 16:37:50 2025 -0500",
+          "timestamp": 1762897070,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/7d442dc"
+        },
+        {
+          "sha": "2055676",
+          "message": "Vanadium Config version 134",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 11 14:16:57 2025 -0500",
+          "timestamp": 1762888617,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/2055676"
+        },
+        {
+          "sha": "e94b20b",
+          "message": "version 142.0.7444.138.1",
+          "author": "Daniel Micay",
+          "date": "Fri Nov 7 22:46:30 2025 -0500",
+          "timestamp": 1762573590,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/e94b20b"
+        },
+        {
+          "sha": "b0f505d",
+          "message": "Vanadium Config version 133",
+          "author": "Daniel Micay",
+          "date": "Fri Nov 7 19:26:57 2025 -0500",
+          "timestamp": 1762561617,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/b0f505d"
+        },
+        {
+          "sha": "11d296c",
+          "message": "version 142.0.7444.138.0",
+          "author": "Daniel Micay",
+          "date": "Thu Nov 6 00:45:30 2025 -0500",
+          "timestamp": 1762407930,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/11d296c"
+        },
+        {
+          "sha": "dce3a92",
+          "message": "Vanadium Config version 132",
+          "author": "Daniel Micay",
+          "date": "Wed Nov 5 22:20:25 2025 -0500",
+          "timestamp": 1762399225,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/dce3a92"
+        },
+        {
+          "sha": "e9d7b49",
+          "message": "version 142.0.7444.48.0",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 24 11:26:34 2025 -0400",
+          "timestamp": 1761319594,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/e9d7b49"
+        },
+        {
+          "sha": "b236018",
+          "message": "Vanadium Config version 131",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 24 08:44:15 2025 -0400",
+          "timestamp": 1761309855,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/b236018"
+        },
+        {
+          "sha": "5375a06",
+          "message": "version 141.0.7390.122.0",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 21 20:37:03 2025 -0400",
+          "timestamp": 1761093423,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5375a06"
+        },
+        {
+          "sha": "ec7e44d",
+          "message": "Vanadium Config version 130",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 21 20:03:35 2025 -0400",
+          "timestamp": 1761091415,
+          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/ec7e44d"
         }
       ]
     },
@@ -4548,231 +4741,6 @@
           "date": "Thu Oct 30 03:58:47 2025 -0700",
           "timestamp": 1761821927,
           "url": "https://github.com/GrapheneOS/platform_packages_apps_Contacts/commit/3874b3c"
-        }
-      ]
-    },
-    {
-      "name": "platform_external_vanadium",
-      "path": "external/vanadium",
-      "repo_url": "https://gitlab.com/grapheneos/platform_external_vanadium",
-      "remote": "grapheneos-gitlab",
-      "commit_count": 27,
-      "commits": [
-        {
-          "sha": "bb086f4",
-          "message": "version 143.0.7499.192.0",
-          "author": "Daniel Micay",
-          "date": "Wed Jan 7 03:37:20 2026 -0500",
-          "timestamp": 1767775040,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/bb086f4"
-        },
-        {
-          "sha": "72740b9",
-          "message": "Vanadium Config version 143",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 6 18:33:56 2026 -0500",
-          "timestamp": 1767742436,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/72740b9"
-        },
-        {
-          "sha": "f0113d1",
-          "message": "version 143.0.7499.146.0",
-          "author": "Daniel Micay",
-          "date": "Tue Dec 16 21:43:52 2025 -0500",
-          "timestamp": 1765939432,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/f0113d1"
-        },
-        {
-          "sha": "dc50bf9",
-          "message": "Vanadium Config version 142",
-          "author": "Daniel Micay",
-          "date": "Tue Dec 16 17:26:25 2025 -0500",
-          "timestamp": 1765923985,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/dc50bf9"
-        },
-        {
-          "sha": "836a302",
-          "message": "version 143.0.7499.109.0",
-          "author": "Daniel Micay",
-          "date": "Thu Dec 11 14:54:27 2025 -0500",
-          "timestamp": 1765482867,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/836a302"
-        },
-        {
-          "sha": "4d0ab74",
-          "message": "Vanadium Config version 141",
-          "author": "Daniel Micay",
-          "date": "Thu Dec 11 05:42:41 2025 -0500",
-          "timestamp": 1765449761,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/4d0ab74"
-        },
-        {
-          "sha": "2614739",
-          "message": "version 143.0.7499.52.0",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 3 09:03:46 2025 -0500",
-          "timestamp": 1764770626,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/2614739"
-        },
-        {
-          "sha": "5ef8286",
-          "message": "Vanadium Config version 140",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 3 01:19:45 2025 -0500",
-          "timestamp": 1764742785,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5ef8286"
-        },
-        {
-          "sha": "41f1ebc",
-          "message": "version 143.0.7499.34.2",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 3 01:19:44 2025 -0500",
-          "timestamp": 1764742784,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/41f1ebc"
-        },
-        {
-          "sha": "2fb5c6f",
-          "message": "Vanadium Config version 139",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 3 01:19:36 2025 -0500",
-          "timestamp": 1764742776,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/2fb5c6f"
-        },
-        {
-          "sha": "5bada7d",
-          "message": "version 143.0.7499.34.1",
-          "author": "Daniel Micay",
-          "date": "Wed Nov 26 08:40:01 2025 -0500",
-          "timestamp": 1764164401,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5bada7d"
-        },
-        {
-          "sha": "5c8ce03",
-          "message": "Vanadium Config version 138",
-          "author": "Daniel Micay",
-          "date": "Wed Nov 26 05:16:19 2025 -0500",
-          "timestamp": 1764152179,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5c8ce03"
-        },
-        {
-          "sha": "9449044",
-          "message": "Vanadium Config version 137",
-          "author": "Daniel Micay",
-          "date": "Sun Nov 23 21:22:34 2025 -0500",
-          "timestamp": 1763950954,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/9449044"
-        },
-        {
-          "sha": "99174a5",
-          "message": "version 143.0.7499.34.0",
-          "author": "Daniel Micay",
-          "date": "Sat Nov 22 00:51:56 2025 -0500",
-          "timestamp": 1763790716,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/99174a5"
-        },
-        {
-          "sha": "ee9cc80",
-          "message": "Vanadium Config version 136",
-          "author": "Daniel Micay",
-          "date": "Fri Nov 21 21:40:28 2025 -0500",
-          "timestamp": 1763779228,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/ee9cc80"
-        },
-        {
-          "sha": "3f2af63",
-          "message": "version 142.0.7444.171.0",
-          "author": "Daniel Micay",
-          "date": "Tue Nov 18 17:25:42 2025 -0500",
-          "timestamp": 1763504742,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/3f2af63"
-        },
-        {
-          "sha": "f3f1b91",
-          "message": "Vanadium Config version 135",
-          "author": "Daniel Micay",
-          "date": "Tue Nov 18 17:20:13 2025 -0500",
-          "timestamp": 1763504413,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/f3f1b91"
-        },
-        {
-          "sha": "7d442dc",
-          "message": "version 142.0.7444.158.0",
-          "author": "Daniel Micay",
-          "date": "Tue Nov 11 16:37:50 2025 -0500",
-          "timestamp": 1762897070,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/7d442dc"
-        },
-        {
-          "sha": "2055676",
-          "message": "Vanadium Config version 134",
-          "author": "Daniel Micay",
-          "date": "Tue Nov 11 14:16:57 2025 -0500",
-          "timestamp": 1762888617,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/2055676"
-        },
-        {
-          "sha": "e94b20b",
-          "message": "version 142.0.7444.138.1",
-          "author": "Daniel Micay",
-          "date": "Fri Nov 7 22:46:30 2025 -0500",
-          "timestamp": 1762573590,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/e94b20b"
-        },
-        {
-          "sha": "b0f505d",
-          "message": "Vanadium Config version 133",
-          "author": "Daniel Micay",
-          "date": "Fri Nov 7 19:26:57 2025 -0500",
-          "timestamp": 1762561617,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/b0f505d"
-        },
-        {
-          "sha": "11d296c",
-          "message": "version 142.0.7444.138.0",
-          "author": "Daniel Micay",
-          "date": "Thu Nov 6 00:45:30 2025 -0500",
-          "timestamp": 1762407930,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/11d296c"
-        },
-        {
-          "sha": "dce3a92",
-          "message": "Vanadium Config version 132",
-          "author": "Daniel Micay",
-          "date": "Wed Nov 5 22:20:25 2025 -0500",
-          "timestamp": 1762399225,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/dce3a92"
-        },
-        {
-          "sha": "e9d7b49",
-          "message": "version 142.0.7444.48.0",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 24 11:26:34 2025 -0400",
-          "timestamp": 1761319594,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/e9d7b49"
-        },
-        {
-          "sha": "b236018",
-          "message": "Vanadium Config version 131",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 24 08:44:15 2025 -0400",
-          "timestamp": 1761309855,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/b236018"
-        },
-        {
-          "sha": "5375a06",
-          "message": "version 141.0.7390.122.0",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 21 20:37:03 2025 -0400",
-          "timestamp": 1761093423,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/5375a06"
-        },
-        {
-          "sha": "ec7e44d",
-          "message": "Vanadium Config version 130",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 21 20:03:35 2025 -0400",
-          "timestamp": 1761091415,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/ec7e44d"
         }
       ]
     },
@@ -7356,79 +7324,6 @@
       ]
     },
     {
-      "name": "device_google_akita-kernels_6.1",
-      "path": "device/google/akita-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "b62508d",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Mon Jan 12 21:42:54 2026 -0500",
-          "timestamp": 1768272174,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b62508d"
-        },
-        {
-          "sha": "0dc9fe0",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Dec 25 16:19:41 2025 -0500",
-          "timestamp": 1766697581,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/0dc9fe0"
-        },
-        {
-          "sha": "f75cc2e",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 24 01:06:42 2025 -0500",
-          "timestamp": 1766556402,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/f75cc2e"
-        },
-        {
-          "sha": "ad07c9f",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Dec 16 18:23:09 2025 -0500",
-          "timestamp": 1765927389,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/ad07c9f"
-        },
-        {
-          "sha": "d5aaef9",
-          "message": "Android 16 QPR2",
-          "author": "Daniel Micay",
-          "date": "Mon Dec 8 02:58:07 2025 -0500",
-          "timestamp": 1765180687,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/d5aaef9"
-        },
-        {
-          "sha": "4bbc612",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Nov 29 06:50:35 2025 -0500",
-          "timestamp": 1764417035,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/4bbc612"
-        },
-        {
-          "sha": "15ff844",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Mon Nov 3 19:33:07 2025 -0500",
-          "timestamp": 1762216387,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/15ff844"
-        },
-        {
-          "sha": "b75821f",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 28 18:17:10 2025 -0400",
-          "timestamp": 1761689830,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b75821f"
-        }
-      ]
-    },
-    {
       "name": "device_google_bluejay-kernels_6.1",
       "path": "device/google/bluejay-kernels/6.1",
       "repo_url": "https://github.com/GrapheneOS/device_google_bluejay-kernels_6.1",
@@ -7502,75 +7397,75 @@
       ]
     },
     {
-      "name": "device_google_comet-kernels_6.1",
-      "path": "device/google/comet-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
+      "name": "device_google_akita-kernels_6.1",
+      "path": "device/google/akita-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
       "remote": "grapheneos",
       "commit_count": 8,
       "commits": [
         {
-          "sha": "68045ef",
+          "sha": "b62508d",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Jan 12 21:58:24 2026 -0500",
-          "timestamp": 1768273104,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/68045ef"
+          "date": "Mon Jan 12 21:42:54 2026 -0500",
+          "timestamp": 1768272174,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b62508d"
         },
         {
-          "sha": "85a7f44",
+          "sha": "0dc9fe0",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Thu Dec 25 16:19:25 2025 -0500",
-          "timestamp": 1766697565,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/85a7f44"
+          "date": "Thu Dec 25 16:19:41 2025 -0500",
+          "timestamp": 1766697581,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/0dc9fe0"
         },
         {
-          "sha": "b27a805",
+          "sha": "f75cc2e",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Wed Dec 24 00:52:25 2025 -0500",
-          "timestamp": 1766555545,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/b27a805"
+          "date": "Wed Dec 24 01:06:42 2025 -0500",
+          "timestamp": 1766556402,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/f75cc2e"
         },
         {
-          "sha": "f9ef212",
+          "sha": "ad07c9f",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Dec 16 21:37:34 2025 -0500",
-          "timestamp": 1765939054,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f9ef212"
+          "date": "Tue Dec 16 18:23:09 2025 -0500",
+          "timestamp": 1765927389,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/ad07c9f"
         },
         {
-          "sha": "a7474e1",
+          "sha": "d5aaef9",
           "message": "Android 16 QPR2",
           "author": "Daniel Micay",
-          "date": "Mon Dec 8 03:08:35 2025 -0500",
-          "timestamp": 1765181315,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a7474e1"
+          "date": "Mon Dec 8 02:58:07 2025 -0500",
+          "timestamp": 1765180687,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/d5aaef9"
         },
         {
-          "sha": "a4ab6ac",
+          "sha": "4bbc612",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Sat Nov 29 07:04:53 2025 -0500",
-          "timestamp": 1764417893,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a4ab6ac"
+          "date": "Sat Nov 29 06:50:35 2025 -0500",
+          "timestamp": 1764417035,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/4bbc612"
         },
         {
-          "sha": "4601959",
+          "sha": "15ff844",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Nov 3 19:45:44 2025 -0500",
-          "timestamp": 1762217144,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/4601959"
+          "date": "Mon Nov 3 19:33:07 2025 -0500",
+          "timestamp": 1762216387,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/15ff844"
         },
         {
-          "sha": "9aab444",
+          "sha": "b75821f",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Oct 28 18:30:03 2025 -0400",
-          "timestamp": 1761690603,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/9aab444"
+          "date": "Tue Oct 28 18:17:10 2025 -0400",
+          "timestamp": 1761689830,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b75821f"
         }
       ]
     },
@@ -7644,6 +7539,79 @@
           "date": "Tue Oct 28 18:29:55 2025 -0400",
           "timestamp": 1761690595,
           "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/07e9f2f"
+        }
+      ]
+    },
+    {
+      "name": "device_google_comet-kernels_6.1",
+      "path": "device/google/comet-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 8,
+      "commits": [
+        {
+          "sha": "68045ef",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Jan 12 21:58:24 2026 -0500",
+          "timestamp": 1768273104,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/68045ef"
+        },
+        {
+          "sha": "85a7f44",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Dec 25 16:19:25 2025 -0500",
+          "timestamp": 1766697565,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/85a7f44"
+        },
+        {
+          "sha": "b27a805",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 24 00:52:25 2025 -0500",
+          "timestamp": 1766555545,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/b27a805"
+        },
+        {
+          "sha": "f9ef212",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Dec 16 21:37:34 2025 -0500",
+          "timestamp": 1765939054,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f9ef212"
+        },
+        {
+          "sha": "a7474e1",
+          "message": "Android 16 QPR2",
+          "author": "Daniel Micay",
+          "date": "Mon Dec 8 03:08:35 2025 -0500",
+          "timestamp": 1765181315,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a7474e1"
+        },
+        {
+          "sha": "a4ab6ac",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sat Nov 29 07:04:53 2025 -0500",
+          "timestamp": 1764417893,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a4ab6ac"
+        },
+        {
+          "sha": "4601959",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 3 19:45:44 2025 -0500",
+          "timestamp": 1762217144,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/4601959"
+        },
+        {
+          "sha": "9aab444",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 28 18:30:03 2025 -0400",
+          "timestamp": 1761690603,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/9aab444"
         }
       ]
     },
@@ -8159,79 +8127,6 @@
       ]
     },
     {
-      "name": "platform_packages_modules_Uwb",
-      "path": "packages/modules/Uwb",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb",
-      "remote": "grapheneos",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "f557aa4",
-          "message": "do not enable UWB on first boot",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 15:49:12 2025 +0200",
-          "timestamp": 1764942552,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/f557aa4"
-        },
-        {
-          "sha": "f45f43a",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36310787'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Mon Nov 3 02:46:32 2025 -0800",
-          "timestamp": 1762166792,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/f45f43a"
-        },
-        {
-          "sha": "74e8a42",
-          "message": "Fix: Use `.ad` attribute for creating output excerpts.",
-          "author": "Kolin Lu",
-          "date": "Mon Nov 3 02:37:27 2025 -0800",
-          "timestamp": 1762166247,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/74e8a42"
-        },
-        {
-          "sha": "c8550b6",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36196860', 'googleplex-android-review.googlesource.com/36530635'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 30 19:26:24 2025 -0700",
-          "timestamp": 1761877584,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/c8550b6"
-        },
-        {
-          "sha": "cf44ec7",
-          "message": "Revert \"[test] Retry test_one_to_one_ble_cs_ranging on failure\"",
-          "author": "Ziwei Zhang",
-          "date": "Thu Oct 30 19:25:06 2025 -0700",
-          "timestamp": 1761877506,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/cf44ec7"
-        },
-        {
-          "sha": "543c319",
-          "message": "Refactor: Improve test teardown and rename the app switch tests.",
-          "author": "Kolin Lu",
-          "date": "Thu Oct 30 19:24:59 2025 -0700",
-          "timestamp": 1761877499,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/543c319"
-        },
-        {
-          "sha": "69ddb43",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36189109'] into 25Q4-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Thu Oct 16 04:27:22 2025 -0700",
-          "timestamp": 1760614042,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/69ddb43"
-        },
-        {
-          "sha": "f45fec2",
-          "message": "ranging(cts): Skip tests on BLE connection/bonding errors",
-          "author": "Roshan Pius",
-          "date": "Thu Oct 16 04:15:15 2025 -0700",
-          "timestamp": 1760613315,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/f45fec2"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_modules_Virtualization",
       "path": "packages/modules/Virtualization",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization",
@@ -8687,6 +8582,63 @@
       ]
     },
     {
+      "name": "platform_packages_modules_Uwb",
+      "path": "packages/modules/Uwb",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb",
+      "remote": "grapheneos",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "f557aa4",
+          "message": "do not enable UWB on first boot",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 15:49:12 2025 +0200",
+          "timestamp": 1764942552,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/f557aa4"
+        },
+        {
+          "sha": "f45f43a",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36310787'] into 25Q4-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Mon Nov 3 02:46:32 2025 -0800",
+          "timestamp": 1762166792,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/f45f43a"
+        },
+        {
+          "sha": "74e8a42",
+          "message": "Fix: Use `.ad` attribute for creating output excerpts.",
+          "author": "Kolin Lu",
+          "date": "Mon Nov 3 02:37:27 2025 -0800",
+          "timestamp": 1762166247,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/74e8a42"
+        },
+        {
+          "sha": "c8550b6",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/36196860', 'googleplex-android-review.googlesource.com/36530635'] into 25Q4-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Thu Oct 30 19:26:24 2025 -0700",
+          "timestamp": 1761877584,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/c8550b6"
+        },
+        {
+          "sha": "cf44ec7",
+          "message": "Revert \"[test] Retry test_one_to_one_ble_cs_ranging on failure\"",
+          "author": "Ziwei Zhang",
+          "date": "Thu Oct 30 19:25:06 2025 -0700",
+          "timestamp": 1761877506,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/cf44ec7"
+        },
+        {
+          "sha": "543c319",
+          "message": "Refactor: Improve test teardown and rename the app switch tests.",
+          "author": "Kolin Lu",
+          "date": "Thu Oct 30 19:24:59 2025 -0700",
+          "timestamp": 1761877499,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Uwb/commit/543c319"
+        }
+      ]
+    },
+    {
       "name": "device_generic_goldfish",
       "path": "device/generic/goldfish",
       "repo_url": "https://github.com/GrapheneOS/device_generic_goldfish",
@@ -8932,55 +8884,6 @@
       ]
     },
     {
-      "name": "platform_system_vold",
-      "path": "system/vold",
-      "repo_url": "https://github.com/GrapheneOS/platform_system_vold",
-      "remote": "grapheneos",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "56b910b",
-          "message": "add API for destroying system DE storage encryption key",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/56b910b"
-        },
-        {
-          "sha": "1475d7f",
-          "message": "add API for destroying metadata encryption key",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/1475d7f"
-        },
-        {
-          "sha": "f07436d",
-          "message": "add option to skip key eviction in destroyUserStorageKeys()",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/f07436d"
-        },
-        {
-          "sha": "c792586",
-          "message": "add API for checking availability of encryption keys for non-CE storage",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/c792586"
-        },
-        {
-          "sha": "dfa6fdf",
-          "message": "disable support for adoptable storage",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/dfa6fdf"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
@@ -9026,6 +8929,55 @@
           "date": "Thu Oct 30 04:03:02 2025 -0700",
           "timestamp": 1761822182,
           "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/9b377202"
+        }
+      ]
+    },
+    {
+      "name": "platform_system_vold",
+      "path": "system/vold",
+      "repo_url": "https://github.com/GrapheneOS/platform_system_vold",
+      "remote": "grapheneos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "56b910b",
+          "message": "add API for destroying system DE storage encryption key",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/56b910b"
+        },
+        {
+          "sha": "1475d7f",
+          "message": "add API for destroying metadata encryption key",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/1475d7f"
+        },
+        {
+          "sha": "f07436d",
+          "message": "add option to skip key eviction in destroyUserStorageKeys()",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/f07436d"
+        },
+        {
+          "sha": "c792586",
+          "message": "add API for checking availability of encryption keys for non-CE storage",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/c792586"
+        },
+        {
+          "sha": "dfa6fdf",
+          "message": "disable support for adoptable storage",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/dfa6fdf"
         }
       ]
     },
@@ -9433,39 +9385,6 @@
       ]
     },
     {
-      "name": "platform_packages_modules_RemoteKeyProvisioning",
-      "path": "packages/modules/RemoteKeyProvisioning",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning",
-      "remote": "grapheneos",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "80ed67b",
-          "message": "exclude com.android.rkpdapp from backup/restore",
-          "author": "Daniel Micay",
-          "date": "Fri Dec 5 15:48:41 2025 +0200",
-          "timestamp": 1764942521,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning/commit/80ed67b"
-        },
-        {
-          "sha": "19035f6",
-          "message": "add Widevine provisioning setting",
-          "author": "maade69",
-          "date": "Fri Dec 5 15:48:41 2025 +0200",
-          "timestamp": 1764942521,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning/commit/19035f6"
-        },
-        {
-          "sha": "0d92c5b",
-          "message": "support overriding base provisioning server URL",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 15:48:41 2025 +0200",
-          "timestamp": 1764942521,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning/commit/0d92c5b"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_modules_HealthFitness",
       "path": "packages/modules/HealthFitness",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_HealthFitness",
@@ -9495,6 +9414,39 @@
           "date": "Thu Oct 30 04:01:27 2025 -0700",
           "timestamp": 1761822087,
           "url": "https://github.com/GrapheneOS/platform_packages_modules_HealthFitness/commit/648ba2b3"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_modules_RemoteKeyProvisioning",
+      "path": "packages/modules/RemoteKeyProvisioning",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning",
+      "remote": "grapheneos",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "80ed67b",
+          "message": "exclude com.android.rkpdapp from backup/restore",
+          "author": "Daniel Micay",
+          "date": "Fri Dec 5 15:48:41 2025 +0200",
+          "timestamp": 1764942521,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning/commit/80ed67b"
+        },
+        {
+          "sha": "19035f6",
+          "message": "add Widevine provisioning setting",
+          "author": "maade69",
+          "date": "Fri Dec 5 15:48:41 2025 +0200",
+          "timestamp": 1764942521,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning/commit/19035f6"
+        },
+        {
+          "sha": "0d92c5b",
+          "message": "support overriding base provisioning server URL",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 15:48:41 2025 +0200",
+          "timestamp": 1764942521,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_RemoteKeyProvisioning/commit/0d92c5b"
         }
       ]
     },
