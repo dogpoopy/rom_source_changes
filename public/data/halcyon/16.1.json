@@ -1,10 +1,10 @@
 {
   "rom_id": "halcyon",
   "branch": "16.1",
-  "generated_at": "2026-01-17T01:29:38.447897+00:00",
-  "since_date": "2025-10-19",
-  "total_projects": 71,
-  "total_commits": 581,
+  "generated_at": "2026-01-18T01:38:32.512950+00:00",
+  "since_date": "2025-10-20",
+  "total_projects": 68,
+  "total_commits": 516,
   "projects": [
     {
       "name": "frameworks_base",
@@ -1962,383 +1962,6 @@
       ]
     },
     {
-      "name": "system_core",
-      "path": "system/core",
-      "repo_url": "https://github.com/halcyonproject/system_core",
-      "remote": "halcyon",
-      "commit_count": 46,
-      "commits": [
-        {
-          "sha": "02f790d",
-          "message": "init: Spoof build type property to user",
-          "author": "Adithya R",
-          "date": "Sun Nov 16 20:49:39 2025 +0800",
-          "timestamp": 1763297379,
-          "url": "https://github.com/halcyonproject/system_core/commit/02f790d"
-        },
-        {
-          "sha": "495db12",
-          "message": "init: Also override ro.boot.warranty_bit",
-          "author": "Tim Zimmermann",
-          "date": "Sun Nov 16 20:49:39 2025 +0800",
-          "timestamp": 1763297379,
-          "url": "https://github.com/halcyonproject/system_core/commit/495db12"
-        },
-        {
-          "sha": "e2d98e4",
-          "message": "init: set build_tags to release-keys",
-          "author": "Omkar Chandorkar",
-          "date": "Sun Nov 16 20:49:36 2025 +0800",
-          "timestamp": 1763297376,
-          "url": "https://github.com/halcyonproject/system_core/commit/e2d98e4"
-        },
-        {
-          "sha": "1886013",
-          "message": "Revert \"init: Remove schedtune support\"",
-          "author": "Giovanni Ricca",
-          "date": "Tue Nov 4 23:34:54 2025 +0800",
-          "timestamp": 1762270494,
-          "url": "https://github.com/halcyonproject/system_core/commit/1886013"
-        },
-        {
-          "sha": "3113dd6",
-          "message": "libprocessgroup: Fix cgroup mounting on pre-5.x kernels",
-          "author": "rmp22",
-          "date": "Sat Oct 25 14:44:28 2025 +0800",
-          "timestamp": 1761374668,
-          "url": "https://github.com/halcyonproject/system_core/commit/3113dd6"
-        },
-        {
-          "sha": "b984b21",
-          "message": "libprocessgroup: Mount cpuset v1 with cpuset_v2_mode",
-          "author": "T.J. Mercier",
-          "date": "Sun Oct 19 21:24:23 2025 +0800",
-          "timestamp": 1760880263,
-          "url": "https://github.com/halcyonproject/system_core/commit/b984b21"
-        },
-        {
-          "sha": "fa86562",
-          "message": "init: Wipe resource/package cache on upgrade",
-          "author": "rmp22",
-          "date": "Sun Oct 19 12:16:11 2025 +0800",
-          "timestamp": 1760847371,
-          "url": "https://github.com/halcyonproject/system_core/commit/fa86562"
-        },
-        {
-          "sha": "11ad658",
-          "message": "camera: Add L-compatible camera feature enums",
-          "author": "Steve Kondik",
-          "date": "Sun Oct 19 12:16:11 2025 +0800",
-          "timestamp": 1760847371,
-          "url": "https://github.com/halcyonproject/system_core/commit/11ad658"
-        },
-        {
-          "sha": "bd295e6",
-          "message": "Camera: Add feature extensions",
-          "author": "Sauhard Pande",
-          "date": "Sun Oct 19 12:16:11 2025 +0800",
-          "timestamp": 1760847371,
-          "url": "https://github.com/halcyonproject/system_core/commit/bd295e6"
-        },
-        {
-          "sha": "c6b8b32",
-          "message": "init: reboot to recovery on panic by default to allow reading pstore",
-          "author": "Alexander Martinz",
-          "date": "Sun Oct 19 12:16:11 2025 +0800",
-          "timestamp": 1760847371,
-          "url": "https://github.com/halcyonproject/system_core/commit/c6b8b32"
-        },
-        {
-          "sha": "473bf37",
-          "message": "init: Weaken property override security for the init extension",
-          "author": "Alex Naidis",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/473bf37"
-        },
-        {
-          "sha": "ca380b1",
-          "message": "init: Set properties to make SafetyNet pass",
-          "author": "Danny Lin",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/ca380b1"
-        },
-        {
-          "sha": "0a83518",
-          "message": "init.rc: don't start console unless asked to",
-          "author": "Alex Naidis",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/0a83518"
-        },
-        {
-          "sha": "4000c8a",
-          "message": "init.rc: Disable native stats collection service",
-          "author": "Danny Lin",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/4000c8a"
-        },
-        {
-          "sha": "e46ebab",
-          "message": "Revert \"init.rc: remove 4.9/4.14 support\"",
-          "author": "Arindam Bhattacharjee",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/e46ebab"
-        },
-        {
-          "sha": "15c4218",
-          "message": "init: add a hook before parsing system properties",
-          "author": "dianlujitao",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/15c4218"
-        },
-        {
-          "sha": "cd43219",
-          "message": "core: Lockscreen Charging (2/3)",
-          "author": "xyyx",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/cd43219"
-        },
-        {
-          "sha": "445931b",
-          "message": "Revert \"libprocessgroup: Remove schedtune support\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/445931b"
-        },
-        {
-          "sha": "38dc344",
-          "message": "fs_mgr: Get additional supported fs from prop in recovery",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:16:10 2025 +0800",
-          "timestamp": 1760847370,
-          "url": "https://github.com/halcyonproject/system_core/commit/38dc344"
-        },
-        {
-          "sha": "726f50f",
-          "message": "init: devices: Add option to accept any device as boot device",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/726f50f"
-        },
-        {
-          "sha": "c67fa47",
-          "message": "core: Disable fscklogs for recovery",
-          "author": "LuK1337",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/c67fa47"
-        },
-        {
-          "sha": "d10400c",
-          "message": "Revert \"init: remove session keyring workaround for old kernels\"",
-          "author": "Michael Bestas",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/d10400c"
-        },
-        {
-          "sha": "f4fa0ac",
-          "message": "fs_mgr: Load DM table as RW for debuggable recoveries",
-          "author": "LuK1337",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/f4fa0ac"
-        },
-        {
-          "sha": "188f512",
-          "message": "fs_mgr: Skip bootloader status check during remounts",
-          "author": "Bruno Martins",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/188f512"
-        },
-        {
-          "sha": "72864f6",
-          "message": "fs_mgr: Allow remounts with Magisk installed",
-          "author": "Bruno Martins",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/72864f6"
-        },
-        {
-          "sha": "0121970",
-          "message": "fastbootd: hacks for legacy",
-          "author": "Alessandro Astone",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/0121970"
-        },
-        {
-          "sha": "3067808",
-          "message": "fastbootd: usb: fallback to v1 descriptors",
-          "author": "Alessandro Astone",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/3067808"
-        },
-        {
-          "sha": "58c3ff1",
-          "message": "first_stage_mount: Skip dm-verity setup if AVB is not enabled",
-          "author": "me-cafebabe",
-          "date": "Sun Oct 19 12:16:09 2025 +0800",
-          "timestamp": 1760847369,
-          "url": "https://github.com/halcyonproject/system_core/commit/58c3ff1"
-        },
-        {
-          "sha": "e93d9f8",
-          "message": "init: Don't enable ADB by default on userdebug builds",
-          "author": "Aaron Kling",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/e93d9f8"
-        },
-        {
-          "sha": "e317ace",
-          "message": "liblp: Allow to flash on bigger block device",
-          "author": "me-cafebabe",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/e317ace"
-        },
-        {
-          "sha": "14b6b63",
-          "message": "Add wrapped key support",
-          "author": "dianlujitao",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/14b6b63"
-        },
-        {
-          "sha": "c0f8e2c",
-          "message": "fastboot: Prefer ro.boot.hardware.revision for hw-revision",
-          "author": "Michael Bestas",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/c0f8e2c"
-        },
-        {
-          "sha": "7061a59",
-          "message": "libsysutils: Hide NetlinkListener error in recovery",
-          "author": "Michael Bestas",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/7061a59"
-        },
-        {
-          "sha": "01eb87b",
-          "message": "libsparse: Add simg2img_static target for host",
-          "author": "Chirayu Desai",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/01eb87b"
-        },
-        {
-          "sha": "db3a55c",
-          "message": "llkd: Include llkd-debuggable.rc in eng builds only",
-          "author": "dianlujitao",
-          "date": "Sun Oct 19 12:16:08 2025 +0800",
-          "timestamp": 1760847368,
-          "url": "https://github.com/halcyonproject/system_core/commit/db3a55c"
-        },
-        {
-          "sha": "aed95ee",
-          "message": "debuggerd: add 'Halcyon Build Number' to tombstones",
-          "author": "HeroBuxx",
-          "date": "Sun Oct 19 12:15:33 2025 +0800",
-          "timestamp": 1760847333,
-          "url": "https://github.com/halcyonproject/system_core/commit/aed95ee"
-        },
-        {
-          "sha": "19a8e24",
-          "message": "healthd: Reinitialize mChargerNames for every battery update",
-          "author": "Abhijeet Dharmapurikar",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/19a8e24"
-        },
-        {
-          "sha": "7be23b5",
-          "message": "healthd: Add support for HVDCP_3P5 chargers",
-          "author": "Dyneteve",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/7be23b5"
-        },
-        {
-          "sha": "e5213b2",
-          "message": "healthd: Add support for HVDCP_3 chargers",
-          "author": "Abhijeet Dharmapurikar",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/e5213b2"
-        },
-        {
-          "sha": "42d0cf5",
-          "message": "healthd: Add DASH charger type",
-          "author": "Steve Kondik",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/42d0cf5"
-        },
-        {
-          "sha": "47fd8cd",
-          "message": "reboot: allow opting-in to fastbootd",
-          "author": "Alessandro Astone",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/47fd8cd"
-        },
-        {
-          "sha": "b05979d",
-          "message": "core: mark libsysutils recovery_available",
-          "author": "Alessandro",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/b05979d"
-        },
-        {
-          "sha": "55b9fa3",
-          "message": "Revert \"Format formattable partitions if mount fails\"",
-          "author": "Tom Marshall",
-          "date": "Sun Oct 19 12:12:50 2025 +0800",
-          "timestamp": 1760847170,
-          "url": "https://github.com/halcyonproject/system_core/commit/55b9fa3"
-        },
-        {
-          "sha": "0e62acc",
-          "message": "fs_mgr: mount: don't set the block device as ro for recovery",
-          "author": "Alessandro Astone",
-          "date": "Sun Oct 19 12:12:49 2025 +0800",
-          "timestamp": 1760847169,
-          "url": "https://github.com/halcyonproject/system_core/commit/0e62acc"
-        },
-        {
-          "sha": "0a34f3d",
-          "message": "init: don't skip starting a service with no domain if permissive",
-          "author": "William Bellavance",
-          "date": "Sun Oct 19 12:12:49 2025 +0800",
-          "timestamp": 1760847169,
-          "url": "https://github.com/halcyonproject/system_core/commit/0a34f3d"
-        },
-        {
-          "sha": "5d1061c",
-          "message": "init: Add vendor-specific initialization hooks.",
-          "author": "David Ng",
-          "date": "Sun Oct 19 12:12:49 2025 +0800",
-          "timestamp": 1760847169,
-          "url": "https://github.com/halcyonproject/system_core/commit/5d1061c"
-        }
-      ]
-    },
-    {
       "name": "android_tools_extract-utils",
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
@@ -2837,215 +2460,6 @@
       ]
     },
     {
-      "name": "vendor_halcyon",
-      "path": "vendor/halcyon",
-      "repo_url": "https://github.com/halcyonproject/vendor_halcyon",
-      "remote": "halcyon",
-      "commit_count": 25,
-      "commits": [
-        {
-          "sha": "1ab3de4",
-          "message": "halcyon: overlay: Enable app-cloning feature in Settings",
-          "author": "minaripenguin",
-          "date": "Sun Nov 16 22:46:23 2025 +0800",
-          "timestamp": 1763304383,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/1ab3de4"
-        },
-        {
-          "sha": "cc6065e",
-          "message": "halcyon: release: bp2a: Bump Security String to 2025-09-01",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 22:45:10 2025 +0800",
-          "timestamp": 1763304310,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/cc6065e"
-        },
-        {
-          "sha": "ba1ad9e",
-          "message": "halcyon: release: Drio glanceable hub",
-          "author": "HeroBuxx",
-          "date": "Sat Nov 15 13:22:29 2025 +0800",
-          "timestamp": 1763184149,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/ba1ad9e"
-        },
-        {
-          "sha": "e2714df",
-          "message": "halcyon: release: Enable move_transition_animation_layer",
-          "author": "Ghosuto",
-          "date": "Sat Nov 15 13:08:03 2025 +0800",
-          "timestamp": 1763183283,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/e2714df"
-        },
-        {
-          "sha": "8aafbe2",
-          "message": "halcyon: release: Re-add transparent notification",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 15 13:05:49 2025 +0800",
-          "timestamp": 1763183149,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/8aafbe2"
-        },
-        {
-          "sha": "22ce594",
-          "message": "config: Disable default frame rate limit for games",
-          "author": "HeCheng Yu",
-          "date": "Thu Nov 6 10:27:52 2025 +0800",
-          "timestamp": 1762396072,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/22ce594"
-        },
-        {
-          "sha": "d4c0545",
-          "message": "halcyon: release: Drop few Launcher ACONFIG",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 2 22:52:00 2025 +0800",
-          "timestamp": 1762095120,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/d4c0545"
-        },
-        {
-          "sha": "80324b5",
-          "message": "halcyon: config: packages: Set WITH_GMS to false by default",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 2 22:49:42 2025 +0800",
-          "timestamp": 1762094982,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/80324b5"
-        },
-        {
-          "sha": "b4e8a32",
-          "message": "halcyon: soong: Add libcameraservice extension config",
-          "author": "Dhina17",
-          "date": "Sat Oct 25 00:11:51 2025 +0800",
-          "timestamp": 1761322311,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/b4e8a32"
-        },
-        {
-          "sha": "f20a166",
-          "message": "halcyon: soong: Add support for miui camera mode [2/2]",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 00:11:38 2025 +0800",
-          "timestamp": 1761322298,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/f20a166"
-        },
-        {
-          "sha": "99c1718",
-          "message": "halcyon: soong: Add support to set vendor tag with client package name",
-          "author": "Jake Weinstein",
-          "date": "Sat Oct 25 00:11:20 2025 +0800",
-          "timestamp": 1761322280,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/99c1718"
-        },
-        {
-          "sha": "32ad621",
-          "message": "halcyon: configl packages: Confitionally include GMS",
-          "author": "HeroBuxx",
-          "date": "Sat Oct 25 00:10:04 2025 +0800",
-          "timestamp": 1761322204,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/32ad621"
-        },
-        {
-          "sha": "37d2703",
-          "message": "halcyon: apns: Update for CTM(Macau)",
-          "author": "Flicker372",
-          "date": "Sun Oct 19 11:39:07 2025 +0800",
-          "timestamp": 1760845147,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/37d2703"
-        },
-        {
-          "sha": "bed8eae",
-          "message": "halcyon: kernel: Set scmversion for kernel platform",
-          "author": "Aaron Kling",
-          "date": "Sun Oct 19 11:38:51 2025 +0800",
-          "timestamp": 1760845131,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/bed8eae"
-        },
-        {
-          "sha": "45ca898",
-          "message": "halcyon: kernel: Fix building kernel platform with in-tree out",
-          "author": "Aaron Kling",
-          "date": "Sun Oct 19 11:38:48 2025 +0800",
-          "timestamp": 1760845128,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/45ca898"
-        },
-        {
-          "sha": "6f9098b",
-          "message": "halcyon: kernel: Support building from kernel platform",
-          "author": "Aaron Kling",
-          "date": "Sun Oct 19 11:38:11 2025 +0800",
-          "timestamp": 1760845091,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/6f9098b"
-        },
-        {
-          "sha": "f1fa5b9",
-          "message": "halcyon: merge_dtbs: Use DeviceTreeInfo's hash in get_name()",
-          "author": "inferno0230",
-          "date": "Sun Oct 19 11:37:45 2025 +0800",
-          "timestamp": 1760845065,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/f1fa5b9"
-        },
-        {
-          "sha": "0d95a58",
-          "message": "halcyon: apns: Add BICS",
-          "author": "dianlujitao",
-          "date": "Sun Oct 19 11:37:42 2025 +0800",
-          "timestamp": 1760845062,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/0d95a58"
-        },
-        {
-          "sha": "6dfac02",
-          "message": "halcyon: build: Update rust toolchain dynamically",
-          "author": "Nick Reuter",
-          "date": "Sun Oct 19 11:37:35 2025 +0800",
-          "timestamp": 1760845055,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/6dfac02"
-        },
-        {
-          "sha": "e29f690",
-          "message": "halcyon: overlay: TV: Default to not showing bug-report quick setting",
-          "author": "Nolen Johnson",
-          "date": "Sun Oct 19 11:37:32 2025 +0800",
-          "timestamp": 1760845052,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/e29f690"
-        },
-        {
-          "sha": "2f86b7f",
-          "message": "halcyon: APNs: Add Inwi (Morocco)",
-          "author": "Onelots",
-          "date": "Sun Oct 19 11:36:52 2025 +0800",
-          "timestamp": 1760845012,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/2f86b7f"
-        },
-        {
-          "sha": "8037241",
-          "message": "Update APN settings for Odido/T-Mobile NL",
-          "author": "Yannick Binnenweg",
-          "date": "Sun Oct 19 11:35:34 2025 +0800",
-          "timestamp": 1760844934,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/8037241"
-        },
-        {
-          "sha": "5a7786d",
-          "message": "halcyon: build: Drop VARIANT_DEFCONFIG/SELINUX_DEFCONFIG support",
-          "author": "Michael Bestas",
-          "date": "Sun Oct 19 11:34:33 2025 +0800",
-          "timestamp": 1760844873,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/5a7786d"
-        },
-        {
-          "sha": "d9a4822",
-          "message": "halcyon: build: Drop separate recovery kernel support",
-          "author": "Michael Bestas",
-          "date": "Sun Oct 19 11:34:24 2025 +0800",
-          "timestamp": 1760844864,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/d9a4822"
-        },
-        {
-          "sha": "4aff905",
-          "message": "halcyon: apns: Update US Mobile APNs",
-          "author": "Alexander Koskovich",
-          "date": "Sun Oct 19 11:34:07 2025 +0800",
-          "timestamp": 1760844847,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/4aff905"
-        }
-      ]
-    },
-    {
       "name": "android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -3195,6 +2609,111 @@
           "date": "Sun Nov 2 13:29:44 2025 +0000",
           "timestamp": 1762090184,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9878448"
+        }
+      ]
+    },
+    {
+      "name": "vendor_halcyon",
+      "path": "vendor/halcyon",
+      "repo_url": "https://github.com/halcyonproject/vendor_halcyon",
+      "remote": "halcyon",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "1ab3de4",
+          "message": "halcyon: overlay: Enable app-cloning feature in Settings",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 22:46:23 2025 +0800",
+          "timestamp": 1763304383,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/1ab3de4"
+        },
+        {
+          "sha": "cc6065e",
+          "message": "halcyon: release: bp2a: Bump Security String to 2025-09-01",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 22:45:10 2025 +0800",
+          "timestamp": 1763304310,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/cc6065e"
+        },
+        {
+          "sha": "ba1ad9e",
+          "message": "halcyon: release: Drio glanceable hub",
+          "author": "HeroBuxx",
+          "date": "Sat Nov 15 13:22:29 2025 +0800",
+          "timestamp": 1763184149,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/ba1ad9e"
+        },
+        {
+          "sha": "e2714df",
+          "message": "halcyon: release: Enable move_transition_animation_layer",
+          "author": "Ghosuto",
+          "date": "Sat Nov 15 13:08:03 2025 +0800",
+          "timestamp": 1763183283,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/e2714df"
+        },
+        {
+          "sha": "8aafbe2",
+          "message": "halcyon: release: Re-add transparent notification",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 15 13:05:49 2025 +0800",
+          "timestamp": 1763183149,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/8aafbe2"
+        },
+        {
+          "sha": "22ce594",
+          "message": "config: Disable default frame rate limit for games",
+          "author": "HeCheng Yu",
+          "date": "Thu Nov 6 10:27:52 2025 +0800",
+          "timestamp": 1762396072,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/22ce594"
+        },
+        {
+          "sha": "d4c0545",
+          "message": "halcyon: release: Drop few Launcher ACONFIG",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 2 22:52:00 2025 +0800",
+          "timestamp": 1762095120,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/d4c0545"
+        },
+        {
+          "sha": "80324b5",
+          "message": "halcyon: config: packages: Set WITH_GMS to false by default",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 2 22:49:42 2025 +0800",
+          "timestamp": 1762094982,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/80324b5"
+        },
+        {
+          "sha": "b4e8a32",
+          "message": "halcyon: soong: Add libcameraservice extension config",
+          "author": "Dhina17",
+          "date": "Sat Oct 25 00:11:51 2025 +0800",
+          "timestamp": 1761322311,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/b4e8a32"
+        },
+        {
+          "sha": "f20a166",
+          "message": "halcyon: soong: Add support for miui camera mode [2/2]",
+          "author": "Adithya R",
+          "date": "Sat Oct 25 00:11:38 2025 +0800",
+          "timestamp": 1761322298,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/f20a166"
+        },
+        {
+          "sha": "99c1718",
+          "message": "halcyon: soong: Add support to set vendor tag with client package name",
+          "author": "Jake Weinstein",
+          "date": "Sat Oct 25 00:11:20 2025 +0800",
+          "timestamp": 1761322280,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/99c1718"
+        },
+        {
+          "sha": "32ad621",
+          "message": "halcyon: configl packages: Confitionally include GMS",
+          "author": "HeroBuxx",
+          "date": "Sat Oct 25 00:10:04 2025 +0800",
+          "timestamp": 1761322204,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/32ad621"
         }
       ]
     },
@@ -3839,71 +3358,6 @@
       ]
     },
     {
-      "name": "build_make",
-      "path": "build/make",
-      "repo_url": "https://github.com/halcyonproject/build_make",
-      "remote": "halcyon",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "f3b29ae",
-          "message": "combo: Allow some core to be declared as both ARMv8-A and ARMv8-2A",
-          "author": "nift4",
-          "date": "Thu Dec 11 10:52:10 2025 +0700",
-          "timestamp": 1765425130,
-          "url": "https://github.com/halcyonproject/build_make/commit/f3b29ae"
-        },
-        {
-          "sha": "1bde2dd",
-          "message": "combo: Add cortex-a76 to known v8-2a cores",
-          "author": "Jason Edson",
-          "date": "Mon Dec 1 18:10:29 2025 +0000",
-          "timestamp": 1764612629,
-          "url": "https://github.com/halcyonproject/build_make/commit/1bde2dd"
-        },
-        {
-          "sha": "14637f2",
-          "message": "build: GSI: Fix syntax issue after \"Add a GSI overlay for the framework package\"",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:02:40 2025 +0800",
-          "timestamp": 1760846560,
-          "url": "https://github.com/halcyonproject/build_make/commit/14637f2"
-        },
-        {
-          "sha": "7f99677",
-          "message": "releasetools: ota_from_target_files: add FullOTA_PostValidate",
-          "author": "M1cha",
-          "date": "Sun Oct 19 12:02:22 2025 +0800",
-          "timestamp": 1760846542,
-          "url": "https://github.com/halcyonproject/build_make/commit/7f99677"
-        },
-        {
-          "sha": "20c12fc",
-          "message": "build: Add `USE_SOONG_DEFINED_SYSTEM_IMAGE` to `_product_single_value_vars`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:02:16 2025 +0800",
-          "timestamp": 1760846536,
-          "url": "https://github.com/halcyonproject/build_make/commit/20c12fc"
-        },
-        {
-          "sha": "3c6dccf",
-          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:01:57 2025 +0800",
-          "timestamp": 1760846517,
-          "url": "https://github.com/halcyonproject/build_make/commit/3c6dccf"
-        },
-        {
-          "sha": "0bd0a73",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Sun Oct 19 12:01:57 2025 +0800",
-          "timestamp": 1760846517,
-          "url": "https://github.com/halcyonproject/build_make/commit/0bd0a73"
-        }
-      ]
-    },
-    {
       "name": "android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -4067,43 +3521,51 @@
       ]
     },
     {
-      "name": "android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
-      "remote": "lineage",
-      "commit_count": 4,
+      "name": "system_core",
+      "path": "system/core",
+      "repo_url": "https://github.com/halcyonproject/system_core",
+      "remote": "halcyon",
+      "commit_count": 5,
       "commits": [
         {
-          "sha": "5e0689f",
-          "message": "sepolicy: Remove trailing semicolons from macros",
-          "author": "Bruno Martins",
-          "date": "Sun Dec 21 08:41:18 2025 +0000",
-          "timestamp": 1766306478,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/5e0689f"
+          "sha": "02f790d",
+          "message": "init: Spoof build type property to user",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 20:49:39 2025 +0800",
+          "timestamp": 1763297379,
+          "url": "https://github.com/halcyonproject/system_core/commit/02f790d"
         },
         {
-          "sha": "80e7def",
-          "message": "common: Expand rules for AOSP NFC NXP HAL props",
-          "author": "Bruno Martins",
-          "date": "Sat Dec 20 23:32:31 2025 +0000",
-          "timestamp": 1766273551,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/80e7def"
+          "sha": "495db12",
+          "message": "init: Also override ro.boot.warranty_bit",
+          "author": "Tim Zimmermann",
+          "date": "Sun Nov 16 20:49:39 2025 +0800",
+          "timestamp": 1763297379,
+          "url": "https://github.com/halcyonproject/system_core/commit/495db12"
         },
         {
-          "sha": "c0a6ee1",
-          "message": "qcom: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:36:44 2025 +0000",
-          "timestamp": 1762090604,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/c0a6ee1"
+          "sha": "e2d98e4",
+          "message": "init: set build_tags to release-keys",
+          "author": "Omkar Chandorkar",
+          "date": "Sun Nov 16 20:49:36 2025 +0800",
+          "timestamp": 1763297376,
+          "url": "https://github.com/halcyonproject/system_core/commit/e2d98e4"
         },
         {
-          "sha": "8b89a12",
-          "message": "qcom: Allow platform_app to use Soter HAL",
-          "author": "dianlujitao",
-          "date": "Sun Nov 2 13:36:36 2025 +0000",
-          "timestamp": 1762090596,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8b89a12"
+          "sha": "1886013",
+          "message": "Revert \"init: Remove schedtune support\"",
+          "author": "Giovanni Ricca",
+          "date": "Tue Nov 4 23:34:54 2025 +0800",
+          "timestamp": 1762270494,
+          "url": "https://github.com/halcyonproject/system_core/commit/1886013"
+        },
+        {
+          "sha": "3113dd6",
+          "message": "libprocessgroup: Fix cgroup mounting on pre-5.x kernels",
+          "author": "rmp22",
+          "date": "Sat Oct 25 14:44:28 2025 +0800",
+          "timestamp": 1761374668,
+          "url": "https://github.com/halcyonproject/system_core/commit/3113dd6"
         }
       ]
     },
@@ -4145,6 +3607,47 @@
           "date": "Thu Oct 23 07:41:39 2025 +0000",
           "timestamp": 1761205299,
           "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/3530226"
+        }
+      ]
+    },
+    {
+      "name": "android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
+      "remote": "lineage",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "5e0689f",
+          "message": "sepolicy: Remove trailing semicolons from macros",
+          "author": "Bruno Martins",
+          "date": "Sun Dec 21 08:41:18 2025 +0000",
+          "timestamp": 1766306478,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/5e0689f"
+        },
+        {
+          "sha": "80e7def",
+          "message": "common: Expand rules for AOSP NFC NXP HAL props",
+          "author": "Bruno Martins",
+          "date": "Sat Dec 20 23:32:31 2025 +0000",
+          "timestamp": 1766273551,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/80e7def"
+        },
+        {
+          "sha": "c0a6ee1",
+          "message": "qcom: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:36:44 2025 +0000",
+          "timestamp": 1762090604,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/c0a6ee1"
+        },
+        {
+          "sha": "8b89a12",
+          "message": "qcom: Allow platform_app to use Soter HAL",
+          "author": "dianlujitao",
+          "date": "Sun Nov 2 13:36:36 2025 +0000",
+          "timestamp": 1762090596,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8b89a12"
         }
       ]
     },
@@ -4470,39 +3973,6 @@
       ]
     },
     {
-      "name": "hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/halcyonproject/hardware_interfaces",
-      "remote": "halcyon",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "db62e793",
-          "message": "Bluetooth HAL: fix suspend behavior",
-          "author": "Eric Laurent",
-          "date": "Sun Oct 19 12:07:51 2025 +0800",
-          "timestamp": 1760846871,
-          "url": "https://github.com/halcyonproject/hardware_interfaces/commit/db62e793"
-        },
-        {
-          "sha": "8c663753",
-          "message": "libradiocompat: Deprecate getDeviceIdentity and use getImei instead",
-          "author": "Luofan Chen",
-          "date": "Sun Oct 19 12:07:51 2025 +0800",
-          "timestamp": 1760846871,
-          "url": "https://github.com/halcyonproject/hardware_interfaces/commit/8c663753"
-        },
-        {
-          "sha": "2431e1c8",
-          "message": "compatibility_matrices: Bring HIDL Radio entries to FCM 7",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:07:50 2025 +0800",
-          "timestamp": 1760846870,
-          "url": "https://github.com/halcyonproject/hardware_interfaces/commit/2431e1c8"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_GameSpace",
       "path": "packages/apps/GameSpace",
       "repo_url": "https://github.com/halcyonproject/packages_apps_GameSpace",
@@ -4752,6 +4222,31 @@
       ]
     },
     {
+      "name": "build_make",
+      "path": "build/make",
+      "repo_url": "https://github.com/halcyonproject/build_make",
+      "remote": "halcyon",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "f3b29ae",
+          "message": "combo: Allow some core to be declared as both ARMv8-A and ARMv8-2A",
+          "author": "nift4",
+          "date": "Thu Dec 11 10:52:10 2025 +0700",
+          "timestamp": 1765425130,
+          "url": "https://github.com/halcyonproject/build_make/commit/f3b29ae"
+        },
+        {
+          "sha": "1bde2dd",
+          "message": "combo: Add cortex-a76 to known v8-2a cores",
+          "author": "Jason Edson",
+          "date": "Mon Dec 1 18:10:29 2025 +0000",
+          "timestamp": 1764612629,
+          "url": "https://github.com/halcyonproject/build_make/commit/1bde2dd"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_Aperture",
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/halcyonproject/packages_apps_Aperture",
@@ -4773,31 +4268,6 @@
           "date": "Fri Oct 24 19:59:38 2025 +0800",
           "timestamp": 1761307178,
           "url": "https://github.com/halcyonproject/packages_apps_Aperture/commit/a7f714e"
-        }
-      ]
-    },
-    {
-      "name": "frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/halcyonproject/frameworks_opt_telephony",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "e11bf83fc",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Sun Oct 19 12:06:12 2025 +0800",
-          "timestamp": 1760846772,
-          "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/e11bf83fc"
-        },
-        {
-          "sha": "0a45ccda7",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Sun Oct 19 12:06:11 2025 +0800",
-          "timestamp": 1760846771,
-          "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/0a45ccda7"
         }
       ]
     },
@@ -4904,6 +4374,23 @@
     },
     {
       "name": "android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8550/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3415b63",
+          "message": "qmaa: Fix soong namespace imports",
+          "author": "Michael Bestas",
+          "date": "Mon Dec 8 22:58:21 2025 +0200",
+          "timestamp": 1765227501,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8450/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "lineage",
@@ -4933,23 +4420,6 @@
           "date": "Mon Dec 8 21:53:29 2025 +0200",
           "timestamp": 1765223609,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/e9bbe9a"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8550/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3415b63",
-          "message": "qmaa: Fix soong namespace imports",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:21 2025 +0200",
-          "timestamp": 1765227501,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
         }
       ]
     },
@@ -4988,23 +4458,6 @@
       ]
     },
     {
-      "name": "android_vendor_qcom_opensource_agm",
-      "path": "hardware/qcom-caf/sm8650/audio/agm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "ec6b675",
-          "message": "agm: Fix format specifiers",
-          "author": "Michael Bestas",
-          "date": "Fri Dec 12 20:45:54 2025 +0200",
-          "timestamp": 1765565154,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/ec6b675"
-        }
-      ]
-    },
-    {
       "name": "android_vendor_codeaurora_telephony",
       "path": "vendor/codeaurora/telephony",
       "repo_url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony",
@@ -5018,6 +4471,23 @@
           "date": "Sat Nov 8 15:16:00 2025 +0200",
           "timestamp": 1762607760,
           "url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony/commit/522eeb1"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_qcom_opensource_agm",
+      "path": "hardware/qcom-caf/sm8650/audio/agm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "ec6b675",
+          "message": "agm: Fix format specifiers",
+          "author": "Michael Bestas",
+          "date": "Fri Dec 12 20:45:54 2025 +0200",
+          "timestamp": 1765565154,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/ec6b675"
         }
       ]
     },
@@ -5137,23 +4607,6 @@
           "date": "Mon Oct 27 12:34:30 2025 +0800",
           "timestamp": 1761539670,
           "url": "https://github.com/halcyonproject/external_bouncycastle/commit/0547c1a"
-        }
-      ]
-    },
-    {
-      "name": "hardware_libhardware",
-      "path": "hardware/libhardware",
-      "repo_url": "https://github.com/halcyonproject/hardware_libhardware",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9c705c6",
-          "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
-          "author": "jiabin",
-          "date": "Sun Oct 19 12:08:53 2025 +0800",
-          "timestamp": 1760846933,
-          "url": "https://github.com/halcyonproject/hardware_libhardware/commit/9c705c6"
         }
       ]
     },
