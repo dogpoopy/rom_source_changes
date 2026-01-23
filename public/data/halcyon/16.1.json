@@ -1,10 +1,10 @@
 {
   "rom_id": "halcyon",
   "branch": "16.1",
-  "generated_at": "2026-01-22T01:40:42.423286+00:00",
-  "since_date": "2025-10-24",
-  "total_projects": 68,
-  "total_commits": 510,
+  "generated_at": "2026-01-23T01:38:09.582568+00:00",
+  "since_date": "2025-10-25",
+  "total_projects": 63,
+  "total_commits": 434,
   "projects": [
     {
       "name": "frameworks_base",
@@ -1401,567 +1401,6 @@
       ]
     },
     {
-      "name": "frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/halcyonproject/frameworks_av",
-      "remote": "halcyon",
-      "commit_count": 69,
-      "commits": [
-        {
-          "sha": "0cdc350",
-          "message": "blur: Downscale source FBO to 20% size",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:33 2025 +0800",
-          "timestamp": 1763313333,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/0cdc350"
-        },
-        {
-          "sha": "aed2c0f",
-          "message": "blur: Invalidate newly-bound framebuffers before rendering",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:33 2025 +0800",
-          "timestamp": 1763313333,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/aed2c0f"
-        },
-        {
-          "sha": "33652ce",
-          "message": "blur: Calculate vertices in vertex shader instead of using VBO",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:33 2025 +0800",
-          "timestamp": 1763313333,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/33652ce"
-        },
-        {
-          "sha": "cace221",
-          "message": "blur: Interpolate tap UV coordinates in vertex shader",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/cace221"
-        },
-        {
-          "sha": "66d53e9",
-          "message": "blur: Reduce floating-point precision for UV coordinates",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/66d53e9"
-        },
-        {
-          "sha": "323d8f4",
-          "message": "blur: Downscale image before blurring",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/323d8f4"
-        },
-        {
-          "sha": "4385a60",
-          "message": "blur: Only set constant shader uniforms once",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/4385a60"
-        },
-        {
-          "sha": "30162d4",
-          "message": "blur: Dither output using triangular RGB blue noise",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/30162d4"
-        },
-        {
-          "sha": "dc5e26b",
-          "message": "blur: Skip processing of alpha channel by swizzling RGB",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/dc5e26b"
-        },
-        {
-          "sha": "1087152",
-          "message": "blur: Improve terminology used in mix shader",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:15:32 2025 +0800",
-          "timestamp": 1763313332,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/1087152"
-        },
-        {
-          "sha": "bba3a8f",
-          "message": "blur: Limit blur to the two frontmost layers",
-          "author": "Danny Lin",
-          "date": "Mon Nov 17 01:14:55 2025 +0800",
-          "timestamp": 1763313295,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/bba3a8f"
-        },
-        {
-          "sha": "86b9e77",
-          "message": "av: Remove restrictions for system audio record",
-          "author": "jhenrique09",
-          "date": "Sat Oct 25 00:04:30 2025 +0800",
-          "timestamp": 1761321870,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/86b9e77"
-        },
-        {
-          "sha": "be13b53",
-          "message": "camera: bypass `isSensorPixelModeConsistent` check for priv-app camera apps",
-          "author": "Giovanni Ricca",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/be13b53"
-        },
-        {
-          "sha": "e12c833",
-          "message": "skip mediametrics when statsd is not available",
-          "author": "rmp22",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/e12c833"
-        },
-        {
-          "sha": "d9bccec",
-          "message": "AudioFlinger: more duplicating mixer fixes",
-          "author": "Eric Laurent",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/d9bccec"
-        },
-        {
-          "sha": "2874789",
-          "message": "AudioFlinger: duplicating output underrun improvements",
-          "author": "Eric Laurent",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/2874789"
-        },
-        {
-          "sha": "f4d354c",
-          "message": "Add AC4Tbl params for dolby AC4 decoder [1/2]",
-          "author": "HELLBOY017",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/f4d354c"
-        },
-        {
-          "sha": "13d3442",
-          "message": "[BUGFIX] fix 97f8d49b55ab06be340bb869356be038c35acf33 issue",
-          "author": "rmp22",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/13d3442"
-        },
-        {
-          "sha": "32ff861",
-          "message": "Revert \"MultiAccessUnit reflector helper allocated once per ComponentStore\"",
-          "author": "Abhay Singh Gill",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/32ff861"
-        },
-        {
-          "sha": "43022f8",
-          "message": "Fix usb camera number is not correct after plug out.",
-          "author": "eric_kuang.rs",
-          "date": "Fri Oct 24 23:56:04 2025 +0800",
-          "timestamp": 1761321364,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/43022f8"
-        },
-        {
-          "sha": "7925203",
-          "message": "updatePolicyState after updating all EffectHandle state.",
-          "author": "xialei6",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/7925203"
-        },
-        {
-          "sha": "75af6ee",
-          "message": "Revert \"[audio] Legacy AudioTrack::set cleanup\"",
-          "author": "AmeChanRain",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/75af6ee"
-        },
-        {
-          "sha": "3dab420",
-          "message": "issue: After connecting the Bluetooth earphones and projecting the screen, music will play from the earphones. At this point, disconnect the earphones, click play, and the projection will be silent",
-          "author": "fengxiaoshuang",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/3dab420"
-        },
-        {
-          "sha": "0fc3a31",
-          "message": "MediaHTTP: resolve mName race condition issue",
-          "author": "yifeng Cao",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/0fc3a31"
-        },
-        {
-          "sha": "de367b4",
-          "message": "Fix EglFramebuffer leak",
-          "author": "Abdelrahman Daim",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/de367b4"
-        },
-        {
-          "sha": "9854e2a",
-          "message": "AudioPlaybackCapture: solve patchTrack unable to update speed issue",
-          "author": "chongyin",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/9854e2a"
-        },
-        {
-          "sha": "3a81cbd",
-          "message": "Fix SwAudioOutputCollection indexing in closeOutput()",
-          "author": "Sampath Shetty",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/3a81cbd"
-        },
-        {
-          "sha": "c56be8b",
-          "message": "audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag",
-          "author": "Raghu Ballappa Bankapur",
-          "date": "Fri Oct 24 23:56:03 2025 +0800",
-          "timestamp": 1761321363,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/c56be8b"
-        },
-        {
-          "sha": "07f416b",
-          "message": "Audio: fix ~refbase() crash caused by race condition",
-          "author": "zhouchenchang",
-          "date": "Fri Oct 24 23:56:02 2025 +0800",
-          "timestamp": 1761321362,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/07f416b"
-        },
-        {
-          "sha": "d5eef52",
-          "message": "services: Move uses_miui_camera_defaults to select()",
-          "author": "rmp22",
-          "date": "Fri Oct 24 23:55:54 2025 +0800",
-          "timestamp": 1761321354,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/d5eef52"
-        },
-        {
-          "sha": "4136d85",
-          "message": "services: Move camera_package_name_defaults to select()",
-          "author": "Hridaya Prajapati",
-          "date": "Fri Oct 24 23:55:54 2025 +0800",
-          "timestamp": 1761321354,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/4136d85"
-        },
-        {
-          "sha": "b62a170",
-          "message": "services: Move libcameraservice_ext_lib_defaults to select()",
-          "author": "Hridaya Prajapati",
-          "date": "Fri Oct 24 23:55:54 2025 +0800",
-          "timestamp": 1761321354,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/b62a170"
-        },
-        {
-          "sha": "e83e5d3",
-          "message": "camera: Whitelist google camera",
-          "author": "rmp22",
-          "date": "Fri Oct 24 23:55:54 2025 +0800",
-          "timestamp": 1761321354,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/e83e5d3"
-        },
-        {
-          "sha": "a02217c",
-          "message": "CameraProviderExtension: add enabled bool and always set torch",
-          "author": "John Galt",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/a02217c"
-        },
-        {
-          "sha": "eedbd8e",
-          "message": "CameraProviderExtension: Use weak linkage for default implementations",
-          "author": "bengris32",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/eedbd8e"
-        },
-        {
-          "sha": "c7c6d65",
-          "message": "CameraProviderExtension: Inject strength in fixupTorchStrengthTags",
-          "author": "bengris32",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/c7c6d65"
-        },
-        {
-          "sha": "ec9834d",
-          "message": "CameraProviderExtension: Reset strength level on torch off",
-          "author": "bengris32",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/ec9834d"
-        },
-        {
-          "sha": "202f85a",
-          "message": "CameraProviderExtension: Update mTorchStrengthLevel with new level",
-          "author": "bengris32",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/202f85a"
-        },
-        {
-          "sha": "f749423",
-          "message": "CameraProviderExtension: Return BAD_VALUE for invalid strength level",
-          "author": "bengris32",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/f749423"
-        },
-        {
-          "sha": "5f8d6e5",
-          "message": "camera: Add extension to control torch light strength",
-          "author": "Dhina17",
-          "date": "Fri Oct 24 23:55:36 2025 +0800",
-          "timestamp": 1761321336,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/5f8d6e5"
-        },
-        {
-          "sha": "45e978a",
-          "message": "[DO NOT MERGE] goddammit google",
-          "author": "bengris32",
-          "date": "Fri Oct 24 23:55:35 2025 +0800",
-          "timestamp": 1761321335,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/45e978a"
-        },
-        {
-          "sha": "1f42254",
-          "message": "Extends \"Camera: Skip stream size check for whitelisted apps\"",
-          "author": "someone5678",
-          "date": "Fri Oct 24 23:55:35 2025 +0800",
-          "timestamp": 1761321335,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/1f42254"
-        },
-        {
-          "sha": "482ff4a",
-          "message": "Camera: Add support for miui camera mode [1/2]",
-          "author": "Adithya R",
-          "date": "Fri Oct 24 23:55:35 2025 +0800",
-          "timestamp": 1761321335,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/482ff4a"
-        },
-        {
-          "sha": "846635e",
-          "message": "Camera: Allow setting fallback physical ID for logical camera [1/2]",
-          "author": "Adithya R",
-          "date": "Fri Oct 24 23:55:35 2025 +0800",
-          "timestamp": 1761321335,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/846635e"
-        },
-        {
-          "sha": "d870e52",
-          "message": "don't require RECORD_AUDIO permission for REMOTE_SUBMIX audio source",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Oct 24 23:55:35 2025 +0800",
-          "timestamp": 1761321335,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/d870e52"
-        },
-        {
-          "sha": "f5bb2ff",
-          "message": "cameraserver: Allow google camera to access multiple cameras",
-          "author": "minaripenguin",
-          "date": "Fri Oct 24 23:55:01 2025 +0800",
-          "timestamp": 1761321301,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/f5bb2ff"
-        },
-        {
-          "sha": "524eb69",
-          "message": "cameraserver: Let multiple cameras opened by stock camera application",
-          "author": "Lostark13",
-          "date": "Fri Oct 24 23:55:01 2025 +0800",
-          "timestamp": 1761321301,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/524eb69"
-        },
-        {
-          "sha": "7c8c961",
-          "message": "camera: Expose aux cameras in third party apps",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Oct 24 23:55:01 2025 +0800",
-          "timestamp": 1761321301,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/7c8c961"
-        },
-        {
-          "sha": "6cfa839",
-          "message": "media: Add changes to pick target specific media xml's",
-          "author": "Uma Mehta",
-          "date": "Fri Oct 24 23:54:51 2025 +0800",
-          "timestamp": 1761321291,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/6cfa839"
-        },
-        {
-          "sha": "026dedd",
-          "message": "media: OMXStore: Import loading libstagefrightdolby",
-          "author": "johnmart19",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/026dedd"
-        },
-        {
-          "sha": "9d30bcb",
-          "message": "OMX: Remove support for prebuilt ac4 decoder",
-          "author": "Adithya R",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/9d30bcb"
-        },
-        {
-          "sha": "f61114d",
-          "message": "libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib",
-          "author": "Paul Keith",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/f61114d"
-        },
-        {
-          "sha": "b3f564f",
-          "message": "frameworks/av: Import Xiaomi Image Tags defenitions",
-          "author": "johnmart19",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/b3f564f"
-        },
-        {
-          "sha": "5773305",
-          "message": "av: Initial support for 24bit encoding and 6 channels",
-          "author": "Pranav Vashi",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/5773305"
-        },
-        {
-          "sha": "e50d3ab",
-          "message": "libcameraservice: Add support to set vendor tag with client package name",
-          "author": "cjh1249131356",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/e50d3ab"
-        },
-        {
-          "sha": "1cd1f97",
-          "message": "nuplayer: Avoid crash when codec fails to load",
-          "author": "Steve Kondik",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/1cd1f97"
-        },
-        {
-          "sha": "3dbdbbb",
-          "message": "StagefrightRecorder: Add \"set-title\" parameter",
-          "author": "cjh1249131356",
-          "date": "Fri Oct 24 23:54:50 2025 +0800",
-          "timestamp": 1761321290,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/3dbdbbb"
-        },
-        {
-          "sha": "c13a23d",
-          "message": "libstagefright: Allow HFR-60 in HAL-3 recording",
-          "author": "Manikanta Kanamarlapudi",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/c13a23d"
-        },
-        {
-          "sha": "bbeaa5f",
-          "message": "libstagefright: Support YVU420SemiPlanar camera format",
-          "author": "Ethan Chen",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/bbeaa5f"
-        },
-        {
-          "sha": "c65c4c6",
-          "message": "stagefright: add changes related to high-framerates in CameraSource",
-          "author": "Paras Nagda",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/c65c4c6"
-        },
-        {
-          "sha": "cc2967b",
-          "message": "camera: Don't segfault if we get a NULL parameter",
-          "author": "Steve Kondik",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/cc2967b"
-        },
-        {
-          "sha": "9f6b335",
-          "message": "Camera: Removing cachedump call to miminimize delay during close.",
-          "author": "Venugopal Nadipalli",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/9f6b335"
-        },
-        {
-          "sha": "a2e18cc",
-          "message": "Camera: Flush Improvements - Result drain optimization",
-          "author": "Susmitha Gummalla",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/a2e18cc"
-        },
-        {
-          "sha": "9e14ab1",
-          "message": "CameraService: Fix deadlock in binder death cleanup",
-          "author": "Mounika Reddy Tangirala",
-          "date": "Fri Oct 24 23:54:49 2025 +0800",
-          "timestamp": 1761321289,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/9e14ab1"
-        },
-        {
-          "sha": "287dbcf",
-          "message": "Camera: Add support for preview frame fd",
-          "author": "Susmitha Gummalla",
-          "date": "Fri Oct 24 23:54:25 2025 +0800",
-          "timestamp": 1761321265,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/287dbcf"
-        },
-        {
-          "sha": "933bb8e",
-          "message": "CAMX: CHI: Added support for handling jpeg debug data.",
-          "author": "Abhinav sohane",
-          "date": "Fri Oct 24 23:54:25 2025 +0800",
-          "timestamp": 1761321265,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/933bb8e"
-        },
-        {
-          "sha": "3afec37",
-          "message": "audioflinger: Do not allow DAP effect to be suspended",
-          "author": "Adithya R",
-          "date": "Fri Oct 24 23:54:25 2025 +0800",
-          "timestamp": 1761321265,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/3afec37"
-        },
-        {
-          "sha": "94747ee",
-          "message": "libstagefright: Conditionally disable `thumbnail_block_model`",
-          "author": "ahnet-69",
-          "date": "Fri Oct 24 23:54:25 2025 +0800",
-          "timestamp": 1761321265,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/94747ee"
-        },
-        {
-          "sha": "227aa6f",
-          "message": "camera: bypass roundBufferDimensionNearest for Y8",
-          "author": "Cosmin Tanislav",
-          "date": "Fri Oct 24 23:54:25 2025 +0800",
-          "timestamp": 1761321265,
-          "url": "https://github.com/halcyonproject/frameworks_av/commit/227aa6f"
-        }
-      ]
-    },
-    {
       "name": "android_tools_extract-utils",
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
@@ -2255,7 +1694,7 @@
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/halcyonproject/packages_apps_Settings",
       "remote": "halcyon",
-      "commit_count": 25,
+      "commit_count": 23,
       "commits": [
         {
           "sha": "34a5d99f6",
@@ -2440,22 +1879,6 @@
           "date": "Sun Nov 16 19:16:43 2025 +0800",
           "timestamp": 1763291803,
           "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/83a8b2cc0"
-        },
-        {
-          "sha": "4aed0e4cf",
-          "message": "Settings: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 22:09:19 2025 +0800",
-          "timestamp": 1761314959,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/4aed0e4cf"
-        },
-        {
-          "sha": "cf8b45841",
-          "message": "Settings: Features: display: Implement edge-to-edge display fullscreen controller [2/2]",
-          "author": "Arindam Bhattacharjee",
-          "date": "Fri Oct 24 22:09:15 2025 +0800",
-          "timestamp": 1761314955,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/cf8b45841"
         }
       ]
     },
@@ -2613,107 +2036,99 @@
       ]
     },
     {
-      "name": "vendor_halcyon",
-      "path": "vendor/halcyon",
-      "repo_url": "https://github.com/halcyonproject/vendor_halcyon",
+      "name": "frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/halcyonproject/frameworks_av",
       "remote": "halcyon",
-      "commit_count": 12,
+      "commit_count": 11,
       "commits": [
         {
-          "sha": "1ab3de4",
-          "message": "halcyon: overlay: Enable app-cloning feature in Settings",
-          "author": "minaripenguin",
-          "date": "Sun Nov 16 22:46:23 2025 +0800",
-          "timestamp": 1763304383,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/1ab3de4"
+          "sha": "0cdc350",
+          "message": "blur: Downscale source FBO to 20% size",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:33 2025 +0800",
+          "timestamp": 1763313333,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/0cdc350"
         },
         {
-          "sha": "cc6065e",
-          "message": "halcyon: release: bp2a: Bump Security String to 2025-09-01",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 22:45:10 2025 +0800",
-          "timestamp": 1763304310,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/cc6065e"
+          "sha": "aed2c0f",
+          "message": "blur: Invalidate newly-bound framebuffers before rendering",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:33 2025 +0800",
+          "timestamp": 1763313333,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/aed2c0f"
         },
         {
-          "sha": "ba1ad9e",
-          "message": "halcyon: release: Drio glanceable hub",
-          "author": "HeroBuxx",
-          "date": "Sat Nov 15 13:22:29 2025 +0800",
-          "timestamp": 1763184149,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/ba1ad9e"
+          "sha": "33652ce",
+          "message": "blur: Calculate vertices in vertex shader instead of using VBO",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:33 2025 +0800",
+          "timestamp": 1763313333,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/33652ce"
         },
         {
-          "sha": "e2714df",
-          "message": "halcyon: release: Enable move_transition_animation_layer",
-          "author": "Ghosuto",
-          "date": "Sat Nov 15 13:08:03 2025 +0800",
-          "timestamp": 1763183283,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/e2714df"
+          "sha": "cace221",
+          "message": "blur: Interpolate tap UV coordinates in vertex shader",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/cace221"
         },
         {
-          "sha": "8aafbe2",
-          "message": "halcyon: release: Re-add transparent notification",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 15 13:05:49 2025 +0800",
-          "timestamp": 1763183149,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/8aafbe2"
+          "sha": "66d53e9",
+          "message": "blur: Reduce floating-point precision for UV coordinates",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/66d53e9"
         },
         {
-          "sha": "22ce594",
-          "message": "config: Disable default frame rate limit for games",
-          "author": "HeCheng Yu",
-          "date": "Thu Nov 6 10:27:52 2025 +0800",
-          "timestamp": 1762396072,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/22ce594"
+          "sha": "323d8f4",
+          "message": "blur: Downscale image before blurring",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/323d8f4"
         },
         {
-          "sha": "d4c0545",
-          "message": "halcyon: release: Drop few Launcher ACONFIG",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 2 22:52:00 2025 +0800",
-          "timestamp": 1762095120,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/d4c0545"
+          "sha": "4385a60",
+          "message": "blur: Only set constant shader uniforms once",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/4385a60"
         },
         {
-          "sha": "80324b5",
-          "message": "halcyon: config: packages: Set WITH_GMS to false by default",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 2 22:49:42 2025 +0800",
-          "timestamp": 1762094982,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/80324b5"
+          "sha": "30162d4",
+          "message": "blur: Dither output using triangular RGB blue noise",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/30162d4"
         },
         {
-          "sha": "b4e8a32",
-          "message": "halcyon: soong: Add libcameraservice extension config",
-          "author": "Dhina17",
-          "date": "Sat Oct 25 00:11:51 2025 +0800",
-          "timestamp": 1761322311,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/b4e8a32"
+          "sha": "dc5e26b",
+          "message": "blur: Skip processing of alpha channel by swizzling RGB",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/dc5e26b"
         },
         {
-          "sha": "f20a166",
-          "message": "halcyon: soong: Add support for miui camera mode [2/2]",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 00:11:38 2025 +0800",
-          "timestamp": 1761322298,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/f20a166"
+          "sha": "1087152",
+          "message": "blur: Improve terminology used in mix shader",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:15:32 2025 +0800",
+          "timestamp": 1763313332,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/1087152"
         },
         {
-          "sha": "99c1718",
-          "message": "halcyon: soong: Add support to set vendor tag with client package name",
-          "author": "Jake Weinstein",
-          "date": "Sat Oct 25 00:11:20 2025 +0800",
-          "timestamp": 1761322280,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/99c1718"
-        },
-        {
-          "sha": "32ad621",
-          "message": "halcyon: configl packages: Confitionally include GMS",
-          "author": "HeroBuxx",
-          "date": "Sat Oct 25 00:10:04 2025 +0800",
-          "timestamp": 1761322204,
-          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/32ad621"
+          "sha": "bba3a8f",
+          "message": "blur: Limit blur to the two frontmost layers",
+          "author": "Danny Lin",
+          "date": "Mon Nov 17 01:14:55 2025 +0800",
+          "timestamp": 1763313295,
+          "url": "https://github.com/halcyonproject/frameworks_av/commit/bba3a8f"
         }
       ]
     },
@@ -2803,95 +2218,6 @@
           "date": "Thu Oct 30 13:05:10 2025 +0800",
           "timestamp": 1761800710,
           "url": "https://github.com/halcyonproject/frameworks_libs_systemui/commit/daf8ad5"
-        }
-      ]
-    },
-    {
-      "name": "manifest",
-      "path": "manifest",
-      "repo_url": "https://github.com/halcyonproject/manifest",
-      "remote": "halcyon",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "2d2682e",
-          "message": "fixup! manifest: Track sm8650 HALs from LineageOS",
-          "author": "PixelThrived",
-          "date": "Mon Jan 12 18:49:19 2026 +0200",
-          "timestamp": 1768236559,
-          "url": "https://github.com/halcyonproject/manifest/commit/2d2682e"
-        },
-        {
-          "sha": "7511d41",
-          "message": "manifest: Track forked system/media",
-          "author": "HeroBuxx",
-          "date": "Tue Dec 23 21:39:31 2025 +0700",
-          "timestamp": 1766500771,
-          "url": "https://github.com/halcyonproject/manifest/commit/7511d41"
-        },
-        {
-          "sha": "5280a2f",
-          "message": "manifest: Add our selfhosted git remote for blobs",
-          "author": "HeroBuxx",
-          "date": "Sat Dec 6 03:08:14 2025 +0700",
-          "timestamp": 1764965294,
-          "url": "https://github.com/halcyonproject/manifest/commit/5280a2f"
-        },
-        {
-          "sha": "f0a00ef",
-          "message": "manifest: README: Remove ALPHA tag",
-          "author": "HeroBuxx",
-          "date": "Sat Dec 6 03:06:10 2025 +0700",
-          "timestamp": 1764965170,
-          "url": "https://github.com/halcyonproject/manifest/commit/f0a00ef"
-        },
-        {
-          "sha": "87a911c",
-          "message": "manifest: Tracked forked build/release",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:07:22 2025 +0700",
-          "timestamp": 1763294842,
-          "url": "https://github.com/halcyonproject/manifest/commit/87a911c"
-        },
-        {
-          "sha": "526364d",
-          "message": "manifest: Track sm8650 HALs from LineageOS",
-          "author": "PixelThrived",
-          "date": "Sun Nov 16 19:05:08 2025 +0700",
-          "timestamp": 1763294708,
-          "url": "https://github.com/halcyonproject/manifest/commit/526364d"
-        },
-        {
-          "sha": "27c5454",
-          "message": "manifest: Track more forked repos for September 2025 security update",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:03:43 2025 +0700",
-          "timestamp": 1763294623,
-          "url": "https://github.com/halcyonproject/manifest/commit/27c5454"
-        },
-        {
-          "sha": "5875d6d",
-          "message": "manifest: Track forked 'external/bouncycatle' and 'frameworks/libs/systemui'",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 31 11:56:40 2025 +0700",
-          "timestamp": 1761886600,
-          "url": "https://github.com/halcyonproject/manifest/commit/5875d6d"
-        },
-        {
-          "sha": "11ac3df",
-          "message": "manifest: Track GMS",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 22:08:25 2025 +0700",
-          "timestamp": 1761318505,
-          "url": "https://github.com/halcyonproject/manifest/commit/11ac3df"
-        },
-        {
-          "sha": "d265a69",
-          "message": "manifest: Fork few more apps",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:55:12 2025 +0700",
-          "timestamp": 1761314112,
-          "url": "https://github.com/halcyonproject/manifest/commit/d265a69"
         }
       ]
     },
@@ -3285,6 +2611,152 @@
       ]
     },
     {
+      "name": "manifest",
+      "path": "manifest",
+      "repo_url": "https://github.com/halcyonproject/manifest",
+      "remote": "halcyon",
+      "commit_count": 8,
+      "commits": [
+        {
+          "sha": "2d2682e",
+          "message": "fixup! manifest: Track sm8650 HALs from LineageOS",
+          "author": "PixelThrived",
+          "date": "Mon Jan 12 18:49:19 2026 +0200",
+          "timestamp": 1768236559,
+          "url": "https://github.com/halcyonproject/manifest/commit/2d2682e"
+        },
+        {
+          "sha": "7511d41",
+          "message": "manifest: Track forked system/media",
+          "author": "HeroBuxx",
+          "date": "Tue Dec 23 21:39:31 2025 +0700",
+          "timestamp": 1766500771,
+          "url": "https://github.com/halcyonproject/manifest/commit/7511d41"
+        },
+        {
+          "sha": "5280a2f",
+          "message": "manifest: Add our selfhosted git remote for blobs",
+          "author": "HeroBuxx",
+          "date": "Sat Dec 6 03:08:14 2025 +0700",
+          "timestamp": 1764965294,
+          "url": "https://github.com/halcyonproject/manifest/commit/5280a2f"
+        },
+        {
+          "sha": "f0a00ef",
+          "message": "manifest: README: Remove ALPHA tag",
+          "author": "HeroBuxx",
+          "date": "Sat Dec 6 03:06:10 2025 +0700",
+          "timestamp": 1764965170,
+          "url": "https://github.com/halcyonproject/manifest/commit/f0a00ef"
+        },
+        {
+          "sha": "87a911c",
+          "message": "manifest: Tracked forked build/release",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:07:22 2025 +0700",
+          "timestamp": 1763294842,
+          "url": "https://github.com/halcyonproject/manifest/commit/87a911c"
+        },
+        {
+          "sha": "526364d",
+          "message": "manifest: Track sm8650 HALs from LineageOS",
+          "author": "PixelThrived",
+          "date": "Sun Nov 16 19:05:08 2025 +0700",
+          "timestamp": 1763294708,
+          "url": "https://github.com/halcyonproject/manifest/commit/526364d"
+        },
+        {
+          "sha": "27c5454",
+          "message": "manifest: Track more forked repos for September 2025 security update",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:03:43 2025 +0700",
+          "timestamp": 1763294623,
+          "url": "https://github.com/halcyonproject/manifest/commit/27c5454"
+        },
+        {
+          "sha": "5875d6d",
+          "message": "manifest: Track forked 'external/bouncycatle' and 'frameworks/libs/systemui'",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 31 11:56:40 2025 +0700",
+          "timestamp": 1761886600,
+          "url": "https://github.com/halcyonproject/manifest/commit/5875d6d"
+        }
+      ]
+    },
+    {
+      "name": "vendor_halcyon",
+      "path": "vendor/halcyon",
+      "repo_url": "https://github.com/halcyonproject/vendor_halcyon",
+      "remote": "halcyon",
+      "commit_count": 8,
+      "commits": [
+        {
+          "sha": "1ab3de4",
+          "message": "halcyon: overlay: Enable app-cloning feature in Settings",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 22:46:23 2025 +0800",
+          "timestamp": 1763304383,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/1ab3de4"
+        },
+        {
+          "sha": "cc6065e",
+          "message": "halcyon: release: bp2a: Bump Security String to 2025-09-01",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 22:45:10 2025 +0800",
+          "timestamp": 1763304310,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/cc6065e"
+        },
+        {
+          "sha": "ba1ad9e",
+          "message": "halcyon: release: Drio glanceable hub",
+          "author": "HeroBuxx",
+          "date": "Sat Nov 15 13:22:29 2025 +0800",
+          "timestamp": 1763184149,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/ba1ad9e"
+        },
+        {
+          "sha": "e2714df",
+          "message": "halcyon: release: Enable move_transition_animation_layer",
+          "author": "Ghosuto",
+          "date": "Sat Nov 15 13:08:03 2025 +0800",
+          "timestamp": 1763183283,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/e2714df"
+        },
+        {
+          "sha": "8aafbe2",
+          "message": "halcyon: release: Re-add transparent notification",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 15 13:05:49 2025 +0800",
+          "timestamp": 1763183149,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/8aafbe2"
+        },
+        {
+          "sha": "22ce594",
+          "message": "config: Disable default frame rate limit for games",
+          "author": "HeCheng Yu",
+          "date": "Thu Nov 6 10:27:52 2025 +0800",
+          "timestamp": 1762396072,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/22ce594"
+        },
+        {
+          "sha": "d4c0545",
+          "message": "halcyon: release: Drop few Launcher ACONFIG",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 2 22:52:00 2025 +0800",
+          "timestamp": 1762095120,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/d4c0545"
+        },
+        {
+          "sha": "80324b5",
+          "message": "halcyon: config: packages: Set WITH_GMS to false by default",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 2 22:49:42 2025 +0800",
+          "timestamp": 1762094982,
+          "url": "https://github.com/halcyonproject/vendor_halcyon/commit/80324b5"
+        }
+      ]
+    },
+    {
       "name": "android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8550",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -3644,47 +3116,6 @@
       ]
     },
     {
-      "name": "halcyonproject/vendor_gms",
-      "path": "vendor/gms",
-      "repo_url": "https://gitea.com/halcyonproject/vendor_gms",
-      "remote": "gitea",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "61e289e",
-          "message": "gms: GoogleSettingsOverlay: Set config_sound_picker_package_name to Google's soundpicker",
-          "author": "Cyber Knight",
-          "date": "Thu Oct 30 13:33:26 2025 +0800",
-          "timestamp": 1761802406,
-          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/61e289e"
-        },
-        {
-          "sha": "db25ab3",
-          "message": "gms: Override Glimpse",
-          "author": "Raya Mahardika",
-          "date": "Wed Oct 29 00:14:44 2025 +0800",
-          "timestamp": 1761668084,
-          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/db25ab3"
-        },
-        {
-          "sha": "2cff6b6",
-          "message": "gms: Drop non-existing overlay",
-          "author": "HeroBuxx",
-          "date": "Sat Oct 25 18:49:29 2025 +0800",
-          "timestamp": 1761389369,
-          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/2cff6b6"
-        },
-        {
-          "sha": "d0743ec",
-          "message": "gms: Initial import from google/komodo/komodo:16/BP2A.250605.031.A2/13578606:user/release-keys",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 17:48:08 2025 +0800",
-          "timestamp": 1761299288,
-          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/d0743ec"
-        }
-      ]
-    },
-    {
       "name": "android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -3879,6 +3310,39 @@
           "date": "Sun Jan 11 07:40:38 2026 +0000",
           "timestamp": 1768117238,
           "url": "https://github.com/halcyonproject/bootable_deprecated-ota/commit/306bfe4"
+        }
+      ]
+    },
+    {
+      "name": "halcyonproject/vendor_gms",
+      "path": "vendor/gms",
+      "repo_url": "https://gitea.com/halcyonproject/vendor_gms",
+      "remote": "gitea",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "61e289e",
+          "message": "gms: GoogleSettingsOverlay: Set config_sound_picker_package_name to Google's soundpicker",
+          "author": "Cyber Knight",
+          "date": "Thu Oct 30 13:33:26 2025 +0800",
+          "timestamp": 1761802406,
+          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/61e289e"
+        },
+        {
+          "sha": "db25ab3",
+          "message": "gms: Override Glimpse",
+          "author": "Raya Mahardika",
+          "date": "Wed Oct 29 00:14:44 2025 +0800",
+          "timestamp": 1761668084,
+          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/db25ab3"
+        },
+        {
+          "sha": "2cff6b6",
+          "message": "gms: Drop non-existing overlay",
+          "author": "HeroBuxx",
+          "date": "Sat Oct 25 18:49:29 2025 +0800",
+          "timestamp": 1761389369,
+          "url": "https://gitea.com/halcyonproject/vendor_gms/commit/2cff6b6"
         }
       ]
     },
@@ -4174,106 +3638,6 @@
       ]
     },
     {
-      "name": "packages_apps_Aperture",
-      "path": "packages/apps/Aperture",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Aperture",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "6193678",
-          "message": "Merge remote-tracking branch 'aperture/lineage-23.0' into 16.0",
-          "author": "HeroBuxx",
-          "date": "Sat Oct 25 16:59:37 2025 +0800",
-          "timestamp": 1761382777,
-          "url": "https://github.com/halcyonproject/packages_apps_Aperture/commit/6193678"
-        },
-        {
-          "sha": "a7f714e",
-          "message": "Aperture: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 19:59:38 2025 +0800",
-          "timestamp": 1761307178,
-          "url": "https://github.com/halcyonproject/packages_apps_Aperture/commit/a7f714e"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Contacts",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "19f5d93",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:33 2025 +0800",
-          "timestamp": 1763293893,
-          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/19f5d93"
-        },
-        {
-          "sha": "614bc5f",
-          "message": "Contacts: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:08:51 2025 +0800",
-          "timestamp": 1761307731,
-          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/614bc5f"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_DocumentsUI",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "4c92f57",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:33 2025 +0800",
-          "timestamp": 1763293893,
-          "url": "https://github.com/halcyonproject/packages_apps_DocumentsUI/commit/4c92f57"
-        },
-        {
-          "sha": "537b7cf",
-          "message": "DocumentsUI: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 21:47:15 2025 +0800",
-          "timestamp": 1761313635,
-          "url": "https://github.com/halcyonproject/packages_apps_DocumentsUI/commit/537b7cf"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_GameSpace",
-      "path": "packages/apps/GameSpace",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_GameSpace",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "837cca9",
-          "message": "GameSpace: Setup material expressive design for preferences",
-          "author": "Pranav Vashi",
-          "date": "Fri Dec 5 19:22:14 2025 +0000",
-          "timestamp": 1764962534,
-          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/837cca9"
-        },
-        {
-          "sha": "c16d6d9",
-          "message": "GameSpace: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:21:05 2025 +0800",
-          "timestamp": 1761308465,
-          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/c16d6d9"
-        }
-      ]
-    },
-    {
       "name": "android_external_nano",
       "path": "external/nano",
       "repo_url": "https://github.com/LineageOS/android_external_nano",
@@ -4326,18 +3690,18 @@
     },
     {
       "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8450/display",
+      "path": "hardware/qcom-caf/sm8550/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "lineage",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "c2d1986",
+          "sha": "3415b63",
           "message": "qmaa: Fix soong namespace imports",
           "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:07 2025 +0200",
-          "timestamp": 1765227487,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
+          "date": "Mon Dec 8 22:58:21 2025 +0200",
+          "timestamp": 1765227501,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
         }
       ]
     },
@@ -4360,18 +3724,18 @@
     },
     {
       "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8550/display",
+      "path": "hardware/qcom-caf/sm8450/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "lineage",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "3415b63",
+          "sha": "c2d1986",
           "message": "qmaa: Fix soong namespace imports",
           "author": "Michael Bestas",
-          "date": "Mon Dec 8 22:58:21 2025 +0200",
-          "timestamp": 1765227501,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/3415b63"
+          "date": "Mon Dec 8 22:58:07 2025 +0200",
+          "timestamp": 1765227487,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c2d1986"
         }
       ]
     },
@@ -4393,23 +3757,6 @@
       ]
     },
     {
-      "name": "android_vendor_qcom_opensource_agm",
-      "path": "hardware/qcom-caf/sm8650/audio/agm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "ec6b675",
-          "message": "agm: Fix format specifiers",
-          "author": "Michael Bestas",
-          "date": "Fri Dec 12 20:45:54 2025 +0200",
-          "timestamp": 1765565154,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/ec6b675"
-        }
-      ]
-    },
-    {
       "name": "android_vendor_codeaurora_telephony",
       "path": "vendor/codeaurora/telephony",
       "repo_url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony",
@@ -4423,6 +3770,23 @@
           "date": "Sat Nov 8 15:16:00 2025 +0200",
           "timestamp": 1762607760,
           "url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony/commit/522eeb1"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_qcom_opensource_agm",
+      "path": "hardware/qcom-caf/sm8650/audio/agm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "ec6b675",
+          "message": "agm: Fix format specifiers",
+          "author": "Michael Bestas",
+          "date": "Fri Dec 12 20:45:54 2025 +0200",
+          "timestamp": 1765565154,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/ec6b675"
         }
       ]
     },
@@ -4546,6 +3910,23 @@
       ]
     },
     {
+      "name": "packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Aperture",
+      "remote": "halcyon",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6193678",
+          "message": "Merge remote-tracking branch 'aperture/lineage-23.0' into 16.0",
+          "author": "HeroBuxx",
+          "date": "Sat Oct 25 16:59:37 2025 +0800",
+          "timestamp": 1761382777,
+          "url": "https://github.com/halcyonproject/packages_apps_Aperture/commit/6193678"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_DeskClock",
       "path": "packages/apps/DeskClock",
       "repo_url": "https://github.com/halcyonproject/packages_apps_DeskClock",
@@ -4563,87 +3944,53 @@
       ]
     },
     {
-      "name": "packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Dialer",
+      "name": "packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Contacts",
       "remote": "halcyon",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "ec07dabe",
-          "message": "Dialer: Import new Enchanted icon",
+          "sha": "19f5d93",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into android-16.0",
           "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:12:03 2025 +0800",
-          "timestamp": 1761307923,
-          "url": "https://github.com/halcyonproject/packages_apps_Dialer/commit/ec07dabe"
+          "date": "Sun Nov 16 19:51:33 2025 +0800",
+          "timestamp": 1763293893,
+          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/19f5d93"
         }
       ]
     },
     {
-      "name": "packages_apps_Etar",
-      "path": "packages/apps/Etar",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Etar",
+      "name": "packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_DocumentsUI",
       "remote": "halcyon",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "1b1b59c",
-          "message": "Etar: Import new Enchanted icon",
+          "sha": "4c92f57",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into android-16.0",
           "author": "HeroBuxx",
-          "date": "Fri Oct 24 19:53:49 2025 +0800",
-          "timestamp": 1761306829,
-          "url": "https://github.com/halcyonproject/packages_apps_Etar/commit/1b1b59c"
+          "date": "Sun Nov 16 19:51:33 2025 +0800",
+          "timestamp": 1763293893,
+          "url": "https://github.com/halcyonproject/packages_apps_DocumentsUI/commit/4c92f57"
         }
       ]
     },
     {
-      "name": "packages_apps_ExactCalculator",
-      "path": "packages/apps/ExactCalculator",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_ExactCalculator",
+      "name": "packages_apps_GameSpace",
+      "path": "packages/apps/GameSpace",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_GameSpace",
       "remote": "halcyon",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "988c697",
-          "message": "ExactCalculator: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 19:57:08 2025 +0800",
-          "timestamp": 1761307028,
-          "url": "https://github.com/halcyonproject/packages_apps_ExactCalculator/commit/988c697"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Glimpse",
-      "path": "packages/apps/Glimpse",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Glimpse",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "6ce7d56",
-          "message": "Glimpse: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:17:20 2025 +0800",
-          "timestamp": 1761308240,
-          "url": "https://github.com/halcyonproject/packages_apps_Glimpse/commit/6ce7d56"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Messaging",
-      "path": "packages/apps/Messaging",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Messaging",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "6a9deb4",
-          "message": "Messaging: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:18:47 2025 +0800",
-          "timestamp": 1761308327,
-          "url": "https://github.com/halcyonproject/packages_apps_Messaging/commit/6a9deb4"
+          "sha": "837cca9",
+          "message": "GameSpace: Setup material expressive design for preferences",
+          "author": "Pranav Vashi",
+          "date": "Fri Dec 5 19:22:14 2025 +0000",
+          "timestamp": 1764962534,
+          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/837cca9"
         }
       ]
     },
