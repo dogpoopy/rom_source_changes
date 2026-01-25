@@ -1,8 +1,8 @@
 {
   "rom_id": "grapheneos",
   "branch": "16-qpr2",
-  "generated_at": "2026-01-24T01:38:37.512519+00:00",
-  "since_date": "2025-10-26",
+  "generated_at": "2026-01-25T01:59:57.772552+00:00",
+  "since_date": "2025-10-27",
   "total_projects": 94,
   "total_commits": 1114,
   "projects": [
@@ -13,6 +13,14 @@
       "remote": "grapheneos",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "276106df",
+          "message": "Revert \"[temporary] make AOSP dialer call notifications not groupable\"",
+          "author": "inthewaves",
+          "date": "Sat Jan 24 00:47:38 2026 -0500",
+          "timestamp": 1769233658,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/276106df"
+        },
         {
           "sha": "c5156ec0",
           "message": "add Apple China option for network location",
@@ -804,14 +812,6 @@
           "date": "Sat Dec 6 00:19:41 2025 +0200",
           "timestamp": 1764973181,
           "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/4e876e57"
-        },
-        {
-          "sha": "0186a72b",
-          "message": "SystemUI: clear keyguard indication background and icon on empty text",
-          "author": "inthewaves",
-          "date": "Sat Dec 6 00:19:41 2025 +0200",
-          "timestamp": 1764973181,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/0186a72b"
         }
       ]
     },
@@ -3252,6 +3252,303 @@
       ]
     },
     {
+      "name": "platform_packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer",
+      "remote": "grapheneos",
+      "commit_count": 36,
+      "commits": [
+        {
+          "sha": "2cd5487",
+          "message": "incallui: set a `CallStyle` for call notifications",
+          "author": "inthewaves",
+          "date": "Sat Jan 24 00:47:34 2026 -0500",
+          "timestamp": 1769233654,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/2cd5487"
+        },
+        {
+          "sha": "36beb75",
+          "message": "[vvm] fix for verizon MVNOs",
+          "author": "Youssef Gamal",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/36beb75"
+        },
+        {
+          "sha": "3fe764b",
+          "message": "incallui: move RTT to the end and prioritize call recording button",
+          "author": "inthewaves",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/3fe764b"
+        },
+        {
+          "sha": "a71a26b",
+          "message": "incallui: always show scrollbar for button grid",
+          "author": "inthewaves",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/a71a26b"
+        },
+        {
+          "sha": "1199438",
+          "message": "Enable darkmode on dialogs",
+          "author": "Neel Chauhan",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/1199438"
+        },
+        {
+          "sha": "afcfb9a",
+          "message": "use app compat theme",
+          "author": "Pratyush",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/afcfb9a"
+        },
+        {
+          "sha": "2727c2b",
+          "message": "15: fix crashes caused by removal of Fragment constructors by r8",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/2727c2b"
+        },
+        {
+          "sha": "f1b1776",
+          "message": "CI: update VVM config from 121.0.603393336",
+          "author": "maade69",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/f1b1776"
+        },
+        {
+          "sha": "5f4a077",
+          "message": "[temporary] incallui: increase number of buttons in button grid to 12",
+          "author": "octocorvus",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/5f4a077"
+        },
+        {
+          "sha": "77e1ffb",
+          "message": "callrec: don't ask for legacy WRITE_EXTERNAL_STORAGE permission",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/77e1ffb"
+        },
+        {
+          "sha": "f86ef42",
+          "message": "callrec: catch exceptions from reset() when releasing MediaRecorder",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/f86ef42"
+        },
+        {
+          "sha": "515ff4b",
+          "message": "callrec: bugfix: file descriptor leak in CallRecorderService",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/515ff4b"
+        },
+        {
+          "sha": "aee0050",
+          "message": "callrec: bugfix: default values of call recording preferences were ignored",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/aee0050"
+        },
+        {
+          "sha": "fdf600d",
+          "message": "callrec: remove no-op implementations of interfaces of call recording UI",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/fdf600d"
+        },
+        {
+          "sha": "1b7a603",
+          "message": "callrec: never allow access to call recordings through the FileProvider",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/1b7a603"
+        },
+        {
+          "sha": "7c7cffc",
+          "message": "callrec: remove unused call recording migration code",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/7c7cffc"
+        },
+        {
+          "sha": "e35a188",
+          "message": "Implement call recording",
+          "author": "r3g_5z",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/e35a188"
+        },
+        {
+          "sha": "8d2db2a",
+          "message": "proguard.flags: Don't optimize fragment constructors",
+          "author": "Aayush Gupta",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/8d2db2a"
+        },
+        {
+          "sha": "d219b5c",
+          "message": "add dark mode to in call ui dialer",
+          "author": "Pratyush",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/d219b5c"
+        },
+        {
+          "sha": "54cf947",
+          "message": "Don't show homescreen wallpaper for incallui",
+          "author": "r3g_5z",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/54cf947"
+        },
+        {
+          "sha": "5cb602f",
+          "message": "add monochrome icon",
+          "author": "Pratyush",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/5cb602f"
+        },
+        {
+          "sha": "65a76ef",
+          "message": "fixup! Add a permission to guard receiving intents in StatusSmsFetcher.",
+          "author": "razorloves",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/65a76ef"
+        },
+        {
+          "sha": "e4b4e0a",
+          "message": "Fix crash issue when user taps audio button while BT is connected",
+          "author": "Tong Wang",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/e4b4e0a"
+        },
+        {
+          "sha": "af84d0e",
+          "message": "Fix status bar colors in detail activities.",
+          "author": "Danny Baumann",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/af84d0e"
+        },
+        {
+          "sha": "7104aef",
+          "message": "Replace launcher icon",
+          "author": "smdyv",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/7104aef"
+        },
+        {
+          "sha": "c5e1aaa",
+          "message": "Dialer: define app category",
+          "author": "Joey",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c5e1aaa"
+        },
+        {
+          "sha": "c9d390d",
+          "message": "Add GrapheneOS icon",
+          "author": "flawedworld",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c9d390d"
+        },
+        {
+          "sha": "4d91210",
+          "message": "Dialer: improve search bar",
+          "author": "Timi Rautamäki",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/4d91210"
+        },
+        {
+          "sha": "a55d706",
+          "message": "Dialer: set statusbar color same as activity background",
+          "author": "Timi Rautamäki",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/a55d706"
+        },
+        {
+          "sha": "f95b41e",
+          "message": "Dialer: update ripple color",
+          "author": "Timi Rautamäki",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/f95b41e"
+        },
+        {
+          "sha": "c951325",
+          "message": "Dialer: update dark theme colors",
+          "author": "Timi Rautamäki",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c951325"
+        },
+        {
+          "sha": "5147c44",
+          "message": "Dialer: use black/white navigation colors",
+          "author": "Timi",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/5147c44"
+        },
+        {
+          "sha": "c28ecc2",
+          "message": "Dialer: Use a DayNight launch theme",
+          "author": "Scott Warner",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c28ecc2"
+        },
+        {
+          "sha": "2be17cf",
+          "message": "Dialer: allow framework to do dark theming automatically",
+          "author": "Jesse Chan",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/2be17cf"
+        },
+        {
+          "sha": "97912c1",
+          "message": "Dialer: AudioModeProvider: use wired route for usb headsets",
+          "author": "codeworkx",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/97912c1"
+        },
+        {
+          "sha": "9a77b6e",
+          "message": "Dialer: disable anti-falsing for call answer screen",
+          "author": "Adrian DC",
+          "date": "Fri Dec 5 18:07:35 2025 +0200",
+          "timestamp": 1764950855,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/9a77b6e"
+        }
+      ]
+    },
+    {
       "name": "platform_external_vanadium",
       "path": "external/vanadium",
       "repo_url": "https://gitlab.com/grapheneos/platform_external_vanadium",
@@ -3537,295 +3834,6 @@
           "date": "Wed Nov 5 22:20:25 2025 -0500",
           "timestamp": 1762399225,
           "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/dce3a92"
-        }
-      ]
-    },
-    {
-      "name": "platform_packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer",
-      "remote": "grapheneos",
-      "commit_count": 35,
-      "commits": [
-        {
-          "sha": "36beb75",
-          "message": "[vvm] fix for verizon MVNOs",
-          "author": "Youssef Gamal",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/36beb75"
-        },
-        {
-          "sha": "3fe764b",
-          "message": "incallui: move RTT to the end and prioritize call recording button",
-          "author": "inthewaves",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/3fe764b"
-        },
-        {
-          "sha": "a71a26b",
-          "message": "incallui: always show scrollbar for button grid",
-          "author": "inthewaves",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/a71a26b"
-        },
-        {
-          "sha": "1199438",
-          "message": "Enable darkmode on dialogs",
-          "author": "Neel Chauhan",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/1199438"
-        },
-        {
-          "sha": "afcfb9a",
-          "message": "use app compat theme",
-          "author": "Pratyush",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/afcfb9a"
-        },
-        {
-          "sha": "2727c2b",
-          "message": "15: fix crashes caused by removal of Fragment constructors by r8",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/2727c2b"
-        },
-        {
-          "sha": "f1b1776",
-          "message": "CI: update VVM config from 121.0.603393336",
-          "author": "maade69",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/f1b1776"
-        },
-        {
-          "sha": "5f4a077",
-          "message": "[temporary] incallui: increase number of buttons in button grid to 12",
-          "author": "octocorvus",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/5f4a077"
-        },
-        {
-          "sha": "77e1ffb",
-          "message": "callrec: don't ask for legacy WRITE_EXTERNAL_STORAGE permission",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/77e1ffb"
-        },
-        {
-          "sha": "f86ef42",
-          "message": "callrec: catch exceptions from reset() when releasing MediaRecorder",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/f86ef42"
-        },
-        {
-          "sha": "515ff4b",
-          "message": "callrec: bugfix: file descriptor leak in CallRecorderService",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/515ff4b"
-        },
-        {
-          "sha": "aee0050",
-          "message": "callrec: bugfix: default values of call recording preferences were ignored",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/aee0050"
-        },
-        {
-          "sha": "fdf600d",
-          "message": "callrec: remove no-op implementations of interfaces of call recording UI",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/fdf600d"
-        },
-        {
-          "sha": "1b7a603",
-          "message": "callrec: never allow access to call recordings through the FileProvider",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/1b7a603"
-        },
-        {
-          "sha": "7c7cffc",
-          "message": "callrec: remove unused call recording migration code",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/7c7cffc"
-        },
-        {
-          "sha": "e35a188",
-          "message": "Implement call recording",
-          "author": "r3g_5z",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/e35a188"
-        },
-        {
-          "sha": "8d2db2a",
-          "message": "proguard.flags: Don't optimize fragment constructors",
-          "author": "Aayush Gupta",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/8d2db2a"
-        },
-        {
-          "sha": "d219b5c",
-          "message": "add dark mode to in call ui dialer",
-          "author": "Pratyush",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/d219b5c"
-        },
-        {
-          "sha": "54cf947",
-          "message": "Don't show homescreen wallpaper for incallui",
-          "author": "r3g_5z",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/54cf947"
-        },
-        {
-          "sha": "5cb602f",
-          "message": "add monochrome icon",
-          "author": "Pratyush",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/5cb602f"
-        },
-        {
-          "sha": "65a76ef",
-          "message": "fixup! Add a permission to guard receiving intents in StatusSmsFetcher.",
-          "author": "razorloves",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/65a76ef"
-        },
-        {
-          "sha": "e4b4e0a",
-          "message": "Fix crash issue when user taps audio button while BT is connected",
-          "author": "Tong Wang",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/e4b4e0a"
-        },
-        {
-          "sha": "af84d0e",
-          "message": "Fix status bar colors in detail activities.",
-          "author": "Danny Baumann",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/af84d0e"
-        },
-        {
-          "sha": "7104aef",
-          "message": "Replace launcher icon",
-          "author": "smdyv",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/7104aef"
-        },
-        {
-          "sha": "c5e1aaa",
-          "message": "Dialer: define app category",
-          "author": "Joey",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c5e1aaa"
-        },
-        {
-          "sha": "c9d390d",
-          "message": "Add GrapheneOS icon",
-          "author": "flawedworld",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c9d390d"
-        },
-        {
-          "sha": "4d91210",
-          "message": "Dialer: improve search bar",
-          "author": "Timi Rautamäki",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/4d91210"
-        },
-        {
-          "sha": "a55d706",
-          "message": "Dialer: set statusbar color same as activity background",
-          "author": "Timi Rautamäki",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/a55d706"
-        },
-        {
-          "sha": "f95b41e",
-          "message": "Dialer: update ripple color",
-          "author": "Timi Rautamäki",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/f95b41e"
-        },
-        {
-          "sha": "c951325",
-          "message": "Dialer: update dark theme colors",
-          "author": "Timi Rautamäki",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c951325"
-        },
-        {
-          "sha": "5147c44",
-          "message": "Dialer: use black/white navigation colors",
-          "author": "Timi",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/5147c44"
-        },
-        {
-          "sha": "c28ecc2",
-          "message": "Dialer: Use a DayNight launch theme",
-          "author": "Scott Warner",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/c28ecc2"
-        },
-        {
-          "sha": "2be17cf",
-          "message": "Dialer: allow framework to do dark theming automatically",
-          "author": "Jesse Chan",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/2be17cf"
-        },
-        {
-          "sha": "97912c1",
-          "message": "Dialer: AudioModeProvider: use wired route for usb headsets",
-          "author": "codeworkx",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/97912c1"
-        },
-        {
-          "sha": "9a77b6e",
-          "message": "Dialer: disable anti-falsing for call answer screen",
-          "author": "Adrian DC",
-          "date": "Fri Dec 5 18:07:35 2025 +0200",
-          "timestamp": 1764950855,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Dialer/commit/9a77b6e"
         }
       ]
     },
@@ -6769,91 +6777,83 @@
       ]
     },
     {
-      "name": "platform_prebuilts_qemu-kernel",
-      "path": "prebuilts/qemu-kernel",
-      "repo_url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel",
+      "name": "device_google_akita-kernels_6.1",
+      "path": "device/google/akita-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
       "remote": "grapheneos",
-      "commit_count": 10,
+      "commit_count": 9,
       "commits": [
         {
-          "sha": "6b06d11",
+          "sha": "fe5e9c6",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:10:24 2026 -0500",
-          "timestamp": 1768896624,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/6b06d11"
+          "date": "Tue Jan 20 03:54:07 2026 -0500",
+          "timestamp": 1768899247,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/fe5e9c6"
         },
         {
-          "sha": "c0df8e2",
+          "sha": "b62508d",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Jan 12 20:54:44 2026 -0500",
-          "timestamp": 1768269284,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/c0df8e2"
+          "date": "Mon Jan 12 21:42:54 2026 -0500",
+          "timestamp": 1768272174,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b62508d"
         },
         {
-          "sha": "abad87b",
+          "sha": "0dc9fe0",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Wed Dec 24 00:27:24 2025 -0500",
-          "timestamp": 1766554044,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/abad87b"
+          "date": "Thu Dec 25 16:19:41 2025 -0500",
+          "timestamp": 1766697581,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/0dc9fe0"
         },
         {
-          "sha": "2f8b46f",
+          "sha": "f75cc2e",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Dec 15 16:17:50 2025 -0500",
-          "timestamp": 1765833470,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/2f8b46f"
+          "date": "Wed Dec 24 01:06:42 2025 -0500",
+          "timestamp": 1766556402,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/f75cc2e"
         },
         {
-          "sha": "53fa0f8",
+          "sha": "ad07c9f",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Sun Nov 30 02:13:07 2025 -0500",
-          "timestamp": 1764486787,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/53fa0f8"
+          "date": "Tue Dec 16 18:23:09 2025 -0500",
+          "timestamp": 1765927389,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/ad07c9f"
         },
         {
-          "sha": "65b5126",
+          "sha": "d5aaef9",
+          "message": "Android 16 QPR2",
+          "author": "Daniel Micay",
+          "date": "Mon Dec 8 02:58:07 2025 -0500",
+          "timestamp": 1765180687,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/d5aaef9"
+        },
+        {
+          "sha": "4bbc612",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Nov 17 18:45:27 2025 -0500",
-          "timestamp": 1763423127,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/65b5126"
+          "date": "Sat Nov 29 06:50:35 2025 -0500",
+          "timestamp": 1764417035,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/4bbc612"
         },
         {
-          "sha": "7d976a2",
-          "message": "rebuild",
-          "author": "Daniel Micay",
-          "date": "Mon Nov 17 01:01:19 2025 -0500",
-          "timestamp": 1763359279,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/7d976a2"
-        },
-        {
-          "sha": "a3c9c5a",
+          "sha": "15ff844",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Nov 3 18:50:37 2025 -0500",
-          "timestamp": 1762213837,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/a3c9c5a"
+          "date": "Mon Nov 3 19:33:07 2025 -0500",
+          "timestamp": 1762216387,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/15ff844"
         },
         {
-          "sha": "6b5e844",
+          "sha": "b75821f",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Oct 28 16:29:06 2025 -0400",
-          "timestamp": 1761683346,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/6b5e844"
-        },
-        {
-          "sha": "03c7d5c",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sun Oct 26 11:40:02 2025 -0400",
-          "timestamp": 1761493202,
-          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/03c7d5c"
+          "date": "Tue Oct 28 18:17:10 2025 -0400",
+          "timestamp": 1761689830,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b75821f"
         }
       ]
     },
@@ -6939,83 +6939,164 @@
       ]
     },
     {
-      "name": "device_google_akita-kernels_6.1",
-      "path": "device/google/akita-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
+      "name": "device_google_felix-kernels_6.1",
+      "path": "device/google/felix-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1",
       "remote": "grapheneos",
       "commit_count": 9,
       "commits": [
         {
-          "sha": "fe5e9c6",
+          "sha": "e521955",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:54:07 2026 -0500",
-          "timestamp": 1768899247,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/fe5e9c6"
+          "date": "Tue Jan 20 03:54:00 2026 -0500",
+          "timestamp": 1768899240,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/e521955"
         },
         {
-          "sha": "b62508d",
+          "sha": "f33986a",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Jan 12 21:42:54 2026 -0500",
-          "timestamp": 1768272174,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b62508d"
+          "date": "Mon Jan 12 21:42:41 2026 -0500",
+          "timestamp": 1768272161,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/f33986a"
         },
         {
-          "sha": "0dc9fe0",
+          "sha": "5dea538",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Thu Dec 25 16:19:41 2025 -0500",
-          "timestamp": 1766697581,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/0dc9fe0"
+          "date": "Thu Dec 25 16:35:06 2025 -0500",
+          "timestamp": 1766698506,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/5dea538"
         },
         {
-          "sha": "f75cc2e",
+          "sha": "bd09cd8",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Wed Dec 24 01:06:42 2025 -0500",
-          "timestamp": 1766556402,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/f75cc2e"
+          "date": "Wed Dec 24 01:20:45 2025 -0500",
+          "timestamp": 1766557245,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/bd09cd8"
         },
         {
-          "sha": "ad07c9f",
+          "sha": "edfc720",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Dec 16 18:23:09 2025 -0500",
-          "timestamp": 1765927389,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/ad07c9f"
+          "date": "Tue Dec 16 18:08:38 2025 -0500",
+          "timestamp": 1765926518,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/edfc720"
         },
         {
-          "sha": "d5aaef9",
+          "sha": "ae23b63",
           "message": "Android 16 QPR2",
           "author": "Daniel Micay",
-          "date": "Mon Dec 8 02:58:07 2025 -0500",
-          "timestamp": 1765180687,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/d5aaef9"
+          "date": "Mon Dec 8 02:25:10 2025 -0500",
+          "timestamp": 1765178710,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/ae23b63"
         },
         {
-          "sha": "4bbc612",
+          "sha": "2021b59",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Sat Nov 29 06:50:35 2025 -0500",
-          "timestamp": 1764417035,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/4bbc612"
+          "date": "Sat Nov 29 06:50:06 2025 -0500",
+          "timestamp": 1764417006,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/2021b59"
         },
         {
-          "sha": "15ff844",
+          "sha": "38052ee",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Mon Nov 3 19:33:07 2025 -0500",
-          "timestamp": 1762216387,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/15ff844"
+          "date": "Mon Nov 3 19:32:59 2025 -0500",
+          "timestamp": 1762216379,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/38052ee"
         },
         {
-          "sha": "b75821f",
+          "sha": "9727d3c",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Oct 28 18:17:10 2025 -0400",
-          "timestamp": 1761689830,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/b75821f"
+          "date": "Tue Oct 28 18:16:52 2025 -0400",
+          "timestamp": 1761689812,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/9727d3c"
+        }
+      ]
+    },
+    {
+      "name": "device_google_comet-kernels_6.1",
+      "path": "device/google/comet-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "bcc45c9",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Jan 20 03:57:54 2026 -0500",
+          "timestamp": 1768899474,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bcc45c9"
+        },
+        {
+          "sha": "68045ef",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Jan 12 21:58:24 2026 -0500",
+          "timestamp": 1768273104,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/68045ef"
+        },
+        {
+          "sha": "85a7f44",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Dec 25 16:19:25 2025 -0500",
+          "timestamp": 1766697565,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/85a7f44"
+        },
+        {
+          "sha": "b27a805",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 24 00:52:25 2025 -0500",
+          "timestamp": 1766555545,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/b27a805"
+        },
+        {
+          "sha": "f9ef212",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Dec 16 21:37:34 2025 -0500",
+          "timestamp": 1765939054,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f9ef212"
+        },
+        {
+          "sha": "a7474e1",
+          "message": "Android 16 QPR2",
+          "author": "Daniel Micay",
+          "date": "Mon Dec 8 03:08:35 2025 -0500",
+          "timestamp": 1765181315,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a7474e1"
+        },
+        {
+          "sha": "a4ab6ac",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sat Nov 29 07:04:53 2025 -0500",
+          "timestamp": 1764417893,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a4ab6ac"
+        },
+        {
+          "sha": "4601959",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 3 19:45:44 2025 -0500",
+          "timestamp": 1762217144,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/4601959"
+        },
+        {
+          "sha": "9aab444",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 28 18:30:03 2025 -0400",
+          "timestamp": 1761690603,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/9aab444"
         }
       ]
     },
@@ -7097,87 +7178,6 @@
           "date": "Tue Oct 28 18:29:55 2025 -0400",
           "timestamp": 1761690595,
           "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/07e9f2f"
-        }
-      ]
-    },
-    {
-      "name": "device_google_felix-kernels_6.1",
-      "path": "device/google/felix-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "e521955",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:54:00 2026 -0500",
-          "timestamp": 1768899240,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/e521955"
-        },
-        {
-          "sha": "f33986a",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Mon Jan 12 21:42:41 2026 -0500",
-          "timestamp": 1768272161,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/f33986a"
-        },
-        {
-          "sha": "5dea538",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Dec 25 16:35:06 2025 -0500",
-          "timestamp": 1766698506,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/5dea538"
-        },
-        {
-          "sha": "bd09cd8",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 24 01:20:45 2025 -0500",
-          "timestamp": 1766557245,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/bd09cd8"
-        },
-        {
-          "sha": "edfc720",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Dec 16 18:08:38 2025 -0500",
-          "timestamp": 1765926518,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/edfc720"
-        },
-        {
-          "sha": "ae23b63",
-          "message": "Android 16 QPR2",
-          "author": "Daniel Micay",
-          "date": "Mon Dec 8 02:25:10 2025 -0500",
-          "timestamp": 1765178710,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/ae23b63"
-        },
-        {
-          "sha": "2021b59",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Nov 29 06:50:06 2025 -0500",
-          "timestamp": 1764417006,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/2021b59"
-        },
-        {
-          "sha": "38052ee",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Mon Nov 3 19:32:59 2025 -0500",
-          "timestamp": 1762216379,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/38052ee"
-        },
-        {
-          "sha": "9727d3c",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 28 18:16:52 2025 -0400",
-          "timestamp": 1761689812,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/9727d3c"
         }
       ]
     },
@@ -7340,87 +7340,6 @@
           "date": "Tue Oct 28 18:03:19 2025 -0400",
           "timestamp": 1761688999,
           "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/efed361"
-        }
-      ]
-    },
-    {
-      "name": "device_google_comet-kernels_6.1",
-      "path": "device/google/comet-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "bcc45c9",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:57:54 2026 -0500",
-          "timestamp": 1768899474,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bcc45c9"
-        },
-        {
-          "sha": "68045ef",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Mon Jan 12 21:58:24 2026 -0500",
-          "timestamp": 1768273104,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/68045ef"
-        },
-        {
-          "sha": "85a7f44",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Dec 25 16:19:25 2025 -0500",
-          "timestamp": 1766697565,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/85a7f44"
-        },
-        {
-          "sha": "b27a805",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Wed Dec 24 00:52:25 2025 -0500",
-          "timestamp": 1766555545,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/b27a805"
-        },
-        {
-          "sha": "f9ef212",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Dec 16 21:37:34 2025 -0500",
-          "timestamp": 1765939054,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f9ef212"
-        },
-        {
-          "sha": "a7474e1",
-          "message": "Android 16 QPR2",
-          "author": "Daniel Micay",
-          "date": "Mon Dec 8 03:08:35 2025 -0500",
-          "timestamp": 1765181315,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a7474e1"
-        },
-        {
-          "sha": "a4ab6ac",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Nov 29 07:04:53 2025 -0500",
-          "timestamp": 1764417893,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a4ab6ac"
-        },
-        {
-          "sha": "4601959",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Mon Nov 3 19:45:44 2025 -0500",
-          "timestamp": 1762217144,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/4601959"
-        },
-        {
-          "sha": "9aab444",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 28 18:30:03 2025 -0400",
-          "timestamp": 1761690603,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/9aab444"
         }
       ]
     },
@@ -7907,6 +7826,87 @@
           "date": "Thu Oct 30 04:02:10 2025 -0700",
           "timestamp": 1761822130,
           "url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization/commit/8b3bf0a1"
+        }
+      ]
+    },
+    {
+      "name": "platform_prebuilts_qemu-kernel",
+      "path": "prebuilts/qemu-kernel",
+      "repo_url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel",
+      "remote": "grapheneos",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "6b06d11",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Jan 20 03:10:24 2026 -0500",
+          "timestamp": 1768896624,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/6b06d11"
+        },
+        {
+          "sha": "c0df8e2",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Jan 12 20:54:44 2026 -0500",
+          "timestamp": 1768269284,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/c0df8e2"
+        },
+        {
+          "sha": "abad87b",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Wed Dec 24 00:27:24 2025 -0500",
+          "timestamp": 1766554044,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/abad87b"
+        },
+        {
+          "sha": "2f8b46f",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Dec 15 16:17:50 2025 -0500",
+          "timestamp": 1765833470,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/2f8b46f"
+        },
+        {
+          "sha": "53fa0f8",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sun Nov 30 02:13:07 2025 -0500",
+          "timestamp": 1764486787,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/53fa0f8"
+        },
+        {
+          "sha": "65b5126",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 17 18:45:27 2025 -0500",
+          "timestamp": 1763423127,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/65b5126"
+        },
+        {
+          "sha": "7d976a2",
+          "message": "rebuild",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 17 01:01:19 2025 -0500",
+          "timestamp": 1763359279,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/7d976a2"
+        },
+        {
+          "sha": "a3c9c5a",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 3 18:50:37 2025 -0500",
+          "timestamp": 1762213837,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/a3c9c5a"
+        },
+        {
+          "sha": "6b5e844",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 28 16:29:06 2025 -0400",
+          "timestamp": 1761683346,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/6b5e844"
         }
       ]
     },
@@ -8627,55 +8627,6 @@
       ]
     },
     {
-      "name": "platform_system_logging",
-      "path": "system/logging",
-      "repo_url": "https://github.com/GrapheneOS/platform_system_logging",
-      "remote": "grapheneos",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "4dd4646",
-          "message": "increase log buffer size from 256 KiB to 512 KiB",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:37:04 2025 +0200",
-          "timestamp": 1764945424,
-          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/4dd4646"
-        },
-        {
-          "sha": "6dfd6fd",
-          "message": "add missing handling of system_server restarts",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:37:04 2025 +0200",
-          "timestamp": 1764945424,
-          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/6dfd6fd"
-        },
-        {
-          "sha": "ce7ece1",
-          "message": "raise post-boot audit message rate limit from 5 to 50 per second",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:37:04 2025 +0200",
-          "timestamp": 1764945424,
-          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/ce7ece1"
-        },
-        {
-          "sha": "bf35fb9",
-          "message": "forward SELINUX_TSEC_FLAG_DENIAL audit log entries to system_server",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:37:03 2025 +0200",
-          "timestamp": 1764945423,
-          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/bf35fb9"
-        },
-        {
-          "sha": "829fe28",
-          "message": "support forwarding log entries to the system_server",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:35:49 2025 +0200",
-          "timestamp": 1764945349,
-          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/829fe28"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_services_Telecomm",
       "path": "packages/services/Telecomm",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telecomm",
@@ -8725,51 +8676,51 @@
       ]
     },
     {
-      "name": "platform_system_vold",
-      "path": "system/vold",
-      "repo_url": "https://github.com/GrapheneOS/platform_system_vold",
+      "name": "platform_system_logging",
+      "path": "system/logging",
+      "repo_url": "https://github.com/GrapheneOS/platform_system_logging",
       "remote": "grapheneos",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "56b910b",
-          "message": "add API for destroying system DE storage encryption key",
+          "sha": "4dd4646",
+          "message": "increase log buffer size from 256 KiB to 512 KiB",
           "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/56b910b"
+          "date": "Fri Dec 5 16:37:04 2025 +0200",
+          "timestamp": 1764945424,
+          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/4dd4646"
         },
         {
-          "sha": "1475d7f",
-          "message": "add API for destroying metadata encryption key",
+          "sha": "6dfd6fd",
+          "message": "add missing handling of system_server restarts",
           "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/1475d7f"
+          "date": "Fri Dec 5 16:37:04 2025 +0200",
+          "timestamp": 1764945424,
+          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/6dfd6fd"
         },
         {
-          "sha": "f07436d",
-          "message": "add option to skip key eviction in destroyUserStorageKeys()",
+          "sha": "ce7ece1",
+          "message": "raise post-boot audit message rate limit from 5 to 50 per second",
           "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/f07436d"
+          "date": "Fri Dec 5 16:37:04 2025 +0200",
+          "timestamp": 1764945424,
+          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/ce7ece1"
         },
         {
-          "sha": "c792586",
-          "message": "add API for checking availability of encryption keys for non-CE storage",
+          "sha": "bf35fb9",
+          "message": "forward SELINUX_TSEC_FLAG_DENIAL audit log entries to system_server",
           "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/c792586"
+          "date": "Fri Dec 5 16:37:03 2025 +0200",
+          "timestamp": 1764945423,
+          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/bf35fb9"
         },
         {
-          "sha": "dfa6fdf",
-          "message": "disable support for adoptable storage",
+          "sha": "829fe28",
+          "message": "support forwarding log entries to the system_server",
           "author": "Dmitry Muhomor",
-          "date": "Fri Dec 5 16:46:49 2025 +0200",
-          "timestamp": 1764946009,
-          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/dfa6fdf"
+          "date": "Fri Dec 5 16:35:49 2025 +0200",
+          "timestamp": 1764945349,
+          "url": "https://github.com/GrapheneOS/platform_system_logging/commit/829fe28"
         }
       ]
     },
@@ -8819,6 +8770,55 @@
           "date": "Thu Oct 30 04:03:02 2025 -0700",
           "timestamp": 1761822182,
           "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/9b377202"
+        }
+      ]
+    },
+    {
+      "name": "platform_system_vold",
+      "path": "system/vold",
+      "repo_url": "https://github.com/GrapheneOS/platform_system_vold",
+      "remote": "grapheneos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "56b910b",
+          "message": "add API for destroying system DE storage encryption key",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/56b910b"
+        },
+        {
+          "sha": "1475d7f",
+          "message": "add API for destroying metadata encryption key",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/1475d7f"
+        },
+        {
+          "sha": "f07436d",
+          "message": "add option to skip key eviction in destroyUserStorageKeys()",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/f07436d"
+        },
+        {
+          "sha": "c792586",
+          "message": "add API for checking availability of encryption keys for non-CE storage",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/c792586"
+        },
+        {
+          "sha": "dfa6fdf",
+          "message": "disable support for adoptable storage",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Dec 5 16:46:49 2025 +0200",
+          "timestamp": 1764946009,
+          "url": "https://github.com/GrapheneOS/platform_system_vold/commit/dfa6fdf"
         }
       ]
     },
