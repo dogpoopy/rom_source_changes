@@ -1,10 +1,10 @@
 {
   "rom_id": "witaqua",
   "branch": "16.1",
-  "generated_at": "2026-01-31T01:57:25.437364+00:00",
-  "since_date": "2025-11-02",
-  "total_projects": 117,
-  "total_commits": 623,
+  "generated_at": "2026-02-01T02:19:41.916316+00:00",
+  "since_date": "2025-11-03",
+  "total_projects": 118,
+  "total_commits": 617,
   "projects": [
     {
       "name": "frameworks_base",
@@ -532,7 +532,7 @@
       "path": "external/vim",
       "repo_url": "https://github.com/LineageOS/android_external_vim",
       "remote": "github",
-      "commit_count": 57,
+      "commit_count": 56,
       "commits": [
         {
           "sha": "f31199d",
@@ -981,14 +981,6 @@
           "date": "Tue Nov 4 18:13:55 2025 +0000",
           "timestamp": 1762280035,
           "url": "https://github.com/LineageOS/android_external_vim/commit/461dd9a"
-        },
-        {
-          "sha": "1ead1b5",
-          "message": "patch 9.1.1896: tests: patch v9.1.1895 breaks CI",
-          "author": "Christian Brabandt",
-          "date": "Sun Nov 2 15:25:18 2025 +0000",
-          "timestamp": 1762097118,
-          "url": "https://github.com/LineageOS/android_external_vim/commit/1ead1b5"
         }
       ]
     },
@@ -1607,8 +1599,16 @@
       "path": "lineage/scripts",
       "repo_url": "https://github.com/LineageOS/scripts",
       "remote": "github",
-      "commit_count": 31,
+      "commit_count": 32,
       "commits": [
+        {
+          "sha": "df4b7f3",
+          "message": "config-fs-gen: Cast vendor UID to int",
+          "author": "LuK1337",
+          "date": "Sat Jan 31 20:03:21 2026 +0000",
+          "timestamp": 1769889801,
+          "url": "https://github.com/LineageOS/scripts/commit/df4b7f3"
+        },
         {
           "sha": "6a6c6da",
           "message": "dev: rro: beautify: Allow ignoring specific overlay packages",
@@ -1864,7 +1864,7 @@
       "path": "vendor/lineage",
       "repo_url": "https://github.com/WitAqua/vendor_witaqua",
       "remote": "witaqua",
-      "commit_count": 30,
+      "commit_count": 29,
       "commits": [
         {
           "sha": "748277b",
@@ -2097,14 +2097,6 @@
           "date": "Mon Nov 3 22:31:35 2025 +0900",
           "timestamp": 1762176695,
           "url": "https://github.com/WitAqua/vendor_witaqua/commit/e7b4ced"
-        },
-        {
-          "sha": "751459e",
-          "message": "envsetup: Add build_kernel function for Pixel OOT kernel build",
-          "author": "Michael Bestas",
-          "date": "Mon Nov 3 00:19:00 2025 +0100",
-          "timestamp": 1762125540,
-          "url": "https://github.com/WitAqua/vendor_witaqua/commit/751459e"
         }
       ]
     },
@@ -2113,7 +2105,7 @@
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 19,
+      "commit_count": 18,
       "commits": [
         {
           "sha": "32aefa5",
@@ -2258,14 +2250,6 @@
           "date": "Sat Nov 8 15:19:50 2025 +0200",
           "timestamp": 1762607990,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/69fbe8f"
-        },
-        {
-          "sha": "9878448",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:29:44 2025 +0000",
-          "timestamp": 1762090184,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9878448"
         }
       ]
     },
@@ -3467,63 +3451,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "8204f3a",
-          "message": "legacy: Label timeservice app with user=system",
-          "author": "LuK1337",
-          "date": "Mon Dec 8 21:54:52 2025 +0100",
-          "timestamp": 1765227292,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8204f3a"
-        },
-        {
-          "sha": "b28a32c",
-          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 19:53:45 2025 +0100",
-          "timestamp": 1763924025,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
-        },
-        {
-          "sha": "a6b7ae6",
-          "message": "legacy: Disallow system_server from loading kernel modules",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 17:14:09 2025 +0100",
-          "timestamp": 1763914449,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
-        },
-        {
-          "sha": "e6959ab",
-          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 17:32:19 2025 +0100",
-          "timestamp": 1762101139,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
-        },
-        {
-          "sha": "57d39af",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 15:12:10 2025 +0000",
-          "timestamp": 1762096330,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
-        },
-        {
-          "sha": "c5a86cf",
-          "message": "sepolicy: Move hal_soter attribute to public",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:30:17 2025 +0000",
-          "timestamp": 1762090217,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Aperture",
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
@@ -4284,6 +4211,39 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "8204f3a",
+          "message": "legacy: Label timeservice app with user=system",
+          "author": "LuK1337",
+          "date": "Mon Dec 8 21:54:52 2025 +0100",
+          "timestamp": 1765227292,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8204f3a"
+        },
+        {
+          "sha": "b28a32c",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:53:45 2025 +0100",
+          "timestamp": 1763924025,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
+        },
+        {
+          "sha": "a6b7ae6",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:14:09 2025 +0100",
+          "timestamp": 1763914449,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_lineage_interfaces",
       "path": "hardware/lineage/interfaces",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
@@ -4544,39 +4504,6 @@
           "date": "Mon Nov 24 06:00:51 2025 -0500",
           "timestamp": 1763982051,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
-        }
-      ]
-    },
-    {
-      "name": "device_witaqua_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/WitAqua/device_witaqua_sepolicy",
-      "remote": "witaqua",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "a303169",
-          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
-          "author": "Toufu",
-          "date": "Tue Nov 4 10:58:29 2025 +0900",
-          "timestamp": 1762221509,
-          "url": "https://github.com/WitAqua/device_witaqua_sepolicy/commit/a303169"
-        },
-        {
-          "sha": "c0a6ee1",
-          "message": "qcom: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:36:44 2025 +0000",
-          "timestamp": 1762090604,
-          "url": "https://github.com/WitAqua/device_witaqua_sepolicy/commit/c0a6ee1"
-        },
-        {
-          "sha": "8b89a12",
-          "message": "qcom: Allow platform_app to use Soter HAL",
-          "author": "dianlujitao",
-          "date": "Sun Nov 2 13:36:36 2025 +0000",
-          "timestamp": 1762090596,
-          "url": "https://github.com/WitAqua/device_witaqua_sepolicy/commit/8b89a12"
         }
       ]
     },
@@ -4906,31 +4833,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_thermal",
-      "path": "hardware/qcom-caf/thermal-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "74bce7c",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:56 2025 +0200",
-          "timestamp": 1762608296,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/74bce7c"
-        },
-        {
-          "sha": "5429698",
-          "message": "thermal-hal: Update skin temperature threshold for msmnile",
-          "author": "Nick Reuter",
-          "date": "Tue Nov 4 00:23:56 2025 -0600",
-          "timestamp": 1762237436,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/5429698"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_thermal",
       "path": "hardware/qcom-caf/thermal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
       "remote": "github",
@@ -4951,6 +4853,31 @@
           "date": "Sat Nov 8 15:27:59 2025 +0200",
           "timestamp": 1762608479,
           "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/a4298a2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_thermal",
+      "path": "hardware/qcom-caf/thermal-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "74bce7c",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:56 2025 +0200",
+          "timestamp": 1762608296,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/74bce7c"
+        },
+        {
+          "sha": "5429698",
+          "message": "thermal-hal: Update skin temperature threshold for msmnile",
+          "author": "Nick Reuter",
+          "date": "Tue Nov 4 00:23:56 2025 -0600",
+          "timestamp": 1762237436,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/5429698"
         }
       ]
     },
@@ -5080,31 +5007,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Profiles",
-      "path": "packages/apps/Profiles",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Profiles",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "b324780",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Jan 1 17:24:04 2026 +0000",
-          "timestamp": 1767288244,
-          "url": "https://github.com/LineageOS/android_packages_apps_Profiles/commit/b324780"
-        },
-        {
-          "sha": "62c09fa",
-          "message": "Profiles: Remove unnecessary privapp_whitelist",
-          "author": "Bruno Martins",
-          "date": "Sat Dec 20 15:01:26 2025 +0000",
-          "timestamp": 1766242886,
-          "url": "https://github.com/LineageOS/android_packages_apps_Profiles/commit/62c09fa"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Messaging",
       "path": "packages/apps/Messaging",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Messaging",
@@ -5126,6 +5028,31 @@
           "date": "Mon Dec 1 14:53:17 2025 +0000",
           "timestamp": 1764600797,
           "url": "https://github.com/LineageOS/android_packages_apps_Messaging/commit/e3f66bf"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Profiles",
+      "path": "packages/apps/Profiles",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Profiles",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "b324780",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Jan 1 17:24:04 2026 +0000",
+          "timestamp": 1767288244,
+          "url": "https://github.com/LineageOS/android_packages_apps_Profiles/commit/b324780"
+        },
+        {
+          "sha": "62c09fa",
+          "message": "Profiles: Remove unnecessary privapp_whitelist",
+          "author": "Bruno Martins",
+          "date": "Sat Dec 20 15:01:26 2025 +0000",
+          "timestamp": 1766242886,
+          "url": "https://github.com/LineageOS/android_packages_apps_Profiles/commit/62c09fa"
         }
       ]
     },
@@ -5230,31 +5157,6 @@
       ]
     },
     {
-      "name": "packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/WitAqua/packages_apps_Dialer",
-      "remote": "witaqua",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "bdbf4976",
-          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
-          "author": "Toufu",
-          "date": "Tue Dec 9 16:02:19 2025 +0900",
-          "timestamp": 1765263739,
-          "url": "https://github.com/WitAqua/packages_apps_Dialer/commit/bdbf4976"
-        },
-        {
-          "sha": "61f95e45",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:14 2025 +0000",
-          "timestamp": 1764600794,
-          "url": "https://github.com/WitAqua/packages_apps_Dialer/commit/61f95e45"
-        }
-      ]
-    },
-    {
       "name": "frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/WitAqua/frameworks_opt_telephony",
@@ -5276,6 +5178,31 @@
           "date": "Thu Dec 4 01:20:34 2025 +0200",
           "timestamp": 1764804034,
           "url": "https://github.com/WitAqua/frameworks_opt_telephony/commit/b2bcc9502"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/WitAqua/packages_apps_Dialer",
+      "remote": "witaqua",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "bdbf4976",
+          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
+          "author": "Toufu",
+          "date": "Tue Dec 9 16:02:19 2025 +0900",
+          "timestamp": 1765263739,
+          "url": "https://github.com/WitAqua/packages_apps_Dialer/commit/bdbf4976"
+        },
+        {
+          "sha": "61f95e45",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:14 2025 +0000",
+          "timestamp": 1764600794,
+          "url": "https://github.com/WitAqua/packages_apps_Dialer/commit/61f95e45"
         }
       ]
     },
@@ -5483,23 +5410,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_FMRadio",
-      "path": "packages/apps/FMRadio",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "968a54e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Jan 1 17:24:01 2026 +0000",
-          "timestamp": 1767288241,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/968a54e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_CellBroadcastReceiver",
       "path": "packages/apps/CellBroadcastReceiver",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver",
@@ -5513,6 +5423,23 @@
           "date": "Thu Dec 4 01:21:35 2025 +0200",
           "timestamp": 1764804095,
           "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/9caf3843"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_FMRadio",
+      "path": "packages/apps/FMRadio",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "968a54e",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Jan 1 17:24:01 2026 +0000",
+          "timestamp": 1767288241,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/968a54e"
         }
       ]
     },
@@ -5568,23 +5495,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_Nfc",
-      "path": "packages/modules/Nfc",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_Nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9a4b4ef1",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 4 01:23:07 2025 +0200",
-          "timestamp": 1764804187,
-          "url": "https://github.com/LineageOS/android_packages_modules_Nfc/commit/9a4b4ef1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_UprobeStats",
       "path": "packages/modules/UprobeStats",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
@@ -5598,6 +5508,23 @@
           "date": "Thu Dec 4 01:23:12 2025 +0200",
           "timestamp": 1764804192,
           "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/a3440fa"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_Nfc",
+      "path": "packages/modules/Nfc",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_Nfc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9a4b4ef1",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 4 01:23:07 2025 +0200",
+          "timestamp": 1764804187,
+          "url": "https://github.com/LineageOS/android_packages_modules_Nfc/commit/9a4b4ef1"
         }
       ]
     },
@@ -5687,23 +5614,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9f7d73ba",
-          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 4 01:23:49 2025 +0200",
-          "timestamp": 1764804229,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/9f7d73ba"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
@@ -5717,6 +5627,23 @@
           "date": "Thu Dec 4 01:22:54 2025 +0200",
           "timestamp": 1764804174,
           "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/5546ce787"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9f7d73ba",
+          "message": "Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.0_merge-android-security-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 4 01:23:49 2025 +0200",
+          "timestamp": 1764804229,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/9f7d73ba"
         }
       ]
     },
@@ -5738,23 +5665,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_apex",
-      "path": "system/apex",
-      "repo_url": "https://github.com/LineageOS/android_system_apex",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "740076a",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/system/apex into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 6 11:49:09 2025 +0200",
-          "timestamp": 1762422549,
-          "url": "https://github.com/LineageOS/android_system_apex/commit/740076a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/LineageOS/android_packages_services_Telephony",
@@ -5768,6 +5678,23 @@
           "date": "Thu Dec 4 01:24:13 2025 +0200",
           "timestamp": 1764804253,
           "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/c4e1f3e27"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_apex",
+      "path": "system/apex",
+      "repo_url": "https://github.com/LineageOS/android_system_apex",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "740076a",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/system/apex into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:49:09 2025 +0200",
+          "timestamp": 1762422549,
+          "url": "https://github.com/LineageOS/android_system_apex/commit/740076a"
         }
       ]
     },
@@ -5806,19 +5733,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_codeaurora_telephony",
-      "path": "vendor/codeaurora/telephony",
-      "repo_url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony",
+      "name": "LineageOS/android_system_update_engine",
+      "path": "system/update_engine",
+      "repo_url": "https://github.com/LineageOS/android_system_update_engine",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "522eeb1",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:00 2025 +0200",
-          "timestamp": 1762607760,
-          "url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony/commit/522eeb1"
+          "sha": "efcb33c",
+          "message": "Use ro.build.type in HardwareAndroid::AllowDowngrade()",
+          "author": "LuK1337",
+          "date": "Sat Jan 31 12:57:26 2026 +0100",
+          "timestamp": 1769860646,
+          "url": "https://github.com/LineageOS/android_system_update_engine/commit/efcb33c"
         }
       ]
     },
@@ -5853,6 +5780,23 @@
           "date": "Thu Dec 11 12:18:16 2025 +0200",
           "timestamp": 1765448296,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/c8dff9c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_codeaurora_telephony",
+      "path": "vendor/codeaurora/telephony",
+      "repo_url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "522eeb1",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:00 2025 +0200",
+          "timestamp": 1762607760,
+          "url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony/commit/522eeb1"
         }
       ]
     },
@@ -5943,23 +5887,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8750/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "845bfb9",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:54 2025 +0200",
-          "timestamp": 1762608414,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/845bfb9"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8650/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "github",
@@ -5972,6 +5899,23 @@
           "date": "Sat Nov 8 15:24:49 2025 +0200",
           "timestamp": 1762608289,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8750/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "845bfb9",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:54 2025 +0200",
+          "timestamp": 1762608414,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/845bfb9"
         }
       ]
     },
@@ -6023,6 +5967,23 @@
           "date": "Sat Nov 8 15:34:17 2025 +0200",
           "timestamp": 1762608857,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/827db65"
+        }
+      ]
+    },
+    {
+      "name": "device_witaqua_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/WitAqua/device_witaqua_sepolicy",
+      "remote": "witaqua",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a303169",
+          "message": "Merge remote-tracking branch 'upstream/lineage-23.0' into HEAD",
+          "author": "Toufu",
+          "date": "Tue Nov 4 10:58:29 2025 +0900",
+          "timestamp": 1762221509,
+          "url": "https://github.com/WitAqua/device_witaqua_sepolicy/commit/a303169"
         }
       ]
     },
