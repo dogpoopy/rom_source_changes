@@ -1,17 +1,17 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2026-03-07T01:49:36.937679+00:00",
-  "since_date": "2025-12-07",
-  "total_projects": 112,
-  "total_commits": 550,
+  "generated_at": "2026-03-10T01:52:13.836043+00:00",
+  "since_date": "2025-12-10",
+  "total_projects": 65,
+  "total_commits": 508,
   "projects": [
     {
       "name": "frameworks_base",
       "path": "frameworks/base",
       "repo_url": "https://github.com/yaap/frameworks_base",
       "remote": "yaap",
-      "commit_count": 63,
+      "commit_count": 62,
       "commits": [
         {
           "sha": "05e475c5",
@@ -508,14 +508,6 @@
           "date": "Thu Dec 18 21:28:25 2025 +0200",
           "timestamp": 1766086105,
           "url": "https://github.com/yaap/frameworks_base/commit/3ddcaa00"
-        },
-        {
-          "sha": "a612c7f5",
-          "message": "SystemUI: Adapt luminanace and chroma factors to A16/QPR1 [1/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 12:31:38 2025 +0200",
-          "timestamp": 1765103498,
-          "url": "https://github.com/yaap/frameworks_base/commit/a612c7f5"
         }
       ]
     },
@@ -933,8 +925,16 @@
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/yaap/packages_apps_Settings",
       "remote": "yaap",
-      "commit_count": 43,
+      "commit_count": 44,
       "commits": [
+        {
+          "sha": "fdf8b1eeb",
+          "message": "channel_notification_settings: Allow custom vibration intervals of 50ms",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Mar 8 14:08:49 2026 +0200",
+          "timestamp": 1772971729,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/fdf8b1eeb"
+        },
         {
           "sha": "17d3e1b1e",
           "message": "Settings: Convert Gaming Macro description to a FooterPreference",
@@ -1282,315 +1282,347 @@
       ]
     },
     {
-      "name": "packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "name": "device_mediatek_sepolicy_vndr",
+      "path": "device/mediatek/sepolicy_vndr",
+      "repo_url": "https://github.com/yaap/device_mediatek_sepolicy_vndr",
       "remote": "yaap",
-      "commit_count": 38,
+      "commit_count": 42,
       "commits": [
         {
-          "sha": "e57ee3ba7",
-          "message": "quickstep: fix 3a597a458082 for 3rd party launchers",
-          "author": "John Galt",
-          "date": "Thu Feb 26 10:59:07 2026 -0500",
-          "timestamp": 1772121547,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/e57ee3ba7"
+          "sha": "e26ae93",
+          "message": "base: vendor: Label VideoTelephony AIDL",
+          "author": "rio004",
+          "date": "Mon Mar 2 02:18:09 2026 +0800",
+          "timestamp": 1772389089,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/e26ae93"
         },
         {
-          "sha": "5ca523469",
-          "message": "Launcher3: RecentsView: Clear DepthController base surface on every exit",
-          "author": "Pranav Vashi",
-          "date": "Thu Feb 26 10:20:50 2026 -0500",
-          "timestamp": 1772119250,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/5ca523469"
+          "sha": "7b0a650",
+          "message": "base: Update sepolicy rules related to MediaTek power stack",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/7b0a650"
         },
         {
-          "sha": "3a597a458",
-          "message": "Launcher3: Add recents and app drawer opacity customization",
-          "author": "Pranav Vashi",
-          "date": "Thu Feb 26 10:20:45 2026 -0500",
-          "timestamp": 1772119245,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/3a597a458"
+          "sha": "fbad05f",
+          "message": "base: vendor: Add hal_service_type for AIDL services",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/fbad05f"
         },
         {
-          "sha": "f33f51dcb",
-          "message": "Launcher3: Optimize AllApps perf and icon allocations",
-          "author": "John Galt",
-          "date": "Wed Feb 25 17:14:30 2026 -0500",
-          "timestamp": 1772057670,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/f33f51dcb"
+          "sha": "58aaf54",
+          "message": "base: vendor: Drop leftovers of legacy media sepolicy",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/58aaf54"
         },
         {
-          "sha": "a114f2ae0",
-          "message": "Bring back old icon shapes",
-          "author": "althafvly",
-          "date": "Wed Feb 25 17:13:54 2026 -0500",
-          "timestamp": 1772057634,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/a114f2ae0"
+          "sha": "a62ee1e",
+          "message": "sepolicy_vndr: Merge basic, bsp and modem sepolicy into base",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/a62ee1e"
         },
         {
-          "sha": "9e4dff708",
-          "message": "AllAppsRecyclerView: preinflate more app icons",
-          "author": "John Galt",
-          "date": "Wed Feb 25 14:33:45 2026 -0500",
-          "timestamp": 1772048025,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/9e4dff708"
+          "sha": "d97c3ec",
+          "message": "sepolicy_vndr: Merge basic debug and bsp debug into debug",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/d97c3ec"
         },
         {
-          "sha": "c46b50554",
-          "message": "BaseAllAppsAdapter: silence bad logspam",
-          "author": "John Galt",
-          "date": "Wed Feb 25 14:29:29 2026 -0500",
-          "timestamp": 1772047769,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/c46b50554"
+          "sha": "b9fbb16",
+          "message": "sepolicy_vndr: Prepare reorganizing SEPolicy structure",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/b9fbb16"
         },
         {
-          "sha": "5a27599e3",
-          "message": "Launcher3: Fixed keyboard disappear on empty search",
-          "author": "MrSluffy",
-          "date": "Wed Feb 25 14:17:19 2026 -0500",
-          "timestamp": 1772047039,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/5a27599e3"
+          "sha": "432d71a",
+          "message": "sepolicy_vndr: Drop legacy sepolicy rules",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/432d71a"
         },
         {
-          "sha": "c60e18456",
-          "message": "Launcher3: Enable icon customizations for drawer",
-          "author": "althafvly",
-          "date": "Wed Feb 25 14:14:43 2026 -0500",
-          "timestamp": 1772046883,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/c60e18456"
+          "sha": "38c56be",
+          "message": "basic: non_plat: Label `libtflite_mtk` deps",
+          "author": "Giovanni Ricca",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/38c56be"
         },
         {
-          "sha": "6b761c8c9",
-          "message": "Launcher3: Make blur depth slider follow the real default",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Feb 24 21:43:55 2026 +0200",
-          "timestamp": 1771962235,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/6b761c8c9"
+          "sha": "a666a73",
+          "message": "basic: non_plat: Allow loading modules from system_dlkm",
+          "author": "rio004",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/a666a73"
         },
         {
-          "sha": "74dab6f8d",
-          "message": "Launcher3: CustomSeekBarPreference: Sync with YASP",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Feb 24 21:30:39 2026 +0200",
-          "timestamp": 1771961439,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/74dab6f8d"
+          "sha": "459e30c",
+          "message": "bsp: non_plat: Label ro.vendor.vt_hevc_support",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/459e30c"
         },
         {
-          "sha": "48d7e43ce",
-          "message": "Fix overview-to-home animation hanging issues",
-          "author": "Dmitrii",
-          "date": "Fri Feb 20 16:28:42 2026 -0500",
-          "timestamp": 1771622922,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/48d7e43ce"
+          "sha": "20dc39c",
+          "message": "basic: non_plat: Label more mali GPU props",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/20dc39c"
         },
         {
-          "sha": "439d5699b",
-          "message": "Launcher3: allow rotation by default",
-          "author": "Dmitrii",
-          "date": "Fri Feb 20 16:28:17 2026 -0500",
-          "timestamp": 1771622897,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/439d5699b"
+          "sha": "aada4ac",
+          "message": "bsp: non_plat: Label aovservice aidl interface",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/aada4ac"
         },
         {
-          "sha": "4706c6d3d",
-          "message": "Launcher3 PERF fix: remove all apps themed icons option",
-          "author": "John Galt",
-          "date": "Fri Feb 6 11:32:35 2026 -0500",
-          "timestamp": 1770395555,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/4706c6d3d"
+          "sha": "91e7d18",
+          "message": "basic: non_plat: Label libaedv.so as same_process_hal_file",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/91e7d18"
         },
         {
-          "sha": "9c23cf4b9",
-          "message": "colors: remove blue tint",
-          "author": "Dmitrii",
-          "date": "Mon Feb 2 16:11:14 2026 -0500",
-          "timestamp": 1770066674,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/9c23cf4b9"
+          "sha": "a2256f4",
+          "message": "basic: non_plat: Allow nvram_daemon to get/set vendor_mtk_service_wifi_nvram_prop",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/a2256f4"
         },
         {
-          "sha": "2117238da",
-          "message": "Reapply \"Launcher3: Add an option to customize blur radius\"",
-          "author": "John Galt",
-          "date": "Mon Feb 2 15:35:17 2026 -0500",
-          "timestamp": 1770064517,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/2117238da"
+          "sha": "4b151e3",
+          "message": "basic: non_plat: Label keymint V2 trustonic service",
+          "author": "Mashopy",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/4b151e3"
         },
         {
-          "sha": "ef49a9a5d",
-          "message": "Launcher3: Prevent LauncherPrefs crash during direct boot",
-          "author": "Pranav Vashi",
-          "date": "Wed Jan 28 14:00:35 2026 +0800",
-          "timestamp": 1769580035,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/ef49a9a5d"
+          "sha": "243f5ed",
+          "message": "bsp: non_plat: Label apusys aidl interface",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/243f5ed"
         },
         {
-          "sha": "f2f57df60",
-          "message": "Launcher3: Add Pixel Search as QSB provider",
-          "author": "Adarsh Singh",
-          "date": "Sun Jan 18 00:23:32 2026 +0800",
-          "timestamp": 1768667012,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/f2f57df60"
+          "sha": "acee492",
+          "message": "basic: non_plat: grant appdomain and hal_graphics_allocator_client access to hal_graphics_allocator_default_tmpfs",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/acee492"
         },
         {
-          "sha": "2628c040b",
-          "message": "Revert \"Launcher3: Add an option to customize blur radius\"",
-          "author": "John Galt",
-          "date": "Sat Jan 17 03:51:05 2026 +0800",
-          "timestamp": 1768593065,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/2628c040b"
+          "sha": "14054ce",
+          "message": "basic: non_plat: make mtk_hal_pq a client of hal_graphics_allocator",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/14054ce"
         },
         {
-          "sha": "7854ba93f",
-          "message": "Launcher3: Do not disable labels for popups",
-          "author": "Pranav Vashi",
-          "date": "Sat Jan 17 03:51:05 2026 +0800",
-          "timestamp": 1768593065,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/7854ba93f"
+          "sha": "3feeb6b",
+          "message": "basic: non_plat: Allow mtk_hal_pq to use binder",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/3feeb6b"
         },
         {
-          "sha": "b23429fdc",
-          "message": "Launcher3: Change number of rows that deskclock widget occupies",
-          "author": "LuK1337",
-          "date": "Sat Jan 17 03:51:05 2026 +0800",
-          "timestamp": 1768593065,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/b23429fdc"
+          "sha": "7dd8903",
+          "message": "basic: non_plat: Allow mtk_pq server to binder call service manager",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:22 2026 +0100",
+          "timestamp": 1771966942,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/7dd8903"
         },
         {
-          "sha": "a781287de",
-          "message": "SettingsActivity: Make it expressive",
-          "author": "Bruno Martins",
-          "date": "Sat Jan 17 03:51:05 2026 +0800",
-          "timestamp": 1768593065,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/a781287de"
+          "sha": "57fe4ed",
+          "message": "basic: non_plat: Allow mtk_pq client and server to access mtk_hal_pq_service",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/57fe4ed"
         },
         {
-          "sha": "0d2df5b0c",
-          "message": "Launcher3: Add resource to allow rotation",
-          "author": "AnierinB",
-          "date": "Sat Jan 17 03:50:57 2026 +0800",
-          "timestamp": 1768593057,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/0d2df5b0c"
+          "sha": "40188bd",
+          "message": "basic: non_plat: Label blobs needed by aidl display",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/40188bd"
         },
         {
-          "sha": "09be7ec7f",
-          "message": "[HACK] Workspace: fix page indicator height on 3button",
-          "author": "John Galt",
-          "date": "Wed Dec 31 09:44:13 2025 -0500",
-          "timestamp": 1767192253,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/09be7ec7f"
+          "sha": "5c01f25",
+          "message": "basic: non_plat: Label aidl pq service",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/5c01f25"
         },
         {
-          "sha": "0b6f23ae4",
-          "message": "Fixup: label toggles",
-          "author": "John Galt",
-          "date": "Wed Dec 31 09:44:07 2025 -0500",
-          "timestamp": 1767192247,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/0b6f23ae4"
+          "sha": "e618f82",
+          "message": "basic: non_plat: Allow gnss to rw aol geofence device",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/e618f82"
         },
         {
-          "sha": "e55db347b",
-          "message": "Launcher3: Add an option to customize blur radius",
-          "author": "minaripenguin",
-          "date": "Wed Dec 31 09:43:55 2025 -0500",
-          "timestamp": 1767192235,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/e55db347b"
+          "sha": "209ec32",
+          "message": "basic: non_plat: Label aol_geofence device",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/209ec32"
         },
         {
-          "sha": "2877c8f8f",
-          "message": "Launcher3: Adapt inverse layout to A16/QPR2",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Dec 25 23:34:29 2025 +0200",
-          "timestamp": 1766698469,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/2877c8f8f"
+          "sha": "e20123f",
+          "message": "bsp: non_plat: Add sepolicy for mmlpq",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/e20123f"
         },
         {
-          "sha": "d93f38450",
-          "message": "Revert \"SystemShortcut: Integrate LMOFreeform to system shortcut\"",
-          "author": "John Galt",
-          "date": "Mon Dec 22 09:10:15 2025 -0500",
-          "timestamp": 1766412615,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/d93f38450"
+          "sha": "0232c2d",
+          "message": "basic: non_plat: Add sepolicy for mmlpq",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/0232c2d"
         },
         {
-          "sha": "8345b4103",
-          "message": "Revert \"Launcher3: Add recents shortcut for floating window\"",
-          "author": "John Galt",
-          "date": "Mon Dec 22 09:08:51 2025 -0500",
-          "timestamp": 1766412531,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8345b4103"
+          "sha": "3890fd2",
+          "message": "basic: non_plat: Allow mtk camera hal to rw aov device",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/3890fd2"
         },
         {
-          "sha": "083370444",
-          "message": "quickstep: Bring back Kill task shortcut",
-          "author": "John Galt",
-          "date": "Thu Dec 18 20:34:22 2025 +0200",
-          "timestamp": 1766082862,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/083370444"
+          "sha": "2dd8db6",
+          "message": "basic: non_plat: Label aov device",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/2dd8db6"
         },
         {
-          "sha": "49684d64c",
-          "message": "Launcher3: drop old themed icons",
-          "author": "John Galt",
-          "date": "Thu Dec 18 20:34:22 2025 +0200",
-          "timestamp": 1766082862,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/49684d64c"
+          "sha": "a35a7fd",
+          "message": "bsp: non_plat: Label 64bit volte rcs binaries",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/a35a7fd"
         },
         {
-          "sha": "3b06f1127",
-          "message": "LauncherIconProvider: minor merge fix",
-          "author": "John Galt",
-          "date": "Thu Dec 18 20:34:22 2025 +0200",
-          "timestamp": 1766082862,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/3b06f1127"
+          "sha": "cde9abb",
+          "message": "bsp: non_plat: Label aidl drm widevine service",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/cde9abb"
         },
         {
-          "sha": "96e6bbb2b",
-          "message": "Launcher3: switch to MIRROR blur",
-          "author": "Dmitrii",
-          "date": "Thu Dec 18 20:34:22 2025 +0200",
-          "timestamp": 1766082862,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/96e6bbb2b"
+          "sha": "69f6239",
+          "message": "basic: non_plat: Label drm widevine aidl service",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/69f6239"
         },
         {
-          "sha": "8a19eb94a",
-          "message": "config: bump enhanced blur radius",
-          "author": "John Galt",
-          "date": "Thu Dec 18 20:34:22 2025 +0200",
-          "timestamp": 1766082862,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8a19eb94a"
+          "sha": "94bc4d9",
+          "message": "basic: non_plat: Label preloader block devices",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/94bc4d9"
         },
         {
-          "sha": "7c1671790",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Dec 18 20:34:18 2025 +0200",
-          "timestamp": 1766082858,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/7c1671790"
+          "sha": "eab67e5",
+          "message": "basic: non_plat: Relabel init_boot as boot_block_device",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/eab67e5"
         },
         {
-          "sha": "5be45c519",
-          "message": "[HACK:] fix all apps blur",
-          "author": "John Galt",
-          "date": "Tue Dec 9 07:53:37 2025 -0500",
-          "timestamp": 1765284817,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/5be45c519"
+          "sha": "3c01aeb",
+          "message": "basic: non_plat: Label init_boot block device",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/3c01aeb"
         },
         {
-          "sha": "8e897bbfb",
-          "message": "Revert \"Launcher3: disable live tile\"",
-          "author": "John Galt",
-          "date": "Mon Dec 8 17:06:26 2025 -0500",
-          "timestamp": 1765231586,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8e897bbfb"
+          "sha": "5e5de85",
+          "message": "basic: non_plat: Allow update engine to access connsys block devices",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/5e5de85"
         },
         {
-          "sha": "421a40b02",
-          "message": "Launcher3: Adapt Lens & Clear all actions for 16 QPR1",
-          "author": "Cyber Knight",
-          "date": "Mon Dec 8 17:06:20 2025 -0500",
-          "timestamp": 1765231580,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/421a40b02"
+          "sha": "acef74b",
+          "message": "basic: non_plat: Label new connsys block devices",
+          "author": "AdarshGrewal",
+          "date": "Tue Feb 24 22:02:21 2026 +0100",
+          "timestamp": 1771966941,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/acef74b"
+        },
+        {
+          "sha": "31ba15b",
+          "message": "basic: non_plat: Drop duplicate proc_dirty label",
+          "author": "Sarthak Roy",
+          "date": "Thu Jan 29 13:34:51 2026 +0000",
+          "timestamp": 1769693691,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/31ba15b"
+        },
+        {
+          "sha": "cd85181",
+          "message": "basic: non_plat: Drop system_server neverallow",
+          "author": "Sarthak Roy",
+          "date": "Sat Jan 10 10:20:49 2026 +0000",
+          "timestamp": 1768040449,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/cd85181"
+        },
+        {
+          "sha": "43b2a1b",
+          "message": "basic: non_plat: Label OSS bluetooth AIDL service",
+          "author": "Mashopy",
+          "date": "Sat Jan 10 10:20:30 2026 +0000",
+          "timestamp": 1768040430,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/43b2a1b"
+        },
+        {
+          "sha": "87f0178",
+          "message": "basic: non_plat: Label powercap sysfs",
+          "author": "ChrisCatto",
+          "date": "Sat Jan 10 10:20:30 2026 +0000",
+          "timestamp": 1768040430,
+          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/87f0178"
         }
       ]
     },
@@ -1900,11 +1932,300 @@
       ]
     },
     {
+      "name": "packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "remote": "yaap",
+      "commit_count": 35,
+      "commits": [
+        {
+          "sha": "e57ee3ba7",
+          "message": "quickstep: fix 3a597a458082 for 3rd party launchers",
+          "author": "John Galt",
+          "date": "Thu Feb 26 10:59:07 2026 -0500",
+          "timestamp": 1772121547,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/e57ee3ba7"
+        },
+        {
+          "sha": "5ca523469",
+          "message": "Launcher3: RecentsView: Clear DepthController base surface on every exit",
+          "author": "Pranav Vashi",
+          "date": "Thu Feb 26 10:20:50 2026 -0500",
+          "timestamp": 1772119250,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/5ca523469"
+        },
+        {
+          "sha": "3a597a458",
+          "message": "Launcher3: Add recents and app drawer opacity customization",
+          "author": "Pranav Vashi",
+          "date": "Thu Feb 26 10:20:45 2026 -0500",
+          "timestamp": 1772119245,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/3a597a458"
+        },
+        {
+          "sha": "f33f51dcb",
+          "message": "Launcher3: Optimize AllApps perf and icon allocations",
+          "author": "John Galt",
+          "date": "Wed Feb 25 17:14:30 2026 -0500",
+          "timestamp": 1772057670,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/f33f51dcb"
+        },
+        {
+          "sha": "a114f2ae0",
+          "message": "Bring back old icon shapes",
+          "author": "althafvly",
+          "date": "Wed Feb 25 17:13:54 2026 -0500",
+          "timestamp": 1772057634,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/a114f2ae0"
+        },
+        {
+          "sha": "9e4dff708",
+          "message": "AllAppsRecyclerView: preinflate more app icons",
+          "author": "John Galt",
+          "date": "Wed Feb 25 14:33:45 2026 -0500",
+          "timestamp": 1772048025,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/9e4dff708"
+        },
+        {
+          "sha": "c46b50554",
+          "message": "BaseAllAppsAdapter: silence bad logspam",
+          "author": "John Galt",
+          "date": "Wed Feb 25 14:29:29 2026 -0500",
+          "timestamp": 1772047769,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/c46b50554"
+        },
+        {
+          "sha": "5a27599e3",
+          "message": "Launcher3: Fixed keyboard disappear on empty search",
+          "author": "MrSluffy",
+          "date": "Wed Feb 25 14:17:19 2026 -0500",
+          "timestamp": 1772047039,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/5a27599e3"
+        },
+        {
+          "sha": "c60e18456",
+          "message": "Launcher3: Enable icon customizations for drawer",
+          "author": "althafvly",
+          "date": "Wed Feb 25 14:14:43 2026 -0500",
+          "timestamp": 1772046883,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/c60e18456"
+        },
+        {
+          "sha": "6b761c8c9",
+          "message": "Launcher3: Make blur depth slider follow the real default",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Feb 24 21:43:55 2026 +0200",
+          "timestamp": 1771962235,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/6b761c8c9"
+        },
+        {
+          "sha": "74dab6f8d",
+          "message": "Launcher3: CustomSeekBarPreference: Sync with YASP",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Feb 24 21:30:39 2026 +0200",
+          "timestamp": 1771961439,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/74dab6f8d"
+        },
+        {
+          "sha": "48d7e43ce",
+          "message": "Fix overview-to-home animation hanging issues",
+          "author": "Dmitrii",
+          "date": "Fri Feb 20 16:28:42 2026 -0500",
+          "timestamp": 1771622922,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/48d7e43ce"
+        },
+        {
+          "sha": "439d5699b",
+          "message": "Launcher3: allow rotation by default",
+          "author": "Dmitrii",
+          "date": "Fri Feb 20 16:28:17 2026 -0500",
+          "timestamp": 1771622897,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/439d5699b"
+        },
+        {
+          "sha": "4706c6d3d",
+          "message": "Launcher3 PERF fix: remove all apps themed icons option",
+          "author": "John Galt",
+          "date": "Fri Feb 6 11:32:35 2026 -0500",
+          "timestamp": 1770395555,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/4706c6d3d"
+        },
+        {
+          "sha": "9c23cf4b9",
+          "message": "colors: remove blue tint",
+          "author": "Dmitrii",
+          "date": "Mon Feb 2 16:11:14 2026 -0500",
+          "timestamp": 1770066674,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/9c23cf4b9"
+        },
+        {
+          "sha": "2117238da",
+          "message": "Reapply \"Launcher3: Add an option to customize blur radius\"",
+          "author": "John Galt",
+          "date": "Mon Feb 2 15:35:17 2026 -0500",
+          "timestamp": 1770064517,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/2117238da"
+        },
+        {
+          "sha": "ef49a9a5d",
+          "message": "Launcher3: Prevent LauncherPrefs crash during direct boot",
+          "author": "Pranav Vashi",
+          "date": "Wed Jan 28 14:00:35 2026 +0800",
+          "timestamp": 1769580035,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/ef49a9a5d"
+        },
+        {
+          "sha": "f2f57df60",
+          "message": "Launcher3: Add Pixel Search as QSB provider",
+          "author": "Adarsh Singh",
+          "date": "Sun Jan 18 00:23:32 2026 +0800",
+          "timestamp": 1768667012,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/f2f57df60"
+        },
+        {
+          "sha": "2628c040b",
+          "message": "Revert \"Launcher3: Add an option to customize blur radius\"",
+          "author": "John Galt",
+          "date": "Sat Jan 17 03:51:05 2026 +0800",
+          "timestamp": 1768593065,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/2628c040b"
+        },
+        {
+          "sha": "7854ba93f",
+          "message": "Launcher3: Do not disable labels for popups",
+          "author": "Pranav Vashi",
+          "date": "Sat Jan 17 03:51:05 2026 +0800",
+          "timestamp": 1768593065,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/7854ba93f"
+        },
+        {
+          "sha": "b23429fdc",
+          "message": "Launcher3: Change number of rows that deskclock widget occupies",
+          "author": "LuK1337",
+          "date": "Sat Jan 17 03:51:05 2026 +0800",
+          "timestamp": 1768593065,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/b23429fdc"
+        },
+        {
+          "sha": "a781287de",
+          "message": "SettingsActivity: Make it expressive",
+          "author": "Bruno Martins",
+          "date": "Sat Jan 17 03:51:05 2026 +0800",
+          "timestamp": 1768593065,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/a781287de"
+        },
+        {
+          "sha": "0d2df5b0c",
+          "message": "Launcher3: Add resource to allow rotation",
+          "author": "AnierinB",
+          "date": "Sat Jan 17 03:50:57 2026 +0800",
+          "timestamp": 1768593057,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/0d2df5b0c"
+        },
+        {
+          "sha": "09be7ec7f",
+          "message": "[HACK] Workspace: fix page indicator height on 3button",
+          "author": "John Galt",
+          "date": "Wed Dec 31 09:44:13 2025 -0500",
+          "timestamp": 1767192253,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/09be7ec7f"
+        },
+        {
+          "sha": "0b6f23ae4",
+          "message": "Fixup: label toggles",
+          "author": "John Galt",
+          "date": "Wed Dec 31 09:44:07 2025 -0500",
+          "timestamp": 1767192247,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/0b6f23ae4"
+        },
+        {
+          "sha": "e55db347b",
+          "message": "Launcher3: Add an option to customize blur radius",
+          "author": "minaripenguin",
+          "date": "Wed Dec 31 09:43:55 2025 -0500",
+          "timestamp": 1767192235,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/e55db347b"
+        },
+        {
+          "sha": "2877c8f8f",
+          "message": "Launcher3: Adapt inverse layout to A16/QPR2",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 25 23:34:29 2025 +0200",
+          "timestamp": 1766698469,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/2877c8f8f"
+        },
+        {
+          "sha": "d93f38450",
+          "message": "Revert \"SystemShortcut: Integrate LMOFreeform to system shortcut\"",
+          "author": "John Galt",
+          "date": "Mon Dec 22 09:10:15 2025 -0500",
+          "timestamp": 1766412615,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/d93f38450"
+        },
+        {
+          "sha": "8345b4103",
+          "message": "Revert \"Launcher3: Add recents shortcut for floating window\"",
+          "author": "John Galt",
+          "date": "Mon Dec 22 09:08:51 2025 -0500",
+          "timestamp": 1766412531,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8345b4103"
+        },
+        {
+          "sha": "083370444",
+          "message": "quickstep: Bring back Kill task shortcut",
+          "author": "John Galt",
+          "date": "Thu Dec 18 20:34:22 2025 +0200",
+          "timestamp": 1766082862,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/083370444"
+        },
+        {
+          "sha": "49684d64c",
+          "message": "Launcher3: drop old themed icons",
+          "author": "John Galt",
+          "date": "Thu Dec 18 20:34:22 2025 +0200",
+          "timestamp": 1766082862,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/49684d64c"
+        },
+        {
+          "sha": "3b06f1127",
+          "message": "LauncherIconProvider: minor merge fix",
+          "author": "John Galt",
+          "date": "Thu Dec 18 20:34:22 2025 +0200",
+          "timestamp": 1766082862,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/3b06f1127"
+        },
+        {
+          "sha": "96e6bbb2b",
+          "message": "Launcher3: switch to MIRROR blur",
+          "author": "Dmitrii",
+          "date": "Thu Dec 18 20:34:22 2025 +0200",
+          "timestamp": 1766082862,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/96e6bbb2b"
+        },
+        {
+          "sha": "8a19eb94a",
+          "message": "config: bump enhanced blur radius",
+          "author": "John Galt",
+          "date": "Thu Dec 18 20:34:22 2025 +0200",
+          "timestamp": 1766082862,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8a19eb94a"
+        },
+        {
+          "sha": "7c1671790",
+          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Dec 18 20:34:18 2025 +0200",
+          "timestamp": 1766082858,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/7c1671790"
+        }
+      ]
+    },
+    {
       "name": "vendor_yaap",
       "path": "vendor/yaap",
       "repo_url": "https://github.com/yaap/vendor_yaap",
       "remote": "yaap",
-      "commit_count": 32,
+      "commit_count": 29,
       "commits": [
         {
           "sha": "2aa4d1f",
@@ -2137,30 +2458,6 @@
           "date": "Wed Dec 10 16:18:27 2025 +0200",
           "timestamp": 1765376307,
           "url": "https://github.com/yaap/vendor_yaap/commit/0d2fb57"
-        },
-        {
-          "sha": "707c138",
-          "message": "SystemUIOverlay: Remove flex clock for now",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 19:34:28 2025 +0200",
-          "timestamp": 1765301668,
-          "url": "https://github.com/yaap/vendor_yaap/commit/707c138"
-        },
-        {
-          "sha": "30e18cd",
-          "message": "config: Move all properties to product",
-          "author": "Michael Bestas",
-          "date": "Tue Dec 9 19:34:28 2025 +0200",
-          "timestamp": 1765301668,
-          "url": "https://github.com/yaap/vendor_yaap/commit/30e18cd"
-        },
-        {
-          "sha": "b308c93",
-          "message": "soong: generator: Add blueprint-proptools to deps",
-          "author": "Thomas Turner",
-          "date": "Tue Dec 9 19:34:28 2025 +0200",
-          "timestamp": 1765301668,
-          "url": "https://github.com/yaap/vendor_yaap/commit/b308c93"
         }
       ]
     },
@@ -2306,7 +2603,7 @@
       "path": "manifest",
       "repo_url": "https://github.com/yaap/manifest",
       "remote": "yaap",
-      "commit_count": 16,
+      "commit_count": 15,
       "commits": [
         {
           "sha": "7fc2bd4",
@@ -2427,143 +2724,6 @@
           "date": "Fri Dec 12 18:59:29 2025 +0200",
           "timestamp": 1765558769,
           "url": "https://github.com/yaap/manifest/commit/d74398e"
-        },
-        {
-          "sha": "8b581d9",
-          "message": "Merge tag 'android-16.0.0_r4' of https://android.googlesource.com/platform/manifest into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 16:07:40 2025 +0200",
-          "timestamp": 1765116460,
-          "url": "https://github.com/yaap/manifest/commit/8b581d9"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Connectivity",
-      "path": "packages/modules/Connectivity",
-      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
-      "remote": "yaap",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "b874fcb",
-          "message": "Bring back traffic indicators for legacy devices",
-          "author": "koron393",
-          "date": "Fri Feb 20 13:45:36 2026 -0500",
-          "timestamp": 1771613136,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/b874fcb"
-        },
-        {
-          "sha": "903964d",
-          "message": "Fix: Prevent NullPointerException in BpfNetMaps during UID removal",
-          "author": "Doze-off",
-          "date": "Fri Feb 20 13:45:02 2026 -0500",
-          "timestamp": 1771613102,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/903964d"
-        },
-        {
-          "sha": "c566c90",
-          "message": "Some additional handling of bpf-less device",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Feb 20 13:45:02 2026 -0500",
-          "timestamp": 1771613102,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/c566c90"
-        },
-        {
-          "sha": "ef84c68",
-          "message": "Additional bpf prevent-crash",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Feb 20 13:45:02 2026 -0500",
-          "timestamp": 1771613102,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ef84c68"
-        },
-        {
-          "sha": "1b623bf",
-          "message": "Revert \"netdupdatable: add back abort() on init() fail\"",
-          "author": "Alberto Ponces",
-          "date": "Fri Feb 20 13:45:01 2026 -0500",
-          "timestamp": 1771613101,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/1b623bf"
-        },
-        {
-          "sha": "8d3d775",
-          "message": "Revert \"drop support for V gsi on pixel 5 R base kernel\"",
-          "author": "Peter Cai",
-          "date": "Fri Feb 20 13:45:01 2026 -0500",
-          "timestamp": 1771613101,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/8d3d775"
-        },
-        {
-          "sha": "153a68f",
-          "message": "Allow failing to load bpf programs, for BPF-less devices",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Feb 20 13:45:01 2026 -0500",
-          "timestamp": 1771613101,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/153a68f"
-        },
-        {
-          "sha": "d679dd6",
-          "message": "NetBpfLoad: Relax 5.10 kernel requirement",
-          "author": "Michael Bestas",
-          "date": "Mon Jan 26 03:26:26 2026 +0800",
-          "timestamp": 1769369186,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/d679dd6"
-        },
-        {
-          "sha": "f816355",
-          "message": "bpf: Allow overriding kernel version",
-          "author": "Michael Bestas",
-          "date": "Mon Jan 26 03:25:40 2026 +0800",
-          "timestamp": 1769369140,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/f816355"
-        },
-        {
-          "sha": "fd74b66",
-          "message": "[DNM] BpfNetMaps: hax for legacy",
-          "author": "Yumi Yukimura",
-          "date": "Tue Dec 9 18:50:47 2025 +0200",
-          "timestamp": 1765299047,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/fd74b66"
-        },
-        {
-          "sha": "829c9e6",
-          "message": "netbpfload: Relax kernel version requirement",
-          "author": "Nanhumly",
-          "date": "Tue Dec 9 18:50:44 2025 +0200",
-          "timestamp": 1765299044,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/829c9e6"
-        },
-        {
-          "sha": "c741628",
-          "message": "netd: Remove <4.14 kernel restrictions",
-          "author": "Michael Bestas",
-          "date": "Tue Dec 9 18:49:21 2025 +0200",
-          "timestamp": 1765298961,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/c741628"
-        },
-        {
-          "sha": "eef42ed",
-          "message": "netbpfload: Support <4.14 kernels",
-          "author": "Michael Bestas",
-          "date": "Tue Dec 9 18:48:53 2025 +0200",
-          "timestamp": 1765298933,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/eef42ed"
-        },
-        {
-          "sha": "785512d",
-          "message": "Connectivity: Add capability to allow tethering to use VPN upstreams",
-          "author": "Oliver Scott",
-          "date": "Tue Dec 9 18:46:49 2025 +0200",
-          "timestamp": 1765298809,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/785512d"
-        },
-        {
-          "sha": "1e909ff",
-          "message": "stripped import @ f930245ec39a510f37a9a7dfaded96d287491a61",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:46:41 2025 +0200",
-          "timestamp": 1765298801,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/1e909ff"
         }
       ]
     },
@@ -2572,7 +2732,7 @@
       "path": "system/core",
       "repo_url": "https://github.com/yaap/system_core",
       "remote": "yaap",
-      "commit_count": 12,
+      "commit_count": 11,
       "commits": [
         {
           "sha": "2cf13ed2",
@@ -2661,103 +2821,6 @@
           "date": "Tue Dec 30 10:47:56 2025 -0500",
           "timestamp": 1767109676,
           "url": "https://github.com/yaap/system_core/commit/f3dd3f16"
-        },
-        {
-          "sha": "2081fb7d",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:58:27 2025 +0200",
-          "timestamp": 1765299507,
-          "url": "https://github.com/yaap/system_core/commit/2081fb7d"
-        }
-      ]
-    },
-    {
-      "name": "bootable_recovery",
-      "path": "bootable/recovery",
-      "repo_url": "https://github.com/yaap/bootable_recovery",
-      "remote": "yaap",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "5239a5b",
-          "message": "minui: Add SPR support for drm",
-          "author": "Qing Huang",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/5239a5b"
-        },
-        {
-          "sha": "604fb34",
-          "message": "minui: drm: Add support for DRM_FORMAT_XRGB8888",
-          "author": "Yumi Yukimura",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/604fb34"
-        },
-        {
-          "sha": "7f6d26f",
-          "message": "Program required properties for 4 layer mixer",
-          "author": "Prashant Beniwal",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/7f6d26f"
-        },
-        {
-          "sha": "4c8bd23",
-          "message": "Add support for 4 layer mixer staging logic",
-          "author": "Amine Najahi",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/4c8bd23"
-        },
-        {
-          "sha": "f8904a7",
-          "message": "minui: Set client cap properties for planes before accessing them",
-          "author": "Anjaneya Prasad Musunuri",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/f8904a7"
-        },
-        {
-          "sha": "3920d0c",
-          "message": "minui: Add support for low resolution display topologies",
-          "author": "Uday Kiran Pichika",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/3920d0c"
-        },
-        {
-          "sha": "0e1b62b",
-          "message": "minui: Handle NULL return conditions and potential beyond bound access",
-          "author": "David Ng",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/0e1b62b"
-        },
-        {
-          "sha": "5ba02c8",
-          "message": "minui: implement atomic commit for recovery charger",
-          "author": "Samantha Tran",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/5ba02c8"
-        },
-        {
-          "sha": "0cccbf3",
-          "message": "minui: Snapshot graphics_drm -> graphics_drm_qti",
-          "author": "LuK1337",
-          "date": "Sat Dec 20 22:40:42 2025 +0800",
-          "timestamp": 1766241642,
-          "url": "https://github.com/yaap/bootable_recovery/commit/0cccbf3"
-        },
-        {
-          "sha": "024a9f2",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 16:52:21 2025 +0200",
-          "timestamp": 1765119141,
-          "url": "https://github.com/yaap/bootable_recovery/commit/024a9f2"
         }
       ]
     },
@@ -2851,11 +2914,173 @@
       ]
     },
     {
+      "name": "bootable_recovery",
+      "path": "bootable/recovery",
+      "repo_url": "https://github.com/yaap/bootable_recovery",
+      "remote": "yaap",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "5239a5b",
+          "message": "minui: Add SPR support for drm",
+          "author": "Qing Huang",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/5239a5b"
+        },
+        {
+          "sha": "604fb34",
+          "message": "minui: drm: Add support for DRM_FORMAT_XRGB8888",
+          "author": "Yumi Yukimura",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/604fb34"
+        },
+        {
+          "sha": "7f6d26f",
+          "message": "Program required properties for 4 layer mixer",
+          "author": "Prashant Beniwal",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/7f6d26f"
+        },
+        {
+          "sha": "4c8bd23",
+          "message": "Add support for 4 layer mixer staging logic",
+          "author": "Amine Najahi",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/4c8bd23"
+        },
+        {
+          "sha": "f8904a7",
+          "message": "minui: Set client cap properties for planes before accessing them",
+          "author": "Anjaneya Prasad Musunuri",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/f8904a7"
+        },
+        {
+          "sha": "3920d0c",
+          "message": "minui: Add support for low resolution display topologies",
+          "author": "Uday Kiran Pichika",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/3920d0c"
+        },
+        {
+          "sha": "0e1b62b",
+          "message": "minui: Handle NULL return conditions and potential beyond bound access",
+          "author": "David Ng",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/0e1b62b"
+        },
+        {
+          "sha": "5ba02c8",
+          "message": "minui: implement atomic commit for recovery charger",
+          "author": "Samantha Tran",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/5ba02c8"
+        },
+        {
+          "sha": "0cccbf3",
+          "message": "minui: Snapshot graphics_drm -> graphics_drm_qti",
+          "author": "LuK1337",
+          "date": "Sat Dec 20 22:40:42 2025 +0800",
+          "timestamp": 1766241642,
+          "url": "https://github.com/yaap/bootable_recovery/commit/0cccbf3"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Connectivity",
+      "path": "packages/modules/Connectivity",
+      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
+      "remote": "yaap",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "b874fcb",
+          "message": "Bring back traffic indicators for legacy devices",
+          "author": "koron393",
+          "date": "Fri Feb 20 13:45:36 2026 -0500",
+          "timestamp": 1771613136,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/b874fcb"
+        },
+        {
+          "sha": "903964d",
+          "message": "Fix: Prevent NullPointerException in BpfNetMaps during UID removal",
+          "author": "Doze-off",
+          "date": "Fri Feb 20 13:45:02 2026 -0500",
+          "timestamp": 1771613102,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/903964d"
+        },
+        {
+          "sha": "c566c90",
+          "message": "Some additional handling of bpf-less device",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Feb 20 13:45:02 2026 -0500",
+          "timestamp": 1771613102,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/c566c90"
+        },
+        {
+          "sha": "ef84c68",
+          "message": "Additional bpf prevent-crash",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Feb 20 13:45:02 2026 -0500",
+          "timestamp": 1771613102,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ef84c68"
+        },
+        {
+          "sha": "1b623bf",
+          "message": "Revert \"netdupdatable: add back abort() on init() fail\"",
+          "author": "Alberto Ponces",
+          "date": "Fri Feb 20 13:45:01 2026 -0500",
+          "timestamp": 1771613101,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/1b623bf"
+        },
+        {
+          "sha": "8d3d775",
+          "message": "Revert \"drop support for V gsi on pixel 5 R base kernel\"",
+          "author": "Peter Cai",
+          "date": "Fri Feb 20 13:45:01 2026 -0500",
+          "timestamp": 1771613101,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/8d3d775"
+        },
+        {
+          "sha": "153a68f",
+          "message": "Allow failing to load bpf programs, for BPF-less devices",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Feb 20 13:45:01 2026 -0500",
+          "timestamp": 1771613101,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/153a68f"
+        },
+        {
+          "sha": "d679dd6",
+          "message": "NetBpfLoad: Relax 5.10 kernel requirement",
+          "author": "Michael Bestas",
+          "date": "Mon Jan 26 03:26:26 2026 +0800",
+          "timestamp": 1769369186,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/d679dd6"
+        },
+        {
+          "sha": "f816355",
+          "message": "bpf: Allow overriding kernel version",
+          "author": "Michael Bestas",
+          "date": "Mon Jan 26 03:25:40 2026 +0800",
+          "timestamp": 1769369140,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/f816355"
+        }
+      ]
+    },
+    {
       "name": "frameworks_libs_systemui",
       "path": "frameworks/libs/systemui",
       "repo_url": "https://github.com/yaap/frameworks_libs_systemui",
       "remote": "yaap",
-      "commit_count": 8,
+      "commit_count": 7,
       "commits": [
         {
           "sha": "e5b85ec",
@@ -2912,152 +3137,6 @@
           "date": "Fri Dec 12 20:35:08 2025 +0200",
           "timestamp": 1765564508,
           "url": "https://github.com/yaap/frameworks_libs_systemui/commit/b6cf1bb"
-        },
-        {
-          "sha": "5af43db",
-          "message": "monet: Adapt luminanace and chroma factors to A16/QPR1 [2/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 12:31:47 2025 +0200",
-          "timestamp": 1765103507,
-          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/5af43db"
-        }
-      ]
-    },
-    {
-      "name": "hardware_lineage_compat",
-      "path": "hardware/lineage/compat",
-      "repo_url": "https://github.com/yaap/hardware_lineage_compat",
-      "remote": "yaap",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "46debb7",
-          "message": "libbase: Shim old WriteStringToFd function prototype",
-          "author": "Frost",
-          "date": "Fri Jan 9 00:06:09 2026 +0800",
-          "timestamp": 1767888369,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/46debb7"
-        },
-        {
-          "sha": "a804688",
-          "message": "compat: Update v33 vndk libs",
-          "author": "LuK1337",
-          "date": "Thu Jan 8 23:06:33 2026 +0800",
-          "timestamp": 1767884793,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/a804688"
-        },
-        {
-          "sha": "8ac90cb",
-          "message": "compat: Provide libtinyxml2-v34",
-          "author": "LuK1337",
-          "date": "Thu Jan 8 23:06:30 2026 +0800",
-          "timestamp": 1767884790,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/8ac90cb"
-        },
-        {
-          "sha": "d434145",
-          "message": "libbase: Shim old Basename/Dirname function prototype",
-          "author": "Sarthak Roy",
-          "date": "Mon Dec 15 23:27:27 2025 +0800",
-          "timestamp": 1765812447,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/d434145"
-        },
-        {
-          "sha": "294cd63",
-          "message": "compat: Provide libaudioutils shim",
-          "author": "Bruno Martins",
-          "date": "Sun Dec 14 09:09:44 2025 +0200",
-          "timestamp": 1765696184,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/294cd63"
-        },
-        {
-          "sha": "4aa17cc",
-          "message": "compat: Provide libprotobuf-cpp-{lite,full}-21.7",
-          "author": "Michael Bestas",
-          "date": "Sun Dec 14 09:08:35 2025 +0200",
-          "timestamp": 1765696115,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/4aa17cc"
-        },
-        {
-          "sha": "69ee366",
-          "message": "libui-v34: Depend on android.hardware.graphics.common-V7",
-          "author": "Michael Bestas",
-          "date": "Mon Dec 8 14:19:43 2025 +0800",
-          "timestamp": 1765174783,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/69ee366"
-        },
-        {
-          "sha": "594f7fb",
-          "message": "compat: Provide libui-v34",
-          "author": "Frost",
-          "date": "Mon Dec 8 14:19:43 2025 +0800",
-          "timestamp": 1765174783,
-          "url": "https://github.com/yaap/hardware_lineage_compat/commit/594f7fb"
-        }
-      ]
-    },
-    {
-      "name": "build_make",
-      "path": "build/make",
-      "repo_url": "https://github.com/yaap/build_make",
-      "remote": "yaap",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "81115b48",
-          "message": "Reland: build: Enable super image build rules depending on single super block device",
-          "author": "Yumi Yukimura",
-          "date": "Sun Feb 22 22:38:12 2026 +0800",
-          "timestamp": 1771771092,
-          "url": "https://github.com/yaap/build_make/commit/81115b48"
-        },
-        {
-          "sha": "fc81517f",
-          "message": "Revert \"Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS.\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:37:50 2026 +0800",
-          "timestamp": 1771771070,
-          "url": "https://github.com/yaap/build_make/commit/fc81517f"
-        },
-        {
-          "sha": "fec91dbf",
-          "message": "Revert \"Remove Virtual A/B Retrofit support.\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:37:36 2026 +0800",
-          "timestamp": 1771771056,
-          "url": "https://github.com/yaap/build_make/commit/fec91dbf"
-        },
-        {
-          "sha": "22c72b62",
-          "message": "Revert \"Remove retrofit dynamic partition support from otatools.\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:37:36 2026 +0800",
-          "timestamp": 1771771056,
-          "url": "https://github.com/yaap/build_make/commit/22c72b62"
-        },
-        {
-          "sha": "4dc57edb",
-          "message": "Revert \"remove is_retrofit_dynamic_partitions option\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:37:36 2026 +0800",
-          "timestamp": 1771771056,
-          "url": "https://github.com/yaap/build_make/commit/4dc57edb"
-        },
-        {
-          "sha": "e347c62a",
-          "message": "Revert \"build: Enable super image build rules depending on single super block device\"",
-          "author": "Michael Bestas",
-          "date": "Sun Feb 22 22:37:36 2026 +0800",
-          "timestamp": 1771771056,
-          "url": "https://github.com/yaap/build_make/commit/e347c62a"
-        },
-        {
-          "sha": "64c555be",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:05:02 2025 +0200",
-          "timestamp": 1765119902,
-          "url": "https://github.com/yaap/build_make/commit/64c555be"
         }
       ]
     },
@@ -3192,11 +3271,125 @@
       ]
     },
     {
+      "name": "build_make",
+      "path": "build/make",
+      "repo_url": "https://github.com/yaap/build_make",
+      "remote": "yaap",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "81115b48",
+          "message": "Reland: build: Enable super image build rules depending on single super block device",
+          "author": "Yumi Yukimura",
+          "date": "Sun Feb 22 22:38:12 2026 +0800",
+          "timestamp": 1771771092,
+          "url": "https://github.com/yaap/build_make/commit/81115b48"
+        },
+        {
+          "sha": "fc81517f",
+          "message": "Revert \"Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS.\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:37:50 2026 +0800",
+          "timestamp": 1771771070,
+          "url": "https://github.com/yaap/build_make/commit/fc81517f"
+        },
+        {
+          "sha": "fec91dbf",
+          "message": "Revert \"Remove Virtual A/B Retrofit support.\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:37:36 2026 +0800",
+          "timestamp": 1771771056,
+          "url": "https://github.com/yaap/build_make/commit/fec91dbf"
+        },
+        {
+          "sha": "22c72b62",
+          "message": "Revert \"Remove retrofit dynamic partition support from otatools.\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:37:36 2026 +0800",
+          "timestamp": 1771771056,
+          "url": "https://github.com/yaap/build_make/commit/22c72b62"
+        },
+        {
+          "sha": "4dc57edb",
+          "message": "Revert \"remove is_retrofit_dynamic_partitions option\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:37:36 2026 +0800",
+          "timestamp": 1771771056,
+          "url": "https://github.com/yaap/build_make/commit/4dc57edb"
+        },
+        {
+          "sha": "e347c62a",
+          "message": "Revert \"build: Enable super image build rules depending on single super block device\"",
+          "author": "Michael Bestas",
+          "date": "Sun Feb 22 22:37:36 2026 +0800",
+          "timestamp": 1771771056,
+          "url": "https://github.com/yaap/build_make/commit/e347c62a"
+        }
+      ]
+    },
+    {
+      "name": "hardware_lineage_compat",
+      "path": "hardware/lineage/compat",
+      "repo_url": "https://github.com/yaap/hardware_lineage_compat",
+      "remote": "yaap",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "46debb7",
+          "message": "libbase: Shim old WriteStringToFd function prototype",
+          "author": "Frost",
+          "date": "Fri Jan 9 00:06:09 2026 +0800",
+          "timestamp": 1767888369,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/46debb7"
+        },
+        {
+          "sha": "a804688",
+          "message": "compat: Update v33 vndk libs",
+          "author": "LuK1337",
+          "date": "Thu Jan 8 23:06:33 2026 +0800",
+          "timestamp": 1767884793,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/a804688"
+        },
+        {
+          "sha": "8ac90cb",
+          "message": "compat: Provide libtinyxml2-v34",
+          "author": "LuK1337",
+          "date": "Thu Jan 8 23:06:30 2026 +0800",
+          "timestamp": 1767884790,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/8ac90cb"
+        },
+        {
+          "sha": "d434145",
+          "message": "libbase: Shim old Basename/Dirname function prototype",
+          "author": "Sarthak Roy",
+          "date": "Mon Dec 15 23:27:27 2025 +0800",
+          "timestamp": 1765812447,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/d434145"
+        },
+        {
+          "sha": "294cd63",
+          "message": "compat: Provide libaudioutils shim",
+          "author": "Bruno Martins",
+          "date": "Sun Dec 14 09:09:44 2025 +0200",
+          "timestamp": 1765696184,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/294cd63"
+        },
+        {
+          "sha": "4aa17cc",
+          "message": "compat: Provide libprotobuf-cpp-{lite,full}-21.7",
+          "author": "Michael Bestas",
+          "date": "Sun Dec 14 09:08:35 2025 +0200",
+          "timestamp": 1765696115,
+          "url": "https://github.com/yaap/hardware_lineage_compat/commit/4aa17cc"
+        }
+      ]
+    },
+    {
       "name": "hardware_google_pixel-sepolicy",
       "path": "hardware/google/pixel-sepolicy",
       "repo_url": "https://github.com/yaap/hardware_google_pixel-sepolicy",
       "remote": "yaap",
-      "commit_count": 6,
+      "commit_count": 5,
       "commits": [
         {
           "sha": "a67cb2e",
@@ -3237,71 +3430,6 @@
           "date": "Tue Jan 6 01:25:02 2026 +0800",
           "timestamp": 1767633902,
           "url": "https://github.com/yaap/hardware_google_pixel-sepolicy/commit/5ce3210"
-        },
-        {
-          "sha": "7f10bf9",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:26:43 2025 +0200",
-          "timestamp": 1765290403,
-          "url": "https://github.com/yaap/hardware_google_pixel-sepolicy/commit/7f10bf9"
-        }
-      ]
-    },
-    {
-      "name": "system_sepolicy",
-      "path": "system/sepolicy",
-      "repo_url": "https://github.com/yaap/system_sepolicy",
-      "remote": "yaap",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "d48ff481",
-          "message": "private/domain: add new attr for relaxing a dir init neverallow",
-          "author": "John Galt",
-          "date": "Tue Dec 16 10:22:03 2025 -0500",
-          "timestamp": 1765898523,
-          "url": "https://github.com/yaap/system_sepolicy/commit/d48ff481"
-        },
-        {
-          "sha": "db9e3363",
-          "message": "Revert \"Remove Virtual A/B Retrofit property.\"",
-          "author": "Nolen Johnson",
-          "date": "Mon Dec 15 21:55:21 2025 -0500",
-          "timestamp": 1765853721,
-          "url": "https://github.com/yaap/system_sepolicy/commit/db9e3363"
-        },
-        {
-          "sha": "bcd0b3e3",
-          "message": "sepolicy: Allow hal_audio_default to get/set bluetooth_prop for a2dp offloading.",
-          "author": "someone5678",
-          "date": "Mon Dec 15 21:54:06 2025 -0500",
-          "timestamp": 1765853646,
-          "url": "https://github.com/yaap/system_sepolicy/commit/bcd0b3e3"
-        },
-        {
-          "sha": "68c177b5",
-          "message": "Rename bluetooth_lea_mode_prop to bluetooth_lea_prop",
-          "author": "Jyun LuoLai",
-          "date": "Mon Dec 15 12:20:27 2025 -0500",
-          "timestamp": 1765819227,
-          "url": "https://github.com/yaap/system_sepolicy/commit/68c177b5"
-        },
-        {
-          "sha": "315e8f7c",
-          "message": "Allow system_ui_app to access le audio dynamic switcher mode system property",
-          "author": "silens",
-          "date": "Mon Dec 15 12:20:27 2025 -0500",
-          "timestamp": 1765819227,
-          "url": "https://github.com/yaap/system_sepolicy/commit/315e8f7c"
-        },
-        {
-          "sha": "650d36ee",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:59:35 2025 +0200",
-          "timestamp": 1765299575,
-          "url": "https://github.com/yaap/system_sepolicy/commit/650d36ee"
         }
       ]
     },
@@ -3355,51 +3483,51 @@
       ]
     },
     {
-      "name": "packages_apps_WallpaperPicker2",
-      "path": "packages/apps/WallpaperPicker2",
-      "repo_url": "https://github.com/yaap/packages_apps_WallpaperPicker2",
+      "name": "system_sepolicy",
+      "path": "system/sepolicy",
+      "repo_url": "https://github.com/yaap/system_sepolicy",
       "remote": "yaap",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "4c21b230",
-          "message": "hide the always-empty wallpaper carousel",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Dec 15 11:12:08 2025 -0500",
-          "timestamp": 1765815128,
-          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/4c21b230"
+          "sha": "d48ff481",
+          "message": "private/domain: add new attr for relaxing a dir init neverallow",
+          "author": "John Galt",
+          "date": "Tue Dec 16 10:22:03 2025 -0500",
+          "timestamp": 1765898523,
+          "url": "https://github.com/yaap/system_sepolicy/commit/d48ff481"
         },
         {
-          "sha": "ba792533",
-          "message": "don't use the CuratedPhotos categories which aren't setup in AOSP",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Dec 15 11:12:08 2025 -0500",
-          "timestamp": 1765815128,
-          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/ba792533"
+          "sha": "db9e3363",
+          "message": "Revert \"Remove Virtual A/B Retrofit property.\"",
+          "author": "Nolen Johnson",
+          "date": "Mon Dec 15 21:55:21 2025 -0500",
+          "timestamp": 1765853721,
+          "url": "https://github.com/yaap/system_sepolicy/commit/db9e3363"
         },
         {
-          "sha": "71029a81",
-          "message": "enable integration of the embedded photo picker",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Dec 15 11:12:08 2025 -0500",
-          "timestamp": 1765815128,
-          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/71029a81"
+          "sha": "bcd0b3e3",
+          "message": "sepolicy: Allow hal_audio_default to get/set bluetooth_prop for a2dp offloading.",
+          "author": "someone5678",
+          "date": "Mon Dec 15 21:54:06 2025 -0500",
+          "timestamp": 1765853646,
+          "url": "https://github.com/yaap/system_sepolicy/commit/bcd0b3e3"
         },
         {
-          "sha": "03a879ad",
-          "message": "Remove DeepLinkActivity from AndroidManifest.xml",
-          "author": "flawedworld",
-          "date": "Mon Dec 15 11:12:03 2025 -0500",
-          "timestamp": 1765815123,
-          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/03a879ad"
+          "sha": "68c177b5",
+          "message": "Rename bluetooth_lea_mode_prop to bluetooth_lea_prop",
+          "author": "Jyun LuoLai",
+          "date": "Mon Dec 15 12:20:27 2025 -0500",
+          "timestamp": 1765819227,
+          "url": "https://github.com/yaap/system_sepolicy/commit/68c177b5"
         },
         {
-          "sha": "6ca33d6a",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:21:26 2025 +0200",
-          "timestamp": 1765297286,
-          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/6ca33d6a"
+          "sha": "315e8f7c",
+          "message": "Allow system_ui_app to access le audio dynamic switcher mode system property",
+          "author": "silens",
+          "date": "Mon Dec 15 12:20:27 2025 -0500",
+          "timestamp": 1765819227,
+          "url": "https://github.com/yaap/system_sepolicy/commit/315e8f7c"
         }
       ]
     },
@@ -3617,125 +3745,43 @@
       ]
     },
     {
-      "name": "system_bpf",
-      "path": "system/bpf",
-      "repo_url": "https://github.com/yaap/system_bpf",
+      "name": "packages_apps_WallpaperPicker2",
+      "path": "packages/apps/WallpaperPicker2",
+      "repo_url": "https://github.com/yaap/packages_apps_WallpaperPicker2",
       "remote": "yaap",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "cb6687d",
-          "message": "Prepare for the future: making bpfloader.rs fails all non-panic",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Feb 20 13:43:23 2026 -0500",
-          "timestamp": 1771613003,
-          "url": "https://github.com/yaap/system_bpf/commit/cb6687d"
+          "sha": "4c21b230",
+          "message": "hide the always-empty wallpaper carousel",
+          "author": "Dmitry Muhomor",
+          "date": "Mon Dec 15 11:12:08 2025 -0500",
+          "timestamp": 1765815128,
+          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/4c21b230"
         },
         {
-          "sha": "24db87e",
-          "message": "Support no-bpf usecase",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Feb 20 13:43:18 2026 -0500",
-          "timestamp": 1771612998,
-          "url": "https://github.com/yaap/system_bpf/commit/24db87e"
+          "sha": "ba792533",
+          "message": "don't use the CuratedPhotos categories which aren't setup in AOSP",
+          "author": "Dmitry Muhomor",
+          "date": "Mon Dec 15 11:12:08 2025 -0500",
+          "timestamp": 1765815128,
+          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/ba792533"
         },
         {
-          "sha": "1d16349",
-          "message": "make vendorBpfLoader return",
-          "author": "oberdfr",
-          "date": "Fri Feb 20 13:43:10 2026 -0500",
-          "timestamp": 1771612990,
-          "url": "https://github.com/yaap/system_bpf/commit/1d16349"
+          "sha": "71029a81",
+          "message": "enable integration of the embedded photo picker",
+          "author": "Dmitry Muhomor",
+          "date": "Mon Dec 15 11:12:08 2025 -0500",
+          "timestamp": 1765815128,
+          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/71029a81"
         },
         {
-          "sha": "bc69f40",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:58:22 2025 +0200",
-          "timestamp": 1765299502,
-          "url": "https://github.com/yaap/system_bpf/commit/bc69f40"
-        }
-      ]
-    },
-    {
-      "name": "system_update_engine",
-      "path": "system/update_engine",
-      "repo_url": "https://github.com/yaap/system_update_engine",
-      "remote": "yaap",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "00beb2d",
-          "message": "Revert \"Remove Virtual A/B retrofit support.\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:51:09 2026 +0800",
-          "timestamp": 1771771869,
-          "url": "https://github.com/yaap/system_update_engine/commit/00beb2d"
-        },
-        {
-          "sha": "50c0c18",
-          "message": "Revert \"Remove references to retrofit dynamic partitions.\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:51:02 2026 +0800",
-          "timestamp": 1771771862,
-          "url": "https://github.com/yaap/system_update_engine/commit/50c0c18"
-        },
-        {
-          "sha": "b156e15",
-          "message": "Revert \"Remove support for separate A and B super partitions.\"",
-          "author": "Nolen Johnson",
-          "date": "Sun Feb 22 22:50:53 2026 +0800",
-          "timestamp": 1771771853,
-          "url": "https://github.com/yaap/system_update_engine/commit/b156e15"
-        },
-        {
-          "sha": "a3e287b",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:59:40 2025 +0200",
-          "timestamp": 1765299580,
-          "url": "https://github.com/yaap/system_update_engine/commit/a3e287b"
-        }
-      ]
-    },
-    {
-      "name": "vendor_themes",
-      "path": "vendor/themes",
-      "repo_url": "https://github.com/yaap/vendor_themes",
-      "remote": "yaap",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "5de049c",
-          "message": "Revert \"iconshapes: drop legacy iconshapes for now\"",
-          "author": "John Galt",
-          "date": "Wed Feb 25 17:07:37 2026 -0500",
-          "timestamp": 1772057257,
-          "url": "https://github.com/yaap/vendor_themes/commit/5de049c"
-        },
-        {
-          "sha": "39fefda",
-          "message": "iconshapes: drop legacy iconshapes for now",
-          "author": "John Galt",
-          "date": "Tue Dec 16 12:50:52 2025 -0500",
-          "timestamp": 1765907452,
-          "url": "https://github.com/yaap/vendor_themes/commit/39fefda"
-        },
-        {
-          "sha": "8434d95",
-          "message": "fonts: Add GoogleSansFlexClock to fonts_customization",
-          "author": "Cyber Knight",
-          "date": "Sun Dec 14 12:12:13 2025 +0200",
-          "timestamp": 1765707133,
-          "url": "https://github.com/yaap/vendor_themes/commit/8434d95"
-        },
-        {
-          "sha": "6908c54",
-          "message": "iconshapes: Add material expressive icon shapes",
-          "author": "Pranav Vashi",
-          "date": "Tue Dec 9 12:13:14 2025 -0500",
-          "timestamp": 1765300394,
-          "url": "https://github.com/yaap/vendor_themes/commit/6908c54"
+          "sha": "03a879ad",
+          "message": "Remove DeepLinkActivity from AndroidManifest.xml",
+          "author": "flawedworld",
+          "date": "Mon Dec 15 11:12:03 2025 -0500",
+          "timestamp": 1765815123,
+          "url": "https://github.com/yaap/packages_apps_WallpaperPicker2/commit/03a879ad"
         }
       ]
     },
@@ -3781,72 +3827,6 @@
       ]
     },
     {
-      "name": "device_mediatek_sepolicy_vndr",
-      "path": "device/mediatek/sepolicy_vndr",
-      "repo_url": "https://github.com/yaap/device_mediatek_sepolicy_vndr",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "f4625d6",
-          "message": "basic: non_plat: Drop duplicate proc_dirty label",
-          "author": "Sarthak Roy",
-          "date": "Sun Dec 14 23:28:27 2025 +0800",
-          "timestamp": 1765726107,
-          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/f4625d6"
-        },
-        {
-          "sha": "44d272b",
-          "message": "basic: non_plat: Drop system_server neverallow",
-          "author": "Sarthak Roy",
-          "date": "Sun Dec 14 03:14:20 2025 +0800",
-          "timestamp": 1765653260,
-          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/44d272b"
-        },
-        {
-          "sha": "bee3670",
-          "message": "basic: non_plat: Label OSS bluetooth AIDL service",
-          "author": "Mashopy",
-          "date": "Sun Dec 14 02:14:17 2025 +0800",
-          "timestamp": 1765649657,
-          "url": "https://github.com/yaap/device_mediatek_sepolicy_vndr/commit/bee3670"
-        }
-      ]
-    },
-    {
-      "name": "build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/yaap/build_soong",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "bd703ec8",
-          "message": "check_boot_jars: Add MTK packages to whitelist",
-          "author": "Mashopy",
-          "date": "Thu Jan 29 05:07:23 2026 +0800",
-          "timestamp": 1769634443,
-          "url": "https://github.com/yaap/build_soong/commit/bd703ec8"
-        },
-        {
-          "sha": "f6073ffc",
-          "message": "Revert \"Make namespace imports strict\"",
-          "author": "Dmitrii",
-          "date": "Wed Dec 10 16:03:45 2025 +0200",
-          "timestamp": 1765375425,
-          "url": "https://github.com/yaap/build_soong/commit/f6073ffc"
-        },
-        {
-          "sha": "aa8bd883",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 19:38:43 2025 +0200",
-          "timestamp": 1765301923,
-          "url": "https://github.com/yaap/build_soong/commit/aa8bd883"
-        }
-      ]
-    },
-    {
       "name": "frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/yaap/frameworks_native",
@@ -3876,39 +3856,6 @@
           "date": "Sat Dec 13 00:35:50 2025 +0200",
           "timestamp": 1765578950,
           "url": "https://github.com/yaap/frameworks_native/commit/6c036515b"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Gallery2",
-      "path": "packages/apps/Gallery2",
-      "repo_url": "https://github.com/yaap/packages_apps_Gallery2",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "cce97b4",
-          "message": "Gallery2: Convert resource switch statements to if-else",
-          "author": "Michael Bestas",
-          "date": "Thu Dec 11 12:18:36 2025 +0200",
-          "timestamp": 1765448316,
-          "url": "https://github.com/yaap/packages_apps_Gallery2/commit/cce97b4"
-        },
-        {
-          "sha": "79d6851",
-          "message": "Explicitly keep default constructor in rules without members",
-          "author": "Christoffer Adamsen",
-          "date": "Tue Dec 9 06:42:50 2025 +0200",
-          "timestamp": 1765255370,
-          "url": "https://github.com/yaap/packages_apps_Gallery2/commit/79d6851"
-        },
-        {
-          "sha": "fcef968",
-          "message": "Fix DuplicateBranches errorprone issue",
-          "author": "Cole Faust",
-          "date": "Tue Dec 9 06:42:12 2025 +0200",
-          "timestamp": 1765255332,
-          "url": "https://github.com/yaap/packages_apps_Gallery2/commit/fcef968"
         }
       ]
     },
@@ -3946,39 +3893,6 @@
       ]
     },
     {
-      "name": "packages_apps_ThemePicker",
-      "path": "packages/apps/ThemePicker",
-      "repo_url": "https://github.com/yaap/packages_apps_ThemePicker",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "2667e733",
-          "message": "ThemePicker: Convert font picker to Compose/Kotlin",
-          "author": "sidharthify",
-          "date": "Tue Dec 30 11:37:30 2025 -0500",
-          "timestamp": 1767112650,
-          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/2667e733"
-        },
-        {
-          "sha": "cf9afebb",
-          "message": "FontOptionProvider: sort custom fonts alphabetically",
-          "author": "axionaosp",
-          "date": "Tue Dec 30 11:37:28 2025 -0500",
-          "timestamp": 1767112648,
-          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/cf9afebb"
-        },
-        {
-          "sha": "6c5f048c",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:18:19 2025 +0200",
-          "timestamp": 1765297099,
-          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/6c5f048c"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
@@ -4008,6 +3922,105 @@
           "date": "Fri Dec 12 22:18:47 2025 +0200",
           "timestamp": 1765570727,
           "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/104c4e8120"
+        }
+      ]
+    },
+    {
+      "name": "system_bpf",
+      "path": "system/bpf",
+      "repo_url": "https://github.com/yaap/system_bpf",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "cb6687d",
+          "message": "Prepare for the future: making bpfloader.rs fails all non-panic",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Feb 20 13:43:23 2026 -0500",
+          "timestamp": 1771613003,
+          "url": "https://github.com/yaap/system_bpf/commit/cb6687d"
+        },
+        {
+          "sha": "24db87e",
+          "message": "Support no-bpf usecase",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Feb 20 13:43:18 2026 -0500",
+          "timestamp": 1771612998,
+          "url": "https://github.com/yaap/system_bpf/commit/24db87e"
+        },
+        {
+          "sha": "1d16349",
+          "message": "make vendorBpfLoader return",
+          "author": "oberdfr",
+          "date": "Fri Feb 20 13:43:10 2026 -0500",
+          "timestamp": 1771612990,
+          "url": "https://github.com/yaap/system_bpf/commit/1d16349"
+        }
+      ]
+    },
+    {
+      "name": "system_update_engine",
+      "path": "system/update_engine",
+      "repo_url": "https://github.com/yaap/system_update_engine",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "00beb2d",
+          "message": "Revert \"Remove Virtual A/B retrofit support.\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:51:09 2026 +0800",
+          "timestamp": 1771771869,
+          "url": "https://github.com/yaap/system_update_engine/commit/00beb2d"
+        },
+        {
+          "sha": "50c0c18",
+          "message": "Revert \"Remove references to retrofit dynamic partitions.\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:51:02 2026 +0800",
+          "timestamp": 1771771862,
+          "url": "https://github.com/yaap/system_update_engine/commit/50c0c18"
+        },
+        {
+          "sha": "b156e15",
+          "message": "Revert \"Remove support for separate A and B super partitions.\"",
+          "author": "Nolen Johnson",
+          "date": "Sun Feb 22 22:50:53 2026 +0800",
+          "timestamp": 1771771853,
+          "url": "https://github.com/yaap/system_update_engine/commit/b156e15"
+        }
+      ]
+    },
+    {
+      "name": "vendor_themes",
+      "path": "vendor/themes",
+      "repo_url": "https://github.com/yaap/vendor_themes",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5de049c",
+          "message": "Revert \"iconshapes: drop legacy iconshapes for now\"",
+          "author": "John Galt",
+          "date": "Wed Feb 25 17:07:37 2026 -0500",
+          "timestamp": 1772057257,
+          "url": "https://github.com/yaap/vendor_themes/commit/5de049c"
+        },
+        {
+          "sha": "39fefda",
+          "message": "iconshapes: drop legacy iconshapes for now",
+          "author": "John Galt",
+          "date": "Tue Dec 16 12:50:52 2025 -0500",
+          "timestamp": 1765907452,
+          "url": "https://github.com/yaap/vendor_themes/commit/39fefda"
+        },
+        {
+          "sha": "8434d95",
+          "message": "fonts: Add GoogleSansFlexClock to fonts_customization",
+          "author": "Cyber Knight",
+          "date": "Sun Dec 14 12:12:13 2025 +0200",
+          "timestamp": 1765707133,
+          "url": "https://github.com/yaap/vendor_themes/commit/8434d95"
         }
       ]
     },
@@ -4062,6 +4075,31 @@
       ]
     },
     {
+      "name": "build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/yaap/build_soong",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "bd703ec8",
+          "message": "check_boot_jars: Add MTK packages to whitelist",
+          "author": "Mashopy",
+          "date": "Thu Jan 29 05:07:23 2026 +0800",
+          "timestamp": 1769634443,
+          "url": "https://github.com/yaap/build_soong/commit/bd703ec8"
+        },
+        {
+          "sha": "f6073ffc",
+          "message": "Revert \"Make namespace imports strict\"",
+          "author": "Dmitrii",
+          "date": "Wed Dec 10 16:03:45 2025 +0200",
+          "timestamp": 1765375425,
+          "url": "https://github.com/yaap/build_soong/commit/f6073ffc"
+        }
+      ]
+    },
+    {
       "name": "external_dng_sdk",
       "path": "external/dng_sdk",
       "repo_url": "https://github.com/yaap/external_dng_sdk",
@@ -4083,31 +4121,6 @@
           "date": "Sun Jan 11 00:03:26 2026 +0800",
           "timestamp": 1768061006,
           "url": "https://github.com/yaap/external_dng_sdk/commit/eddc2f8"
-        }
-      ]
-    },
-    {
-      "name": "external_libfuse",
-      "path": "external/libfuse",
-      "repo_url": "https://github.com/yaap/external_libfuse",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "b5820b1",
-          "message": "Disable dependabot",
-          "author": "Cyber Knight",
-          "date": "Wed Jan 28 13:04:06 2026 +0800",
-          "timestamp": 1769576646,
-          "url": "https://github.com/yaap/external_libfuse/commit/b5820b1"
-        },
-        {
-          "sha": "a56d41f",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:12 2025 +0200",
-          "timestamp": 1765120332,
-          "url": "https://github.com/yaap/external_libfuse/commit/a56d41f"
         }
       ]
     },
@@ -4137,31 +4150,6 @@
       ]
     },
     {
-      "name": "frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/yaap/frameworks_av",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "5ea783b69",
-          "message": "MediaCodec: Use proper surface when creating PersistentSurface",
-          "author": "Luca Stefani",
-          "date": "Tue Feb 24 21:25:00 2026 +0200",
-          "timestamp": 1771961100,
-          "url": "https://github.com/yaap/frameworks_av/commit/5ea783b69"
-        },
-        {
-          "sha": "ed0971ea6",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:18:37 2025 +0200",
-          "timestamp": 1765120717,
-          "url": "https://github.com/yaap/frameworks_av/commit/ed0971ea6"
-        }
-      ]
-    },
-    {
       "name": "hardware_qcom-caf_wlan",
       "path": "hardware/qcom-caf/wlan",
       "repo_url": "https://github.com/yaap/hardware_qcom-caf_wlan",
@@ -4183,31 +4171,6 @@
           "date": "Sat Dec 13 00:00:27 2025 +0200",
           "timestamp": 1765576827,
           "url": "https://github.com/yaap/hardware_qcom-caf_wlan/commit/15233b6"
-        }
-      ]
-    },
-    {
-      "name": "hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/yaap/hardware_interfaces",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "ca36b742d",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Thu Dec 18 22:33:59 2025 +0800",
-          "timestamp": 1766068439,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/ca36b742d"
-        },
-        {
-          "sha": "3585fbd1d",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:27:37 2025 +0200",
-          "timestamp": 1765290457,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/3585fbd1d"
         }
       ]
     },
@@ -4312,6 +4275,31 @@
       ]
     },
     {
+      "name": "packages_apps_ThemePicker",
+      "path": "packages/apps/ThemePicker",
+      "repo_url": "https://github.com/yaap/packages_apps_ThemePicker",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2667e733",
+          "message": "ThemePicker: Convert font picker to Compose/Kotlin",
+          "author": "sidharthify",
+          "date": "Tue Dec 30 11:37:30 2025 -0500",
+          "timestamp": 1767112650,
+          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/2667e733"
+        },
+        {
+          "sha": "cf9afebb",
+          "message": "FontOptionProvider: sort custom fonts alphabetically",
+          "author": "axionaosp",
+          "date": "Tue Dec 30 11:37:28 2025 -0500",
+          "timestamp": 1767112648,
+          "url": "https://github.com/yaap/packages_apps_ThemePicker/commit/cf9afebb"
+        }
+      ]
+    },
+    {
       "name": "packages_services_OmniJaws",
       "path": "packages/services/OmniJaws",
       "repo_url": "https://github.com/yaap/packages_services_OmniJaws",
@@ -4333,56 +4321,6 @@
           "date": "Fri Dec 26 04:53:12 2025 +0800",
           "timestamp": 1766695992,
           "url": "https://github.com/yaap/packages_services_OmniJaws/commit/bc08525"
-        }
-      ]
-    },
-    {
-      "name": "system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/yaap/system_media",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "bf99749",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Thu Dec 18 22:33:38 2025 +0800",
-          "timestamp": 1766068418,
-          "url": "https://github.com/yaap/system_media/commit/bf99749"
-        },
-        {
-          "sha": "b69602f",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:58:32 2025 +0200",
-          "timestamp": 1765299512,
-          "url": "https://github.com/yaap/system_media/commit/b69602f"
-        }
-      ]
-    },
-    {
-      "name": "system_memory_libmeminfo",
-      "path": "system/memory/libmeminfo",
-      "repo_url": "https://github.com/yaap/system_memory_libmeminfo",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "9be9c81",
-          "message": "sysmeminfo: Skip per process GPU memory usage trace if disabled in kernel",
-          "author": "Tashfin Shakeer Rhythm",
-          "date": "Wed Jan 14 05:29:13 2026 +0800",
-          "timestamp": 1768339753,
-          "url": "https://github.com/yaap/system_memory_libmeminfo/commit/9be9c81"
-        },
-        {
-          "sha": "72fffea",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:58:34 2025 +0200",
-          "timestamp": 1765299514,
-          "url": "https://github.com/yaap/system_memory_libmeminfo/commit/72fffea"
         }
       ]
     },
@@ -4429,23 +4367,6 @@
       ]
     },
     {
-      "name": "bionic",
-      "path": "bionic",
-      "repo_url": "https://github.com/yaap/bionic",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "cdfd397b",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 16:58:40 2025 +0200",
-          "timestamp": 1765119520,
-          "url": "https://github.com/yaap/bionic/commit/cdfd397b"
-        }
-      ]
-    },
-    {
       "name": "art",
       "path": "art",
       "repo_url": "https://github.com/yaap/art",
@@ -4463,342 +4384,36 @@
       ]
     },
     {
-      "name": "external_arm-optimized-routines",
-      "path": "external/arm-optimized-routines",
-      "repo_url": "https://github.com/yaap/external_arm-optimized-routines",
+      "name": "external_libfuse",
+      "path": "external/libfuse",
+      "repo_url": "https://github.com/yaap/external_libfuse",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "a7b05ca",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:11:48 2025 +0200",
-          "timestamp": 1765120308,
-          "url": "https://github.com/yaap/external_arm-optimized-routines/commit/a7b05ca"
+          "sha": "b5820b1",
+          "message": "Disable dependabot",
+          "author": "Cyber Knight",
+          "date": "Wed Jan 28 13:04:06 2026 +0800",
+          "timestamp": 1769576646,
+          "url": "https://github.com/yaap/external_libfuse/commit/b5820b1"
         }
       ]
     },
     {
-      "name": "external_avb",
-      "path": "external/avb",
-      "repo_url": "https://github.com/yaap/external_avb",
+      "name": "frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/yaap/frameworks_av",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "408b9ec",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:11:56 2025 +0200",
-          "timestamp": 1765120316,
-          "url": "https://github.com/yaap/external_avb/commit/408b9ec"
-        }
-      ]
-    },
-    {
-      "name": "external_bouncycastle",
-      "path": "external/bouncycastle",
-      "repo_url": "https://github.com/yaap/external_bouncycastle",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "89a7cf4",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:11:53 2025 +0200",
-          "timestamp": 1765120313,
-          "url": "https://github.com/yaap/external_bouncycastle/commit/89a7cf4"
-        }
-      ]
-    },
-    {
-      "name": "external_dtc",
-      "path": "external/dtc",
-      "repo_url": "https://github.com/yaap/external_dtc",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e06dabe",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:11:58 2025 +0200",
-          "timestamp": 1765120318,
-          "url": "https://github.com/yaap/external_dtc/commit/e06dabe"
-        }
-      ]
-    },
-    {
-      "name": "external_erofs-utils",
-      "path": "external/erofs-utils",
-      "repo_url": "https://github.com/yaap/external_erofs-utils",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a18031c",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:00 2025 +0200",
-          "timestamp": 1765120320,
-          "url": "https://github.com/yaap/external_erofs-utils/commit/a18031c"
-        }
-      ]
-    },
-    {
-      "name": "external_exfatprogs",
-      "path": "external/exfatprogs",
-      "repo_url": "https://github.com/yaap/external_exfatprogs",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9fd0e79",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:02 2025 +0200",
-          "timestamp": 1765120322,
-          "url": "https://github.com/yaap/external_exfatprogs/commit/9fd0e79"
-        }
-      ]
-    },
-    {
-      "name": "external_f2fs-tools",
-      "path": "external/f2fs-tools",
-      "repo_url": "https://github.com/yaap/external_f2fs-tools",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "6830e09",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:04 2025 +0200",
-          "timestamp": 1765120324,
-          "url": "https://github.com/yaap/external_f2fs-tools/commit/6830e09"
-        }
-      ]
-    },
-    {
-      "name": "external_freetype",
-      "path": "external/freetype",
-      "repo_url": "https://github.com/yaap/external_freetype",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4985d0d",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:06 2025 +0200",
-          "timestamp": 1765120326,
-          "url": "https://github.com/yaap/external_freetype/commit/4985d0d"
-        }
-      ]
-    },
-    {
-      "name": "external_libdav1d",
-      "path": "external/libdav1d",
-      "repo_url": "https://github.com/yaap/external_libdav1d",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1c0ceff",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:10 2025 +0200",
-          "timestamp": 1765120330,
-          "url": "https://github.com/yaap/external_libdav1d/commit/1c0ceff"
-        }
-      ]
-    },
-    {
-      "name": "external_libjpeg-turbo",
-      "path": "external/libjpeg-turbo",
-      "repo_url": "https://github.com/yaap/external_libjpeg-turbo",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "36486fd",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:14 2025 +0200",
-          "timestamp": 1765120334,
-          "url": "https://github.com/yaap/external_libjpeg-turbo/commit/36486fd"
-        }
-      ]
-    },
-    {
-      "name": "external_setupcompat",
-      "path": "external/setupcompat",
-      "repo_url": "https://github.com/yaap/external_setupcompat",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a615b26",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:12:18 2025 +0200",
-          "timestamp": 1765120338,
-          "url": "https://github.com/yaap/external_setupcompat/commit/a615b26"
-        }
-      ]
-    },
-    {
-      "name": "external_tinycompress",
-      "path": "external/tinycompress",
-      "repo_url": "https://github.com/yaap/external_tinycompress",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1ddc81e",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:14:54 2025 +0200",
-          "timestamp": 1765120494,
-          "url": "https://github.com/yaap/external_tinycompress/commit/1ddc81e"
-        }
-      ]
-    },
-    {
-      "name": "external_sqlite",
-      "path": "external/sqlite",
-      "repo_url": "https://github.com/yaap/external_sqlite",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "04945ee",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:14:46 2025 +0200",
-          "timestamp": 1765120486,
-          "url": "https://github.com/yaap/external_sqlite/commit/04945ee"
-        }
-      ]
-    },
-    {
-      "name": "external_zstd",
-      "path": "external/zstd",
-      "repo_url": "https://github.com/yaap/external_zstd",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "718f316d",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:14:56 2025 +0200",
-          "timestamp": 1765120496,
-          "url": "https://github.com/yaap/external_zstd/commit/718f316d"
-        }
-      ]
-    },
-    {
-      "name": "frameworks_minikin",
-      "path": "frameworks/minikin",
-      "repo_url": "https://github.com/yaap/frameworks_minikin",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "66f362f",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 15:59:53 2025 +0200",
-          "timestamp": 1765288793,
-          "url": "https://github.com/yaap/frameworks_minikin/commit/66f362f"
-        }
-      ]
-    },
-    {
-      "name": "external_skia",
-      "path": "external/skia",
-      "repo_url": "https://github.com/yaap/external_skia",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "25477a27f",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:13:43 2025 +0200",
-          "timestamp": 1765120423,
-          "url": "https://github.com/yaap/external_skia/commit/25477a27f"
-        }
-      ]
-    },
-    {
-      "name": "frameworks_opt_net_ims",
-      "path": "frameworks/opt/net/ims",
-      "repo_url": "https://github.com/yaap/frameworks_opt_net_ims",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "86af32a",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:26:38 2025 +0200",
-          "timestamp": 1765290398,
-          "url": "https://github.com/yaap/frameworks_opt_net_ims/commit/86af32a"
-        }
-      ]
-    },
-    {
-      "name": "hardware_google_pixel",
-      "path": "hardware/google/pixel",
-      "repo_url": "https://github.com/yaap/hardware_google_pixel",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a4a89f4",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:26:41 2025 +0200",
-          "timestamp": 1765290401,
-          "url": "https://github.com/yaap/hardware_google_pixel/commit/a4a89f4"
-        }
-      ]
-    },
-    {
-      "name": "external_tensorflow",
-      "path": "external/tensorflow",
-      "repo_url": "https://github.com/yaap/external_tensorflow",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "52af7701f",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Dec 7 17:14:52 2025 +0200",
-          "timestamp": 1765120492,
-          "url": "https://github.com/yaap/external_tensorflow/commit/52af7701f"
-        }
-      ]
-    },
-    {
-      "name": "hardware_libhardware",
-      "path": "hardware/libhardware",
-      "repo_url": "https://github.com/yaap/hardware_libhardware",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "537d17b",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:26:45 2025 +0200",
-          "timestamp": 1765290405,
-          "url": "https://github.com/yaap/hardware_libhardware/commit/537d17b"
+          "sha": "5ea783b69",
+          "message": "MediaCodec: Use proper surface when creating PersistentSurface",
+          "author": "Luca Stefani",
+          "date": "Tue Feb 24 21:25:00 2026 +0200",
+          "timestamp": 1771961100,
+          "url": "https://github.com/yaap/frameworks_av/commit/5ea783b69"
         }
       ]
     },
@@ -4820,172 +4435,36 @@
       ]
     },
     {
-      "name": "frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/yaap/frameworks_opt_telephony",
+      "name": "hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/yaap/hardware_interfaces",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "73e3ab77a",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:26:32 2025 +0200",
-          "timestamp": 1765290392,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/73e3ab77a"
+          "sha": "ca36b742d",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Thu Dec 18 22:33:59 2025 +0800",
+          "timestamp": 1766068439,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/ca36b742d"
         }
       ]
     },
     {
-      "name": "kernel_configs",
-      "path": "kernel/configs",
-      "repo_url": "https://github.com/yaap/kernel_configs",
+      "name": "packages_apps_Gallery2",
+      "path": "packages/apps/Gallery2",
+      "repo_url": "https://github.com/yaap/packages_apps_Gallery2",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "afe9789",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:27:41 2025 +0200",
-          "timestamp": 1765290461,
-          "url": "https://github.com/yaap/kernel_configs/commit/afe9789"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Camera2",
-      "path": "packages/apps/Camera2",
-      "repo_url": "https://github.com/yaap/packages_apps_Camera2",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c08c526",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:27:43 2025 +0200",
-          "timestamp": 1765290463,
-          "url": "https://github.com/yaap/packages_apps_Camera2/commit/c08c526"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/yaap/packages_apps_Contacts",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a52790eb",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:28:08 2025 +0200",
-          "timestamp": 1765290488,
-          "url": "https://github.com/yaap/packages_apps_Contacts/commit/a52790eb"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_EmergencyInfo",
-      "path": "packages/apps/EmergencyInfo",
-      "repo_url": "https://github.com/yaap/packages_apps_EmergencyInfo",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8d79632",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:33:21 2025 +0200",
-          "timestamp": 1765290801,
-          "url": "https://github.com/yaap/packages_apps_EmergencyInfo/commit/8d79632"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "6ca10545",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 16:33:17 2025 +0200",
-          "timestamp": 1765290797,
-          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/6ca10545"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_PhoneCommon",
-      "path": "packages/apps/PhoneCommon",
-      "repo_url": "https://github.com/yaap/packages_apps_PhoneCommon",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d7c53e3",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 17:43:00 2025 +0200",
-          "timestamp": 1765294980,
-          "url": "https://github.com/yaap/packages_apps_PhoneCommon/commit/d7c53e3"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_SettingsIntelligence",
-      "path": "packages/apps/SettingsIntelligence",
-      "repo_url": "https://github.com/yaap/packages_apps_SettingsIntelligence",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "581466e",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:16:05 2025 +0200",
-          "timestamp": 1765296965,
-          "url": "https://github.com/yaap/packages_apps_SettingsIntelligence/commit/581466e"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Stk",
-      "path": "packages/apps/Stk",
-      "repo_url": "https://github.com/yaap/packages_apps_Stk",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "36a8181",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:16:08 2025 +0200",
-          "timestamp": 1765296968,
-          "url": "https://github.com/yaap/packages_apps_Stk/commit/36a8181"
-        }
-      ]
-    },
-    {
-      "name": "packages_inputmethods_LatinIME",
-      "path": "packages/inputmethods/LatinIME",
-      "repo_url": "https://github.com/yaap/packages_inputmethods_LatinIME",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "18f5e13",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:22:44 2025 +0200",
-          "timestamp": 1765297364,
-          "url": "https://github.com/yaap/packages_inputmethods_LatinIME/commit/18f5e13"
+          "sha": "cce97b4",
+          "message": "Gallery2: Convert resource switch statements to if-else",
+          "author": "Michael Bestas",
+          "date": "Thu Dec 11 12:18:36 2025 +0200",
+          "timestamp": 1765448316,
+          "url": "https://github.com/yaap/packages_apps_Gallery2/commit/cce97b4"
         }
       ]
     },
@@ -5007,23 +4486,6 @@
       ]
     },
     {
-      "name": "packages_modules_Nfc",
-      "path": "packages/modules/Nfc",
-      "repo_url": "https://github.com/yaap/packages_modules_Nfc",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3a417f94",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:51:01 2025 +0200",
-          "timestamp": 1765299061,
-          "url": "https://github.com/yaap/packages_modules_Nfc/commit/3a417f94"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_UprobeStats",
       "path": "packages/modules/UprobeStats",
       "repo_url": "https://github.com/yaap/packages_modules_UprobeStats",
@@ -5037,193 +4499,6 @@
           "date": "Mon Jan 26 03:26:01 2026 +0800",
           "timestamp": 1769369161,
           "url": "https://github.com/yaap/packages_modules_UprobeStats/commit/2117b40"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_StatsD",
-      "path": "packages/modules/StatsD",
-      "repo_url": "https://github.com/yaap/packages_modules_StatsD",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "5a556615",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:52:57 2025 +0200",
-          "timestamp": 1765299177,
-          "url": "https://github.com/yaap/packages_modules_StatsD/commit/5a556615"
-        }
-      ]
-    },
-    {
-      "name": "packages_providers_CalendarProvider",
-      "path": "packages/providers/CalendarProvider",
-      "repo_url": "https://github.com/yaap/packages_providers_CalendarProvider",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4595f1d",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:53:06 2025 +0200",
-          "timestamp": 1765299186,
-          "url": "https://github.com/yaap/packages_providers_CalendarProvider/commit/4595f1d"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Permission",
-      "path": "packages/modules/Permission",
-      "repo_url": "https://github.com/yaap/packages_modules_Permission",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9c909a4f5",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:52:51 2025 +0200",
-          "timestamp": 1765299171,
-          "url": "https://github.com/yaap/packages_modules_Permission/commit/9c909a4f5"
-        }
-      ]
-    },
-    {
-      "name": "packages_providers_CallLogProvider",
-      "path": "packages/providers/CallLogProvider",
-      "repo_url": "https://github.com/yaap/packages_providers_CallLogProvider",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "bb37145",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:53:07 2025 +0200",
-          "timestamp": 1765299187,
-          "url": "https://github.com/yaap/packages_providers_CallLogProvider/commit/bb37145"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f7658fc71",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:53:02 2025 +0200",
-          "timestamp": 1765299182,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/f7658fc71"
-        }
-      ]
-    },
-    {
-      "name": "packages_providers_ContactsProvider",
-      "path": "packages/providers/ContactsProvider",
-      "repo_url": "https://github.com/yaap/packages_providers_ContactsProvider",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0035350",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:53:08 2025 +0200",
-          "timestamp": 1765299188,
-          "url": "https://github.com/yaap/packages_providers_ContactsProvider/commit/0035350"
-        }
-      ]
-    },
-    {
-      "name": "packages_services_DeviceAsWebcam",
-      "path": "packages/services/DeviceAsWebcam",
-      "repo_url": "https://github.com/yaap/packages_services_DeviceAsWebcam",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9fad659",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:54:25 2025 +0200",
-          "timestamp": 1765299265,
-          "url": "https://github.com/yaap/packages_services_DeviceAsWebcam/commit/9fad659"
-        }
-      ]
-    },
-    {
-      "name": "packages_providers_TelephonyProvider",
-      "path": "packages/providers/TelephonyProvider",
-      "repo_url": "https://github.com/yaap/packages_providers_TelephonyProvider",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "629462b",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:54:23 2025 +0200",
-          "timestamp": 1765299263,
-          "url": "https://github.com/yaap/packages_providers_TelephonyProvider/commit/629462b"
-        }
-      ]
-    },
-    {
-      "name": "packages_services_Iwlan",
-      "path": "packages/services/Iwlan",
-      "repo_url": "https://github.com/yaap/packages_services_Iwlan",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "372b84c",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:54:27 2025 +0200",
-          "timestamp": 1765299267,
-          "url": "https://github.com/yaap/packages_services_Iwlan/commit/372b84c"
-        }
-      ]
-    },
-    {
-      "name": "packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/yaap/packages_providers_MediaProvider",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e2c23b6ad",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:54:18 2025 +0200",
-          "timestamp": 1765299258,
-          "url": "https://github.com/yaap/packages_providers_MediaProvider/commit/e2c23b6ad"
-        }
-      ]
-    },
-    {
-      "name": "prebuilts_calyx_talkback",
-      "path": "prebuilts/calyx/talkback",
-      "repo_url": "https://github.com/yaap/prebuilts_calyx_talkback",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c70453f",
-          "message": "Stop using Git LFS",
-          "author": "Cyber Knight",
-          "date": "Mon Jan 26 12:42:01 2026 +0800",
-          "timestamp": 1769402521,
-          "url": "https://github.com/yaap/prebuilts_calyx_talkback/commit/c70453f"
         }
       ]
     },
@@ -5245,19 +4520,19 @@
       ]
     },
     {
-      "name": "system_apex",
-      "path": "system/apex",
-      "repo_url": "https://github.com/yaap/system_apex",
+      "name": "prebuilts_calyx_talkback",
+      "path": "prebuilts/calyx/talkback",
+      "repo_url": "https://github.com/yaap/prebuilts_calyx_talkback",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "a76628e",
-          "message": "Disable O_DIRECT for old kernels",
-          "author": "Pierre-Hugues Husson",
-          "date": "Fri Feb 20 13:42:52 2026 -0500",
-          "timestamp": 1771612972,
-          "url": "https://github.com/yaap/system_apex/commit/a76628e"
+          "sha": "c70453f",
+          "message": "Stop using Git LFS",
+          "author": "Cyber Knight",
+          "date": "Mon Jan 26 12:42:01 2026 +0800",
+          "timestamp": 1769402521,
+          "url": "https://github.com/yaap/prebuilts_calyx_talkback/commit/c70453f"
         }
       ]
     },
@@ -5279,36 +4554,19 @@
       ]
     },
     {
-      "name": "packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/yaap/packages_services_Telephony",
+      "name": "system_apex",
+      "path": "system/apex",
+      "repo_url": "https://github.com/yaap/system_apex",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "2c839e358",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:57:25 2025 +0200",
-          "timestamp": 1765299445,
-          "url": "https://github.com/yaap/packages_services_Telephony/commit/2c839e358"
-        }
-      ]
-    },
-    {
-      "name": "system_libvintf",
-      "path": "system/libvintf",
-      "repo_url": "https://github.com/yaap/system_libvintf",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1f22c86",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:58:29 2025 +0200",
-          "timestamp": 1765299509,
-          "url": "https://github.com/yaap/system_libvintf/commit/1f22c86"
+          "sha": "a76628e",
+          "message": "Disable O_DIRECT for old kernels",
+          "author": "Pierre-Hugues Husson",
+          "date": "Fri Feb 20 13:42:52 2026 -0500",
+          "timestamp": 1771612972,
+          "url": "https://github.com/yaap/system_apex/commit/a76628e"
         }
       ]
     },
@@ -5330,53 +4588,36 @@
       ]
     },
     {
-      "name": "system_memory_lmkd",
-      "path": "system/memory/lmkd",
-      "repo_url": "https://github.com/yaap/system_memory_lmkd",
+      "name": "system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/yaap/system_media",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "d801980",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:58:36 2025 +0200",
-          "timestamp": 1765299516,
-          "url": "https://github.com/yaap/system_memory_lmkd/commit/d801980"
+          "sha": "bf99749",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Thu Dec 18 22:33:38 2025 +0800",
+          "timestamp": 1766068418,
+          "url": "https://github.com/yaap/system_media/commit/bf99749"
         }
       ]
     },
     {
-      "name": "system_vold",
-      "path": "system/vold",
-      "repo_url": "https://github.com/yaap/system_vold",
+      "name": "system_memory_libmeminfo",
+      "path": "system/memory/libmeminfo",
+      "repo_url": "https://github.com/yaap/system_memory_libmeminfo",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "9b7767f",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:59:43 2025 +0200",
-          "timestamp": 1765299583,
-          "url": "https://github.com/yaap/system_vold/commit/9b7767f"
-        }
-      ]
-    },
-    {
-      "name": "tools_apksig",
-      "path": "tools/apksig",
-      "repo_url": "https://github.com/yaap/tools_apksig",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "421c350",
-          "message": "Merge tag 'android-16.0.0_r4' into staging/sixteen-android-16.0.0_r4",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Dec 9 18:59:46 2025 +0200",
-          "timestamp": 1765299586,
-          "url": "https://github.com/yaap/tools_apksig/commit/421c350"
+          "sha": "9be9c81",
+          "message": "sysmeminfo: Skip per process GPU memory usage trace if disabled in kernel",
+          "author": "Tashfin Shakeer Rhythm",
+          "date": "Wed Jan 14 05:29:13 2026 +0800",
+          "timestamp": 1768339753,
+          "url": "https://github.com/yaap/system_memory_libmeminfo/commit/9be9c81"
         }
       ]
     },
