@@ -1,10 +1,10 @@
 {
   "rom_id": "grapheneos",
   "branch": "16-qpr2",
-  "generated_at": "2026-04-19T02:31:13.546856+00:00",
-  "since_date": "2026-01-19",
-  "total_projects": 54,
-  "total_commits": 671,
+  "generated_at": "2026-04-22T02:16:21.878810+00:00",
+  "since_date": "2026-01-22",
+  "total_projects": 53,
+  "total_commits": 675,
   "projects": [
     {
       "name": "platform_frameworks_base",
@@ -1629,8 +1629,24 @@
       "path": "vendor/adevtool",
       "repo_url": "https://github.com/GrapheneOS/adevtool",
       "remote": "grapheneos",
-      "commit_count": 75,
+      "commit_count": 77,
       "commits": [
+        {
+          "sha": "8bc93d8",
+          "message": "Re-add Cape carrier DB override",
+          "author": "Ben Iofel",
+          "date": "Mon Apr 20 15:50:05 2026 -0400",
+          "timestamp": 1776714605,
+          "url": "https://github.com/GrapheneOS/adevtool/commit/8bc93d8"
+        },
+        {
+          "sha": "86c7594",
+          "message": "add index of Pixel Android 17 Beta 4 stallion build",
+          "author": "inthewaves",
+          "date": "Mon Apr 20 09:39:36 2026 -0400",
+          "timestamp": 1776692376,
+          "url": "https://github.com/GrapheneOS/adevtool/commit/86c7594"
+        },
         {
           "sha": "68aa00f",
           "message": "add index of Pixel Android 17 Beta 4 builds",
@@ -2238,7 +2254,7 @@
       "path": "external/vanadium",
       "repo_url": "https://gitlab.com/grapheneos/platform_external_vanadium",
       "remote": "grapheneos-gitlab",
-      "commit_count": 50,
+      "commit_count": 46,
       "commits": [
         {
           "sha": "79920d0",
@@ -2607,38 +2623,6 @@
           "date": "Tue Jan 27 18:43:33 2026 -0500",
           "timestamp": 1769557413,
           "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/53da9be"
-        },
-        {
-          "sha": "c4cf957",
-          "message": "Vanadium Config version 150",
-          "author": "Daniel Micay",
-          "date": "Wed Jan 21 04:47:46 2026 -0500",
-          "timestamp": 1768988866,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/c4cf957"
-        },
-        {
-          "sha": "e1c816c",
-          "message": "version 144.0.7559.90.0",
-          "author": "Daniel Micay",
-          "date": "Wed Jan 21 01:37:39 2026 -0500",
-          "timestamp": 1768977459,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/e1c816c"
-        },
-        {
-          "sha": "f10756a",
-          "message": "Vanadium Config version 149",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 21:03:34 2026 -0500",
-          "timestamp": 1768961014,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/f10756a"
-        },
-        {
-          "sha": "c2470a7",
-          "message": "Vanadium Config version 148",
-          "author": "Daniel Micay",
-          "date": "Mon Jan 19 02:17:01 2026 -0500",
-          "timestamp": 1768807021,
-          "url": "https://gitlab.com/grapheneos/platform_external_vanadium/commit/c2470a7"
         }
       ]
     },
@@ -3101,6 +3085,199 @@
       ]
     },
     {
+      "name": "hardened_malloc",
+      "path": "external/hardened_malloc",
+      "repo_url": "https://github.com/GrapheneOS/hardened_malloc",
+      "remote": "grapheneos",
+      "commit_count": 23,
+      "commits": [
+        {
+          "sha": "6dc33bd",
+          "message": "h_malloc_object_size: fix unsigned underflow when p points to canary",
+          "author": "rdevshp",
+          "date": "Mon Apr 20 17:12:50 2026 -0400",
+          "timestamp": 1776719570,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/6dc33bd"
+        },
+        {
+          "sha": "57db7cc",
+          "message": "preserve zeroing on madvise out-of-memory error",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 16:03:01 2026 -0400",
+          "timestamp": 1776715381,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/57db7cc"
+        },
+        {
+          "sha": "0f0b758",
+          "message": "ARM_MTE: untag input pointer in h_malloc_object_size / h_malloc_object_size_fast before untagged pointer comparison",
+          "author": "rdevshp",
+          "date": "Mon Apr 20 12:38:41 2026 -0400",
+          "timestamp": 1776703121,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/0f0b758"
+        },
+        {
+          "sha": "72e3dc9",
+          "message": "allocate_aligned: fix missing stats_large_allocate when alignment > PAGE_SIZE",
+          "author": "rdevshp",
+          "date": "Mon Apr 20 10:06:06 2026 -0400",
+          "timestamp": 1776693966,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/72e3dc9"
+        },
+        {
+          "sha": "df5b56b",
+          "message": "add support for disabling free slabs quarantine",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 10:04:11 2026 -0400",
+          "timestamp": 1776693851,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/df5b56b"
+        },
+        {
+          "sha": "c7f921e",
+          "message": "fix inverted thread_seal_metadata/thread_unseal_metadata in h_mallinfo_bin_info",
+          "author": "Thomas",
+          "date": "Mon Apr 20 09:40:13 2026 -0400",
+          "timestamp": 1776692413,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/c7f921e"
+        },
+        {
+          "sha": "173a069",
+          "message": "preserve zeroing on madvise out-of-memory error",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 19:36:55 2026 -0400",
+          "timestamp": 1776641815,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/173a069"
+        },
+        {
+          "sha": "f14b4fe",
+          "message": "use unlikely for error paths in regions_grow/regions_insert",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 19:22:38 2026 -0400",
+          "timestamp": 1776640958,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/f14b4fe"
+        },
+        {
+          "sha": "d6126a3",
+          "message": "consistently use bool for reporting out-of-memory",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 19:20:50 2026 -0400",
+          "timestamp": 1776640850,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/d6126a3"
+        },
+        {
+          "sha": "bd3914e",
+          "message": "handle ENOMEM for dropping memory in regions_grow",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 17:58:16 2026 -0400",
+          "timestamp": 1776635896,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/bd3914e"
+        },
+        {
+          "sha": "eea522b",
+          "message": "Silence warnings in the testsuite",
+          "author": "jvoisin",
+          "date": "Tue Mar 24 19:55:10 2026 -0400",
+          "timestamp": 1774396510,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/eea522b"
+        },
+        {
+          "sha": "92619f1",
+          "message": "Reorder fields in size_class",
+          "author": "jvoisin",
+          "date": "Tue Mar 24 18:31:06 2026 -0400",
+          "timestamp": 1774391466,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/92619f1"
+        },
+        {
+          "sha": "bd25e2e",
+          "message": "Optimized write_after_free_check",
+          "author": "jvoisin",
+          "date": "Tue Mar 24 18:30:10 2026 -0400",
+          "timestamp": 1774391410,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/bd25e2e"
+        },
+        {
+          "sha": "588db29",
+          "message": "Add two tests",
+          "author": "jvoisin",
+          "date": "Tue Mar 24 16:24:56 2026 -0400",
+          "timestamp": 1774383896,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/588db29"
+        },
+        {
+          "sha": "aba340b",
+          "message": "fix is_zero_slice being true for zero-size classes",
+          "author": "inthewaves",
+          "date": "Tue Mar 17 02:16:51 2026 -0400",
+          "timestamp": 1773728211,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/aba340b"
+        },
+        {
+          "sha": "0a0309e",
+          "message": "Optimize get_size_info_align",
+          "author": "jvoisin",
+          "date": "Mon Mar 16 18:45:43 2026 -0400",
+          "timestamp": 1773701143,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/0a0309e"
+        },
+        {
+          "sha": "b6df4af",
+          "message": "mark refill calls as unlikely",
+          "author": "jvoisin",
+          "date": "Mon Mar 16 18:20:18 2026 -0400",
+          "timestamp": 1773699618,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/b6df4af"
+        },
+        {
+          "sha": "70f7359",
+          "message": "replace a udiv with an add/cmp",
+          "author": "jvoisin",
+          "date": "Mon Mar 16 15:27:03 2026 -0400",
+          "timestamp": 1773689223,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/70f7359"
+        },
+        {
+          "sha": "82fb88c",
+          "message": "precompute size/slots/slab_size instead of doing it a runtime",
+          "author": "jvoisin",
+          "date": "Mon Mar 16 15:26:52 2026 -0400",
+          "timestamp": 1773689212,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/82fb88c"
+        },
+        {
+          "sha": "04a25bd",
+          "message": "Support GCC16",
+          "author": "underscorejoser",
+          "date": "Mon Mar 9 02:32:27 2026 -0400",
+          "timestamp": 1773037947,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/04a25bd"
+        },
+        {
+          "sha": "09b4f9a",
+          "message": "Removing \"[future]\" tag in documentation",
+          "author": "Ram Karthikeya Musti",
+          "date": "Mon Mar 2 11:44:26 2026 -0500",
+          "timestamp": 1772469866,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/09b4f9a"
+        },
+        {
+          "sha": "3bee8d3",
+          "message": "fix realloc from small sized allocations with above PAGE_SIZE alignment",
+          "author": "Daniel Micay",
+          "date": "Sun Feb 22 14:58:24 2026 -0500",
+          "timestamp": 1771790304,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/3bee8d3"
+        },
+        {
+          "sha": "1044b54",
+          "message": "update libdivide to 5.3.0",
+          "author": "Daniel Micay",
+          "date": "Mon Feb 16 11:30:28 2026 -0500",
+          "timestamp": 1771259428,
+          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/1044b54"
+        }
+      ]
+    },
+    {
       "name": "platform_packages_apps_GmsCompat",
       "path": "packages/apps/GmsCompat",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat",
@@ -3282,7 +3459,7 @@
       "path": "script",
       "repo_url": "https://github.com/GrapheneOS/script",
       "remote": "grapheneos",
-      "commit_count": 19,
+      "commit_count": 18,
       "commits": [
         {
           "sha": "8dedf70",
@@ -3427,14 +3604,6 @@
           "date": "Tue Feb 3 19:46:41 2026 -0500",
           "timestamp": 1770166001,
           "url": "https://github.com/GrapheneOS/script/commit/af843a7"
-        },
-        {
-          "sha": "933fcd6",
-          "message": "add platform_external_libpng",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Jan 19 22:39:24 2026 -0500",
-          "timestamp": 1768880364,
-          "url": "https://github.com/GrapheneOS/script/commit/933fcd6"
         }
       ]
     },
@@ -3443,8 +3612,16 @@
       "path": "prebuilts/qemu-kernel",
       "repo_url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel",
       "remote": "grapheneos",
-      "commit_count": 14,
+      "commit_count": 15,
       "commits": [
+        {
+          "sha": "451fa62",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 12:53:34 2026 -0400",
+          "timestamp": 1776617614,
+          "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/451fa62"
+        },
         {
           "sha": "e4bf716",
           "message": "rebuild with latest changes",
@@ -3556,119 +3733,6 @@
           "date": "Tue Feb 3 19:43:58 2026 -0500",
           "timestamp": 1770165838,
           "url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel/commit/8abf4c4"
-        }
-      ]
-    },
-    {
-      "name": "hardened_malloc",
-      "path": "external/hardened_malloc",
-      "repo_url": "https://github.com/GrapheneOS/hardened_malloc",
-      "remote": "grapheneos",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "eea522b",
-          "message": "Silence warnings in the testsuite",
-          "author": "jvoisin",
-          "date": "Tue Mar 24 19:55:10 2026 -0400",
-          "timestamp": 1774396510,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/eea522b"
-        },
-        {
-          "sha": "92619f1",
-          "message": "Reorder fields in size_class",
-          "author": "jvoisin",
-          "date": "Tue Mar 24 18:31:06 2026 -0400",
-          "timestamp": 1774391466,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/92619f1"
-        },
-        {
-          "sha": "bd25e2e",
-          "message": "Optimized write_after_free_check",
-          "author": "jvoisin",
-          "date": "Tue Mar 24 18:30:10 2026 -0400",
-          "timestamp": 1774391410,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/bd25e2e"
-        },
-        {
-          "sha": "588db29",
-          "message": "Add two tests",
-          "author": "jvoisin",
-          "date": "Tue Mar 24 16:24:56 2026 -0400",
-          "timestamp": 1774383896,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/588db29"
-        },
-        {
-          "sha": "aba340b",
-          "message": "fix is_zero_slice being true for zero-size classes",
-          "author": "inthewaves",
-          "date": "Tue Mar 17 02:16:51 2026 -0400",
-          "timestamp": 1773728211,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/aba340b"
-        },
-        {
-          "sha": "0a0309e",
-          "message": "Optimize get_size_info_align",
-          "author": "jvoisin",
-          "date": "Mon Mar 16 18:45:43 2026 -0400",
-          "timestamp": 1773701143,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/0a0309e"
-        },
-        {
-          "sha": "b6df4af",
-          "message": "mark refill calls as unlikely",
-          "author": "jvoisin",
-          "date": "Mon Mar 16 18:20:18 2026 -0400",
-          "timestamp": 1773699618,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/b6df4af"
-        },
-        {
-          "sha": "70f7359",
-          "message": "replace a udiv with an add/cmp",
-          "author": "jvoisin",
-          "date": "Mon Mar 16 15:27:03 2026 -0400",
-          "timestamp": 1773689223,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/70f7359"
-        },
-        {
-          "sha": "82fb88c",
-          "message": "precompute size/slots/slab_size instead of doing it a runtime",
-          "author": "jvoisin",
-          "date": "Mon Mar 16 15:26:52 2026 -0400",
-          "timestamp": 1773689212,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/82fb88c"
-        },
-        {
-          "sha": "04a25bd",
-          "message": "Support GCC16",
-          "author": "underscorejoser",
-          "date": "Mon Mar 9 02:32:27 2026 -0400",
-          "timestamp": 1773037947,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/04a25bd"
-        },
-        {
-          "sha": "09b4f9a",
-          "message": "Removing \"[future]\" tag in documentation",
-          "author": "Ram Karthikeya Musti",
-          "date": "Mon Mar 2 11:44:26 2026 -0500",
-          "timestamp": 1772469866,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/09b4f9a"
-        },
-        {
-          "sha": "3bee8d3",
-          "message": "fix realloc from small sized allocations with above PAGE_SIZE alignment",
-          "author": "Daniel Micay",
-          "date": "Sun Feb 22 14:58:24 2026 -0500",
-          "timestamp": 1771790304,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/3bee8d3"
-        },
-        {
-          "sha": "1044b54",
-          "message": "update libdivide to 5.3.0",
-          "author": "Daniel Micay",
-          "date": "Mon Feb 16 11:30:28 2026 -0500",
-          "timestamp": 1771259428,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/1044b54"
         }
       ]
     },
@@ -3786,109 +3850,20 @@
       ]
     },
     {
-      "name": "device_google_akita-kernels_6.1",
-      "path": "device/google/akita-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "636e3d3",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sat Apr 18 12:47:16 2026 -0400",
-          "timestamp": 1776530836,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/636e3d3"
-        },
-        {
-          "sha": "41197b0",
-          "message": "GKI LTS update and pVM fix",
-          "author": "Daniel Micay",
-          "date": "Tue Apr 14 17:51:54 2026 -0400",
-          "timestamp": 1776203514,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/41197b0"
-        },
-        {
-          "sha": "69092aa",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 26 21:37:07 2026 -0400",
-          "timestamp": 1774575427,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/69092aa"
-        },
-        {
-          "sha": "26f46db",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Mar 17 22:00:37 2026 -0400",
-          "timestamp": 1773799237,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/26f46db"
-        },
-        {
-          "sha": "2f6185e",
-          "message": "remove legacy kernel headers directories",
-          "author": "Daniel Micay",
-          "date": "Fri Mar 13 11:21:38 2026 -0400",
-          "timestamp": 1773415298,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/2f6185e"
-        },
-        {
-          "sha": "c15e764",
-          "message": "Android 16 QPR3",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 5 07:36:29 2026 -0500",
-          "timestamp": 1772714189,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/c15e764"
-        },
-        {
-          "sha": "ec94123",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 28 12:38:01 2026 -0500",
-          "timestamp": 1772300281,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/ec94123"
-        },
-        {
-          "sha": "84f7f8c",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Feb 12 16:48:29 2026 -0500",
-          "timestamp": 1770932909,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/84f7f8c"
-        },
-        {
-          "sha": "9618261",
-          "message": "pKVM forced module signing compatibility fix",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 7 12:15:28 2026 -0500",
-          "timestamp": 1770484528,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/9618261"
-        },
-        {
-          "sha": "f5ab771",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Feb 3 18:10:21 2026 -0500",
-          "timestamp": 1770160221,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/f5ab771"
-        },
-        {
-          "sha": "fe5e9c6",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:54:07 2026 -0500",
-          "timestamp": 1768899247,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/fe5e9c6"
-        }
-      ]
-    },
-    {
       "name": "device_google_bluejay-kernels_6.1",
       "path": "device/google/bluejay-kernels/6.1",
       "repo_url": "https://github.com/GrapheneOS/device_google_bluejay-kernels_6.1",
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "7942c5b",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 17:48:57 2026 -0400",
+          "timestamp": 1776721737,
+          "url": "https://github.com/GrapheneOS/device_google_bluejay-kernels_6.1/commit/7942c5b"
+        },
         {
           "sha": "3565698",
           "message": "rebuild with latest changes",
@@ -3968,402 +3943,103 @@
           "date": "Tue Feb 3 18:39:10 2026 -0500",
           "timestamp": 1770161950,
           "url": "https://github.com/GrapheneOS/device_google_bluejay-kernels_6.1/commit/e682c32"
-        },
-        {
-          "sha": "d877099",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:30:04 2026 -0500",
-          "timestamp": 1768897804,
-          "url": "https://github.com/GrapheneOS/device_google_bluejay-kernels_6.1/commit/d877099"
         }
       ]
     },
     {
-      "name": "device_google_pantah-kernels_6.1",
-      "path": "device/google/pantah-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1",
+      "name": "device_google_akita-kernels_6.1",
+      "path": "device/google/akita-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
         {
-          "sha": "07e4889",
+          "sha": "82985a3",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sat Apr 18 12:14:34 2026 -0400",
-          "timestamp": 1776528874,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/07e4889"
+          "date": "Mon Apr 20 18:01:36 2026 -0400",
+          "timestamp": 1776722496,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/82985a3"
         },
         {
-          "sha": "7eef977",
-          "message": "GKI LTS update and pVM fix",
-          "author": "Daniel Micay",
-          "date": "Tue Apr 14 17:25:44 2026 -0400",
-          "timestamp": 1776201944,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/7eef977"
-        },
-        {
-          "sha": "8a2b3de",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 26 21:08:12 2026 -0400",
-          "timestamp": 1774573692,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/8a2b3de"
-        },
-        {
-          "sha": "de881c6",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Mar 17 21:41:38 2026 -0400",
-          "timestamp": 1773798098,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/de881c6"
-        },
-        {
-          "sha": "03ff365",
-          "message": "remove legacy kernel headers directories",
-          "author": "Daniel Micay",
-          "date": "Fri Mar 13 11:23:26 2026 -0400",
-          "timestamp": 1773415406,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/03ff365"
-        },
-        {
-          "sha": "eaca247",
-          "message": "Android 16 QPR3",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 5 07:36:19 2026 -0500",
-          "timestamp": 1772714179,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/eaca247"
-        },
-        {
-          "sha": "f6986fb",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 28 12:15:39 2026 -0500",
-          "timestamp": 1772298939,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/f6986fb"
-        },
-        {
-          "sha": "13faedc",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Feb 12 16:48:52 2026 -0500",
-          "timestamp": 1770932932,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/13faedc"
-        },
-        {
-          "sha": "7ba0894",
-          "message": "pKVM forced module signing compatibility fix",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 7 15:54:08 2026 -0500",
-          "timestamp": 1770497648,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/7ba0894"
-        },
-        {
-          "sha": "51533b2",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Feb 3 18:39:09 2026 -0500",
-          "timestamp": 1770161949,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/51533b2"
-        },
-        {
-          "sha": "944c183",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:30:06 2026 -0500",
-          "timestamp": 1768897806,
-          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/944c183"
-        }
-      ]
-    },
-    {
-      "name": "device_google_felix-kernels_6.1",
-      "path": "device/google/felix-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "02393cc",
+          "sha": "636e3d3",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sat Apr 18 12:33:53 2026 -0400",
-          "timestamp": 1776530033,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/02393cc"
+          "date": "Sat Apr 18 12:47:16 2026 -0400",
+          "timestamp": 1776530836,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/636e3d3"
         },
         {
-          "sha": "8c1685b",
+          "sha": "41197b0",
           "message": "GKI LTS update and pVM fix",
           "author": "Daniel Micay",
-          "date": "Tue Apr 14 17:51:48 2026 -0400",
-          "timestamp": 1776203508,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/8c1685b"
+          "date": "Tue Apr 14 17:51:54 2026 -0400",
+          "timestamp": 1776203514,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/41197b0"
         },
         {
-          "sha": "aad7895",
+          "sha": "69092aa",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Thu Mar 26 21:32:19 2026 -0400",
-          "timestamp": 1774575139,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/aad7895"
+          "date": "Thu Mar 26 21:37:07 2026 -0400",
+          "timestamp": 1774575427,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/69092aa"
         },
         {
-          "sha": "d43a91b",
+          "sha": "26f46db",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Mar 17 21:49:45 2026 -0400",
-          "timestamp": 1773798585,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/d43a91b"
+          "date": "Tue Mar 17 22:00:37 2026 -0400",
+          "timestamp": 1773799237,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/26f46db"
         },
         {
-          "sha": "4e79c42",
+          "sha": "2f6185e",
           "message": "remove legacy kernel headers directories",
           "author": "Daniel Micay",
-          "date": "Fri Mar 13 11:22:10 2026 -0400",
-          "timestamp": 1773415330,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/4e79c42"
+          "date": "Fri Mar 13 11:21:38 2026 -0400",
+          "timestamp": 1773415298,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/2f6185e"
         },
         {
-          "sha": "a30ed51",
+          "sha": "c15e764",
           "message": "Android 16 QPR3",
           "author": "Daniel Micay",
-          "date": "Thu Mar 5 07:36:25 2026 -0500",
-          "timestamp": 1772714185,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/a30ed51"
+          "date": "Thu Mar 5 07:36:29 2026 -0500",
+          "timestamp": 1772714189,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/c15e764"
         },
         {
-          "sha": "9fc0851",
+          "sha": "ec94123",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Sat Feb 28 12:15:58 2026 -0500",
-          "timestamp": 1772298958,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/9fc0851"
+          "date": "Sat Feb 28 12:38:01 2026 -0500",
+          "timestamp": 1772300281,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/ec94123"
         },
         {
-          "sha": "631d5f4",
+          "sha": "84f7f8c",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Thu Feb 12 16:48:39 2026 -0500",
-          "timestamp": 1770932919,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/631d5f4"
+          "date": "Thu Feb 12 16:48:29 2026 -0500",
+          "timestamp": 1770932909,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/84f7f8c"
         },
         {
-          "sha": "b961650",
+          "sha": "9618261",
           "message": "pKVM forced module signing compatibility fix",
           "author": "Daniel Micay",
-          "date": "Sat Feb 7 15:54:24 2026 -0500",
-          "timestamp": 1770497664,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/b961650"
+          "date": "Sat Feb 7 12:15:28 2026 -0500",
+          "timestamp": 1770484528,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/9618261"
         },
         {
-          "sha": "55688d4",
+          "sha": "f5ab771",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Feb 3 18:23:17 2026 -0500",
-          "timestamp": 1770160997,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/55688d4"
-        },
-        {
-          "sha": "e521955",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:54:00 2026 -0500",
-          "timestamp": 1768899240,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/e521955"
-        }
-      ]
-    },
-    {
-      "name": "device_google_lynx-kernels_6.1",
-      "path": "device/google/lynx-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "9953d1f",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sat Apr 18 12:20:08 2026 -0400",
-          "timestamp": 1776529208,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/9953d1f"
-        },
-        {
-          "sha": "2f4a0bf",
-          "message": "GKI LTS update and pVM fix",
-          "author": "Daniel Micay",
-          "date": "Tue Apr 14 17:29:35 2026 -0400",
-          "timestamp": 1776202175,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/2f4a0bf"
-        },
-        {
-          "sha": "5541200",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 26 21:32:12 2026 -0400",
-          "timestamp": 1774575132,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/5541200"
-        },
-        {
-          "sha": "046b7cc",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Mar 17 21:49:34 2026 -0400",
-          "timestamp": 1773798574,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/046b7cc"
-        },
-        {
-          "sha": "d5ae575",
-          "message": "remove legacy kernel headers directories",
-          "author": "Daniel Micay",
-          "date": "Fri Mar 13 11:23:11 2026 -0400",
-          "timestamp": 1773415391,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/d5ae575"
-        },
-        {
-          "sha": "cc17b0c",
-          "message": "Android 16 QPR3",
-          "author": "Daniel Micay",
-          "date": "Wed Mar 4 19:33:20 2026 -0500",
-          "timestamp": 1772670800,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/cc17b0c"
-        },
-        {
-          "sha": "5673cf3",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 28 12:15:47 2026 -0500",
-          "timestamp": 1772298947,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/5673cf3"
-        },
-        {
-          "sha": "16f0369",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Feb 12 16:54:24 2026 -0500",
-          "timestamp": 1770933264,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/16f0369"
-        },
-        {
-          "sha": "18ef630",
-          "message": "pKVM forced module signing compatibility fix",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 7 12:15:18 2026 -0500",
-          "timestamp": 1770484518,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/18ef630"
-        },
-        {
-          "sha": "7e26091",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Feb 3 18:25:39 2026 -0500",
-          "timestamp": 1770161139,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/7e26091"
-        },
-        {
-          "sha": "b3f8290",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:30:15 2026 -0500",
-          "timestamp": 1768897815,
-          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/b3f8290"
-        }
-      ]
-    },
-    {
-      "name": "device_google_caimito-kernels_6.1",
-      "path": "device/google/caimito-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "1a14aef",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sat Apr 18 12:47:17 2026 -0400",
-          "timestamp": 1776530837,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/1a14aef"
-        },
-        {
-          "sha": "cd154ae",
-          "message": "GKI LTS update and pVM fix",
-          "author": "Daniel Micay",
-          "date": "Tue Apr 14 18:25:26 2026 -0400",
-          "timestamp": 1776205526,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/cd154ae"
-        },
-        {
-          "sha": "0ded23a",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 26 21:50:18 2026 -0400",
-          "timestamp": 1774576218,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/0ded23a"
-        },
-        {
-          "sha": "ec35e9d",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Mar 17 22:00:48 2026 -0400",
-          "timestamp": 1773799248,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/ec35e9d"
-        },
-        {
-          "sha": "cb9f856",
-          "message": "remove legacy kernel headers directories",
-          "author": "Daniel Micay",
-          "date": "Fri Mar 13 11:21:54 2026 -0400",
-          "timestamp": 1773415314,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/cb9f856"
-        },
-        {
-          "sha": "0e026d6",
-          "message": "Android 16 QPR3",
-          "author": "Daniel Micay",
-          "date": "Thu Mar 5 07:36:31 2026 -0500",
-          "timestamp": 1772714191,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/0e026d6"
-        },
-        {
-          "sha": "84844ca",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 28 12:26:03 2026 -0500",
-          "timestamp": 1772299563,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/84844ca"
-        },
-        {
-          "sha": "5c53d3c",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Thu Feb 12 16:48:23 2026 -0500",
-          "timestamp": 1770932903,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/5c53d3c"
-        },
-        {
-          "sha": "0cf644e",
-          "message": "pKVM forced module signing compatibility fix",
-          "author": "Daniel Micay",
-          "date": "Sat Feb 7 12:15:34 2026 -0500",
-          "timestamp": 1770484534,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/0cf644e"
-        },
-        {
-          "sha": "916e668",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Feb 3 18:10:30 2026 -0500",
-          "timestamp": 1770160230,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/916e668"
-        },
-        {
-          "sha": "dd75030",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:57:50 2026 -0500",
-          "timestamp": 1768899470,
-          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/dd75030"
+          "date": "Tue Feb 3 18:10:21 2026 -0500",
+          "timestamp": 1770160221,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/f5ab771"
         }
       ]
     },
@@ -4374,6 +4050,14 @@
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "627483b",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 13:22:03 2026 -0400",
+          "timestamp": 1776619323,
+          "url": "https://github.com/GrapheneOS/device_google_laguna-kernels_6.6/commit/627483b"
+        },
         {
           "sha": "2626501",
           "message": "rebuild with latest changes",
@@ -4453,14 +4137,200 @@
           "date": "Tue Feb 3 19:11:01 2026 -0500",
           "timestamp": 1770163861,
           "url": "https://github.com/GrapheneOS/device_google_laguna-kernels_6.6/commit/d3238f5"
+        }
+      ]
+    },
+    {
+      "name": "device_google_caimito-kernels_6.1",
+      "path": "device/google/caimito-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "8b7b3c6",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 18:01:40 2026 -0400",
+          "timestamp": 1776722500,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/8b7b3c6"
         },
         {
-          "sha": "53b2ed8",
+          "sha": "1a14aef",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sat Apr 18 12:47:17 2026 -0400",
+          "timestamp": 1776530837,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/1a14aef"
+        },
+        {
+          "sha": "cd154ae",
+          "message": "GKI LTS update and pVM fix",
+          "author": "Daniel Micay",
+          "date": "Tue Apr 14 18:25:26 2026 -0400",
+          "timestamp": 1776205526,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/cd154ae"
+        },
+        {
+          "sha": "0ded23a",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:10:59 2026 -0500",
-          "timestamp": 1768896659,
-          "url": "https://github.com/GrapheneOS/device_google_laguna-kernels_6.6/commit/53b2ed8"
+          "date": "Thu Mar 26 21:50:18 2026 -0400",
+          "timestamp": 1774576218,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/0ded23a"
+        },
+        {
+          "sha": "ec35e9d",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Mar 17 22:00:48 2026 -0400",
+          "timestamp": 1773799248,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/ec35e9d"
+        },
+        {
+          "sha": "cb9f856",
+          "message": "remove legacy kernel headers directories",
+          "author": "Daniel Micay",
+          "date": "Fri Mar 13 11:21:54 2026 -0400",
+          "timestamp": 1773415314,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/cb9f856"
+        },
+        {
+          "sha": "0e026d6",
+          "message": "Android 16 QPR3",
+          "author": "Daniel Micay",
+          "date": "Thu Mar 5 07:36:31 2026 -0500",
+          "timestamp": 1772714191,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/0e026d6"
+        },
+        {
+          "sha": "84844ca",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 28 12:26:03 2026 -0500",
+          "timestamp": 1772299563,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/84844ca"
+        },
+        {
+          "sha": "5c53d3c",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Feb 12 16:48:23 2026 -0500",
+          "timestamp": 1770932903,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/5c53d3c"
+        },
+        {
+          "sha": "0cf644e",
+          "message": "pKVM forced module signing compatibility fix",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 7 12:15:34 2026 -0500",
+          "timestamp": 1770484534,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/0cf644e"
+        },
+        {
+          "sha": "916e668",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Feb 3 18:10:30 2026 -0500",
+          "timestamp": 1770160230,
+          "url": "https://github.com/GrapheneOS/device_google_caimito-kernels_6.1/commit/916e668"
+        }
+      ]
+    },
+    {
+      "name": "device_google_felix-kernels_6.1",
+      "path": "device/google/felix-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "5003db8",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 17:49:11 2026 -0400",
+          "timestamp": 1776721751,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/5003db8"
+        },
+        {
+          "sha": "02393cc",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sat Apr 18 12:33:53 2026 -0400",
+          "timestamp": 1776530033,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/02393cc"
+        },
+        {
+          "sha": "8c1685b",
+          "message": "GKI LTS update and pVM fix",
+          "author": "Daniel Micay",
+          "date": "Tue Apr 14 17:51:48 2026 -0400",
+          "timestamp": 1776203508,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/8c1685b"
+        },
+        {
+          "sha": "aad7895",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Mar 26 21:32:19 2026 -0400",
+          "timestamp": 1774575139,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/aad7895"
+        },
+        {
+          "sha": "d43a91b",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Mar 17 21:49:45 2026 -0400",
+          "timestamp": 1773798585,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/d43a91b"
+        },
+        {
+          "sha": "4e79c42",
+          "message": "remove legacy kernel headers directories",
+          "author": "Daniel Micay",
+          "date": "Fri Mar 13 11:22:10 2026 -0400",
+          "timestamp": 1773415330,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/4e79c42"
+        },
+        {
+          "sha": "a30ed51",
+          "message": "Android 16 QPR3",
+          "author": "Daniel Micay",
+          "date": "Thu Mar 5 07:36:25 2026 -0500",
+          "timestamp": 1772714185,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/a30ed51"
+        },
+        {
+          "sha": "9fc0851",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 28 12:15:58 2026 -0500",
+          "timestamp": 1772298958,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/9fc0851"
+        },
+        {
+          "sha": "631d5f4",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Feb 12 16:48:39 2026 -0500",
+          "timestamp": 1770932919,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/631d5f4"
+        },
+        {
+          "sha": "b961650",
+          "message": "pKVM forced module signing compatibility fix",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 7 15:54:24 2026 -0500",
+          "timestamp": 1770497664,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/b961650"
+        },
+        {
+          "sha": "55688d4",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Feb 3 18:23:17 2026 -0500",
+          "timestamp": 1770160997,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/55688d4"
         }
       ]
     },
@@ -4471,6 +4341,14 @@
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "f335a21",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 18:11:54 2026 -0400",
+          "timestamp": 1776723114,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f335a21"
+        },
         {
           "sha": "b63aade",
           "message": "rebuild with latest changes",
@@ -4550,14 +4428,200 @@
           "date": "Tue Feb 3 17:57:08 2026 -0500",
           "timestamp": 1770159428,
           "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f945f91"
+        }
+      ]
+    },
+    {
+      "name": "device_google_lynx-kernels_6.1",
+      "path": "device/google/lynx-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "e5dc342",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 17:49:13 2026 -0400",
+          "timestamp": 1776721753,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/e5dc342"
         },
         {
-          "sha": "bcc45c9",
+          "sha": "9953d1f",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sat Apr 18 12:20:08 2026 -0400",
+          "timestamp": 1776529208,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/9953d1f"
+        },
+        {
+          "sha": "2f4a0bf",
+          "message": "GKI LTS update and pVM fix",
+          "author": "Daniel Micay",
+          "date": "Tue Apr 14 17:29:35 2026 -0400",
+          "timestamp": 1776202175,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/2f4a0bf"
+        },
+        {
+          "sha": "5541200",
           "message": "GKI LTS update",
           "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:57:54 2026 -0500",
-          "timestamp": 1768899474,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bcc45c9"
+          "date": "Thu Mar 26 21:32:12 2026 -0400",
+          "timestamp": 1774575132,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/5541200"
+        },
+        {
+          "sha": "046b7cc",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Mar 17 21:49:34 2026 -0400",
+          "timestamp": 1773798574,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/046b7cc"
+        },
+        {
+          "sha": "d5ae575",
+          "message": "remove legacy kernel headers directories",
+          "author": "Daniel Micay",
+          "date": "Fri Mar 13 11:23:11 2026 -0400",
+          "timestamp": 1773415391,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/d5ae575"
+        },
+        {
+          "sha": "cc17b0c",
+          "message": "Android 16 QPR3",
+          "author": "Daniel Micay",
+          "date": "Wed Mar 4 19:33:20 2026 -0500",
+          "timestamp": 1772670800,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/cc17b0c"
+        },
+        {
+          "sha": "5673cf3",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 28 12:15:47 2026 -0500",
+          "timestamp": 1772298947,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/5673cf3"
+        },
+        {
+          "sha": "16f0369",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Feb 12 16:54:24 2026 -0500",
+          "timestamp": 1770933264,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/16f0369"
+        },
+        {
+          "sha": "18ef630",
+          "message": "pKVM forced module signing compatibility fix",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 7 12:15:18 2026 -0500",
+          "timestamp": 1770484518,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/18ef630"
+        },
+        {
+          "sha": "7e26091",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Feb 3 18:25:39 2026 -0500",
+          "timestamp": 1770161139,
+          "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/7e26091"
+        }
+      ]
+    },
+    {
+      "name": "device_google_pantah-kernels_6.1",
+      "path": "device/google/pantah-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "b15cd0d",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 17:48:56 2026 -0400",
+          "timestamp": 1776721736,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/b15cd0d"
+        },
+        {
+          "sha": "07e4889",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sat Apr 18 12:14:34 2026 -0400",
+          "timestamp": 1776528874,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/07e4889"
+        },
+        {
+          "sha": "7eef977",
+          "message": "GKI LTS update and pVM fix",
+          "author": "Daniel Micay",
+          "date": "Tue Apr 14 17:25:44 2026 -0400",
+          "timestamp": 1776201944,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/7eef977"
+        },
+        {
+          "sha": "8a2b3de",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Mar 26 21:08:12 2026 -0400",
+          "timestamp": 1774573692,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/8a2b3de"
+        },
+        {
+          "sha": "de881c6",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Mar 17 21:41:38 2026 -0400",
+          "timestamp": 1773798098,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/de881c6"
+        },
+        {
+          "sha": "03ff365",
+          "message": "remove legacy kernel headers directories",
+          "author": "Daniel Micay",
+          "date": "Fri Mar 13 11:23:26 2026 -0400",
+          "timestamp": 1773415406,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/03ff365"
+        },
+        {
+          "sha": "eaca247",
+          "message": "Android 16 QPR3",
+          "author": "Daniel Micay",
+          "date": "Thu Mar 5 07:36:19 2026 -0500",
+          "timestamp": 1772714179,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/eaca247"
+        },
+        {
+          "sha": "f6986fb",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 28 12:15:39 2026 -0500",
+          "timestamp": 1772298939,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/f6986fb"
+        },
+        {
+          "sha": "13faedc",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Thu Feb 12 16:48:52 2026 -0500",
+          "timestamp": 1770932932,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/13faedc"
+        },
+        {
+          "sha": "7ba0894",
+          "message": "pKVM forced module signing compatibility fix",
+          "author": "Daniel Micay",
+          "date": "Sat Feb 7 15:54:08 2026 -0500",
+          "timestamp": 1770497648,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/7ba0894"
+        },
+        {
+          "sha": "51533b2",
+          "message": "GKI LTS update",
+          "author": "Daniel Micay",
+          "date": "Tue Feb 3 18:39:09 2026 -0500",
+          "timestamp": 1770161949,
+          "url": "https://github.com/GrapheneOS/device_google_pantah-kernels_6.1/commit/51533b2"
         }
       ]
     },
@@ -4568,6 +4632,14 @@
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "2c8b785",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 17:48:48 2026 -0400",
+          "timestamp": 1776721728,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/2c8b785"
+        },
         {
           "sha": "b27d1f8",
           "message": "rebuild with latest changes",
@@ -4647,14 +4719,6 @@
           "date": "Tue Feb 3 18:39:15 2026 -0500",
           "timestamp": 1770161955,
           "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f244649"
-        },
-        {
-          "sha": "8c5b3f2",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:29:53 2026 -0500",
-          "timestamp": 1768897793,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/8c5b3f2"
         }
       ]
     },
@@ -4665,6 +4729,14 @@
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "6ad4688",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 18:01:33 2026 -0400",
+          "timestamp": 1776722493,
+          "url": "https://github.com/GrapheneOS/device_google_shusky-kernels_6.1/commit/6ad4688"
+        },
         {
           "sha": "b4de894",
           "message": "rebuild with latest changes",
@@ -4744,14 +4816,6 @@
           "date": "Tue Feb 3 18:10:02 2026 -0500",
           "timestamp": 1770160202,
           "url": "https://github.com/GrapheneOS/device_google_shusky-kernels_6.1/commit/82dc917"
-        },
-        {
-          "sha": "364c8e0",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:54:05 2026 -0500",
-          "timestamp": 1768899245,
-          "url": "https://github.com/GrapheneOS/device_google_shusky-kernels_6.1/commit/364c8e0"
         }
       ]
     },
@@ -4762,6 +4826,14 @@
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "b9f23d5",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 18:11:55 2026 -0400",
+          "timestamp": 1776723115,
+          "url": "https://github.com/GrapheneOS/device_google_tegu-kernels_6.1/commit/b9f23d5"
+        },
         {
           "sha": "318163e",
           "message": "rebuild with latest changes",
@@ -4841,14 +4913,6 @@
           "date": "Tue Feb 3 17:57:04 2026 -0500",
           "timestamp": 1770159424,
           "url": "https://github.com/GrapheneOS/device_google_tegu-kernels_6.1/commit/31a6636"
-        },
-        {
-          "sha": "0ebe59d",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:57:58 2026 -0500",
-          "timestamp": 1768899478,
-          "url": "https://github.com/GrapheneOS/device_google_tegu-kernels_6.1/commit/0ebe59d"
         }
       ]
     },
@@ -4859,6 +4923,14 @@
       "remote": "grapheneos",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "0d18136",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 17:49:07 2026 -0400",
+          "timestamp": 1776721747,
+          "url": "https://github.com/GrapheneOS/device_google_tangorpro-kernels_6.1/commit/0d18136"
+        },
         {
           "sha": "dca0d6b",
           "message": "rebuild with latest changes",
@@ -4938,14 +5010,6 @@
           "date": "Tue Feb 3 18:23:11 2026 -0500",
           "timestamp": 1770160991,
           "url": "https://github.com/GrapheneOS/device_google_tangorpro-kernels_6.1/commit/2aa39e4"
-        },
-        {
-          "sha": "520e3c5",
-          "message": "GKI LTS update",
-          "author": "Daniel Micay",
-          "date": "Tue Jan 20 03:53:55 2026 -0500",
-          "timestamp": 1768899235,
-          "url": "https://github.com/GrapheneOS/device_google_tangorpro-kernels_6.1/commit/520e3c5"
         }
       ]
     },
@@ -5104,69 +5168,20 @@
       ]
     },
     {
-      "name": "platform_external_libpng",
-      "path": "external/libpng",
-      "repo_url": "https://github.com/GrapheneOS/platform_external_libpng",
-      "remote": "grapheneos",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "a8f01a3",
-          "message": "Rearchitect the fix to the buffer overflow in `png_image_finish_read`",
-          "author": "Cosmin Truta",
-          "date": "Mon Jan 19 22:38:55 2026 -0500",
-          "timestamp": 1768880335,
-          "url": "https://github.com/GrapheneOS/platform_external_libpng/commit/a8f01a3"
-        },
-        {
-          "sha": "648e3de",
-          "message": "Fix a buffer overflow in `png_image_finish_read`",
-          "author": "Cosmin Truta",
-          "date": "Mon Jan 19 22:38:55 2026 -0500",
-          "timestamp": 1768880335,
-          "url": "https://github.com/GrapheneOS/platform_external_libpng/commit/648e3de"
-        },
-        {
-          "sha": "8bce921",
-          "message": "Fix a buffer overflow in `png_init_read_transformations`",
-          "author": "Cosmin Truta",
-          "date": "Mon Jan 19 22:38:55 2026 -0500",
-          "timestamp": 1768880335,
-          "url": "https://github.com/GrapheneOS/platform_external_libpng/commit/8bce921"
-        },
-        {
-          "sha": "fca3879",
-          "message": "Fix a buffer overflow in `png_do_quantize`",
-          "author": "Cosmin Truta",
-          "date": "Mon Jan 19 22:38:55 2026 -0500",
-          "timestamp": 1768880335,
-          "url": "https://github.com/GrapheneOS/platform_external_libpng/commit/fca3879"
-        },
-        {
-          "sha": "1168736",
-          "message": "Fix a memory leak in function `png_set_quantize`; refactor",
-          "author": "Cosmin Truta",
-          "date": "Mon Jan 19 22:38:55 2026 -0500",
-          "timestamp": 1768880335,
-          "url": "https://github.com/GrapheneOS/platform_external_libpng/commit/1168736"
-        },
-        {
-          "sha": "5477bdd",
-          "message": "Fix a heap buffer overflow in `png_write_image_8bit`",
-          "author": "Cosmin Truta",
-          "date": "Mon Jan 19 22:38:55 2026 -0500",
-          "timestamp": 1768880335,
-          "url": "https://github.com/GrapheneOS/platform_external_libpng/commit/5477bdd"
-        }
-      ]
-    },
-    {
       "name": "device_google_stallion-kernels_6.1",
       "path": "device/google/stallion-kernels/6.1",
       "repo_url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1",
       "remote": "grapheneos",
-      "commit_count": 5,
+      "commit_count": 6,
       "commits": [
+        {
+          "sha": "196ddd1",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Apr 20 15:04:25 2026 -0400",
+          "timestamp": 1776711865,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/196ddd1"
+        },
         {
           "sha": "f31a7e7",
           "message": "rebuild with latest changes",
@@ -5440,6 +5455,39 @@
       ]
     },
     {
+      "name": "platform_packages_modules_Virtualization",
+      "path": "packages/modules/Virtualization",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization",
+      "remote": "grapheneos",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "73626a2c",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Apr 19 12:53:36 2026 -0400",
+          "timestamp": 1776617616,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization/commit/73626a2c"
+        },
+        {
+          "sha": "97fe490d",
+          "message": "vmbase,pvmfw: aarch64: Clean dcache to PoC not PoU",
+          "author": "Pierre-Clément Tosi",
+          "date": "Sat Apr 18 11:40:34 2026 -0400",
+          "timestamp": 1776526834,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization/commit/97fe490d"
+        },
+        {
+          "sha": "a5ecfb50",
+          "message": "GrapheneOS microdroid kernel builds",
+          "author": "Daniel Micay",
+          "date": "Sat Apr 18 11:40:29 2026 -0400",
+          "timestamp": 1776526829,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization/commit/a5ecfb50"
+        }
+      ]
+    },
+    {
       "name": "platform_bionic",
       "path": "bionic",
       "repo_url": "https://github.com/GrapheneOS/platform_bionic",
@@ -5536,31 +5584,6 @@
           "date": "Wed Mar 4 13:57:30 2026 -0500",
           "timestamp": 1772650650,
           "url": "https://github.com/GrapheneOS/platform_frameworks_av/commit/96c980949"
-        }
-      ]
-    },
-    {
-      "name": "platform_packages_modules_Virtualization",
-      "path": "packages/modules/Virtualization",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization",
-      "remote": "grapheneos",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "97fe490d",
-          "message": "vmbase,pvmfw: aarch64: Clean dcache to PoC not PoU",
-          "author": "Pierre-Clément Tosi",
-          "date": "Sat Apr 18 11:40:34 2026 -0400",
-          "timestamp": 1776526834,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization/commit/97fe490d"
-        },
-        {
-          "sha": "a5ecfb50",
-          "message": "GrapheneOS microdroid kernel builds",
-          "author": "Daniel Micay",
-          "date": "Sat Apr 18 11:40:29 2026 -0400",
-          "timestamp": 1776526829,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Virtualization/commit/a5ecfb50"
         }
       ]
     },
@@ -5776,23 +5799,6 @@
       ]
     },
     {
-      "name": "platform_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "561da654b",
-          "message": "extend privileged Android Auto perm to A2dpService.getConnectionPolicy()",
-          "author": "inthewaves",
-          "date": "Wed Mar 25 20:21:41 2026 -0400",
-          "timestamp": 1774484501,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/561da654b"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_providers_ContactsProvider",
       "path": "packages/providers/ContactsProvider",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider",
@@ -5806,6 +5812,23 @@
           "date": "Mon Mar 30 10:48:12 2026 -0400",
           "timestamp": 1774882092,
           "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/6641bb4"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "561da654b",
+          "message": "extend privileged Android Auto perm to A2dpService.getConnectionPolicy()",
+          "author": "inthewaves",
+          "date": "Wed Mar 25 20:21:41 2026 -0400",
+          "timestamp": 1774484501,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/561da654b"
         }
       ]
     },
@@ -5827,23 +5850,6 @@
       ]
     },
     {
-      "name": "platform_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "56d3a244",
-          "message": "Block overriding satellite carrier config keys on user builds",
-          "author": "Jayachandran C",
-          "date": "Thu Mar 5 10:13:29 2026 -0500",
-          "timestamp": 1772723609,
-          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/56d3a244"
-        }
-      ]
-    },
-    {
       "name": "platform_system_netd",
       "path": "system/netd",
       "repo_url": "https://github.com/GrapheneOS/platform_system_netd",
@@ -5857,6 +5863,23 @@
           "date": "Mon Feb 16 09:35:25 2026 -0500",
           "timestamp": 1771252525,
           "url": "https://github.com/GrapheneOS/platform_system_netd/commit/e7c0215"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "56d3a244",
+          "message": "Block overriding satellite carrier config keys on user builds",
+          "author": "Jayachandran C",
+          "date": "Thu Mar 5 10:13:29 2026 -0500",
+          "timestamp": 1772723609,
+          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/56d3a244"
         }
       ]
     }
