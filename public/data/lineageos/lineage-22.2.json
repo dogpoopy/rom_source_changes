@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2026-05-04T02:37:40.564531+00:00",
-  "since_date": "2026-02-03",
-  "total_projects": 61,
-  "total_commits": 466,
+  "generated_at": "2026-05-07T02:38:11.096189+00:00",
+  "since_date": "2026-02-06",
+  "total_projects": 63,
+  "total_commits": 468,
   "projects": [
     {
       "name": "LineageOS/scripts",
@@ -1557,8 +1557,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 50,
+      "commit_count": 51,
       "commits": [
+        {
+          "sha": "acb0b4c",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Mon May 4 23:31:02 2026 +0000",
+          "timestamp": 1777937462,
+          "url": "https://github.com/LineageOS/hudson/commit/acb0b4c"
+        },
         {
           "sha": "a48dbc9",
           "message": "Regenerate device dependency mappings",
@@ -2223,7 +2231,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 29,
+      "commit_count": 28,
       "commits": [
         {
           "sha": "923ba5f",
@@ -2448,14 +2456,6 @@
           "date": "Tue Feb 17 00:01:42 2026 +0100",
           "timestamp": 1771282902,
           "url": "https://github.com/LineageOS/mirror/commit/dffa805"
-        },
-        {
-          "sha": "2f4b03b",
-          "message": "Updated to 03-Feb-2026 23:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Wed Feb 4 00:01:41 2026 +0100",
-          "timestamp": 1770159701,
-          "url": "https://github.com/LineageOS/mirror/commit/2f4b03b"
         }
       ]
     },
@@ -2653,79 +2653,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "8a30ce77",
-          "message": "Throw exception on MediaStore createRequest for non-existent uri",
-          "author": "Garvita Jain",
-          "date": "Thu Mar 26 22:05:41 2026 +0000",
-          "timestamp": 1774562741,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/8a30ce77"
-        },
-        {
-          "sha": "688195cc",
-          "message": "Fix ACCESS_MEDIA_LOCATION bypass via SAF picker",
-          "author": "Himanshu Arora",
-          "date": "Thu Mar 26 22:04:26 2026 +0000",
-          "timestamp": 1774562666,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/688195cc"
-        },
-        {
-          "sha": "7beb47c6",
-          "message": "Fix select button in preview for single-select",
-          "author": "Aditya Singh",
-          "date": "Thu Mar 26 22:04:07 2026 +0000",
-          "timestamp": 1774562647,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/7beb47c6"
-        },
-        {
-          "sha": "2ad1f807",
-          "message": "Revert^2 \"Fix: add confirmation step in single select mode.\"",
-          "author": "Aditya Singh",
-          "date": "Thu Mar 26 22:03:14 2026 +0000",
-          "timestamp": 1774562594,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/2ad1f807"
-        },
-        {
-          "sha": "85691c50",
-          "message": "Store calling package uid of create bulk requests for permission checks",
-          "author": "Garvita Jain",
-          "date": "Thu Mar 26 22:00:57 2026 +0000",
-          "timestamp": 1774562457,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/85691c50"
-        },
-        {
-          "sha": "8efc2b23",
-          "message": "Restore calling identity when exception is thrown",
-          "author": "darshilshah",
-          "date": "Thu Mar 26 22:00:43 2026 +0000",
-          "timestamp": 1774562443,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/8efc2b23"
-        },
-        {
-          "sha": "a5bfdd83",
-          "message": "[security-aosp-24Q3-staging] Remove default ignoreable characters before regex checks",
-          "author": "darshilshah",
-          "date": "Thu Mar 26 22:00:31 2026 +0000",
-          "timestamp": 1774562431,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/a5bfdd83"
-        },
-        {
-          "sha": "d3f0e0bf",
-          "message": "Move markMediaAsFavorite's logic from MediaStore to MediaProvider",
-          "author": "darshilshah",
-          "date": "Wed Feb 4 02:15:26 2026 +0200",
-          "timestamp": 1770164126,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/d3f0e0bf"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_Permission",
       "path": "packages/modules/Permission",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_Permission",
@@ -2787,6 +2714,112 @@
           "date": "Thu Mar 26 21:33:47 2026 +0000",
           "timestamp": 1774560827,
           "url": "https://github.com/LineageOS/android_packages_modules_Permission/commit/0959ff8d6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "8a30ce77",
+          "message": "Throw exception on MediaStore createRequest for non-existent uri",
+          "author": "Garvita Jain",
+          "date": "Thu Mar 26 22:05:41 2026 +0000",
+          "timestamp": 1774562741,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/8a30ce77"
+        },
+        {
+          "sha": "688195cc",
+          "message": "Fix ACCESS_MEDIA_LOCATION bypass via SAF picker",
+          "author": "Himanshu Arora",
+          "date": "Thu Mar 26 22:04:26 2026 +0000",
+          "timestamp": 1774562666,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/688195cc"
+        },
+        {
+          "sha": "7beb47c6",
+          "message": "Fix select button in preview for single-select",
+          "author": "Aditya Singh",
+          "date": "Thu Mar 26 22:04:07 2026 +0000",
+          "timestamp": 1774562647,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/7beb47c6"
+        },
+        {
+          "sha": "2ad1f807",
+          "message": "Revert^2 \"Fix: add confirmation step in single select mode.\"",
+          "author": "Aditya Singh",
+          "date": "Thu Mar 26 22:03:14 2026 +0000",
+          "timestamp": 1774562594,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/2ad1f807"
+        },
+        {
+          "sha": "85691c50",
+          "message": "Store calling package uid of create bulk requests for permission checks",
+          "author": "Garvita Jain",
+          "date": "Thu Mar 26 22:00:57 2026 +0000",
+          "timestamp": 1774562457,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/85691c50"
+        },
+        {
+          "sha": "8efc2b23",
+          "message": "Restore calling identity when exception is thrown",
+          "author": "darshilshah",
+          "date": "Thu Mar 26 22:00:43 2026 +0000",
+          "timestamp": 1774562443,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/8efc2b23"
+        },
+        {
+          "sha": "a5bfdd83",
+          "message": "[security-aosp-24Q3-staging] Remove default ignoreable characters before regex checks",
+          "author": "darshilshah",
+          "date": "Thu Mar 26 22:00:31 2026 +0000",
+          "timestamp": 1774562431,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/a5bfdd83"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build_release",
+      "path": "build/release",
+      "repo_url": "https://github.com/LineageOS/android_build_release",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "32d53ae3",
+          "message": "Bump Security String to 2026-05-01",
+          "author": "Nolen Johnson",
+          "date": "Tue Apr 14 00:03:33 2026 +0000",
+          "timestamp": 1776125013,
+          "url": "https://github.com/LineageOS/android_build_release/commit/32d53ae3"
+        },
+        {
+          "sha": "dd5730ce",
+          "message": "Bump Security String to 2026-04-01",
+          "author": "Nolen Johnson",
+          "date": "Mon Apr 6 19:16:12 2026 -0400",
+          "timestamp": 1775517372,
+          "url": "https://github.com/LineageOS/android_build_release/commit/dd5730ce"
+        },
+        {
+          "sha": "1401f2e4",
+          "message": "Bump Security String to 2026-03-01",
+          "author": "mse1969",
+          "date": "Fri Mar 27 12:02:34 2026 +0000",
+          "timestamp": 1774612954,
+          "url": "https://github.com/LineageOS/android_build_release/commit/1401f2e4"
+        },
+        {
+          "sha": "2a8107ff",
+          "message": "Revert \"Clean up sqlite flags in 24Q3\"",
+          "author": "Lee Shombert",
+          "date": "Thu Mar 26 20:44:01 2026 +0000",
+          "timestamp": 1774557841,
+          "url": "https://github.com/LineageOS/android_build_release/commit/2a8107ff"
         }
       ]
     },
@@ -3201,39 +3234,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_build_release",
-      "path": "build/release",
-      "repo_url": "https://github.com/LineageOS/android_build_release",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "dd5730ce",
-          "message": "Bump Security String to 2026-04-01",
-          "author": "Nolen Johnson",
-          "date": "Mon Apr 6 19:16:12 2026 -0400",
-          "timestamp": 1775517372,
-          "url": "https://github.com/LineageOS/android_build_release/commit/dd5730ce"
-        },
-        {
-          "sha": "1401f2e4",
-          "message": "Bump Security String to 2026-03-01",
-          "author": "mse1969",
-          "date": "Fri Mar 27 12:02:34 2026 +0000",
-          "timestamp": 1774612954,
-          "url": "https://github.com/LineageOS/android_build_release/commit/1401f2e4"
-        },
-        {
-          "sha": "2a8107ff",
-          "message": "Revert \"Clean up sqlite flags in 24Q3\"",
-          "author": "Lee Shombert",
-          "date": "Thu Mar 26 20:44:01 2026 +0000",
-          "timestamp": 1774557841,
-          "url": "https://github.com/LineageOS/android_build_release/commit/2a8107ff"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_lineage_atv",
       "path": "device/lineage/atv",
       "repo_url": "https://github.com/LineageOS/android_device_lineage_atv",
@@ -3300,39 +3300,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "ccf33f2",
-          "message": "Update Chromium Webview arm64 to 147.0.7727.101",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Apr 17 05:39:29 2026 -0600",
-          "timestamp": 1776425969,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/ccf33f2"
-        },
-        {
-          "sha": "61a5fb3",
-          "message": "Update Chromium Webview arm64 to 146.0.7680.153",
-          "author": "Kevin F. Haggerty",
-          "date": "Sun Mar 22 18:34:09 2026 -0600",
-          "timestamp": 1774226049,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/61a5fb3"
-        },
-        {
-          "sha": "8ea09e0",
-          "message": "Update Chromium Webview arm64 to 145.0.7632.109",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Feb 21 11:14:34 2026 -0700",
-          "timestamp": 1771697674,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/8ea09e0"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -3366,35 +3333,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "f54d51e",
-          "message": "Update Chromium Webview x86 to 147.0.7727.101",
+          "sha": "ccf33f2",
+          "message": "Update Chromium Webview arm64 to 147.0.7727.101",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Apr 17 05:32:59 2026 -0600",
-          "timestamp": 1776425579,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/f54d51e"
+          "date": "Fri Apr 17 05:39:29 2026 -0600",
+          "timestamp": 1776425969,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/ccf33f2"
         },
         {
-          "sha": "8e3d192",
-          "message": "Update Chromium Webview x86 to 146.0.7680.153",
+          "sha": "61a5fb3",
+          "message": "Update Chromium Webview arm64 to 146.0.7680.153",
           "author": "Kevin F. Haggerty",
-          "date": "Sun Mar 22 18:25:01 2026 -0600",
-          "timestamp": 1774225501,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/8e3d192"
+          "date": "Sun Mar 22 18:34:09 2026 -0600",
+          "timestamp": 1774226049,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/61a5fb3"
         },
         {
-          "sha": "2005a53",
-          "message": "Update Chromium Webview x86 to 145.0.7632.109",
+          "sha": "8ea09e0",
+          "message": "Update Chromium Webview arm64 to 145.0.7632.109",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Feb 21 11:15:07 2026 -0700",
-          "timestamp": 1771697707,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/2005a53"
+          "date": "Sat Feb 21 11:14:34 2026 -0700",
+          "timestamp": 1771697674,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/8ea09e0"
         }
       ]
     },
@@ -3428,6 +3395,39 @@
           "date": "Sat Feb 21 11:15:37 2026 -0700",
           "timestamp": 1771697737,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/0baf207"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "f54d51e",
+          "message": "Update Chromium Webview x86 to 147.0.7727.101",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Apr 17 05:32:59 2026 -0600",
+          "timestamp": 1776425579,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/f54d51e"
+        },
+        {
+          "sha": "8e3d192",
+          "message": "Update Chromium Webview x86 to 146.0.7680.153",
+          "author": "Kevin F. Haggerty",
+          "date": "Sun Mar 22 18:25:01 2026 -0600",
+          "timestamp": 1774225501,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/8e3d192"
+        },
+        {
+          "sha": "2005a53",
+          "message": "Update Chromium Webview x86 to 145.0.7632.109",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Feb 21 11:15:07 2026 -0700",
+          "timestamp": 1771697707,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/2005a53"
         }
       ]
     },
@@ -3630,6 +3630,39 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_lineage",
+      "path": "vendor/lineage",
+      "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "87f03bd",
+          "message": "Fix quoting in argument forward of `repopick`",
+          "author": "Alexander Grund",
+          "date": "Sun Apr 19 17:28:01 2026 +0200",
+          "timestamp": 1776612481,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/87f03bd"
+        },
+        {
+          "sha": "bfb7b66",
+          "message": "lineage: Move repopick to lineage/scripts",
+          "author": "Nolen Johnson",
+          "date": "Fri Apr 17 02:14:42 2026 +0000",
+          "timestamp": 1776392082,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/bfb7b66"
+        },
+        {
+          "sha": "411f663",
+          "message": "Disable yet another gms update component",
+          "author": "Michael Bestas",
+          "date": "Fri Mar 20 04:10:51 2026 +0000",
+          "timestamp": 1773979851,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/411f663"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_fm-commonsys",
       "path": "vendor/qcom/opensource/commonsys/fm",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
@@ -3742,31 +3775,6 @@
           "date": "Thu Mar 26 20:45:28 2026 +0000",
           "timestamp": 1774557928,
           "url": "https://github.com/LineageOS/android_external_sqlite/commit/eac2cd0"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "1754b106f",
-          "message": "Fix vulnerability in drmserver",
-          "author": "Kyle Zhang",
-          "date": "Thu Mar 26 20:46:22 2026 +0000",
-          "timestamp": 1774557982,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/1754b106f"
-        },
-        {
-          "sha": "de7e3cef6",
-          "message": "[audio] Avoid startOp when restrictions in place",
-          "author": "Atneya Nair",
-          "date": "Tue Feb 3 21:17:25 2026 +0000",
-          "timestamp": 1770153445,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/de7e3cef6"
         }
       ]
     },
@@ -4021,31 +4029,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_lineage",
-      "path": "vendor/lineage",
-      "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "bfb7b66",
-          "message": "lineage: Move repopick to lineage/scripts",
-          "author": "Nolen Johnson",
-          "date": "Fri Apr 17 02:14:42 2026 +0000",
-          "timestamp": 1776392082,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/bfb7b66"
-        },
-        {
-          "sha": "411f663",
-          "message": "Disable yet another gms update component",
-          "author": "Michael Bestas",
-          "date": "Fri Mar 20 04:10:51 2026 +0000",
-          "timestamp": 1773979851,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/411f663"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_build",
       "path": "build/make",
       "repo_url": "https://github.com/LineageOS/android_build",
@@ -4059,6 +4042,40 @@
           "date": "Sun Apr 19 16:52:09 2026 +0000",
           "timestamp": 1776617529,
           "url": "https://github.com/LineageOS/android_build/commit/ab5acb1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1754b106f",
+          "message": "Fix vulnerability in drmserver",
+          "author": "Kyle Zhang",
+          "date": "Thu Mar 26 20:46:22 2026 +0000",
+          "timestamp": 1774557982,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/1754b106f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "b04e9a0cc",
+          "message": "EuiccCardController: Avoid NPE for legacy euicc devices",
+          "author": "kailua",
+          "date": "Sun May 3 20:54:09 2026 +0900",
+          "timestamp": 1777809249,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/b04e9a0cc"
         }
       ]
     },
@@ -4148,23 +4165,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Recorder",
-      "path": "packages/apps/Recorder",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0928b31",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sun Mar 1 16:47:26 2026 +0000",
-          "timestamp": 1772383646,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0928b31"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Messaging",
       "path": "packages/apps/Messaging",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Messaging",
@@ -4178,6 +4178,23 @@
           "date": "Sun Mar 1 16:47:24 2026 +0000",
           "timestamp": 1772383644,
           "url": "https://github.com/LineageOS/android_packages_apps_Messaging/commit/c6ae70f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Recorder",
+      "path": "packages/apps/Recorder",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0928b31",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sun Mar 1 16:47:26 2026 +0000",
+          "timestamp": 1772383646,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0928b31"
         }
       ]
     },
@@ -4212,6 +4229,23 @@
           "date": "Sun Mar 1 16:47:29 2026 +0000",
           "timestamp": 1772383649,
           "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/886b7b956"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_adb",
+      "path": "packages/modules/adb",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_adb",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "741291b",
+          "message": "Fix EVP_PKEY_cmp usage.",
+          "author": "Joshua Duong",
+          "date": "Thu Apr 9 23:46:53 2026 -0400",
+          "timestamp": 1775792813,
+          "url": "https://github.com/LineageOS/android_packages_modules_adb/commit/741291b"
         }
       ]
     },
