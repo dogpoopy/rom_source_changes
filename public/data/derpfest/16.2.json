@@ -1,10 +1,10 @@
 {
   "rom_id": "derpfest",
   "branch": "16.2",
-  "generated_at": "2026-06-28T03:33:21.495320+00:00",
-  "since_date": "2026-03-30",
-  "total_projects": 91,
-  "total_commits": 786,
+  "generated_at": "2026-07-01T03:33:57.167282+00:00",
+  "since_date": "2026-04-02",
+  "total_projects": 102,
+  "total_commits": 901,
   "projects": [
     {
       "name": "LineageOS/android_packages_apps_Etar",
@@ -935,6 +935,30 @@
       "commit_count": 100,
       "commits": [
         {
+          "sha": "82a3130",
+          "message": "dev: sepolicy: remove merging for source rules",
+          "author": "Cosmin Tanislav",
+          "date": "Mon Jun 29 23:06:14 2026 +0300",
+          "timestamp": 1782763574,
+          "url": "https://github.com/LineageOS/scripts/commit/82a3130"
+        },
+        {
+          "sha": "48fa1fc",
+          "message": "dev: sepolicy: respect line marks when merging",
+          "author": "Cosmin Tanislav",
+          "date": "Mon Jun 29 17:44:08 2026 +0300",
+          "timestamp": 1782744248,
+          "url": "https://github.com/LineageOS/scripts/commit/48fa1fc"
+        },
+        {
+          "sha": "838a94b",
+          "message": "dev: sepolicy: guard macros producing absent memberships",
+          "author": "Cosmin Tanislav",
+          "date": "Mon Jun 29 17:44:08 2026 +0300",
+          "timestamp": 1782744248,
+          "url": "https://github.com/LineageOS/scripts/commit/838a94b"
+        },
+        {
           "sha": "009845f",
           "message": "pixel: Fix running device.sh from anywhere but $TOP",
           "author": "TechPanelGM",
@@ -1709,30 +1733,815 @@
           "date": "Tue Jun 16 20:17:03 2026 +0300",
           "timestamp": 1781630223,
           "url": "https://github.com/LineageOS/scripts/commit/59b4a39"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "repo_url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater",
+      "remote": "derp",
+      "commit_count": 100,
+      "commits": [
+        {
+          "sha": "c37c8cf",
+          "message": "Updater: Replace checking animation with arrow down lottie",
+          "author": "NurKeinNeid",
+          "date": "Sun Jun 28 18:46:11 2026 +0200",
+          "timestamp": 1782665171,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/c37c8cf"
         },
         {
-          "sha": "5ae002f",
-          "message": "dev: sepolicy: improve macro rules sorting heuristic",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/5ae002f"
+          "sha": "41fe29b",
+          "message": "Updater: Update issue reporting URL to DerpFest repository",
+          "author": "NurKeinNeid",
+          "date": "Sun Jun 28 18:41:27 2026 +0200",
+          "timestamp": 1782664887,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/41fe29b"
         },
         {
-          "sha": "f6b63e5",
-          "message": "dev: sepolicy: refactor match extraction / replacement",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/f6b63e5"
+          "sha": "c8c483e",
+          "message": "Updater: Replace updater header pattern with ripple shader",
+          "author": "NurKeinNeid",
+          "date": "Sun Jun 28 18:41:22 2026 +0200",
+          "timestamp": 1782664882,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/c8c483e"
         },
         {
-          "sha": "2b998eb",
-          "message": "dev: sepolicy: avoid re-creating macro rules list",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/2b998eb"
+          "sha": "d97ab8c",
+          "message": "Updater: Tweak header logo size and top spacing",
+          "author": "NurKeinNeid",
+          "date": "Sat Jun 27 15:33:27 2026 +0530",
+          "timestamp": 1782554607,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d97ab8c"
+        },
+        {
+          "sha": "a62acd8",
+          "message": "Updater: Add device name in card",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 17:14:11 2026 +0530",
+          "timestamp": 1782474251,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/a62acd8"
+        },
+        {
+          "sha": "3e15991",
+          "message": "Updater: Update build version references to v16.2",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:38:56 2026 +0530",
+          "timestamp": 1782421736,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/3e15991"
+        },
+        {
+          "sha": "635e46a",
+          "message": "Updater: Add device metadata info and links",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:36:20 2026 +0530",
+          "timestamp": 1782421580,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/635e46a"
+        },
+        {
+          "sha": "0b10639",
+          "message": "Updater: Update header card for DerpFest",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:34:17 2026 +0530",
+          "timestamp": 1782421457,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/0b10639"
+        },
+        {
+          "sha": "73064e6",
+          "message": "Updater: Adapt json parsing for DerpFest",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:32:49 2026 +0530",
+          "timestamp": 1782421369,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/73064e6"
+        },
+        {
+          "sha": "2c02d5b",
+          "message": "Updater: Remove cryptographic signature verification for local updates",
+          "author": "rmp22",
+          "date": "Fri Jun 26 02:31:12 2026 +0530",
+          "timestamp": 1782421272,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/2c02d5b"
+        },
+        {
+          "sha": "746ce8e",
+          "message": "Updater: Drop release-type and version fetch filters",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:28:33 2026 +0530",
+          "timestamp": 1782421113,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/746ce8e"
+        },
+        {
+          "sha": "f7154ad",
+          "message": "Updater: Remove incremental build version prop stuff",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:26:13 2026 +0530",
+          "timestamp": 1782420973,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/f7154ad"
+        },
+        {
+          "sha": "da36065",
+          "message": "Rebrand to DerpFest Updater",
+          "author": "NurKeinNeid",
+          "date": "Fri Jun 26 02:19:51 2026 +0530",
+          "timestamp": 1782420591,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/da36065"
+        },
+        {
+          "sha": "73aa0c6",
+          "message": "Updater: Update server requirements in README",
+          "author": "Arian",
+          "date": "Thu Jun 25 11:05:08 2026 +0200",
+          "timestamp": 1782378308,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/73aa0c6"
+        },
+        {
+          "sha": "1581210",
+          "message": "Updater: Remove redundant NetworkUpdate fields",
+          "author": "LuK1337",
+          "date": "Thu Jun 25 10:29:11 2026 +0200",
+          "timestamp": 1782376151,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/1581210"
+        },
+        {
+          "sha": "d18ae27",
+          "message": "Updater: Stream A/B updates by default",
+          "author": "pjgowtham",
+          "date": "Wed Jun 24 15:43:22 2026 +0000",
+          "timestamp": 1782315802,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d18ae27"
+        },
+        {
+          "sha": "a6c293f",
+          "message": "Updater: Update bug report url to github",
+          "author": "Vivekachooz",
+          "date": "Wed Jun 24 11:21:19 2026 +0530",
+          "timestamp": 1782280279,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/a6c293f"
+        },
+        {
+          "sha": "330b008",
+          "message": "Updater: Use verified icon for ZeroStatePreference",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/330b008"
+        },
+        {
+          "sha": "34f63dc",
+          "message": "Updater: Hide ZeroStatePreference while check status is visible",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/34f63dc"
+        },
+        {
+          "sha": "8f21f80",
+          "message": "Updater: Make update check button tonal",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/8f21f80"
+        },
+        {
+          "sha": "1f479e2",
+          "message": "Updater: Add note about full install on update items",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/1f479e2"
+        },
+        {
+          "sha": "d67eacb",
+          "message": "Updater: Show Android version and security patch for updates",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d67eacb"
+        },
+        {
+          "sha": "a0089a5",
+          "message": "Updater: Format security patch without day",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/a0089a5"
+        },
+        {
+          "sha": "41bc95f",
+          "message": "Updater: Show update size label in update items",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/41bc95f"
+        },
+        {
+          "sha": "f594611",
+          "message": "Updater: Show year for updates outside current year",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/f594611"
+        },
+        {
+          "sha": "4fd617c",
+          "message": "Updater: Migrate to api/v2",
+          "author": "LuK1337",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/4fd617c"
+        },
+        {
+          "sha": "6c07fbe",
+          "message": "Updater: Remove unused dependencies and run generatebp",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/6c07fbe"
+        },
+        {
+          "sha": "08e9d3f",
+          "message": "Updater: Avoid showing ZeroStatePreference when checking updates",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/08e9d3f"
+        },
+        {
+          "sha": "aaa7ced",
+          "message": "UpdateList: Animate item visibility on expand/collapse",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/aaa7ced"
+        },
+        {
+          "sha": "7a7cc20",
+          "message": "Updater: Fix crash when attempting to delete update",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/7a7cc20"
+        },
+        {
+          "sha": "c075068",
+          "message": "Updater: Fix imported update persistence",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/c075068"
+        },
+        {
+          "sha": "2f4d33d",
+          "message": "Updater: Update ZeroStatePreference strings",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/2f4d33d"
+        },
+        {
+          "sha": "e199665",
+          "message": "Updater: Post-migration cleanup of UpdatesListAdapter",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/e199665"
+        },
+        {
+          "sha": "8716db2",
+          "message": "Updater: Modernize UpdatesListAdapter",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/8716db2"
+        },
+        {
+          "sha": "ffef50c",
+          "message": "Updater: Improve Utils.canInstall and migrate to InstallUtils",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/ffef50c"
+        },
+        {
+          "sha": "0a5adc3",
+          "message": "Updater: Create buttons layout for update item",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/0a5adc3"
+        },
+        {
+          "sha": "c0d4b7b",
+          "message": "Updater: Copy CollapseBar from TopIntroPreference",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/c0d4b7b"
+        },
+        {
+          "sha": "46ead38",
+          "message": "Updater: Import and utilize new vector assets for updater",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/46ead38"
+        },
+        {
+          "sha": "81ad4c6",
+          "message": "Updater: Restrict duplicate link URL capture to exclude '>'",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/81ad4c6"
+        },
+        {
+          "sha": "bb56aaf",
+          "message": "Updater: apply smoothSeconds() to ETA calculation",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/bb56aaf"
+        },
+        {
+          "sha": "546074d",
+          "message": "Updater: Increase download chunk size to 32 KiB",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/546074d"
+        },
+        {
+          "sha": "df1d457",
+          "message": "Updater: Inline functions from Utils with single call site",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/df1d457"
+        },
+        {
+          "sha": "53d59d0",
+          "message": "Updater: Use platform FileUtils for file copies",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/53d59d0"
+        },
+        {
+          "sha": "ecd3038",
+          "message": "Updater: Use ICU and java.time for date and ETA formatting",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/ecd3038"
+        },
+        {
+          "sha": "ae2b383",
+          "message": "Updater: Provide responsive wide screen split layout",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/ae2b383"
+        },
+        {
+          "sha": "785566f",
+          "message": "Updater: Open downloads page instead of copying URL",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/785566f"
+        },
+        {
+          "sha": "7aced18",
+          "message": "Updater: Drop welcome and info dialogs",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/7aced18"
+        },
+        {
+          "sha": "da85723",
+          "message": "Updater: Drop material library dependency",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/da85723"
+        },
+        {
+          "sha": "d79f2dc",
+          "message": "Updater: Introduce UpdatesCheck",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d79f2dc"
+        },
+        {
+          "sha": "0acda9b",
+          "message": "Updater: Add local Lottie composable",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/0acda9b"
+        },
+        {
+          "sha": "d89fb03",
+          "message": "Updater: Introduce DeviceInfoBanner",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d89fb03"
+        },
+        {
+          "sha": "575fc99",
+          "message": "Updater: Move preferences entry and local update prefs to footer",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/575fc99"
+        },
+        {
+          "sha": "4abf31b",
+          "message": "Updater: Drop LocalBroadcastManager usage and its dependency",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/4abf31b"
+        },
+        {
+          "sha": "5d14326",
+          "message": "Updater: Drop no_new_updates_view",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/5d14326"
+        },
+        {
+          "sha": "b16cabd",
+          "message": "Updater: Drop update check result toasts",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/b16cabd"
+        },
+        {
+          "sha": "703eaa4",
+          "message": "Updater: Show install statuses in the scaffold title",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/703eaa4"
+        },
+        {
+          "sha": "12f2c27",
+          "message": "Updater: Cleanup uncrypt files on boot completed",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/12f2c27"
+        },
+        {
+          "sha": "eefd3df",
+          "message": "Updater: Cleanup unused functions from Utils",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/eefd3df"
+        },
+        {
+          "sha": "febc645",
+          "message": "Updater: Wire up preferences screen and migrate settings access",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/febc645"
+        },
+        {
+          "sha": "d2fa25d",
+          "message": "Updater: Introduce PreferencesActivity and PreferencesScreen",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d2fa25d"
+        },
+        {
+          "sha": "97a4e44",
+          "message": "Updater: Introduce preferences/app state layer and UpdatesCheckWorker",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/97a4e44"
+        },
+        {
+          "sha": "13c3923",
+          "message": "Updater: Drop explicit AppCompat dependency",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/13c3923"
+        },
+        {
+          "sha": "e59c857",
+          "message": "Updater: Force enable expressive SPA theme",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/e59c857"
+        },
+        {
+          "sha": "4663a9f",
+          "message": "Updater: Adopt platform Settings navigation scaffold",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/4663a9f"
+        },
+        {
+          "sha": "5a32051",
+          "message": "Updater: Flatten activity hierarchy",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/5a32051"
+        },
+        {
+          "sha": "769909b",
+          "message": "Updater: Introduce UpdatesRepository and UpdatesViewModel",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/769909b"
+        },
+        {
+          "sha": "599a38f",
+          "message": "Updater: Suppress PROVIDED_RUNTIME_TOO_LOW for NetworkUpdate",
+          "author": "LuK1337",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/599a38f"
+        },
+        {
+          "sha": "d305e12",
+          "message": "Updater: Add network data source and bump minSdk to 33",
+          "author": "Luca Stefani",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d305e12"
+        },
+        {
+          "sha": "039d92f",
+          "message": "Updater: Add material 3 extended icons dependency",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/039d92f"
+        },
+        {
+          "sha": "def70e2",
+          "message": "Updater: Add datastore dependency",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/def70e2"
+        },
+        {
+          "sha": "dbc8431",
+          "message": "Updater: Add Kotlin serialization dependency and plugin",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/dbc8431"
+        },
+        {
+          "sha": "37a0383",
+          "message": "Updater: Add dependencies for OkHttp",
+          "author": "Luca Stefani",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/37a0383"
+        },
+        {
+          "sha": "e0ac185",
+          "message": "Updater: Add Kotlin dependency for livedata",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/e0ac185"
+        },
+        {
+          "sha": "33bdc21",
+          "message": "Updater: Add kotlin dependency for WorkManager",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/33bdc21"
+        },
+        {
+          "sha": "3a8cf9c",
+          "message": "Updater: Clear notification actions on download completion",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/3a8cf9c"
+        },
+        {
+          "sha": "83a01dc",
+          "message": "Updater: Centralize notifications into NotificationHelper",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/83a01dc"
+        },
+        {
+          "sha": "183357d",
+          "message": "Updater: Make refresh unavailable during update check",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/183357d"
+        },
+        {
+          "sha": "80e6da4",
+          "message": "Updater: Enforce compile-time database correctness",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/80e6da4"
+        },
+        {
+          "sha": "5676e56",
+          "message": "Updater: Consolidate into Kotlin data classes",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/5676e56"
+        },
+        {
+          "sha": "7e3df5a",
+          "message": "Updater: Prefer global string resources where available",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/7e3df5a"
+        },
+        {
+          "sha": "ccc7d4a",
+          "message": "Updater: Move pre-install checks out of the adapter into InstallUtils",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/ccc7d4a"
+        },
+        {
+          "sha": "d1d3946",
+          "message": "Updater: Introduce BatteryMonitor",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/d1d3946"
+        },
+        {
+          "sha": "5471846",
+          "message": "Updater: Introduce NetworkMonitor",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/5471846"
+        },
+        {
+          "sha": "13675f2",
+          "message": "Updater: Simplify isNetworkAvailable() in Utils",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/13675f2"
+        },
+        {
+          "sha": "2666646",
+          "message": "Updater: Make download & resume buttons network-aware",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/2666646"
+        },
+        {
+          "sha": "a90e054",
+          "message": "Updater: Revise download and installation controls",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/a90e054"
+        },
+        {
+          "sha": "b53c8c3",
+          "message": "Updater: Enforce single concurrent download",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/b53c8c3"
+        },
+        {
+          "sha": "c89a5e5",
+          "message": "Updater: Use SettingsLib SettingsOpacity for disabled alpha",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/c89a5e5"
+        },
+        {
+          "sha": "91515d5",
+          "message": "Updater: Provide extraction script to pull jars and utilize them for previews",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/91515d5"
+        },
+        {
+          "sha": "7ff07a3",
+          "message": "Updater: Match the display_name with Settings",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/7ff07a3"
+        },
+        {
+          "sha": "96812be",
+          "message": "Updater: Bump compile sdk to 36",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/96812be"
+        },
+        {
+          "sha": "f20d34e",
+          "message": "Updater: Add compose dependencies and run generatebp",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/f20d34e"
+        },
+        {
+          "sha": "35b3cf7",
+          "message": "Updater: Include Settings Provider Activity - Privileged",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/35b3cf7"
+        },
+        {
+          "sha": "0efdacd",
+          "message": "Updater: Suppress known-safe R8 duplicate warnings",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/0efdacd"
+        },
+        {
+          "sha": "f35d0ac",
+          "message": "Updater: Optimize and shrink resources",
+          "author": "Luca Stefani",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/f35d0ac"
+        },
+        {
+          "sha": "9911d82",
+          "message": "Updater: Remove stale proguard rule",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/9911d82"
+        },
+        {
+          "sha": "819133e",
+          "message": "Updater: Remove unused android-library plugin",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/819133e"
+        },
+        {
+          "sha": "5224da4",
+          "message": "Updater: Update library versions from AOSP prebuilts and public stable",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/5224da4"
+        },
+        {
+          "sha": "3a006b3",
+          "message": "Updater: Update generatebp to v1.31",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/3a006b3"
+        },
+        {
+          "sha": "1930cbc",
+          "message": "Updater: Update Gradle wrapper and AGP",
+          "author": "pjgowtham",
+          "date": "Tue Jun 23 21:57:43 2026 +0000",
+          "timestamp": 1782251863,
+          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Updater/commit/1930cbc"
         }
       ]
     },
@@ -1741,7 +2550,7 @@
       "path": "packages/apps/Settings/DerpFestCustomizations",
       "repo_url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations",
       "remote": "derp",
-      "commit_count": 64,
+      "commit_count": 59,
       "commits": [
         {
           "sha": "f6fc120",
@@ -2214,46 +3023,6 @@
           "date": "Sat Apr 4 22:13:34 2026 +0200",
           "timestamp": 1775333614,
           "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations/commit/b383d90"
-        },
-        {
-          "sha": "b8f7e53",
-          "message": "DerpFestCustomizations: Add Smartspace option for custom lock screen clock",
-          "author": "NurKeinNeid",
-          "date": "Wed Apr 1 00:43:04 2026 +0200",
-          "timestamp": 1774996984,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations/commit/b8f7e53"
-        },
-        {
-          "sha": "0831ded",
-          "message": "DerpFestCustomizations: Enhance tile icon preview functionality with color filter for 'just_icons' shape",
-          "author": "NurKeinNeid",
-          "date": "Tue Mar 31 00:56:18 2026 +0200",
-          "timestamp": 1774911378,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations/commit/0831ded"
-        },
-        {
-          "sha": "9dbc580",
-          "message": "DerpFestCustomizations: Add squaremedo ornament path and update preview functionality for tile icons",
-          "author": "NurKeinNeid",
-          "date": "Tue Mar 31 00:56:18 2026 +0200",
-          "timestamp": 1774911378,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations/commit/9dbc580"
-        },
-        {
-          "sha": "3d71067",
-          "message": "DerpFestCustomizations: QSTiles: Add a few more designs",
-          "author": "NurKeinNeid",
-          "date": "Tue Mar 31 00:56:13 2026 +0200",
-          "timestamp": 1774911373,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations/commit/3d71067"
-        },
-        {
-          "sha": "75c184d",
-          "message": "DerpFestCustomizations: Introduce Clock face feature",
-          "author": "minaripenguin",
-          "date": "Tue Mar 31 00:54:41 2026 +0200",
-          "timestamp": 1774911281,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations/commit/75c184d"
         }
       ]
     },
@@ -2603,239 +3372,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Glimpse",
-      "path": "packages/apps/Glimpse",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
-      "remote": "github",
-      "commit_count": 28,
-      "commits": [
-        {
-          "sha": "0e55840",
-          "message": "Glimpse: Handle FD open failure gracefully",
-          "author": "Vivekachooz",
-          "date": "Sat Jun 27 18:17:13 2026 +0000",
-          "timestamp": 1782584233,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/0e55840"
-        },
-        {
-          "sha": "44705bf",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:54:57 2026 +0000",
-          "timestamp": 1781546097,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/44705bf"
-        },
-        {
-          "sha": "5f78ee9",
-          "message": "Glimpse: Upload non-zipped artifact",
-          "author": "LuK1337",
-          "date": "Sat Jun 6 22:16:47 2026 +0200",
-          "timestamp": 1780777007,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5f78ee9"
-        },
-        {
-          "sha": "de94c15",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 17:55:36 2026 +0000",
-          "timestamp": 1780336536,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/de94c15"
-        },
-        {
-          "sha": "3246358",
-          "message": "Ask for unlock if trash or edit action invoked from lock screen",
-          "author": "Torsten Grote",
-          "date": "Sat May 16 10:59:06 2026 +0200",
-          "timestamp": 1778921946,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/3246358"
-        },
-        {
-          "sha": "5a54287",
-          "message": "Show share button when device is locked",
-          "author": "Torsten Grote",
-          "date": "Sat May 16 10:58:12 2026 +0200",
-          "timestamp": 1778921892,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5a54287"
-        },
-        {
-          "sha": "6823ba0",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 22:34:01 2026 +0000",
-          "timestamp": 1778884441,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6823ba0"
-        },
-        {
-          "sha": "1d912cc",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat May 2 04:38:31 2026 +0000",
-          "timestamp": 1777696711,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/1d912cc"
-        },
-        {
-          "sha": "e632955",
-          "message": "Glimpse: Drop LineageOS copyright years",
-          "author": "Michael Bestas",
-          "date": "Sat Apr 25 22:46:32 2026 +0000",
-          "timestamp": 1777157192,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e632955"
-        },
-        {
-          "sha": "a77329f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 19:24:13 2026 +0000",
-          "timestamp": 1776281053,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a77329f"
-        },
-        {
-          "sha": "6148672",
-          "message": "Glimpse: Extract and use URI media metadata",
-          "author": "GuidixX",
-          "date": "Fri Apr 10 00:03:17 2026 +0200",
-          "timestamp": 1775772197,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6148672"
-        },
-        {
-          "sha": "cb20c0c",
-          "message": "Glimpse: Add remember video playback position option",
-          "author": "GuidixX",
-          "date": "Fri Apr 10 00:03:17 2026 +0200",
-          "timestamp": 1775772197,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/cb20c0c"
-        },
-        {
-          "sha": "dded7df",
-          "message": "Glimpse: Add edge tap navigation for media viewer",
-          "author": "Guidix",
-          "date": "Fri Apr 10 00:03:17 2026 +0200",
-          "timestamp": 1775772197,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/dded7df"
-        },
-        {
-          "sha": "0390ac6",
-          "message": "Glimpse: Add settings to toggle video player controls",
-          "author": "Guidix",
-          "date": "Fri Apr 10 00:03:17 2026 +0200",
-          "timestamp": 1775772197,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/0390ac6"
-        },
-        {
-          "sha": "eca72bb",
-          "message": "Glimpse: Add double-tap seek support to video player",
-          "author": "Guidix",
-          "date": "Fri Apr 10 00:03:17 2026 +0200",
-          "timestamp": 1775772197,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/eca72bb"
-        },
-        {
-          "sha": "c1378fd",
-          "message": "Glimpse: Wire up settings fragment",
-          "author": "Sebastiano Barezzi",
-          "date": "Fri Apr 10 00:03:17 2026 +0200",
-          "timestamp": 1775772197,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c1378fd"
-        },
-        {
-          "sha": "1dff938",
-          "message": "Glimpse: Update external libs",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:40 2026 +0200",
-          "timestamp": 1775742280,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/1dff938"
-        },
-        {
-          "sha": "152bc82",
-          "message": "Glimpse: Update androidx.media3 to 1.10.0",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:40 2026 +0200",
-          "timestamp": 1775742280,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/152bc82"
-        },
-        {
-          "sha": "d263401",
-          "message": "Glimpse: Sync dependencies to 16 QPR2",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:40 2026 +0200",
-          "timestamp": 1775742280,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/d263401"
-        },
-        {
-          "sha": "8aeaaa4",
-          "message": "Glimpse: Update generatebp to v1.32",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:40 2026 +0200",
-          "timestamp": 1775742280,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/8aeaaa4"
-        },
-        {
-          "sha": "af0245f",
-          "message": "Glimpse: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:08 2026 +0200",
-          "timestamp": 1775742248,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/af0245f"
-        },
-        {
-          "sha": "ea98358",
-          "message": "Glimpse: Get rid of the parcelize plugin",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:08 2026 +0200",
-          "timestamp": 1775742248,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/ea98358"
-        },
-        {
-          "sha": "19dc479",
-          "message": "Glimpse: Align Parcel extensions with Twelve",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:07 2026 +0200",
-          "timestamp": 1775742247,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/19dc479"
-        },
-        {
-          "sha": "5f038bd",
-          "message": "Glimpse: Reformat code",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:07 2026 +0200",
-          "timestamp": 1775742247,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5f038bd"
-        },
-        {
-          "sha": "7d4b2d0",
-          "message": "Glimpse: Use Kotlin DSL syntax for generatebp plugin config",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:07 2026 +0200",
-          "timestamp": 1775742247,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7d4b2d0"
-        },
-        {
-          "sha": "eb82ad3",
-          "message": "Glimpse: Drop android.nonTransitiveRClass",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Apr 9 15:44:07 2026 +0200",
-          "timestamp": 1775742247,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/eb82ad3"
-        },
-        {
-          "sha": "373ada1",
-          "message": "Glimpse: Update actions/*",
-          "author": "Luca Stefani",
-          "date": "Thu Apr 9 15:08:20 2026 +0200",
-          "timestamp": 1775740100,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/373ada1"
-        },
-        {
-          "sha": "88a16b1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 16:19:54 2026 +0000",
-          "timestamp": 1775060394,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/88a16b1"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Settings",
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/DerpFest-AOSP/android_packages_apps_Settings",
@@ -3065,6 +3601,231 @@
           "date": "Mon Apr 6 23:41:36 2026 +0200",
           "timestamp": 1775511696,
           "url": "https://github.com/DerpFest-AOSP/android_packages_apps_Settings/commit/81063dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
+      "remote": "github",
+      "commit_count": 27,
+      "commits": [
+        {
+          "sha": "0e55840",
+          "message": "Glimpse: Handle FD open failure gracefully",
+          "author": "Vivekachooz",
+          "date": "Sat Jun 27 18:17:13 2026 +0000",
+          "timestamp": 1782584233,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/0e55840"
+        },
+        {
+          "sha": "44705bf",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:54:57 2026 +0000",
+          "timestamp": 1781546097,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/44705bf"
+        },
+        {
+          "sha": "5f78ee9",
+          "message": "Glimpse: Upload non-zipped artifact",
+          "author": "LuK1337",
+          "date": "Sat Jun 6 22:16:47 2026 +0200",
+          "timestamp": 1780777007,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5f78ee9"
+        },
+        {
+          "sha": "de94c15",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 17:55:36 2026 +0000",
+          "timestamp": 1780336536,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/de94c15"
+        },
+        {
+          "sha": "3246358",
+          "message": "Ask for unlock if trash or edit action invoked from lock screen",
+          "author": "Torsten Grote",
+          "date": "Sat May 16 10:59:06 2026 +0200",
+          "timestamp": 1778921946,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/3246358"
+        },
+        {
+          "sha": "5a54287",
+          "message": "Show share button when device is locked",
+          "author": "Torsten Grote",
+          "date": "Sat May 16 10:58:12 2026 +0200",
+          "timestamp": 1778921892,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5a54287"
+        },
+        {
+          "sha": "6823ba0",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 22:34:01 2026 +0000",
+          "timestamp": 1778884441,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6823ba0"
+        },
+        {
+          "sha": "1d912cc",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat May 2 04:38:31 2026 +0000",
+          "timestamp": 1777696711,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/1d912cc"
+        },
+        {
+          "sha": "e632955",
+          "message": "Glimpse: Drop LineageOS copyright years",
+          "author": "Michael Bestas",
+          "date": "Sat Apr 25 22:46:32 2026 +0000",
+          "timestamp": 1777157192,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e632955"
+        },
+        {
+          "sha": "a77329f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Apr 15 19:24:13 2026 +0000",
+          "timestamp": 1776281053,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a77329f"
+        },
+        {
+          "sha": "6148672",
+          "message": "Glimpse: Extract and use URI media metadata",
+          "author": "GuidixX",
+          "date": "Fri Apr 10 00:03:17 2026 +0200",
+          "timestamp": 1775772197,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6148672"
+        },
+        {
+          "sha": "cb20c0c",
+          "message": "Glimpse: Add remember video playback position option",
+          "author": "GuidixX",
+          "date": "Fri Apr 10 00:03:17 2026 +0200",
+          "timestamp": 1775772197,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/cb20c0c"
+        },
+        {
+          "sha": "dded7df",
+          "message": "Glimpse: Add edge tap navigation for media viewer",
+          "author": "Guidix",
+          "date": "Fri Apr 10 00:03:17 2026 +0200",
+          "timestamp": 1775772197,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/dded7df"
+        },
+        {
+          "sha": "0390ac6",
+          "message": "Glimpse: Add settings to toggle video player controls",
+          "author": "Guidix",
+          "date": "Fri Apr 10 00:03:17 2026 +0200",
+          "timestamp": 1775772197,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/0390ac6"
+        },
+        {
+          "sha": "eca72bb",
+          "message": "Glimpse: Add double-tap seek support to video player",
+          "author": "Guidix",
+          "date": "Fri Apr 10 00:03:17 2026 +0200",
+          "timestamp": 1775772197,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/eca72bb"
+        },
+        {
+          "sha": "c1378fd",
+          "message": "Glimpse: Wire up settings fragment",
+          "author": "Sebastiano Barezzi",
+          "date": "Fri Apr 10 00:03:17 2026 +0200",
+          "timestamp": 1775772197,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c1378fd"
+        },
+        {
+          "sha": "1dff938",
+          "message": "Glimpse: Update external libs",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:40 2026 +0200",
+          "timestamp": 1775742280,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/1dff938"
+        },
+        {
+          "sha": "152bc82",
+          "message": "Glimpse: Update androidx.media3 to 1.10.0",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:40 2026 +0200",
+          "timestamp": 1775742280,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/152bc82"
+        },
+        {
+          "sha": "d263401",
+          "message": "Glimpse: Sync dependencies to 16 QPR2",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:40 2026 +0200",
+          "timestamp": 1775742280,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/d263401"
+        },
+        {
+          "sha": "8aeaaa4",
+          "message": "Glimpse: Update generatebp to v1.32",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:40 2026 +0200",
+          "timestamp": 1775742280,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/8aeaaa4"
+        },
+        {
+          "sha": "af0245f",
+          "message": "Glimpse: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:08 2026 +0200",
+          "timestamp": 1775742248,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/af0245f"
+        },
+        {
+          "sha": "ea98358",
+          "message": "Glimpse: Get rid of the parcelize plugin",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:08 2026 +0200",
+          "timestamp": 1775742248,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/ea98358"
+        },
+        {
+          "sha": "19dc479",
+          "message": "Glimpse: Align Parcel extensions with Twelve",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:07 2026 +0200",
+          "timestamp": 1775742247,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/19dc479"
+        },
+        {
+          "sha": "5f038bd",
+          "message": "Glimpse: Reformat code",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:07 2026 +0200",
+          "timestamp": 1775742247,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5f038bd"
+        },
+        {
+          "sha": "7d4b2d0",
+          "message": "Glimpse: Use Kotlin DSL syntax for generatebp plugin config",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:07 2026 +0200",
+          "timestamp": 1775742247,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7d4b2d0"
+        },
+        {
+          "sha": "eb82ad3",
+          "message": "Glimpse: Drop android.nonTransitiveRClass",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Apr 9 15:44:07 2026 +0200",
+          "timestamp": 1775742247,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/eb82ad3"
+        },
+        {
+          "sha": "373ada1",
+          "message": "Glimpse: Update actions/*",
+          "author": "Luca Stefani",
+          "date": "Thu Apr 9 15:08:20 2026 +0200",
+          "timestamp": 1775740100,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/373ada1"
         }
       ]
     },
@@ -3955,12 +4716,133 @@
       ]
     },
     {
+      "name": "android_vendor_overlay",
+      "path": "vendor/overlay",
+      "repo_url": "https://github.com/DerpFest-AOSP/android_vendor_overlay",
+      "remote": "derp",
+      "commit_count": 13,
+      "commits": [
+        {
+          "sha": "1e9b84d",
+          "message": "fonts: Add Ubuntu Sans & Ubuntu Sans Mono",
+          "author": "ppanzenboeck",
+          "date": "Mon Jun 8 19:12:04 2026 +0530",
+          "timestamp": 1780926124,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/1e9b84d"
+        },
+        {
+          "sha": "00e41d7",
+          "message": "overlay: Update color values for BlackTheme night mode",
+          "author": "NurKeinNeid",
+          "date": "Sun Jun 7 15:47:59 2026 +0530",
+          "timestamp": 1780827479,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/00e41d7"
+        },
+        {
+          "sha": "b81bbf9",
+          "message": "overlay: Adjust battery meter scale for BatteryStyleSmiley theme",
+          "author": "NurKeinNeid",
+          "date": "Sun Apr 19 17:05:11 2026 +0530",
+          "timestamp": 1776598511,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/b81bbf9"
+        },
+        {
+          "sha": "6549c23",
+          "message": "overlay: Add BatteryStyleBatteryInverterOverlay",
+          "author": "DrDisagree",
+          "date": "Fri Apr 17 19:38:44 2026 +0530",
+          "timestamp": 1776434924,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/6549c23"
+        },
+        {
+          "sha": "af61a32",
+          "message": "overlay: Update BatteryStyleHeart and BatteryStyleSmiley themes",
+          "author": "NurKeinNeid",
+          "date": "Fri Apr 17 19:37:35 2026 +0530",
+          "timestamp": 1776434855,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/af61a32"
+        },
+        {
+          "sha": "93ab592",
+          "message": "overlay: Add BatteryStyleHeartOverlay",
+          "author": "NurKeinNeid",
+          "date": "Fri Apr 17 19:36:20 2026 +0530",
+          "timestamp": 1776434780,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/93ab592"
+        },
+        {
+          "sha": "bcf17be",
+          "message": "overlay: Update battery meter configuration in BatteryStyleSmiley and BatteryStyleFaintUI theme",
+          "author": "NurKeinNeid",
+          "date": "Fri Apr 17 17:49:52 2026 +0200",
+          "timestamp": 1776440992,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/bcf17be"
+        },
+        {
+          "sha": "811f3bd",
+          "message": "overlay: Add BatteryStyleFaintUIOverlay",
+          "author": "DrDisagree",
+          "date": "Fri Apr 17 17:49:42 2026 +0200",
+          "timestamp": 1776440982,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/811f3bd"
+        },
+        {
+          "sha": "59152e7",
+          "message": "overlay: Add HollowSignalOverlay and HollowWiFiOverlay",
+          "author": "DrDisagree",
+          "date": "Fri Apr 17 17:49:39 2026 +0200",
+          "timestamp": 1776440979,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/59152e7"
+        },
+        {
+          "sha": "c4686e6",
+          "message": "overlay: Build battery styles and charging animations",
+          "author": "NurKeinNeid",
+          "date": "Fri Apr 17 17:49:31 2026 +0200",
+          "timestamp": 1776440971,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/c4686e6"
+        },
+        {
+          "sha": "9e5da5b",
+          "message": "adding battery styles from iconify",
+          "author": "DrDisagree",
+          "date": "Wed Apr 8 00:58:29 2026 +0200",
+          "timestamp": 1775602709,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/9e5da5b"
+        },
+        {
+          "sha": "2cdc9b8",
+          "message": "[ax_theme_engine] adding back gesture | charging animation themes",
+          "author": "rmp22",
+          "date": "Wed Apr 8 00:58:17 2026 +0200",
+          "timestamp": 1775602697,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/2cdc9b8"
+        },
+        {
+          "sha": "bd7bba3",
+          "message": "Icons: Convert to blueprint",
+          "author": "NurKeinNeid",
+          "date": "Fri Apr 3 18:20:37 2026 +0200",
+          "timestamp": 1775233237,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_overlay/commit/bd7bba3"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Aperture",
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
       "remote": "github",
       "commit_count": 12,
       "commits": [
+        {
+          "sha": "b678a0f",
+          "message": "Aperture: Force dark navigation bar in CameraActivity",
+          "author": "LuK1337",
+          "date": "Sun Jun 28 10:13:32 2026 +0200",
+          "timestamp": 1782634412,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b678a0f"
+        },
         {
           "sha": "5d4eb61",
           "message": "Automatic translation import",
@@ -4048,14 +4930,6 @@
           "date": "Thu Apr 9 15:08:05 2026 +0200",
           "timestamp": 1775740085,
           "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/94e06c2"
-        },
-        {
-          "sha": "8bb7658",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 16:19:53 2026 +0000",
-          "timestamp": 1775060393,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/8bb7658"
         }
       ]
     },
@@ -4165,12 +5039,117 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_lineage_interfaces",
+      "path": "hardware/lineage/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
+      "remote": "github",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "8258d8d",
+          "message": "power-libperfmgr: Fix sustained performance mode not turning off",
+          "author": "dianlujitao",
+          "date": "Sat Jun 27 14:15:21 2026 +0000",
+          "timestamp": 1782569721,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/8258d8d"
+        },
+        {
+          "sha": "bd63dfb",
+          "message": "light: Optionally snap RGB to the nearest pure color",
+          "author": "basamaryan",
+          "date": "Thu Jun 4 22:17:34 2026 -0700",
+          "timestamp": 1780636654,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/bd63dfb"
+        },
+        {
+          "sha": "e59aaa7",
+          "message": "interfaces: Add license files",
+          "author": "Michael Bestas",
+          "date": "Mon Apr 13 22:45:02 2026 +0300",
+          "timestamp": 1776109502,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/e59aaa7"
+        },
+        {
+          "sha": "9614aa6",
+          "message": "light: LedDevice: Write also to the brightness node with breath mode",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Apr 13 12:09:12 2026 +0000",
+          "timestamp": 1776082152,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/9614aa6"
+        },
+        {
+          "sha": "1e54f1f",
+          "message": "light: LedDevice: Properly handle on/off transition",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Apr 13 12:09:12 2026 +0000",
+          "timestamp": 1776082152,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/1e54f1f"
+        },
+        {
+          "sha": "44ca5f9",
+          "message": "light: Fix support for upstream timed light mode",
+          "author": "Michael Zh",
+          "date": "Mon Apr 13 12:09:12 2026 +0000",
+          "timestamp": 1776082152,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/44ca5f9"
+        },
+        {
+          "sha": "6fc5492",
+          "message": "light: Move stuff around, again",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Apr 13 12:09:12 2026 +0000",
+          "timestamp": 1776082152,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/6fc5492"
+        },
+        {
+          "sha": "c30971f",
+          "message": "light: Switch to SPDX copyright & remove dates",
+          "author": "Michael Bestas",
+          "date": "Mon Apr 13 12:09:12 2026 +0000",
+          "timestamp": 1776082152,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/c30971f"
+        },
+        {
+          "sha": "7d02771",
+          "message": "light: Reformat code",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Apr 13 12:09:12 2026 +0000",
+          "timestamp": 1776082152,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7d02771"
+        },
+        {
+          "sha": "2ad62f2",
+          "message": "Camera: aidl: provider: Skip broken / missing camera IDs during initialisation.",
+          "author": "Giovanni Ricca",
+          "date": "Fri Apr 10 02:55:54 2026 -0700",
+          "timestamp": 1775814954,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/2ad62f2"
+        },
+        {
+          "sha": "41c789c",
+          "message": "Camera: aidl: provider: Move remapid property to anonymous namespace",
+          "author": "Giovanni Ricca",
+          "date": "Fri Apr 10 02:55:49 2026 -0700",
+          "timestamp": 1775814949,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/41c789c"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Twelve",
       "path": "packages/apps/Twelve",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
       "remote": "github",
       "commit_count": 11,
       "commits": [
+        {
+          "sha": "503ca9f",
+          "message": "Twelve: Fix search query",
+          "author": "Timi",
+          "date": "Sun Jun 28 17:53:48 2026 +0000",
+          "timestamp": 1782669228,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/503ca9f"
+        },
         {
           "sha": "b6977d2",
           "message": "Automatic translation import",
@@ -4250,14 +5229,6 @@
           "date": "Thu Apr 9 13:14:00 2026 +0000",
           "timestamp": 1775740440,
           "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/eb0c5e4"
-        },
-        {
-          "sha": "384cc63",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 16:19:57 2026 +0000",
-          "timestamp": 1775060397,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/384cc63"
         }
       ]
     },
@@ -4355,95 +5326,6 @@
           "date": "Sat Apr 4 11:44:29 2026 +0200",
           "timestamp": 1775295869,
           "url": "https://github.com/LineageOS/android_vendor_apn/commit/9160664"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_lineage_interfaces",
-      "path": "hardware/lineage/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "bd63dfb",
-          "message": "light: Optionally snap RGB to the nearest pure color",
-          "author": "basamaryan",
-          "date": "Thu Jun 4 22:17:34 2026 -0700",
-          "timestamp": 1780636654,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/bd63dfb"
-        },
-        {
-          "sha": "e59aaa7",
-          "message": "interfaces: Add license files",
-          "author": "Michael Bestas",
-          "date": "Mon Apr 13 22:45:02 2026 +0300",
-          "timestamp": 1776109502,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/e59aaa7"
-        },
-        {
-          "sha": "9614aa6",
-          "message": "light: LedDevice: Write also to the brightness node with breath mode",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Apr 13 12:09:12 2026 +0000",
-          "timestamp": 1776082152,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/9614aa6"
-        },
-        {
-          "sha": "1e54f1f",
-          "message": "light: LedDevice: Properly handle on/off transition",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Apr 13 12:09:12 2026 +0000",
-          "timestamp": 1776082152,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/1e54f1f"
-        },
-        {
-          "sha": "44ca5f9",
-          "message": "light: Fix support for upstream timed light mode",
-          "author": "Michael Zh",
-          "date": "Mon Apr 13 12:09:12 2026 +0000",
-          "timestamp": 1776082152,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/44ca5f9"
-        },
-        {
-          "sha": "6fc5492",
-          "message": "light: Move stuff around, again",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Apr 13 12:09:12 2026 +0000",
-          "timestamp": 1776082152,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/6fc5492"
-        },
-        {
-          "sha": "c30971f",
-          "message": "light: Switch to SPDX copyright & remove dates",
-          "author": "Michael Bestas",
-          "date": "Mon Apr 13 12:09:12 2026 +0000",
-          "timestamp": 1776082152,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/c30971f"
-        },
-        {
-          "sha": "7d02771",
-          "message": "light: Reformat code",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Apr 13 12:09:12 2026 +0000",
-          "timestamp": 1776082152,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7d02771"
-        },
-        {
-          "sha": "2ad62f2",
-          "message": "Camera: aidl: provider: Skip broken / missing camera IDs during initialisation.",
-          "author": "Giovanni Ricca",
-          "date": "Fri Apr 10 02:55:54 2026 -0700",
-          "timestamp": 1775814954,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/2ad62f2"
-        },
-        {
-          "sha": "41c789c",
-          "message": "Camera: aidl: provider: Move remapid property to anonymous namespace",
-          "author": "Giovanni Ricca",
-          "date": "Fri Apr 10 02:55:49 2026 -0700",
-          "timestamp": 1775814949,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/41c789c"
         }
       ]
     },
@@ -4748,152 +5630,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_inputmethods_LatinIME",
-      "path": "packages/inputmethods/LatinIME",
-      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "e854e8c",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:55:08 2026 +0000",
-          "timestamp": 1781546108,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/e854e8c"
-        },
-        {
-          "sha": "cdc9be1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 17:55:46 2026 +0000",
-          "timestamp": 1780336546,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/cdc9be1"
-        },
-        {
-          "sha": "aeefe2f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 22:34:12 2026 +0000",
-          "timestamp": 1778884452,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/aeefe2f"
-        },
-        {
-          "sha": "b305ec6",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat May 2 04:38:37 2026 +0000",
-          "timestamp": 1777696717,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b305ec6"
-        },
-        {
-          "sha": "bfd71a2",
-          "message": "LatinIME: Add OLED theme",
-          "author": "Patrick Gaskin",
-          "date": "Wed Apr 29 22:07:32 2026 -0400",
-          "timestamp": 1777514852,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/bfd71a2"
-        },
-        {
-          "sha": "5a09139",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 19:24:19 2026 +0000",
-          "timestamp": 1776281059,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/5a09139"
-        },
-        {
-          "sha": "acb6801",
-          "message": "LatinIME: Update actions/*",
-          "author": "Luca Stefani",
-          "date": "Thu Apr 9 15:13:19 2026 +0200",
-          "timestamp": 1775740399,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/acb6801"
-        },
-        {
-          "sha": "b6aaaee",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 16:19:58 2026 +0000",
-          "timestamp": 1775060398,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b6aaaee"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_resources_devicesettings",
-      "path": "packages/resources/devicesettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "9d82204",
-          "message": "Add alert slider torch strings",
-          "author": "Arian",
-          "date": "Tue Jun 23 18:13:31 2026 +0200",
-          "timestamp": 1782231211,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/9d82204"
-        },
-        {
-          "sha": "d14439f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:55:08 2026 +0000",
-          "timestamp": 1781546108,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/d14439f"
-        },
-        {
-          "sha": "bce690b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 17:55:48 2026 +0000",
-          "timestamp": 1780336548,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/bce690b"
-        },
-        {
-          "sha": "9b8e30d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 22:34:13 2026 +0000",
-          "timestamp": 1778884453,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/9b8e30d"
-        },
-        {
-          "sha": "efae6a9",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat May 2 04:38:38 2026 +0000",
-          "timestamp": 1777696718,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/efae6a9"
-        },
-        {
-          "sha": "80482dc",
-          "message": "devicesettings: Switch to SPDX copyrights & remove LineageOS dates",
-          "author": "Michael Bestas",
-          "date": "Sat Apr 25 22:38:05 2026 +0000",
-          "timestamp": 1777156685,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/80482dc"
-        },
-        {
-          "sha": "9383343",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 19:24:19 2026 +0000",
-          "timestamp": 1776281059,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/9383343"
-        },
-        {
-          "sha": "6a49b53",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 16:19:59 2026 +0000",
-          "timestamp": 1775060399,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/6a49b53"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Catapult",
       "path": "packages/apps/Catapult",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Catapult",
@@ -5085,6 +5821,136 @@
           "date": "Thu Apr 9 15:09:43 2026 +0200",
           "timestamp": 1775740183,
           "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/729c79a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_inputmethods_LatinIME",
+      "path": "packages/inputmethods/LatinIME",
+      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "e854e8c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:55:08 2026 +0000",
+          "timestamp": 1781546108,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/e854e8c"
+        },
+        {
+          "sha": "cdc9be1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 17:55:46 2026 +0000",
+          "timestamp": 1780336546,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/cdc9be1"
+        },
+        {
+          "sha": "aeefe2f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 22:34:12 2026 +0000",
+          "timestamp": 1778884452,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/aeefe2f"
+        },
+        {
+          "sha": "b305ec6",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat May 2 04:38:37 2026 +0000",
+          "timestamp": 1777696717,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b305ec6"
+        },
+        {
+          "sha": "bfd71a2",
+          "message": "LatinIME: Add OLED theme",
+          "author": "Patrick Gaskin",
+          "date": "Wed Apr 29 22:07:32 2026 -0400",
+          "timestamp": 1777514852,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/bfd71a2"
+        },
+        {
+          "sha": "5a09139",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Apr 15 19:24:19 2026 +0000",
+          "timestamp": 1776281059,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/5a09139"
+        },
+        {
+          "sha": "acb6801",
+          "message": "LatinIME: Update actions/*",
+          "author": "Luca Stefani",
+          "date": "Thu Apr 9 15:13:19 2026 +0200",
+          "timestamp": 1775740399,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/acb6801"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "9d82204",
+          "message": "Add alert slider torch strings",
+          "author": "Arian",
+          "date": "Tue Jun 23 18:13:31 2026 +0200",
+          "timestamp": 1782231211,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/9d82204"
+        },
+        {
+          "sha": "d14439f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:55:08 2026 +0000",
+          "timestamp": 1781546108,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/d14439f"
+        },
+        {
+          "sha": "bce690b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 17:55:48 2026 +0000",
+          "timestamp": 1780336548,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/bce690b"
+        },
+        {
+          "sha": "9b8e30d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 22:34:13 2026 +0000",
+          "timestamp": 1778884453,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/9b8e30d"
+        },
+        {
+          "sha": "efae6a9",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat May 2 04:38:38 2026 +0000",
+          "timestamp": 1777696718,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/efae6a9"
+        },
+        {
+          "sha": "80482dc",
+          "message": "devicesettings: Switch to SPDX copyrights & remove LineageOS dates",
+          "author": "Michael Bestas",
+          "date": "Sat Apr 25 22:38:05 2026 +0000",
+          "timestamp": 1777156685,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/80482dc"
+        },
+        {
+          "sha": "9383343",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Apr 15 19:24:19 2026 +0000",
+          "timestamp": 1776281059,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/9383343"
         }
       ]
     },
@@ -5325,63 +6191,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_crowdin",
-      "path": "vendor/crowdin",
-      "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
-      "remote": "github",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "c46cb44",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:55:18 2026 +0000",
-          "timestamp": 1781546118,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/c46cb44"
-        },
-        {
-          "sha": "9976f71",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 17:55:58 2026 +0000",
-          "timestamp": 1780336558,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/9976f71"
-        },
-        {
-          "sha": "18d3555",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 22:34:23 2026 +0000",
-          "timestamp": 1778884463,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/18d3555"
-        },
-        {
-          "sha": "c8cec7a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat May 2 04:38:46 2026 +0000",
-          "timestamp": 1777696726,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/c8cec7a"
-        },
-        {
-          "sha": "5d708f4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 19:24:29 2026 +0000",
-          "timestamp": 1776281069,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/5d708f4"
-        },
-        {
-          "sha": "87deede",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 16:20:08 2026 +0000",
-          "timestamp": 1775060408,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/87deede"
-        }
-      ]
-    },
-    {
       "name": "android_lineage-sdk",
       "path": "lineage-sdk",
       "repo_url": "https://github.com/DerpFest-AOSP/android_lineage-sdk",
@@ -5446,12 +6255,12 @@
       "commit_count": 6,
       "commits": [
         {
-          "sha": "82b4185",
+          "sha": "7b63dd5",
           "message": "manifest: Derp it",
           "author": "NurKeinNeid",
-          "date": "Fri Jun 19 01:25:46 2026 +0200",
-          "timestamp": 1781825146,
-          "url": "https://github.com/DerpFest-AOSP/android_manifest/commit/82b4185"
+          "date": "Sun Jun 28 18:55:08 2026 +0200",
+          "timestamp": 1782665708,
+          "url": "https://github.com/DerpFest-AOSP/android_manifest/commit/7b63dd5"
         },
         {
           "sha": "a5cfe7f",
@@ -5553,6 +6362,55 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_AudioFX",
+      "path": "packages/apps/AudioFX",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "f301771",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:54:50 2026 +0000",
+          "timestamp": 1781546090,
+          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/f301771"
+        },
+        {
+          "sha": "2564d4c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 17:55:27 2026 +0000",
+          "timestamp": 1780336527,
+          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/2564d4c"
+        },
+        {
+          "sha": "e0b4a78",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 22:33:53 2026 +0000",
+          "timestamp": 1778884433,
+          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/e0b4a78"
+        },
+        {
+          "sha": "1f1796e",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat May 2 04:38:28 2026 +0000",
+          "timestamp": 1777696708,
+          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/1f1796e"
+        },
+        {
+          "sha": "2999263",
+          "message": "AudioFX: Drop LineageOS copyright years",
+          "author": "Michael Bestas",
+          "date": "Mon Apr 13 22:23:15 2026 +0300",
+          "timestamp": 1776108195,
+          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/2999263"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_kernel_configs",
       "path": "kernel/configs",
       "repo_url": "https://github.com/LineageOS/android_kernel_configs",
@@ -5602,51 +6460,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_AudioFX",
-      "path": "packages/apps/AudioFX",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
+      "name": "LineageOS/android_vendor_crowdin",
+      "path": "vendor/crowdin",
+      "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
       "remote": "github",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "f301771",
+          "sha": "c46cb44",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:54:50 2026 +0000",
-          "timestamp": 1781546090,
-          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/f301771"
+          "date": "Mon Jun 15 17:55:18 2026 +0000",
+          "timestamp": 1781546118,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/c46cb44"
         },
         {
-          "sha": "2564d4c",
+          "sha": "9976f71",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Jun 1 17:55:27 2026 +0000",
-          "timestamp": 1780336527,
-          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/2564d4c"
+          "date": "Mon Jun 1 17:55:58 2026 +0000",
+          "timestamp": 1780336558,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/9976f71"
         },
         {
-          "sha": "e0b4a78",
+          "sha": "18d3555",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Fri May 15 22:33:53 2026 +0000",
-          "timestamp": 1778884433,
-          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/e0b4a78"
+          "date": "Fri May 15 22:34:23 2026 +0000",
+          "timestamp": 1778884463,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/18d3555"
         },
         {
-          "sha": "1f1796e",
+          "sha": "c8cec7a",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Sat May 2 04:38:28 2026 +0000",
-          "timestamp": 1777696708,
-          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/1f1796e"
+          "date": "Sat May 2 04:38:46 2026 +0000",
+          "timestamp": 1777696726,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/c8cec7a"
         },
         {
-          "sha": "2999263",
-          "message": "AudioFX: Drop LineageOS copyright years",
-          "author": "Michael Bestas",
-          "date": "Mon Apr 13 22:23:15 2026 +0300",
-          "timestamp": 1776108195,
-          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/2999263"
+          "sha": "5d708f4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Apr 15 19:24:29 2026 +0000",
+          "timestamp": 1776281069,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/5d708f4"
         }
       ]
     },
@@ -5864,6 +6722,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "88b42c6",
+          "message": "extract_utils: update file on destination update",
+          "author": "Cosmin Tanislav",
+          "date": "Sun Jun 28 12:28:37 2026 +0300",
+          "timestamp": 1782638917,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/88b42c6"
+        },
+        {
+          "sha": "667024d",
+          "message": "extract_utils: Add reuse lint check in pre-commit",
+          "author": "Michael Bestas",
+          "date": "Wed Apr 15 07:16:38 2026 +0300",
+          "timestamp": 1776226598,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/667024d"
+        },
+        {
+          "sha": "27cf3cd",
+          "message": "extract: Prohibit specific files from being extracted",
+          "author": "Nolen Johnson",
+          "date": "Sun Apr 12 21:17:08 2026 +0000",
+          "timestamp": 1776028628,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/27cf3cd"
+        },
+        {
+          "sha": "7c97424",
+          "message": "extract_utils: Fix extraction of \"empty\" partitions",
+          "author": "Nolen Johnson",
+          "date": "Sat Apr 11 00:38:24 2026 +0000",
+          "timestamp": 1775867904,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/7c97424"
+        }
+      ]
+    },
+    {
       "name": "android_packages_apps_AppLocker",
       "path": "packages/apps/AppLocker",
       "repo_url": "https://github.com/DerpFest-AOSP/android_packages_apps_AppLocker",
@@ -6020,39 +6919,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6773406",
-          "message": "Update Chromium Webview arm to 149.0.7827.114",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Jun 13 20:33:37 2026 -0600",
-          "timestamp": 1781404417,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6773406"
-        },
-        {
-          "sha": "98c3cac",
-          "message": "Update Chromium Webview arm to 148.0.7778.120",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat May 9 21:53:33 2026 -0600",
-          "timestamp": 1778385213,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/98c3cac"
-        },
-        {
-          "sha": "67198c3",
-          "message": "Update Chromium Webview arm to 147.0.7727.101",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Apr 17 05:32:38 2026 -0600",
-          "timestamp": 1776425558,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/67198c3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -6082,6 +6948,39 @@
           "date": "Wed Apr 15 20:13:23 2026 -0600",
           "timestamp": 1776305603,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/520f1e5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6773406",
+          "message": "Update Chromium Webview arm to 149.0.7827.114",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Jun 13 20:33:37 2026 -0600",
+          "timestamp": 1781404417,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6773406"
+        },
+        {
+          "sha": "98c3cac",
+          "message": "Update Chromium Webview arm to 148.0.7778.120",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat May 9 21:53:33 2026 -0600",
+          "timestamp": 1778385213,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/98c3cac"
+        },
+        {
+          "sha": "67198c3",
+          "message": "Update Chromium Webview arm to 147.0.7727.101",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Apr 17 05:32:38 2026 -0600",
+          "timestamp": 1776425558,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/67198c3"
         }
       ]
     },
@@ -6185,6 +7084,39 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "40c184d18",
+          "message": "compatibility_matrices: Allow gnss AIDL v1 on target-level 7",
+          "author": "Cyber Knight",
+          "date": "Sun Jun 28 04:48:16 2026 +0000",
+          "timestamp": 1782622096,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/40c184d18"
+        },
+        {
+          "sha": "296d6ac4a",
+          "message": "compatibility_matrices: Add kernel_config_t_5.4",
+          "author": "Michael Bestas",
+          "date": "Sun May 3 18:45:24 2026 +0300",
+          "timestamp": 1777823124,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/296d6ac4a"
+        },
+        {
+          "sha": "ca6fd6bd3",
+          "message": "compatibility_matrices: Add kernel_config_t_4.19",
+          "author": "Thomas Turner",
+          "date": "Tue Apr 21 16:03:01 2026 +0100",
+          "timestamp": 1776783781,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/ca6fd6bd3"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_FMRadio",
       "path": "packages/apps/FMRadio",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
@@ -6280,39 +7212,6 @@
           "date": "Fri May 15 22:34:04 2026 +0000",
           "timestamp": 1778884444,
           "url": "https://github.com/LineageOS/android_packages_apps_Messaging/commit/2848bf3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_tools_extract-utils",
-      "path": "tools/extract-utils",
-      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "667024d",
-          "message": "extract_utils: Add reuse lint check in pre-commit",
-          "author": "Michael Bestas",
-          "date": "Wed Apr 15 07:16:38 2026 +0300",
-          "timestamp": 1776226598,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/667024d"
-        },
-        {
-          "sha": "27cf3cd",
-          "message": "extract: Prohibit specific files from being extracted",
-          "author": "Nolen Johnson",
-          "date": "Sun Apr 12 21:17:08 2026 +0000",
-          "timestamp": 1776028628,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/27cf3cd"
-        },
-        {
-          "sha": "7c97424",
-          "message": "extract_utils: Fix extraction of \"empty\" partitions",
-          "author": "Nolen Johnson",
-          "date": "Sat Apr 11 00:38:24 2026 +0000",
-          "timestamp": 1775867904,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/7c97424"
         }
       ]
     },
@@ -6532,81 +7431,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "296d6ac4a",
-          "message": "compatibility_matrices: Add kernel_config_t_5.4",
-          "author": "Michael Bestas",
-          "date": "Sun May 3 18:45:24 2026 +0300",
-          "timestamp": 1777823124,
-          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/296d6ac4a"
-        },
-        {
-          "sha": "ca6fd6bd3",
-          "message": "compatibility_matrices: Add kernel_config_t_4.19",
-          "author": "Thomas Turner",
-          "date": "Tue Apr 21 16:03:01 2026 +0100",
-          "timestamp": 1776783781,
-          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/ca6fd6bd3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8750/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "443dec4",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08000-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD",
-          "author": "Bruno Martins",
-          "date": "Fri Apr 24 16:55:21 2026 +0100",
-          "timestamp": 1777046121,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/443dec4"
-        },
-        {
-          "sha": "07e5ea7",
-          "message": "Merge ebf4440c46010863b56c4ff2cb92077ea70767b1 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Apr 1 01:56:15 2026 -0700",
-          "timestamp": 1775033775,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/07e5ea7"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_wlan",
-      "path": "hardware/qcom-caf/wlan",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "52fbb57",
-          "message": "Merge tag 'WLAN.LA.1.0.r1-09400-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into HEAD",
-          "author": "Bruno Martins",
-          "date": "Fri Apr 24 16:58:13 2026 +0100",
-          "timestamp": 1777046293,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/52fbb57"
-        },
-        {
-          "sha": "0ce7853",
-          "message": "Merge 8fda45a28b3322c272b2c531f5fb6e0acc70b114 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Apr 1 02:25:02 2026 -0700",
-          "timestamp": 1775035502,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/0ce7853"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Contacts",
       "path": "packages/apps/Contacts",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
@@ -6757,6 +7581,31 @@
       ]
     },
     {
+      "name": "android_vendor_gms",
+      "path": "vendor/gms",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_vendor_gms",
+      "remote": "codeberg",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "51aaafa",
+          "message": "SystemUIClocks: Update to mustang BP4A.260205.001",
+          "author": "NurKeinNeid",
+          "date": "Sun Apr 12 13:27:50 2026 +0200",
+          "timestamp": 1775993270,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_vendor_gms/commit/51aaafa"
+        },
+        {
+          "sha": "1ce1dce",
+          "message": "gms: Add STATUS_BAR_SERVICE permission to privapp-permissions-google-se",
+          "author": "NurKeinNeid",
+          "date": "Wed Apr 8 00:00:28 2026 +0200",
+          "timestamp": 1775599228,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_vendor_gms/commit/1ce1dce"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -6842,6 +7691,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8750/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "443dec4",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08000-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD",
+          "author": "Bruno Martins",
+          "date": "Fri Apr 24 16:55:21 2026 +0100",
+          "timestamp": 1777046121,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/443dec4"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8450-6.6/display/hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
@@ -6855,6 +7721,23 @@
           "date": "Sun May 31 13:38:53 2026 +0300",
           "timestamp": 1780223933,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/0392bf3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_wlan",
+      "path": "hardware/qcom-caf/wlan",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "52fbb57",
+          "message": "Merge tag 'WLAN.LA.1.0.r1-09400-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into HEAD",
+          "author": "Bruno Martins",
+          "date": "Fri Apr 24 16:58:13 2026 +0100",
+          "timestamp": 1777046293,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/52fbb57"
         }
       ]
     },
@@ -6910,23 +7793,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_LineageCustomizer",
-      "path": "packages/apps/LineageCustomizer",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageCustomizer",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "84b0391",
-          "message": "LineageCustomizer: Make it REUSE compatible",
-          "author": "Michael Bestas",
-          "date": "Mon Apr 13 21:43:54 2026 +0300",
-          "timestamp": 1776105834,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageCustomizer/commit/84b0391"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_KeyChain",
       "path": "packages/apps/KeyChain",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_KeyChain",
@@ -6940,6 +7806,23 @@
           "date": "Sun May 24 03:05:15 2026 -0400",
           "timestamp": 1779606315,
           "url": "https://github.com/LineageOS/android_packages_apps_KeyChain/commit/ed4de13"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_LineageCustomizer",
+      "path": "packages/apps/LineageCustomizer",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageCustomizer",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "84b0391",
+          "message": "LineageCustomizer: Make it REUSE compatible",
+          "author": "Michael Bestas",
+          "date": "Mon Apr 13 21:43:54 2026 +0300",
+          "timestamp": 1776105834,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageCustomizer/commit/84b0391"
         }
       ]
     },
@@ -7063,6 +7946,108 @@
       ]
     },
     {
+      "name": "android_packages_apps_AxThemeStore",
+      "path": "packages/apps/AxThemeStore",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_AxThemeStore",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "dd29b7c",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Mon May 25 18:33:18 2026 +0200",
+          "timestamp": 1779726798,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_AxThemeStore/commit/dd29b7c"
+        }
+      ]
+    },
+    {
+      "name": "android_frameworks_base",
+      "path": "frameworks/base",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_frameworks_base",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e69239e8",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Sun Jun 28 19:35:02 2026 +0200",
+          "timestamp": 1782668102,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_frameworks_base/commit/e69239e8"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_DerpFestParts",
+      "path": "packages/apps/DerpFestParts",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_DerpFestParts",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "298c66f",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Sat Jun 6 20:19:17 2026 +0200",
+          "timestamp": 1780769957,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_DerpFestParts/commit/298c66f"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_DerpLauncher",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_DerpLauncher",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "be9db94",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Sun Jun 28 21:34:41 2026 +0200",
+          "timestamp": 1782675281,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_DerpLauncher/commit/be9db94"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_LMOFreeform",
+      "path": "packages/apps/LMOFreeform",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_LMOFreeform",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f75902d",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Fri Jun 12 00:18:22 2026 +0200",
+          "timestamp": 1781216302,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_LMOFreeform/commit/f75902d"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_ThemePicker",
+      "path": "packages/apps/ThemePicker",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_ThemePicker",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2330eab",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Tue Jun 2 21:43:28 2026 +0200",
+          "timestamp": 1780429408,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_packages_apps_ThemePicker/commit/2330eab"
+        }
+      ]
+    },
+    {
       "name": "android_packages_modules_Permission",
       "path": "packages/modules/Permission",
       "repo_url": "https://github.com/DerpFest-AOSP/android_packages_modules_Permission",
@@ -7110,6 +8095,40 @@
           "date": "Thu Jun 11 15:25:15 2026 +0200",
           "timestamp": 1781184315,
           "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/e1f523f"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_fontage",
+      "path": "vendor/fontage",
+      "repo_url": "https://github.com/DerpFest-AOSP/android_vendor_fontage",
+      "remote": "derp",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8893e0a",
+          "message": "fonts: Add Ubuntu Sans & Ubuntu Sans Mono",
+          "author": "ppanzenboeck",
+          "date": "Mon Jun 8 22:14:40 2026 +0200",
+          "timestamp": 1780949680,
+          "url": "https://github.com/DerpFest-AOSP/android_vendor_fontage/commit/8893e0a"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_support",
+      "path": "vendor/support",
+      "repo_url": "https://codeberg.org/DerpFest-AOSP/android_vendor_support",
+      "remote": "codeberg",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8ec31b2",
+          "message": "Add files via upload",
+          "author": "gitbot",
+          "date": "Mon May 25 22:47:42 2026 +0200",
+          "timestamp": 1779742062,
+          "url": "https://codeberg.org/DerpFest-AOSP/android_vendor_support/commit/8ec31b2"
         }
       ]
     }

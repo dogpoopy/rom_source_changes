@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2026-06-28T03:32:28.340089+00:00",
-  "since_date": "2026-03-30",
+  "generated_at": "2026-07-01T03:32:57.215077+00:00",
+  "since_date": "2026-04-02",
   "total_projects": 70,
-  "total_commits": 522,
+  "total_commits": 511,
   "projects": [
     {
       "name": "LineageOS/scripts",
@@ -13,6 +13,30 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "82a3130",
+          "message": "dev: sepolicy: remove merging for source rules",
+          "author": "Cosmin Tanislav",
+          "date": "Mon Jun 29 23:06:14 2026 +0300",
+          "timestamp": 1782763574,
+          "url": "https://github.com/LineageOS/scripts/commit/82a3130"
+        },
+        {
+          "sha": "48fa1fc",
+          "message": "dev: sepolicy: respect line marks when merging",
+          "author": "Cosmin Tanislav",
+          "date": "Mon Jun 29 17:44:08 2026 +0300",
+          "timestamp": 1782744248,
+          "url": "https://github.com/LineageOS/scripts/commit/48fa1fc"
+        },
+        {
+          "sha": "838a94b",
+          "message": "dev: sepolicy: guard macros producing absent memberships",
+          "author": "Cosmin Tanislav",
+          "date": "Mon Jun 29 17:44:08 2026 +0300",
+          "timestamp": 1782744248,
+          "url": "https://github.com/LineageOS/scripts/commit/838a94b"
+        },
         {
           "sha": "009845f",
           "message": "pixel: Fix running device.sh from anywhere but $TOP",
@@ -788,30 +812,6 @@
           "date": "Tue Jun 16 20:17:03 2026 +0300",
           "timestamp": 1781630223,
           "url": "https://github.com/LineageOS/scripts/commit/59b4a39"
-        },
-        {
-          "sha": "5ae002f",
-          "message": "dev: sepolicy: improve macro rules sorting heuristic",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/5ae002f"
-        },
-        {
-          "sha": "f6b63e5",
-          "message": "dev: sepolicy: refactor match extraction / replacement",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/f6b63e5"
-        },
-        {
-          "sha": "2b998eb",
-          "message": "dev: sepolicy: avoid re-creating macro rules list",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/2b998eb"
         }
       ]
     },
@@ -822,6 +822,30 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "65189f6",
+          "message": "xpeng: Update maintainers",
+          "author": "Marc Bourgoin",
+          "date": "Mon Jun 29 06:29:18 2026 +0000",
+          "timestamp": 1782714558,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/65189f6"
+        },
+        {
+          "sha": "03dded4",
+          "message": "wiki: Fix wrong codename in before_install_h870 template",
+          "author": "razorloves",
+          "date": "Sun Jun 28 22:18:27 2026 -0500",
+          "timestamp": 1782703107,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/03dded4"
+        },
+        {
+          "sha": "fb03b84",
+          "message": "wiki: Fix a21s unlock step wording",
+          "author": "razorloves",
+          "date": "Sun Jun 28 07:59:53 2026 +0000",
+          "timestamp": 1782633593,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb03b84"
+        },
         {
           "sha": "c308483",
           "message": "wiki: Fix search underline color",
@@ -1597,30 +1621,6 @@
           "date": "Sun Apr 5 14:13:00 2026 +0200",
           "timestamp": 1775391180,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/3590097"
-        },
-        {
-          "sha": "f74ea0a",
-          "message": "wiki: Add Xperia 1 VI",
-          "author": "Igor Belwon",
-          "date": "Sun Apr 5 12:59:48 2026 +0200",
-          "timestamp": 1775386788,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/f74ea0a"
-        },
-        {
-          "sha": "0d37cd4",
-          "message": "wiki: \"HTTP Password\" -> \"HTTP Credentials\" in submitting-to-gerrit",
-          "author": "Tritratrulala002",
-          "date": "Sat Apr 4 20:16:36 2026 +0000",
-          "timestamp": 1775333796,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0d37cd4"
-        },
-        {
-          "sha": "ae13522",
-          "message": "wiki: faq: Set accordion button color",
-          "author": "Nicholas Lim",
-          "date": "Fri Apr 3 15:13:30 2026 +0800",
-          "timestamp": 1775200410,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ae13522"
         }
       ]
     },
@@ -1629,8 +1629,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 38,
+      "commit_count": 35,
       "commits": [
+        {
+          "sha": "c40c791",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Tue Jun 30 23:30:49 2026 +0000",
+          "timestamp": 1782862249,
+          "url": "https://github.com/LineageOS/hudson/commit/c40c791"
+        },
         {
           "sha": "9538197",
           "message": "fair is foul no more, happy birthday to thee",
@@ -1902,38 +1910,6 @@
           "date": "Thu Apr 2 06:41:31 2026 +0000",
           "timestamp": 1775112091,
           "url": "https://github.com/LineageOS/hudson/commit/bb5ca2f"
-        },
-        {
-          "sha": "dd8682e",
-          "message": "Regenerate device dependency mappings",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 23:30:51 2026 +0000",
-          "timestamp": 1775086251,
-          "url": "https://github.com/LineageOS/hudson/commit/dd8682e"
-        },
-        {
-          "sha": "2c4af19",
-          "message": "Regenerate device dependency mappings",
-          "author": "LineageOS Infra",
-          "date": "Tue Mar 31 23:31:00 2026 +0000",
-          "timestamp": 1774999860,
-          "url": "https://github.com/LineageOS/hudson/commit/2c4af19"
-        },
-        {
-          "sha": "a0decde",
-          "message": "shiny green stone",
-          "author": "AdarshGrewal",
-          "date": "Tue Mar 31 15:30:19 2026 +0530",
-          "timestamp": 1774951219,
-          "url": "https://github.com/LineageOS/hudson/commit/a0decde"
-        },
-        {
-          "sha": "220afe0",
-          "message": "dude has unlimited lives",
-          "author": "Tuan Anh",
-          "date": "Mon Mar 30 06:02:08 2026 +0000",
-          "timestamp": 1774850528,
-          "url": "https://github.com/LineageOS/hudson/commit/220afe0"
         }
       ]
     },
@@ -1942,7 +1918,7 @@
       "path": "frameworks/base",
       "repo_url": "https://github.com/LineageOS/android_frameworks_base",
       "remote": "github",
-      "commit_count": 31,
+      "commit_count": 30,
       "commits": [
         {
           "sha": "ff7620a3",
@@ -2183,14 +2159,6 @@
           "date": "Mon Apr 6 19:32:27 2026 -0400",
           "timestamp": 1775518347,
           "url": "https://github.com/LineageOS/android_frameworks_base/commit/d2dddf5c"
-        },
-        {
-          "sha": "3b415f2e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 21:18:39 2026 +0000",
-          "timestamp": 1775078319,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/3b415f2e"
         }
       ]
     },
@@ -2199,8 +2167,16 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 22,
+      "commit_count": 21,
       "commits": [
+        {
+          "sha": "4d7473f",
+          "message": "Updated lineage-minimal to 29-Jun-2026 10:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Mon Jun 29 12:01:54 2026 +0200",
+          "timestamp": 1782727314,
+          "url": "https://github.com/LineageOS/mirror/commit/4d7473f"
+        },
         {
           "sha": "138899b",
           "message": "Updated to 26-Jun-2026 22:01 UTC",
@@ -2360,22 +2336,6 @@
           "date": "Sat Apr 11 00:01:22 2026 +0200",
           "timestamp": 1775858482,
           "url": "https://github.com/LineageOS/mirror/commit/efed330"
-        },
-        {
-          "sha": "4f5f70f",
-          "message": "Updated to 01-Apr-2026 10:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Wed Apr 1 12:01:28 2026 +0200",
-          "timestamp": 1775037688,
-          "url": "https://github.com/LineageOS/mirror/commit/4f5f70f"
-        },
-        {
-          "sha": "28077a6",
-          "message": "Updated to 30-Mar-2026 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Tue Mar 31 00:01:32 2026 +0200",
-          "timestamp": 1774908092,
-          "url": "https://github.com/LineageOS/mirror/commit/28077a6"
         }
       ]
     },
@@ -2384,7 +2344,7 @@
       "path": "packages/apps/Seedvault",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Seedvault",
       "remote": "github",
-      "commit_count": 19,
+      "commit_count": 18,
       "commits": [
         {
           "sha": "62e13bb",
@@ -2529,14 +2489,6 @@
           "date": "Fri Apr 17 21:22:53 2026 +0300",
           "timestamp": 1776450173,
           "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/9f00002"
-        },
-        {
-          "sha": "6296818",
-          "message": "Import translations from Weblate",
-          "author": "Hosted Weblate",
-          "date": "Tue Mar 31 21:09:53 2026 +0200",
-          "timestamp": 1774984193,
-          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/6296818"
         }
       ]
     },
@@ -2962,55 +2914,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Aperture",
-      "path": "packages/apps/Aperture",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "7b79fff",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 16:10:44 2026 +0000",
-          "timestamp": 1781539844,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/7b79fff"
-        },
-        {
-          "sha": "544ee98",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 16:17:26 2026 +0000",
-          "timestamp": 1780330646,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/544ee98"
-        },
-        {
-          "sha": "89786c3",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 20:55:51 2026 +0000",
-          "timestamp": 1778878551,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/89786c3"
-        },
-        {
-          "sha": "4e41d3a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 16:59:20 2026 +0000",
-          "timestamp": 1776272360,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/4e41d3a"
-        },
-        {
-          "sha": "75bc9f3",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 21:18:44 2026 +0000",
-          "timestamp": 1775078324,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/75bc9f3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
@@ -3109,104 +3012,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Updater",
-      "path": "packages/apps/Updater",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Updater",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "01b26b2",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 16:11:02 2026 +0000",
-          "timestamp": 1781539862,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/01b26b2"
-        },
-        {
-          "sha": "a997bec",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 16:17:47 2026 +0000",
-          "timestamp": 1780330667,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/a997bec"
-        },
-        {
-          "sha": "98835ad",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 20:56:12 2026 +0000",
-          "timestamp": 1778878572,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/98835ad"
-        },
-        {
-          "sha": "3157e08",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 16:59:28 2026 +0000",
-          "timestamp": 1776272368,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/3157e08"
-        },
-        {
-          "sha": "5ac03ef",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 1 21:18:46 2026 +0000",
-          "timestamp": 1775078326,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/5ac03ef"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/cm_crowdin",
-      "path": "lineage/crowdin",
-      "repo_url": "https://github.com/LineageOS/cm_crowdin",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "12cc9a8",
-          "message": "crowdin: Normalize Joey's name everywhere",
-          "author": "Tim Schumacher",
-          "date": "Sun May 24 22:48:29 2026 +0200",
-          "timestamp": 1779655709,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/12cc9a8"
-        },
-        {
-          "sha": "b924043",
-          "message": "crowdin: Adjust generate_wiki_list() output to match lineage/wiki",
-          "author": "LuK1337",
-          "date": "Sun May 24 22:17:08 2026 +0200",
-          "timestamp": 1779653828,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/b924043"
-        },
-        {
-          "sha": "e13e093",
-          "message": "crowdin: Migrate away from distutils",
-          "author": "LuK1337",
-          "date": "Sat Apr 11 00:57:44 2026 +0200",
-          "timestamp": 1775861864,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/e13e093"
-        },
-        {
-          "sha": "26de010",
-          "message": "crowdin: Update requirements to their latest versions",
-          "author": "LuK1337",
-          "date": "Sat Apr 11 00:49:44 2026 +0200",
-          "timestamp": 1775861384,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/26de010"
-        },
-        {
-          "sha": "a7b8261",
-          "message": "config: Add hardware/xiaomi/packages/EsimSwitcher",
-          "author": "LuK1337",
-          "date": "Tue Mar 31 19:20:49 2026 +0200",
-          "timestamp": 1774977649,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/a7b8261"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_lineage-sdk",
       "path": "lineage-sdk",
       "repo_url": "https://github.com/LineageOS/android_lineage-sdk",
@@ -3244,6 +3049,47 @@
           "date": "Wed Apr 15 16:59:19 2026 +0000",
           "timestamp": 1776272359,
           "url": "https://github.com/LineageOS/android_lineage-sdk/commit/428172b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "7b79fff",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 16:10:44 2026 +0000",
+          "timestamp": 1781539844,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/7b79fff"
+        },
+        {
+          "sha": "544ee98",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 16:17:26 2026 +0000",
+          "timestamp": 1780330646,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/544ee98"
+        },
+        {
+          "sha": "89786c3",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 20:55:51 2026 +0000",
+          "timestamp": 1778878551,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/89786c3"
+        },
+        {
+          "sha": "4e41d3a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Apr 15 16:59:20 2026 +0000",
+          "timestamp": 1776272360,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/4e41d3a"
         }
       ]
     },
@@ -3371,6 +3217,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "7b992938",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 16:10:48 2026 +0000",
+          "timestamp": 1781539848,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/7b992938"
+        },
+        {
+          "sha": "f6e9f643",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 16:17:32 2026 +0000",
+          "timestamp": 1780330652,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/f6e9f643"
+        },
+        {
+          "sha": "621a77ba",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 20:55:57 2026 +0000",
+          "timestamp": 1778878557,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/621a77ba"
+        },
+        {
+          "sha": "292dd3a3",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Apr 15 16:59:22 2026 +0000",
+          "timestamp": 1776272362,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/292dd3a3"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_DocumentsUI",
       "path": "packages/apps/DocumentsUI",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI",
@@ -3449,47 +3336,6 @@
           "date": "Wed Apr 15 16:59:23 2026 +0000",
           "timestamp": 1776272363,
           "url": "https://github.com/LineageOS/android_packages_apps_Etar/commit/e933685"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "7b992938",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 16:10:48 2026 +0000",
-          "timestamp": 1781539848,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/7b992938"
-        },
-        {
-          "sha": "f6e9f643",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 16:17:32 2026 +0000",
-          "timestamp": 1780330652,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/f6e9f643"
-        },
-        {
-          "sha": "621a77ba",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 20:55:57 2026 +0000",
-          "timestamp": 1778878557,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/621a77ba"
-        },
-        {
-          "sha": "292dd3a3",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Apr 15 16:59:22 2026 +0000",
-          "timestamp": 1776272362,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/292dd3a3"
         }
       ]
     },
@@ -3658,43 +3504,43 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_inputmethods_LatinIME",
-      "path": "packages/inputmethods/LatinIME",
-      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
+      "name": "LineageOS/android_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Updater",
       "remote": "github",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "2b88fc8",
+          "sha": "01b26b2",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Jun 15 16:11:03 2026 +0000",
-          "timestamp": 1781539863,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/2b88fc8"
+          "date": "Mon Jun 15 16:11:02 2026 +0000",
+          "timestamp": 1781539862,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/01b26b2"
         },
         {
-          "sha": "9706270",
+          "sha": "a997bec",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Jun 1 16:17:48 2026 +0000",
-          "timestamp": 1780330668,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/9706270"
+          "date": "Mon Jun 1 16:17:47 2026 +0000",
+          "timestamp": 1780330667,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/a997bec"
         },
         {
-          "sha": "8f25e73",
+          "sha": "98835ad",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Fri May 15 20:56:12 2026 +0000",
           "timestamp": 1778878572,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/8f25e73"
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/98835ad"
         },
         {
-          "sha": "66c8dfc",
+          "sha": "3157e08",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Wed Apr 1 21:18:46 2026 +0000",
-          "timestamp": 1775078326,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/66c8dfc"
+          "date": "Wed Apr 15 16:59:28 2026 +0000",
+          "timestamp": 1776272368,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/3157e08"
         }
       ]
     },
@@ -3818,6 +3664,47 @@
           "date": "Wed Apr 15 16:59:28 2026 +0000",
           "timestamp": 1776272368,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/636610e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/cm_crowdin",
+      "path": "lineage/crowdin",
+      "repo_url": "https://github.com/LineageOS/cm_crowdin",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "12cc9a8",
+          "message": "crowdin: Normalize Joey's name everywhere",
+          "author": "Tim Schumacher",
+          "date": "Sun May 24 22:48:29 2026 +0200",
+          "timestamp": 1779655709,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/12cc9a8"
+        },
+        {
+          "sha": "b924043",
+          "message": "crowdin: Adjust generate_wiki_list() output to match lineage/wiki",
+          "author": "LuK1337",
+          "date": "Sun May 24 22:17:08 2026 +0200",
+          "timestamp": 1779653828,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/b924043"
+        },
+        {
+          "sha": "e13e093",
+          "message": "crowdin: Migrate away from distutils",
+          "author": "LuK1337",
+          "date": "Sat Apr 11 00:57:44 2026 +0200",
+          "timestamp": 1775861864,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/e13e093"
+        },
+        {
+          "sha": "26de010",
+          "message": "crowdin: Update requirements to their latest versions",
+          "author": "LuK1337",
+          "date": "Sat Apr 11 00:49:44 2026 +0200",
+          "timestamp": 1775861384,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/26de010"
         }
       ]
     },
@@ -4020,39 +3907,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_dng_sdk",
-      "path": "external/dng_sdk",
-      "repo_url": "https://github.com/LineageOS/android_external_dng_sdk",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "54cfb8f",
-          "message": "Update dng_sdk to 1.7.1 2471",
-          "author": "John Reck",
-          "date": "Mon May 25 00:20:13 2026 -0400",
-          "timestamp": 1779682813,
-          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/54cfb8f"
-        },
-        {
-          "sha": "1c06e1e",
-          "message": "Replace ubsan-minimal with throw",
-          "author": "John Reck",
-          "date": "Mon May 25 00:20:08 2026 -0400",
-          "timestamp": 1779682808,
-          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/1c06e1e"
-        },
-        {
-          "sha": "bf8b7af",
-          "message": "Handle underflows in dng_opcode_MapTable",
-          "author": "John Reck",
-          "date": "Mon Apr 6 19:29:29 2026 -0400",
-          "timestamp": 1775518169,
-          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/bf8b7af"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "path": "external/chromium-webview/prebuilt/x86_64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
@@ -4082,6 +3936,39 @@
           "date": "Fri Apr 17 05:40:01 2026 -0600",
           "timestamp": 1776426001,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/7de8908"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_dng_sdk",
+      "path": "external/dng_sdk",
+      "repo_url": "https://github.com/LineageOS/android_external_dng_sdk",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "54cfb8f",
+          "message": "Update dng_sdk to 1.7.1 2471",
+          "author": "John Reck",
+          "date": "Mon May 25 00:20:13 2026 -0400",
+          "timestamp": 1779682813,
+          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/54cfb8f"
+        },
+        {
+          "sha": "1c06e1e",
+          "message": "Replace ubsan-minimal with throw",
+          "author": "John Reck",
+          "date": "Mon May 25 00:20:08 2026 -0400",
+          "timestamp": 1779682808,
+          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/1c06e1e"
+        },
+        {
+          "sha": "bf8b7af",
+          "message": "Handle underflows in dng_opcode_MapTable",
+          "author": "John Reck",
+          "date": "Mon Apr 6 19:29:29 2026 -0400",
+          "timestamp": 1775518169,
+          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/bf8b7af"
         }
       ]
     },
@@ -4119,39 +4006,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_FMRadio",
-      "path": "packages/apps/FMRadio",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "3bfc4d0",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 16:10:51 2026 +0000",
-          "timestamp": 1781539851,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/3bfc4d0"
-        },
-        {
-          "sha": "0811ee1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 1 16:17:35 2026 +0000",
-          "timestamp": 1780330655,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0811ee1"
-        },
-        {
-          "sha": "fa12598",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Fri May 15 20:56:00 2026 +0000",
-          "timestamp": 1778878560,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/fa12598"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_FlipFlap",
       "path": "packages/apps/FlipFlap",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
@@ -4181,6 +4035,39 @@
           "date": "Fri May 15 20:56:01 2026 +0000",
           "timestamp": 1778878561,
           "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/d54627c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_FMRadio",
+      "path": "packages/apps/FMRadio",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "3bfc4d0",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 16:10:51 2026 +0000",
+          "timestamp": 1781539851,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/3bfc4d0"
+        },
+        {
+          "sha": "0811ee1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 16:17:35 2026 +0000",
+          "timestamp": 1780330655,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0811ee1"
+        },
+        {
+          "sha": "fa12598",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 20:56:00 2026 +0000",
+          "timestamp": 1778878560,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/fa12598"
         }
       ]
     },
@@ -4284,35 +4171,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_resources_devicesettings",
-      "path": "packages/resources/devicesettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "name": "LineageOS/android_packages_inputmethods_LatinIME",
+      "path": "packages/inputmethods/LatinIME",
+      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "bb0c88c",
+          "sha": "2b88fc8",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Jun 1 16:17:50 2026 +0000",
-          "timestamp": 1780330670,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/bb0c88c"
+          "date": "Mon Jun 15 16:11:03 2026 +0000",
+          "timestamp": 1781539863,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/2b88fc8"
         },
         {
-          "sha": "bd23a86",
+          "sha": "9706270",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Fri May 15 20:56:14 2026 +0000",
-          "timestamp": 1778878574,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/bd23a86"
+          "date": "Mon Jun 1 16:17:48 2026 +0000",
+          "timestamp": 1780330668,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/9706270"
         },
         {
-          "sha": "c15c043",
+          "sha": "8f25e73",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Wed Apr 1 21:18:47 2026 +0000",
-          "timestamp": 1775078327,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/c15c043"
+          "date": "Fri May 15 20:56:12 2026 +0000",
+          "timestamp": 1778878572,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/8f25e73"
         }
       ]
     },
@@ -4471,6 +4358,31 @@
           "date": "Mon May 25 01:43:57 2026 -0400",
           "timestamp": 1779687837,
           "url": "https://github.com/LineageOS/android_packages_providers_ContactsProvider/commit/736ebf9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "bb0c88c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 1 16:17:50 2026 +0000",
+          "timestamp": 1780330670,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/bb0c88c"
+        },
+        {
+          "sha": "bd23a86",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Fri May 15 20:56:14 2026 +0000",
+          "timestamp": 1778878574,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/bd23a86"
         }
       ]
     },
