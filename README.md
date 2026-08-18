@@ -16,7 +16,7 @@ It provides developers and enthusiasts with an up-to-date view of development ac
 
 ## 📊 Data Updates
 
-- **Frequency:** Every 24 hours  
+- **Frequency:** Every 3 Days  
 - **Commit window:** Last 90 days for each repo  
 - **Update time:** 00:00 UTC daily
 
