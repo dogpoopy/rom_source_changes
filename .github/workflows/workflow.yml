@@ -22,6 +22,10 @@ jobs:
           sudo mv repo /usr/bin/repo
           sudo chmod a+x /usr/bin/repo
 
+      - name: Clean stale ROM data
+        run: |
+          python3 scripts/cleanup.py
+
       - name: Process all ROMs
         run: |
           python3 scripts/roms.py
