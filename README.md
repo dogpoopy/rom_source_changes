@@ -18,11 +18,10 @@ It provides developers and enthusiasts with an up-to-date view of development ac
 
 - **Frequency:** Every 3 Days  
 - **Commit window:** Last 90 days for each repo  
-- **Update time:** 00:00 UTC daily
 
 ## 🚫 AOSP Source Exclusion
 
-This tracker **excludes AOSP repositories** to save storage and stay within GitHub Runner limits.
+This tracker **excludes Google AOSP source repositories** to stay within GitHub Runner limits.
 
 ## 🔧 Adding a New ROM
 
