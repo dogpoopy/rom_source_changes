@@ -16,7 +16,7 @@ It provides developers and enthusiasts with an up-to-date view of development ac
 
 ## 📊 Data Updates
 
-- **Frequency:** Every 3 Days  
+- **Frequency:** Every 24 hours  
 - **Commit window:** Last 90 days for each repo  
 
 ## 🚫 AOSP Source Exclusion
