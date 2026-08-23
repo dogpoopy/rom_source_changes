@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.2",
-  "generated_at": "2026-08-22T01:03:35.380117+00:00",
-  "since_date": "2026-05-24",
-  "total_projects": 120,
-  "total_commits": 928,
+  "generated_at": "2026-08-23T01:08:03.615176+00:00",
+  "since_date": "2026-05-25",
+  "total_projects": 112,
+  "total_commits": 913,
   "projects": [
     {
       "name": "LineageOS/android_packages_apps_Updater",
@@ -3034,6 +3034,14 @@
       "commit_count": 48,
       "commits": [
         {
+          "sha": "96bc81e",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Sat Aug 22 23:30:55 2026 +0000",
+          "timestamp": 1787441455,
+          "url": "https://github.com/LineageOS/hudson/commit/96bc81e"
+        },
+        {
           "sha": "3c395be",
           "message": "hudson: Drop OFFICIAL support for Mi8917 & Mi8937 & Mi439",
           "author": "Yumi Yukimura",
@@ -3408,14 +3416,6 @@
           "date": "Mon May 25 21:53:59 2026 +0000",
           "timestamp": 1779746039,
           "url": "https://github.com/LineageOS/hudson/commit/120def3"
-        },
-        {
-          "sha": "9db6306",
-          "message": "can't kill the almost fully FOSS phone(s)",
-          "author": "Nolen Johnson",
-          "date": "Sun May 24 16:17:10 2026 +0000",
-          "timestamp": 1779639430,
-          "url": "https://github.com/LineageOS/hudson/commit/9db6306"
         }
       ]
     },
@@ -5064,8 +5064,16 @@
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
       "remote": "github",
-      "commit_count": 10,
+      "commit_count": 11,
       "commits": [
+        {
+          "sha": "dd249f1",
+          "message": "FR: Update APN for SFR",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 06:48:27 2026 +0000",
+          "timestamp": 1787381307,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/dd249f1"
+        },
         {
           "sha": "05ceef7",
           "message": "DE: Set IPV4V6 as protocol for o2 APNs",
@@ -5153,8 +5161,16 @@
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
       "remote": "github",
-      "commit_count": 9,
+      "commit_count": 10,
       "commits": [
+        {
+          "sha": "88625a9",
+          "message": "Aperture: Update CameraX to 1.7.0-alpha03",
+          "author": "LuK1337",
+          "date": "Sat Aug 22 18:30:26 2026 +0000",
+          "timestamp": 1787423426,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/88625a9"
+        },
         {
           "sha": "5e7bef0",
           "message": "Automatic translation import",
@@ -5644,59 +5660,59 @@
       ]
     },
     {
-      "name": "LineageOS/android",
-      "path": "android",
-      "repo_url": "https://github.com/LineageOS/android",
+      "name": "LineageOS/android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
       "remote": "github",
       "commit_count": 6,
       "commits": [
         {
-          "sha": "d38d2e1",
-          "message": "snippets: Update kernel platform tags",
+          "sha": "0841bed",
+          "message": "common: private: Don't audit bootanimation searching system_data_file",
           "author": "Nolen Johnson",
-          "date": "Thu Jul 30 12:53:37 2026 -0400",
-          "timestamp": 1785430417,
-          "url": "https://github.com/LineageOS/android/commit/d38d2e1"
+          "date": "Sat Aug 22 19:06:41 2026 +0000",
+          "timestamp": 1787425601,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/0841bed"
         },
         {
-          "sha": "ffe1793",
-          "message": "manifest: Add bazel kernel platform 5.15",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 12:42:42 2026 -0400",
-          "timestamp": 1785429762,
-          "url": "https://github.com/LineageOS/android/commit/ffe1793"
-        },
-        {
-          "sha": "5c3bbcb",
-          "message": "Revert \"manifest: Track custom prebuilts/misc revision\"",
-          "author": "LuK1337",
-          "date": "Sat Jul 4 19:36:46 2026 +0000",
-          "timestamp": 1783193806,
-          "url": "https://github.com/LineageOS/android/commit/5c3bbcb"
-        },
-        {
-          "sha": "335a78f",
-          "message": "manifest: Track libvmmem",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 4 08:48:08 2026 +0300",
-          "timestamp": 1783144088,
-          "url": "https://github.com/LineageOS/android/commit/335a78f"
-        },
-        {
-          "sha": "02b3ba6",
-          "message": "manifest: Track our fork of v4l2_codec2",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 14:14:36 2026 -0500",
-          "timestamp": 1781291676,
-          "url": "https://github.com/LineageOS/android/commit/02b3ba6"
-        },
-        {
-          "sha": "a5cfe7f",
-          "message": "manifest: Track forks for 2026-06 ASB",
+          "sha": "7a85b28",
+          "message": "sepolicy: atv: vendor: Don't audit TvSettings reaching into GMS dirs",
           "author": "Nolen Johnson",
-          "date": "Sun May 24 03:15:10 2026 -0400",
-          "timestamp": 1779606910,
-          "url": "https://github.com/LineageOS/android/commit/a5cfe7f"
+          "date": "Sat Aug 22 18:05:37 2026 +0000",
+          "timestamp": 1787421937,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/7a85b28"
+        },
+        {
+          "sha": "c6e972c",
+          "message": "common: private: Extend mediashell dontaudit",
+          "author": "Nolen Johnson",
+          "date": "Fri Aug 7 20:04:28 2026 +0000",
+          "timestamp": 1786133068,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/c6e972c"
+        },
+        {
+          "sha": "b377dce",
+          "message": "sepolicy: Silence annoying chatty denials",
+          "author": "Nolen Johnson",
+          "date": "Sun Jul 12 05:06:45 2026 +0000",
+          "timestamp": 1783832805,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/b377dce"
+        },
+        {
+          "sha": "ebc3e00",
+          "message": "common: Label ro.config.force_multi_window prop",
+          "author": "Thomas Makin",
+          "date": "Wed Jun 10 17:00:03 2026 +0000",
+          "timestamp": 1781110803,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/ebc3e00"
+        },
+        {
+          "sha": "2e6e60f",
+          "message": "libperfmgr: Allow powerhal to access thermal service",
+          "author": "armdebug",
+          "date": "Mon Jun 8 01:04:31 2026 +0000",
+          "timestamp": 1780880671,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/2e6e60f"
         }
       ]
     },
@@ -5868,63 +5884,6 @@
           "date": "Tue Jun 9 21:22:46 2026 +0000",
           "timestamp": 1781040166,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a0dc8c7"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_libpng",
-      "path": "external/libpng",
-      "repo_url": "https://github.com/LineageOS/android_external_libpng",
-      "remote": "github",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "40df6f9",
-          "message": "Rearchitect the fix to the buffer overflow in `png_image_finish_read`",
-          "author": "Cosmin Truta",
-          "date": "Sun May 24 03:06:36 2026 -0400",
-          "timestamp": 1779606396,
-          "url": "https://github.com/LineageOS/android_external_libpng/commit/40df6f9"
-        },
-        {
-          "sha": "6b82324",
-          "message": "Fix a buffer overflow in `png_image_finish_read`",
-          "author": "Cosmin Truta",
-          "date": "Sun May 24 03:06:36 2026 -0400",
-          "timestamp": 1779606396,
-          "url": "https://github.com/LineageOS/android_external_libpng/commit/6b82324"
-        },
-        {
-          "sha": "784eb33",
-          "message": "Fix a buffer overflow in `png_init_read_transformations`",
-          "author": "Cosmin Truta",
-          "date": "Sun May 24 03:06:36 2026 -0400",
-          "timestamp": 1779606396,
-          "url": "https://github.com/LineageOS/android_external_libpng/commit/784eb33"
-        },
-        {
-          "sha": "dcc9bec",
-          "message": "Fix a buffer overflow in `png_do_quantize`",
-          "author": "Cosmin Truta",
-          "date": "Sun May 24 03:06:36 2026 -0400",
-          "timestamp": 1779606396,
-          "url": "https://github.com/LineageOS/android_external_libpng/commit/dcc9bec"
-        },
-        {
-          "sha": "056c151",
-          "message": "Fix a memory leak in function `png_set_quantize`; refactor",
-          "author": "Cosmin Truta",
-          "date": "Sun May 24 03:06:36 2026 -0400",
-          "timestamp": 1779606396,
-          "url": "https://github.com/LineageOS/android_external_libpng/commit/056c151"
-        },
-        {
-          "sha": "19d4b58",
-          "message": "Fix a heap buffer overflow in `png_write_image_8bit`",
-          "author": "Cosmin Truta",
-          "date": "Sun May 24 03:06:34 2026 -0400",
-          "timestamp": 1779606394,
-          "url": "https://github.com/LineageOS/android_external_libpng/commit/19d4b58"
         }
       ]
     },
@@ -6157,6 +6116,55 @@
       ]
     },
     {
+      "name": "LineageOS/android",
+      "path": "android",
+      "repo_url": "https://github.com/LineageOS/android",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "d38d2e1",
+          "message": "snippets: Update kernel platform tags",
+          "author": "Nolen Johnson",
+          "date": "Thu Jul 30 12:53:37 2026 -0400",
+          "timestamp": 1785430417,
+          "url": "https://github.com/LineageOS/android/commit/d38d2e1"
+        },
+        {
+          "sha": "ffe1793",
+          "message": "manifest: Add bazel kernel platform 5.15",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 12:42:42 2026 -0400",
+          "timestamp": 1785429762,
+          "url": "https://github.com/LineageOS/android/commit/ffe1793"
+        },
+        {
+          "sha": "5c3bbcb",
+          "message": "Revert \"manifest: Track custom prebuilts/misc revision\"",
+          "author": "LuK1337",
+          "date": "Sat Jul 4 19:36:46 2026 +0000",
+          "timestamp": 1783193806,
+          "url": "https://github.com/LineageOS/android/commit/5c3bbcb"
+        },
+        {
+          "sha": "335a78f",
+          "message": "manifest: Track libvmmem",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 4 08:48:08 2026 +0300",
+          "timestamp": 1783144088,
+          "url": "https://github.com/LineageOS/android/commit/335a78f"
+        },
+        {
+          "sha": "02b3ba6",
+          "message": "manifest: Track our fork of v4l2_codec2",
+          "author": "Aaron Kling",
+          "date": "Fri Jun 12 14:14:36 2026 -0500",
+          "timestamp": 1781291676,
+          "url": "https://github.com/LineageOS/android/commit/02b3ba6"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_lineage_interfaces",
       "path": "hardware/lineage/interfaces",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
@@ -6349,47 +6357,6 @@
           "date": "Tue Jun 9 22:20:28 2026 +0000",
           "timestamp": 1781043628,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/591edcf"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "c6e972c",
-          "message": "common: private: Extend mediashell dontaudit",
-          "author": "Nolen Johnson",
-          "date": "Fri Aug 7 20:04:28 2026 +0000",
-          "timestamp": 1786133068,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/c6e972c"
-        },
-        {
-          "sha": "b377dce",
-          "message": "sepolicy: Silence annoying chatty denials",
-          "author": "Nolen Johnson",
-          "date": "Sun Jul 12 05:06:45 2026 +0000",
-          "timestamp": 1783832805,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/b377dce"
-        },
-        {
-          "sha": "ebc3e00",
-          "message": "common: Label ro.config.force_multi_window prop",
-          "author": "Thomas Makin",
-          "date": "Wed Jun 10 17:00:03 2026 +0000",
-          "timestamp": 1781110803,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/ebc3e00"
-        },
-        {
-          "sha": "2e6e60f",
-          "message": "libperfmgr: Allow powerhal to access thermal service",
-          "author": "armdebug",
-          "date": "Mon Jun 8 01:04:31 2026 +0000",
-          "timestamp": 1780880671,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/2e6e60f"
         }
       ]
     },
@@ -6677,47 +6644,6 @@
           "date": "Mon Jun 1 17:55:46 2026 +0000",
           "timestamp": 1780336546,
           "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/cdc9be1"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/cm_crowdin",
-      "path": "lineage/crowdin",
-      "repo_url": "https://github.com/LineageOS/cm_crowdin",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "c0d3769",
-          "message": "config: Update ParanoidGlyph path",
-          "author": "LuK1337",
-          "date": "Mon Aug 17 10:55:10 2026 +0200",
-          "timestamp": 1786956910,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/c0d3769"
-        },
-        {
-          "sha": "d392d80",
-          "message": "config: Add hardware/ayn/packages/AynParts",
-          "author": "LuK1337",
-          "date": "Wed Jul 1 13:05:13 2026 +0200",
-          "timestamp": 1782903913,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/d392d80"
-        },
-        {
-          "sha": "12cc9a8",
-          "message": "crowdin: Normalize Joey's name everywhere",
-          "author": "Tim Schumacher",
-          "date": "Sun May 24 22:48:29 2026 +0200",
-          "timestamp": 1779655709,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/12cc9a8"
-        },
-        {
-          "sha": "b924043",
-          "message": "crowdin: Adjust generate_wiki_list() output to match lineage/wiki",
-          "author": "LuK1337",
-          "date": "Sun May 24 22:17:08 2026 +0200",
-          "timestamp": 1779653828,
-          "url": "https://github.com/LineageOS/cm_crowdin/commit/b924043"
         }
       ]
     },
@@ -7349,56 +7275,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_dng_sdk",
-      "path": "external/dng_sdk",
-      "repo_url": "https://github.com/LineageOS/android_external_dng_sdk",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "60de57b",
-          "message": "Update dng_sdk to 1.7.1 2471",
-          "author": "John Reck",
-          "date": "Sun May 24 03:06:55 2026 -0400",
-          "timestamp": 1779606415,
-          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/60de57b"
-        },
-        {
-          "sha": "6585981",
-          "message": "Replace ubsan-minimal with throw",
-          "author": "John Reck",
-          "date": "Sun May 24 03:06:54 2026 -0400",
-          "timestamp": 1779606414,
-          "url": "https://github.com/LineageOS/android_external_dng_sdk/commit/6585981"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_sqlite",
-      "path": "external/sqlite",
-      "repo_url": "https://github.com/LineageOS/android_external_sqlite",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "b205ee6",
-          "message": "Install 25Q4 sqlite 3.50.6",
-          "author": "Lee Shombert",
-          "date": "Sun May 24 03:05:59 2026 -0400",
-          "timestamp": 1779606359,
-          "url": "https://github.com/LineageOS/android_external_sqlite/commit/b205ee6"
-        },
-        {
-          "sha": "8d4404a",
-          "message": "Remove obsolete sqlite source directories",
-          "author": "Lee Shombert",
-          "date": "Sun May 24 02:31:27 2026 -0400",
-          "timestamp": 1779604287,
-          "url": "https://github.com/LineageOS/android_external_sqlite/commit/8d4404a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -7425,31 +7301,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8550/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "d679d89",
-          "message": "Revert \"vmmem: Make libvmmem_headers available\"",
-          "author": "Alexander Koskovich",
-          "date": "Fri Jul 3 20:14:51 2026 +0300",
-          "timestamp": 1783098891,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/d679d89"
-        },
-        {
-          "sha": "7ea46e2",
-          "message": "Revert \"vmmem: Add dummy libvmmem shared_lib\"",
-          "author": "Alexander Koskovich",
-          "date": "Fri Jul 3 20:14:39 2026 +0300",
-          "timestamp": 1783098879,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/7ea46e2"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8750/display/hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -7470,6 +7321,31 @@
           "date": "Fri Jun 12 23:57:49 2026 -0400",
           "timestamp": 1781323069,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/ec927be"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8550/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "d679d89",
+          "message": "Revert \"vmmem: Make libvmmem_headers available\"",
+          "author": "Alexander Koskovich",
+          "date": "Fri Jul 3 20:14:51 2026 +0300",
+          "timestamp": 1783098891,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/d679d89"
+        },
+        {
+          "sha": "7ea46e2",
+          "message": "Revert \"vmmem: Add dummy libvmmem shared_lib\"",
+          "author": "Alexander Koskovich",
+          "date": "Fri Jul 3 20:14:39 2026 +0300",
+          "timestamp": 1783098879,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/7ea46e2"
         }
       ]
     },
@@ -7649,31 +7525,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_ContactsProvider",
-      "path": "packages/providers/ContactsProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_ContactsProvider",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "59be632",
-          "message": "Fix size check bypass for case-mismatched columns",
-          "author": "Bhavuk Garg",
-          "date": "Sun May 24 03:03:50 2026 -0400",
-          "timestamp": 1779606230,
-          "url": "https://github.com/LineageOS/android_packages_providers_ContactsProvider/commit/59be632"
-        },
-        {
-          "sha": "035215f",
-          "message": "Fix side channel attacks in CP2",
-          "author": "Himanshu Gupta",
-          "date": "Sun May 24 03:03:49 2026 -0400",
-          "timestamp": 1779606229,
-          "url": "https://github.com/LineageOS/android_packages_providers_ContactsProvider/commit/035215f"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_MediaProvider",
       "path": "packages/providers/MediaProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
@@ -7800,31 +7651,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "path": "hardware/qcom-caf/sm8750/data-ipa-cfg-mgr",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "5c75409",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:35:07 2026 +0300",
-          "timestamp": 1783769707,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/5c75409"
-        },
-        {
-          "sha": "8dcd594",
-          "message": "Merge eade691f3f0f8d77d3e4343ad9a63e261c0f6f6f on remote branch",
-          "author": "lnxbuild",
-          "date": "Sun Jun 14 03:29:20 2026 -0700",
-          "timestamp": 1781432960,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/8dcd594"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "path": "hardware/qcom-caf/sm8650/data-ipa-cfg-mgr",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "remote": "github",
@@ -7845,6 +7671,31 @@
           "date": "Thu May 28 07:40:04 2026 -0700",
           "timestamp": 1779979204,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/8422eb7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "path": "hardware/qcom-caf/sm8750/data-ipa-cfg-mgr",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "5c75409",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:35:07 2026 +0300",
+          "timestamp": 1783769707,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/5c75409"
+        },
+        {
+          "sha": "8dcd594",
+          "message": "Merge eade691f3f0f8d77d3e4343ad9a63e261c0f6f6f on remote branch",
+          "author": "lnxbuild",
+          "date": "Sun Jun 14 03:29:20 2026 -0700",
+          "timestamp": 1781432960,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/8dcd594"
         }
       ]
     },
@@ -7899,6 +7750,31 @@
       ]
     },
     {
+      "name": "LineageOS/cm_crowdin",
+      "path": "lineage/crowdin",
+      "repo_url": "https://github.com/LineageOS/cm_crowdin",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "c0d3769",
+          "message": "config: Update ParanoidGlyph path",
+          "author": "LuK1337",
+          "date": "Mon Aug 17 10:55:10 2026 +0200",
+          "timestamp": 1786956910,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/c0d3769"
+        },
+        {
+          "sha": "d392d80",
+          "message": "config: Add hardware/ayn/packages/AynParts",
+          "author": "LuK1337",
+          "date": "Wed Jul 1 13:05:13 2026 +0200",
+          "timestamp": 1782903913,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/d392d80"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_build",
       "path": "build/make",
       "repo_url": "https://github.com/LineageOS/android_build",
@@ -7912,40 +7788,6 @@
           "date": "Fri Aug 7 17:08:12 2026 +0800",
           "timestamp": 1786093692,
           "url": "https://github.com/LineageOS/android_build/commit/5a841be3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_build_release",
-      "path": "build/release",
-      "repo_url": "https://github.com/LineageOS/android_build_release",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d76088e5",
-          "message": "Select 25Q4 sqlite as 3.50.6",
-          "author": "Lee Shombert",
-          "date": "Sun May 24 03:07:24 2026 -0400",
-          "timestamp": 1779606444,
-          "url": "https://github.com/LineageOS/android_build_release/commit/d76088e5"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/LineageOS/android_build_soong",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4035bec9",
-          "message": "gen_build_prop: Disable dalvik debugging in userdebug builds",
-          "author": "Michael Bestas",
-          "date": "Mon Jun 29 08:25:25 2026 +0300",
-          "timestamp": 1782710725,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/4035bec9"
         }
       ]
     },
@@ -7980,6 +7822,23 @@
           "date": "Tue Aug 18 22:48:43 2026 +0000",
           "timestamp": 1787093323,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/269c7ac"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/LineageOS/android_build_soong",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4035bec9",
+          "message": "gen_build_prop: Disable dalvik debugging in userdebug builds",
+          "author": "Michael Bestas",
+          "date": "Mon Jun 29 08:25:25 2026 +0300",
+          "timestamp": 1782710725,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/4035bec9"
         }
       ]
     },
@@ -8086,23 +7945,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_sm8150_display",
-      "path": "hardware/qcom/sm8150/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "bcae019",
-          "message": "Add IDisplay/default service via hwcomposer",
-          "author": "Weizhung Ding",
-          "date": "Mon Jul 13 06:37:50 2026 +0300",
-          "timestamp": 1783913870,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/bcae019"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_thermal",
       "path": "hardware/qcom-caf/thermal-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
@@ -8120,6 +7962,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom_sm8150_display",
+      "path": "hardware/qcom/sm8150/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "bcae019",
+          "message": "Add IDisplay/default service via hwcomposer",
+          "author": "Weizhung Ding",
+          "date": "Mon Jul 13 06:37:50 2026 +0300",
+          "timestamp": 1783913870,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/bcae019"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Backgrounds",
       "path": "packages/apps/Backgrounds",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
@@ -8133,23 +7992,6 @@
           "date": "Mon Jun 1 17:55:27 2026 +0000",
           "timestamp": 1780336527,
           "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/b087d2d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_CertInstaller",
-      "path": "packages/apps/CertInstaller",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_CertInstaller",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "59837d4",
-          "message": "Use loadSafeLabel to prevent UI spoofing in CertInstaller",
-          "author": "Radu Macovei",
-          "date": "Sun May 24 03:05:25 2026 -0400",
-          "timestamp": 1779606325,
-          "url": "https://github.com/LineageOS/android_packages_apps_CertInstaller/commit/59837d4"
         }
       ]
     },
@@ -8184,23 +8026,6 @@
           "date": "Mon Jun 8 20:10:52 2026 +0200",
           "timestamp": 1780942252,
           "url": "https://github.com/LineageOS/android_packages_apps_ExactCalculator/commit/af4a939"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_KeyChain",
-      "path": "packages/apps/KeyChain",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_KeyChain",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "ed4de13",
-          "message": "Sanitize app label in KeyChainActivity to prevent UI injection.",
-          "author": "Radu Macovei",
-          "date": "Sun May 24 03:05:15 2026 -0400",
-          "timestamp": 1779606315,
-          "url": "https://github.com/LineageOS/android_packages_apps_KeyChain/commit/ed4de13"
         }
       ]
     },
@@ -8286,23 +8111,6 @@
           "date": "Thu Jul 23 23:28:21 2026 +0300",
           "timestamp": 1784838501,
           "url": "https://github.com/LineageOS/android_prebuilts_extract-tools/commit/a8aabbb"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_services_Telecomm",
-      "path": "packages/services/Telecomm",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Telecomm",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "82b594d2",
-          "message": "Fix issue initiating calls from the work profile.",
-          "author": "Tyler Gunn",
-          "date": "Sun May 24 03:03:36 2026 -0400",
-          "timestamp": 1779606216,
-          "url": "https://github.com/LineageOS/android_packages_services_Telecomm/commit/82b594d2"
         }
       ]
     },
