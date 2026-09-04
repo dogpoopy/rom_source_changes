@@ -1,10 +1,10 @@
 {
   "rom_id": "grapheneos",
   "branch": "17",
-  "generated_at": "2026-09-03T02:54:11.280717+00:00",
-  "since_date": "2026-06-05",
+  "generated_at": "2026-09-04T02:51:28.677071+00:00",
+  "since_date": "2026-06-06",
   "total_projects": 66,
-  "total_commits": 927,
+  "total_commits": 926,
   "projects": [
     {
       "name": "platform_frameworks_base",
@@ -13,6 +13,38 @@
       "remote": "grapheneos",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "1f3f658e",
+          "message": "SettingsProvider: initialize configured display color mode",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 05:44:38 2026 -0400",
+          "timestamp": 1788428678,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/1f3f658e"
+        },
+        {
+          "sha": "4b53a83b",
+          "message": "add configurable default display color mode",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 05:44:38 2026 -0400",
+          "timestamp": 1788428678,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/4b53a83b"
+        },
+        {
+          "sha": "541be27e",
+          "message": "Revert \"SettingsProvider: initialize display color mode to Natural\"",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 05:44:38 2026 -0400",
+          "timestamp": 1788428678,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/541be27e"
+        },
+        {
+          "sha": "33311cb5",
+          "message": "SettingsProvider: initialize display color mode to Natural",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 04:02:03 2026 -0400",
+          "timestamp": 1788422523,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/33311cb5"
+        },
         {
           "sha": "b2be3bb5",
           "message": "backport 17 QPR1 Beta 5 fix for widgets disappearing after reboot",
@@ -780,38 +812,6 @@
           "date": "Wed Jul 29 15:09:18 2026 +0000",
           "timestamp": 1785337758,
           "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/a5e27aed"
-        },
-        {
-          "sha": "31f3eb47",
-          "message": "add lockscreen synchronisation failsafe",
-          "author": "Fred Underwood",
-          "date": "Wed Jul 29 15:09:18 2026 +0000",
-          "timestamp": 1785337758,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/31f3eb47"
-        },
-        {
-          "sha": "24281708",
-          "message": "Revert \"Legacy app compatibility workaround\"",
-          "author": "Daniel Micay",
-          "date": "Wed Jul 29 15:09:18 2026 +0000",
-          "timestamp": 1785337758,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/24281708"
-        },
-        {
-          "sha": "81af6d88",
-          "message": "set max number of running users based on total memory size",
-          "author": "Dmitry Muhomor",
-          "date": "Wed Jul 29 15:09:18 2026 +0000",
-          "timestamp": 1785337758,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/81af6d88"
-        },
-        {
-          "sha": "c0f4de61",
-          "message": "never force camera sound",
-          "author": "Dmitry Muhomor",
-          "date": "Wed Jul 29 15:09:18 2026 +0000",
-          "timestamp": 1785337758,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/c0f4de61"
         }
       ]
     },
@@ -822,6 +822,22 @@
       "remote": "grapheneos",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "fb25e93",
+          "message": "Revert \"initialize display color mode to adevtool Natural default\"",
+          "author": "Daniel Micay",
+          "date": "Thu Sep 3 03:22:16 2026 -0400",
+          "timestamp": 1788420136,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Settings/commit/fb25e93"
+        },
+        {
+          "sha": "a4d8e4b",
+          "message": "initialize display color mode to adevtool Natural default",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 01:00:09 2026 -0400",
+          "timestamp": 1788411609,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_Settings/commit/a4d8e4b"
+        },
         {
           "sha": "20bcf6f",
           "message": "warn about private space hiding limitations",
@@ -1605,22 +1621,6 @@
           "date": "Mon Jun 15 07:42:45 2026 +0000",
           "timestamp": 1781509365,
           "url": "https://github.com/GrapheneOS/platform_packages_apps_Settings/commit/a25ecea"
-        },
-        {
-          "sha": "4a0505a",
-          "message": "add per-app setting for hardened_malloc",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Jun 15 07:42:45 2026 +0000",
-          "timestamp": 1781509365,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Settings/commit/4a0505a"
-        },
-        {
-          "sha": "2d2141d",
-          "message": "add toggle for automatic exploit protection compatibility mode",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Jun 15 07:42:45 2026 +0000",
-          "timestamp": 1781509365,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_Settings/commit/2d2141d"
         }
       ]
     },
@@ -1629,8 +1629,40 @@
       "path": "vendor/adevtool",
       "repo_url": "https://github.com/GrapheneOS/adevtool",
       "remote": "grapheneos",
-      "commit_count": 64,
+      "commit_count": 67,
       "commits": [
+        {
+          "sha": "144f004",
+          "message": "remove persist.sys.sf.color_saturation override",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 05:44:46 2026 -0400",
+          "timestamp": 1788428686,
+          "url": "https://github.com/GrapheneOS/adevtool/commit/144f004"
+        },
+        {
+          "sha": "e5f1c78",
+          "message": "GosOverlay: set default display color mode to Natural",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 05:44:46 2026 -0400",
+          "timestamp": 1788428686,
+          "url": "https://github.com/GrapheneOS/adevtool/commit/e5f1c78"
+        },
+        {
+          "sha": "10ef9e4",
+          "message": "gs101: remove Saturated color options from Settings overlays",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 03:37:11 2026 -0400",
+          "timestamp": 1788421031,
+          "url": "https://github.com/GrapheneOS/adevtool/commit/10ef9e4"
+        },
+        {
+          "sha": "a8e16b1",
+          "message": "GosOverlay: remove config_availableColorModes to remove Saturated mode in Settings",
+          "author": "inthewaves",
+          "date": "Thu Sep 3 03:37:11 2026 -0400",
+          "timestamp": 1788421031,
+          "url": "https://github.com/GrapheneOS/adevtool/commit/a8e16b1"
+        },
         {
           "sha": "236b4bc",
           "message": "apply-bulletin-patches: verify signatures of finalized patch ZIPs",
@@ -2134,14 +2166,6 @@
           "date": "Tue Jun 16 21:10:55 2026 +0000",
           "timestamp": 1781644255,
           "url": "https://github.com/GrapheneOS/adevtool/commit/cf53dcb"
-        },
-        {
-          "sha": "20be625",
-          "message": "stallion: add missing selinux file context for edgetpu_app_service",
-          "author": "maade93791",
-          "date": "Fri Jun 5 10:20:28 2026 -0400",
-          "timestamp": 1780669228,
-          "url": "https://github.com/GrapheneOS/adevtool/commit/20be625"
         }
       ]
     },
@@ -4180,7 +4204,7 @@
       "path": "packages/apps/AppCompatConfig",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_AppCompatConfig",
       "remote": "grapheneos",
-      "commit_count": 24,
+      "commit_count": 21,
       "commits": [
         {
           "sha": "5096f49",
@@ -4349,30 +4373,6 @@
           "date": "Fri Jun 12 17:49:41 2026 -0400",
           "timestamp": 1781300981,
           "url": "https://github.com/GrapheneOS/platform_packages_apps_AppCompatConfig/commit/90bb348"
-        },
-        {
-          "sha": "bda04c8",
-          "message": "update Kotlin to 2.4.0",
-          "author": "GrapheneOS",
-          "date": "Fri Jun 5 18:05:13 2026 -0400",
-          "timestamp": 1780697113,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_AppCompatConfig/commit/bda04c8"
-        },
-        {
-          "sha": "194e96b",
-          "message": "increment version to 6",
-          "author": "Daniel Micay",
-          "date": "Fri Jun 5 18:02:50 2026 -0400",
-          "timestamp": 1780696970,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_AppCompatConfig/commit/194e96b"
-        },
-        {
-          "sha": "eeb3bb5",
-          "message": "allow DCLS for Uber due to Dynamite modules",
-          "author": "inthewaves",
-          "date": "Fri Jun 5 18:02:34 2026 -0400",
-          "timestamp": 1780696954,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_AppCompatConfig/commit/eeb3bb5"
         }
       ]
     },
@@ -5635,111 +5635,6 @@
       ]
     },
     {
-      "name": "device_google_felix-kernels_6.1",
-      "path": "device/google/felix-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 12,
-      "commits": [
-        {
-          "sha": "db557c7",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Sep 1 01:04:37 2026 -0400",
-          "timestamp": 1788239077,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/db557c7"
-        },
-        {
-          "sha": "adce4cf",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sat Aug 22 23:59:43 2026 -0400",
-          "timestamp": 1787457583,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/adce4cf"
-        },
-        {
-          "sha": "d76b608",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Aug 12 12:54:57 2026 -0400",
-          "timestamp": 1786553697,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/d76b608"
-        },
-        {
-          "sha": "2a7c0b7",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Aug 4 20:19:59 2026 -0400",
-          "timestamp": 1785889199,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/2a7c0b7"
-        },
-        {
-          "sha": "1961be8",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Aug 3 15:23:32 2026 -0400",
-          "timestamp": 1785785012,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/1961be8"
-        },
-        {
-          "sha": "1dae165",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Jul 28 20:16:38 2026 -0400",
-          "timestamp": 1785284198,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/1dae165"
-        },
-        {
-          "sha": "defe6e2",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Fri Jul 24 01:04:56 2026 -0400",
-          "timestamp": 1784869496,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/defe6e2"
-        },
-        {
-          "sha": "c580f80",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Jul 20 22:25:11 2026 -0400",
-          "timestamp": 1784600711,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/c580f80"
-        },
-        {
-          "sha": "aecbf45",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sun Jul 5 11:57:25 2026 -0400",
-          "timestamp": 1783267045,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/aecbf45"
-        },
-        {
-          "sha": "bc1d246",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Jul 2 20:22:41 2026 -0400",
-          "timestamp": 1783038161,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/bc1d246"
-        },
-        {
-          "sha": "065355a",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sat Jun 27 23:09:56 2026 -0400",
-          "timestamp": 1782616196,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/065355a"
-        },
-        {
-          "sha": "254ed34",
-          "message": "initial commit",
-          "author": "Daniel Micay",
-          "date": "Tue Jun 16 15:17:15 2026 -0400",
-          "timestamp": 1781637435,
-          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/254ed34"
-        }
-      ]
-    },
-    {
       "name": "device_google_comet-kernels_6.1",
       "path": "device/google/comet-kernels/6.1",
       "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
@@ -5841,6 +5736,111 @@
           "date": "Tue Jun 16 15:28:54 2026 -0400",
           "timestamp": 1781638134,
           "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/85ad6b0"
+        }
+      ]
+    },
+    {
+      "name": "device_google_felix-kernels_6.1",
+      "path": "device/google/felix-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "db557c7",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Sep 1 01:04:37 2026 -0400",
+          "timestamp": 1788239077,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/db557c7"
+        },
+        {
+          "sha": "adce4cf",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sat Aug 22 23:59:43 2026 -0400",
+          "timestamp": 1787457583,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/adce4cf"
+        },
+        {
+          "sha": "d76b608",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Aug 12 12:54:57 2026 -0400",
+          "timestamp": 1786553697,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/d76b608"
+        },
+        {
+          "sha": "2a7c0b7",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Aug 4 20:19:59 2026 -0400",
+          "timestamp": 1785889199,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/2a7c0b7"
+        },
+        {
+          "sha": "1961be8",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Aug 3 15:23:32 2026 -0400",
+          "timestamp": 1785785012,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/1961be8"
+        },
+        {
+          "sha": "1dae165",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Jul 28 20:16:38 2026 -0400",
+          "timestamp": 1785284198,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/1dae165"
+        },
+        {
+          "sha": "defe6e2",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Fri Jul 24 01:04:56 2026 -0400",
+          "timestamp": 1784869496,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/defe6e2"
+        },
+        {
+          "sha": "c580f80",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Jul 20 22:25:11 2026 -0400",
+          "timestamp": 1784600711,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/c580f80"
+        },
+        {
+          "sha": "aecbf45",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Jul 5 11:57:25 2026 -0400",
+          "timestamp": 1783267045,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/aecbf45"
+        },
+        {
+          "sha": "bc1d246",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Jul 2 20:22:41 2026 -0400",
+          "timestamp": 1783038161,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/bc1d246"
+        },
+        {
+          "sha": "065355a",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sat Jun 27 23:09:56 2026 -0400",
+          "timestamp": 1782616196,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/065355a"
+        },
+        {
+          "sha": "254ed34",
+          "message": "initial commit",
+          "author": "Daniel Micay",
+          "date": "Tue Jun 16 15:17:15 2026 -0400",
+          "timestamp": 1781637435,
+          "url": "https://github.com/GrapheneOS/device_google_felix-kernels_6.1/commit/254ed34"
         }
       ]
     },
@@ -7375,47 +7375,6 @@
       ]
     },
     {
-      "name": "platform_packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi",
-      "remote": "grapheneos",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "ef10741b",
-          "message": "notify when hotspot turns off due to user switch",
-          "author": "inthewaves",
-          "date": "Sat Jul 11 22:52:24 2026 -0400",
-          "timestamp": 1783824744,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/ef10741b"
-        },
-        {
-          "sha": "9dbe8b71",
-          "message": "add a separate file for non-AOSP Wi-Fi strings",
-          "author": "inthewaves",
-          "date": "Sat Jul 11 22:52:24 2026 -0400",
-          "timestamp": 1783824744,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/9dbe8b71"
-        },
-        {
-          "sha": "12f27327",
-          "message": "fix multi-user handling bug in WifiService package state listener",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Jul 7 12:22:28 2026 -0400",
-          "timestamp": 1783441348,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/12f27327"
-        },
-        {
-          "sha": "2e4823ea",
-          "message": "build wpa_supplicant_mainline from source",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Jun 26 10:01:55 2026 -0400",
-          "timestamp": 1782482515,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/2e4823ea"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_providers_ContactsProvider",
       "path": "packages/providers/ContactsProvider",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider",
@@ -7457,35 +7416,43 @@
       ]
     },
     {
-      "name": "platform_external_AppCompatConfig",
-      "path": "external/AppCompatConfig",
-      "repo_url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig",
+      "name": "platform_packages_modules_Wifi",
+      "path": "packages/modules/Wifi",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi",
       "remote": "grapheneos",
-      "commit_count": 3,
+      "commit_count": 4,
       "commits": [
         {
-          "sha": "8798038",
-          "message": "version 8",
-          "author": "Daniel Micay",
-          "date": "Mon Aug 24 13:58:27 2026 -0400",
-          "timestamp": 1787594307,
-          "url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig/commit/8798038"
+          "sha": "ef10741b",
+          "message": "notify when hotspot turns off due to user switch",
+          "author": "inthewaves",
+          "date": "Sat Jul 11 22:52:24 2026 -0400",
+          "timestamp": 1783824744,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/ef10741b"
         },
         {
-          "sha": "fc30f19",
-          "message": "version 7",
-          "author": "Daniel Micay",
-          "date": "Wed Jun 24 21:18:16 2026 -0400",
-          "timestamp": 1782350296,
-          "url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig/commit/fc30f19"
+          "sha": "9dbe8b71",
+          "message": "add a separate file for non-AOSP Wi-Fi strings",
+          "author": "inthewaves",
+          "date": "Sat Jul 11 22:52:24 2026 -0400",
+          "timestamp": 1783824744,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/9dbe8b71"
         },
         {
-          "sha": "6e90a55",
-          "message": "version 6",
-          "author": "Daniel Micay",
-          "date": "Fri Jun 5 18:12:36 2026 -0400",
-          "timestamp": 1780697556,
-          "url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig/commit/6e90a55"
+          "sha": "12f27327",
+          "message": "fix multi-user handling bug in WifiService package state listener",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Jul 7 12:22:28 2026 -0400",
+          "timestamp": 1783441348,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/12f27327"
+        },
+        {
+          "sha": "2e4823ea",
+          "message": "build wpa_supplicant_mainline from source",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Jun 26 10:01:55 2026 -0400",
+          "timestamp": 1782482515,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Wifi/commit/2e4823ea"
         }
       ]
     },
@@ -7618,6 +7585,31 @@
           "date": "Fri Jul 10 18:46:33 2026 -0400",
           "timestamp": 1783723593,
           "url": "https://github.com/GrapheneOS/platform_cts/commit/84447fd292"
+        }
+      ]
+    },
+    {
+      "name": "platform_external_AppCompatConfig",
+      "path": "external/AppCompatConfig",
+      "repo_url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig",
+      "remote": "grapheneos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "8798038",
+          "message": "version 8",
+          "author": "Daniel Micay",
+          "date": "Mon Aug 24 13:58:27 2026 -0400",
+          "timestamp": 1787594307,
+          "url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig/commit/8798038"
+        },
+        {
+          "sha": "fc30f19",
+          "message": "version 7",
+          "author": "Daniel Micay",
+          "date": "Wed Jun 24 21:18:16 2026 -0400",
+          "timestamp": 1782350296,
+          "url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig/commit/fc30f19"
         }
       ]
     },
@@ -7864,23 +7856,6 @@
       ]
     },
     {
-      "name": "platform_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/GrapheneOS/platform_frameworks_opt_telephony",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1e795b17",
-          "message": "gmscompat: export PackageBasedTokenUtil.generatePackageBasedToken()",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Jun 16 18:48:18 2026 +0000",
-          "timestamp": 1781635698,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_opt_telephony/commit/1e795b17"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_apps_CarrierConfig2",
       "path": "packages/apps/CarrierConfig2",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_CarrierConfig2",
@@ -7894,6 +7869,23 @@
           "date": "Mon Jul 13 09:54:06 2026 -0400",
           "timestamp": 1783950846,
           "url": "https://github.com/GrapheneOS/platform_packages_apps_CarrierConfig2/commit/9d56bea"
+        }
+      ]
+    },
+    {
+      "name": "platform_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/GrapheneOS/platform_frameworks_opt_telephony",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1e795b17",
+          "message": "gmscompat: export PackageBasedTokenUtil.generatePackageBasedToken()",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Jun 16 18:48:18 2026 +0000",
+          "timestamp": 1781635698,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_opt_telephony/commit/1e795b17"
         }
       ]
     },
@@ -7915,23 +7907,6 @@
       ]
     },
     {
-      "name": "platform_packages_modules_AdServices",
-      "path": "packages/modules/AdServices",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_AdServices",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c20fb142",
-          "message": "[tmp] Include Vanadium on android.ext.adservices visibility for dexpreopt",
-          "author": "quh4gko8",
-          "date": "Thu Jul 2 12:08:23 2026 -0400",
-          "timestamp": 1783008503,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_AdServices/commit/c20fb142"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_modules_ConfigInfrastructure",
       "path": "packages/modules/ConfigInfrastructure",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_ConfigInfrastructure",
@@ -7945,6 +7920,23 @@
           "date": "Fri Jul 10 18:44:49 2026 -0400",
           "timestamp": 1783723489,
           "url": "https://github.com/GrapheneOS/platform_packages_modules_ConfigInfrastructure/commit/2515bd1"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_modules_AdServices",
+      "path": "packages/modules/AdServices",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_AdServices",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c20fb142",
+          "message": "[tmp] Include Vanadium on android.ext.adservices visibility for dexpreopt",
+          "author": "quh4gko8",
+          "date": "Thu Jul 2 12:08:23 2026 -0400",
+          "timestamp": 1783008503,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_AdServices/commit/c20fb142"
         }
       ]
     },
@@ -7983,23 +7975,6 @@
       ]
     },
     {
-      "name": "platform_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "b95c1f65",
-          "message": "add method to expose overridden carrier config",
-          "author": "inthewaves",
-          "date": "Mon Jun 15 18:57:23 2026 +0000",
-          "timestamp": 1781549843,
-          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/b95c1f65"
-        }
-      ]
-    },
-    {
       "name": "platform_tools_arsclib",
       "path": "tools/arsclib",
       "repo_url": "https://github.com/GrapheneOS/platform_tools_arsclib",
@@ -8013,6 +7988,23 @@
           "date": "Tue Jul 28 16:36:00 2026 -0400",
           "timestamp": 1785270960,
           "url": "https://github.com/GrapheneOS/platform_tools_arsclib/commit/a673884"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "b95c1f65",
+          "message": "add method to expose overridden carrier config",
+          "author": "inthewaves",
+          "date": "Mon Jun 15 18:57:23 2026 +0000",
+          "timestamp": 1781549843,
+          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/b95c1f65"
         }
       ]
     }
