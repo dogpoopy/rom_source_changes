@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "seventeen",
-  "generated_at": "2026-09-08T02:59:01.531291+00:00",
-  "since_date": "2026-06-10",
+  "generated_at": "2026-09-09T03:00:52.019790+00:00",
+  "since_date": "2026-06-11",
   "total_projects": 120,
-  "total_commits": 386,
+  "total_commits": 387,
   "projects": [
     {
       "name": "device_mediatek_sepolicy_vndr",
@@ -308,8 +308,16 @@
       "path": "frameworks/base",
       "repo_url": "https://github.com/yaap/frameworks_base",
       "remote": "yaap",
-      "commit_count": 33,
+      "commit_count": 34,
       "commits": [
+        {
+          "sha": "6b0f83e12f",
+          "message": "bootanimation: Request a high priority EGL context",
+          "author": "Alexander Koskovich",
+          "date": "Tue Sep 8 12:16:01 2026 -0400",
+          "timestamp": 1788884161,
+          "url": "https://github.com/yaap/frameworks_base/commit/6b0f83e12f"
+        },
         {
           "sha": "9453862166",
           "message": "Screenrecord: Hide edit if video editor app not installed",
@@ -2550,31 +2558,6 @@
       ]
     },
     {
-      "name": "device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/yaap/device_lineage_sepolicy",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "e31545f",
-          "message": "Import legacy libion policy",
-          "author": "Nolen Johnson",
-          "date": "Thu Aug 20 19:07:08 2026 +0800",
-          "timestamp": 1787224028,
-          "url": "https://github.com/yaap/device_lineage_sepolicy/commit/e31545f"
-        },
-        {
-          "sha": "2944594",
-          "message": "updater_app.te: ota_data_file -> ota_metadata_file",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Aug 9 12:24:49 2026 +0300",
-          "timestamp": 1786267489,
-          "url": "https://github.com/yaap/device_lineage_sepolicy/commit/2944594"
-        }
-      ]
-    },
-    {
       "name": "bionic",
       "path": "bionic",
       "repo_url": "https://github.com/yaap/bionic",
@@ -2600,27 +2583,27 @@
       ]
     },
     {
-      "name": "device_qcom_sepolicy_vndr_legacy-um",
-      "path": "device/qcom/sepolicy_vndr/legacy-um",
-      "repo_url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um",
+      "name": "device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/yaap/device_lineage_sepolicy",
       "remote": "yaap",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "2fc1540",
-          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
-          "author": "Michael Bestas",
-          "date": "Sun Aug 30 23:01:47 2026 +0800",
-          "timestamp": 1788102107,
-          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/2fc1540"
+          "sha": "e31545f",
+          "message": "Import legacy libion policy",
+          "author": "Nolen Johnson",
+          "date": "Thu Aug 20 19:07:08 2026 +0800",
+          "timestamp": 1787224028,
+          "url": "https://github.com/yaap/device_lineage_sepolicy/commit/e31545f"
         },
         {
-          "sha": "67d341c",
-          "message": "sepolicy_vndr: Add SePolicy rules for new wfd AIDL service",
-          "author": "Amit Agrawal",
-          "date": "Sun Aug 30 23:01:37 2026 +0800",
-          "timestamp": 1788102097,
-          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/67d341c"
+          "sha": "2944594",
+          "message": "updater_app.te: ota_data_file -> ota_metadata_file",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Aug 9 12:24:49 2026 +0300",
+          "timestamp": 1786267489,
+          "url": "https://github.com/yaap/device_lineage_sepolicy/commit/2944594"
         }
       ]
     },
@@ -2646,6 +2629,31 @@
           "date": "Wed Jun 17 12:27:19 2026 +0300",
           "timestamp": 1781688439,
           "url": "https://github.com/yaap/art/commit/6a20554e"
+        }
+      ]
+    },
+    {
+      "name": "device_qcom_sepolicy_vndr_legacy-um",
+      "path": "device/qcom/sepolicy_vndr/legacy-um",
+      "repo_url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2fc1540",
+          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
+          "author": "Michael Bestas",
+          "date": "Sun Aug 30 23:01:47 2026 +0800",
+          "timestamp": 1788102107,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/2fc1540"
+        },
+        {
+          "sha": "67d341c",
+          "message": "sepolicy_vndr: Add SePolicy rules for new wfd AIDL service",
+          "author": "Amit Agrawal",
+          "date": "Sun Aug 30 23:01:37 2026 +0800",
+          "timestamp": 1788102097,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/67d341c"
         }
       ]
     },
@@ -2985,6 +2993,23 @@
       ]
     },
     {
+      "name": "build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/yaap/build_soong",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4c2ad847",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jun 17 13:18:25 2026 +0300",
+          "timestamp": 1781691505,
+          "url": "https://github.com/yaap/build_soong/commit/4c2ad847"
+        }
+      ]
+    },
+    {
       "name": "external_avb",
       "path": "external/avb",
       "repo_url": "https://github.com/yaap/external_avb",
@@ -2998,23 +3023,6 @@
           "date": "Wed Jun 17 13:18:44 2026 +0300",
           "timestamp": 1781691524,
           "url": "https://github.com/yaap/external_avb/commit/9be63f1"
-        }
-      ]
-    },
-    {
-      "name": "external_bouncycastle",
-      "path": "external/bouncycastle",
-      "repo_url": "https://github.com/yaap/external_bouncycastle",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fd77a01",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jun 17 13:18:38 2026 +0300",
-          "timestamp": 1781691518,
-          "url": "https://github.com/yaap/external_bouncycastle/commit/fd77a01"
         }
       ]
     },
@@ -3036,19 +3044,19 @@
       ]
     },
     {
-      "name": "build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/yaap/build_soong",
+      "name": "external_bouncycastle",
+      "path": "external/bouncycastle",
+      "repo_url": "https://github.com/yaap/external_bouncycastle",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "4c2ad847",
+          "sha": "fd77a01",
           "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
           "author": "Ido Ben-Hur",
-          "date": "Wed Jun 17 13:18:25 2026 +0300",
-          "timestamp": 1781691505,
-          "url": "https://github.com/yaap/build_soong/commit/4c2ad847"
+          "date": "Wed Jun 17 13:18:38 2026 +0300",
+          "timestamp": 1781691518,
+          "url": "https://github.com/yaap/external_bouncycastle/commit/fd77a01"
         }
       ]
     },
@@ -3206,23 +3214,6 @@
       ]
     },
     {
-      "name": "external_mksh",
-      "path": "external/mksh",
-      "repo_url": "https://github.com/yaap/external_mksh",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "12797aa",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jun 17 13:24:01 2026 +0300",
-          "timestamp": 1781691841,
-          "url": "https://github.com/yaap/external_mksh/commit/12797aa"
-        }
-      ]
-    },
-    {
       "name": "external_libxml2",
       "path": "external/libxml2",
       "repo_url": "https://github.com/yaap/external_libxml2",
@@ -3236,6 +3227,23 @@
           "date": "Wed Jun 17 13:22:49 2026 +0300",
           "timestamp": 1781691769,
           "url": "https://github.com/yaap/external_libxml2/commit/ba84556"
+        }
+      ]
+    },
+    {
+      "name": "external_mksh",
+      "path": "external/mksh",
+      "repo_url": "https://github.com/yaap/external_mksh",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "12797aa",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jun 17 13:24:01 2026 +0300",
+          "timestamp": 1781691841,
+          "url": "https://github.com/yaap/external_mksh/commit/12797aa"
         }
       ]
     },
@@ -3274,23 +3282,6 @@
       ]
     },
     {
-      "name": "external_vixl",
-      "path": "external/vixl",
-      "repo_url": "https://github.com/yaap/external_vixl",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0d6198f",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jun 17 13:24:57 2026 +0300",
-          "timestamp": 1781691897,
-          "url": "https://github.com/yaap/external_vixl/commit/0d6198f"
-        }
-      ]
-    },
-    {
       "name": "external_tinycompress",
       "path": "external/tinycompress",
       "repo_url": "https://github.com/yaap/external_tinycompress",
@@ -3304,6 +3295,23 @@
           "date": "Wed Jun 17 13:24:55 2026 +0300",
           "timestamp": 1781691895,
           "url": "https://github.com/yaap/external_tinycompress/commit/020859f"
+        }
+      ]
+    },
+    {
+      "name": "external_vixl",
+      "path": "external/vixl",
+      "repo_url": "https://github.com/yaap/external_vixl",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0d6198f",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jun 17 13:24:57 2026 +0300",
+          "timestamp": 1781691897,
+          "url": "https://github.com/yaap/external_vixl/commit/0d6198f"
         }
       ]
     },
@@ -3342,6 +3350,23 @@
       ]
     },
     {
+      "name": "external_skia",
+      "path": "external/skia",
+      "repo_url": "https://github.com/yaap/external_skia",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "08568a44b",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jun 17 13:24:45 2026 +0300",
+          "timestamp": 1781691885,
+          "url": "https://github.com/yaap/external_skia/commit/08568a44b"
+        }
+      ]
+    },
+    {
       "name": "frameworks_opt_net_ims",
       "path": "frameworks/opt/net/ims",
       "repo_url": "https://github.com/yaap/frameworks_opt_net_ims",
@@ -3376,19 +3401,19 @@
       ]
     },
     {
-      "name": "external_skia",
-      "path": "external/skia",
-      "repo_url": "https://github.com/yaap/external_skia",
+      "name": "external_tensorflow",
+      "path": "external/tensorflow",
+      "repo_url": "https://github.com/yaap/external_tensorflow",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "08568a44b",
+          "sha": "fcaa8489c",
           "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
           "author": "Ido Ben-Hur",
-          "date": "Wed Jun 17 13:24:45 2026 +0300",
-          "timestamp": 1781691885,
-          "url": "https://github.com/yaap/external_skia/commit/08568a44b"
+          "date": "Wed Jun 17 13:24:52 2026 +0300",
+          "timestamp": 1781691892,
+          "url": "https://github.com/yaap/external_tensorflow/commit/fcaa8489c"
         }
       ]
     },
@@ -3406,23 +3431,6 @@
           "date": "Tue Aug 11 14:06:35 2026 -0400",
           "timestamp": 1786471595,
           "url": "https://github.com/yaap/frameworks_rs/commit/c0dd7d6"
-        }
-      ]
-    },
-    {
-      "name": "external_tensorflow",
-      "path": "external/tensorflow",
-      "repo_url": "https://github.com/yaap/external_tensorflow",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fcaa8489c",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jun 17 13:24:52 2026 +0300",
-          "timestamp": 1781691892,
-          "url": "https://github.com/yaap/external_tensorflow/commit/fcaa8489c"
         }
       ]
     },
@@ -3512,6 +3520,23 @@
       ]
     },
     {
+      "name": "packages_apps_CellBroadcastReceiver",
+      "path": "packages/apps/CellBroadcastReceiver",
+      "repo_url": "https://github.com/yaap/packages_apps_CellBroadcastReceiver",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5f75f495",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Jun 21 23:44:42 2026 +0300",
+          "timestamp": 1782074682,
+          "url": "https://github.com/yaap/packages_apps_CellBroadcastReceiver/commit/5f75f495"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_Contacts",
       "path": "packages/apps/Contacts",
       "repo_url": "https://github.com/yaap/packages_apps_Contacts",
@@ -3546,19 +3571,19 @@
       ]
     },
     {
-      "name": "packages_apps_CellBroadcastReceiver",
-      "path": "packages/apps/CellBroadcastReceiver",
-      "repo_url": "https://github.com/yaap/packages_apps_CellBroadcastReceiver",
+      "name": "packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "5f75f495",
+          "sha": "380a2701",
           "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
           "author": "Ido Ben-Hur",
-          "date": "Sun Jun 21 23:44:42 2026 +0300",
-          "timestamp": 1782074682,
-          "url": "https://github.com/yaap/packages_apps_CellBroadcastReceiver/commit/5f75f495"
+          "date": "Sun Aug 9 17:57:07 2026 +0300",
+          "timestamp": 1786287427,
+          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/380a2701"
         }
       ]
     },
@@ -3576,23 +3601,6 @@
           "date": "Fri Aug 21 16:38:07 2026 +0300",
           "timestamp": 1787319487,
           "url": "https://github.com/yaap/packages_apps_KProfiles/commit/8b740e0"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "380a2701",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Aug 9 17:57:07 2026 +0300",
-          "timestamp": 1786287427,
-          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/380a2701"
         }
       ]
     },
@@ -3699,23 +3707,6 @@
       ]
     },
     {
-      "name": "packages_modules_StatsD",
-      "path": "packages/modules/StatsD",
-      "repo_url": "https://github.com/yaap/packages_modules_StatsD",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0c341ac7",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:35:05 2026 +0300",
-          "timestamp": 1785328505,
-          "url": "https://github.com/yaap/packages_modules_StatsD/commit/0c341ac7"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_UprobeStats",
       "path": "packages/modules/UprobeStats",
       "repo_url": "https://github.com/yaap/packages_modules_UprobeStats",
@@ -3733,19 +3724,36 @@
       ]
     },
     {
-      "name": "packages_modules_adb",
-      "path": "packages/modules/adb",
-      "repo_url": "https://github.com/yaap/packages_modules_adb",
+      "name": "packages_modules_StatsD",
+      "path": "packages/modules/StatsD",
+      "repo_url": "https://github.com/yaap/packages_modules_StatsD",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "dd8a1f9",
+          "sha": "0c341ac7",
           "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
           "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:03:47 2026 +0300",
-          "timestamp": 1785326627,
-          "url": "https://github.com/yaap/packages_modules_adb/commit/dd8a1f9"
+          "date": "Wed Jul 29 15:35:05 2026 +0300",
+          "timestamp": 1785328505,
+          "url": "https://github.com/yaap/packages_modules_StatsD/commit/0c341ac7"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Permission",
+      "path": "packages/modules/Permission",
+      "repo_url": "https://github.com/yaap/packages_modules_Permission",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5b2dbd2e4",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 15:34:58 2026 +0300",
+          "timestamp": 1785328498,
+          "url": "https://github.com/yaap/packages_modules_Permission/commit/5b2dbd2e4"
         }
       ]
     },
@@ -3767,19 +3775,19 @@
       ]
     },
     {
-      "name": "packages_modules_Permission",
-      "path": "packages/modules/Permission",
-      "repo_url": "https://github.com/yaap/packages_modules_Permission",
+      "name": "packages_modules_adb",
+      "path": "packages/modules/adb",
+      "repo_url": "https://github.com/yaap/packages_modules_adb",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "5b2dbd2e4",
+          "sha": "dd8a1f9",
           "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
           "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:34:58 2026 +0300",
-          "timestamp": 1785328498,
-          "url": "https://github.com/yaap/packages_modules_Permission/commit/5b2dbd2e4"
+          "date": "Wed Jul 29 15:03:47 2026 +0300",
+          "timestamp": 1785326627,
+          "url": "https://github.com/yaap/packages_modules_adb/commit/dd8a1f9"
         }
       ]
     },
@@ -3852,6 +3860,23 @@
       ]
     },
     {
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fc3363ed8c",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Sat Aug 8 15:13:48 2026 +0300",
+          "timestamp": 1786191228,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/fc3363ed8c"
+        }
+      ]
+    },
+    {
       "name": "packages_services_DeviceAsWebcam",
       "path": "packages/services/DeviceAsWebcam",
       "repo_url": "https://github.com/yaap/packages_services_DeviceAsWebcam",
@@ -3865,23 +3890,6 @@
           "date": "Wed Jul 29 15:39:05 2026 +0300",
           "timestamp": 1785328745,
           "url": "https://github.com/yaap/packages_services_DeviceAsWebcam/commit/f2f95ea"
-        }
-      ]
-    },
-    {
-      "name": "packages_services_Iwlan",
-      "path": "packages/services/Iwlan",
-      "repo_url": "https://github.com/yaap/packages_services_Iwlan",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8ec9667",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:39:07 2026 +0300",
-          "timestamp": 1785328747,
-          "url": "https://github.com/yaap/packages_services_Iwlan/commit/8ec9667"
         }
       ]
     },
@@ -3903,6 +3911,23 @@
       ]
     },
     {
+      "name": "packages_services_Iwlan",
+      "path": "packages/services/Iwlan",
+      "repo_url": "https://github.com/yaap/packages_services_Iwlan",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8ec9667",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 15:39:07 2026 +0300",
+          "timestamp": 1785328747,
+          "url": "https://github.com/yaap/packages_services_Iwlan/commit/8ec9667"
+        }
+      ]
+    },
+    {
       "name": "system_apex",
       "path": "system/apex",
       "repo_url": "https://github.com/yaap/system_apex",
@@ -3916,40 +3941,6 @@
           "date": "Wed Jul 29 15:56:00 2026 +0300",
           "timestamp": 1785329760,
           "url": "https://github.com/yaap/system_apex/commit/3d9b630"
-        }
-      ]
-    },
-    {
-      "name": "packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/yaap/packages_services_Telephony",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "bcae86237",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Fri Aug 7 12:05:43 2026 -0400",
-          "timestamp": 1786118743,
-          "url": "https://github.com/yaap/packages_services_Telephony/commit/bcae86237"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fc3363ed8c",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Aug 8 15:13:48 2026 +0300",
-          "timestamp": 1786191228,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/fc3363ed8c"
         }
       ]
     },
@@ -4018,6 +4009,23 @@
           "date": "Thu Aug 20 19:06:52 2026 +0800",
           "timestamp": 1787224012,
           "url": "https://github.com/yaap/system_memory_libion/commit/e86bc63"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/yaap/packages_services_Telephony",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "bcae86237",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Aug 7 12:05:43 2026 -0400",
+          "timestamp": 1786118743,
+          "url": "https://github.com/yaap/packages_services_Telephony/commit/bcae86237"
         }
       ]
     },
