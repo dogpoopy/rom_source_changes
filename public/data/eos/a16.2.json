@@ -1,10 +1,10 @@
 {
   "rom_id": "eos",
   "branch": "a16.2",
-  "generated_at": "2026-09-10T03:02:35.139815+00:00",
-  "since_date": "2026-06-12",
-  "total_projects": 134,
-  "total_commits": 954,
+  "generated_at": "2026-09-11T02:57:56.530927+00:00",
+  "since_date": "2026-06-13",
+  "total_projects": 136,
+  "total_commits": 993,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "001170a",
+          "message": "wiki: pages: libvirt-qemu: Add workarounds for the known issues",
+          "author": "Yumi Yukimura",
+          "date": "Thu Sep 10 16:59:25 2026 +0800",
+          "timestamp": 1789030765,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/001170a"
+        },
         {
           "sha": "fc68abe",
           "message": "wiki: Correct some spec info for AYN Odin2 devices",
@@ -804,14 +812,6 @@
           "date": "Mon Jun 22 17:19:07 2026 +0000",
           "timestamp": 1782148747,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/dd317a8"
-        },
-        {
-          "sha": "5a9c998",
-          "message": "wiki: Update supported models for bronco",
-          "author": "Nick Reuter",
-          "date": "Mon Jun 22 17:19:07 2026 +0000",
-          "timestamp": 1782148747,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/5a9c998"
         }
       ]
     },
@@ -1629,8 +1629,40 @@
       "path": "external/prebuiltapks",
       "repo_url": "https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs",
       "remote": "e",
-      "commit_count": 93,
+      "commit_count": 97,
       "commits": [
+        {
+          "sha": "11fbd67",
+          "message": "Merge remote-tracking branch 'origin/v4.3'",
+          "author": "Althaf",
+          "date": "Thu Sep 10 11:49:28 2026 +0000",
+          "timestamp": 1789040968,
+          "url": "https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs/commit/11fbd67"
+        },
+        {
+          "sha": "8a8bb5a",
+          "message": "Update account manager for v4.3-rc",
+          "author": "althafvly",
+          "date": "Thu Sep 10 17:17:51 2026 +0530",
+          "timestamp": 1789040871,
+          "url": "https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs/commit/8a8bb5a"
+        },
+        {
+          "sha": "d4c77e7",
+          "message": "Merge remote-tracking branch 'origin/v4.3'",
+          "author": "Althaf",
+          "date": "Thu Sep 10 11:29:56 2026 +0000",
+          "timestamp": 1789039796,
+          "url": "https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs/commit/d4c77e7"
+        },
+        {
+          "sha": "d5821c8",
+          "message": "Update MicroG for v4.3-rc",
+          "author": "althafvly",
+          "date": "Thu Sep 10 16:57:56 2026 +0530",
+          "timestamp": 1789039676,
+          "url": "https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs/commit/d5821c8"
+        },
         {
           "sha": "3d896f9",
           "message": "Update twelve for 4.4-beta",
@@ -2378,12 +2410,525 @@
       ]
     },
     {
+      "name": "e/os/android_frameworks_base",
+      "path": "frameworks/base",
+      "repo_url": "https://gitlab.e.foundation/e/os/android_frameworks_base",
+      "remote": "e",
+      "commit_count": 62,
+      "commits": [
+        {
+          "sha": "44d8672a",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Thu Sep 10 14:40:18 2026 +0000",
+          "timestamp": 1789051218,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/44d8672a"
+        },
+        {
+          "sha": "ce690697",
+          "message": "aapt2: Sanitize Javadoc comments to prevent code injection",
+          "author": "Mark Punzalan",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/ce690697"
+        },
+        {
+          "sha": "a1eab6e4",
+          "message": "Fix potential NPEs in PduParser.parsePartHeaders",
+          "author": "Soumyadeep Paul",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/a1eab6e4"
+        },
+        {
+          "sha": "4bef5811",
+          "message": "RESTRICT AUTOMERGE: Fix vulnerabilities in PduParser",
+          "author": "Thomas Nguyen",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/4bef5811"
+        },
+        {
+          "sha": "0ecfe9db",
+          "message": "ResStringPool: Validate styleCount and offsets",
+          "author": "Jeremy Meyer",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/0ecfe9db"
+        },
+        {
+          "sha": "5ea8545d",
+          "message": "RESTRICT AUTOMERGE Fix security vulnerability in getManageSpaceActivityIntent",
+          "author": "Yang Kudurshian",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/5ea8545d"
+        },
+        {
+          "sha": "146916dc",
+          "message": "Validate caller UID in openProxyFileDescriptor",
+          "author": "Darshil Shah",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/146916dc"
+        },
+        {
+          "sha": "c08579f5",
+          "message": "Add bracket checking support to SQLiteTokenizer",
+          "author": "Duy Truong",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/c08579f5"
+        },
+        {
+          "sha": "855cfe9f",
+          "message": "Fix security check bypass",
+          "author": "Duy Truong",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/855cfe9f"
+        },
+        {
+          "sha": "9d44bb58",
+          "message": "Strip URI grants in ConfigActivityProxy",
+          "author": "Taso Dane",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/9d44bb58"
+        },
+        {
+          "sha": "cfa40bd8",
+          "message": "Fix BAL bypass via getAppMarketActivityIntent",
+          "author": "Himanshu Gupta",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/cfa40bd8"
+        },
+        {
+          "sha": "0c4813f9",
+          "message": "LauncherApps: Scrub sensitive URIs in install sessions",
+          "author": "Prabal Singh",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/0c4813f9"
+        },
+        {
+          "sha": "d5c5fbb2",
+          "message": "Remove usage of Parcel.allowSquashing in RemoteViews and immediate unparceling of Bundle",
+          "author": "Vipul Singh",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/d5c5fbb2"
+        },
+        {
+          "sha": "882be47d",
+          "message": "Revert^2 \"Writing ApplicationInfoCache instead of multiple ApplicationInfos for nested RemoteViews\"",
+          "author": "Vipul Singh",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/882be47d"
+        },
+        {
+          "sha": "e7b0f568",
+          "message": "Fix using the base type for checking",
+          "author": "Candice Lo",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/e7b0f568"
+        },
+        {
+          "sha": "6216b90c",
+          "message": "Properly parse meta_key in AccountsDb.",
+          "author": "Dmitry Dementyev",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/6216b90c"
+        },
+        {
+          "sha": "e8378181",
+          "message": "Harden startNextMatchingActivity() caller identity propagation.",
+          "author": "Annie Lin",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/e8378181"
+        },
+        {
+          "sha": "ca3151d6",
+          "message": "Don't parse 3p recognizer metadata in safe mode",
+          "author": "Omar Eissa",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/ca3151d6"
+        },
+        {
+          "sha": "e9bb8fbb",
+          "message": "Validate caller in SlicePermissionActivity to prevent spoofing.",
+          "author": "Yash Nagayach",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/e9bb8fbb"
+        },
+        {
+          "sha": "56355efe",
+          "message": "Fix & speed up IntentForwarderActivityTest",
+          "author": "Matt Casey",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/56355efe"
+        },
+        {
+          "sha": "245c4fb5",
+          "message": "Sanitize intent selector in IntentForwarderActivity",
+          "author": "Oli Thompson",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/245c4fb5"
+        },
+        {
+          "sha": "d82a4256",
+          "message": "Update URI permission granting logic in Intent Redirection Hardening",
+          "author": "Yang Kudurshian",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/d82a4256"
+        },
+        {
+          "sha": "2affa933",
+          "message": "Refactor: Add permission checks to Unarchive activities",
+          "author": "Prabal Singh",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/2affa933"
+        },
+        {
+          "sha": "7187c2c5",
+          "message": "Use setHideOverlayWindows instead of AppOpsManager",
+          "author": "Charles Chen",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7187c2c5"
+        },
+        {
+          "sha": "7f03d90a",
+          "message": "fix an inverted boolean check",
+          "author": "Song Chun Fan",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7f03d90a"
+        },
+        {
+          "sha": "7ca38f25",
+          "message": "DO NOT MERGE: [ClipboardService] Check notification setting for given user",
+          "author": "Evan Severson",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7ca38f25"
+        },
+        {
+          "sha": "74dd6d0c",
+          "message": "Use consistent mmap/unmap sizes in MemoryIntArray",
+          "author": "Jared Duke",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/74dd6d0c"
+        },
+        {
+          "sha": "5c9c9b09",
+          "message": "Catch OutOfMemoryError while parsing xml in GameManagerService",
+          "author": "Barış Kaya",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/5c9c9b09"
+        },
+        {
+          "sha": "f67b756a",
+          "message": "Move intent redirect checks before intent resolution.",
+          "author": "Nan Wu",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/f67b756a"
+        },
+        {
+          "sha": "4538a599",
+          "message": "Fix intent redirect bypass via selector in addCreatorToken",
+          "author": "Nan Wu",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/4538a599"
+        },
+        {
+          "sha": "6b838488",
+          "message": "Dedup SessionParams.whitelistedRestrictedPermissions",
+          "author": "William Loh",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/6b838488"
+        },
+        {
+          "sha": "e082f2c3",
+          "message": "Make destAddr nullable",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/e082f2c3"
+        },
+        {
+          "sha": "09432f50",
+          "message": "Set hide overlays on mini resolver",
+          "author": "Oli Thompson",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/09432f50"
+        },
+        {
+          "sha": "c759604f",
+          "message": "Prevent showing non system overlays while installing",
+          "author": "Prabal Singh",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/c759604f"
+        },
+        {
+          "sha": "141ee94a",
+          "message": "Disallow launch-behind animation if BAL blocks",
+          "author": "Louis Chang",
+          "date": "Wed Sep 9 18:29:54 2026 +0000",
+          "timestamp": 1788978594,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/141ee94a"
+        },
+        {
+          "sha": "feae11d5",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Tue Sep 1 14:37:00 2026 +0000",
+          "timestamp": 1788273420,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/feae11d5"
+        },
+        {
+          "sha": "35ad1f68",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 1 11:52:55 2026 +0000",
+          "timestamp": 1788263575,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/35ad1f68"
+        },
+        {
+          "sha": "2391c666",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Mon Aug 24 14:39:26 2026 +0000",
+          "timestamp": 1787582366,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/2391c666"
+        },
+        {
+          "sha": "68ee585f",
+          "message": "FusedLocation: Use GPS when NLP is not available",
+          "author": "LuK1337",
+          "date": "Sun Aug 23 19:36:39 2026 +0200",
+          "timestamp": 1787506599,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/68ee585f"
+        },
+        {
+          "sha": "d0604604",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Sat Aug 22 14:37:46 2026 +0000",
+          "timestamp": 1787409466,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/d0604604"
+        },
+        {
+          "sha": "480e2fbe",
+          "message": "ServiceWatcher: Allow microG location provider to be installed in /data",
+          "author": "LuK1337",
+          "date": "Fri Aug 21 16:27:17 2026 +0000",
+          "timestamp": 1787329637,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/480e2fbe"
+        },
+        {
+          "sha": "378ff33d",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Tue Aug 18 14:42:27 2026 +0000",
+          "timestamp": 1787064147,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/378ff33d"
+        },
+        {
+          "sha": "09465283",
+          "message": "SystemUI: Fix missing focus highlight in TV global actions",
+          "author": "Vitaliy Tomin",
+          "date": "Sat Aug 8 23:07:11 2026 +0800",
+          "timestamp": 1786201631,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/09465283"
+        },
+        {
+          "sha": "ba85a20f",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sat Aug 8 14:39:13 2026 +0000",
+          "timestamp": 1786199953,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/ba85a20f"
+        },
+        {
+          "sha": "aaa4284f",
+          "message": "fixup! SystemUI: Fix battery icon not hiding from the status bar",
+          "author": "LuK1337",
+          "date": "Sat Aug 8 08:51:15 2026 +0200",
+          "timestamp": 1786171875,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/aaa4284f"
+        },
+        {
+          "sha": "5a663c88",
+          "message": "SystemUI: Fix battery icon not hiding from the status bar",
+          "author": "Henrik Karlsson",
+          "date": "Fri Aug 7 21:22:40 2026 +0200",
+          "timestamp": 1786130560,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/5a663c88"
+        },
+        {
+          "sha": "dd9db635",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Tue Jul 28 14:59:17 2026 +0000",
+          "timestamp": 1785250757,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/dd9db635"
+        },
+        {
+          "sha": "58e0f87d",
+          "message": "wm: Preserve locked rotation during screen state changes",
+          "author": "Amrit Ranjan",
+          "date": "Sat Jul 25 13:19:36 2026 +0200",
+          "timestamp": 1784978376,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/58e0f87d"
+        },
+        {
+          "sha": "9de6efab",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Thu Jul 16 14:35:05 2026 +0000",
+          "timestamp": 1784212505,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/9de6efab"
+        },
+        {
+          "sha": "7d1834f7",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Jul 15 09:55:26 2026 +0000",
+          "timestamp": 1784109326,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7d1834f7"
+        },
+        {
+          "sha": "15da76f0",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sat Jul 11 14:39:40 2026 +0000",
+          "timestamp": 1783780780,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/15da76f0"
+        },
+        {
+          "sha": "5a1a5ca9",
+          "message": "webkit: WebViewUpdateServiceImpl2: Use compile time debuggable check",
+          "author": "LuK1337",
+          "date": "Fri Jul 10 18:54:18 2026 +0200",
+          "timestamp": 1783702458,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/5a1a5ca9"
+        },
+        {
+          "sha": "3a2f4c86",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sat Jul 4 14:32:49 2026 +0000",
+          "timestamp": 1783175569,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/3a2f4c86"
+        },
+        {
+          "sha": "46fd4b1f",
+          "message": "PhoneWindowManager: Fix assist key wakeup",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 4 06:05:04 2026 +0000",
+          "timestamp": 1783145104,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/46fd4b1f"
+        },
+        {
+          "sha": "bdc01ed9",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sat Jun 27 14:36:43 2026 +0000",
+          "timestamp": 1782571003,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/bdc01ed9"
+        },
+        {
+          "sha": "a504a05d",
+          "message": "fw/b: Suggestion Popup: Tint properly",
+          "author": "Michael W",
+          "date": "Sat Jun 27 11:05:26 2026 +0000",
+          "timestamp": 1782558326,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/a504a05d"
+        },
+        {
+          "sha": "bd06afc1",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sun Jun 21 14:47:04 2026 +0000",
+          "timestamp": 1782053224,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/bd06afc1"
+        },
+        {
+          "sha": "c8f2005b",
+          "message": "Allow overriding Wi-Fi and Bluetooth MAC addresses",
+          "author": "Torsten Grote",
+          "date": "Sun Jun 21 05:34:32 2026 +0000",
+          "timestamp": 1782020072,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/c8f2005b"
+        },
+        {
+          "sha": "7a6a9340",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Wed Jun 17 14:46:15 2026 +0000",
+          "timestamp": 1781707575,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7a6a9340"
+        },
+        {
+          "sha": "cb76c383",
+          "message": "[AAPM] Check radio interface for 2G availability.",
+          "author": "Hani Kazmi",
+          "date": "Tue Jun 16 15:24:11 2026 +0000",
+          "timestamp": 1781623451,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/cb76c383"
+        },
+        {
+          "sha": "d6e118e5",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Tue Jun 16 14:40:31 2026 +0000",
+          "timestamp": 1781620831,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/d6e118e5"
+        },
+        {
+          "sha": "0d9bcd02",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:54:39 2026 +0000",
+          "timestamp": 1781546079,
+          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/0d9bcd02"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/hudson",
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
       "commit_count": 53,
       "commits": [
+        {
+          "sha": "808755a",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Thu Sep 10 23:30:53 2026 +0000",
+          "timestamp": 1789083053,
+          "url": "https://github.com/LineageOS/hudson/commit/808755a"
+        },
         {
           "sha": "4134514",
           "message": "Regenerate device dependency mappings",
@@ -2799,14 +3344,6 @@
           "date": "Thu Jun 18 23:30:49 2026 +0000",
           "timestamp": 1781825449,
           "url": "https://github.com/LineageOS/hudson/commit/658a0d3"
-        },
-        {
-          "sha": "47580fb",
-          "message": "Shift from old-aquatic to new-aquatic release candidate",
-          "author": "Michael Bestas",
-          "date": "Fri Jun 12 12:48:18 2026 +0000",
-          "timestamp": 1781268498,
-          "url": "https://github.com/LineageOS/hudson/commit/47580fb"
         }
       ]
     },
@@ -2815,7 +3352,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 42,
+      "commit_count": 41,
       "commits": [
         {
           "sha": "9daed12",
@@ -3144,14 +3681,6 @@
           "date": "Sun Jun 14 00:01:58 2026 +0200",
           "timestamp": 1781388118,
           "url": "https://github.com/LineageOS/mirror/commit/e3bd9d9"
-        },
-        {
-          "sha": "95fe03a",
-          "message": "Updated to 12-Jun-2026 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Sat Jun 13 00:01:39 2026 +0200",
-          "timestamp": 1781301699,
-          "url": "https://github.com/LineageOS/mirror/commit/95fe03a"
         }
       ]
     },
@@ -3160,8 +3689,24 @@
       "path": "vendor/lineage",
       "repo_url": "https://gitlab.e.foundation/e/os/android_vendor_lineage",
       "remote": "e",
-      "commit_count": 36,
+      "commit_count": 37,
       "commits": [
+        {
+          "sha": "efeab76",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Thu Sep 10 14:21:59 2026 +0000",
+          "timestamp": 1789050119,
+          "url": "https://gitlab.e.foundation/e/os/android_vendor_lineage/commit/efeab76"
+        },
+        {
+          "sha": "9adfccb",
+          "message": "release: Bump Security String to 2026-09-01",
+          "author": "Nolen Johnson",
+          "date": "Wed Sep 9 18:31:59 2026 +0000",
+          "timestamp": 1788978719,
+          "url": "https://gitlab.e.foundation/e/os/android_vendor_lineage/commit/9adfccb"
+        },
         {
           "sha": "958e2c1",
           "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
@@ -3441,14 +3986,6 @@
           "date": "Fri Jun 26 21:35:53 2026 +0200",
           "timestamp": 1782502553,
           "url": "https://gitlab.e.foundation/e/os/android_vendor_lineage/commit/50364c1"
-        },
-        {
-          "sha": "a756ec6",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Fri Jun 12 14:23:37 2026 +0000",
-          "timestamp": 1781274217,
-          "url": "https://gitlab.e.foundation/e/os/android_vendor_lineage/commit/a756ec6"
         }
       ]
     },
@@ -3726,231 +4263,6 @@
       ]
     },
     {
-      "name": "e/os/android_frameworks_base",
-      "path": "frameworks/base",
-      "repo_url": "https://gitlab.e.foundation/e/os/android_frameworks_base",
-      "remote": "e",
-      "commit_count": 27,
-      "commits": [
-        {
-          "sha": "feae11d5",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Tue Sep 1 14:37:00 2026 +0000",
-          "timestamp": 1788273420,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/feae11d5"
-        },
-        {
-          "sha": "35ad1f68",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 1 11:52:55 2026 +0000",
-          "timestamp": 1788263575,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/35ad1f68"
-        },
-        {
-          "sha": "2391c666",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Mon Aug 24 14:39:26 2026 +0000",
-          "timestamp": 1787582366,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/2391c666"
-        },
-        {
-          "sha": "68ee585f",
-          "message": "FusedLocation: Use GPS when NLP is not available",
-          "author": "LuK1337",
-          "date": "Sun Aug 23 19:36:39 2026 +0200",
-          "timestamp": 1787506599,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/68ee585f"
-        },
-        {
-          "sha": "d0604604",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Sat Aug 22 14:37:46 2026 +0000",
-          "timestamp": 1787409466,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/d0604604"
-        },
-        {
-          "sha": "480e2fbe",
-          "message": "ServiceWatcher: Allow microG location provider to be installed in /data",
-          "author": "LuK1337",
-          "date": "Fri Aug 21 16:27:17 2026 +0000",
-          "timestamp": 1787329637,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/480e2fbe"
-        },
-        {
-          "sha": "378ff33d",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Tue Aug 18 14:42:27 2026 +0000",
-          "timestamp": 1787064147,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/378ff33d"
-        },
-        {
-          "sha": "09465283",
-          "message": "SystemUI: Fix missing focus highlight in TV global actions",
-          "author": "Vitaliy Tomin",
-          "date": "Sat Aug 8 23:07:11 2026 +0800",
-          "timestamp": 1786201631,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/09465283"
-        },
-        {
-          "sha": "ba85a20f",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sat Aug 8 14:39:13 2026 +0000",
-          "timestamp": 1786199953,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/ba85a20f"
-        },
-        {
-          "sha": "aaa4284f",
-          "message": "fixup! SystemUI: Fix battery icon not hiding from the status bar",
-          "author": "LuK1337",
-          "date": "Sat Aug 8 08:51:15 2026 +0200",
-          "timestamp": 1786171875,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/aaa4284f"
-        },
-        {
-          "sha": "5a663c88",
-          "message": "SystemUI: Fix battery icon not hiding from the status bar",
-          "author": "Henrik Karlsson",
-          "date": "Fri Aug 7 21:22:40 2026 +0200",
-          "timestamp": 1786130560,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/5a663c88"
-        },
-        {
-          "sha": "dd9db635",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Tue Jul 28 14:59:17 2026 +0000",
-          "timestamp": 1785250757,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/dd9db635"
-        },
-        {
-          "sha": "58e0f87d",
-          "message": "wm: Preserve locked rotation during screen state changes",
-          "author": "Amrit Ranjan",
-          "date": "Sat Jul 25 13:19:36 2026 +0200",
-          "timestamp": 1784978376,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/58e0f87d"
-        },
-        {
-          "sha": "9de6efab",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Thu Jul 16 14:35:05 2026 +0000",
-          "timestamp": 1784212505,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/9de6efab"
-        },
-        {
-          "sha": "7d1834f7",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Jul 15 09:55:26 2026 +0000",
-          "timestamp": 1784109326,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7d1834f7"
-        },
-        {
-          "sha": "15da76f0",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sat Jul 11 14:39:40 2026 +0000",
-          "timestamp": 1783780780,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/15da76f0"
-        },
-        {
-          "sha": "5a1a5ca9",
-          "message": "webkit: WebViewUpdateServiceImpl2: Use compile time debuggable check",
-          "author": "LuK1337",
-          "date": "Fri Jul 10 18:54:18 2026 +0200",
-          "timestamp": 1783702458,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/5a1a5ca9"
-        },
-        {
-          "sha": "3a2f4c86",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sat Jul 4 14:32:49 2026 +0000",
-          "timestamp": 1783175569,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/3a2f4c86"
-        },
-        {
-          "sha": "46fd4b1f",
-          "message": "PhoneWindowManager: Fix assist key wakeup",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 4 06:05:04 2026 +0000",
-          "timestamp": 1783145104,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/46fd4b1f"
-        },
-        {
-          "sha": "bdc01ed9",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sat Jun 27 14:36:43 2026 +0000",
-          "timestamp": 1782571003,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/bdc01ed9"
-        },
-        {
-          "sha": "a504a05d",
-          "message": "fw/b: Suggestion Popup: Tint properly",
-          "author": "Michael W",
-          "date": "Sat Jun 27 11:05:26 2026 +0000",
-          "timestamp": 1782558326,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/a504a05d"
-        },
-        {
-          "sha": "bd06afc1",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sun Jun 21 14:47:04 2026 +0000",
-          "timestamp": 1782053224,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/bd06afc1"
-        },
-        {
-          "sha": "c8f2005b",
-          "message": "Allow overriding Wi-Fi and Bluetooth MAC addresses",
-          "author": "Torsten Grote",
-          "date": "Sun Jun 21 05:34:32 2026 +0000",
-          "timestamp": 1782020072,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/c8f2005b"
-        },
-        {
-          "sha": "7a6a9340",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Wed Jun 17 14:46:15 2026 +0000",
-          "timestamp": 1781707575,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/7a6a9340"
-        },
-        {
-          "sha": "cb76c383",
-          "message": "[AAPM] Check radio interface for 2G availability.",
-          "author": "Hani Kazmi",
-          "date": "Tue Jun 16 15:24:11 2026 +0000",
-          "timestamp": 1781623451,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/cb76c383"
-        },
-        {
-          "sha": "d6e118e5",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Tue Jun 16 14:40:31 2026 +0000",
-          "timestamp": 1781620831,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/d6e118e5"
-        },
-        {
-          "sha": "0d9bcd02",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:54:39 2026 +0000",
-          "timestamp": 1781546079,
-          "url": "https://gitlab.e.foundation/e/os/android_frameworks_base/commit/0d9bcd02"
-        }
-      ]
-    },
-    {
       "name": "e/os/android_packages_inputmethods_LatinIME",
       "path": "packages/inputmethods/LatinIME",
       "repo_url": "https://gitlab.e.foundation/e/os/android_packages_inputmethods_LatinIME",
@@ -4172,7 +4484,7 @@
       "path": "external/exfatprogs",
       "repo_url": "https://github.com/LineageOS/android_external_exfatprogs",
       "remote": "github",
-      "commit_count": 25,
+      "commit_count": 24,
       "commits": [
         {
           "sha": "2914cbb",
@@ -4365,14 +4677,191 @@
           "date": "Mon Jun 15 09:56:33 2026 +0900",
           "timestamp": 1781484993,
           "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/e19775f"
+        }
+      ]
+    },
+    {
+      "name": "e/os/android_packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "repo_url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings",
+      "remote": "e",
+      "commit_count": 22,
+      "commits": [
+        {
+          "sha": "63ebccd",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Thu Sep 10 14:27:26 2026 +0000",
+          "timestamp": 1789050446,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/63ebccd"
         },
         {
-          "sha": "1eaa437",
-          "message": "dump: prevent heap buffer overflow in name parsing",
-          "author": "Hyunchul Lee",
-          "date": "Sat Jun 13 09:20:58 2026 +0900",
-          "timestamp": 1781310058,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/1eaa437"
+          "sha": "e3a0da3",
+          "message": "Sanitize sensitive BiometricsSettingsBase extra",
+          "author": "Milton",
+          "date": "Wed Sep 9 18:30:40 2026 +0000",
+          "timestamp": 1788978640,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e3a0da3"
+        },
+        {
+          "sha": "9435336",
+          "message": "Remove EXTRA_DATA from ConfirmDeviceCredentialActivity",
+          "author": "Diya Bera",
+          "date": "Wed Sep 9 18:30:40 2026 +0000",
+          "timestamp": 1788978640,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/9435336"
+        },
+        {
+          "sha": "e555113",
+          "message": "Strip URI grant flags in AppRestrictionsFragment",
+          "author": "Tetiana Meronyk",
+          "date": "Wed Sep 9 18:30:40 2026 +0000",
+          "timestamp": 1788978640,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e555113"
+        },
+        {
+          "sha": "93c0286",
+          "message": "Use setHideOverlayWindows instead of AppOpsManager",
+          "author": "Charles Chen",
+          "date": "Wed Sep 9 18:30:40 2026 +0000",
+          "timestamp": 1788978640,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/93c0286"
+        },
+        {
+          "sha": "9335c5f",
+          "message": "Remove dialog building logic from PaymentDefaultDialog onCreate.",
+          "author": "Kyle Hsiao",
+          "date": "Wed Sep 9 18:30:40 2026 +0000",
+          "timestamp": 1788978640,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/9335c5f"
+        },
+        {
+          "sha": "3b63d30",
+          "message": "Ensure remote device credential alias is used for action CONFIRM_REMOTE_DEVICE_CREDENTIAL.",
+          "author": "Joe Bolinger",
+          "date": "Wed Sep 9 18:30:40 2026 +0000",
+          "timestamp": 1788978640,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/3b63d30"
+        },
+        {
+          "sha": "1a41f03",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Tue Sep 8 14:30:57 2026 +0000",
+          "timestamp": 1788877857,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/1a41f03"
+        },
+        {
+          "sha": "419120f",
+          "message": "batteryusage: send fromBoot=false for ACTION_PERIODIC_JOB_RECHECK",
+          "author": "BrainKub",
+          "date": "Tue Sep 8 10:07:28 2026 +0000",
+          "timestamp": 1788862048,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/419120f"
+        },
+        {
+          "sha": "e68c7f1",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Tue Sep 1 14:26:49 2026 +0000",
+          "timestamp": 1788272809,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e68c7f1"
+        },
+        {
+          "sha": "9a10222",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 1 11:53:13 2026 +0000",
+          "timestamp": 1788263593,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/9a10222"
+        },
+        {
+          "sha": "e0ceced",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Sun Aug 16 14:26:37 2026 +0000",
+          "timestamp": 1786890397,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e0ceced"
+        },
+        {
+          "sha": "adf61c1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Aug 15 23:47:54 2026 +0000",
+          "timestamp": 1786837674,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/adf61c1"
+        },
+        {
+          "sha": "9287db9",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Thu Jul 16 14:25:33 2026 +0000",
+          "timestamp": 1784211933,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/9287db9"
+        },
+        {
+          "sha": "e7aabad",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Jul 15 09:55:44 2026 +0000",
+          "timestamp": 1784109344,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e7aabad"
+        },
+        {
+          "sha": "5da3a3b",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sun Jun 21 14:29:33 2026 +0000",
+          "timestamp": 1782052173,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/5da3a3b"
+        },
+        {
+          "sha": "45da074",
+          "message": "Require \"tap to show\" in SIM settings",
+          "author": "Torsten Grote",
+          "date": "Sun Jun 21 05:34:48 2026 +0000",
+          "timestamp": 1782020088,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/45da074"
+        },
+        {
+          "sha": "de893ec",
+          "message": "Hide Wi-Fi and Bluetooth MAC addresses in About Phone",
+          "author": "Torsten Grote",
+          "date": "Sun Jun 21 05:34:48 2026 +0000",
+          "timestamp": 1782020088,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/de893ec"
+        },
+        {
+          "sha": "c291bf7",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Tue Jun 16 14:28:13 2026 +0000",
+          "timestamp": 1781620093,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/c291bf7"
+        },
+        {
+          "sha": "b7ddd79",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:55:03 2026 +0000",
+          "timestamp": 1781546103,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/b7ddd79"
+        },
+        {
+          "sha": "dd313b0",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Mon Jun 15 14:25:23 2026 +0000",
+          "timestamp": 1781533523,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/dd313b0"
+        },
+        {
+          "sha": "858826d",
+          "message": "Settings: Add a preference for LiveDisplay display profiles",
+          "author": "Nick Reuter",
+          "date": "Mon Jun 15 10:33:08 2026 +0000",
+          "timestamp": 1781519588,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/858826d"
         }
       ]
     },
@@ -4683,256 +5172,6 @@
       ]
     },
     {
-      "name": "e/os/android_packages_apps_Settings",
-      "path": "packages/apps/Settings",
-      "repo_url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings",
-      "remote": "e",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "1a41f03",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Tue Sep 8 14:30:57 2026 +0000",
-          "timestamp": 1788877857,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/1a41f03"
-        },
-        {
-          "sha": "419120f",
-          "message": "batteryusage: send fromBoot=false for ACTION_PERIODIC_JOB_RECHECK",
-          "author": "BrainKub",
-          "date": "Tue Sep 8 10:07:28 2026 +0000",
-          "timestamp": 1788862048,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/419120f"
-        },
-        {
-          "sha": "e68c7f1",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Tue Sep 1 14:26:49 2026 +0000",
-          "timestamp": 1788272809,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e68c7f1"
-        },
-        {
-          "sha": "9a10222",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 1 11:53:13 2026 +0000",
-          "timestamp": 1788263593,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/9a10222"
-        },
-        {
-          "sha": "e0ceced",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Sun Aug 16 14:26:37 2026 +0000",
-          "timestamp": 1786890397,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e0ceced"
-        },
-        {
-          "sha": "adf61c1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Aug 15 23:47:54 2026 +0000",
-          "timestamp": 1786837674,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/adf61c1"
-        },
-        {
-          "sha": "9287db9",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Thu Jul 16 14:25:33 2026 +0000",
-          "timestamp": 1784211933,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/9287db9"
-        },
-        {
-          "sha": "e7aabad",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Jul 15 09:55:44 2026 +0000",
-          "timestamp": 1784109344,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/e7aabad"
-        },
-        {
-          "sha": "5da3a3b",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sun Jun 21 14:29:33 2026 +0000",
-          "timestamp": 1782052173,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/5da3a3b"
-        },
-        {
-          "sha": "45da074",
-          "message": "Require \"tap to show\" in SIM settings",
-          "author": "Torsten Grote",
-          "date": "Sun Jun 21 05:34:48 2026 +0000",
-          "timestamp": 1782020088,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/45da074"
-        },
-        {
-          "sha": "de893ec",
-          "message": "Hide Wi-Fi and Bluetooth MAC addresses in About Phone",
-          "author": "Torsten Grote",
-          "date": "Sun Jun 21 05:34:48 2026 +0000",
-          "timestamp": 1782020088,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/de893ec"
-        },
-        {
-          "sha": "c291bf7",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Tue Jun 16 14:28:13 2026 +0000",
-          "timestamp": 1781620093,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/c291bf7"
-        },
-        {
-          "sha": "b7ddd79",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:55:03 2026 +0000",
-          "timestamp": 1781546103,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/b7ddd79"
-        },
-        {
-          "sha": "dd313b0",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Mon Jun 15 14:25:23 2026 +0000",
-          "timestamp": 1781533523,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/dd313b0"
-        },
-        {
-          "sha": "858826d",
-          "message": "Settings: Add a preference for LiveDisplay display profiles",
-          "author": "Nick Reuter",
-          "date": "Mon Jun 15 10:33:08 2026 +0000",
-          "timestamp": 1781519588,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Settings/commit/858826d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_v4l2_codec2",
-      "path": "external/v4l2_codec2",
-      "repo_url": "https://github.com/LineageOS/android_external_v4l2_codec2",
-      "remote": "github",
-      "commit_count": 14,
-      "commits": [
-        {
-          "sha": "16700e0",
-          "message": "Use the output pixel format requested by the decoder when available",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 15:02:39 2026 -0500",
-          "timestamp": 1781985759,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/16700e0"
-        },
-        {
-          "sha": "0cd9abd",
-          "message": "Add P010 support",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 15:02:10 2026 -0500",
-          "timestamp": 1781985730,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/0cd9abd"
-        },
-        {
-          "sha": "711990c",
-          "message": "V4L2DecodeInterface: Properly fetch default codec profile",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 14:53:09 2026 -0500",
-          "timestamp": 1781985189,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/711990c"
-        },
-        {
-          "sha": "e18bf52",
-          "message": "Convert v4l2 hevc levels to c2 hevc levels",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 14:52:33 2026 -0500",
-          "timestamp": 1781985153,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/e18bf52"
-        },
-        {
-          "sha": "319824d",
-          "message": "Add AV1 decode support",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 13 16:55:01 2026 -0500",
-          "timestamp": 1781387701,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/319824d"
-        },
-        {
-          "sha": "15e29bc",
-          "message": "Move checks for existing stream higher in startOutputQueue",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 17:02:42 2026 -0500",
-          "timestamp": 1781301762,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/15e29bc"
-        },
-        {
-          "sha": "dc53ab0",
-          "message": "Discard EOS frames that aren't found in the queue",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 17:02:42 2026 -0500",
-          "timestamp": 1781301762,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/dc53ab0"
-        },
-        {
-          "sha": "8671306",
-          "message": "Raise the input buffer size for 1080p to 16MB",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 17:02:42 2026 -0500",
-          "timestamp": 1781301762,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/8671306"
-        },
-        {
-          "sha": "0834f3b",
-          "message": "Only declare components that are explicitly enabled",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 17:02:42 2026 -0500",
-          "timestamp": 1781301762,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/0834f3b"
-        },
-        {
-          "sha": "b6153a2",
-          "message": "Add support for avc constrained high profile",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 15:58:21 2026 -0500",
-          "timestamp": 1781297901,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/b6153a2"
-        },
-        {
-          "sha": "9ea9103",
-          "message": "Drop ifdefs blocking profile support",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 15:58:21 2026 -0500",
-          "timestamp": 1781297901,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/9ea9103"
-        },
-        {
-          "sha": "8507574",
-          "message": "service: Remove multilib support",
-          "author": "Konsta",
-          "date": "Fri Jun 12 15:58:21 2026 -0500",
-          "timestamp": 1781297901,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/8507574"
-        },
-        {
-          "sha": "7d3899a",
-          "message": "v4l2_codec2: Migrate HAL to AIDL",
-          "author": "Mattijs Korpershoek",
-          "date": "Fri Jun 12 15:58:21 2026 -0500",
-          "timestamp": 1781297901,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/7d3899a"
-        },
-        {
-          "sha": "b54473d",
-          "message": "VideoFramePool: Add C2PlatformAllocatorStore::IGBA support",
-          "author": "Mattijs Korpershoek",
-          "date": "Fri Jun 12 15:58:17 2026 -0500",
-          "timestamp": 1781297897,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/b54473d"
-        }
-      ]
-    },
-    {
       "name": "e/os/android_packages_apps_LineageParts",
       "path": "packages/apps/LineageParts",
       "repo_url": "https://gitlab.e.foundation/e/os/android_packages_apps_LineageParts",
@@ -5050,111 +5289,6 @@
           "date": "Sun Jun 14 22:45:17 2026 -0500",
           "timestamp": 1781495117,
           "url": "https://gitlab.e.foundation/e/os/android_packages_apps_LineageParts/commit/0abefcb"
-        }
-      ]
-    },
-    {
-      "name": "e/os/android",
-      "path": "android",
-      "repo_url": "https://gitlab.e.foundation/e/os/android",
-      "remote": "e",
-      "commit_count": 12,
-      "commits": [
-        {
-          "sha": "81d7f21",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Sun Sep 6 14:20:24 2026 +0000",
-          "timestamp": 1788704424,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/81d7f21"
-        },
-        {
-          "sha": "705406e",
-          "message": "manifest: Forks for 2026-09 ASB",
-          "author": "Nolen Johnson",
-          "date": "Thu Aug 27 16:15:25 2026 +0300",
-          "timestamp": 1787836525,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/705406e"
-        },
-        {
-          "sha": "8baf1c7",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Althaf",
-          "date": "Wed Aug 26 14:29:20 2026 +0000",
-          "timestamp": 1787754560,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/8baf1c7"
-        },
-        {
-          "sha": "15cbfd1",
-          "message": "manifest: Fork tinyalsa",
-          "author": "Nolen Johnson",
-          "date": "Tue Aug 25 00:11:57 2026 -0400",
-          "timestamp": 1787631117,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/15cbfd1"
-        },
-        {
-          "sha": "8e1fac5",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Fri Jul 31 14:20:37 2026 +0000",
-          "timestamp": 1785507637,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/8e1fac5"
-        },
-        {
-          "sha": "d38d2e1",
-          "message": "snippets: Update kernel platform tags",
-          "author": "Nolen Johnson",
-          "date": "Thu Jul 30 12:53:37 2026 -0400",
-          "timestamp": 1785430417,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/d38d2e1"
-        },
-        {
-          "sha": "ffe1793",
-          "message": "manifest: Add bazel kernel platform 5.15",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 12:42:42 2026 -0400",
-          "timestamp": 1785429762,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/ffe1793"
-        },
-        {
-          "sha": "370c949",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sun Jul 5 14:15:04 2026 +0000",
-          "timestamp": 1783260904,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/370c949"
-        },
-        {
-          "sha": "5c3bbcb",
-          "message": "Revert \"manifest: Track custom prebuilts/misc revision\"",
-          "author": "LuK1337",
-          "date": "Sat Jul 4 19:36:46 2026 +0000",
-          "timestamp": 1783193806,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/5c3bbcb"
-        },
-        {
-          "sha": "335a78f",
-          "message": "manifest: Track libvmmem",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 4 08:48:08 2026 +0300",
-          "timestamp": 1783144088,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/335a78f"
-        },
-        {
-          "sha": "bae3c4e",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
-          "author": "Mohammed Althaf T",
-          "date": "Sun Jun 14 14:20:12 2026 +0000",
-          "timestamp": 1781446812,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/bae3c4e"
-        },
-        {
-          "sha": "02b3ba6",
-          "message": "manifest: Track our fork of v4l2_codec2",
-          "author": "Aaron Kling",
-          "date": "Fri Jun 12 14:14:36 2026 -0500",
-          "timestamp": 1781291676,
-          "url": "https://gitlab.e.foundation/e/os/android/commit/02b3ba6"
         }
       ]
     },
@@ -5462,6 +5596,103 @@
           "date": "Sun Jun 28 22:20:13 2026 +0200",
           "timestamp": 1782678013,
           "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b5d4b73e1"
+        }
+      ]
+    },
+    {
+      "name": "e/os/android",
+      "path": "android",
+      "repo_url": "https://gitlab.e.foundation/e/os/android",
+      "remote": "e",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "81d7f21",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Sun Sep 6 14:20:24 2026 +0000",
+          "timestamp": 1788704424,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/81d7f21"
+        },
+        {
+          "sha": "705406e",
+          "message": "manifest: Forks for 2026-09 ASB",
+          "author": "Nolen Johnson",
+          "date": "Thu Aug 27 16:15:25 2026 +0300",
+          "timestamp": 1787836525,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/705406e"
+        },
+        {
+          "sha": "8baf1c7",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Wed Aug 26 14:29:20 2026 +0000",
+          "timestamp": 1787754560,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/8baf1c7"
+        },
+        {
+          "sha": "15cbfd1",
+          "message": "manifest: Fork tinyalsa",
+          "author": "Nolen Johnson",
+          "date": "Tue Aug 25 00:11:57 2026 -0400",
+          "timestamp": 1787631117,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/15cbfd1"
+        },
+        {
+          "sha": "8e1fac5",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Fri Jul 31 14:20:37 2026 +0000",
+          "timestamp": 1785507637,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/8e1fac5"
+        },
+        {
+          "sha": "d38d2e1",
+          "message": "snippets: Update kernel platform tags",
+          "author": "Nolen Johnson",
+          "date": "Thu Jul 30 12:53:37 2026 -0400",
+          "timestamp": 1785430417,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/d38d2e1"
+        },
+        {
+          "sha": "ffe1793",
+          "message": "manifest: Add bazel kernel platform 5.15",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 12:42:42 2026 -0400",
+          "timestamp": 1785429762,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/ffe1793"
+        },
+        {
+          "sha": "370c949",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sun Jul 5 14:15:04 2026 +0000",
+          "timestamp": 1783260904,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/370c949"
+        },
+        {
+          "sha": "5c3bbcb",
+          "message": "Revert \"manifest: Track custom prebuilts/misc revision\"",
+          "author": "LuK1337",
+          "date": "Sat Jul 4 19:36:46 2026 +0000",
+          "timestamp": 1783193806,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/5c3bbcb"
+        },
+        {
+          "sha": "335a78f",
+          "message": "manifest: Track libvmmem",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 4 08:48:08 2026 +0300",
+          "timestamp": 1783144088,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/335a78f"
+        },
+        {
+          "sha": "bae3c4e",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Mohammed Althaf T",
+          "date": "Sun Jun 14 14:20:12 2026 +0000",
+          "timestamp": 1781446812,
+          "url": "https://gitlab.e.foundation/e/os/android/commit/bae3c4e"
         }
       ]
     },
@@ -5928,63 +6159,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Jelly",
-      "path": "packages/apps/Jelly",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
-      "remote": "github",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "56c6868",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 1 11:53:09 2026 +0000",
-          "timestamp": 1788263589,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/56c6868"
-        },
-        {
-          "sha": "7678330",
-          "message": "Jelly: Desktop shortcuts",
-          "author": "SaeedDev94",
-          "date": "Mon Aug 17 05:09:27 2026 -0500",
-          "timestamp": 1786961367,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7678330"
-        },
-        {
-          "sha": "8bf990f",
-          "message": "Jelly: Add setting to toggle WebView debugging",
-          "author": "SaeedDev94",
-          "date": "Sat Aug 15 04:41:20 2026 -0500",
-          "timestamp": 1786786880,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/8bf990f"
-        },
-        {
-          "sha": "ce20325",
-          "message": "Jelly: Fullscreen shortcut: dynamic statusbar color",
-          "author": "SaeedDev94",
-          "date": "Sun Aug 9 06:18:00 2026 -0500",
-          "timestamp": 1786274280,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/ce20325"
-        },
-        {
-          "sha": "6517f6a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Jul 15 09:55:41 2026 +0000",
-          "timestamp": 1784109341,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6517f6a"
-        },
-        {
-          "sha": "7c0c677",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:54:57 2026 +0000",
-          "timestamp": 1781546097,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7c0c677"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
@@ -6038,6 +6212,63 @@
           "date": "Mon Jun 15 17:54:57 2026 +0000",
           "timestamp": 1781546097,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/44705bf"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Jelly",
+      "path": "packages/apps/Jelly",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "56c6868",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 1 11:53:09 2026 +0000",
+          "timestamp": 1788263589,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/56c6868"
+        },
+        {
+          "sha": "7678330",
+          "message": "Jelly: Desktop shortcuts",
+          "author": "SaeedDev94",
+          "date": "Mon Aug 17 05:09:27 2026 -0500",
+          "timestamp": 1786961367,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7678330"
+        },
+        {
+          "sha": "8bf990f",
+          "message": "Jelly: Add setting to toggle WebView debugging",
+          "author": "SaeedDev94",
+          "date": "Sat Aug 15 04:41:20 2026 -0500",
+          "timestamp": 1786786880,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/8bf990f"
+        },
+        {
+          "sha": "ce20325",
+          "message": "Jelly: Fullscreen shortcut: dynamic statusbar color",
+          "author": "SaeedDev94",
+          "date": "Sun Aug 9 06:18:00 2026 -0500",
+          "timestamp": 1786274280,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/ce20325"
+        },
+        {
+          "sha": "6517f6a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Jul 15 09:55:41 2026 +0000",
+          "timestamp": 1784109341,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6517f6a"
+        },
+        {
+          "sha": "7c0c677",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:54:57 2026 +0000",
+          "timestamp": 1781546097,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7c0c677"
         }
       ]
     },
@@ -6376,51 +6607,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
+      "name": "LineageOS/android_external_v4l2_codec2",
+      "path": "external/v4l2_codec2",
+      "repo_url": "https://github.com/LineageOS/android_external_v4l2_codec2",
       "remote": "github",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "146acf70f",
-          "message": "Fix OOB in DynamicsProcessing MBC band processing",
-          "author": "Duy Truong",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/146acf70f"
+          "sha": "16700e0",
+          "message": "Use the output pixel format requested by the decoder when available",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 15:02:39 2026 -0500",
+          "timestamp": 1781985759,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/16700e0"
         },
         {
-          "sha": "1e933fef9",
-          "message": "Fix signed overflow in convertCleanApertureToRect",
-          "author": "Venkatarama Avadhani",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/1e933fef9"
+          "sha": "0cd9abd",
+          "message": "Add P010 support",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 15:02:10 2026 -0500",
+          "timestamp": 1781985730,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/0cd9abd"
         },
         {
-          "sha": "69ef4f836",
-          "message": "Fix heap-buffer-overflow in AudioAttributes unmarshalling",
-          "author": "Venkatarama Avadhani",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/69ef4f836"
+          "sha": "711990c",
+          "message": "V4L2DecodeInterface: Properly fetch default codec profile",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 14:53:09 2026 -0500",
+          "timestamp": 1781985189,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/711990c"
         },
         {
-          "sha": "028835d12",
-          "message": "Fix heap out-of-bounds write in MatroskaSource::read",
-          "author": "Venkatarama Avadhani",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/028835d12"
+          "sha": "e18bf52",
+          "message": "Convert v4l2 hevc levels to c2 hevc levels",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 14:52:33 2026 -0500",
+          "timestamp": 1781985153,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/e18bf52"
         },
         {
-          "sha": "d92cfd6a2",
-          "message": "camera: bypass roundBufferDimensionNearest for Y16",
-          "author": "AdarshGrewal",
-          "date": "Fri Jun 12 23:12:32 2026 +0530",
-          "timestamp": 1781286152,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/d92cfd6a2"
+          "sha": "319824d",
+          "message": "Add AV1 decode support",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 13 16:55:01 2026 -0500",
+          "timestamp": 1781387701,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/319824d"
         }
       ]
     },
@@ -6703,43 +6934,43 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "remote": "github",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "209a6d2",
-          "message": "Update Chromium Webview to 152.0.7977.64",
+          "sha": "2767453",
+          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:08:55 2026 -0600",
-          "timestamp": 1787836135,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/209a6d2"
+          "date": "Thu Aug 27 07:14:21 2026 -0600",
+          "timestamp": 1787836461,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
         },
         {
-          "sha": "0c68f2f",
-          "message": "Update Chromium Webview to 151.0.7922.71",
+          "sha": "74bc304",
+          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
           "author": "Kevin F. Haggerty",
-          "date": "Wed Jul 29 18:48:20 2026 -0600",
-          "timestamp": 1785372500,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
+          "date": "Thu Jul 30 17:55:15 2026 -0600",
+          "timestamp": 1785455715,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
         },
         {
-          "sha": "970cdf1",
-          "message": "Update Chromium Webview to 150.0.7871.63",
+          "sha": "cf378c5",
+          "message": "Update Chromium Webview x86_64 to 150.0.7871.63",
           "author": "Kevin F. Haggerty",
-          "date": "Wed Jul 1 06:54:48 2026 -0600",
-          "timestamp": 1782910488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/970cdf1"
+          "date": "Thu Jul 2 06:55:41 2026 -0600",
+          "timestamp": 1782996941,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/cf378c5"
         },
         {
-          "sha": "8085550",
-          "message": "Update Chromium Webview to 149.0.7827.114",
+          "sha": "64512a6",
+          "message": "Update Chromium Webview x86_64 to 149.0.7827.114",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Jun 12 12:23:04 2026 -0600",
-          "timestamp": 1781288584,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8085550"
+          "date": "Sat Jun 13 20:33:41 2026 -0600",
+          "timestamp": 1781404421,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/64512a6"
         }
       ]
     },
@@ -6785,43 +7016,43 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "path": "external/chromium-webview/prebuilt/x86_64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "name": "LineageOS/android_frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
       "remote": "github",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "2767453",
-          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:21 2026 -0600",
-          "timestamp": 1787836461,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
+          "sha": "146acf70f",
+          "message": "Fix OOB in DynamicsProcessing MBC band processing",
+          "author": "Duy Truong",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/146acf70f"
         },
         {
-          "sha": "74bc304",
-          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:55:15 2026 -0600",
-          "timestamp": 1785455715,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
+          "sha": "1e933fef9",
+          "message": "Fix signed overflow in convertCleanApertureToRect",
+          "author": "Venkatarama Avadhani",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/1e933fef9"
         },
         {
-          "sha": "cf378c5",
-          "message": "Update Chromium Webview x86_64 to 150.0.7871.63",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 2 06:55:41 2026 -0600",
-          "timestamp": 1782996941,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/cf378c5"
+          "sha": "69ef4f836",
+          "message": "Fix heap-buffer-overflow in AudioAttributes unmarshalling",
+          "author": "Venkatarama Avadhani",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/69ef4f836"
         },
         {
-          "sha": "64512a6",
-          "message": "Update Chromium Webview x86_64 to 149.0.7827.114",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Jun 13 20:33:41 2026 -0600",
-          "timestamp": 1781404421,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/64512a6"
+          "sha": "028835d12",
+          "message": "Fix heap out-of-bounds write in MatroskaSource::read",
+          "author": "Venkatarama Avadhani",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/028835d12"
         }
       ]
     },
@@ -7105,6 +7336,39 @@
       ]
     },
     {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "209a6d2",
+          "message": "Update Chromium Webview to 152.0.7977.64",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Aug 27 07:08:55 2026 -0600",
+          "timestamp": 1787836135,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/209a6d2"
+        },
+        {
+          "sha": "0c68f2f",
+          "message": "Update Chromium Webview to 151.0.7922.71",
+          "author": "Kevin F. Haggerty",
+          "date": "Wed Jul 29 18:48:20 2026 -0600",
+          "timestamp": 1785372500,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
+        },
+        {
+          "sha": "970cdf1",
+          "message": "Update Chromium Webview to 150.0.7871.63",
+          "author": "Kevin F. Haggerty",
+          "date": "Wed Jul 1 06:54:48 2026 -0600",
+          "timestamp": 1782910488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/970cdf1"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_lineage_compat",
       "path": "hardware/lineage/compat",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_compat",
@@ -7369,6 +7633,72 @@
       ]
     },
     {
+      "name": "e/os/android_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://gitlab.e.foundation/e/os/android_packages_services_Telephony",
+      "remote": "e",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "9d7ecfe38",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Thu Sep 10 14:21:39 2026 +0000",
+          "timestamp": 1789050099,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_services_Telephony/commit/9d7ecfe38"
+        },
+        {
+          "sha": "a41123e53",
+          "message": "Prevent SDK Sandbox from bypassing isSystemApp check",
+          "author": "Akash Garg",
+          "date": "Wed Aug 19 01:10:22 2026 -0400",
+          "timestamp": 1787116222,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_services_Telephony/commit/a41123e53"
+        },
+        {
+          "sha": "921be89b1",
+          "message": "Restrict USSD requests to the subscription's associated user.",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Aug 19 00:51:17 2026 -0400",
+          "timestamp": 1787115077,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_services_Telephony/commit/921be89b1"
+        }
+      ]
+    },
+    {
+      "name": "e/os/android_system_core",
+      "path": "system/core",
+      "repo_url": "https://gitlab.e.foundation/e/os/android_system_core",
+      "remote": "e",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "a974ee1",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2' into a16.2",
+          "author": "Althaf",
+          "date": "Thu Sep 10 14:21:53 2026 +0000",
+          "timestamp": 1789050113,
+          "url": "https://gitlab.e.foundation/e/os/android_system_core/commit/a974ee1"
+        },
+        {
+          "sha": "0e96ff1",
+          "message": "ashmem_test: Add tests related to memfd's size file seals",
+          "author": "Isaac J. Manjarres",
+          "date": "Wed Aug 19 00:51:17 2026 -0400",
+          "timestamp": 1787115077,
+          "url": "https://gitlab.e.foundation/e/os/android_system_core/commit/0e96ff1"
+        },
+        {
+          "sha": "833a078",
+          "message": "ashmem: Only handle size-sealed memfds",
+          "author": "Isaac J. Manjarres",
+          "date": "Wed Aug 19 00:51:17 2026 -0400",
+          "timestamp": 1787115077,
+          "url": "https://gitlab.e.foundation/e/os/android_system_core/commit/833a078"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_external_freetype",
       "path": "external/freetype",
       "repo_url": "https://github.com/LineageOS/android_external_freetype",
@@ -7420,31 +7750,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8750/display/hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "4b74f47",
-          "message": "Revert \"vmmem: Make libvmmem_headers available\"",
-          "author": "Alexander Koskovich",
-          "date": "Sat Jun 13 01:04:33 2026 -0400",
-          "timestamp": 1781327073,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/4b74f47"
-        },
-        {
-          "sha": "ec927be",
-          "message": "Revert \"vmmem: Add dummy libvmmem shared_lib\"",
-          "author": "Alexander Koskovich",
-          "date": "Fri Jun 12 23:57:49 2026 -0400",
-          "timestamp": 1781323069,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/ec927be"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8550/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
@@ -7465,6 +7770,31 @@
           "date": "Fri Jul 3 20:14:39 2026 +0300",
           "timestamp": 1783098879,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/7ea46e2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8750/display/hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4b74f47",
+          "message": "Revert \"vmmem: Make libvmmem_headers available\"",
+          "author": "Alexander Koskovich",
+          "date": "Sat Jun 13 01:04:33 2026 -0400",
+          "timestamp": 1781327073,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/4b74f47"
+        },
+        {
+          "sha": "ec927be",
+          "message": "Revert \"vmmem: Add dummy libvmmem shared_lib\"",
+          "author": "Alexander Koskovich",
+          "date": "Fri Jun 12 23:57:49 2026 -0400",
+          "timestamp": 1781323069,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/ec927be"
         }
       ]
     },
@@ -7720,31 +8050,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8750/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "c0f825a",
-          "message": "ResourceManager: Move some logging to verbose",
-          "author": "Nick Reuter",
-          "date": "Wed Aug 12 14:37:31 2026 -0400",
-          "timestamp": 1786559851,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c0f825a"
-        },
-        {
-          "sha": "39f7ccc",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0' into staging/lineage-23.2_merge-AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:34:51 2026 +0300",
-          "timestamp": 1783769691,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39f7ccc"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8650/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "remote": "github",
@@ -7765,6 +8070,31 @@
           "date": "Sat Jul 11 14:32:22 2026 +0300",
           "timestamp": 1783769542,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8c4463e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8750/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "c0f825a",
+          "message": "ResourceManager: Move some logging to verbose",
+          "author": "Nick Reuter",
+          "date": "Wed Aug 12 14:37:31 2026 -0400",
+          "timestamp": 1786559851,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c0f825a"
+        },
+        {
+          "sha": "39f7ccc",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0' into staging/lineage-23.2_merge-AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:34:51 2026 +0300",
+          "timestamp": 1783769691,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39f7ccc"
         }
       ]
     },
@@ -7869,31 +8199,6 @@
       ]
     },
     {
-      "name": "e/os/android_packages_apps_Updater",
-      "path": "packages/apps/Updater",
-      "repo_url": "https://gitlab.e.foundation/e/os/android_packages_apps_Updater",
-      "remote": "e",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "1b005e8",
-          "message": "Merge remote-tracking branch 'origin/lineage-23.2'",
-          "author": "Mohammed Althaf T",
-          "date": "Tue Jun 16 14:21:32 2026 +0000",
-          "timestamp": 1781619692,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Updater/commit/1b005e8"
-        },
-        {
-          "sha": "ca4a883",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:55:07 2026 +0000",
-          "timestamp": 1781546107,
-          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Updater/commit/ca4a883"
-        }
-      ]
-    },
-    {
       "name": "e/os/android_packages_apps_ThemePicker",
       "path": "packages/apps/ThemePicker",
       "repo_url": "https://gitlab.e.foundation/e/os/android_packages_apps_ThemePicker",
@@ -7915,6 +8220,31 @@
           "date": "Wed Jul 1 11:07:11 2026 +0000",
           "timestamp": 1782904031,
           "url": "https://gitlab.e.foundation/e/os/android_packages_apps_ThemePicker/commit/176ec557"
+        }
+      ]
+    },
+    {
+      "name": "e/os/android_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "repo_url": "https://gitlab.e.foundation/e/os/android_packages_apps_Updater",
+      "remote": "e",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "1b005e8",
+          "message": "Merge remote-tracking branch 'origin/lineage-23.2'",
+          "author": "Mohammed Althaf T",
+          "date": "Tue Jun 16 14:21:32 2026 +0000",
+          "timestamp": 1781619692,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Updater/commit/1b005e8"
+        },
+        {
+          "sha": "ca4a883",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:55:07 2026 +0000",
+          "timestamp": 1781546107,
+          "url": "https://gitlab.e.foundation/e/os/android_packages_apps_Updater/commit/ca4a883"
         }
       ]
     },
@@ -7995,6 +8325,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_bionic",
+      "path": "bionic",
+      "repo_url": "https://github.com/LineageOS/android_bionic",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "ff9fe01e",
+          "message": "Fix bad free when limit exceeded.",
+          "author": "Christopher Ferris",
+          "date": "Wed Aug 19 00:51:10 2026 -0400",
+          "timestamp": 1787115070,
+          "url": "https://github.com/LineageOS/android_bionic/commit/ff9fe01e"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_device_lineage_atv",
       "path": "device/lineage/atv",
       "repo_url": "https://github.com/LineageOS/android_device_lineage_atv",
@@ -8025,23 +8372,6 @@
           "date": "Sat Jul 11 14:20:10 2026 +0300",
           "timestamp": 1783768810,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/d903f8e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_bionic",
-      "path": "bionic",
-      "repo_url": "https://github.com/LineageOS/android_bionic",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "ff9fe01e",
-          "message": "Fix bad free when limit exceeded.",
-          "author": "Christopher Ferris",
-          "date": "Wed Aug 19 00:51:10 2026 -0400",
-          "timestamp": 1787115070,
-          "url": "https://github.com/LineageOS/android_bionic/commit/ff9fe01e"
         }
       ]
     },
@@ -8131,23 +8461,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_libcupsfilters",
-      "path": "external/libcupsfilters",
-      "repo_url": "https://github.com/LineageOS/android_external_libcupsfilters",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "66c3415",
-          "message": "Fix integer overflows in raster header processing",
-          "author": "Nathan Muggli",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_libcupsfilters/commit/66c3415"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_libpng",
       "path": "external/libpng",
       "repo_url": "https://github.com/LineageOS/android_external_libpng",
@@ -8178,6 +8491,23 @@
           "date": "Wed Aug 19 00:51:11 2026 -0400",
           "timestamp": 1787115071,
           "url": "https://github.com/LineageOS/android_external_libppd/commit/eacf14a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_libcupsfilters",
+      "path": "external/libcupsfilters",
+      "repo_url": "https://github.com/LineageOS/android_external_libcupsfilters",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "66c3415",
+          "message": "Fix integer overflows in raster header processing",
+          "author": "Nathan Muggli",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_external_libcupsfilters/commit/66c3415"
         }
       ]
     },
@@ -8233,23 +8563,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2eb457d88",
-          "message": "Add subscription-user association check.",
-          "author": "Aishwarya Mallampati",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/2eb457d88"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom-caf_common",
       "path": "hardware/qcom-caf/common",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
@@ -8263,6 +8576,23 @@
           "date": "Sat Aug 8 12:54:52 2026 +0200",
           "timestamp": 1786186492,
           "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/1805784"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2eb457d88",
+          "message": "Add subscription-user association check.",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/2eb457d88"
         }
       ]
     },
@@ -8505,23 +8835,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_TelephonyProvider",
-      "path": "packages/providers/TelephonyProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8c8cbb5",
-          "message": "Filter MMS/SMS queries by subscription ID",
-          "author": "Aishwarya Mallampati",
-          "date": "Wed Aug 19 00:51:17 2026 -0400",
-          "timestamp": 1787115077,
-          "url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider/commit/8c8cbb5"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_DownloadProvider",
       "path": "packages/providers/DownloadProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider",
@@ -8535,6 +8848,23 @@
           "date": "Tue Sep 1 11:53:19 2026 +0000",
           "timestamp": 1788263599,
           "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/04ebaea"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_providers_TelephonyProvider",
+      "path": "packages/providers/TelephonyProvider",
+      "repo_url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8c8cbb5",
+          "message": "Filter MMS/SMS queries by subscription ID",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Aug 19 00:51:17 2026 -0400",
+          "timestamp": 1787115077,
+          "url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider/commit/8c8cbb5"
         }
       ]
     },
@@ -8761,23 +9091,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8550/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a964339",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:31:38 2026 +0300",
-          "timestamp": 1783769498,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/a964339"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8650/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "github",
@@ -8790,6 +9103,23 @@
           "date": "Sat Jul 11 14:32:36 2026 +0300",
           "timestamp": 1783769556,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/1311e1c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8550/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a964339",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:31:38 2026 +0300",
+          "timestamp": 1783769498,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/a964339"
         }
       ]
     },
