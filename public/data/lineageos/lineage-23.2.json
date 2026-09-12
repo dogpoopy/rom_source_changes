@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.2",
-  "generated_at": "2026-09-11T02:54:21.806606+00:00",
-  "since_date": "2026-06-13",
+  "generated_at": "2026-09-12T03:01:51.987523+00:00",
+  "since_date": "2026-06-14",
   "total_projects": 135,
-  "total_commits": 869,
+  "total_commits": 874,
   "projects": [
     {
       "name": "LineageOS/android_packages_apps_Updater",
@@ -1632,6 +1632,14 @@
       "commit_count": 100,
       "commits": [
         {
+          "sha": "d0edcae",
+          "message": "build-webview: Update default webview to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Tue Sep 8 21:38:14 2026 -0600",
+          "timestamp": 1788925094,
+          "url": "https://github.com/LineageOS/scripts/commit/d0edcae"
+        },
+        {
           "sha": "84a3bb9",
           "message": "build-webview: Update default webview to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
@@ -2422,14 +2430,6 @@
           "date": "Tue Jun 16 20:17:03 2026 +0300",
           "timestamp": 1781630223,
           "url": "https://github.com/LineageOS/scripts/commit/ca26978"
-        },
-        {
-          "sha": "7c9cdd9",
-          "message": "dev: sepolicy: avoid duplicate equality check",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Jun 16 20:17:03 2026 +0300",
-          "timestamp": 1781630223,
-          "url": "https://github.com/LineageOS/scripts/commit/7c9cdd9"
         }
       ]
     },
@@ -2438,8 +2438,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 53,
+      "commit_count": 54,
       "commits": [
+        {
+          "sha": "99bdc8e",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Sep 11 23:31:04 2026 +0000",
+          "timestamp": 1789169464,
+          "url": "https://github.com/LineageOS/hudson/commit/99bdc8e"
+        },
         {
           "sha": "808755a",
           "message": "Regenerate device dependency mappings",
@@ -2871,8 +2879,16 @@
       "path": "frameworks/base",
       "repo_url": "https://github.com/LineageOS/android_frameworks_base",
       "remote": "github",
-      "commit_count": 48,
+      "commit_count": 49,
       "commits": [
+        {
+          "sha": "d48a26b2",
+          "message": "Revert \"aconfig: Use old storage if /metadata is not available\"",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 11 12:12:06 2026 +0000",
+          "timestamp": 1789128726,
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/d48a26b2"
+        },
         {
           "sha": "ce690697",
           "message": "aapt2: Sanitize Javadoc comments to prevent code injection",
@@ -3267,6 +3283,14 @@
       "commit_count": 41,
       "commits": [
         {
+          "sha": "51340b8",
+          "message": "Updated to 12-Sep-2026 00:02 UTC",
+          "author": "LineageOS Infra",
+          "date": "Sat Sep 12 00:02:04 2026 +0000",
+          "timestamp": 1789171324,
+          "url": "https://github.com/LineageOS/mirror/commit/51340b8"
+        },
+        {
           "sha": "9daed12",
           "message": "Updated to 08-Sep-2026 18:01 UTC",
           "author": "LineageOS Infra",
@@ -3585,14 +3609,231 @@
           "date": "Wed Jun 17 07:00:45 2026 +0200",
           "timestamp": 1781672445,
           "url": "https://github.com/LineageOS/mirror/commit/edabe06"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_lineage",
+      "path": "vendor/lineage",
+      "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
+      "remote": "github",
+      "commit_count": 27,
+      "commits": [
+        {
+          "sha": "10a5dcc",
+          "message": "kernel: Wipe bazel dist dir on each build",
+          "author": "Alexander Koskovich",
+          "date": "Fri Sep 11 12:54:11 2026 +0000",
+          "timestamp": 1789131251,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/10a5dcc"
         },
         {
-          "sha": "e3bd9d9",
-          "message": "Updated lineage-minimal to 13-Jun-2026 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Sun Jun 14 00:01:58 2026 +0200",
-          "timestamp": 1781388118,
-          "url": "https://github.com/LineageOS/mirror/commit/e3bd9d9"
+          "sha": "f3efe3f",
+          "message": "kernel: Seperate bazel-out from the dist dir",
+          "author": "Alexander Koskovich",
+          "date": "Fri Sep 11 12:54:11 2026 +0000",
+          "timestamp": 1789131251,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/f3efe3f"
+        },
+        {
+          "sha": "c2b635e",
+          "message": "kernel: Add RBE support",
+          "author": "LuK1337",
+          "date": "Fri Sep 11 10:17:00 2026 +0000",
+          "timestamp": 1789121820,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/c2b635e"
+        },
+        {
+          "sha": "ddf5e6d",
+          "message": "kernel: Add AOSP build-tools to inline kernel PATH",
+          "author": "Alexander Koskovich",
+          "date": "Thu Sep 10 17:18:40 2026 +0000",
+          "timestamp": 1789060720,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/ddf5e6d"
+        },
+        {
+          "sha": "9adfccb",
+          "message": "release: Bump Security String to 2026-09-01",
+          "author": "Nolen Johnson",
+          "date": "Wed Sep 9 18:31:59 2026 +0000",
+          "timestamp": 1788978719,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/9adfccb"
+        },
+        {
+          "sha": "d747e9a",
+          "message": "lineage: config: Redo ATV size reservations",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 24 16:24:40 2026 -0400",
+          "timestamp": 1787603080,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/d747e9a"
+        },
+        {
+          "sha": "40bf256",
+          "message": "fixup! kernel: Fix build error when modules finder returns nothing",
+          "author": "Yumi Yukimura",
+          "date": "Wed Aug 12 03:20:58 2026 +0000",
+          "timestamp": 1786504858,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/40bf256"
+        },
+        {
+          "sha": "1e93617",
+          "message": "kernel: Fix build error when modules finder returns nothing",
+          "author": "Yumi Yukimura",
+          "date": "Tue Aug 11 04:52:26 2026 +0800",
+          "timestamp": 1786395146,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/1e93617"
+        },
+        {
+          "sha": "b0fdd9a",
+          "message": "release: Bump Security String to 2026-08-01",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 3 16:59:27 2026 +0000",
+          "timestamp": 1785776367,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/b0fdd9a"
+        },
+        {
+          "sha": "d748482",
+          "message": "kernel: copy bazel's dtb.img if it exists",
+          "author": "Cosmin Tanislav",
+          "date": "Fri Jul 17 13:17:52 2026 +0300",
+          "timestamp": 1784283472,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/d748482"
+        },
+        {
+          "sha": "cb1bc63",
+          "message": "kernel: fix check when TARGET_NEEDS_DTBOIMAGE and BOARD_KERNEL_SEPARATED_DTBO are both true",
+          "author": "Cosmin Tanislav",
+          "date": "Fri Jul 17 11:02:11 2026 +0300",
+          "timestamp": 1784275331,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/cb1bc63"
+        },
+        {
+          "sha": "a8ff22a",
+          "message": "kernel: copy bazel's dtbo.img if it exists",
+          "author": "Cosmin Tanislav",
+          "date": "Fri Jul 17 10:52:07 2026 +0300",
+          "timestamp": 1784274727,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/a8ff22a"
+        },
+        {
+          "sha": "61fb608",
+          "message": "kernel: do not use bazel's manifest filtering for 5.15 and 6.1",
+          "author": "Cosmin Tanislav",
+          "date": "Fri Jul 17 10:51:46 2026 +0300",
+          "timestamp": 1784274706,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/61fb608"
+        },
+        {
+          "sha": "384ceec",
+          "message": "kernel: fix manifest multi-line project handling",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 16 15:56:20 2026 +0300",
+          "timestamp": 1784206580,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/384ceec"
+        },
+        {
+          "sha": "e024cea",
+          "message": "vars: Update QCOM tags",
+          "author": "Bruno Martins",
+          "date": "Sun Jul 12 22:55:34 2026 +0000",
+          "timestamp": 1783896934,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/e024cea"
+        },
+        {
+          "sha": "734f70b",
+          "message": "envsetup: Don't wipe module lists that aren't generated",
+          "author": "R0rt1z2",
+          "date": "Sun Jul 12 01:08:48 2026 +0200",
+          "timestamp": 1783811328,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/734f70b"
+        },
+        {
+          "sha": "7f67df0",
+          "message": "lineage: Introduce a simple program for disabling adb remount overlays",
+          "author": "LuK1337",
+          "date": "Wed Jul 8 13:08:08 2026 +0200",
+          "timestamp": 1783508888,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/7f67df0"
+        },
+        {
+          "sha": "8e41931",
+          "message": "release: Bump Security String to 2026-07-01",
+          "author": "Nolen Johnson",
+          "date": "Tue Jul 7 19:46:15 2026 +0000",
+          "timestamp": 1783453575,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/8e41931"
+        },
+        {
+          "sha": "6e3765e",
+          "message": "config: Export TARGET_MAX_PAGE_SIZE_SUPPORTED to soong",
+          "author": "LuK1337",
+          "date": "Sat Jul 4 19:36:46 2026 +0000",
+          "timestamp": 1783193806,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/6e3765e"
+        },
+        {
+          "sha": "1db9599",
+          "message": "config: Exclude prebuilts/misc/protobuf_vendorcompat",
+          "author": "LuK1337",
+          "date": "Sat Jul 4 19:36:45 2026 +0000",
+          "timestamp": 1783193805,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/1db9599"
+        },
+        {
+          "sha": "938ec39",
+          "message": "config: Remove deprecated flags",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 4 14:07:50 2026 +0000",
+          "timestamp": 1783174070,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/938ec39"
+        },
+        {
+          "sha": "9f3cfba",
+          "message": "build-manifest: Call repo with REPO_TRACE=0",
+          "author": "Michael Bestas",
+          "date": "Mon Jun 29 10:14:28 2026 +0300",
+          "timestamp": 1782717268,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/9f3cfba"
+        },
+        {
+          "sha": "64513aa",
+          "message": "merge_dtbs: Apply multi-threaded parallel compilation",
+          "author": "Huang Yiwei",
+          "date": "Sat Jun 27 16:57:40 2026 +0000",
+          "timestamp": 1782579460,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/64513aa"
+        },
+        {
+          "sha": "0b066d6",
+          "message": "merge_dtbs: Update merge_dtbs script to fix dtbo overlay issue",
+          "author": "Meena Pasumarthi",
+          "date": "Fri Jun 26 21:35:54 2026 +0200",
+          "timestamp": 1782502554,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/0b066d6"
+        },
+        {
+          "sha": "04e8f87",
+          "message": "Revert \"merge_dtbs: Sort DTBOs based on needed symbols\"",
+          "author": "Giovanni Ricca",
+          "date": "Fri Jun 26 21:35:53 2026 +0200",
+          "timestamp": 1782502553,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/04e8f87"
+        },
+        {
+          "sha": "a83f49d",
+          "message": "Revert \"merge_dtbs: ignore not matching DTBOs when finding symbols for a fixup\"",
+          "author": "Giovanni Ricca",
+          "date": "Fri Jun 26 21:35:53 2026 +0200",
+          "timestamp": 1782502553,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/a83f49d"
+        },
+        {
+          "sha": "50364c1",
+          "message": "Revert \"merge_dtbs: allow one overlay to depend on multiple others\"",
+          "author": "Giovanni Ricca",
+          "date": "Fri Jun 26 21:35:53 2026 +0200",
+          "timestamp": 1782502553,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/50364c1"
         }
       ]
     },
@@ -3794,207 +4035,6 @@
           "date": "Mon Jun 15 09:56:33 2026 +0900",
           "timestamp": 1781484993,
           "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/e19775f"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_lineage",
-      "path": "vendor/lineage",
-      "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
-      "remote": "github",
-      "commit_count": 24,
-      "commits": [
-        {
-          "sha": "ddf5e6d",
-          "message": "kernel: Add AOSP build-tools to inline kernel PATH",
-          "author": "Alexander Koskovich",
-          "date": "Thu Sep 10 17:18:40 2026 +0000",
-          "timestamp": 1789060720,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/ddf5e6d"
-        },
-        {
-          "sha": "9adfccb",
-          "message": "release: Bump Security String to 2026-09-01",
-          "author": "Nolen Johnson",
-          "date": "Wed Sep 9 18:31:59 2026 +0000",
-          "timestamp": 1788978719,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/9adfccb"
-        },
-        {
-          "sha": "d747e9a",
-          "message": "lineage: config: Redo ATV size reservations",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 24 16:24:40 2026 -0400",
-          "timestamp": 1787603080,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/d747e9a"
-        },
-        {
-          "sha": "40bf256",
-          "message": "fixup! kernel: Fix build error when modules finder returns nothing",
-          "author": "Yumi Yukimura",
-          "date": "Wed Aug 12 03:20:58 2026 +0000",
-          "timestamp": 1786504858,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/40bf256"
-        },
-        {
-          "sha": "1e93617",
-          "message": "kernel: Fix build error when modules finder returns nothing",
-          "author": "Yumi Yukimura",
-          "date": "Tue Aug 11 04:52:26 2026 +0800",
-          "timestamp": 1786395146,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/1e93617"
-        },
-        {
-          "sha": "b0fdd9a",
-          "message": "release: Bump Security String to 2026-08-01",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 3 16:59:27 2026 +0000",
-          "timestamp": 1785776367,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/b0fdd9a"
-        },
-        {
-          "sha": "d748482",
-          "message": "kernel: copy bazel's dtb.img if it exists",
-          "author": "Cosmin Tanislav",
-          "date": "Fri Jul 17 13:17:52 2026 +0300",
-          "timestamp": 1784283472,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/d748482"
-        },
-        {
-          "sha": "cb1bc63",
-          "message": "kernel: fix check when TARGET_NEEDS_DTBOIMAGE and BOARD_KERNEL_SEPARATED_DTBO are both true",
-          "author": "Cosmin Tanislav",
-          "date": "Fri Jul 17 11:02:11 2026 +0300",
-          "timestamp": 1784275331,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/cb1bc63"
-        },
-        {
-          "sha": "a8ff22a",
-          "message": "kernel: copy bazel's dtbo.img if it exists",
-          "author": "Cosmin Tanislav",
-          "date": "Fri Jul 17 10:52:07 2026 +0300",
-          "timestamp": 1784274727,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/a8ff22a"
-        },
-        {
-          "sha": "61fb608",
-          "message": "kernel: do not use bazel's manifest filtering for 5.15 and 6.1",
-          "author": "Cosmin Tanislav",
-          "date": "Fri Jul 17 10:51:46 2026 +0300",
-          "timestamp": 1784274706,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/61fb608"
-        },
-        {
-          "sha": "384ceec",
-          "message": "kernel: fix manifest multi-line project handling",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 16 15:56:20 2026 +0300",
-          "timestamp": 1784206580,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/384ceec"
-        },
-        {
-          "sha": "e024cea",
-          "message": "vars: Update QCOM tags",
-          "author": "Bruno Martins",
-          "date": "Sun Jul 12 22:55:34 2026 +0000",
-          "timestamp": 1783896934,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/e024cea"
-        },
-        {
-          "sha": "734f70b",
-          "message": "envsetup: Don't wipe module lists that aren't generated",
-          "author": "R0rt1z2",
-          "date": "Sun Jul 12 01:08:48 2026 +0200",
-          "timestamp": 1783811328,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/734f70b"
-        },
-        {
-          "sha": "7f67df0",
-          "message": "lineage: Introduce a simple program for disabling adb remount overlays",
-          "author": "LuK1337",
-          "date": "Wed Jul 8 13:08:08 2026 +0200",
-          "timestamp": 1783508888,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/7f67df0"
-        },
-        {
-          "sha": "8e41931",
-          "message": "release: Bump Security String to 2026-07-01",
-          "author": "Nolen Johnson",
-          "date": "Tue Jul 7 19:46:15 2026 +0000",
-          "timestamp": 1783453575,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/8e41931"
-        },
-        {
-          "sha": "6e3765e",
-          "message": "config: Export TARGET_MAX_PAGE_SIZE_SUPPORTED to soong",
-          "author": "LuK1337",
-          "date": "Sat Jul 4 19:36:46 2026 +0000",
-          "timestamp": 1783193806,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/6e3765e"
-        },
-        {
-          "sha": "1db9599",
-          "message": "config: Exclude prebuilts/misc/protobuf_vendorcompat",
-          "author": "LuK1337",
-          "date": "Sat Jul 4 19:36:45 2026 +0000",
-          "timestamp": 1783193805,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/1db9599"
-        },
-        {
-          "sha": "938ec39",
-          "message": "config: Remove deprecated flags",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 4 14:07:50 2026 +0000",
-          "timestamp": 1783174070,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/938ec39"
-        },
-        {
-          "sha": "9f3cfba",
-          "message": "build-manifest: Call repo with REPO_TRACE=0",
-          "author": "Michael Bestas",
-          "date": "Mon Jun 29 10:14:28 2026 +0300",
-          "timestamp": 1782717268,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/9f3cfba"
-        },
-        {
-          "sha": "64513aa",
-          "message": "merge_dtbs: Apply multi-threaded parallel compilation",
-          "author": "Huang Yiwei",
-          "date": "Sat Jun 27 16:57:40 2026 +0000",
-          "timestamp": 1782579460,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/64513aa"
-        },
-        {
-          "sha": "0b066d6",
-          "message": "merge_dtbs: Update merge_dtbs script to fix dtbo overlay issue",
-          "author": "Meena Pasumarthi",
-          "date": "Fri Jun 26 21:35:54 2026 +0200",
-          "timestamp": 1782502554,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/0b066d6"
-        },
-        {
-          "sha": "04e8f87",
-          "message": "Revert \"merge_dtbs: Sort DTBOs based on needed symbols\"",
-          "author": "Giovanni Ricca",
-          "date": "Fri Jun 26 21:35:53 2026 +0200",
-          "timestamp": 1782502553,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/04e8f87"
-        },
-        {
-          "sha": "a83f49d",
-          "message": "Revert \"merge_dtbs: ignore not matching DTBOs when finding symbols for a fixup\"",
-          "author": "Giovanni Ricca",
-          "date": "Fri Jun 26 21:35:53 2026 +0200",
-          "timestamp": 1782502553,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/a83f49d"
-        },
-        {
-          "sha": "50364c1",
-          "message": "Revert \"merge_dtbs: allow one overlay to depend on multiple others\"",
-          "author": "Giovanni Ricca",
-          "date": "Fri Jun 26 21:35:53 2026 +0200",
-          "timestamp": 1782502553,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/50364c1"
         }
       ]
     },
@@ -5025,6 +5065,63 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Jelly",
+      "path": "packages/apps/Jelly",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "56c6868",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 1 11:53:09 2026 +0000",
+          "timestamp": 1788263589,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/56c6868"
+        },
+        {
+          "sha": "7678330",
+          "message": "Jelly: Desktop shortcuts",
+          "author": "SaeedDev94",
+          "date": "Mon Aug 17 05:09:27 2026 -0500",
+          "timestamp": 1786961367,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7678330"
+        },
+        {
+          "sha": "8bf990f",
+          "message": "Jelly: Add setting to toggle WebView debugging",
+          "author": "SaeedDev94",
+          "date": "Sat Aug 15 04:41:20 2026 -0500",
+          "timestamp": 1786786880,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/8bf990f"
+        },
+        {
+          "sha": "ce20325",
+          "message": "Jelly: Fullscreen shortcut: dynamic statusbar color",
+          "author": "SaeedDev94",
+          "date": "Sun Aug 9 06:18:00 2026 -0500",
+          "timestamp": 1786274280,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/ce20325"
+        },
+        {
+          "sha": "6517f6a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Jul 15 09:55:41 2026 +0000",
+          "timestamp": 1784109341,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6517f6a"
+        },
+        {
+          "sha": "7c0c677",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:54:57 2026 +0000",
+          "timestamp": 1781546097,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7c0c677"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
@@ -5135,63 +5232,6 @@
           "date": "Mon Jun 15 17:54:58 2026 +0000",
           "timestamp": 1781546098,
           "url": "https://github.com/LineageOS/android_packages_apps_Launcher3/commit/200381f"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_Jelly",
-      "path": "packages/apps/Jelly",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
-      "remote": "github",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "56c6868",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 1 11:53:09 2026 +0000",
-          "timestamp": 1788263589,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/56c6868"
-        },
-        {
-          "sha": "7678330",
-          "message": "Jelly: Desktop shortcuts",
-          "author": "SaeedDev94",
-          "date": "Mon Aug 17 05:09:27 2026 -0500",
-          "timestamp": 1786961367,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7678330"
-        },
-        {
-          "sha": "8bf990f",
-          "message": "Jelly: Add setting to toggle WebView debugging",
-          "author": "SaeedDev94",
-          "date": "Sat Aug 15 04:41:20 2026 -0500",
-          "timestamp": 1786786880,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/8bf990f"
-        },
-        {
-          "sha": "ce20325",
-          "message": "Jelly: Fullscreen shortcut: dynamic statusbar color",
-          "author": "SaeedDev94",
-          "date": "Sun Aug 9 06:18:00 2026 -0500",
-          "timestamp": 1786274280,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/ce20325"
-        },
-        {
-          "sha": "6517f6a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Jul 15 09:55:41 2026 +0000",
-          "timestamp": 1784109341,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6517f6a"
-        },
-        {
-          "sha": "7c0c677",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:54:57 2026 +0000",
-          "timestamp": 1781546097,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/7c0c677"
         }
       ]
     },
@@ -5465,55 +5505,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_v4l2_codec2",
-      "path": "external/v4l2_codec2",
-      "repo_url": "https://github.com/LineageOS/android_external_v4l2_codec2",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "16700e0",
-          "message": "Use the output pixel format requested by the decoder when available",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 15:02:39 2026 -0500",
-          "timestamp": 1781985759,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/16700e0"
-        },
-        {
-          "sha": "0cd9abd",
-          "message": "Add P010 support",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 15:02:10 2026 -0500",
-          "timestamp": 1781985730,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/0cd9abd"
-        },
-        {
-          "sha": "711990c",
-          "message": "V4L2DecodeInterface: Properly fetch default codec profile",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 14:53:09 2026 -0500",
-          "timestamp": 1781985189,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/711990c"
-        },
-        {
-          "sha": "e18bf52",
-          "message": "Convert v4l2 hevc levels to c2 hevc levels",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 20 14:52:33 2026 -0500",
-          "timestamp": 1781985153,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/e18bf52"
-        },
-        {
-          "sha": "319824d",
-          "message": "Add AV1 decode support",
-          "author": "Aaron Kling",
-          "date": "Sat Jun 13 16:55:01 2026 -0500",
-          "timestamp": 1781387701,
-          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/319824d"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_lineage-sdk",
       "path": "lineage-sdk",
       "repo_url": "https://github.com/LineageOS/android_lineage-sdk",
@@ -5717,6 +5708,14 @@
       "commit_count": 4,
       "commits": [
         {
+          "sha": "9f672a0",
+          "message": "Update Chromium Webview arm to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Wed Sep 9 20:24:33 2026 -0600",
+          "timestamp": 1789007073,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/9f672a0"
+        },
+        {
           "sha": "80e8063",
           "message": "Update Chromium Webview arm to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
@@ -5739,14 +5738,6 @@
           "date": "Thu Jul 2 06:54:20 2026 -0600",
           "timestamp": 1782996860,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/3cc02a1"
-        },
-        {
-          "sha": "6773406",
-          "message": "Update Chromium Webview arm to 149.0.7827.114",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Jun 13 20:33:37 2026 -0600",
-          "timestamp": 1781404417,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6773406"
         }
       ]
     },
@@ -5757,6 +5748,14 @@
       "remote": "github",
       "commit_count": 4,
       "commits": [
+        {
+          "sha": "11fd8af",
+          "message": "Update Chromium Webview arm64 to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 10 05:44:57 2026 -0600",
+          "timestamp": 1789040697,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/11fd8af"
+        },
         {
           "sha": "a6b2364",
           "message": "Update Chromium Webview arm64 to 152.0.7977.64",
@@ -5780,55 +5779,47 @@
           "date": "Thu Jul 2 06:54:47 2026 -0600",
           "timestamp": 1782996887,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/aca8d63"
-        },
-        {
-          "sha": "0a65409",
-          "message": "Update Chromium Webview arm64 to 149.0.7827.114",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Jun 13 20:33:39 2026 -0600",
-          "timestamp": 1781404419,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/0a65409"
         }
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
       "remote": "github",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "58479e5",
-          "message": "Update Chromium Webview x86 to 152.0.7977.64",
+          "sha": "b29edae",
+          "message": "Update Chromium Webview to 153.0.8010.36",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:21 2026 -0600",
-          "timestamp": 1787836461,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/58479e5"
+          "date": "Tue Sep 8 21:49:20 2026 -0600",
+          "timestamp": 1788925760,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/b29edae"
         },
         {
-          "sha": "f57ab0f",
-          "message": "Update Chromium Webview x86 to 151.0.7922.71",
+          "sha": "209a6d2",
+          "message": "Update Chromium Webview to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:54:24 2026 -0600",
-          "timestamp": 1785455664,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/f57ab0f"
+          "date": "Thu Aug 27 07:08:55 2026 -0600",
+          "timestamp": 1787836135,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/209a6d2"
         },
         {
-          "sha": "02a0000",
-          "message": "Update Chromium Webview x86 to 150.0.7871.63",
+          "sha": "0c68f2f",
+          "message": "Update Chromium Webview to 151.0.7922.71",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 2 06:55:14 2026 -0600",
-          "timestamp": 1782996914,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/02a0000"
+          "date": "Wed Jul 29 18:48:20 2026 -0600",
+          "timestamp": 1785372500,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
         },
         {
-          "sha": "78b3819",
-          "message": "Update Chromium Webview x86 to 149.0.7827.114",
+          "sha": "970cdf1",
+          "message": "Update Chromium Webview to 150.0.7871.63",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Jun 13 20:33:40 2026 -0600",
-          "timestamp": 1781404420,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/78b3819"
+          "date": "Wed Jul 1 06:54:48 2026 -0600",
+          "timestamp": 1782910488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/970cdf1"
         }
       ]
     },
@@ -5839,6 +5830,14 @@
       "remote": "github",
       "commit_count": 4,
       "commits": [
+        {
+          "sha": "d676fed",
+          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 10 05:45:38 2026 -0600",
+          "timestamp": 1789040738,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
+        },
         {
           "sha": "2767453",
           "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
@@ -5862,14 +5861,88 @@
           "date": "Thu Jul 2 06:55:41 2026 -0600",
           "timestamp": 1782996941,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/cf378c5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "69d94d6",
+          "message": "Update Chromium Webview x86 to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Wed Sep 9 20:25:06 2026 -0600",
+          "timestamp": 1789007106,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/69d94d6"
         },
         {
-          "sha": "64512a6",
-          "message": "Update Chromium Webview x86_64 to 149.0.7827.114",
+          "sha": "58479e5",
+          "message": "Update Chromium Webview x86 to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Jun 13 20:33:41 2026 -0600",
-          "timestamp": 1781404421,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/64512a6"
+          "date": "Thu Aug 27 07:14:21 2026 -0600",
+          "timestamp": 1787836461,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/58479e5"
+        },
+        {
+          "sha": "f57ab0f",
+          "message": "Update Chromium Webview x86 to 151.0.7922.71",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Jul 30 17:54:24 2026 -0600",
+          "timestamp": 1785455664,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/f57ab0f"
+        },
+        {
+          "sha": "02a0000",
+          "message": "Update Chromium Webview x86 to 150.0.7871.63",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Jul 2 06:55:14 2026 -0600",
+          "timestamp": 1782996914,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/02a0000"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_v4l2_codec2",
+      "path": "external/v4l2_codec2",
+      "repo_url": "https://github.com/LineageOS/android_external_v4l2_codec2",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "16700e0",
+          "message": "Use the output pixel format requested by the decoder when available",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 15:02:39 2026 -0500",
+          "timestamp": 1781985759,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/16700e0"
+        },
+        {
+          "sha": "0cd9abd",
+          "message": "Add P010 support",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 15:02:10 2026 -0500",
+          "timestamp": 1781985730,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/0cd9abd"
+        },
+        {
+          "sha": "711990c",
+          "message": "V4L2DecodeInterface: Properly fetch default codec profile",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 14:53:09 2026 -0500",
+          "timestamp": 1781985189,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/711990c"
+        },
+        {
+          "sha": "e18bf52",
+          "message": "Convert v4l2 hevc levels to c2 hevc levels",
+          "author": "Aaron Kling",
+          "date": "Sat Jun 20 14:52:33 2026 -0500",
+          "timestamp": 1781985153,
+          "url": "https://github.com/LineageOS/android_external_v4l2_codec2/commit/e18bf52"
         }
       ]
     },
@@ -6309,39 +6382,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "209a6d2",
-          "message": "Update Chromium Webview to 152.0.7977.64",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:08:55 2026 -0600",
-          "timestamp": 1787836135,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/209a6d2"
-        },
-        {
-          "sha": "0c68f2f",
-          "message": "Update Chromium Webview to 151.0.7922.71",
-          "author": "Kevin F. Haggerty",
-          "date": "Wed Jul 29 18:48:20 2026 -0600",
-          "timestamp": 1785372500,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
-        },
-        {
-          "sha": "970cdf1",
-          "message": "Update Chromium Webview to 150.0.7871.63",
-          "author": "Kevin F. Haggerty",
-          "date": "Wed Jul 1 06:54:48 2026 -0600",
-          "timestamp": 1782910488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/970cdf1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_lineage_compat",
       "path": "hardware/lineage/compat",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_compat",
@@ -6697,6 +6737,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_lineage_atv",
+      "path": "device/lineage/atv",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_atv",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "32c4089",
+          "message": "atv: Move log properties to system_ext",
+          "author": "Timi",
+          "date": "Fri Sep 11 17:50:19 2026 +0000",
+          "timestamp": 1789149019,
+          "url": "https://github.com/LineageOS/android_device_lineage_atv/commit/32c4089"
+        },
+        {
+          "sha": "3b194c2",
+          "message": "Drop forced scaling handling",
+          "author": "Aaron Kling",
+          "date": "Tue Aug 25 16:55:12 2026 +0000",
+          "timestamp": 1787676912,
+          "url": "https://github.com/LineageOS/android_device_lineage_atv/commit/3b194c2"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_external_freetype",
       "path": "external/freetype",
       "repo_url": "https://github.com/LineageOS/android_external_freetype",
@@ -6768,31 +6833,6 @@
           "date": "Fri Jul 3 20:14:39 2026 +0300",
           "timestamp": 1783098879,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/7ea46e2"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8750/display/hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "4b74f47",
-          "message": "Revert \"vmmem: Make libvmmem_headers available\"",
-          "author": "Alexander Koskovich",
-          "date": "Sat Jun 13 01:04:33 2026 -0400",
-          "timestamp": 1781327073,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/4b74f47"
-        },
-        {
-          "sha": "ec927be",
-          "message": "Revert \"vmmem: Add dummy libvmmem shared_lib\"",
-          "author": "Alexander Koskovich",
-          "date": "Fri Jun 12 23:57:49 2026 -0400",
-          "timestamp": 1781323069,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/ec927be"
         }
       ]
     },
@@ -7239,23 +7279,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_bionic",
-      "path": "bionic",
-      "repo_url": "https://github.com/LineageOS/android_bionic",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "ff9fe01e",
-          "message": "Fix bad free when limit exceeded.",
-          "author": "Christopher Ferris",
-          "date": "Wed Aug 19 00:51:10 2026 -0400",
-          "timestamp": 1787115070,
-          "url": "https://github.com/LineageOS/android_bionic/commit/ff9fe01e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_build",
       "path": "build/make",
       "repo_url": "https://github.com/LineageOS/android_build",
@@ -7273,6 +7296,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_bionic",
+      "path": "bionic",
+      "repo_url": "https://github.com/LineageOS/android_bionic",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "ff9fe01e",
+          "message": "Fix bad free when limit exceeded.",
+          "author": "Christopher Ferris",
+          "date": "Wed Aug 19 00:51:10 2026 -0400",
+          "timestamp": 1787115070,
+          "url": "https://github.com/LineageOS/android_bionic/commit/ff9fe01e"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_development",
       "path": "development",
       "repo_url": "https://github.com/LineageOS/android_development",
@@ -7286,23 +7326,6 @@
           "date": "Wed Aug 19 00:51:10 2026 -0400",
           "timestamp": 1787115070,
           "url": "https://github.com/LineageOS/android_development/commit/48dac517"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_lineage_atv",
-      "path": "device/lineage/atv",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_atv",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3b194c2",
-          "message": "Drop forced scaling handling",
-          "author": "Aaron Kling",
-          "date": "Tue Aug 25 16:55:12 2026 +0000",
-          "timestamp": 1787676912,
-          "url": "https://github.com/LineageOS/android_device_lineage_atv/commit/3b194c2"
         }
       ]
     },
@@ -7426,19 +7449,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_libppd",
-      "path": "external/libppd",
-      "repo_url": "https://github.com/LineageOS/android_external_libppd",
+      "name": "LineageOS/android_external_libopenapv",
+      "path": "external/libopenapv",
+      "repo_url": "https://github.com/LineageOS/android_external_libopenapv",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "eacf14a",
-          "message": "Fix integer overflow and heap OOB write errors",
-          "author": "Nathan Muggli",
+          "sha": "e482aa7",
+          "message": "Add dimension validation in dec_frm_prepare",
+          "author": "Preston Cody",
           "date": "Wed Aug 19 00:51:11 2026 -0400",
           "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_libppd/commit/eacf14a"
+          "url": "https://github.com/LineageOS/android_external_libopenapv/commit/e482aa7"
         }
       ]
     },
@@ -7460,19 +7483,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_libopenapv",
-      "path": "external/libopenapv",
-      "repo_url": "https://github.com/LineageOS/android_external_libopenapv",
+      "name": "LineageOS/android_external_libppd",
+      "path": "external/libppd",
+      "repo_url": "https://github.com/LineageOS/android_external_libppd",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "e482aa7",
-          "message": "Add dimension validation in dec_frm_prepare",
-          "author": "Preston Cody",
+          "sha": "eacf14a",
+          "message": "Fix integer overflow and heap OOB write errors",
+          "author": "Nathan Muggli",
           "date": "Wed Aug 19 00:51:11 2026 -0400",
           "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_libopenapv/commit/e482aa7"
+          "url": "https://github.com/LineageOS/android_external_libppd/commit/eacf14a"
         }
       ]
     },
@@ -7528,23 +7551,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sdm660/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "90647c4",
-          "message": "post_proc: Correct libvolumelistener include_dirs",
-          "author": "Michael Bestas",
-          "date": "Sun Jun 21 02:45:32 2026 +0300",
-          "timestamp": 1781999132,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/90647c4"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom-caf_common",
       "path": "hardware/qcom-caf/common",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
@@ -7558,6 +7564,23 @@
           "date": "Sat Aug 8 12:54:52 2026 +0200",
           "timestamp": 1786186492,
           "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/1805784"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sdm660/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "90647c4",
+          "message": "post_proc: Correct libvolumelistener include_dirs",
+          "author": "Michael Bestas",
+          "date": "Sun Jun 21 02:45:32 2026 +0300",
+          "timestamp": 1781999132,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/90647c4"
         }
       ]
     },
@@ -7647,23 +7670,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_sm8150_display",
-      "path": "hardware/qcom/sm8150/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "bcae019",
-          "message": "Add IDisplay/default service via hwcomposer",
-          "author": "Weizhung Ding",
-          "date": "Mon Jul 13 06:37:50 2026 +0300",
-          "timestamp": 1783913870,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/bcae019"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_thermal",
       "path": "hardware/qcom-caf/thermal-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
@@ -7681,19 +7687,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Camelot",
-      "path": "packages/apps/Camelot",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "name": "LineageOS/android_hardware_qcom_sm8150_display",
+      "path": "hardware/qcom/sm8150/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "fd64f83",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Jun 15 17:54:51 2026 +0000",
-          "timestamp": 1781546091,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/fd64f83"
+          "sha": "bcae019",
+          "message": "Add IDisplay/default service via hwcomposer",
+          "author": "Weizhung Ding",
+          "date": "Mon Jul 13 06:37:50 2026 +0300",
+          "timestamp": 1783913870,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/bcae019"
         }
       ]
     },
@@ -7711,6 +7717,23 @@
           "date": "Mon Jun 15 17:54:50 2026 +0000",
           "timestamp": 1781546090,
           "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/f301771"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Camelot",
+      "path": "packages/apps/Camelot",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fd64f83",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Jun 15 17:54:51 2026 +0000",
+          "timestamp": 1781546091,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/fd64f83"
         }
       ]
     },
@@ -7834,23 +7857,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_DownloadProvider",
-      "path": "packages/providers/DownloadProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "04ebaea",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 1 11:53:19 2026 +0000",
-          "timestamp": 1788263599,
-          "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/04ebaea"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_TelephonyProvider",
       "path": "packages/providers/TelephonyProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_TelephonyProvider",
@@ -7868,19 +7874,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_prebuilts_extract-tools",
-      "path": "prebuilts/extract-tools",
-      "repo_url": "https://github.com/LineageOS/android_prebuilts_extract-tools",
+      "name": "LineageOS/android_packages_providers_DownloadProvider",
+      "path": "packages/providers/DownloadProvider",
+      "repo_url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "a8aabbb",
-          "message": "linux-x86: parallelize ota_extractor",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 23 23:28:21 2026 +0300",
-          "timestamp": 1784838501,
-          "url": "https://github.com/LineageOS/android_prebuilts_extract-tools/commit/a8aabbb"
+          "sha": "04ebaea",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 1 11:53:19 2026 +0000",
+          "timestamp": 1788263599,
+          "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/04ebaea"
         }
       ]
     },
@@ -7898,6 +7904,23 @@
           "date": "Wed Aug 19 00:51:17 2026 -0400",
           "timestamp": 1787115077,
           "url": "https://github.com/LineageOS/android_packages_services_Telecomm/commit/3cb20bce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_prebuilts_extract-tools",
+      "path": "prebuilts/extract-tools",
+      "repo_url": "https://github.com/LineageOS/android_prebuilts_extract-tools",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a8aabbb",
+          "message": "linux-x86: parallelize ota_extractor",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 23 23:28:21 2026 +0300",
+          "timestamp": 1784838501,
+          "url": "https://github.com/LineageOS/android_prebuilts_extract-tools/commit/a8aabbb"
         }
       ]
     },
@@ -8073,23 +8096,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8650/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1311e1c",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:32:36 2026 +0300",
-          "timestamp": 1783769556,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/1311e1c"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8450-6.6/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "github",
@@ -8123,19 +8129,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_interfaces",
-      "path": "vendor/qcom/opensource/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces",
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "eb976d9",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-14000-qssi.0' into staging/lineage-23.2_merge-LA.QSSI.16.0.r1-14000-qssi.0",
+          "sha": "1311e1c",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0",
           "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:20:12 2026 +0300",
-          "timestamp": 1783768812,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/eb976d9"
+          "date": "Sat Jul 11 14:32:36 2026 +0300",
+          "timestamp": 1783769556,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/1311e1c"
         }
       ]
     },
@@ -8157,6 +8163,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_interfaces",
+      "path": "vendor/qcom/opensource/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "eb976d9",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-14000-qssi.0' into staging/lineage-23.2_merge-LA.QSSI.16.0.r1-14000-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:20:12 2026 +0300",
+          "timestamp": 1783768812,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/eb976d9"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_usb",
       "path": "vendor/qcom/opensource/usb",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
@@ -8170,6 +8193,23 @@
           "date": "Sat Jul 11 12:29:54 2026 +0300",
           "timestamp": 1783762194,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/9b4843b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/charter",
+      "path": "lineage/charter",
+      "repo_url": "https://github.com/LineageOS/charter",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e5156b0",
+          "message": "charter: Add an annotation section regarding use of AI tools",
+          "author": "Nick Reuter",
+          "date": "Fri Sep 11 03:32:13 2026 -0500",
+          "timestamp": 1789115533,
+          "url": "https://github.com/LineageOS/charter/commit/e5156b0"
         }
       ]
     }
