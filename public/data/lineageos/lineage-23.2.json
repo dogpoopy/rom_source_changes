@@ -1,17 +1,17 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.2",
-  "generated_at": "2026-09-24T03:03:36.438279+00:00",
-  "since_date": "2026-06-26",
+  "generated_at": "2026-09-25T03:20:54.099577+00:00",
+  "since_date": "2026-06-27",
   "total_projects": 139,
-  "total_commits": 826,
+  "total_commits": 823,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 100,
+      "commit_count": 99,
       "commits": [
         {
           "sha": "52c0546",
@@ -804,14 +804,6 @@
           "date": "Sat Jun 27 20:27:46 2026 +0200",
           "timestamp": 1782584866,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/c308483"
-        },
-        {
-          "sha": "5544a60",
-          "message": "devices: g12*: Update and sort maintainers",
-          "author": "Nolen Johnson",
-          "date": "Fri Jun 26 21:39:07 2026 +0000",
-          "timestamp": 1782509947,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/5544a60"
         }
       ]
     },
@@ -1886,7 +1878,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 48,
+      "commit_count": 47,
       "commits": [
         {
           "sha": "064b3e3",
@@ -2263,14 +2255,6 @@
           "date": "Mon Jun 29 12:01:54 2026 +0200",
           "timestamp": 1782727314,
           "url": "https://github.com/LineageOS/mirror/commit/4d7473f"
-        },
-        {
-          "sha": "138899b",
-          "message": "Updated to 26-Jun-2026 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Sat Jun 27 00:01:56 2026 +0200",
-          "timestamp": 1782511316,
-          "url": "https://github.com/LineageOS/mirror/commit/138899b"
         }
       ]
     },
@@ -2624,8 +2608,16 @@
       "path": "vendor/lineage",
       "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
       "remote": "github",
-      "commit_count": 28,
+      "commit_count": 25,
       "commits": [
+        {
+          "sha": "8728712",
+          "message": "kernel: Fix ignored SYSTEM_KERNEL_MODULES_LOAD in bazel builds",
+          "author": "Bruno Martins",
+          "date": "Thu Sep 24 01:58:37 2026 +0000",
+          "timestamp": 1790215117,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/8728712"
+        },
         {
           "sha": "895dbdb",
           "message": "configs: Move credentials permission support to mobile config",
@@ -2817,38 +2809,6 @@
           "date": "Sat Jun 27 16:57:40 2026 +0000",
           "timestamp": 1782579460,
           "url": "https://github.com/LineageOS/android_vendor_lineage/commit/64513aa"
-        },
-        {
-          "sha": "0b066d6",
-          "message": "merge_dtbs: Update merge_dtbs script to fix dtbo overlay issue",
-          "author": "Meena Pasumarthi",
-          "date": "Fri Jun 26 21:35:54 2026 +0200",
-          "timestamp": 1782502554,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/0b066d6"
-        },
-        {
-          "sha": "04e8f87",
-          "message": "Revert \"merge_dtbs: Sort DTBOs based on needed symbols\"",
-          "author": "Giovanni Ricca",
-          "date": "Fri Jun 26 21:35:53 2026 +0200",
-          "timestamp": 1782502553,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/04e8f87"
-        },
-        {
-          "sha": "a83f49d",
-          "message": "Revert \"merge_dtbs: ignore not matching DTBOs when finding symbols for a fixup\"",
-          "author": "Giovanni Ricca",
-          "date": "Fri Jun 26 21:35:53 2026 +0200",
-          "timestamp": 1782502553,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/a83f49d"
-        },
-        {
-          "sha": "50364c1",
-          "message": "Revert \"merge_dtbs: allow one overlay to depend on multiple others\"",
-          "author": "Giovanni Ricca",
-          "date": "Fri Jun 26 21:35:53 2026 +0200",
-          "timestamp": 1782502553,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/50364c1"
         }
       ]
     },
@@ -3420,8 +3380,16 @@
       "path": "packages/apps/Catapult",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Catapult",
       "remote": "github",
-      "commit_count": 18,
+      "commit_count": 19,
       "commits": [
+        {
+          "sha": "4dead57",
+          "message": "Catapult: Fix crash if Watch Next Card has no title",
+          "author": "Vitaliy Tomin",
+          "date": "Thu Sep 24 06:11:46 2026 +0000",
+          "timestamp": 1790230306,
+          "url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/4dead57"
+        },
         {
           "sha": "149ddac",
           "message": "Catapult: Add REUSE to gerrit checks",
@@ -6373,6 +6341,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_build",
+      "path": "build/make",
+      "repo_url": "https://github.com/LineageOS/android_build",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "e5aaa621",
+          "message": "build: Exclude already overriden AOSP apps from LineageOS builds",
+          "author": "AnierinB",
+          "date": "Thu Sep 24 20:23:36 2026 +0000",
+          "timestamp": 1790281416,
+          "url": "https://github.com/LineageOS/android_build/commit/e5aaa621"
+        },
+        {
+          "sha": "5a841be3",
+          "message": "build: Handle `BOARD_USES_RECOVERY_AS_BOOT` case for `BOARD_CUSTOM_BOOTIMG_MK`",
+          "author": "Yumi Yukimura",
+          "date": "Fri Aug 7 17:08:12 2026 +0800",
+          "timestamp": 1786093692,
+          "url": "https://github.com/LineageOS/android_build/commit/5a841be3"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_build_soong",
       "path": "build/soong",
       "repo_url": "https://github.com/LineageOS/android_build_soong",
@@ -6965,23 +6958,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_build",
-      "path": "build/make",
-      "repo_url": "https://github.com/LineageOS/android_build",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "5a841be3",
-          "message": "build: Handle `BOARD_USES_RECOVERY_AS_BOOT` case for `BOARD_CUSTOM_BOOTIMG_MK`",
-          "author": "Yumi Yukimura",
-          "date": "Fri Aug 7 17:08:12 2026 +0800",
-          "timestamp": 1786093692,
-          "url": "https://github.com/LineageOS/android_build/commit/5a841be3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_bionic",
       "path": "bionic",
       "repo_url": "https://github.com/LineageOS/android_bionic",
@@ -7237,23 +7213,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_nxp_secure_element",
-      "path": "hardware/nxp/secure_element",
-      "repo_url": "https://github.com/LineageOS/android_hardware_nxp_secure_element",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "59bfde8",
-          "message": "Fix out-of-bounds write in SecureElement openLogicalChannel",
-          "author": "Preston Cody",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_hardware_nxp_secure_element/commit/59bfde8"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_nxp_nfc",
       "path": "hardware/nxp/nfc",
       "repo_url": "https://github.com/LineageOS/android_hardware_nxp_nfc",
@@ -7267,6 +7226,23 @@
           "date": "Sat Sep 19 15:44:25 2026 +0300",
           "timestamp": 1789821865,
           "url": "https://github.com/LineageOS/android_hardware_nxp_nfc/commit/ad16c5c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_nxp_secure_element",
+      "path": "hardware/nxp/secure_element",
+      "repo_url": "https://github.com/LineageOS/android_hardware_nxp_secure_element",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "59bfde8",
+          "message": "Fix out-of-bounds write in SecureElement openLogicalChannel",
+          "author": "Preston Cody",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_hardware_nxp_secure_element/commit/59bfde8"
         }
       ]
     },
@@ -7288,23 +7264,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "aa14955",
-          "message": "Merge tag 'AUDIO.LA.8.0.r1-13000-KAILUA.0' into staging/lineage-23.2_merge-AUDIO.LA.8.0.r1-13000-KAILUA.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:31:29 2026 +0300",
-          "timestamp": 1783769489,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/aa14955"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/sm8350/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -7318,6 +7277,23 @@
           "date": "Sat Jul 11 14:26:48 2026 +0300",
           "timestamp": 1783769208,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/9596e4b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "aa14955",
+          "message": "Merge tag 'AUDIO.LA.8.0.r1-13000-KAILUA.0' into staging/lineage-23.2_merge-AUDIO.LA.8.0.r1-13000-KAILUA.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:31:29 2026 +0300",
+          "timestamp": 1783769489,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/aa14955"
         }
       ]
     },
@@ -7424,23 +7400,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Profiles",
-      "path": "packages/apps/Profiles",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Profiles",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0abb3a1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Aug 1 13:02:39 2026 +0000",
-          "timestamp": 1785589359,
-          "url": "https://github.com/LineageOS/android_packages_apps_Profiles/commit/0abb3a1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_ManagedProvisioning",
       "path": "packages/apps/ManagedProvisioning",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_ManagedProvisioning",
@@ -7454,6 +7413,23 @@
           "date": "Sat Sep 19 15:45:25 2026 +0300",
           "timestamp": 1789821925,
           "url": "https://github.com/LineageOS/android_packages_apps_ManagedProvisioning/commit/0aa9df1f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Profiles",
+      "path": "packages/apps/Profiles",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Profiles",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0abb3a1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Aug 1 13:02:39 2026 +0000",
+          "timestamp": 1785589359,
+          "url": "https://github.com/LineageOS/android_packages_apps_Profiles/commit/0abb3a1"
         }
       ]
     },
@@ -7628,23 +7604,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_agm",
-      "path": "hardware/qcom-caf/sm8750/audio/agm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "853c0f6",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0' into staging/lineage-23.2_merge-AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:34:51 2026 +0300",
-          "timestamp": 1783769691,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/853c0f6"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8450-6.6/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
@@ -7658,6 +7617,23 @@
           "date": "Wed Aug 12 14:40:38 2026 -0400",
           "timestamp": 1786560038,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8342f63"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_agm",
+      "path": "hardware/qcom-caf/sm8750/audio/agm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "853c0f6",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0' into staging/lineage-23.2_merge-AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:34:51 2026 +0300",
+          "timestamp": 1783769691,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/853c0f6"
         }
       ]
     },
@@ -7714,23 +7690,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "path": "hardware/qcom-caf/sm8550/data-ipa-cfg-mgr",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a37a455",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:31:39 2026 +0300",
-          "timestamp": 1783769499,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/a37a455"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "path": "hardware/qcom-caf/sm8750/data-ipa-cfg-mgr",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "remote": "github",
@@ -7743,6 +7702,23 @@
           "date": "Sat Jul 11 14:35:07 2026 +0300",
           "timestamp": 1783769707,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/5c75409"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "path": "hardware/qcom-caf/sm8550/data-ipa-cfg-mgr",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a37a455",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:31:39 2026 +0300",
+          "timestamp": 1783769499,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/a37a455"
         }
       ]
     },
@@ -7799,23 +7775,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8650/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1311e1c",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:32:36 2026 +0300",
-          "timestamp": 1783769556,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/1311e1c"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8550/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "github",
@@ -7828,6 +7787,23 @@
           "date": "Sat Jul 11 14:31:38 2026 +0300",
           "timestamp": 1783769498,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/a964339"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1311e1c",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:32:36 2026 +0300",
+          "timestamp": 1783769556,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/1311e1c"
         }
       ]
     },
