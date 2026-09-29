@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "seventeen",
-  "generated_at": "2026-09-28T03:32:28.782764+00:00",
-  "since_date": "2026-06-30",
+  "generated_at": "2026-09-29T04:08:25.296125+00:00",
+  "since_date": "2026-07-01",
   "total_projects": 101,
-  "total_commits": 479,
+  "total_commits": 481,
   "projects": [
     {
       "name": "frameworks_base",
@@ -1142,8 +1142,16 @@
       "path": "vendor/yaap",
       "repo_url": "https://github.com/yaap/vendor_yaap",
       "remote": "yaap",
-      "commit_count": 28,
+      "commit_count": 29,
       "commits": [
+        {
+          "sha": "6a89acc",
+          "message": "aconfig: Enable enable_redacted_value_for_readable",
+          "author": "LuK1337",
+          "date": "Fri Sep 25 09:50:46 2026 -0400",
+          "timestamp": 1790344246,
+          "url": "https://github.com/yaap/vendor_yaap/commit/6a89acc"
+        },
         {
           "sha": "8849895",
           "message": "release: Bump Security String to 2026-09-01",
@@ -1544,8 +1552,16 @@
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/yaap/packages_apps_Settings",
       "remote": "yaap",
-      "commit_count": 18,
+      "commit_count": 19,
       "commits": [
+        {
+          "sha": "acbe237b3",
+          "message": "Settings: Answer search index queries as Settings",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Mon Sep 28 09:32:00 2026 -0400",
+          "timestamp": 1790602320,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/acbe237b3"
+        },
         {
           "sha": "649e782e3",
           "message": "Settings: Migrate dimming the wallpaper with night features to kt",
@@ -1693,6 +1709,143 @@
       ]
     },
     {
+      "name": "packages_modules_Connectivity",
+      "path": "packages/modules/Connectivity",
+      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
+      "remote": "yaap",
+      "commit_count": 16,
+      "commits": [
+        {
+          "sha": "ea8e8b1",
+          "message": "disable unprivileged hardware keepalives",
+          "author": "liamsmith827",
+          "date": "Mon Sep 28 11:51:34 2026 -0400",
+          "timestamp": 1790610694,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ea8e8b1"
+        },
+        {
+          "sha": "76d21b7",
+          "message": "disable CLOSE_QUIC_CONNECTION power optimization that bypasses VPN",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/76d21b7"
+        },
+        {
+          "sha": "96ddd56",
+          "message": "Bring back traffic indicators for legacy devices",
+          "author": "koron393",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/96ddd56"
+        },
+        {
+          "sha": "cd23e23",
+          "message": "Fix: Prevent NullPointerException in BpfNetMaps during UID removal",
+          "author": "Doze-off",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/cd23e23"
+        },
+        {
+          "sha": "2e72c4a",
+          "message": "Some additional handling of bpf-less device",
+          "author": "Pierre-Hugues Husson",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/2e72c4a"
+        },
+        {
+          "sha": "b93d448",
+          "message": "Additional bpf prevent-crash",
+          "author": "Pierre-Hugues Husson",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/b93d448"
+        },
+        {
+          "sha": "99a0195",
+          "message": "Revert \"netdupdatable: add back abort() on init() fail\"",
+          "author": "Alberto Ponces",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/99a0195"
+        },
+        {
+          "sha": "a3a2bab",
+          "message": "Revert \"drop support for V gsi on pixel 5 R base kernel\"",
+          "author": "Peter Cai",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/a3a2bab"
+        },
+        {
+          "sha": "4f50a9e",
+          "message": "Allow failing to load bpf programs, for BPF-less devices",
+          "author": "Pierre-Hugues Husson",
+          "date": "Sun Aug 9 13:48:14 2026 +0300",
+          "timestamp": 1786272494,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/4f50a9e"
+        },
+        {
+          "sha": "83dca4f",
+          "message": "NetBpfLoad: Relax 5.10 kernel requirement",
+          "author": "Michael Bestas",
+          "date": "Wed Jul 29 15:23:50 2026 +0300",
+          "timestamp": 1785327830,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/83dca4f"
+        },
+        {
+          "sha": "3ebc2ad",
+          "message": "bpf: Allow overriding kernel version",
+          "author": "Michael Bestas",
+          "date": "Wed Jul 29 15:23:50 2026 +0300",
+          "timestamp": 1785327830,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/3ebc2ad"
+        },
+        {
+          "sha": "ffcf2e3",
+          "message": "netbpfload: Relax kernel version requirement",
+          "author": "Nanhumly",
+          "date": "Wed Jul 29 15:22:37 2026 +0300",
+          "timestamp": 1785327757,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ffcf2e3"
+        },
+        {
+          "sha": "23bd964",
+          "message": "netd: Remove <4.14 kernel restrictions",
+          "author": "Michael Bestas",
+          "date": "Wed Jul 29 15:22:34 2026 +0300",
+          "timestamp": 1785327754,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/23bd964"
+        },
+        {
+          "sha": "aeb9b18",
+          "message": "netbpfload: Support <4.14 kernels",
+          "author": "Michael Bestas",
+          "date": "Wed Jul 29 15:20:59 2026 +0300",
+          "timestamp": 1785327659,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/aeb9b18"
+        },
+        {
+          "sha": "996283a",
+          "message": "Connectivity: Add capability to allow tethering to use VPN upstreams",
+          "author": "Oliver Scott",
+          "date": "Wed Jul 29 15:20:59 2026 +0300",
+          "timestamp": 1785327659,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/996283a"
+        },
+        {
+          "sha": "279f98d",
+          "message": "stripped import @ 347fbd34b3",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 15:20:50 2026 +0300",
+          "timestamp": 1785327650,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/279f98d"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_DeskClock",
       "path": "packages/apps/DeskClock",
       "repo_url": "https://github.com/yaap/packages_apps_DeskClock",
@@ -1818,135 +1971,6 @@
           "date": "Wed Jul 15 09:55:37 2026 +0000",
           "timestamp": 1784109337,
           "url": "https://github.com/yaap/packages_apps_DeskClock/commit/86b8c63"
-        }
-      ]
-    },
-    {
-      "name": "packages_modules_Connectivity",
-      "path": "packages/modules/Connectivity",
-      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
-      "remote": "yaap",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "76d21b7",
-          "message": "disable CLOSE_QUIC_CONNECTION power optimization that bypasses VPN",
-          "author": "Dmitry Muhomor",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/76d21b7"
-        },
-        {
-          "sha": "96ddd56",
-          "message": "Bring back traffic indicators for legacy devices",
-          "author": "koron393",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/96ddd56"
-        },
-        {
-          "sha": "cd23e23",
-          "message": "Fix: Prevent NullPointerException in BpfNetMaps during UID removal",
-          "author": "Doze-off",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/cd23e23"
-        },
-        {
-          "sha": "2e72c4a",
-          "message": "Some additional handling of bpf-less device",
-          "author": "Pierre-Hugues Husson",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/2e72c4a"
-        },
-        {
-          "sha": "b93d448",
-          "message": "Additional bpf prevent-crash",
-          "author": "Pierre-Hugues Husson",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/b93d448"
-        },
-        {
-          "sha": "99a0195",
-          "message": "Revert \"netdupdatable: add back abort() on init() fail\"",
-          "author": "Alberto Ponces",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/99a0195"
-        },
-        {
-          "sha": "a3a2bab",
-          "message": "Revert \"drop support for V gsi on pixel 5 R base kernel\"",
-          "author": "Peter Cai",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/a3a2bab"
-        },
-        {
-          "sha": "4f50a9e",
-          "message": "Allow failing to load bpf programs, for BPF-less devices",
-          "author": "Pierre-Hugues Husson",
-          "date": "Sun Aug 9 13:48:14 2026 +0300",
-          "timestamp": 1786272494,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/4f50a9e"
-        },
-        {
-          "sha": "83dca4f",
-          "message": "NetBpfLoad: Relax 5.10 kernel requirement",
-          "author": "Michael Bestas",
-          "date": "Wed Jul 29 15:23:50 2026 +0300",
-          "timestamp": 1785327830,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/83dca4f"
-        },
-        {
-          "sha": "3ebc2ad",
-          "message": "bpf: Allow overriding kernel version",
-          "author": "Michael Bestas",
-          "date": "Wed Jul 29 15:23:50 2026 +0300",
-          "timestamp": 1785327830,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/3ebc2ad"
-        },
-        {
-          "sha": "ffcf2e3",
-          "message": "netbpfload: Relax kernel version requirement",
-          "author": "Nanhumly",
-          "date": "Wed Jul 29 15:22:37 2026 +0300",
-          "timestamp": 1785327757,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ffcf2e3"
-        },
-        {
-          "sha": "23bd964",
-          "message": "netd: Remove <4.14 kernel restrictions",
-          "author": "Michael Bestas",
-          "date": "Wed Jul 29 15:22:34 2026 +0300",
-          "timestamp": 1785327754,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/23bd964"
-        },
-        {
-          "sha": "aeb9b18",
-          "message": "netbpfload: Support <4.14 kernels",
-          "author": "Michael Bestas",
-          "date": "Wed Jul 29 15:20:59 2026 +0300",
-          "timestamp": 1785327659,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/aeb9b18"
-        },
-        {
-          "sha": "996283a",
-          "message": "Connectivity: Add capability to allow tethering to use VPN upstreams",
-          "author": "Oliver Scott",
-          "date": "Wed Jul 29 15:20:59 2026 +0300",
-          "timestamp": 1785327659,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/996283a"
-        },
-        {
-          "sha": "279f98d",
-          "message": "stripped import @ 347fbd34b3",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:20:50 2026 +0300",
-          "timestamp": 1785327650,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/279f98d"
         }
       ]
     },
@@ -3567,27 +3591,27 @@
       ]
     },
     {
-      "name": "art",
-      "path": "art",
-      "repo_url": "https://github.com/yaap/art",
+      "name": "device_qcom_sepolicy_vndr_legacy-um",
+      "path": "device/qcom/sepolicy_vndr/legacy-um",
+      "repo_url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um",
       "remote": "yaap",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "d864d416",
-          "message": "Make the runtime-generated app image read-only",
-          "author": "Nicolas Geoffray",
-          "date": "Thu Sep 10 12:36:19 2026 -0400",
-          "timestamp": 1789058179,
-          "url": "https://github.com/yaap/art/commit/d864d416"
+          "sha": "2fc1540",
+          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
+          "author": "Michael Bestas",
+          "date": "Sun Aug 30 23:01:47 2026 +0800",
+          "timestamp": 1788102107,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/2fc1540"
         },
         {
-          "sha": "b9561a9d",
-          "message": "Revert \"Use stp/ldp while calling native functions in arm64\"",
-          "author": "John Galt",
-          "date": "Fri Aug 7 12:25:38 2026 -0400",
-          "timestamp": 1786119938,
-          "url": "https://github.com/yaap/art/commit/b9561a9d"
+          "sha": "67d341c",
+          "message": "sepolicy_vndr: Add SePolicy rules for new wfd AIDL service",
+          "author": "Amit Agrawal",
+          "date": "Sun Aug 30 23:01:37 2026 +0800",
+          "timestamp": 1788102097,
+          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/67d341c"
         }
       ]
     },
@@ -3617,52 +3641,27 @@
       ]
     },
     {
-      "name": "device_qcom_sepolicy_vndr_legacy-um",
-      "path": "device/qcom/sepolicy_vndr/legacy-um",
-      "repo_url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um",
+      "name": "art",
+      "path": "art",
+      "repo_url": "https://github.com/yaap/art",
       "remote": "yaap",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "2fc1540",
-          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
-          "author": "Michael Bestas",
-          "date": "Sun Aug 30 23:01:47 2026 +0800",
-          "timestamp": 1788102107,
-          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/2fc1540"
+          "sha": "d864d416",
+          "message": "Make the runtime-generated app image read-only",
+          "author": "Nicolas Geoffray",
+          "date": "Thu Sep 10 12:36:19 2026 -0400",
+          "timestamp": 1789058179,
+          "url": "https://github.com/yaap/art/commit/d864d416"
         },
         {
-          "sha": "67d341c",
-          "message": "sepolicy_vndr: Add SePolicy rules for new wfd AIDL service",
-          "author": "Amit Agrawal",
-          "date": "Sun Aug 30 23:01:37 2026 +0800",
-          "timestamp": 1788102097,
-          "url": "https://github.com/yaap/device_qcom_sepolicy_vndr_legacy-um/commit/67d341c"
-        }
-      ]
-    },
-    {
-      "name": "external_exfatprogs",
-      "path": "external/exfatprogs",
-      "repo_url": "https://github.com/yaap/external_exfatprogs",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "e900598",
-          "message": "ANDROID: Fix fsck overflows when handling bad clu_count or vol_length fields.",
-          "author": "David Anderson",
-          "date": "Thu Sep 10 12:37:07 2026 -0400",
-          "timestamp": 1789058227,
-          "url": "https://github.com/yaap/external_exfatprogs/commit/e900598"
-        },
-        {
-          "sha": "cdf127c",
-          "message": "ANDROID: Add support for building exfat tests.",
-          "author": "David Anderson",
-          "date": "Thu Sep 10 12:37:01 2026 -0400",
-          "timestamp": 1789058221,
-          "url": "https://github.com/yaap/external_exfatprogs/commit/cdf127c"
+          "sha": "b9561a9d",
+          "message": "Revert \"Use stp/ldp while calling native functions in arm64\"",
+          "author": "John Galt",
+          "date": "Fri Aug 7 12:25:38 2026 -0400",
+          "timestamp": 1786119938,
+          "url": "https://github.com/yaap/art/commit/b9561a9d"
         }
       ]
     },
@@ -3688,6 +3687,31 @@
           "date": "Thu Sep 10 12:28:29 2026 -0400",
           "timestamp": 1789057709,
           "url": "https://github.com/yaap/external_freetype/commit/ee19d8a"
+        }
+      ]
+    },
+    {
+      "name": "external_exfatprogs",
+      "path": "external/exfatprogs",
+      "repo_url": "https://github.com/yaap/external_exfatprogs",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "e900598",
+          "message": "ANDROID: Fix fsck overflows when handling bad clu_count or vol_length fields.",
+          "author": "David Anderson",
+          "date": "Thu Sep 10 12:37:07 2026 -0400",
+          "timestamp": 1789058227,
+          "url": "https://github.com/yaap/external_exfatprogs/commit/e900598"
+        },
+        {
+          "sha": "cdf127c",
+          "message": "ANDROID: Add support for building exfat tests.",
+          "author": "David Anderson",
+          "date": "Thu Sep 10 12:37:01 2026 -0400",
+          "timestamp": 1789058221,
+          "url": "https://github.com/yaap/external_exfatprogs/commit/cdf127c"
         }
       ]
     },
@@ -3967,31 +3991,6 @@
       ]
     },
     {
-      "name": "vendor_lindroid",
-      "path": "vendor/lindroid",
-      "repo_url": "https://github.com/yaap/vendor_lindroid",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "748e599",
-          "message": "app/Composer: use ASurfaces and fences",
-          "author": "John Galt",
-          "date": "Thu Jul 2 11:36:52 2026 -0400",
-          "timestamp": 1783006612,
-          "url": "https://github.com/yaap/vendor_lindroid/commit/748e599"
-        },
-        {
-          "sha": "b0a8d2a",
-          "message": "app/AudioSocketServer: silence Audio data written logging",
-          "author": "John Galt",
-          "date": "Tue Jun 30 09:39:46 2026 -0400",
-          "timestamp": 1782826786,
-          "url": "https://github.com/yaap/vendor_lindroid/commit/b0a8d2a"
-        }
-      ]
-    },
-    {
       "name": "vendor_themes",
       "path": "vendor/themes",
       "repo_url": "https://github.com/yaap/vendor_themes",
@@ -4102,19 +4101,19 @@
       ]
     },
     {
-      "name": "external_libpng",
-      "path": "external/libpng",
-      "repo_url": "https://github.com/yaap/external_libpng",
+      "name": "external_libhevc",
+      "path": "external/libhevc",
+      "repo_url": "https://github.com/yaap/external_libhevc",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "be98174",
-          "message": "fix(arm): Resolve out-of-bounds read/write in NEON palette expansion",
-          "author": "Cosmin Truta",
-          "date": "Thu Sep 10 12:29:30 2026 -0400",
-          "timestamp": 1789057770,
-          "url": "https://github.com/yaap/external_libpng/commit/be98174"
+          "sha": "c476428",
+          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
+          "author": "Vivek R Jadhav",
+          "date": "Thu Sep 10 12:39:02 2026 -0400",
+          "timestamp": 1789058342,
+          "url": "https://github.com/yaap/external_libhevc/commit/c476428"
         }
       ]
     },
@@ -4136,19 +4135,19 @@
       ]
     },
     {
-      "name": "external_libhevc",
-      "path": "external/libhevc",
-      "repo_url": "https://github.com/yaap/external_libhevc",
+      "name": "external_libpng",
+      "path": "external/libpng",
+      "repo_url": "https://github.com/yaap/external_libpng",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "c476428",
-          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
-          "author": "Vivek R Jadhav",
-          "date": "Thu Sep 10 12:39:02 2026 -0400",
-          "timestamp": 1789058342,
-          "url": "https://github.com/yaap/external_libhevc/commit/c476428"
+          "sha": "be98174",
+          "message": "fix(arm): Resolve out-of-bounds read/write in NEON palette expansion",
+          "author": "Cosmin Truta",
+          "date": "Thu Sep 10 12:29:30 2026 -0400",
+          "timestamp": 1789057770,
+          "url": "https://github.com/yaap/external_libpng/commit/be98174"
         }
       ]
     },
@@ -4255,23 +4254,6 @@
       ]
     },
     {
-      "name": "packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "380a2701",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Aug 9 17:57:07 2026 +0300",
-          "timestamp": 1786287427,
-          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/380a2701"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_KProfiles",
       "path": "packages/apps/KProfiles",
       "repo_url": "https://github.com/yaap/packages_apps_KProfiles",
@@ -4285,6 +4267,23 @@
           "date": "Fri Aug 21 16:38:07 2026 +0300",
           "timestamp": 1787319487,
           "url": "https://github.com/yaap/packages_apps_KProfiles/commit/8b740e0"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "380a2701",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Aug 9 17:57:07 2026 +0300",
+          "timestamp": 1786287427,
+          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/380a2701"
         }
       ]
     },
@@ -4510,6 +4509,23 @@
       ]
     },
     {
+      "name": "system_apex",
+      "path": "system/apex",
+      "repo_url": "https://github.com/yaap/system_apex",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3d9b630",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 15:56:00 2026 +0300",
+          "timestamp": 1785329760,
+          "url": "https://github.com/yaap/system_apex/commit/3d9b630"
+        }
+      ]
+    },
+    {
       "name": "system_bpf",
       "path": "system/bpf",
       "repo_url": "https://github.com/yaap/system_bpf",
@@ -4540,23 +4556,6 @@
           "date": "Wed Jul 29 17:06:01 2026 +0300",
           "timestamp": 1785333961,
           "url": "https://github.com/yaap/system_extras/commit/d32df6b"
-        }
-      ]
-    },
-    {
-      "name": "system_apex",
-      "path": "system/apex",
-      "repo_url": "https://github.com/yaap/system_apex",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3d9b630",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:56:00 2026 +0300",
-          "timestamp": 1785329760,
-          "url": "https://github.com/yaap/system_apex/commit/3d9b630"
         }
       ]
     },
@@ -4612,23 +4611,6 @@
       ]
     },
     {
-      "name": "system_netd",
-      "path": "system/netd",
-      "repo_url": "https://github.com/yaap/system_netd",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "6db396c",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 17:07:26 2026 +0300",
-          "timestamp": 1785334046,
-          "url": "https://github.com/yaap/system_netd/commit/6db396c"
-        }
-      ]
-    },
-    {
       "name": "system_memory_libmeminfo",
       "path": "system/memory/libmeminfo",
       "repo_url": "https://github.com/yaap/system_memory_libmeminfo",
@@ -4663,6 +4645,23 @@
       ]
     },
     {
+      "name": "system_netd",
+      "path": "system/netd",
+      "repo_url": "https://github.com/yaap/system_netd",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6db396c",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 17:07:26 2026 +0300",
+          "timestamp": 1785334046,
+          "url": "https://github.com/yaap/system_netd/commit/6db396c"
+        }
+      ]
+    },
+    {
       "name": "system_vold",
       "path": "system/vold",
       "repo_url": "https://github.com/yaap/system_vold",
@@ -4680,19 +4679,19 @@
       ]
     },
     {
-      "name": "tools_apksig",
-      "path": "tools/apksig",
-      "repo_url": "https://github.com/yaap/tools_apksig",
+      "name": "vendor_lindroid",
+      "path": "vendor/lindroid",
+      "repo_url": "https://github.com/yaap/vendor_lindroid",
       "remote": "yaap",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "ab2516e",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 17:50:39 2026 +0300",
-          "timestamp": 1785336639,
-          "url": "https://github.com/yaap/tools_apksig/commit/ab2516e"
+          "sha": "748e599",
+          "message": "app/Composer: use ASurfaces and fences",
+          "author": "John Galt",
+          "date": "Thu Jul 2 11:36:52 2026 -0400",
+          "timestamp": 1783006612,
+          "url": "https://github.com/yaap/vendor_lindroid/commit/748e599"
         }
       ]
     },
@@ -4710,6 +4709,23 @@
           "date": "Tue Jul 21 11:40:39 2026 -0400",
           "timestamp": 1784648439,
           "url": "https://github.com/yaap/vendor_microg/commit/29c3c32"
+        }
+      ]
+    },
+    {
+      "name": "tools_apksig",
+      "path": "tools/apksig",
+      "repo_url": "https://github.com/yaap/tools_apksig",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "ab2516e",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 17:50:39 2026 +0300",
+          "timestamp": 1785336639,
+          "url": "https://github.com/yaap/tools_apksig/commit/ab2516e"
         }
       ]
     },
