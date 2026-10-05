@@ -1,10 +1,10 @@
 {
   "rom_id": "crdroid",
   "branch": "16.0",
-  "generated_at": "2026-10-04T04:15:59.450159+00:00",
-  "since_date": "2026-07-06",
-  "total_projects": 146,
-  "total_commits": 1392,
+  "generated_at": "2026-10-05T03:59:04.894670+00:00",
+  "since_date": "2026-07-07",
+  "total_projects": 147,
+  "total_commits": 1393,
   "projects": [
     {
       "name": "crdroidandroid/android_frameworks_base",
@@ -3984,8 +3984,16 @@
       "path": "frameworks/av",
       "repo_url": "https://github.com/crdroidandroid/android_frameworks_av",
       "remote": "crdroid",
-      "commit_count": 76,
+      "commit_count": 77,
       "commits": [
+        {
+          "sha": "0c8eb77",
+          "message": "codec2: restore legacy sync fence ABI",
+          "author": "Pbzin",
+          "date": "Mon Oct 5 00:10:44 2026 +0530",
+          "timestamp": 1791139244,
+          "url": "https://github.com/crdroidandroid/android_frameworks_av/commit/0c8eb77"
+        },
         {
           "sha": "432c191",
           "message": "audiopolicy: Do not wipe device's known codec during bluetooth disconnection",
@@ -5098,8 +5106,16 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 46,
+      "commit_count": 47,
       "commits": [
+        {
+          "sha": "fe506e2",
+          "message": "Updated lineage-minimal to 04-Oct-2026 12:02 UTC",
+          "author": "LineageOS Infra",
+          "date": "Sun Oct 4 12:02:37 2026 +0000",
+          "timestamp": 1791115357,
+          "url": "https://github.com/LineageOS/mirror/commit/fe506e2"
+        },
         {
           "sha": "d1bd129",
           "message": "Updated to 30-Sep-2026 18:01 UTC",
@@ -6981,191 +6997,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_exfatprogs",
-      "path": "external/exfatprogs",
-      "repo_url": "https://github.com/LineageOS/android_external_exfatprogs",
-      "remote": "github",
-      "commit_count": 22,
-      "commits": [
-        {
-          "sha": "2914cbb",
-          "message": "ANDROID: Fix fsck overflows when handling bad clu_count or vol_length fields.",
-          "author": "David Anderson",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/2914cbb"
-        },
-        {
-          "sha": "b50ad00",
-          "message": "ANDROID: Add support for building exfat tests.",
-          "author": "David Anderson",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/b50ad00"
-        },
-        {
-          "sha": "de8ba66",
-          "message": "Merge tag '1.4.3' of https://github.com/exfatprogs/exfatprogs into lineage-23.2",
-          "author": "LuK1337",
-          "date": "Fri Aug 14 13:09:14 2026 +0200",
-          "timestamp": 1786705754,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/de8ba66"
-        },
-        {
-          "sha": "a37d327",
-          "message": "exfatprogs: release 1.4.3 version",
-          "author": "Hyunchul Lee",
-          "date": "Fri Aug 14 11:37:18 2026 +0900",
-          "timestamp": 1786675038,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/a37d327"
-        },
-        {
-          "sha": "4f92594",
-          "message": "libexfat: avoid overflow in file size calculation",
-          "author": "Faron Xu",
-          "date": "Fri Aug 14 11:24:56 2026 +0900",
-          "timestamp": 1786674296,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/4f92594"
-        },
-        {
-          "sha": "ef090d4",
-          "message": "fsck: optimize unused dentry scan",
-          "author": "David Timber",
-          "date": "Fri Aug 7 17:24:44 2026 +0900",
-          "timestamp": 1786091084,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/ef090d4"
-        },
-        {
-          "sha": "ac8a948",
-          "message": "fsck: scan unused dentries in larger reads",
-          "author": "Namjae Jeon",
-          "date": "Fri Aug 7 13:35:10 2026 +0900",
-          "timestamp": 1786077310,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/ac8a948"
-        },
-        {
-          "sha": "3d76346",
-          "message": "libexfat: avoid overflow in bitmap size calculation",
-          "author": "Yang Wen",
-          "date": "Tue Jul 28 15:56:52 2026 +0900",
-          "timestamp": 1785221812,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/3d76346"
-        },
-        {
-          "sha": "1350694",
-          "message": "README: direct feedback to the exfat mailing list",
-          "author": "Namjae Jeon",
-          "date": "Thu Jul 23 14:38:07 2026 +0900",
-          "timestamp": 1784785087,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/1350694"
-        },
-        {
-          "sha": "9d67b85",
-          "message": "libexfat: fix invalid bitwise aligning in exfat_de_iter_revert()",
-          "author": "David Timber",
-          "date": "Thu Jul 23 14:26:31 2026 +0900",
-          "timestamp": 1784784391,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/9d67b85"
-        },
-        {
-          "sha": "8da3ba1",
-          "message": "libexfat: increase bitmap_t to wordsize",
-          "author": "David Timber",
-          "date": "Thu Jul 23 14:26:27 2026 +0900",
-          "timestamp": 1784784387,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/8da3ba1"
-        },
-        {
-          "sha": "fd387a6",
-          "message": "lib: add internal library tests",
-          "author": "David Timber",
-          "date": "Thu Jul 23 14:26:24 2026 +0900",
-          "timestamp": 1784784384,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/fd387a6"
-        },
-        {
-          "sha": "c081318",
-          "message": "libexfat: fix logic error in exfat_count_used_clusters()",
-          "author": "David Timber",
-          "date": "Thu Jul 23 14:26:21 2026 +0900",
-          "timestamp": 1784784381,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/c081318"
-        },
-        {
-          "sha": "3a6ceba",
-          "message": "Merge tag '1.4.2' of https://github.com/exfatprogs/exfatprogs into lineage-23.2",
-          "author": "Michael Bestas",
-          "date": "Mon Jul 13 01:28:04 2026 +0300",
-          "timestamp": 1783895284,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/3a6ceba"
-        },
-        {
-          "sha": "3e484df",
-          "message": "mkfs: fix GUID generation",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/3e484df"
-        },
-        {
-          "sha": "170b4e1",
-          "message": "mkfs: tell kernel to scan for partitions",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/170b4e1"
-        },
-        {
-          "sha": "dd49cdc",
-          "message": "mkfs: fix final fsync and success/failure reports",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/dd49cdc"
-        },
-        {
-          "sha": "dcd442f",
-          "message": "fsck: fix crash due to invalid sector size",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/dcd442f"
-        },
-        {
-          "sha": "c1571ea",
-          "message": "libexfat: fix endianness of GUID representation",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/c1571ea"
-        },
-        {
-          "sha": "017dc90",
-          "message": "libexfat: ignore trailing garbage in exfat_count_used_clusters()",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/017dc90"
-        },
-        {
-          "sha": "86324e4",
-          "message": "libexfat.h: rearrange members of struct exfat_user_input",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/86324e4"
-        },
-        {
-          "sha": "fb38410",
-          "message": "treewide: use setlocale(LC_ALL, \"\")",
-          "author": "David Timber",
-          "date": "Tue Jul 7 09:26:52 2026 +0900",
-          "timestamp": 1783384012,
-          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/fb38410"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Catapult",
       "path": "packages/apps/Catapult",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Catapult",
@@ -7931,6 +7762,127 @@
       ]
     },
     {
+      "name": "LineageOS/android_external_exfatprogs",
+      "path": "external/exfatprogs",
+      "repo_url": "https://github.com/LineageOS/android_external_exfatprogs",
+      "remote": "github",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "2914cbb",
+          "message": "ANDROID: Fix fsck overflows when handling bad clu_count or vol_length fields.",
+          "author": "David Anderson",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/2914cbb"
+        },
+        {
+          "sha": "b50ad00",
+          "message": "ANDROID: Add support for building exfat tests.",
+          "author": "David Anderson",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/b50ad00"
+        },
+        {
+          "sha": "de8ba66",
+          "message": "Merge tag '1.4.3' of https://github.com/exfatprogs/exfatprogs into lineage-23.2",
+          "author": "LuK1337",
+          "date": "Fri Aug 14 13:09:14 2026 +0200",
+          "timestamp": 1786705754,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/de8ba66"
+        },
+        {
+          "sha": "a37d327",
+          "message": "exfatprogs: release 1.4.3 version",
+          "author": "Hyunchul Lee",
+          "date": "Fri Aug 14 11:37:18 2026 +0900",
+          "timestamp": 1786675038,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/a37d327"
+        },
+        {
+          "sha": "4f92594",
+          "message": "libexfat: avoid overflow in file size calculation",
+          "author": "Faron Xu",
+          "date": "Fri Aug 14 11:24:56 2026 +0900",
+          "timestamp": 1786674296,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/4f92594"
+        },
+        {
+          "sha": "ef090d4",
+          "message": "fsck: optimize unused dentry scan",
+          "author": "David Timber",
+          "date": "Fri Aug 7 17:24:44 2026 +0900",
+          "timestamp": 1786091084,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/ef090d4"
+        },
+        {
+          "sha": "ac8a948",
+          "message": "fsck: scan unused dentries in larger reads",
+          "author": "Namjae Jeon",
+          "date": "Fri Aug 7 13:35:10 2026 +0900",
+          "timestamp": 1786077310,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/ac8a948"
+        },
+        {
+          "sha": "3d76346",
+          "message": "libexfat: avoid overflow in bitmap size calculation",
+          "author": "Yang Wen",
+          "date": "Tue Jul 28 15:56:52 2026 +0900",
+          "timestamp": 1785221812,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/3d76346"
+        },
+        {
+          "sha": "1350694",
+          "message": "README: direct feedback to the exfat mailing list",
+          "author": "Namjae Jeon",
+          "date": "Thu Jul 23 14:38:07 2026 +0900",
+          "timestamp": 1784785087,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/1350694"
+        },
+        {
+          "sha": "9d67b85",
+          "message": "libexfat: fix invalid bitwise aligning in exfat_de_iter_revert()",
+          "author": "David Timber",
+          "date": "Thu Jul 23 14:26:31 2026 +0900",
+          "timestamp": 1784784391,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/9d67b85"
+        },
+        {
+          "sha": "8da3ba1",
+          "message": "libexfat: increase bitmap_t to wordsize",
+          "author": "David Timber",
+          "date": "Thu Jul 23 14:26:27 2026 +0900",
+          "timestamp": 1784784387,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/8da3ba1"
+        },
+        {
+          "sha": "fd387a6",
+          "message": "lib: add internal library tests",
+          "author": "David Timber",
+          "date": "Thu Jul 23 14:26:24 2026 +0900",
+          "timestamp": 1784784384,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/fd387a6"
+        },
+        {
+          "sha": "c081318",
+          "message": "libexfat: fix logic error in exfat_count_used_clusters()",
+          "author": "David Timber",
+          "date": "Thu Jul 23 14:26:21 2026 +0900",
+          "timestamp": 1784784381,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/c081318"
+        },
+        {
+          "sha": "3a6ceba",
+          "message": "Merge tag '1.4.2' of https://github.com/exfatprogs/exfatprogs into lineage-23.2",
+          "author": "Michael Bestas",
+          "date": "Mon Jul 13 01:28:04 2026 +0300",
+          "timestamp": 1783895284,
+          "url": "https://github.com/LineageOS/android_external_exfatprogs/commit/3a6ceba"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_DeskClock",
       "path": "packages/apps/DeskClock",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
@@ -8173,6 +8125,127 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_packages_apps_crDroidSettings",
+      "path": "packages/apps/crDroidSettings",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings",
+      "remote": "crdroid",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "96aaf61",
+          "message": "Merge pull request #1340 from pbzin/fix-monet-wallpaper-preview",
+          "author": "Pranav Vashi",
+          "date": "Mon Oct 5 00:12:13 2026 +0530",
+          "timestamp": 1791139333,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/96aaf61"
+        },
+        {
+          "sha": "ff0c6cc",
+          "message": "New Crowdin updates (#1338)",
+          "author": "Lup Gabriel",
+          "date": "Sat Oct 3 19:04:02 2026 +0300",
+          "timestamp": 1791043442,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/ff0c6cc"
+        },
+        {
+          "sha": "e43ad3d",
+          "message": "crdroid: Add option to set volume slider below brightness slider",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 21 00:42:34 2026 +0530",
+          "timestamp": 1789931554,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/e43ad3d"
+        },
+        {
+          "sha": "4936967",
+          "message": "crdroid: Redesign color picker dialog",
+          "author": "Pranav Vashi",
+          "date": "Sun Sep 20 11:31:13 2026 +0530",
+          "timestamp": 1789884073,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/4936967"
+        },
+        {
+          "sha": "1e6d56d",
+          "message": "crdroid: Update doze strings",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 7 01:25:57 2026 +0530",
+          "timestamp": 1788724557,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/1e6d56d"
+        },
+        {
+          "sha": "e5a1aa0",
+          "message": "crDroidSettings: Distinguish wallpaper sources in pt-BR",
+          "author": "pbzin",
+          "date": "Fri Aug 28 22:01:02 2026 -0300",
+          "timestamp": 1787965262,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/e5a1aa0"
+        },
+        {
+          "sha": "79f1164",
+          "message": "crDroidSettings: Show active Monet wallpaper color",
+          "author": "pbzin",
+          "date": "Fri Aug 28 22:01:02 2026 -0300",
+          "timestamp": 1787965262,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/79f1164"
+        },
+        {
+          "sha": "52844b3",
+          "message": "New Crowdin updates (#1337)",
+          "author": "Lup Gabriel",
+          "date": "Sat Aug 15 18:54:44 2026 +0300",
+          "timestamp": 1786809284,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/52844b3"
+        },
+        {
+          "sha": "07664c8",
+          "message": "Revert \"crdroid: Add screen-on memory reclaim toggle\"",
+          "author": "Pranav Vashi",
+          "date": "Sat Aug 8 17:39:16 2026 +0530",
+          "timestamp": 1786190956,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/07664c8"
+        },
+        {
+          "sha": "a966a5a",
+          "message": "New Crowdin updates (#1334)",
+          "author": "Lup Gabriel",
+          "date": "Fri Aug 7 13:09:28 2026 +0300",
+          "timestamp": 1786097368,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/a966a5a"
+        },
+        {
+          "sha": "49d52fa",
+          "message": "New Crowdin updates (#1332)",
+          "author": "Lup Gabriel",
+          "date": "Wed Jul 29 19:53:09 2026 +0300",
+          "timestamp": 1785343989,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/49d52fa"
+        },
+        {
+          "sha": "7fa6f53",
+          "message": "New Crowdin updates (#1329)",
+          "author": "Lup Gabriel",
+          "date": "Tue Jul 14 19:05:03 2026 +0300",
+          "timestamp": 1784045103,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/7fa6f53"
+        },
+        {
+          "sha": "9b9cacc",
+          "message": "crdroid: Add customization for bold clock and period separator",
+          "author": "Pranav Vashi",
+          "date": "Sat Jul 11 10:43:18 2026 +0530",
+          "timestamp": 1783746798,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/9b9cacc"
+        },
+        {
+          "sha": "7137fbc",
+          "message": "Merge pull request #1330 from cobrafast/feature/screen-on-reclaim-toggle",
+          "author": "Pranav Vashi",
+          "date": "Fri Jul 10 23:44:58 2026 +0530",
+          "timestamp": 1783707298,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/7137fbc"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/scripts",
       "path": "lineage/scripts",
       "repo_url": "https://github.com/LineageOS/scripts",
@@ -8391,6 +8464,111 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_packages_resources_apps",
+      "path": "packages/resources/apps",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_resources_apps",
+      "remote": "crdroid",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "08e798a",
+          "message": "resources: Add strings for OmniJaws",
+          "author": "Pranav Vashi",
+          "date": "Mon Oct 5 00:16:28 2026 +0530",
+          "timestamp": 1791139588,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/08e798a"
+        },
+        {
+          "sha": "e0b1934",
+          "message": "New Crowdin updates (#8)",
+          "author": "Lup Gabriel",
+          "date": "Sun Oct 4 21:34:10 2026 +0300",
+          "timestamp": 1791138850,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/e0b1934"
+        },
+        {
+          "sha": "2712438",
+          "message": "resources: Update strings for OmniJaws location",
+          "author": "Pranav Vashi",
+          "date": "Sun Oct 4 08:03:11 2026 +0530",
+          "timestamp": 1791081191,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/2712438"
+        },
+        {
+          "sha": "07f2cce",
+          "message": "resources: Add string for OmniJaws custom location handling",
+          "author": "Pranav Vashi",
+          "date": "Sat Oct 3 22:56:06 2026 +0530",
+          "timestamp": 1791048366,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/07f2cce"
+        },
+        {
+          "sha": "cc08c97",
+          "message": "resources: Update strings for OmniJaws",
+          "author": "Pranav Vashi",
+          "date": "Sat Oct 3 21:45:16 2026 +0530",
+          "timestamp": 1791044116,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/cc08c97"
+        },
+        {
+          "sha": "c733376",
+          "message": "New Crowdin updates (#7)",
+          "author": "Lup Gabriel",
+          "date": "Sat Oct 3 19:03:35 2026 +0300",
+          "timestamp": 1791043415,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/c733376"
+        },
+        {
+          "sha": "eb5bf8b",
+          "message": "resources: Drop unused hardcoded string",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 17 23:56:18 2026 +0530",
+          "timestamp": 1789669578,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/eb5bf8b"
+        },
+        {
+          "sha": "4de2955",
+          "message": "resources: Add new strings for OmniJaws",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 17 22:58:41 2026 +0530",
+          "timestamp": 1789666121,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/4de2955"
+        },
+        {
+          "sha": "946a384",
+          "message": "New translations (#6)",
+          "author": "Lup Gabriel",
+          "date": "Sat Aug 15 18:54:33 2026 +0300",
+          "timestamp": 1786809273,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/946a384"
+        },
+        {
+          "sha": "5fd1ea8",
+          "message": "New translations (#5)",
+          "author": "Lup Gabriel",
+          "date": "Fri Aug 7 13:10:42 2026 +0300",
+          "timestamp": 1786097442,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/5fd1ea8"
+        },
+        {
+          "sha": "c1a548a",
+          "message": "New Crowdin updates (#4)",
+          "author": "Lup Gabriel",
+          "date": "Wed Jul 29 19:52:57 2026 +0300",
+          "timestamp": 1785343977,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/c1a548a"
+        },
+        {
+          "sha": "58339c7",
+          "message": "New Crowdin updates (#3)",
+          "author": "Lup Gabriel",
+          "date": "Tue Jul 14 19:04:14 2026 +0300",
+          "timestamp": 1784045054,
+          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/58339c7"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Aperture",
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
@@ -8585,103 +8763,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_packages_apps_crDroidSettings",
-      "path": "packages/apps/crDroidSettings",
-      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings",
-      "remote": "crdroid",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "ff0c6cc",
-          "message": "New Crowdin updates (#1338)",
-          "author": "Lup Gabriel",
-          "date": "Sat Oct 3 19:04:02 2026 +0300",
-          "timestamp": 1791043442,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/ff0c6cc"
-        },
-        {
-          "sha": "e43ad3d",
-          "message": "crdroid: Add option to set volume slider below brightness slider",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 21 00:42:34 2026 +0530",
-          "timestamp": 1789931554,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/e43ad3d"
-        },
-        {
-          "sha": "4936967",
-          "message": "crdroid: Redesign color picker dialog",
-          "author": "Pranav Vashi",
-          "date": "Sun Sep 20 11:31:13 2026 +0530",
-          "timestamp": 1789884073,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/4936967"
-        },
-        {
-          "sha": "1e6d56d",
-          "message": "crdroid: Update doze strings",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 7 01:25:57 2026 +0530",
-          "timestamp": 1788724557,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/1e6d56d"
-        },
-        {
-          "sha": "52844b3",
-          "message": "New Crowdin updates (#1337)",
-          "author": "Lup Gabriel",
-          "date": "Sat Aug 15 18:54:44 2026 +0300",
-          "timestamp": 1786809284,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/52844b3"
-        },
-        {
-          "sha": "07664c8",
-          "message": "Revert \"crdroid: Add screen-on memory reclaim toggle\"",
-          "author": "Pranav Vashi",
-          "date": "Sat Aug 8 17:39:16 2026 +0530",
-          "timestamp": 1786190956,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/07664c8"
-        },
-        {
-          "sha": "a966a5a",
-          "message": "New Crowdin updates (#1334)",
-          "author": "Lup Gabriel",
-          "date": "Fri Aug 7 13:09:28 2026 +0300",
-          "timestamp": 1786097368,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/a966a5a"
-        },
-        {
-          "sha": "49d52fa",
-          "message": "New Crowdin updates (#1332)",
-          "author": "Lup Gabriel",
-          "date": "Wed Jul 29 19:53:09 2026 +0300",
-          "timestamp": 1785343989,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/49d52fa"
-        },
-        {
-          "sha": "7fa6f53",
-          "message": "New Crowdin updates (#1329)",
-          "author": "Lup Gabriel",
-          "date": "Tue Jul 14 19:05:03 2026 +0300",
-          "timestamp": 1784045103,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/7fa6f53"
-        },
-        {
-          "sha": "9b9cacc",
-          "message": "crdroid: Add customization for bold clock and period separator",
-          "author": "Pranav Vashi",
-          "date": "Sat Jul 11 10:43:18 2026 +0530",
-          "timestamp": 1783746798,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/9b9cacc"
-        },
-        {
-          "sha": "7137fbc",
-          "message": "Merge pull request #1330 from cobrafast/feature/screen-on-reclaim-toggle",
-          "author": "Pranav Vashi",
-          "date": "Fri Jul 10 23:44:58 2026 +0530",
-          "timestamp": 1783707298,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_crDroidSettings/commit/7137fbc"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_services_OmniJaws",
       "path": "packages/services/OmniJaws",
       "repo_url": "https://github.com/crdroidandroid/android_packages_services_OmniJaws",
@@ -8864,95 +8945,6 @@
           "date": "Wed Jul 8 00:14:46 2026 +0530",
           "timestamp": 1783449886,
           "url": "https://github.com/crdroidandroid/android_art/commit/29d781f"
-        }
-      ]
-    },
-    {
-      "name": "crdroidandroid/android_packages_resources_apps",
-      "path": "packages/resources/apps",
-      "repo_url": "https://github.com/crdroidandroid/android_packages_resources_apps",
-      "remote": "crdroid",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "2712438",
-          "message": "resources: Update strings for OmniJaws location",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 4 08:03:11 2026 +0530",
-          "timestamp": 1791081191,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/2712438"
-        },
-        {
-          "sha": "07f2cce",
-          "message": "resources: Add string for OmniJaws custom location handling",
-          "author": "Pranav Vashi",
-          "date": "Sat Oct 3 22:56:06 2026 +0530",
-          "timestamp": 1791048366,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/07f2cce"
-        },
-        {
-          "sha": "cc08c97",
-          "message": "resources: Update strings for OmniJaws",
-          "author": "Pranav Vashi",
-          "date": "Sat Oct 3 21:45:16 2026 +0530",
-          "timestamp": 1791044116,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/cc08c97"
-        },
-        {
-          "sha": "c733376",
-          "message": "New Crowdin updates (#7)",
-          "author": "Lup Gabriel",
-          "date": "Sat Oct 3 19:03:35 2026 +0300",
-          "timestamp": 1791043415,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/c733376"
-        },
-        {
-          "sha": "eb5bf8b",
-          "message": "resources: Drop unused hardcoded string",
-          "author": "Pranav Vashi",
-          "date": "Thu Sep 17 23:56:18 2026 +0530",
-          "timestamp": 1789669578,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/eb5bf8b"
-        },
-        {
-          "sha": "4de2955",
-          "message": "resources: Add new strings for OmniJaws",
-          "author": "Pranav Vashi",
-          "date": "Thu Sep 17 22:58:41 2026 +0530",
-          "timestamp": 1789666121,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/4de2955"
-        },
-        {
-          "sha": "946a384",
-          "message": "New translations (#6)",
-          "author": "Lup Gabriel",
-          "date": "Sat Aug 15 18:54:33 2026 +0300",
-          "timestamp": 1786809273,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/946a384"
-        },
-        {
-          "sha": "5fd1ea8",
-          "message": "New translations (#5)",
-          "author": "Lup Gabriel",
-          "date": "Fri Aug 7 13:10:42 2026 +0300",
-          "timestamp": 1786097442,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/5fd1ea8"
-        },
-        {
-          "sha": "c1a548a",
-          "message": "New Crowdin updates (#4)",
-          "author": "Lup Gabriel",
-          "date": "Wed Jul 29 19:52:57 2026 +0300",
-          "timestamp": 1785343977,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/c1a548a"
-        },
-        {
-          "sha": "58339c7",
-          "message": "New Crowdin updates (#3)",
-          "author": "Lup Gabriel",
-          "date": "Tue Jul 14 19:04:14 2026 +0300",
-          "timestamp": 1784045054,
-          "url": "https://github.com/crdroidandroid/android_packages_resources_apps/commit/58339c7"
         }
       ]
     },
@@ -9188,79 +9180,6 @@
           "date": "Sun Jul 12 05:06:45 2026 +0000",
           "timestamp": 1783832805,
           "url": "https://github.com/crdroidandroid/android_device_crdroid_sepolicy/commit/b377dce"
-        }
-      ]
-    },
-    {
-      "name": "crdroidandroid/android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/crdroidandroid/android_build_soong",
-      "remote": "crdroid",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "1df8022d",
-          "message": "Merge pull request #28 from px-bin/16.0",
-          "author": "Pranav Vashi",
-          "date": "Sun Sep 13 18:51:56 2026 +0530",
-          "timestamp": 1789305716,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/1df8022d"
-        },
-        {
-          "sha": "15b80b0c",
-          "message": "check_boot_jars: Add camera packages to the whitelist",
-          "author": "klozz",
-          "date": "Sun Sep 13 09:29:55 2026 -0300",
-          "timestamp": 1789302595,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/15b80b0c"
-        },
-        {
-          "sha": "a56a7048",
-          "message": "check_boot_jars: Add xiaomi packages to the whitelist",
-          "author": "Mashopy",
-          "date": "Sun Sep 13 09:29:55 2026 -0300",
-          "timestamp": 1789302595,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/a56a7048"
-        },
-        {
-          "sha": "39115850",
-          "message": "Merge remote-tracking branch 'lineage-23.2' into 16.0",
-          "author": "ShevT",
-          "date": "Mon Aug 31 09:41:32 2026 +0300",
-          "timestamp": 1788158492,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/39115850"
-        },
-        {
-          "sha": "9aa045a2",
-          "message": "Allow prebuilt_first_stage_ramdisk to be used",
-          "author": "Bruno Martins",
-          "date": "Sun Aug 30 16:21:28 2026 +0000",
-          "timestamp": 1788106888,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/9aa045a2"
-        },
-        {
-          "sha": "0cabbb4b",
-          "message": "soong: Increase ThinLTO cache to 15GB",
-          "author": "Quince",
-          "date": "Mon Jul 6 10:49:05 2026 +0530",
-          "timestamp": 1783315145,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/0cabbb4b"
-        },
-        {
-          "sha": "d5008b1d",
-          "message": "soong: Make sure TLTO cache dir exists",
-          "author": "Ido Ben-Hur",
-          "date": "Mon Jul 6 10:49:05 2026 +0530",
-          "timestamp": 1783315145,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/d5008b1d"
-        },
-        {
-          "sha": "5255f026",
-          "message": "lto: support overriding ThinLTO cache directory",
-          "author": "John Galt",
-          "date": "Mon Jul 6 10:49:05 2026 +0530",
-          "timestamp": 1783315145,
-          "url": "https://github.com/crdroidandroid/android_build_soong/commit/5255f026"
         }
       ]
     },
@@ -10104,6 +10023,55 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/crdroidandroid/android_build_soong",
+      "remote": "crdroid",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "1df8022d",
+          "message": "Merge pull request #28 from px-bin/16.0",
+          "author": "Pranav Vashi",
+          "date": "Sun Sep 13 18:51:56 2026 +0530",
+          "timestamp": 1789305716,
+          "url": "https://github.com/crdroidandroid/android_build_soong/commit/1df8022d"
+        },
+        {
+          "sha": "15b80b0c",
+          "message": "check_boot_jars: Add camera packages to the whitelist",
+          "author": "klozz",
+          "date": "Sun Sep 13 09:29:55 2026 -0300",
+          "timestamp": 1789302595,
+          "url": "https://github.com/crdroidandroid/android_build_soong/commit/15b80b0c"
+        },
+        {
+          "sha": "a56a7048",
+          "message": "check_boot_jars: Add xiaomi packages to the whitelist",
+          "author": "Mashopy",
+          "date": "Sun Sep 13 09:29:55 2026 -0300",
+          "timestamp": 1789302595,
+          "url": "https://github.com/crdroidandroid/android_build_soong/commit/a56a7048"
+        },
+        {
+          "sha": "39115850",
+          "message": "Merge remote-tracking branch 'lineage-23.2' into 16.0",
+          "author": "ShevT",
+          "date": "Mon Aug 31 09:41:32 2026 +0300",
+          "timestamp": 1788158492,
+          "url": "https://github.com/crdroidandroid/android_build_soong/commit/39115850"
+        },
+        {
+          "sha": "9aa045a2",
+          "message": "Allow prebuilt_first_stage_ramdisk to be used",
+          "author": "Bruno Martins",
+          "date": "Sun Aug 30 16:21:28 2026 +0000",
+          "timestamp": 1788106888,
+          "url": "https://github.com/crdroidandroid/android_build_soong/commit/9aa045a2"
+        }
+      ]
+    },
+    {
       "name": "crdroidandroid/android_external_wpa_supplicant_8",
       "path": "external/wpa_supplicant_8",
       "repo_url": "https://github.com/crdroidandroid/android_external_wpa_supplicant_8",
@@ -10374,47 +10342,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "path": "external/chromium-webview/prebuilt/x86_64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "32aceaa",
-          "message": "Update Chromium Webview x86_64 to 154.0.8037.57",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 25 20:36:53 2026 -0600",
-          "timestamp": 1790390213,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/32aceaa"
-        },
-        {
-          "sha": "d676fed",
-          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 10 05:45:38 2026 -0600",
-          "timestamp": 1789040738,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
-        },
-        {
-          "sha": "2767453",
-          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:21 2026 -0600",
-          "timestamp": 1787836461,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
-        },
-        {
-          "sha": "74bc304",
-          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:55:15 2026 -0600",
-          "timestamp": 1785455715,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
       "path": "external/chromium-webview/prebuilt/x86",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
@@ -10452,6 +10379,47 @@
           "date": "Thu Jul 30 17:54:24 2026 -0600",
           "timestamp": 1785455664,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/f57ab0f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "32aceaa",
+          "message": "Update Chromium Webview x86_64 to 154.0.8037.57",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 25 20:36:53 2026 -0600",
+          "timestamp": 1790390213,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/32aceaa"
+        },
+        {
+          "sha": "d676fed",
+          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 10 05:45:38 2026 -0600",
+          "timestamp": 1789040738,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
+        },
+        {
+          "sha": "2767453",
+          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Aug 27 07:14:21 2026 -0600",
+          "timestamp": 1787836461,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
+        },
+        {
+          "sha": "74bc304",
+          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Jul 30 17:55:15 2026 -0600",
+          "timestamp": 1785455715,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
         }
       ]
     },
@@ -10616,6 +10584,47 @@
           "date": "Tue Jul 7 23:58:23 2026 +0000",
           "timestamp": 1783468703,
           "url": "https://github.com/LineageOS/www/commit/997b214"
+        }
+      ]
+    },
+    {
+      "name": "crdroidandroid/android_packages_apps_LMOFreeform",
+      "path": "packages/apps/LMOFreeform",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform",
+      "remote": "crdroid",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "88fe9ea",
+          "message": "New Crowdin updates (#35)",
+          "author": "Lup Gabriel",
+          "date": "Sun Oct 4 21:22:37 2026 +0300",
+          "timestamp": 1791138157,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/88fe9ea"
+        },
+        {
+          "sha": "8a195cf",
+          "message": "New Crowdin updates (#34)",
+          "author": "Lup Gabriel",
+          "date": "Fri Aug 7 13:09:59 2026 +0300",
+          "timestamp": 1786097399,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/8a195cf"
+        },
+        {
+          "sha": "c4f1412",
+          "message": "New Crowdin updates (#33)",
+          "author": "Lup Gabriel",
+          "date": "Wed Jul 29 19:52:11 2026 +0300",
+          "timestamp": 1785343931,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/c4f1412"
+        },
+        {
+          "sha": "53000e4",
+          "message": "New Crowdin updates (#32)",
+          "author": "Lup Gabriel",
+          "date": "Tue Jul 14 19:05:31 2026 +0300",
+          "timestamp": 1784045131,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/53000e4"
         }
       ]
     },
@@ -11016,39 +11025,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_packages_apps_LMOFreeform",
-      "path": "packages/apps/LMOFreeform",
-      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform",
-      "remote": "crdroid",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8a195cf",
-          "message": "New Crowdin updates (#34)",
-          "author": "Lup Gabriel",
-          "date": "Fri Aug 7 13:09:59 2026 +0300",
-          "timestamp": 1786097399,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/8a195cf"
-        },
-        {
-          "sha": "c4f1412",
-          "message": "New Crowdin updates (#33)",
-          "author": "Lup Gabriel",
-          "date": "Wed Jul 29 19:52:11 2026 +0300",
-          "timestamp": 1785343931,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/c4f1412"
-        },
-        {
-          "sha": "53000e4",
-          "message": "New Crowdin updates (#32)",
-          "author": "Lup Gabriel",
-          "date": "Tue Jul 14 19:05:31 2026 +0300",
-          "timestamp": 1784045131,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_LMOFreeform/commit/53000e4"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_ThemePicker",
       "path": "packages/apps/ThemePicker",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_ThemePicker",
@@ -11136,6 +11112,56 @@
           "date": "Tue Aug 25 16:55:12 2026 +0000",
           "timestamp": 1787676912,
           "url": "https://github.com/LineageOS/android_device_lineage_atv/commit/3b194c2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_nxp_nfc",
+      "path": "hardware/nxp/nfc",
+      "repo_url": "https://github.com/LineageOS/android_hardware_nxp_nfc",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "1459e3f",
+          "message": "Revert \"Fix Use-After-Free in NXP NFC HAL timer teardown\"",
+          "author": "LuK1337",
+          "date": "Sun Oct 4 10:17:08 2026 +0200",
+          "timestamp": 1791101828,
+          "url": "https://github.com/LineageOS/android_hardware_nxp_nfc/commit/1459e3f"
+        },
+        {
+          "sha": "ad16c5c",
+          "message": "Fix Use-After-Free in NXP NFC HAL timer teardown",
+          "author": "Duy Truong",
+          "date": "Sat Sep 19 15:44:25 2026 +0300",
+          "timestamp": 1789821865,
+          "url": "https://github.com/LineageOS/android_hardware_nxp_nfc/commit/ad16c5c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "5cd5360",
+          "message": "common: Do not enable SMMU proxy for parrot/taro even if UM_6_6",
+          "author": "Alexander Koskovich",
+          "date": "Sun Oct 4 19:02:58 2026 -0400",
+          "timestamp": 1791154978,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/5cd5360"
+        },
+        {
+          "sha": "1805784",
+          "message": "fcm: Bump com.quicinc.cne.server to 2.3",
+          "author": "Giovanni Ricca",
+          "date": "Sat Aug 8 12:54:52 2026 +0200",
+          "timestamp": 1786186492,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/1805784"
         }
       ]
     },
@@ -11540,6 +11566,31 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_packages_apps_Matlog",
+      "path": "packages/apps/Matlog",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_Matlog",
+      "remote": "crdroid",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "a01153d",
+          "message": "Merge pull request #6 from pbzin/agent/matlog-initial-log",
+          "author": "Pranav Vashi",
+          "date": "Mon Oct 5 00:09:10 2026 +0530",
+          "timestamp": 1791139150,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Matlog/commit/a01153d"
+        },
+        {
+          "sha": "6b159fb",
+          "message": "Matlog: fix live reader startup",
+          "author": "pbzin",
+          "date": "Wed Aug 26 05:41:14 2026 -0300",
+          "timestamp": 1787733674,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Matlog/commit/6b159fb"
+        }
+      ]
+    },
+    {
       "name": "crdroidandroid/android_packages_modules_Wifi",
       "path": "packages/modules/Wifi",
       "repo_url": "https://github.com/crdroidandroid/android_packages_modules_Wifi",
@@ -11675,40 +11726,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_libjxl",
-      "path": "external/libjxl",
-      "repo_url": "https://github.com/LineageOS/android_external_libjxl",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "279e798",
-          "message": "Disable unsigned integer overflow sanitizer in libjxl",
-          "author": "John Reck",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_libjxl/commit/279e798"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_libopenapv",
-      "path": "external/libopenapv",
-      "repo_url": "https://github.com/LineageOS/android_external_libopenapv",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e482aa7",
-          "message": "Add dimension validation in dec_frm_prepare",
-          "author": "Preston Cody",
-          "date": "Wed Aug 19 00:51:11 2026 -0400",
-          "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_libopenapv/commit/e482aa7"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_libhevc",
       "path": "external/libhevc",
       "repo_url": "https://github.com/LineageOS/android_external_libhevc",
@@ -11726,19 +11743,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_libcupsfilters",
-      "path": "external/libcupsfilters",
-      "repo_url": "https://github.com/LineageOS/android_external_libcupsfilters",
+      "name": "LineageOS/android_external_libjxl",
+      "path": "external/libjxl",
+      "repo_url": "https://github.com/LineageOS/android_external_libjxl",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "66c3415",
-          "message": "Fix integer overflows in raster header processing",
-          "author": "Nathan Muggli",
+          "sha": "279e798",
+          "message": "Disable unsigned integer overflow sanitizer in libjxl",
+          "author": "John Reck",
           "date": "Wed Aug 19 00:51:11 2026 -0400",
           "timestamp": 1787115071,
-          "url": "https://github.com/LineageOS/android_external_libcupsfilters/commit/66c3415"
+          "url": "https://github.com/LineageOS/android_external_libjxl/commit/279e798"
         }
       ]
     },
@@ -11760,6 +11777,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_external_libcupsfilters",
+      "path": "external/libcupsfilters",
+      "repo_url": "https://github.com/LineageOS/android_external_libcupsfilters",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "66c3415",
+          "message": "Fix integer overflows in raster header processing",
+          "author": "Nathan Muggli",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_external_libcupsfilters/commit/66c3415"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_external_libppd",
       "path": "external/libppd",
       "repo_url": "https://github.com/LineageOS/android_external_libppd",
@@ -11773,6 +11807,23 @@
           "date": "Wed Aug 19 00:51:11 2026 -0400",
           "timestamp": 1787115071,
           "url": "https://github.com/LineageOS/android_external_libppd/commit/eacf14a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_libopenapv",
+      "path": "external/libopenapv",
+      "repo_url": "https://github.com/LineageOS/android_external_libopenapv",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e482aa7",
+          "message": "Add dimension validation in dec_frm_prepare",
+          "author": "Preston Cody",
+          "date": "Wed Aug 19 00:51:11 2026 -0400",
+          "timestamp": 1787115071,
+          "url": "https://github.com/LineageOS/android_external_libopenapv/commit/e482aa7"
         }
       ]
     },
@@ -11794,23 +11845,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_nxp_nfc",
-      "path": "hardware/nxp/nfc",
-      "repo_url": "https://github.com/LineageOS/android_hardware_nxp_nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "ad16c5c",
-          "message": "Fix Use-After-Free in NXP NFC HAL timer teardown",
-          "author": "Duy Truong",
-          "date": "Sat Sep 19 15:44:25 2026 +0300",
-          "timestamp": 1789821865,
-          "url": "https://github.com/LineageOS/android_hardware_nxp_nfc/commit/ad16c5c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_nxp_secure_element",
       "path": "hardware/nxp/secure_element",
       "repo_url": "https://github.com/LineageOS/android_hardware_nxp_secure_element",
@@ -11824,23 +11858,6 @@
           "date": "Wed Aug 19 00:51:16 2026 -0400",
           "timestamp": 1787115076,
           "url": "https://github.com/LineageOS/android_hardware_nxp_secure_element/commit/59bfde8"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1805784",
-          "message": "fcm: Bump com.quicinc.cne.server to 2.3",
-          "author": "Giovanni Ricca",
-          "date": "Sat Aug 8 12:54:52 2026 +0200",
-          "timestamp": 1786186492,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/1805784"
         }
       ]
     },
@@ -11863,23 +11880,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2aa541f",
-          "message": "Merge tag 'AUDIO.LA.9.0.r1-08900-lanai.0' into staging/lineage-23.2_merge-AUDIO.LA.9.0.r1-08900-lanai.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:32:22 2026 +0300",
-          "timestamp": 1783769542,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/2aa541f"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
       "remote": "github",
@@ -11892,6 +11892,23 @@
           "date": "Sat Jul 11 14:31:29 2026 +0300",
           "timestamp": 1783769489,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/aa14955"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2aa541f",
+          "message": "Merge tag 'AUDIO.LA.9.0.r1-08900-lanai.0' into staging/lineage-23.2_merge-AUDIO.LA.9.0.r1-08900-lanai.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:32:22 2026 +0300",
+          "timestamp": 1783769542,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/2aa541f"
         }
       ]
     },
@@ -12203,23 +12220,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "path": "vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "897e656",
-          "message": "Merge tag 'LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0' into staging/lineage-23.2_merge-LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:23:09 2026 +0300",
-          "timestamp": 1783768989,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/897e656"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "path": "hardware/qcom-caf/sm8650/data-ipa-cfg-mgr",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "remote": "github",
@@ -12253,6 +12253,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "path": "vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "897e656",
+          "message": "Merge tag 'LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0' into staging/lineage-23.2_merge-LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:23:09 2026 +0300",
+          "timestamp": 1783768989,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/897e656"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8550/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
@@ -12266,6 +12283,23 @@
           "date": "Sat Jul 11 14:31:38 2026 +0300",
           "timestamp": 1783769498,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/a964339"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8450-6.6/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3296f05",
+          "message": "Merge tag 'LA.VENDOR.15.4.1.r1-10900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.1.r1-10900-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:31:15 2026 +0300",
+          "timestamp": 1783769475,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/3296f05"
         }
       ]
     },
@@ -12300,23 +12334,6 @@
           "date": "Sat Jul 11 14:35:06 2026 +0300",
           "timestamp": 1783769706,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/c620683"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8450-6.6/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3296f05",
-          "message": "Merge tag 'LA.VENDOR.15.4.1.r1-10900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.1.r1-10900-WAIPIO.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:31:15 2026 +0300",
-          "timestamp": 1783769475,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/3296f05"
         }
       ]
     },
