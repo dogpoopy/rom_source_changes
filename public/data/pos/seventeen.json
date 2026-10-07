@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "seventeen",
-  "generated_at": "2026-10-06T04:47:35.005170+00:00",
-  "since_date": "2026-07-08",
+  "generated_at": "2026-10-07T04:14:49.674494+00:00",
+  "since_date": "2026-07-09",
   "total_projects": 121,
-  "total_commits": 953,
+  "total_commits": 965,
   "projects": [
     {
       "name": "PixelOS-AOSP/android_frameworks_base",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "c70de90e",
+          "message": "SystemUI: Make GhbmIlluminationListener public",
+          "author": "KagehiraNE",
+          "date": "Mon Oct 5 22:34:26 2026 +0000",
+          "timestamp": 1791239666,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c70de90e"
+        },
         {
           "sha": "967733c9",
           "message": "SystemUI: Internet & Bluetooth dialog fixes",
@@ -804,14 +812,6 @@
           "date": "Tue Aug 18 09:31:45 2026 +0000",
           "timestamp": 1787045505,
           "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2c97447c"
-        },
-        {
-          "sha": "026ecabc",
-          "message": "SystemUI: Add restart SystemUI in Advanced Reboot",
-          "author": "Phạm Tiên Sinh",
-          "date": "Tue Aug 18 09:31:44 2026 +0000",
-          "timestamp": 1787045504,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/026ecabc"
         }
       ]
     },
@@ -2575,7 +2575,7 @@
       "path": "vendor/lineage",
       "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_lineage",
       "remote": "github",
-      "commit_count": 51,
+      "commit_count": 50,
       "commits": [
         {
           "sha": "0d2ff0b",
@@ -2976,14 +2976,6 @@
           "date": "Sun Jul 12 01:08:48 2026 +0200",
           "timestamp": 1783811328,
           "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/734f70b"
-        },
-        {
-          "sha": "7f67df0",
-          "message": "lineage: Introduce a simple program for disabling adb remount overlays",
-          "author": "LuK1337",
-          "date": "Wed Jul 8 13:08:08 2026 +0200",
-          "timestamp": 1783508888,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/7f67df0"
         }
       ]
     },
@@ -4644,6 +4636,127 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
+      "remote": "lineageos",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "6b12f71",
+          "message": "qcom: Allow platform_app_36 to access soter HAL",
+          "author": "Flicker372",
+          "date": "Tue Oct 6 15:29:42 2026 +0000",
+          "timestamp": 1791300582,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6b12f71"
+        },
+        {
+          "sha": "6df6f36",
+          "message": "common: Allow init in recovery to write to proc_firmware_config",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 15:27:14 2026 +0000",
+          "timestamp": 1791300434,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6df6f36"
+        },
+        {
+          "sha": "e4a88d3",
+          "message": "qcom: vendor: Allow `vendor_init` to set `vendor_ssr_prop` property",
+          "author": "Giovanni Ricca",
+          "date": "Sat Oct 3 14:38:08 2026 +0000",
+          "timestamp": 1791038288,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/e4a88d3"
+        },
+        {
+          "sha": "05c422d",
+          "message": "sepolicy: Label NXP NFC debug mask property",
+          "author": "chandu078",
+          "date": "Sun Sep 27 12:46:27 2026 +0200",
+          "timestamp": 1790505987,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/05c422d"
+        },
+        {
+          "sha": "8db7d3c",
+          "message": "common: private: Extend sysfs_dt_firmware_android dontaudit to dirs",
+          "author": "Nolen Johnson",
+          "date": "Sun Sep 13 22:31:49 2026 +0000",
+          "timestamp": 1789338709,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8db7d3c"
+        },
+        {
+          "sha": "6401af3",
+          "message": "sepolicy: Allow Light HAL to read `vendor.light.backlight.disable` prop",
+          "author": "Yumi Yukimura",
+          "date": "Sat Sep 12 23:55:54 2026 +0000",
+          "timestamp": 1789257354,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6401af3"
+        },
+        {
+          "sha": "89d7484",
+          "message": "sepolicy: Add policy for SensitivePhoneNumbersService",
+          "author": "Nicholas Lim",
+          "date": "Mon Sep 7 08:04:59 2026 +0000",
+          "timestamp": 1788768299,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/89d7484"
+        },
+        {
+          "sha": "6151759",
+          "message": "sepolicy: Label basic USB AIDL HAL service",
+          "author": "Yumi Yukimura",
+          "date": "Sun Aug 30 15:18:21 2026 +0000",
+          "timestamp": 1788103101,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6151759"
+        },
+        {
+          "sha": "b446a7e",
+          "message": "common: private: Don't audit bootanimation searching system_data_file",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 19:06:40 2026 +0000",
+          "timestamp": 1787425600,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/b446a7e"
+        },
+        {
+          "sha": "816baaa",
+          "message": "atv: Don't audit Katniss cgroup spam",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 19:05:22 2026 +0000",
+          "timestamp": 1787425522,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/816baaa"
+        },
+        {
+          "sha": "a85122e",
+          "message": "sepolicy: atv: vendor: Don't audit TvSettings reaching into GMS dirs",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 14:04:57 2026 -0400",
+          "timestamp": 1787421897,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a85122e"
+        },
+        {
+          "sha": "78ed090",
+          "message": "common: private: Extend mediashell dontaudit",
+          "author": "Nolen Johnson",
+          "date": "Fri Aug 7 16:03:59 2026 -0400",
+          "timestamp": 1786133039,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/78ed090"
+        },
+        {
+          "sha": "7dae1c0",
+          "message": "atv: vendor: Drop non-existent apk_verity_prop allowances",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 3 18:53:03 2026 -0400",
+          "timestamp": 1785797583,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/7dae1c0"
+        },
+        {
+          "sha": "8b6f3cf",
+          "message": "sepolicy: Silence annoying chatty denials",
+          "author": "Nolen Johnson",
+          "date": "Sun Jul 12 23:31:18 2026 -0400",
+          "timestamp": 1783913478,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8b6f3cf"
+        }
+      ]
+    },
+    {
       "name": "PixelOS-AOSP/android_hardware_interfaces",
       "path": "hardware/interfaces",
       "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_interfaces",
@@ -4983,111 +5096,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
-      "remote": "lineageos",
-      "commit_count": 12,
-      "commits": [
-        {
-          "sha": "e4a88d3",
-          "message": "qcom: vendor: Allow `vendor_init` to set `vendor_ssr_prop` property",
-          "author": "Giovanni Ricca",
-          "date": "Sat Oct 3 14:38:08 2026 +0000",
-          "timestamp": 1791038288,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/e4a88d3"
-        },
-        {
-          "sha": "05c422d",
-          "message": "sepolicy: Label NXP NFC debug mask property",
-          "author": "chandu078",
-          "date": "Sun Sep 27 12:46:27 2026 +0200",
-          "timestamp": 1790505987,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/05c422d"
-        },
-        {
-          "sha": "8db7d3c",
-          "message": "common: private: Extend sysfs_dt_firmware_android dontaudit to dirs",
-          "author": "Nolen Johnson",
-          "date": "Sun Sep 13 22:31:49 2026 +0000",
-          "timestamp": 1789338709,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8db7d3c"
-        },
-        {
-          "sha": "6401af3",
-          "message": "sepolicy: Allow Light HAL to read `vendor.light.backlight.disable` prop",
-          "author": "Yumi Yukimura",
-          "date": "Sat Sep 12 23:55:54 2026 +0000",
-          "timestamp": 1789257354,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6401af3"
-        },
-        {
-          "sha": "89d7484",
-          "message": "sepolicy: Add policy for SensitivePhoneNumbersService",
-          "author": "Nicholas Lim",
-          "date": "Mon Sep 7 08:04:59 2026 +0000",
-          "timestamp": 1788768299,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/89d7484"
-        },
-        {
-          "sha": "6151759",
-          "message": "sepolicy: Label basic USB AIDL HAL service",
-          "author": "Yumi Yukimura",
-          "date": "Sun Aug 30 15:18:21 2026 +0000",
-          "timestamp": 1788103101,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6151759"
-        },
-        {
-          "sha": "b446a7e",
-          "message": "common: private: Don't audit bootanimation searching system_data_file",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 22 19:06:40 2026 +0000",
-          "timestamp": 1787425600,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/b446a7e"
-        },
-        {
-          "sha": "816baaa",
-          "message": "atv: Don't audit Katniss cgroup spam",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 22 19:05:22 2026 +0000",
-          "timestamp": 1787425522,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/816baaa"
-        },
-        {
-          "sha": "a85122e",
-          "message": "sepolicy: atv: vendor: Don't audit TvSettings reaching into GMS dirs",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 22 14:04:57 2026 -0400",
-          "timestamp": 1787421897,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a85122e"
-        },
-        {
-          "sha": "78ed090",
-          "message": "common: private: Extend mediashell dontaudit",
-          "author": "Nolen Johnson",
-          "date": "Fri Aug 7 16:03:59 2026 -0400",
-          "timestamp": 1786133039,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/78ed090"
-        },
-        {
-          "sha": "7dae1c0",
-          "message": "atv: vendor: Drop non-existent apk_verity_prop allowances",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 3 18:53:03 2026 -0400",
-          "timestamp": 1785797583,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/7dae1c0"
-        },
-        {
-          "sha": "8b6f3cf",
-          "message": "sepolicy: Silence annoying chatty denials",
-          "author": "Nolen Johnson",
-          "date": "Sun Jul 12 23:31:18 2026 -0400",
-          "timestamp": 1783913478,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8b6f3cf"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -5189,6 +5197,103 @@
           "date": "Sat Jul 11 12:48:30 2026 +0300",
           "timestamp": 1783763310,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/7ed9a62"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8450",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "a6bcda4",
+          "message": "fixup! taro: Label additional read_ahead_kb node",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 14:32:15 2026 -0400",
+          "timestamp": 1791311535,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a6bcda4"
+        },
+        {
+          "sha": "693fc15",
+          "message": "taro: Match all read_ahead_kb nodes",
+          "author": "dianlujitao",
+          "date": "Tue Oct 6 14:15:37 2026 -0400",
+          "timestamp": 1791310537,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/693fc15"
+        },
+        {
+          "sha": "dbbd1c3",
+          "message": "Vendor selinux rules MUST not restrict access to \"/dev/hidraw*\"",
+          "author": "Biswajit Paul",
+          "date": "Tue Oct 6 13:59:46 2026 -0400",
+          "timestamp": 1791309586,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dbbd1c3"
+        },
+        {
+          "sha": "67d51dd",
+          "message": "sepolicy_vndr: allow sensors hal to access /dev directory",
+          "author": "Jun-Hyung Kwon",
+          "date": "Tue Oct 6 13:58:35 2026 -0400",
+          "timestamp": 1791309515,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/67d51dd"
+        },
+        {
+          "sha": "ffe72a7",
+          "message": "sepolicy_vndr: add dynamic sensor and hidraw device access",
+          "author": "Jun-Hyung Kwon",
+          "date": "Tue Oct 6 13:58:22 2026 -0400",
+          "timestamp": 1791309502,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ffe72a7"
+        },
+        {
+          "sha": "c72f0b8",
+          "message": "sepolicy: Add Power HAL as client of Display HAL",
+          "author": "Semi",
+          "date": "Tue Oct 6 13:48:11 2026 -0400",
+          "timestamp": 1791308891,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c72f0b8"
+        },
+        {
+          "sha": "a4ce773",
+          "message": "sepolicy_vndr: Add libsdmextension as same_process_hal_file",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 13:35:38 2026 -0400",
+          "timestamp": 1791308138,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a4ce773"
+        },
+        {
+          "sha": "94f46cb",
+          "message": "sepolicy_vndr: Add label for 64-bit ssgqmigd",
+          "author": "Alexander Koskovich",
+          "date": "Tue Aug 18 22:45:47 2026 +0000",
+          "timestamp": 1787093147,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/94f46cb"
+        },
+        {
+          "sha": "cd277ba",
+          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 17 11:44:25 2026 -0400",
+          "timestamp": 1786981465,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/cd277ba"
+        },
+        {
+          "sha": "fd21d94",
+          "message": "sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext",
+          "author": "Michael Bestas",
+          "date": "Sun Jul 12 21:31:39 2026 +0000",
+          "timestamp": 1783891899,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fd21d94"
+        },
+        {
+          "sha": "0ad9ead",
+          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
+          "author": "Michael Bestas",
+          "date": "Sun Jul 12 21:31:39 2026 +0000",
+          "timestamp": 1783891899,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0ad9ead"
         }
       ]
     },
@@ -5832,6 +5937,79 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 8,
+      "commits": [
+        {
+          "sha": "6a5221b",
+          "message": "sepolicy: Add Power HAL as client of Display HAL",
+          "author": "Semi",
+          "date": "Tue Oct 6 13:49:27 2026 -0400",
+          "timestamp": 1791308967,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6a5221b"
+        },
+        {
+          "sha": "afa37c9",
+          "message": "sepolicy_vndr: Add libsdmextension as same_process_hal_file",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 13:36:13 2026 -0400",
+          "timestamp": 1791308173,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/afa37c9"
+        },
+        {
+          "sha": "35c35db",
+          "message": "common: Label /sys/class/qcom-battery for everyone",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 30 12:12:59 2026 -0400",
+          "timestamp": 1790784779,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/35c35db"
+        },
+        {
+          "sha": "ec05d45",
+          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 17 11:45:48 2026 -0400",
+          "timestamp": 1786981548,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ec05d45"
+        },
+        {
+          "sha": "1b45fcc",
+          "message": "sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext",
+          "author": "Michael Bestas",
+          "date": "Sun Jul 12 15:12:30 2026 +0100",
+          "timestamp": 1783865550,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1b45fcc"
+        },
+        {
+          "sha": "66465ef",
+          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
+          "author": "Michael Bestas",
+          "date": "Sun Jul 12 15:12:25 2026 +0100",
+          "timestamp": 1783865545,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/66465ef"
+        },
+        {
+          "sha": "b5c0266",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:38:39 2026 +0300",
+          "timestamp": 1783769919,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b5c0266"
+        },
+        {
+          "sha": "7507339",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21200-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD",
+          "author": "Bruno Martins",
+          "date": "Sat Jul 11 14:38:07 2026 +0300",
+          "timestamp": 1783769887,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/7507339"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8450-6.6/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -6023,63 +6201,6 @@
           "date": "Wed Sep 2 18:08:34 2026 +0000",
           "timestamp": 1788372514,
           "url": "https://github.com/PixelOS-AOSP/android_packages_providers_MediaProvider/commit/be336ecf"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8750",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "lineageos",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "35c35db",
-          "message": "common: Label /sys/class/qcom-battery for everyone",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 30 12:12:59 2026 -0400",
-          "timestamp": 1790784779,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/35c35db"
-        },
-        {
-          "sha": "ec05d45",
-          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 17 11:45:48 2026 -0400",
-          "timestamp": 1786981548,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ec05d45"
-        },
-        {
-          "sha": "1b45fcc",
-          "message": "sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext",
-          "author": "Michael Bestas",
-          "date": "Sun Jul 12 15:12:30 2026 +0100",
-          "timestamp": 1783865550,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1b45fcc"
-        },
-        {
-          "sha": "66465ef",
-          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
-          "author": "Michael Bestas",
-          "date": "Sun Jul 12 15:12:25 2026 +0100",
-          "timestamp": 1783865545,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/66465ef"
-        },
-        {
-          "sha": "b5c0266",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:38:39 2026 +0300",
-          "timestamp": 1783769919,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b5c0266"
-        },
-        {
-          "sha": "7507339",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21200-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD",
-          "author": "Bruno Martins",
-          "date": "Sat Jul 11 14:38:07 2026 +0300",
-          "timestamp": 1783769887,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/7507339"
         }
       ]
     },
@@ -6540,6 +6661,55 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8550",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "3246964",
+          "message": "sepolicy: Add Power HAL as client of Display HAL",
+          "author": "Semi",
+          "date": "Tue Oct 6 13:48:45 2026 -0400",
+          "timestamp": 1791308925,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3246964"
+        },
+        {
+          "sha": "9b2bbbb",
+          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 17 11:45:08 2026 -0400",
+          "timestamp": 1786981508,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9b2bbbb"
+        },
+        {
+          "sha": "aad39d2",
+          "message": "sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 22:28:58 2026 +0000",
+          "timestamp": 1783808938,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/aad39d2"
+        },
+        {
+          "sha": "0ffaa80",
+          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 22:28:51 2026 +0000",
+          "timestamp": 1783808931,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0ffaa80"
+        },
+        {
+          "sha": "db30294",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27500-KAILUA.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD",
+          "author": "Bruno Martins",
+          "date": "Sat Jul 11 23:07:54 2026 +0100",
+          "timestamp": 1783807674,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/db30294"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_display-core",
       "path": "hardware/qcom-caf/sm8750/display/core",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core",
@@ -6822,88 +6992,6 @@
           "date": "Sun Aug 16 11:58:51 2026 +0000",
           "timestamp": 1786881531,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c0807bd"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8550",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "lineageos",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "9b2bbbb",
-          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 17 11:45:08 2026 -0400",
-          "timestamp": 1786981508,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9b2bbbb"
-        },
-        {
-          "sha": "aad39d2",
-          "message": "sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 22:28:58 2026 +0000",
-          "timestamp": 1783808938,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/aad39d2"
-        },
-        {
-          "sha": "0ffaa80",
-          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 22:28:51 2026 +0000",
-          "timestamp": 1783808931,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0ffaa80"
-        },
-        {
-          "sha": "db30294",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27500-KAILUA.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD",
-          "author": "Bruno Martins",
-          "date": "Sat Jul 11 23:07:54 2026 +0100",
-          "timestamp": 1783807674,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/db30294"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8450",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "lineageos",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "94f46cb",
-          "message": "sepolicy_vndr: Add label for 64-bit ssgqmigd",
-          "author": "Alexander Koskovich",
-          "date": "Tue Aug 18 22:45:47 2026 +0000",
-          "timestamp": 1787093147,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/94f46cb"
-        },
-        {
-          "sha": "cd277ba",
-          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 17 11:44:25 2026 -0400",
-          "timestamp": 1786981465,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/cd277ba"
-        },
-        {
-          "sha": "fd21d94",
-          "message": "sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext",
-          "author": "Michael Bestas",
-          "date": "Sun Jul 12 21:31:39 2026 +0000",
-          "timestamp": 1783891899,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fd21d94"
-        },
-        {
-          "sha": "0ad9ead",
-          "message": "sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec",
-          "author": "Michael Bestas",
-          "date": "Sun Jul 12 21:31:39 2026 +0000",
-          "timestamp": 1783891899,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0ad9ead"
         }
       ]
     },
@@ -7320,6 +7408,39 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8450/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "lineageos",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "e60d689",
+          "message": "Revert \"ipc: Handle DSP metadata for non-tunnel streams\"",
+          "author": "Alexander Koskovich",
+          "date": "Sun Oct 4 15:52:18 2026 -0400",
+          "timestamp": 1791143538,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/e60d689"
+        },
+        {
+          "sha": "c6f8e48",
+          "message": "ResourceManager: Move some logging to verbose",
+          "author": "Nick Reuter",
+          "date": "Tue Aug 11 23:44:45 2026 -0500",
+          "timestamp": 1786509885,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c6f8e48"
+        },
+        {
+          "sha": "a8c1206",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:28:20 2026 +0300",
+          "timestamp": 1783769300,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/a8c1206"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8650/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "remote": "lineageos",
@@ -7654,31 +7775,6 @@
           "date": "Thu Jul 23 23:28:21 2026 +0300",
           "timestamp": 1784838501,
           "url": "https://github.com/LineageOS/android_prebuilts_extract-tools/commit/a8aabbb"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8450/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "lineageos",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "c6f8e48",
-          "message": "ResourceManager: Move some logging to verbose",
-          "author": "Nick Reuter",
-          "date": "Tue Aug 11 23:44:45 2026 -0500",
-          "timestamp": 1786509885,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c6f8e48"
-        },
-        {
-          "sha": "a8c1206",
-          "message": "Merge tag 'LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:28:20 2026 +0300",
-          "timestamp": 1783769300,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/a8c1206"
         }
       ]
     },
@@ -8126,23 +8222,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "aa14955",
-          "message": "Merge tag 'AUDIO.LA.8.0.r1-13000-KAILUA.0' into staging/lineage-23.2_merge-AUDIO.LA.8.0.r1-13000-KAILUA.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:31:29 2026 +0300",
-          "timestamp": 1783769489,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/aa14955"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
       "remote": "lineageos",
@@ -8155,6 +8234,23 @@
           "date": "Sat Jul 11 14:32:22 2026 +0300",
           "timestamp": 1783769542,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/2aa541f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "aa14955",
+          "message": "Merge tag 'AUDIO.LA.8.0.r1-13000-KAILUA.0' into staging/lineage-23.2_merge-AUDIO.LA.8.0.r1-13000-KAILUA.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:31:29 2026 +0300",
+          "timestamp": 1783769489,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/aa14955"
         }
       ]
     },
@@ -8313,6 +8409,23 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "path": "hardware/qcom-caf/sm8750/data-ipa-cfg-mgr",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5c75409",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 11 14:35:07 2026 +0300",
+          "timestamp": 1783769707,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/5c75409"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "path": "hardware/qcom-caf/sm8650/data-ipa-cfg-mgr",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
       "remote": "lineageos",
@@ -8342,23 +8455,6 @@
           "date": "Sat Jul 11 14:23:09 2026 +0300",
           "timestamp": 1783768989,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/897e656"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "path": "hardware/qcom-caf/sm8750/data-ipa-cfg-mgr",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "5c75409",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 11 14:35:07 2026 +0300",
-          "timestamp": 1783769707,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/5c75409"
         }
       ]
     },
@@ -8414,23 +8510,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_bouncycastle",
-      "path": "external/bouncycastle",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_bouncycastle",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f5e089c",
-          "message": "bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working",
-          "author": "Abhay Singh Gill",
-          "date": "Thu Jul 23 13:06:03 2026 +0400",
-          "timestamp": 1784797563,
-          "url": "https://github.com/PixelOS-AOSP/android_external_bouncycastle/commit/f5e089c"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_development",
       "path": "development",
       "repo_url": "https://github.com/PixelOS-AOSP/android_development",
@@ -8444,6 +8523,23 @@
           "date": "Tue Sep 8 21:16:32 2026 +0000",
           "timestamp": 1788902192,
           "url": "https://github.com/PixelOS-AOSP/android_development/commit/d36bcc0d"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_external_bouncycastle",
+      "path": "external/bouncycastle",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_external_bouncycastle",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f5e089c",
+          "message": "bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working",
+          "author": "Abhay Singh Gill",
+          "date": "Thu Jul 23 13:06:03 2026 +0400",
+          "timestamp": 1784797563,
+          "url": "https://github.com/PixelOS-AOSP/android_external_bouncycastle/commit/f5e089c"
         }
       ]
     },
@@ -8465,23 +8561,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_libhevc",
-      "path": "external/libhevc",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_libhevc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4b4ea30",
-          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
-          "author": "Vivek R Jadhav",
-          "date": "Wed Sep 2 18:02:28 2026 +0000",
-          "timestamp": 1788372148,
-          "url": "https://github.com/PixelOS-AOSP/android_external_libhevc/commit/4b4ea30"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_external_libjxl",
       "path": "external/libjxl",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_libjxl",
@@ -8495,6 +8574,23 @@
           "date": "Wed Sep 2 18:02:28 2026 +0000",
           "timestamp": 1788372148,
           "url": "https://github.com/PixelOS-AOSP/android_external_libjxl/commit/cbd5d8a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_external_libhevc",
+      "path": "external/libhevc",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_external_libhevc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4b4ea30",
+          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
+          "author": "Vivek R Jadhav",
+          "date": "Wed Sep 2 18:02:28 2026 +0000",
+          "timestamp": 1788372148,
+          "url": "https://github.com/PixelOS-AOSP/android_external_libhevc/commit/4b4ea30"
         }
       ]
     },
@@ -8533,23 +8629,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_hardware_nxp_nfc",
-      "path": "hardware/nxp/nfc",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "af6bbbc",
-          "message": "Fix Use-After-Free in NXP NFC HAL timer teardown",
-          "author": "Duy Truong",
-          "date": "Sat Sep 19 20:44:48 2026 +0000",
-          "timestamp": 1789850688,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc/commit/af6bbbc"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_hardware_nxp_secure_element",
       "path": "hardware/nxp/secure_element",
       "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element",
@@ -8563,6 +8642,23 @@
           "date": "Wed Sep 2 18:08:14 2026 +0000",
           "timestamp": 1788372494,
           "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element/commit/9994eaf"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_hardware_nxp_nfc",
+      "path": "hardware/nxp/nfc",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "af6bbbc",
+          "message": "Fix Use-After-Free in NXP NFC HAL timer teardown",
+          "author": "Duy Truong",
+          "date": "Sat Sep 19 20:44:48 2026 +0000",
+          "timestamp": 1789850688,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc/commit/af6bbbc"
         }
       ]
     },
@@ -8669,23 +8765,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_system_memory_libion",
-      "path": "system/memory/libion",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_memory_libion",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "abd899d",
-          "message": "libion: Make available to com.android.npumanager",
-          "author": "ralph950412",
-          "date": "Fri Aug 28 11:49:43 2026 -0500",
-          "timestamp": 1787935783,
-          "url": "https://github.com/PixelOS-AOSP/android_system_memory_libion/commit/abd899d"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_system_memory_libdmabufheap",
       "path": "system/memory/libdmabufheap",
       "repo_url": "https://github.com/PixelOS-AOSP/android_system_memory_libdmabufheap",
@@ -8699,6 +8778,23 @@
           "date": "Fri Aug 28 16:01:55 2026 -0500",
           "timestamp": 1787950915,
           "url": "https://github.com/PixelOS-AOSP/android_system_memory_libdmabufheap/commit/57925b7"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_system_memory_libion",
+      "path": "system/memory/libion",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_system_memory_libion",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "abd899d",
+          "message": "libion: Make available to com.android.npumanager",
+          "author": "ralph950412",
+          "date": "Fri Aug 28 11:49:43 2026 -0500",
+          "timestamp": 1787935783,
+          "url": "https://github.com/PixelOS-AOSP/android_system_memory_libion/commit/abd899d"
         }
       ]
     },
