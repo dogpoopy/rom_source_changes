@@ -1,10 +1,10 @@
 {
   "rom_id": "eos",
   "branch": "a16.2",
-  "generated_at": "2026-10-12T04:16:55.105661+00:00",
-  "since_date": "2026-07-14",
+  "generated_at": "2026-10-13T05:26:44.135861+00:00",
+  "since_date": "2026-07-15",
   "total_projects": 118,
-  "total_commits": 994,
+  "total_commits": 995,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "c415a09",
+          "message": "wiki: Redmi Note 13 Pro variants have a headphone jack",
+          "author": "Martin Kunze",
+          "date": "Mon Oct 12 21:13:24 2026 +0200",
+          "timestamp": 1791832404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/c415a09"
+        },
         {
           "sha": "6839b9a",
           "message": "wiki: Add niclimcy as Q25 maintainer",
@@ -804,14 +812,6 @@
           "date": "Sun Jul 19 21:08:35 2026 -0500",
           "timestamp": 1784513315,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/66c4396"
-        },
-        {
-          "sha": "e391594",
-          "message": "wiki: Split otter into 8.0/8.1 variants",
-          "author": "LuK1337",
-          "date": "Sun Jul 19 22:59:01 2026 +0000",
-          "timestamp": 1784501941,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e391594"
         }
       ]
     },
@@ -2174,8 +2174,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 72,
+      "commit_count": 73,
       "commits": [
+        {
+          "sha": "08550e5",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Mon Oct 12 10:26:56 2026 +0000",
+          "timestamp": 1791800816,
+          "url": "https://github.com/LineageOS/hudson/commit/08550e5"
+        },
         {
           "sha": "139bc01",
           "message": "hudson: thank you for supporting xaga",
@@ -2759,7 +2767,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 51,
+      "commit_count": 50,
       "commits": [
         {
           "sha": "f6b6b83",
@@ -3160,14 +3168,6 @@
           "date": "Wed Jul 15 22:21:32 2026 +0200",
           "timestamp": 1784146892,
           "url": "https://github.com/LineageOS/mirror/commit/906cba7"
-        },
-        {
-          "sha": "909c062",
-          "message": "Updated aosp-minimal to 14-Jul-2026 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Wed Jul 15 00:01:59 2026 +0200",
-          "timestamp": 1784066519,
-          "url": "https://github.com/LineageOS/mirror/commit/909c062"
         }
       ]
     },
@@ -4875,6 +4875,143 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
+      "remote": "github",
+      "commit_count": 16,
+      "commits": [
+        {
+          "sha": "d585a7b48",
+          "message": "l2cap: Skip offload coex buffer cap when nothing is reserved",
+          "author": "Bruno Martins",
+          "date": "Mon Oct 12 15:33:01 2026 +0000",
+          "timestamp": 1791819181,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/d585a7b48"
+        },
+        {
+          "sha": "38041e719",
+          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
+          "author": "Brian Delwiche",
+          "date": "Thu Oct 8 17:49:27 2026 +0000",
+          "timestamp": 1791481767,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/38041e719"
+        },
+        {
+          "sha": "03cb8e33c",
+          "message": "Bluetooth: Classify configured devices as remote controls",
+          "author": "Bruno Martins",
+          "date": "Sun Sep 27 08:43:50 2026 +0000",
+          "timestamp": 1790498630,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/03cb8e33c"
+        },
+        {
+          "sha": "9480eafd1",
+          "message": "GATT: Fix notifications sent to remote device without security checks",
+          "author": "Jakub Pawłowski",
+          "date": "Sat Sep 19 15:52:14 2026 +0300",
+          "timestamp": 1789822334,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/9480eafd1"
+        },
+        {
+          "sha": "188168537",
+          "message": "[RESTRICT AUTOMERGE] Enforce incoming CTKD security requirements",
+          "author": "Brian Delwiche",
+          "date": "Sat Sep 19 15:52:08 2026 +0300",
+          "timestamp": 1789822328,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/188168537"
+        },
+        {
+          "sha": "d7165dd20",
+          "message": "Add L2CAP and A2DP offload coex mechanism for MTK",
+          "author": "rio004",
+          "date": "Sat Sep 12 18:55:26 2026 +0000",
+          "timestamp": 1789239326,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/d7165dd20"
+        },
+        {
+          "sha": "778718dad",
+          "message": "Fix buffer overflow in UUID parsing",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/778718dad"
+        },
+        {
+          "sha": "7b947a9d3",
+          "message": "Fix out-of-bounds heap write in SnoopLogger",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/7b947a9d3"
+        },
+        {
+          "sha": "e3093ebda",
+          "message": "Fix cross-thread UAF in AvrcpService updates",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/e3093ebda"
+        },
+        {
+          "sha": "8e5bfd550",
+          "message": "Fix uninitialized pointer dereference in MsftExtensionManager",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/8e5bfd550"
+        },
+        {
+          "sha": "2849f1166",
+          "message": "Fix SDP server heap buffer overflow",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/2849f1166"
+        },
+        {
+          "sha": "416bd3677",
+          "message": "Fix heap buffer overflow in A2DP Opus decoder",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/416bd3677"
+        },
+        {
+          "sha": "a57b970a6",
+          "message": "Treat encrypted non-SC link as downgrade if SC was previously supported.",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/a57b970a6"
+        },
+        {
+          "sha": "59e289492",
+          "message": "Remove bond caller info when bonding concludes",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/59e289492"
+        },
+        {
+          "sha": "86853a1a1",
+          "message": "Reject unsafe LE encryption key sizes",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/86853a1a1"
+        },
+        {
+          "sha": "78902c52a",
+          "message": "Handle concurrency issues in SDP record creation",
+          "author": "Brian Delwiche",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/78902c52a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/scripts",
       "path": "lineage/scripts",
       "repo_url": "https://github.com/LineageOS/scripts",
@@ -5145,135 +5282,6 @@
           "date": "Wed Jul 15 09:55:43 2026 +0000",
           "timestamp": 1784109343,
           "url": "https://gitlab.e.foundation/e/os/android_packages_apps_LineageParts/commit/da98968"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
-      "remote": "github",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "38041e719",
-          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
-          "author": "Brian Delwiche",
-          "date": "Thu Oct 8 17:49:27 2026 +0000",
-          "timestamp": 1791481767,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/38041e719"
-        },
-        {
-          "sha": "03cb8e33c",
-          "message": "Bluetooth: Classify configured devices as remote controls",
-          "author": "Bruno Martins",
-          "date": "Sun Sep 27 08:43:50 2026 +0000",
-          "timestamp": 1790498630,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/03cb8e33c"
-        },
-        {
-          "sha": "9480eafd1",
-          "message": "GATT: Fix notifications sent to remote device without security checks",
-          "author": "Jakub Pawłowski",
-          "date": "Sat Sep 19 15:52:14 2026 +0300",
-          "timestamp": 1789822334,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/9480eafd1"
-        },
-        {
-          "sha": "188168537",
-          "message": "[RESTRICT AUTOMERGE] Enforce incoming CTKD security requirements",
-          "author": "Brian Delwiche",
-          "date": "Sat Sep 19 15:52:08 2026 +0300",
-          "timestamp": 1789822328,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/188168537"
-        },
-        {
-          "sha": "d7165dd20",
-          "message": "Add L2CAP and A2DP offload coex mechanism for MTK",
-          "author": "rio004",
-          "date": "Sat Sep 12 18:55:26 2026 +0000",
-          "timestamp": 1789239326,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/d7165dd20"
-        },
-        {
-          "sha": "778718dad",
-          "message": "Fix buffer overflow in UUID parsing",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/778718dad"
-        },
-        {
-          "sha": "7b947a9d3",
-          "message": "Fix out-of-bounds heap write in SnoopLogger",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/7b947a9d3"
-        },
-        {
-          "sha": "e3093ebda",
-          "message": "Fix cross-thread UAF in AvrcpService updates",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/e3093ebda"
-        },
-        {
-          "sha": "8e5bfd550",
-          "message": "Fix uninitialized pointer dereference in MsftExtensionManager",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/8e5bfd550"
-        },
-        {
-          "sha": "2849f1166",
-          "message": "Fix SDP server heap buffer overflow",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/2849f1166"
-        },
-        {
-          "sha": "416bd3677",
-          "message": "Fix heap buffer overflow in A2DP Opus decoder",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/416bd3677"
-        },
-        {
-          "sha": "a57b970a6",
-          "message": "Treat encrypted non-SC link as downgrade if SC was previously supported.",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/a57b970a6"
-        },
-        {
-          "sha": "59e289492",
-          "message": "Remove bond caller info when bonding concludes",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/59e289492"
-        },
-        {
-          "sha": "86853a1a1",
-          "message": "Reject unsafe LE encryption key sizes",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/86853a1a1"
-        },
-        {
-          "sha": "78902c52a",
-          "message": "Handle concurrency issues in SDP record creation",
-          "author": "Brian Delwiche",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/78902c52a"
         }
       ]
     },
@@ -6777,55 +6785,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "170e899",
-          "message": "Update Chromium Webview arm to 155.0.8059.39",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 9 16:21:40 2026 -0600",
-          "timestamp": 1791584500,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/170e899"
-        },
-        {
-          "sha": "fd29391",
-          "message": "Update Chromium Webview arm to 154.0.8037.57",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 25 20:23:39 2026 -0600",
-          "timestamp": 1790389419,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/fd29391"
-        },
-        {
-          "sha": "9f672a0",
-          "message": "Update Chromium Webview arm to 153.0.8010.36",
-          "author": "Kevin F. Haggerty",
-          "date": "Wed Sep 9 20:24:33 2026 -0600",
-          "timestamp": 1789007073,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/9f672a0"
-        },
-        {
-          "sha": "80e8063",
-          "message": "Update Chromium Webview arm to 152.0.7977.64",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:18 2026 -0600",
-          "timestamp": 1787836458,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/80e8063"
-        },
-        {
-          "sha": "2f2702a",
-          "message": "Update Chromium Webview arm to 151.0.7922.71",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:53:27 2026 -0600",
-          "timestamp": 1785455607,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/2f2702a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -6871,6 +6830,55 @@
           "date": "Wed Jul 29 18:48:20 2026 -0600",
           "timestamp": 1785372500,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "170e899",
+          "message": "Update Chromium Webview arm to 155.0.8059.39",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 9 16:21:40 2026 -0600",
+          "timestamp": 1791584500,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/170e899"
+        },
+        {
+          "sha": "fd29391",
+          "message": "Update Chromium Webview arm to 154.0.8037.57",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 25 20:23:39 2026 -0600",
+          "timestamp": 1790389419,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/fd29391"
+        },
+        {
+          "sha": "9f672a0",
+          "message": "Update Chromium Webview arm to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Wed Sep 9 20:24:33 2026 -0600",
+          "timestamp": 1789007073,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/9f672a0"
+        },
+        {
+          "sha": "80e8063",
+          "message": "Update Chromium Webview arm to 152.0.7977.64",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Aug 27 07:14:18 2026 -0600",
+          "timestamp": 1787836458,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/80e8063"
+        },
+        {
+          "sha": "2f2702a",
+          "message": "Update Chromium Webview arm to 151.0.7922.71",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Jul 30 17:53:27 2026 -0600",
+          "timestamp": 1785455607,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/2f2702a"
         }
       ]
     },
@@ -6924,55 +6932,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "path": "external/chromium-webview/prebuilt/x86_64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "de57895",
-          "message": "Update Chromium Webview x86_64 to 155.0.8059.39",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 9 17:50:54 2026 -0600",
-          "timestamp": 1791589854,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/de57895"
-        },
-        {
-          "sha": "32aceaa",
-          "message": "Update Chromium Webview x86_64 to 154.0.8037.57",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 25 20:36:53 2026 -0600",
-          "timestamp": 1790390213,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/32aceaa"
-        },
-        {
-          "sha": "d676fed",
-          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 10 05:45:38 2026 -0600",
-          "timestamp": 1789040738,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
-        },
-        {
-          "sha": "2767453",
-          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:21 2026 -0600",
-          "timestamp": 1787836461,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
-        },
-        {
-          "sha": "74bc304",
-          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:55:15 2026 -0600",
-          "timestamp": 1785455715,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
       "path": "external/chromium-webview/prebuilt/x86",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
@@ -7018,6 +6977,55 @@
           "date": "Thu Jul 30 17:54:24 2026 -0600",
           "timestamp": 1785455664,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/f57ab0f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "de57895",
+          "message": "Update Chromium Webview x86_64 to 155.0.8059.39",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 9 17:50:54 2026 -0600",
+          "timestamp": 1791589854,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/de57895"
+        },
+        {
+          "sha": "32aceaa",
+          "message": "Update Chromium Webview x86_64 to 154.0.8037.57",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 25 20:36:53 2026 -0600",
+          "timestamp": 1790390213,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/32aceaa"
+        },
+        {
+          "sha": "d676fed",
+          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 10 05:45:38 2026 -0600",
+          "timestamp": 1789040738,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
+        },
+        {
+          "sha": "2767453",
+          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Aug 27 07:14:21 2026 -0600",
+          "timestamp": 1787836461,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
+        },
+        {
+          "sha": "74bc304",
+          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Jul 30 17:55:15 2026 -0600",
+          "timestamp": 1785455715,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
         }
       ]
     },
@@ -8234,31 +8242,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8550/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0dca409",
-          "message": "pal: Select VoIP calibration by stream sample rate",
-          "author": "Mathias Gluszczynski",
-          "date": "Sun Sep 13 05:59:36 2026 +0200",
-          "timestamp": 1789271976,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0dca409"
-        },
-        {
-          "sha": "39e763e",
-          "message": "ResourceManager: Move some logging to verbose",
-          "author": "Nick Reuter",
-          "date": "Wed Aug 12 14:35:35 2026 -0400",
-          "timestamp": 1786559735,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39e763e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8650/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "remote": "github",
@@ -8279,6 +8262,31 @@
           "date": "Wed Aug 12 14:36:33 2026 -0400",
           "timestamp": 1786559793,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/9cad645"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8550/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0dca409",
+          "message": "pal: Select VoIP calibration by stream sample rate",
+          "author": "Mathias Gluszczynski",
+          "date": "Sun Sep 13 05:59:36 2026 +0200",
+          "timestamp": 1789271976,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0dca409"
+        },
+        {
+          "sha": "39e763e",
+          "message": "ResourceManager: Move some logging to verbose",
+          "author": "Nick Reuter",
+          "date": "Wed Aug 12 14:35:35 2026 -0400",
+          "timestamp": 1786559735,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39e763e"
         }
       ]
     },
@@ -8630,23 +8638,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "13d687a84",
-          "message": "AIDL CAS HAL: Fix incorrect mmap failure check",
-          "author": "Haofan Wang",
-          "date": "Wed Aug 19 00:51:16 2026 -0400",
-          "timestamp": 1787115076,
-          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/13d687a84"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_nxp_secure_element",
       "path": "hardware/nxp/secure_element",
       "repo_url": "https://github.com/LineageOS/android_hardware_nxp_secure_element",
@@ -8660,6 +8651,23 @@
           "date": "Wed Aug 19 00:51:16 2026 -0400",
           "timestamp": 1787115076,
           "url": "https://github.com/LineageOS/android_hardware_nxp_secure_element/commit/59bfde8"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "13d687a84",
+          "message": "AIDL CAS HAL: Fix incorrect mmap failure check",
+          "author": "Haofan Wang",
+          "date": "Wed Aug 19 00:51:16 2026 -0400",
+          "timestamp": 1787115076,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/13d687a84"
         }
       ]
     },
