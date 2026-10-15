@@ -1,25 +1,41 @@
 {
   "rom_id": "yaap",
   "branch": "seventeen",
-  "generated_at": "2026-10-14T03:29:05.939394+00:00",
-  "since_date": "2026-07-16",
+  "generated_at": "2026-10-15T03:08:00.005198+00:00",
+  "since_date": "2026-07-17",
   "total_projects": 102,
-  "total_commits": 524,
+  "total_commits": 521,
   "projects": [
     {
       "name": "frameworks_base",
       "path": "frameworks/base",
       "repo_url": "https://github.com/yaap/frameworks_base",
       "remote": "yaap",
-      "commit_count": 66,
+      "commit_count": 68,
       "commits": [
         {
-          "sha": "b8c0fbca",
-          "message": "base: Typeface: Let the Material 3 Expressive fonts follow the selected font",
+          "sha": "11cc35c5",
+          "message": "hwui: Copy the shader cache identity before the deferred init",
           "author": "sidharthify",
-          "date": "Tue Oct 13 15:41:09 2026 +0300",
-          "timestamp": 1791895269,
-          "url": "https://github.com/yaap/frameworks_base/commit/b8c0fbca"
+          "date": "Wed Oct 14 12:10:22 2026 +0000",
+          "timestamp": 1791979822,
+          "url": "https://github.com/yaap/frameworks_base/commit/11cc35c5"
+        },
+        {
+          "sha": "b57701b2",
+          "message": "base: zygote: Stop forking at SCHED_FIFO priority 99",
+          "author": "sidharthify",
+          "date": "Wed Oct 14 12:10:02 2026 +0000",
+          "timestamp": 1791979802,
+          "url": "https://github.com/yaap/frameworks_base/commit/b57701b2"
+        },
+        {
+          "sha": "ab391e1b",
+          "message": "StatusBar: Don't clip text-only battery percent",
+          "author": "John Galt",
+          "date": "Tue Oct 13 16:54:23 2026 -0400",
+          "timestamp": 1791924863,
+          "url": "https://github.com/yaap/frameworks_base/commit/ab391e1b"
         },
         {
           "sha": "e379d391",
@@ -1262,8 +1278,16 @@
       "path": "vendor/yaap",
       "repo_url": "https://github.com/yaap/vendor_yaap",
       "remote": "yaap",
-      "commit_count": 33,
+      "commit_count": 28,
       "commits": [
+        {
+          "sha": "48e1176",
+          "message": "config: Drop the IORap property",
+          "author": "sidharthify",
+          "date": "Wed Oct 14 15:51:26 2026 +0800",
+          "timestamp": 1791964286,
+          "url": "https://github.com/yaap/vendor_yaap/commit/48e1176"
+        },
         {
           "sha": "2da0ddb",
           "message": "overlay: Update certified fingerprint",
@@ -1479,54 +1503,6 @@
           "date": "Wed Jul 29 18:47:33 2026 +0300",
           "timestamp": 1785340053,
           "url": "https://github.com/yaap/vendor_yaap/commit/24d2693"
-        },
-        {
-          "sha": "32d6a6d",
-          "message": "kernel: allow ignoring modules from installation or depmod",
-          "author": "John Galt",
-          "date": "Thu Jul 16 17:30:50 2026 -0400",
-          "timestamp": 1784237450,
-          "url": "https://github.com/yaap/vendor_yaap/commit/32d6a6d"
-        },
-        {
-          "sha": "ed9fa81",
-          "message": "merge_dtbs: Apply multi-threaded parallel compilation",
-          "author": "Huang Yiwei",
-          "date": "Thu Jul 16 17:30:50 2026 -0400",
-          "timestamp": 1784237450,
-          "url": "https://github.com/yaap/vendor_yaap/commit/ed9fa81"
-        },
-        {
-          "sha": "da692a8",
-          "message": "merge_dtbs: Update merge_dtbs script to fix dtbo overlay issue",
-          "author": "Meena Pasumarthi",
-          "date": "Thu Jul 16 17:30:50 2026 -0400",
-          "timestamp": 1784237450,
-          "url": "https://github.com/yaap/vendor_yaap/commit/da692a8"
-        },
-        {
-          "sha": "b5cab91",
-          "message": "Revert \"merge_dtbs: Sort DTBOs based on needed symbols\"",
-          "author": "Giovanni Ricca",
-          "date": "Thu Jul 16 17:30:50 2026 -0400",
-          "timestamp": 1784237450,
-          "url": "https://github.com/yaap/vendor_yaap/commit/b5cab91"
-        },
-        {
-          "sha": "f1400f7",
-          "message": "Revert \"merge_dtbs: ignore not matching DTBOs when finding symbols for a fixup\"",
-          "author": "Giovanni Ricca",
-          "date": "Thu Jul 16 17:30:50 2026 -0400",
-          "timestamp": 1784237450,
-          "url": "https://github.com/yaap/vendor_yaap/commit/f1400f7"
-        },
-        {
-          "sha": "bab1d71",
-          "message": "Revert \"merge_dtbs: allow one overlay to depend on multiple others\"",
-          "author": "Giovanni Ricca",
-          "date": "Thu Jul 16 17:30:42 2026 -0400",
-          "timestamp": 1784237442,
-          "url": "https://github.com/yaap/vendor_yaap/commit/bab1d71"
         }
       ]
     },
@@ -3936,31 +3912,6 @@
       ]
     },
     {
-      "name": "art",
-      "path": "art",
-      "repo_url": "https://github.com/yaap/art",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "d864d416",
-          "message": "Make the runtime-generated app image read-only",
-          "author": "Nicolas Geoffray",
-          "date": "Thu Sep 10 12:36:19 2026 -0400",
-          "timestamp": 1789058179,
-          "url": "https://github.com/yaap/art/commit/d864d416"
-        },
-        {
-          "sha": "b9561a9d",
-          "message": "Revert \"Use stp/ldp while calling native functions in arm64\"",
-          "author": "John Galt",
-          "date": "Fri Aug 7 12:25:38 2026 -0400",
-          "timestamp": 1786119938,
-          "url": "https://github.com/yaap/art/commit/b9561a9d"
-        }
-      ]
-    },
-    {
       "name": "development",
       "path": "development",
       "repo_url": "https://github.com/yaap/development",
@@ -3982,6 +3933,31 @@
           "date": "Fri Sep 11 11:21:13 2026 +0300",
           "timestamp": 1789114873,
           "url": "https://github.com/yaap/development/commit/cb4a05f6"
+        }
+      ]
+    },
+    {
+      "name": "art",
+      "path": "art",
+      "repo_url": "https://github.com/yaap/art",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "d864d416",
+          "message": "Make the runtime-generated app image read-only",
+          "author": "Nicolas Geoffray",
+          "date": "Thu Sep 10 12:36:19 2026 -0400",
+          "timestamp": 1789058179,
+          "url": "https://github.com/yaap/art/commit/d864d416"
+        },
+        {
+          "sha": "b9561a9d",
+          "message": "Revert \"Use stp/ldp while calling native functions in arm64\"",
+          "author": "John Galt",
+          "date": "Fri Aug 7 12:25:38 2026 -0400",
+          "timestamp": 1786119938,
+          "url": "https://github.com/yaap/art/commit/b9561a9d"
         }
       ]
     },
@@ -4261,31 +4237,6 @@
       ]
     },
     {
-      "name": "packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "04be8e3c9",
-          "message": "Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb",
-          "author": "Nate Jiang",
-          "date": "Thu Sep 10 12:45:37 2026 -0400",
-          "timestamp": 1789058737,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/04be8e3c9"
-        },
-        {
-          "sha": "19515d2e3",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 15:36:52 2026 +0300",
-          "timestamp": 1785328612,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/19515d2e3"
-        }
-      ]
-    },
-    {
       "name": "packages_providers_ContactsProvider",
       "path": "packages/providers/ContactsProvider",
       "repo_url": "https://github.com/yaap/packages_providers_ContactsProvider",
@@ -4307,6 +4258,31 @@
           "date": "Wed Jul 29 15:37:02 2026 +0300",
           "timestamp": 1785328622,
           "url": "https://github.com/yaap/packages_providers_ContactsProvider/commit/5b22123"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Wifi",
+      "path": "packages/modules/Wifi",
+      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "04be8e3c9",
+          "message": "Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb",
+          "author": "Nate Jiang",
+          "date": "Thu Sep 10 12:45:37 2026 -0400",
+          "timestamp": 1789058737,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/04be8e3c9"
+        },
+        {
+          "sha": "19515d2e3",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 15:36:52 2026 +0300",
+          "timestamp": 1785328612,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/19515d2e3"
         }
       ]
     },
@@ -4454,23 +4430,6 @@
       ]
     },
     {
-      "name": "external_libjxl",
-      "path": "external/libjxl",
-      "repo_url": "https://github.com/yaap/external_libjxl",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "be34ee0",
-          "message": "Disable unsigned integer overflow sanitizer in libjxl",
-          "author": "John Reck",
-          "date": "Thu Sep 10 12:39:24 2026 -0400",
-          "timestamp": 1789058364,
-          "url": "https://github.com/yaap/external_libjxl/commit/be34ee0"
-        }
-      ]
-    },
-    {
       "name": "external_libhevc",
       "path": "external/libhevc",
       "repo_url": "https://github.com/yaap/external_libhevc",
@@ -4484,6 +4443,23 @@
           "date": "Thu Sep 10 12:39:02 2026 -0400",
           "timestamp": 1789058342,
           "url": "https://github.com/yaap/external_libhevc/commit/c476428"
+        }
+      ]
+    },
+    {
+      "name": "external_libjxl",
+      "path": "external/libjxl",
+      "repo_url": "https://github.com/yaap/external_libjxl",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "be34ee0",
+          "message": "Disable unsigned integer overflow sanitizer in libjxl",
+          "author": "John Reck",
+          "date": "Thu Sep 10 12:39:24 2026 -0400",
+          "timestamp": 1789058364,
+          "url": "https://github.com/yaap/external_libjxl/commit/be34ee0"
         }
       ]
     },
@@ -4624,23 +4600,6 @@
       ]
     },
     {
-      "name": "packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "380a2701",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Aug 9 17:57:07 2026 +0300",
-          "timestamp": 1786287427,
-          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/380a2701"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_KProfiles",
       "path": "packages/apps/KProfiles",
       "repo_url": "https://github.com/yaap/packages_apps_KProfiles",
@@ -4654,6 +4613,23 @@
           "date": "Fri Aug 21 16:38:07 2026 +0300",
           "timestamp": 1787319487,
           "url": "https://github.com/yaap/packages_apps_KProfiles/commit/8b740e0"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "repo_url": "https://github.com/yaap/packages_apps_DocumentsUI",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "380a2701",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Aug 9 17:57:07 2026 +0300",
+          "timestamp": 1786287427,
+          "url": "https://github.com/yaap/packages_apps_DocumentsUI/commit/380a2701"
         }
       ]
     },
@@ -4930,23 +4906,6 @@
       ]
     },
     {
-      "name": "system_libvintf",
-      "path": "system/libvintf",
-      "repo_url": "https://github.com/yaap/system_libvintf",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "65bab46",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Jul 29 17:06:05 2026 +0300",
-          "timestamp": 1785333965,
-          "url": "https://github.com/yaap/system_libvintf/commit/65bab46"
-        }
-      ]
-    },
-    {
       "name": "system_memory_libion",
       "path": "system/memory/libion",
       "repo_url": "https://github.com/yaap/system_memory_libion",
@@ -4960,6 +4919,23 @@
           "date": "Thu Aug 20 19:06:52 2026 +0800",
           "timestamp": 1787224012,
           "url": "https://github.com/yaap/system_memory_libion/commit/e86bc63"
+        }
+      ]
+    },
+    {
+      "name": "system_libvintf",
+      "path": "system/libvintf",
+      "repo_url": "https://github.com/yaap/system_libvintf",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "65bab46",
+          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Jul 29 17:06:05 2026 +0300",
+          "timestamp": 1785333965,
+          "url": "https://github.com/yaap/system_libvintf/commit/65bab46"
         }
       ]
     },
