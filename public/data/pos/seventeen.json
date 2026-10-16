@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "seventeen",
-  "generated_at": "2026-10-15T03:08:42.861590+00:00",
-  "since_date": "2026-07-17",
-  "total_projects": 108,
-  "total_commits": 869,
+  "generated_at": "2026-10-16T03:04:47.635205+00:00",
+  "since_date": "2026-07-18",
+  "total_projects": 109,
+  "total_commits": 871,
   "projects": [
     {
       "name": "PixelOS-AOSP/android_frameworks_base",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "2aa30944",
+          "message": "fixup/harden torch power button gestures post 17 merge",
+          "author": "John Galt",
+          "date": "Wed Oct 14 09:05:09 2026 +0000",
+          "timestamp": 1791968709,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2aa30944"
+        },
         {
           "sha": "81b912ee",
           "message": "fixup! SystemUI: Add support for udfps dim layer",
@@ -804,14 +812,6 @@
           "date": "Tue Aug 18 09:31:45 2026 +0000",
           "timestamp": 1787045505,
           "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ca274b6b"
-        },
-        {
-          "sha": "eb463e7e",
-          "message": "SystemUI: Update SystemUI icon for advanced reboot",
-          "author": "hridaya",
-          "date": "Tue Aug 18 09:31:45 2026 +0000",
-          "timestamp": 1787045505,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/eb463e7e"
         }
       ]
     },
@@ -4138,127 +4138,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "lineageos",
-      "commit_count": 14,
-      "commits": [
-        {
-          "sha": "98d96fe",
-          "message": "generic: Add `vendor_gppservice` to 202504.ignore.cil",
-          "author": "LuK1337",
-          "date": "Sun Sep 27 15:19:01 2026 +0200",
-          "timestamp": 1790515141,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/98d96fe"
-        },
-        {
-          "sha": "0501a4f",
-          "message": "Merge tag 'LA.QSSI.17.0.r1-11100-qssi.0' into staging/lineage-24.0_merge-LA.QSSI.17.0.r1-11100-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 27 15:38:06 2026 +0300",
-          "timestamp": 1790512686,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0501a4f"
-        },
-        {
-          "sha": "e4732e5",
-          "message": "Merge 18350d8df15bda451c61f899ca33d2b8ce22f24a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Mon Aug 31 23:41:40 2026 -0700",
-          "timestamp": 1788244900,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e4732e5"
-        },
-        {
-          "sha": "18350d8",
-          "message": "qspm: add permissions for backward compatibility",
-          "author": "Rajat Sharma",
-          "date": "Mon Aug 24 16:50:56 2026 +0530",
-          "timestamp": 1787570456,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/18350d8"
-        },
-        {
-          "sha": "39aa9bd",
-          "message": "sepolicy: Add sepolicy for platform_app_36 for vendor_hal_dspmanager",
-          "author": "Ramesh Nallagopu",
-          "date": "Fri Aug 21 20:02:39 2026 +0530",
-          "timestamp": 1787322759,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/39aa9bd"
-        },
-        {
-          "sha": "7c50835",
-          "message": "Merge \"Revert \"sepolicy: allow system_server to find SnapdragonServices\"\" into sepolicy-sysintf.lnx.17.0",
-          "author": "Linux Build Service Account",
-          "date": "Wed Aug 19 22:51:51 2026 -0700",
-          "timestamp": 1787205111,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7c50835"
-        },
-        {
-          "sha": "ee8b5ee",
-          "message": "Revert \"sepolicy: allow system_server to find SnapdragonServices\"",
-          "author": "Lynn Yang",
-          "date": "Wed Aug 19 20:56:28 2026 -0700",
-          "timestamp": 1787198188,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ee8b5ee"
-        },
-        {
-          "sha": "7e91cc1",
-          "message": "Merge 7a7bdbab65cf37941787524a4d6268e073c6809c on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Mon Aug 17 23:24:53 2026 -0700",
-          "timestamp": 1787034293,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7e91cc1"
-        },
-        {
-          "sha": "2dcdfe0",
-          "message": "untrusted_app_30: add permission to access snapx aidl",
-          "author": "Rajat Sharma",
-          "date": "Fri Aug 14 15:31:38 2026 +0530",
-          "timestamp": 1786701698,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/2dcdfe0"
-        },
-        {
-          "sha": "7e9fe57",
-          "message": "Merge \"sepolicy: allow system_server to find SnapdragonServices\"",
-          "author": "QCTECMDR Service",
-          "date": "Tue Aug 11 20:59:50 2026 -0700",
-          "timestamp": 1786507190,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7e9fe57"
-        },
-        {
-          "sha": "7491867",
-          "message": "sepolicy: allow system_server to find SnapdragonServices",
-          "author": "Lynn Yang",
-          "date": "Tue Aug 11 21:54:26 2026 +0800",
-          "timestamp": 1786456466,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7491867"
-        },
-        {
-          "sha": "69cebb6",
-          "message": "Merge 31fb2c836691886498ba9bff0f44b3599daa4f56 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Jul 23 05:50:21 2026 -0700",
-          "timestamp": 1784811021,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/69cebb6"
-        },
-        {
-          "sha": "7a7bdba",
-          "message": "Merge \"LifeLoggerRefApp: update SELinux for ambient data service\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Jul 20 06:23:20 2026 -0700",
-          "timestamp": 1784553800,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7a7bdba"
-        },
-        {
-          "sha": "8b80aca",
-          "message": "Merge 0fb90deebccd9b1ac553fbdacd7f712db80f283f on remote branch",
-          "author": "lnxbuild",
-          "date": "Fri Jul 17 02:03:03 2026 -0700",
-          "timestamp": 1784278983,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8b80aca"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_lineage_sepolicy",
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
@@ -4368,6 +4247,119 @@
           "date": "Mon Aug 3 18:53:03 2026 -0400",
           "timestamp": 1785797583,
           "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/7dae1c0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineageos",
+      "commit_count": 13,
+      "commits": [
+        {
+          "sha": "98d96fe",
+          "message": "generic: Add `vendor_gppservice` to 202504.ignore.cil",
+          "author": "LuK1337",
+          "date": "Sun Sep 27 15:19:01 2026 +0200",
+          "timestamp": 1790515141,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/98d96fe"
+        },
+        {
+          "sha": "0501a4f",
+          "message": "Merge tag 'LA.QSSI.17.0.r1-11100-qssi.0' into staging/lineage-24.0_merge-LA.QSSI.17.0.r1-11100-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 27 15:38:06 2026 +0300",
+          "timestamp": 1790512686,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0501a4f"
+        },
+        {
+          "sha": "e4732e5",
+          "message": "Merge 18350d8df15bda451c61f899ca33d2b8ce22f24a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Mon Aug 31 23:41:40 2026 -0700",
+          "timestamp": 1788244900,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e4732e5"
+        },
+        {
+          "sha": "18350d8",
+          "message": "qspm: add permissions for backward compatibility",
+          "author": "Rajat Sharma",
+          "date": "Mon Aug 24 16:50:56 2026 +0530",
+          "timestamp": 1787570456,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/18350d8"
+        },
+        {
+          "sha": "39aa9bd",
+          "message": "sepolicy: Add sepolicy for platform_app_36 for vendor_hal_dspmanager",
+          "author": "Ramesh Nallagopu",
+          "date": "Fri Aug 21 20:02:39 2026 +0530",
+          "timestamp": 1787322759,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/39aa9bd"
+        },
+        {
+          "sha": "7c50835",
+          "message": "Merge \"Revert \"sepolicy: allow system_server to find SnapdragonServices\"\" into sepolicy-sysintf.lnx.17.0",
+          "author": "Linux Build Service Account",
+          "date": "Wed Aug 19 22:51:51 2026 -0700",
+          "timestamp": 1787205111,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7c50835"
+        },
+        {
+          "sha": "ee8b5ee",
+          "message": "Revert \"sepolicy: allow system_server to find SnapdragonServices\"",
+          "author": "Lynn Yang",
+          "date": "Wed Aug 19 20:56:28 2026 -0700",
+          "timestamp": 1787198188,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ee8b5ee"
+        },
+        {
+          "sha": "7e91cc1",
+          "message": "Merge 7a7bdbab65cf37941787524a4d6268e073c6809c on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Mon Aug 17 23:24:53 2026 -0700",
+          "timestamp": 1787034293,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7e91cc1"
+        },
+        {
+          "sha": "2dcdfe0",
+          "message": "untrusted_app_30: add permission to access snapx aidl",
+          "author": "Rajat Sharma",
+          "date": "Fri Aug 14 15:31:38 2026 +0530",
+          "timestamp": 1786701698,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/2dcdfe0"
+        },
+        {
+          "sha": "7e9fe57",
+          "message": "Merge \"sepolicy: allow system_server to find SnapdragonServices\"",
+          "author": "QCTECMDR Service",
+          "date": "Tue Aug 11 20:59:50 2026 -0700",
+          "timestamp": 1786507190,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7e9fe57"
+        },
+        {
+          "sha": "7491867",
+          "message": "sepolicy: allow system_server to find SnapdragonServices",
+          "author": "Lynn Yang",
+          "date": "Tue Aug 11 21:54:26 2026 +0800",
+          "timestamp": 1786456466,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7491867"
+        },
+        {
+          "sha": "69cebb6",
+          "message": "Merge 31fb2c836691886498ba9bff0f44b3599daa4f56 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Jul 23 05:50:21 2026 -0700",
+          "timestamp": 1784811021,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/69cebb6"
+        },
+        {
+          "sha": "7a7bdba",
+          "message": "Merge \"LifeLoggerRefApp: update SELinux for ambient data service\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Jul 20 06:23:20 2026 -0700",
+          "timestamp": 1784553800,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7a7bdba"
         }
       ]
     },
@@ -4602,8 +4594,16 @@
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
       "remote": "lineageos",
-      "commit_count": 11,
+      "commit_count": 12,
       "commits": [
+        {
+          "sha": "485c98d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 15 12:49:15 2026 +0000",
+          "timestamp": 1792068555,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/485c98d"
+        },
         {
           "sha": "36b3be3",
           "message": "Automatic translation import",
@@ -5351,6 +5351,71 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "lineageos",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "625deca",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 15 12:49:35 2026 +0000",
+          "timestamp": 1792068575,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/625deca"
+        },
+        {
+          "sha": "661fc40",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 7 20:04:17 2026 +0000",
+          "timestamp": 1791403457,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/661fc40"
+        },
+        {
+          "sha": "01e1033",
+          "message": "devicesettings: Remove unused strings",
+          "author": "nift4",
+          "date": "Mon Oct 5 21:10:14 2026 +0000",
+          "timestamp": 1791234614,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/01e1033"
+        },
+        {
+          "sha": "b3556d4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 1 10:13:29 2026 +0000",
+          "timestamp": 1790849609,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b3556d4"
+        },
+        {
+          "sha": "e7e55ac",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 15 12:54:43 2026 +0000",
+          "timestamp": 1789476883,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/e7e55ac"
+        },
+        {
+          "sha": "e91c799",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Tue Sep 1 11:53:20 2026 +0000",
+          "timestamp": 1788263600,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/e91c799"
+        },
+        {
+          "sha": "b6e16ab",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Aug 1 13:02:42 2026 +0000",
+          "timestamp": 1785589362,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b6e16ab"
+        }
+      ]
+    },
+    {
       "name": "PixelOS-AOSP/android_packages_providers_MediaProvider",
       "path": "packages/providers/MediaProvider",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_providers_MediaProvider",
@@ -5416,71 +5481,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_vendor_crowdin",
-      "path": "vendor/crowdin",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "b19ea47",
-          "message": "crowdin: Import translations",
-          "author": "github-actions[bot]",
-          "date": "Mon Oct 12 05:54:32 2026 +0000",
-          "timestamp": 1791784472,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/b19ea47"
-        },
-        {
-          "sha": "e2e7e5d",
-          "message": "crowdin: Sync resources with upstream sources",
-          "author": "github-actions[bot]",
-          "date": "Mon Oct 12 05:52:57 2026 +0000",
-          "timestamp": 1791784377,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/e2e7e5d"
-        },
-        {
-          "sha": "f13a304",
-          "message": "crowdin: Import translations",
-          "author": "github-actions[bot]",
-          "date": "Mon Oct 12 05:50:44 2026 +0000",
-          "timestamp": 1791784244,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/f13a304"
-        },
-        {
-          "sha": "72562ec",
-          "message": "crowdin: Sync resources with upstream sources",
-          "author": "github-actions[bot]",
-          "date": "Mon Oct 12 05:49:50 2026 +0000",
-          "timestamp": 1791784190,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/72562ec"
-        },
-        {
-          "sha": "0a7a9d8",
-          "message": "crowdin: Import translations",
-          "author": "github-actions[bot]",
-          "date": "Tue Sep 8 15:12:04 2026 +0000",
-          "timestamp": 1788880324,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/0a7a9d8"
-        },
-        {
-          "sha": "a6f6b36",
-          "message": "crowdin: Sync resources with upstream sources",
-          "author": "github-actions[bot]",
-          "date": "Tue Sep 8 15:03:54 2026 +0000",
-          "timestamp": 1788879834,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/a6f6b36"
-        },
-        {
-          "sha": "b8a7178",
-          "message": "crowdin: Prepare translation infrastructure",
-          "author": "Karan Parashar",
-          "date": "Mon Sep 7 20:51:12 2026 +0530",
-          "timestamp": 1788794472,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/b8a7178"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_vendor_custom",
       "path": "vendor/custom",
       "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_custom",
@@ -5542,6 +5542,71 @@
           "date": "Fri Aug 7 06:30:41 2026 +0000",
           "timestamp": 1786084241,
           "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/54e8e9a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_vendor_crowdin",
+      "path": "vendor/crowdin",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "b19ea47",
+          "message": "crowdin: Import translations",
+          "author": "github-actions[bot]",
+          "date": "Mon Oct 12 05:54:32 2026 +0000",
+          "timestamp": 1791784472,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/b19ea47"
+        },
+        {
+          "sha": "e2e7e5d",
+          "message": "crowdin: Sync resources with upstream sources",
+          "author": "github-actions[bot]",
+          "date": "Mon Oct 12 05:52:57 2026 +0000",
+          "timestamp": 1791784377,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/e2e7e5d"
+        },
+        {
+          "sha": "f13a304",
+          "message": "crowdin: Import translations",
+          "author": "github-actions[bot]",
+          "date": "Mon Oct 12 05:50:44 2026 +0000",
+          "timestamp": 1791784244,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/f13a304"
+        },
+        {
+          "sha": "72562ec",
+          "message": "crowdin: Sync resources with upstream sources",
+          "author": "github-actions[bot]",
+          "date": "Mon Oct 12 05:49:50 2026 +0000",
+          "timestamp": 1791784190,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/72562ec"
+        },
+        {
+          "sha": "0a7a9d8",
+          "message": "crowdin: Import translations",
+          "author": "github-actions[bot]",
+          "date": "Tue Sep 8 15:12:04 2026 +0000",
+          "timestamp": 1788880324,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/0a7a9d8"
+        },
+        {
+          "sha": "a6f6b36",
+          "message": "crowdin: Sync resources with upstream sources",
+          "author": "github-actions[bot]",
+          "date": "Tue Sep 8 15:03:54 2026 +0000",
+          "timestamp": 1788879834,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/a6f6b36"
+        },
+        {
+          "sha": "b8a7178",
+          "message": "crowdin: Prepare translation infrastructure",
+          "author": "Karan Parashar",
+          "date": "Mon Sep 7 20:51:12 2026 +0530",
+          "timestamp": 1788794472,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/b8a7178"
         }
       ]
     },
@@ -5786,63 +5851,6 @@
           "date": "Sat Sep 12 20:58:13 2026 +0200",
           "timestamp": 1789239493,
           "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/4a15262"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_resources_devicesettings",
-      "path": "packages/resources/devicesettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
-      "remote": "lineageos",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "661fc40",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 7 20:04:17 2026 +0000",
-          "timestamp": 1791403457,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/661fc40"
-        },
-        {
-          "sha": "01e1033",
-          "message": "devicesettings: Remove unused strings",
-          "author": "nift4",
-          "date": "Mon Oct 5 21:10:14 2026 +0000",
-          "timestamp": 1791234614,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/01e1033"
-        },
-        {
-          "sha": "b3556d4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 1 10:13:29 2026 +0000",
-          "timestamp": 1790849609,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b3556d4"
-        },
-        {
-          "sha": "e7e55ac",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 15 12:54:43 2026 +0000",
-          "timestamp": 1789476883,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/e7e55ac"
-        },
-        {
-          "sha": "e91c799",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Tue Sep 1 11:53:20 2026 +0000",
-          "timestamp": 1788263600,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/e91c799"
-        },
-        {
-          "sha": "b6e16ab",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Aug 1 13:02:42 2026 +0000",
-          "timestamp": 1785589362,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b6e16ab"
         }
       ]
     },
@@ -6492,6 +6500,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8550/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "lineageos",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "414e011",
+          "message": "pal: Support sku agnostic odm config path",
+          "author": "inferno0230",
+          "date": "Tue Oct 13 10:34:41 2026 +0530",
+          "timestamp": 1791867881,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/414e011"
+        },
+        {
+          "sha": "8f0219b",
+          "message": "pal: Parse LVACFS microphone feature parameter",
+          "author": "pjgowtham",
+          "date": "Mon Oct 12 20:13:04 2026 +0530",
+          "timestamp": 1791816184,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8f0219b"
+        },
+        {
+          "sha": "0dca409",
+          "message": "pal: Select VoIP calibration by stream sample rate",
+          "author": "Mathias Gluszczynski",
+          "date": "Sun Sep 13 05:59:36 2026 +0200",
+          "timestamp": 1789271976,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0dca409"
+        },
+        {
+          "sha": "39e763e",
+          "message": "ResourceManager: Move some logging to verbose",
+          "author": "Nick Reuter",
+          "date": "Wed Aug 12 14:35:35 2026 -0400",
+          "timestamp": 1786559735,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39e763e"
+        }
+      ]
+    },
+    {
       "name": "PixelOS-AOSP/android_external_wpa_supplicant_8",
       "path": "external/wpa_supplicant_8",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_wpa_supplicant_8",
@@ -6636,72 +6685,6 @@
           "date": "Wed Aug 12 14:40:38 2026 -0400",
           "timestamp": 1786560038,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8342f63"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8550/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "lineageos",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8f0219b",
-          "message": "pal: Parse LVACFS microphone feature parameter",
-          "author": "pjgowtham",
-          "date": "Mon Oct 12 20:13:04 2026 +0530",
-          "timestamp": 1791816184,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8f0219b"
-        },
-        {
-          "sha": "0dca409",
-          "message": "pal: Select VoIP calibration by stream sample rate",
-          "author": "Mathias Gluszczynski",
-          "date": "Sun Sep 13 05:59:36 2026 +0200",
-          "timestamp": 1789271976,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0dca409"
-        },
-        {
-          "sha": "39e763e",
-          "message": "ResourceManager: Move some logging to verbose",
-          "author": "Nick Reuter",
-          "date": "Wed Aug 12 14:35:35 2026 -0400",
-          "timestamp": 1786559735,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39e763e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_interfaces",
-      "path": "vendor/qcom/opensource/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces",
-      "remote": "lineageos",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "b75ec20",
-          "message": "Merge tag 'LA.QSSI.17.0.r1-11100-qssi.0' into staging/lineage-24.0_merge-LA.QSSI.17.0.r1-11100-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 27 15:36:48 2026 +0300",
-          "timestamp": 1790512608,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/b75ec20"
-        },
-        {
-          "sha": "6ba4b50",
-          "message": "interfaces: Hide ambientdatacapture behind soong namespace",
-          "author": "LuK1337",
-          "date": "Tue Jul 28 09:35:18 2026 +0200",
-          "timestamp": 1785224118,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/6ba4b50"
-        },
-        {
-          "sha": "3d707ad",
-          "message": "Merge 8bfd0127aa854273e1a936a714d3d1c4cc383a9a on remote branch",
-          "author": "lnxbuild",
-          "date": "Fri Jul 17 02:01:11 2026 -0700",
-          "timestamp": 1784278871,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/3d707ad"
         }
       ]
     },
@@ -7071,27 +7054,52 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "name": "LineageOS/android_vendor_qcom_opensource_fm-commonsys",
+      "path": "vendor/qcom/opensource/commonsys/fm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
       "remote": "lineageos",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "fbd3e92",
-          "message": "Merge tag 'LA.QSSI.17.0.r1-11100-qssi.0' into staging/lineage-24.0_merge-LA.QSSI.17.0.r1-11100-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 27 15:36:43 2026 +0300",
-          "timestamp": 1790512603,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/fbd3e92"
+          "sha": "9ec99f9",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 15 12:49:48 2026 +0000",
+          "timestamp": 1792068588,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/9ec99f9"
         },
         {
-          "sha": "3e97c27",
-          "message": "Merge 8b9332dd4e2e39a02f1b36fbac135e8dcff9beb8 on remote branch",
-          "author": "lnxbuild",
-          "date": "Fri Jul 17 02:03:49 2026 -0700",
-          "timestamp": 1784279029,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/3e97c27"
+          "sha": "46bd9dc",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 7 20:04:35 2026 +0000",
+          "timestamp": 1791403475,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/46bd9dc"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_interfaces",
+      "path": "vendor/qcom/opensource/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "b75ec20",
+          "message": "Merge tag 'LA.QSSI.17.0.r1-11100-qssi.0' into staging/lineage-24.0_merge-LA.QSSI.17.0.r1-11100-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 27 15:36:48 2026 +0300",
+          "timestamp": 1790512608,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/b75ec20"
+        },
+        {
+          "sha": "6ba4b50",
+          "message": "interfaces: Hide ambientdatacapture behind soong namespace",
+          "author": "LuK1337",
+          "date": "Tue Jul 28 09:35:18 2026 +0200",
+          "timestamp": 1785224118,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/6ba4b50"
         }
       ]
     },
@@ -7221,31 +7229,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_apps_ContactsPicker",
-      "path": "packages/apps/ContactsPicker",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "2874941",
-          "message": "Change to startActivityAsCaller when forwarding ACTION_PICK intent",
-          "author": "Kasia Krejszeff",
-          "date": "Sat Sep 19 20:14:49 2026 +0000",
-          "timestamp": 1789848889,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker/commit/2874941"
-        },
-        {
-          "sha": "2a5d79a",
-          "message": "Disable System Overlays to prevent tapjack attack",
-          "author": "Bhavuk Garg",
-          "date": "Wed Sep 2 18:08:14 2026 +0000",
-          "timestamp": 1788372494,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker/commit/2a5d79a"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_apps_ParanoidSense",
       "path": "packages/apps/ParanoidSense",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense",
@@ -7267,6 +7250,31 @@
           "date": "Sun Aug 30 11:52:27 2026 +0000",
           "timestamp": 1788090747,
           "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/967c787"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_packages_apps_ContactsPicker",
+      "path": "packages/apps/ContactsPicker",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2874941",
+          "message": "Change to startActivityAsCaller when forwarding ACTION_PICK intent",
+          "author": "Kasia Krejszeff",
+          "date": "Sat Sep 19 20:14:49 2026 +0000",
+          "timestamp": 1789848889,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker/commit/2874941"
+        },
+        {
+          "sha": "2a5d79a",
+          "message": "Disable System Overlays to prevent tapjack attack",
+          "author": "Bhavuk Garg",
+          "date": "Wed Sep 2 18:08:14 2026 +0000",
+          "timestamp": 1788372494,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker/commit/2a5d79a"
         }
       ]
     },
@@ -7506,6 +7514,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_agm",
+      "path": "hardware/qcom-caf/sm8550/audio/agm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6651285",
+          "message": "agm: Support sku agnostic acdb odm path",
+          "author": "pjgowtham",
+          "date": "Tue Oct 13 10:34:05 2026 +0530",
+          "timestamp": 1791867845,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/6651285"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8750/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
@@ -7574,19 +7599,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_fm-commonsys",
-      "path": "vendor/qcom/opensource/commonsys/fm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
       "remote": "lineageos",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "46bd9dc",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 7 20:04:35 2026 +0000",
-          "timestamp": 1791403475,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/46bd9dc"
+          "sha": "fbd3e92",
+          "message": "Merge tag 'LA.QSSI.17.0.r1-11100-qssi.0' into staging/lineage-24.0_merge-LA.QSSI.17.0.r1-11100-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 27 15:36:43 2026 +0300",
+          "timestamp": 1790512603,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/fbd3e92"
         }
       ]
     },
@@ -7659,23 +7684,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_libhevc",
-      "path": "external/libhevc",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_libhevc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4b4ea30",
-          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
-          "author": "Vivek R Jadhav",
-          "date": "Wed Sep 2 18:02:28 2026 +0000",
-          "timestamp": 1788372148,
-          "url": "https://github.com/PixelOS-AOSP/android_external_libhevc/commit/4b4ea30"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_external_libjxl",
       "path": "external/libjxl",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_libjxl",
@@ -7689,6 +7697,23 @@
           "date": "Wed Sep 2 18:02:28 2026 +0000",
           "timestamp": 1788372148,
           "url": "https://github.com/PixelOS-AOSP/android_external_libjxl/commit/cbd5d8a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_external_libhevc",
+      "path": "external/libhevc",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_external_libhevc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4b4ea30",
+          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
+          "author": "Vivek R Jadhav",
+          "date": "Wed Sep 2 18:02:28 2026 +0000",
+          "timestamp": 1788372148,
+          "url": "https://github.com/PixelOS-AOSP/android_external_libhevc/commit/4b4ea30"
         }
       ]
     },
@@ -7727,23 +7752,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_hardware_nxp_nfc",
-      "path": "hardware/nxp/nfc",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "af6bbbc",
-          "message": "Fix Use-After-Free in NXP NFC HAL timer teardown",
-          "author": "Duy Truong",
-          "date": "Sat Sep 19 20:44:48 2026 +0000",
-          "timestamp": 1789850688,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc/commit/af6bbbc"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_hardware_nxp_secure_element",
       "path": "hardware/nxp/secure_element",
       "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element",
@@ -7757,6 +7765,23 @@
           "date": "Wed Sep 2 18:08:14 2026 +0000",
           "timestamp": 1788372494,
           "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element/commit/9994eaf"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_hardware_nxp_nfc",
+      "path": "hardware/nxp/nfc",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "af6bbbc",
+          "message": "Fix Use-After-Free in NXP NFC HAL timer teardown",
+          "author": "Duy Truong",
+          "date": "Sat Sep 19 20:44:48 2026 +0000",
+          "timestamp": 1789850688,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc/commit/af6bbbc"
         }
       ]
     },
