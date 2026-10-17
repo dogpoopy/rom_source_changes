@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "seventeen",
-  "generated_at": "2026-10-16T03:04:47.635205+00:00",
-  "since_date": "2026-07-18",
+  "generated_at": "2026-10-17T02:57:25.306382+00:00",
+  "since_date": "2026-07-19",
   "total_projects": 109,
-  "total_commits": 871,
+  "total_commits": 896,
   "projects": [
     {
       "name": "PixelOS-AOSP/android_frameworks_base",
@@ -13,6 +13,22 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "a7a508c9",
+          "message": "Fix potential OOM in PduParser by using stream skip",
+          "author": "Pranit Rane",
+          "date": "Fri Oct 16 12:21:35 2026 +0000",
+          "timestamp": 1792153295,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a7a508c9"
+        },
+        {
+          "sha": "c11b4c69",
+          "message": "Fix security vulnerabilities in PduParser.java",
+          "author": "Aishwarya Mallampati",
+          "date": "Fri Oct 16 12:21:34 2026 +0000",
+          "timestamp": 1792153294,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c11b4c69"
+        },
         {
           "sha": "2aa30944",
           "message": "fixup/harden torch power button gestures post 17 merge",
@@ -796,22 +812,6 @@
           "date": "Tue Aug 18 09:31:45 2026 +0000",
           "timestamp": 1787045505,
           "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/07ceb3b2"
-        },
-        {
-          "sha": "331d36a5",
-          "message": "display: Don't spam log when display state changes",
-          "author": "Adithya R",
-          "date": "Tue Aug 18 09:31:45 2026 +0000",
-          "timestamp": 1787045505,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/331d36a5"
-        },
-        {
-          "sha": "ca274b6b",
-          "message": "display: Consider peak refresh rate in BrightnessObserver",
-          "author": "Adithya R",
-          "date": "Tue Aug 18 09:31:45 2026 +0000",
-          "timestamp": 1787045505,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ca274b6b"
         }
       ]
     },
@@ -1621,6 +1621,527 @@
           "date": "Sat Jul 25 17:43:28 2026 +0400",
           "timestamp": 1784987008,
           "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6e126dc"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_vendor_lineage",
+      "path": "vendor/lineage",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_lineage",
+      "remote": "github",
+      "commit_count": 64,
+      "commits": [
+        {
+          "sha": "049661a",
+          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Fri Oct 16 12:24:26 2026 +0000",
+          "timestamp": 1792153466,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/049661a"
+        },
+        {
+          "sha": "87daf52",
+          "message": "config: Don't include tablet.mk for foldable_book devices",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 15 03:34:49 2026 +0300",
+          "timestamp": 1792024489,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/87daf52"
+        },
+        {
+          "sha": "c47804f",
+          "message": "config: Move freeform_window_management feature to common_mobile",
+          "author": "LuK1337",
+          "date": "Wed Oct 14 10:28:41 2026 +0200",
+          "timestamp": 1791966521,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c47804f"
+        },
+        {
+          "sha": "b3d63c6",
+          "message": "kernel: Allow passing Bazel flags from BoardConfig",
+          "author": "chandu078",
+          "date": "Thu Oct 8 06:26:43 2026 +0000",
+          "timestamp": 1791440803,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b3d63c6"
+        },
+        {
+          "sha": "6590d25",
+          "message": "generated_kernel_includes: sanitize linux/eventpoll.h",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 19:15:11 2026 -0400",
+          "timestamp": 1791328511,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/6590d25"
+        },
+        {
+          "sha": "23cf430",
+          "message": "kernel: Don't have devices specify a system_dlkm load list",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 18:01:03 2026 +0000",
+          "timestamp": 1791309663,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/23cf430"
+        },
+        {
+          "sha": "12521de",
+          "message": "release: Bump Security String to 2026-10-01",
+          "author": "Nolen Johnson",
+          "date": "Tue Oct 6 12:26:07 2026 +0000",
+          "timestamp": 1791289567,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/12521de"
+        },
+        {
+          "sha": "8c8ed26",
+          "message": "config: Replace Gallery2 with Canvas",
+          "author": "Luca Stefani",
+          "date": "Sun Oct 4 10:57:49 2026 +0000",
+          "timestamp": 1791111469,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8c8ed26"
+        },
+        {
+          "sha": "12f7d57",
+          "message": "Revert \"overlay: Default to navBar gesture\"",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 30 21:24:42 2026 +0000",
+          "timestamp": 1790803482,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/12f7d57"
+        },
+        {
+          "sha": "eced381",
+          "message": "vars: Update qcom tags",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 30 21:24:36 2026 +0000",
+          "timestamp": 1790803476,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/eced381"
+        },
+        {
+          "sha": "6c2a3a8",
+          "message": "release: Enable new Vision Settings in Accessibility",
+          "author": "Saalim Quadri",
+          "date": "Mon Sep 28 19:20:01 2026 +0000",
+          "timestamp": 1790623201,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/6c2a3a8"
+        },
+        {
+          "sha": "c7df2c6",
+          "message": "[1/2] overlay: Seed the LineageOS palette for first boot",
+          "author": "Saalim Quadri",
+          "date": "Mon Sep 28 19:20:01 2026 +0000",
+          "timestamp": 1790623201,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c7df2c6"
+        },
+        {
+          "sha": "b5020bb",
+          "message": "overlay: Default to navBar gesture",
+          "author": "Saalim Quadri",
+          "date": "Mon Sep 28 19:20:01 2026 +0000",
+          "timestamp": 1790623201,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b5020bb"
+        },
+        {
+          "sha": "125033a",
+          "message": "config: Enable glif_expressive for SUW",
+          "author": "Saalim Quadri",
+          "date": "Mon Sep 28 19:20:01 2026 +0000",
+          "timestamp": 1790623201,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/125033a"
+        },
+        {
+          "sha": "f5c91ed",
+          "message": "overlay: Update DocumentsUIOverlay",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 28 13:21:10 2026 +0000",
+          "timestamp": 1790601670,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f5c91ed"
+        },
+        {
+          "sha": "b423c65",
+          "message": "lineage_generic_car_target: Remove redundant artifact path entry",
+          "author": "Akash Suresh",
+          "date": "Mon Sep 28 01:16:35 2026 +0000",
+          "timestamp": 1790558195,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b423c65"
+        },
+        {
+          "sha": "c764714",
+          "message": "config: Build Gallery2 until Glimpse can edit images",
+          "author": "Nolen Johnson",
+          "date": "Sun Sep 27 16:42:47 2026 +0000",
+          "timestamp": 1790527367,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c764714"
+        },
+        {
+          "sha": "1ac40c5",
+          "message": "kernel: Don't send sources using .incbin to RBE",
+          "author": "LuK1337",
+          "date": "Fri Sep 25 22:46:44 2026 +0200",
+          "timestamp": 1790369204,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1ac40c5"
+        },
+        {
+          "sha": "c6e41c7",
+          "message": "config: Make .repo/manifests.git writable in sandbox",
+          "author": "LuK1337",
+          "date": "Thu Sep 24 06:53:48 2026 +0000",
+          "timestamp": 1790232828,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c6e41c7"
+        },
+        {
+          "sha": "8bf4dfd",
+          "message": "Revert \"build: Drop build-manifest.xml generation\"",
+          "author": "LuK1337",
+          "date": "Thu Sep 24 06:53:48 2026 +0000",
+          "timestamp": 1790232828,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8bf4dfd"
+        },
+        {
+          "sha": "c42f327",
+          "message": "kernel: Fix ignored SYSTEM_KERNEL_MODULES_LOAD in bazel builds",
+          "author": "Bruno Martins",
+          "date": "Thu Sep 24 01:58:53 2026 +0000",
+          "timestamp": 1790215133,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c42f327"
+        },
+        {
+          "sha": "0d2ff0b",
+          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Tue Sep 22 16:25:13 2026 +0000",
+          "timestamp": 1790094313,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/0d2ff0b"
+        },
+        {
+          "sha": "a213bcc",
+          "message": "lineage: products: Set TARGET_SUPPORTS_32_BIT_APPS for ARM GSIs",
+          "author": "Nolen Johnson",
+          "date": "Sun Sep 20 22:32:49 2026 +0000",
+          "timestamp": 1789943569,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a213bcc"
+        },
+        {
+          "sha": "18b6595",
+          "message": "kernel: Use a custom tool for kleaf repo manifest",
+          "author": "LuK1337",
+          "date": "Sun Sep 20 15:03:07 2026 +0200",
+          "timestamp": 1789909387,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/18b6595"
+        },
+        {
+          "sha": "8508704",
+          "message": "kernel: Allow DDK modules to use unsafe kernel headers",
+          "author": "Alexander Koskovich",
+          "date": "Sun Sep 20 12:14:35 2026 +0200",
+          "timestamp": 1789899275,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8508704"
+        },
+        {
+          "sha": "1accd04",
+          "message": "aconfig: Enable enable_redacted_value_for_readable",
+          "author": "LuK1337",
+          "date": "Sat Sep 19 10:41:15 2026 +0200",
+          "timestamp": 1789807275,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1accd04"
+        },
+        {
+          "sha": "2c2da3c",
+          "message": "Revert \"config: tablet: Disable desktop windowing mode on internal displays\"",
+          "author": "Moshe Barash",
+          "date": "Wed Sep 16 20:29:07 2026 +0000",
+          "timestamp": 1789590547,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/2c2da3c"
+        },
+        {
+          "sha": "bb7d2ce",
+          "message": "configs: Move credentials permission support to mobile config",
+          "author": "Timi",
+          "date": "Tue Sep 15 13:46:08 2026 -0400",
+          "timestamp": 1789494368,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/bb7d2ce"
+        },
+        {
+          "sha": "b8bd90b",
+          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
+          "author": "lemezohaib",
+          "date": "Tue Sep 15 14:04:52 2026 +0500",
+          "timestamp": 1789463092,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b8bd90b"
+        },
+        {
+          "sha": "7ca77de",
+          "message": "kernel: Probe libclang before using it for rust bindgen",
+          "author": "Yumi Yukimura",
+          "date": "Sun Sep 13 14:43:33 2026 +0800",
+          "timestamp": 1789281813,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/7ca77de"
+        },
+        {
+          "sha": "dde7a2a",
+          "message": "kernel: Wipe bazel dist dir on each build",
+          "author": "Alexander Koskovich",
+          "date": "Fri Sep 11 13:53:12 2026 +0100",
+          "timestamp": 1789131192,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/dde7a2a"
+        },
+        {
+          "sha": "0f3eb2d",
+          "message": "kernel: Seperate bazel-out from the dist dir",
+          "author": "Alexander Koskovich",
+          "date": "Fri Sep 11 13:53:12 2026 +0100",
+          "timestamp": 1789131192,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/0f3eb2d"
+        },
+        {
+          "sha": "95bc731",
+          "message": "release: Bump Security String to 2026-09-01",
+          "author": "Nolen Johnson",
+          "date": "Fri Sep 11 11:53:31 2026 +0000",
+          "timestamp": 1789127611,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/95bc731"
+        },
+        {
+          "sha": "b104fc7",
+          "message": "kernel: Add RBE support",
+          "author": "LuK1337",
+          "date": "Fri Sep 11 10:17:00 2026 +0000",
+          "timestamp": 1789121820,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b104fc7"
+        },
+        {
+          "sha": "790f193",
+          "message": "kernel: Add AOSP build-tools to inline kernel PATH",
+          "author": "Alexander Koskovich",
+          "date": "Thu Sep 10 17:17:46 2026 +0000",
+          "timestamp": 1789060666,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/790f193"
+        },
+        {
+          "sha": "2116535",
+          "message": "build: Fix typo in kernel.mk",
+          "author": "Tommaso Fonda",
+          "date": "Thu Sep 10 16:59:50 2026 +0000",
+          "timestamp": 1789059590,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/2116535"
+        },
+        {
+          "sha": "e7d54ba",
+          "message": "vars: Add kaanapali-{audio,video,wlan}",
+          "author": "LuK1337",
+          "date": "Wed Sep 9 21:06:30 2026 +0200",
+          "timestamp": 1788980790,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/e7d54ba"
+        },
+        {
+          "sha": "40ebf64",
+          "message": "vars: Add kaanapali-vendor",
+          "author": "LuK1337",
+          "date": "Wed Sep 9 20:40:36 2026 +0200",
+          "timestamp": 1788979236,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/40ebf64"
+        },
+        {
+          "sha": "dc91838",
+          "message": "Merge commit 'refs/changes/75/497575/3' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Wed Sep 9 04:32:32 2026 +0000",
+          "timestamp": 1788928352,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/dc91838"
+        },
+        {
+          "sha": "fe3293b",
+          "message": "release: Bump Security String to 2026-09-01",
+          "author": "Nolen Johnson",
+          "date": "Tue Sep 8 21:26:00 2026 +0000",
+          "timestamp": 1788902760,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/fe3293b"
+        },
+        {
+          "sha": "98a80a8",
+          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
+          "author": "lemezohaib",
+          "date": "Sun Aug 30 02:28:37 2026 +0500",
+          "timestamp": 1788038917,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/98a80a8"
+        },
+        {
+          "sha": "3d3e74f",
+          "message": "release: Update default Clang version from 22.0.1 to 22.0.2",
+          "author": "LuK1337",
+          "date": "Fri Aug 28 20:17:21 2026 +0200",
+          "timestamp": 1787941041,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3d3e74f"
+        },
+        {
+          "sha": "32f55df",
+          "message": "build: Use kernel LLVM version from release flags",
+          "author": "LuK1337",
+          "date": "Fri Aug 28 20:17:21 2026 +0200",
+          "timestamp": 1787941041,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/32f55df"
+        },
+        {
+          "sha": "06d2e82",
+          "message": "lineage: config: Redo ATV size reservations",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 24 21:36:23 2026 +0000",
+          "timestamp": 1787607383,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/06d2e82"
+        },
+        {
+          "sha": "8e82ff5",
+          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into seventeen",
+          "author": "Angaddeep Singh",
+          "date": "Sat Aug 15 12:35:56 2026 +0530",
+          "timestamp": 1786777556,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8e82ff5"
+        },
+        {
+          "sha": "ee5b3b0",
+          "message": "kernel: Add initial support for AutoFDO",
+          "author": "Yumi Yukimura",
+          "date": "Wed Aug 12 19:57:27 2026 +0800",
+          "timestamp": 1786535847,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ee5b3b0"
+        },
+        {
+          "sha": "203cded",
+          "message": "fixup! kernel: Fix build error when modules finder returns nothing",
+          "author": "Yumi Yukimura",
+          "date": "Wed Aug 12 11:19:46 2026 +0800",
+          "timestamp": 1786504786,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/203cded"
+        },
+        {
+          "sha": "7083099",
+          "message": "kernel: Fix build error when modules finder returns nothing",
+          "author": "Yumi Yukimura",
+          "date": "Tue Aug 11 05:05:27 2026 +0000",
+          "timestamp": 1786424727,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/7083099"
+        },
+        {
+          "sha": "f31803f",
+          "message": "build: Drop build-manifest.xml generation",
+          "author": "Michael Bestas",
+          "date": "Thu Aug 6 05:42:33 2026 +0300",
+          "timestamp": 1785984153,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f31803f"
+        },
+        {
+          "sha": "39ebd20",
+          "message": "vars: August 2026 Pixel Update",
+          "author": "Michael Bestas",
+          "date": "Wed Aug 5 17:16:20 2026 +0300",
+          "timestamp": 1785939380,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/39ebd20"
+        },
+        {
+          "sha": "21fb2c0",
+          "message": "kernel: Rip out GCC support",
+          "author": "Michael Bestas",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/21fb2c0"
+        },
+        {
+          "sha": "f0e9f21",
+          "message": "kernel: Update path to rust toolchains",
+          "author": "Nick Reuter",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f0e9f21"
+        },
+        {
+          "sha": "a438593",
+          "message": "lineage: config: common: Build fastbootd by default",
+          "author": "Nolen Johnson",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a438593"
+        },
+        {
+          "sha": "9f3c260",
+          "message": "kernel: Run merge_config.sh from KERNEL_OUT",
+          "author": "Nicholas Lim",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/9f3c260"
+        },
+        {
+          "sha": "f4f942d",
+          "message": "soong: Run kernel header generation cmd in a subshell cd'd to topdir",
+          "author": "Saalim Quadri",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f4f942d"
+        },
+        {
+          "sha": "f2c42e8",
+          "message": "soong: generator: Skip directories in dep_files glob results",
+          "author": "Saalim Quadri",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f2c42e8"
+        },
+        {
+          "sha": "3a8102d",
+          "message": "soong: generator: Update for CP2A",
+          "author": "Luca Stefani",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3a8102d"
+        },
+        {
+          "sha": "dae2a33",
+          "message": "release: Bump aconfig flags extension to CP2A",
+          "author": "Michael Bestas",
+          "date": "Thu Jul 30 13:05:21 2026 -0400",
+          "timestamp": 1785431121,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/dae2a33"
+        },
+        {
+          "sha": "ce6ffe1",
+          "message": "release: Bump Security String to 2026-08-01",
+          "author": "Nolen Johnson",
+          "date": "Thu Jul 30 13:05:20 2026 -0400",
+          "timestamp": 1785431120,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ce6ffe1"
+        },
+        {
+          "sha": "f25d690",
+          "message": "kernel: copy bazel's dtb.img if it exists",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 13:03:05 2026 -0400",
+          "timestamp": 1785430985,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f25d690"
+        },
+        {
+          "sha": "d7907d5",
+          "message": "kernel: fix check when TARGET_NEEDS_DTBOIMAGE and BOARD_KERNEL_SEPARATED_DTBO are both true",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 13:03:05 2026 -0400",
+          "timestamp": 1785430985,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d7907d5"
+        },
+        {
+          "sha": "80bd0ff",
+          "message": "kernel: copy bazel's dtbo.img if it exists",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 13:03:05 2026 -0400",
+          "timestamp": 1785430985,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/80bd0ff"
+        },
+        {
+          "sha": "5c0a867",
+          "message": "kernel: do not use bazel's manifest filtering for 5.15 and 6.1",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 13:03:05 2026 -0400",
+          "timestamp": 1785430985,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/5c0a867"
+        },
+        {
+          "sha": "59a5eeb",
+          "message": "kernel: fix manifest multi-line project handling",
+          "author": "Cosmin Tanislav",
+          "date": "Thu Jul 30 13:03:00 2026 -0400",
+          "timestamp": 1785430980,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/59a5eeb"
         }
       ]
     },
@@ -2928,359 +3449,6 @@
           "date": "Fri Aug 7 12:35:40 2026 +0000",
           "timestamp": 1786106140,
           "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/0fccc19c"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_vendor_lineage",
-      "path": "vendor/lineage",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_lineage",
-      "remote": "github",
-      "commit_count": 43,
-      "commits": [
-        {
-          "sha": "0d2ff0b",
-          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
-          "author": "Ashwin Devi Srinivasan",
-          "date": "Tue Sep 22 16:25:13 2026 +0000",
-          "timestamp": 1790094313,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/0d2ff0b"
-        },
-        {
-          "sha": "a213bcc",
-          "message": "lineage: products: Set TARGET_SUPPORTS_32_BIT_APPS for ARM GSIs",
-          "author": "Nolen Johnson",
-          "date": "Sun Sep 20 22:32:49 2026 +0000",
-          "timestamp": 1789943569,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a213bcc"
-        },
-        {
-          "sha": "18b6595",
-          "message": "kernel: Use a custom tool for kleaf repo manifest",
-          "author": "LuK1337",
-          "date": "Sun Sep 20 15:03:07 2026 +0200",
-          "timestamp": 1789909387,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/18b6595"
-        },
-        {
-          "sha": "8508704",
-          "message": "kernel: Allow DDK modules to use unsafe kernel headers",
-          "author": "Alexander Koskovich",
-          "date": "Sun Sep 20 12:14:35 2026 +0200",
-          "timestamp": 1789899275,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8508704"
-        },
-        {
-          "sha": "1accd04",
-          "message": "aconfig: Enable enable_redacted_value_for_readable",
-          "author": "LuK1337",
-          "date": "Sat Sep 19 10:41:15 2026 +0200",
-          "timestamp": 1789807275,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1accd04"
-        },
-        {
-          "sha": "2c2da3c",
-          "message": "Revert \"config: tablet: Disable desktop windowing mode on internal displays\"",
-          "author": "Moshe Barash",
-          "date": "Wed Sep 16 20:29:07 2026 +0000",
-          "timestamp": 1789590547,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/2c2da3c"
-        },
-        {
-          "sha": "bb7d2ce",
-          "message": "configs: Move credentials permission support to mobile config",
-          "author": "Timi",
-          "date": "Tue Sep 15 13:46:08 2026 -0400",
-          "timestamp": 1789494368,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/bb7d2ce"
-        },
-        {
-          "sha": "b8bd90b",
-          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
-          "author": "lemezohaib",
-          "date": "Tue Sep 15 14:04:52 2026 +0500",
-          "timestamp": 1789463092,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b8bd90b"
-        },
-        {
-          "sha": "7ca77de",
-          "message": "kernel: Probe libclang before using it for rust bindgen",
-          "author": "Yumi Yukimura",
-          "date": "Sun Sep 13 14:43:33 2026 +0800",
-          "timestamp": 1789281813,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/7ca77de"
-        },
-        {
-          "sha": "dde7a2a",
-          "message": "kernel: Wipe bazel dist dir on each build",
-          "author": "Alexander Koskovich",
-          "date": "Fri Sep 11 13:53:12 2026 +0100",
-          "timestamp": 1789131192,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/dde7a2a"
-        },
-        {
-          "sha": "0f3eb2d",
-          "message": "kernel: Seperate bazel-out from the dist dir",
-          "author": "Alexander Koskovich",
-          "date": "Fri Sep 11 13:53:12 2026 +0100",
-          "timestamp": 1789131192,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/0f3eb2d"
-        },
-        {
-          "sha": "95bc731",
-          "message": "release: Bump Security String to 2026-09-01",
-          "author": "Nolen Johnson",
-          "date": "Fri Sep 11 11:53:31 2026 +0000",
-          "timestamp": 1789127611,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/95bc731"
-        },
-        {
-          "sha": "b104fc7",
-          "message": "kernel: Add RBE support",
-          "author": "LuK1337",
-          "date": "Fri Sep 11 10:17:00 2026 +0000",
-          "timestamp": 1789121820,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b104fc7"
-        },
-        {
-          "sha": "790f193",
-          "message": "kernel: Add AOSP build-tools to inline kernel PATH",
-          "author": "Alexander Koskovich",
-          "date": "Thu Sep 10 17:17:46 2026 +0000",
-          "timestamp": 1789060666,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/790f193"
-        },
-        {
-          "sha": "2116535",
-          "message": "build: Fix typo in kernel.mk",
-          "author": "Tommaso Fonda",
-          "date": "Thu Sep 10 16:59:50 2026 +0000",
-          "timestamp": 1789059590,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/2116535"
-        },
-        {
-          "sha": "e7d54ba",
-          "message": "vars: Add kaanapali-{audio,video,wlan}",
-          "author": "LuK1337",
-          "date": "Wed Sep 9 21:06:30 2026 +0200",
-          "timestamp": 1788980790,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/e7d54ba"
-        },
-        {
-          "sha": "40ebf64",
-          "message": "vars: Add kaanapali-vendor",
-          "author": "LuK1337",
-          "date": "Wed Sep 9 20:40:36 2026 +0200",
-          "timestamp": 1788979236,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/40ebf64"
-        },
-        {
-          "sha": "dc91838",
-          "message": "Merge commit 'refs/changes/75/497575/3' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
-          "author": "Ashwin Devi Srinivasan",
-          "date": "Wed Sep 9 04:32:32 2026 +0000",
-          "timestamp": 1788928352,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/dc91838"
-        },
-        {
-          "sha": "fe3293b",
-          "message": "release: Bump Security String to 2026-09-01",
-          "author": "Nolen Johnson",
-          "date": "Tue Sep 8 21:26:00 2026 +0000",
-          "timestamp": 1788902760,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/fe3293b"
-        },
-        {
-          "sha": "98a80a8",
-          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into HEAD",
-          "author": "lemezohaib",
-          "date": "Sun Aug 30 02:28:37 2026 +0500",
-          "timestamp": 1788038917,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/98a80a8"
-        },
-        {
-          "sha": "3d3e74f",
-          "message": "release: Update default Clang version from 22.0.1 to 22.0.2",
-          "author": "LuK1337",
-          "date": "Fri Aug 28 20:17:21 2026 +0200",
-          "timestamp": 1787941041,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3d3e74f"
-        },
-        {
-          "sha": "32f55df",
-          "message": "build: Use kernel LLVM version from release flags",
-          "author": "LuK1337",
-          "date": "Fri Aug 28 20:17:21 2026 +0200",
-          "timestamp": 1787941041,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/32f55df"
-        },
-        {
-          "sha": "06d2e82",
-          "message": "lineage: config: Redo ATV size reservations",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 24 21:36:23 2026 +0000",
-          "timestamp": 1787607383,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/06d2e82"
-        },
-        {
-          "sha": "8e82ff5",
-          "message": "Merge branch 'lineage-24.0' of https://github.com/LineageOS/android_vendor_lineage into seventeen",
-          "author": "Angaddeep Singh",
-          "date": "Sat Aug 15 12:35:56 2026 +0530",
-          "timestamp": 1786777556,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8e82ff5"
-        },
-        {
-          "sha": "ee5b3b0",
-          "message": "kernel: Add initial support for AutoFDO",
-          "author": "Yumi Yukimura",
-          "date": "Wed Aug 12 19:57:27 2026 +0800",
-          "timestamp": 1786535847,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ee5b3b0"
-        },
-        {
-          "sha": "203cded",
-          "message": "fixup! kernel: Fix build error when modules finder returns nothing",
-          "author": "Yumi Yukimura",
-          "date": "Wed Aug 12 11:19:46 2026 +0800",
-          "timestamp": 1786504786,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/203cded"
-        },
-        {
-          "sha": "7083099",
-          "message": "kernel: Fix build error when modules finder returns nothing",
-          "author": "Yumi Yukimura",
-          "date": "Tue Aug 11 05:05:27 2026 +0000",
-          "timestamp": 1786424727,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/7083099"
-        },
-        {
-          "sha": "f31803f",
-          "message": "build: Drop build-manifest.xml generation",
-          "author": "Michael Bestas",
-          "date": "Thu Aug 6 05:42:33 2026 +0300",
-          "timestamp": 1785984153,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f31803f"
-        },
-        {
-          "sha": "39ebd20",
-          "message": "vars: August 2026 Pixel Update",
-          "author": "Michael Bestas",
-          "date": "Wed Aug 5 17:16:20 2026 +0300",
-          "timestamp": 1785939380,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/39ebd20"
-        },
-        {
-          "sha": "21fb2c0",
-          "message": "kernel: Rip out GCC support",
-          "author": "Michael Bestas",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/21fb2c0"
-        },
-        {
-          "sha": "f0e9f21",
-          "message": "kernel: Update path to rust toolchains",
-          "author": "Nick Reuter",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f0e9f21"
-        },
-        {
-          "sha": "a438593",
-          "message": "lineage: config: common: Build fastbootd by default",
-          "author": "Nolen Johnson",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a438593"
-        },
-        {
-          "sha": "9f3c260",
-          "message": "kernel: Run merge_config.sh from KERNEL_OUT",
-          "author": "Nicholas Lim",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/9f3c260"
-        },
-        {
-          "sha": "f4f942d",
-          "message": "soong: Run kernel header generation cmd in a subshell cd'd to topdir",
-          "author": "Saalim Quadri",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f4f942d"
-        },
-        {
-          "sha": "f2c42e8",
-          "message": "soong: generator: Skip directories in dep_files glob results",
-          "author": "Saalim Quadri",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f2c42e8"
-        },
-        {
-          "sha": "3a8102d",
-          "message": "soong: generator: Update for CP2A",
-          "author": "Luca Stefani",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3a8102d"
-        },
-        {
-          "sha": "dae2a33",
-          "message": "release: Bump aconfig flags extension to CP2A",
-          "author": "Michael Bestas",
-          "date": "Thu Jul 30 13:05:21 2026 -0400",
-          "timestamp": 1785431121,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/dae2a33"
-        },
-        {
-          "sha": "ce6ffe1",
-          "message": "release: Bump Security String to 2026-08-01",
-          "author": "Nolen Johnson",
-          "date": "Thu Jul 30 13:05:20 2026 -0400",
-          "timestamp": 1785431120,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ce6ffe1"
-        },
-        {
-          "sha": "f25d690",
-          "message": "kernel: copy bazel's dtb.img if it exists",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 13:03:05 2026 -0400",
-          "timestamp": 1785430985,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/f25d690"
-        },
-        {
-          "sha": "d7907d5",
-          "message": "kernel: fix check when TARGET_NEEDS_DTBOIMAGE and BOARD_KERNEL_SEPARATED_DTBO are both true",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 13:03:05 2026 -0400",
-          "timestamp": 1785430985,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d7907d5"
-        },
-        {
-          "sha": "80bd0ff",
-          "message": "kernel: copy bazel's dtbo.img if it exists",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 13:03:05 2026 -0400",
-          "timestamp": 1785430985,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/80bd0ff"
-        },
-        {
-          "sha": "5c0a867",
-          "message": "kernel: do not use bazel's manifest filtering for 5.15 and 6.1",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 13:03:05 2026 -0400",
-          "timestamp": 1785430985,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/5c0a867"
-        },
-        {
-          "sha": "59a5eeb",
-          "message": "kernel: fix manifest multi-line project handling",
-          "author": "Cosmin Tanislav",
-          "date": "Thu Jul 30 13:03:00 2026 -0400",
-          "timestamp": 1785430980,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/59a5eeb"
         }
       ]
     },
@@ -4699,8 +4867,16 @@
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth",
       "remote": "github",
-      "commit_count": 11,
+      "commit_count": 12,
       "commits": [
+        {
+          "sha": "04618720b",
+          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
+          "author": "Brian Delwiche",
+          "date": "Tue Oct 6 08:47:49 2026 +0000",
+          "timestamp": 1791276469,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/04618720b"
+        },
         {
           "sha": "cf17b6446",
           "message": "GATT: Fix notifications sent to remote device without security checks",
@@ -5481,71 +5657,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_vendor_custom",
-      "path": "vendor/custom",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_custom",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "e389a1e",
-          "message": "overlay: Import lottie screen resolution animations from kodiak SettingsGoogle",
-          "author": "chandu078",
-          "date": "Tue Oct 6 05:46:19 2026 +0000",
-          "timestamp": 1791265579,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/e389a1e"
-        },
-        {
-          "sha": "b28540c",
-          "message": "build: envsetup: Grab kernel LLVM version from vendor/lineage",
-          "author": "LuK1337",
-          "date": "Mon Aug 31 22:39:59 2026 +0545",
-          "timestamp": 1788195299,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/b28540c"
-        },
-        {
-          "sha": "521f63c",
-          "message": "overlay: Update default wallpaper from CD1A",
-          "author": "Ashwin Devi Srinivasan",
-          "date": "Sat Aug 22 12:34:15 2026 +0000",
-          "timestamp": 1787402055,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/521f63c"
-        },
-        {
-          "sha": "6d64bb0",
-          "message": "config: set `net.pixelos.version` unconditionally",
-          "author": "Ashwin Devi Srinivasan",
-          "date": "Tue Aug 18 07:30:55 2026 +0000",
-          "timestamp": 1787038255,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/6d64bb0"
-        },
-        {
-          "sha": "a2572b8",
-          "message": "config: Conditionally build ColumbusService",
-          "author": "someone5678",
-          "date": "Fri Aug 7 06:30:50 2026 +0000",
-          "timestamp": 1786084250,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/a2572b8"
-        },
-        {
-          "sha": "cb05fa5",
-          "message": "overlay: Update lotties from CP2A",
-          "author": "charcoalpt",
-          "date": "Fri Aug 7 06:30:50 2026 +0000",
-          "timestamp": 1786084250,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/cb05fa5"
-        },
-        {
-          "sha": "54e8e9a",
-          "message": "overlay: Do not show header in device info",
-          "author": "charcoalpt",
-          "date": "Fri Aug 7 06:30:41 2026 +0000",
-          "timestamp": 1786084241,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/54e8e9a"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_vendor_crowdin",
       "path": "vendor/crowdin",
       "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin",
@@ -5607,6 +5718,71 @@
           "date": "Mon Sep 7 20:51:12 2026 +0530",
           "timestamp": 1788794472,
           "url": "https://github.com/PixelOS-AOSP/android_vendor_crowdin/commit/b8a7178"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_vendor_custom",
+      "path": "vendor/custom",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_custom",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "e389a1e",
+          "message": "overlay: Import lottie screen resolution animations from kodiak SettingsGoogle",
+          "author": "chandu078",
+          "date": "Tue Oct 6 05:46:19 2026 +0000",
+          "timestamp": 1791265579,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/e389a1e"
+        },
+        {
+          "sha": "b28540c",
+          "message": "build: envsetup: Grab kernel LLVM version from vendor/lineage",
+          "author": "LuK1337",
+          "date": "Mon Aug 31 22:39:59 2026 +0545",
+          "timestamp": 1788195299,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/b28540c"
+        },
+        {
+          "sha": "521f63c",
+          "message": "overlay: Update default wallpaper from CD1A",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Sat Aug 22 12:34:15 2026 +0000",
+          "timestamp": 1787402055,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/521f63c"
+        },
+        {
+          "sha": "6d64bb0",
+          "message": "config: set `net.pixelos.version` unconditionally",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Tue Aug 18 07:30:55 2026 +0000",
+          "timestamp": 1787038255,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/6d64bb0"
+        },
+        {
+          "sha": "a2572b8",
+          "message": "config: Conditionally build ColumbusService",
+          "author": "someone5678",
+          "date": "Fri Aug 7 06:30:50 2026 +0000",
+          "timestamp": 1786084250,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/a2572b8"
+        },
+        {
+          "sha": "cb05fa5",
+          "message": "overlay: Update lotties from CP2A",
+          "author": "charcoalpt",
+          "date": "Fri Aug 7 06:30:50 2026 +0000",
+          "timestamp": 1786084250,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/cb05fa5"
+        },
+        {
+          "sha": "54e8e9a",
+          "message": "overlay: Do not show header in device info",
+          "author": "charcoalpt",
+          "date": "Fri Aug 7 06:30:41 2026 +0000",
+          "timestamp": 1786084241,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/54e8e9a"
         }
       ]
     },
@@ -6075,6 +6251,55 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8550/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "lineageos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "c494968",
+          "message": "pal: Add an option to prefer master gain for equal channel volumes",
+          "author": "Josip Kelecic",
+          "date": "Fri Oct 16 09:49:06 2026 +0000",
+          "timestamp": 1792144146,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c494968"
+        },
+        {
+          "sha": "414e011",
+          "message": "pal: Support sku agnostic odm config path",
+          "author": "inferno0230",
+          "date": "Tue Oct 13 10:34:41 2026 +0530",
+          "timestamp": 1791867881,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/414e011"
+        },
+        {
+          "sha": "8f0219b",
+          "message": "pal: Parse LVACFS microphone feature parameter",
+          "author": "pjgowtham",
+          "date": "Mon Oct 12 20:13:04 2026 +0530",
+          "timestamp": 1791816184,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8f0219b"
+        },
+        {
+          "sha": "0dca409",
+          "message": "pal: Select VoIP calibration by stream sample rate",
+          "author": "Mathias Gluszczynski",
+          "date": "Sun Sep 13 05:59:36 2026 +0200",
+          "timestamp": 1789271976,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0dca409"
+        },
+        {
+          "sha": "39e763e",
+          "message": "ResourceManager: Move some logging to verbose",
+          "author": "Nick Reuter",
+          "date": "Wed Aug 12 14:35:35 2026 -0400",
+          "timestamp": 1786559735,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39e763e"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8650/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
@@ -6500,47 +6725,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8550/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "lineageos",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "414e011",
-          "message": "pal: Support sku agnostic odm config path",
-          "author": "inferno0230",
-          "date": "Tue Oct 13 10:34:41 2026 +0530",
-          "timestamp": 1791867881,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/414e011"
-        },
-        {
-          "sha": "8f0219b",
-          "message": "pal: Parse LVACFS microphone feature parameter",
-          "author": "pjgowtham",
-          "date": "Mon Oct 12 20:13:04 2026 +0530",
-          "timestamp": 1791816184,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/8f0219b"
-        },
-        {
-          "sha": "0dca409",
-          "message": "pal: Select VoIP calibration by stream sample rate",
-          "author": "Mathias Gluszczynski",
-          "date": "Sun Sep 13 05:59:36 2026 +0200",
-          "timestamp": 1789271976,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0dca409"
-        },
-        {
-          "sha": "39e763e",
-          "message": "ResourceManager: Move some logging to verbose",
-          "author": "Nick Reuter",
-          "date": "Wed Aug 12 14:35:35 2026 -0400",
-          "timestamp": 1786559735,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/39e763e"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_external_wpa_supplicant_8",
       "path": "external/wpa_supplicant_8",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_wpa_supplicant_8",
@@ -6784,6 +6968,39 @@
           "date": "Mon Aug 31 14:04:01 2026 +0000",
           "timestamp": 1788185041,
           "url": "https://github.com/PixelOS-AOSP/android_hardware_google_pixel/commit/39c67d3"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "7ee96142e",
+          "message": "RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969)",
+          "author": "Thomas Nguyen",
+          "date": "Tue Oct 6 08:47:51 2026 +0000",
+          "timestamp": 1791276471,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/7ee96142e"
+        },
+        {
+          "sha": "b3996873d",
+          "message": "Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF",
+          "author": "Arun",
+          "date": "Sat Sep 19 20:14:48 2026 +0000",
+          "timestamp": 1789848888,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/b3996873d"
+        },
+        {
+          "sha": "bdeccc0b6",
+          "message": "Block in-call MMI execution for USSD requests.",
+          "author": "sungcheol ahn",
+          "date": "Sat Sep 19 20:14:48 2026 +0000",
+          "timestamp": 1789848888,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/bdeccc0b6"
         }
       ]
     },
@@ -7154,6 +7371,31 @@
       ]
     },
     {
+      "name": "PixelOS-AOSP/android_development",
+      "path": "development",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_development",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "a732e6c7",
+          "message": "Avoid OOM in ApiDemos PduParser by using stream skip",
+          "author": "Pranit Rane",
+          "date": "Tue Oct 6 08:47:16 2026 +0000",
+          "timestamp": 1791276436,
+          "url": "https://github.com/PixelOS-AOSP/android_development/commit/a732e6c7"
+        },
+        {
+          "sha": "d36bcc0d",
+          "message": "Fix potential NPEs in PduParser.parsePartHeaders",
+          "author": "Soumyadeep Paul",
+          "date": "Tue Sep 8 21:16:32 2026 +0000",
+          "timestamp": 1788902192,
+          "url": "https://github.com/PixelOS-AOSP/android_development/commit/d36bcc0d"
+        }
+      ]
+    },
+    {
       "name": "PixelOS-AOSP/android_external_exfatprogs",
       "path": "external/exfatprogs",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_exfatprogs",
@@ -7175,31 +7417,6 @@
           "date": "Tue Sep 8 21:45:18 2026 +0000",
           "timestamp": 1788903918,
           "url": "https://github.com/PixelOS-AOSP/android_external_exfatprogs/commit/e2e0f4f"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "b3996873d",
-          "message": "Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF",
-          "author": "Arun",
-          "date": "Sat Sep 19 20:14:48 2026 +0000",
-          "timestamp": 1789848888,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/b3996873d"
-        },
-        {
-          "sha": "bdeccc0b6",
-          "message": "Block in-call MMI execution for USSD requests.",
-          "author": "sungcheol ahn",
-          "date": "Sat Sep 19 20:14:48 2026 +0000",
-          "timestamp": 1789848888,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/bdeccc0b6"
         }
       ]
     },
@@ -7229,31 +7446,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_apps_ParanoidSense",
-      "path": "packages/apps/ParanoidSense",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "912c40b",
-          "message": "ParanoidSense: Move to system_ext",
-          "author": "Ashwin Devi Srinivasan",
-          "date": "Mon Sep 21 08:33:02 2026 +0000",
-          "timestamp": 1789979582,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/912c40b"
-        },
-        {
-          "sha": "967c787",
-          "message": "FaceSense: Support private space enrollment [2/2]",
-          "author": "Ashwin Devi Srinivasan",
-          "date": "Sun Aug 30 11:52:27 2026 +0000",
-          "timestamp": 1788090747,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/967c787"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_apps_ContactsPicker",
       "path": "packages/apps/ContactsPicker",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker",
@@ -7275,6 +7467,31 @@
           "date": "Wed Sep 2 18:08:14 2026 +0000",
           "timestamp": 1788372494,
           "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ContactsPicker/commit/2a5d79a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_packages_apps_ParanoidSense",
+      "path": "packages/apps/ParanoidSense",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "912c40b",
+          "message": "ParanoidSense: Move to system_ext",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Mon Sep 21 08:33:02 2026 +0000",
+          "timestamp": 1789979582,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/912c40b"
+        },
+        {
+          "sha": "967c787",
+          "message": "FaceSense: Support private space enrollment [2/2]",
+          "author": "Ashwin Devi Srinivasan",
+          "date": "Sun Aug 30 11:52:27 2026 +0000",
+          "timestamp": 1788090747,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/967c787"
         }
       ]
     },
@@ -7304,31 +7521,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_providers_ContactsProvider",
-      "path": "packages/providers/ContactsProvider",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "61bc235",
-          "message": "Restrict max size for Note.NOTE field",
-          "author": "Duy Truong",
-          "date": "Sat Sep 19 20:14:51 2026 +0000",
-          "timestamp": 1789848891,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider/commit/61bc235"
-        },
-        {
-          "sha": "216dcc9",
-          "message": "Prevent SQL injection in SelectionBuilder",
-          "author": "Duy Truong",
-          "date": "Wed Sep 2 18:08:34 2026 +0000",
-          "timestamp": 1788372514,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider/commit/216dcc9"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_modules_Wifi",
       "path": "packages/modules/Wifi",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi",
@@ -7350,6 +7542,31 @@
           "date": "Wed Sep 2 18:08:33 2026 +0000",
           "timestamp": 1788372513,
           "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi/commit/b10bc117"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_packages_providers_ContactsProvider",
+      "path": "packages/providers/ContactsProvider",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "61bc235",
+          "message": "Restrict max size for Note.NOTE field",
+          "author": "Duy Truong",
+          "date": "Sat Sep 19 20:14:51 2026 +0000",
+          "timestamp": 1789848891,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider/commit/61bc235"
+        },
+        {
+          "sha": "216dcc9",
+          "message": "Prevent SQL injection in SelectionBuilder",
+          "author": "Duy Truong",
+          "date": "Wed Sep 2 18:08:34 2026 +0000",
+          "timestamp": 1788372514,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider/commit/216dcc9"
         }
       ]
     },
@@ -7650,23 +7867,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_development",
-      "path": "development",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_development",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d36bcc0d",
-          "message": "Fix potential NPEs in PduParser.parsePartHeaders",
-          "author": "Soumyadeep Paul",
-          "date": "Tue Sep 8 21:16:32 2026 +0000",
-          "timestamp": 1788902192,
-          "url": "https://github.com/PixelOS-AOSP/android_development/commit/d36bcc0d"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_external_libcupsfilters",
       "path": "external/libcupsfilters",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_libcupsfilters",
@@ -7752,23 +7952,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_hardware_nxp_secure_element",
-      "path": "hardware/nxp/secure_element",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9994eaf",
-          "message": "Fix out-of-bounds write in SecureElement openLogicalChannel",
-          "author": "Preston Cody",
-          "date": "Wed Sep 2 18:08:14 2026 +0000",
-          "timestamp": 1788372494,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element/commit/9994eaf"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_hardware_nxp_nfc",
       "path": "hardware/nxp/nfc",
       "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc",
@@ -7782,6 +7965,23 @@
           "date": "Sat Sep 19 20:44:48 2026 +0000",
           "timestamp": 1789850688,
           "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_nfc/commit/af6bbbc"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_hardware_nxp_secure_element",
+      "path": "hardware/nxp/secure_element",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9994eaf",
+          "message": "Fix out-of-bounds write in SecureElement openLogicalChannel",
+          "author": "Preston Cody",
+          "date": "Wed Sep 2 18:08:14 2026 +0000",
+          "timestamp": 1788372494,
+          "url": "https://github.com/PixelOS-AOSP/android_hardware_nxp_secure_element/commit/9994eaf"
         }
       ]
     },
@@ -7905,23 +8105,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8e2fecc",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Fri Aug 7 12:54:43 2026 +0000",
-          "timestamp": 1786107283,
-          "url": "https://github.com/PixelOS-AOSP/android_system_media/commit/8e2fecc"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_system_memory_libion",
       "path": "system/memory/libion",
       "repo_url": "https://github.com/PixelOS-AOSP/android_system_memory_libion",
@@ -7935,6 +8118,23 @@
           "date": "Fri Aug 28 11:49:43 2026 -0500",
           "timestamp": 1787935783,
           "url": "https://github.com/PixelOS-AOSP/android_system_memory_libion/commit/abd899d"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_system_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8e2fecc",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Fri Aug 7 12:54:43 2026 +0000",
+          "timestamp": 1786107283,
+          "url": "https://github.com/PixelOS-AOSP/android_system_media/commit/8e2fecc"
         }
       ]
     },
