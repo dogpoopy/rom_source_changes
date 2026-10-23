@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-24.0",
-  "generated_at": "2026-10-22T03:12:55.233476+00:00",
-  "since_date": "2026-07-24",
-  "total_projects": 164,
-  "total_commits": 1842,
+  "generated_at": "2026-10-23T03:19:31.931843+00:00",
+  "since_date": "2026-07-25",
+  "total_projects": 165,
+  "total_commits": 1858,
   "projects": [
     {
       "name": "LineageOS/android_frameworks_base",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "653be4a9",
+          "message": "WiredAccessoryManager: Use extcon when no legacy switch exists",
+          "author": "Vitaliy Tomin",
+          "date": "Thu Oct 22 03:23:39 2026 +0000",
+          "timestamp": 1792639419,
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/653be4a9"
+        },
         {
           "sha": "e68d494b",
           "message": "systemui: Update keyguard carrier text padding on configuration change",
@@ -804,14 +812,6 @@
           "date": "Thu Sep 10 14:54:46 2026 -0400",
           "timestamp": 1789066486,
           "url": "https://github.com/LineageOS/android_frameworks_base/commit/5e56095e"
-        },
-        {
-          "sha": "447199c3",
-          "message": "Screenrecord: Make low quality bitrate scalable per device",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Sep 10 14:54:46 2026 -0400",
-          "timestamp": 1789066486,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/447199c3"
         }
       ]
     },
@@ -3167,8 +3167,24 @@
       "path": "lineage/scripts",
       "repo_url": "https://github.com/LineageOS/scripts",
       "remote": "github",
-      "commit_count": 85,
+      "commit_count": 87,
       "commits": [
+        {
+          "sha": "673ea75",
+          "message": "dev: rro: add generic-ims to package locations",
+          "author": "Thomas Turner",
+          "date": "Thu Oct 22 18:09:55 2026 +0000",
+          "timestamp": 1792692595,
+          "url": "https://github.com/LineageOS/scripts/commit/673ea75"
+        },
+        {
+          "sha": "3896d39",
+          "message": "dev: rro: Search device/lineage/atv/apps",
+          "author": "Nolen Johnson",
+          "date": "Thu Oct 22 14:08:32 2026 -0400",
+          "timestamp": 1792692512,
+          "url": "https://github.com/LineageOS/scripts/commit/3896d39"
+        },
         {
           "sha": "9e37043",
           "message": "pixel: Also update BuildSystemDesc",
@@ -6854,7 +6870,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8850",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 46,
+      "commit_count": 42,
       "commits": [
         {
           "sha": "08110cc",
@@ -7191,38 +7207,6 @@
           "date": "Mon Jul 27 06:12:55 2026 -0700",
           "timestamp": 1785157975,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f4f6734"
-        },
-        {
-          "sha": "6f09ed1",
-          "message": "Merge \"sepolicy_vndr: Allow USB HAL to read sysfs_udc directory\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Jul 24 12:49:33 2026 -0700",
-          "timestamp": 1784922573,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6f09ed1"
-        },
-        {
-          "sha": "bad26e5",
-          "message": "Merge \"sepolicy_vndr: add labels /sys/block/sd*/queue/rq_affinity for chora\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Jul 24 06:01:53 2026 -0700",
-          "timestamp": 1784898113,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/bad26e5"
-        },
-        {
-          "sha": "80c2ac8",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Ayushi Kumari Singh",
-          "date": "Fri Jul 24 15:37:36 2026 +0530",
-          "timestamp": 1784887656,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/80c2ac8"
-        },
-        {
-          "sha": "67dec5d",
-          "message": "sepolicy: Add wpss and icnss/net sepolicies for bourtzi",
-          "author": "Prateek Patil",
-          "date": "Fri Jul 24 15:02:33 2026 +0530",
-          "timestamp": 1784885553,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/67dec5d"
         }
       ]
     },
@@ -9807,6 +9791,159 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Seedvault",
+      "path": "packages/apps/Seedvault",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Seedvault",
+      "remote": "github",
+      "commit_count": 18,
+      "commits": [
+        {
+          "sha": "cd6ab3f",
+          "message": "Merge branch 'android17' of github.com:seedvault-app/seedvault into lineage-24.0",
+          "author": "Michael Bestas",
+          "date": "Tue Oct 20 23:14:05 2026 +0300",
+          "timestamp": 1792527245,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/cd6ab3f"
+        },
+        {
+          "sha": "fc98f36",
+          "message": "Merge pull request #1052 from grote/email",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 14 16:28:51 2026 +0300",
+          "timestamp": 1791984531,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/fc98f36"
+        },
+        {
+          "sha": "b910876",
+          "message": "Remove email address",
+          "author": "Torsten Grote",
+          "date": "Thu Oct 8 11:35:56 2026 -0300",
+          "timestamp": 1791470156,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/b910876"
+        },
+        {
+          "sha": "a8b5d45",
+          "message": "Merge pull request #1043 from althafvly/android16-user",
+          "author": "Torsten Grote",
+          "date": "Mon Sep 21 15:08:47 2026 -0300",
+          "timestamp": 1790014127,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/a8b5d45"
+        },
+        {
+          "sha": "9d82a79",
+          "message": "Exclude SMS provider from backup on non-main users",
+          "author": "althafvly",
+          "date": "Mon Sep 21 15:04:08 2026 -0300",
+          "timestamp": 1790013848,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/9d82a79"
+        },
+        {
+          "sha": "608aa7b",
+          "message": "Merge pull request #1030 from weblate/weblate-calyxos-seedvault",
+          "author": "Torsten Grote",
+          "date": "Mon Sep 21 14:41:00 2026 -0300",
+          "timestamp": 1790012460,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/608aa7b"
+        },
+        {
+          "sha": "1b4b4db",
+          "message": "Import translations from Weblate",
+          "author": "Hosted Weblate",
+          "date": "Mon Sep 21 14:29:56 2026 -0300",
+          "timestamp": 1790011796,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/1b4b4db"
+        },
+        {
+          "sha": "66c1acb",
+          "message": "Import translations from Weblate",
+          "author": "Hosted Weblate",
+          "date": "Mon Sep 21 14:29:56 2026 -0300",
+          "timestamp": 1790011796,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/66c1acb"
+        },
+        {
+          "sha": "ea6b1e1",
+          "message": "Merge pull request #1048 from grote/access-local-network",
+          "author": "Torsten Grote",
+          "date": "Wed Aug 12 05:01:26 2026 -0300",
+          "timestamp": 1786521686,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/ea6b1e1"
+        },
+        {
+          "sha": "fdbaa9c",
+          "message": "Add ACCESS_LOCAL_NETWORK permission needed to access local servers on Android 17",
+          "author": "Torsten Grote",
+          "date": "Thu Aug 6 09:56:51 2026 +0200",
+          "timestamp": 1786003011,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/fdbaa9c"
+        },
+        {
+          "sha": "92ddb0a",
+          "message": "Merge pull request #1046 from seedvault-app/ci-instrumentation-tests-api-36",
+          "author": "Torsten Grote",
+          "date": "Thu Jul 30 05:05:19 2026 -0300",
+          "timestamp": 1785398719,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/92ddb0a"
+        },
+        {
+          "sha": "7c879ac",
+          "message": "Run the instrumentation tests on Android 16 (API 36)",
+          "author": "Steve Soltys",
+          "date": "Thu Jul 30 04:55:27 2026 -0300",
+          "timestamp": 1785398127,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/7c879ac"
+        },
+        {
+          "sha": "3ca6cab",
+          "message": "Merge pull request #1045 from seedvault-app/ci-migrate-instrumentation-tests",
+          "author": "Torsten Grote",
+          "date": "Thu Jul 30 04:52:58 2026 -0300",
+          "timestamp": 1785397978,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/3ca6cab"
+        },
+        {
+          "sha": "8a0ec7d",
+          "message": "Limit GITHUB_TOKEN permissions in the test workflow",
+          "author": "Steve Soltys",
+          "date": "Wed Jul 29 05:05:36 2026 +0000",
+          "timestamp": 1785301536,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/8a0ec7d"
+        },
+        {
+          "sha": "0d42ad2",
+          "message": "Use legacy jniLibs packaging for the app androidTest APK",
+          "author": "Steve Soltys",
+          "date": "Wed Jul 29 04:48:05 2026 +0000",
+          "timestamp": 1785300485,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/0d42ad2"
+        },
+        {
+          "sha": "847478b",
+          "message": "Run instrumentation tests on GitHub Actions instead of Cirrus",
+          "author": "Steve Soltys",
+          "date": "Wed Jul 29 04:47:44 2026 +0000",
+          "timestamp": 1785300464,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/847478b"
+        },
+        {
+          "sha": "746940a",
+          "message": "Merge pull request #1044 from Amagah/fix-empty-backup-warning",
+          "author": "Torsten Grote",
+          "date": "Mon Jul 27 05:57:06 2026 -0300",
+          "timestamp": 1785142626,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/746940a"
+        },
+        {
+          "sha": "f47750d",
+          "message": "Only treat eng builds as debug",
+          "author": "Chirayu Desai",
+          "date": "Sat Jul 25 17:53:50 2026 +0300",
+          "timestamp": 1784991230,
+          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/f47750d"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android",
       "path": "android",
       "repo_url": "https://github.com/LineageOS/android",
@@ -10206,264 +10343,6 @@
           "date": "Sat Jul 25 13:48:48 2026 +0300",
           "timestamp": 1784976528,
           "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/8525f9a"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-core",
-      "path": "hardware/qcom-caf/sm8850/display/core",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core",
-      "remote": "github",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "3f56965",
-          "message": "Revert \"sdmclient: Avoid extended config ID collisions\"",
-          "author": "Chandu Dyavanapelli",
-          "date": "Sun Sep 27 17:09:42 2026 +0000",
-          "timestamp": 1790528982,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/3f56965"
-        },
-        {
-          "sha": "fb79f10",
-          "message": "sdmclient: Avoid extended config ID collisions",
-          "author": "Akshay Kakatkar",
-          "date": "Tue Sep 22 16:17:03 2026 +0000",
-          "timestamp": 1790093823,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/fb79f10"
-        },
-        {
-          "sha": "8361052",
-          "message": "fixup! sdm: Inline privacy_regions and corner_radius",
-          "author": "LuK1337",
-          "date": "Mon Sep 21 12:29:09 2026 +0200",
-          "timestamp": 1789986549,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/8361052"
-        },
-        {
-          "sha": "8bcaa9c",
-          "message": "sdmclient: Skip device composition for cursor layer",
-          "author": "LuK1337",
-          "date": "Sat Sep 12 15:26:17 2026 +0200",
-          "timestamp": 1789219577,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/8bcaa9c"
-        },
-        {
-          "sha": "b0661fe",
-          "message": "sdm: Inline privacy_regions and corner_radius",
-          "author": "LuK1337",
-          "date": "Sat Sep 12 15:26:17 2026 +0200",
-          "timestamp": 1789219577,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/b0661fe"
-        },
-        {
-          "sha": "2085ae0",
-          "message": "Revert \"sdm: Extend allowed_mode_switch to support up to 256 display modes\"",
-          "author": "LuK1337",
-          "date": "Sat Sep 12 15:26:17 2026 +0200",
-          "timestamp": 1789219577,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/2085ae0"
-        },
-        {
-          "sha": "67c0dfa",
-          "message": "Address -Wformat warnings",
-          "author": "LuK1337",
-          "date": "Sat Sep 12 15:26:17 2026 +0200",
-          "timestamp": 1789219577,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/67c0dfa"
-        },
-        {
-          "sha": "443a38c",
-          "message": "display-core: Remove smmu-proxy headers defaults",
-          "author": "chandu078",
-          "date": "Wed Sep 9 21:06:21 2026 +0200",
-          "timestamp": 1788980781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/443a38c"
-        },
-        {
-          "sha": "9e3c673",
-          "message": "display-core: Remove dependencies of display specific kernel headers",
-          "author": "chandu078",
-          "date": "Wed Sep 9 21:06:21 2026 +0200",
-          "timestamp": 1788980781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/9e3c673"
-        },
-        {
-          "sha": "1a51350",
-          "message": "Add .gitupstream file",
-          "author": "Chirayu Desai",
-          "date": "Wed Sep 9 21:06:21 2026 +0200",
-          "timestamp": 1788980781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/1a51350"
-        },
-        {
-          "sha": "21883c5",
-          "message": "snapalloc: Fix dynamic metadata set for batch mode buffers",
-          "author": "Bikki Srinivasa Rao",
-          "date": "Mon Aug 10 04:20:04 2026 -0700",
-          "timestamp": 1786360804,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/21883c5"
-        },
-        {
-          "sha": "529bed0",
-          "message": "Merge 946a78eb53d170883d3bd18369478cf724a88ace on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Aug 5 09:42:03 2026 +0000",
-          "timestamp": 1785922923,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/529bed0"
-        },
-        {
-          "sha": "946a78e",
-          "message": "Merge \"display-core: Add qdcm files for bourtzi target\"",
-          "author": "QCTECMDR Service",
-          "date": "Sun Aug 2 23:56:30 2026 -0700",
-          "timestamp": 1785740190,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/946a78e"
-        },
-        {
-          "sha": "c72c990",
-          "message": "display-core: Add qdcm files for bourtzi target",
-          "author": "Bikki Srinivasa Rao",
-          "date": "Mon Jul 27 08:00:53 2026 -0700",
-          "timestamp": 1785164453,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/c72c990"
-        },
-        {
-          "sha": "9acda5a",
-          "message": "display-core: Add qdcm files for bourtzi target",
-          "author": "Bikki Srinivasa Rao",
-          "date": "Fri Jul 24 10:47:52 2026 +0530",
-          "timestamp": 1784870272,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/9acda5a"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_power",
-      "path": "vendor/qcom/opensource/power",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
-      "remote": "github",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "2a237fa",
-          "message": "power: Bump power HAL VINTF fragment to v7",
-          "author": "Alexander Koskovich",
-          "date": "Mon Oct 19 20:01:07 2026 +0000",
-          "timestamp": 1792440067,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/2a237fa"
-        },
-        {
-          "sha": "b464d90",
-          "message": "power: Add support for multiple DT2W nodes",
-          "author": "Bruno Martins",
-          "date": "Mon Oct 19 18:51:09 2026 +0100",
-          "timestamp": 1792432269,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/b464d90"
-        },
-        {
-          "sha": "e6325f3",
-          "message": "Merge tag 'LA.VENDOR.16.2.0.r1-20500-kaanapali.0' into staging/lineage-24.0_merge-LA.VENDOR.16.2.0.r1-20500-kaanapali.0",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 27 15:43:07 2026 +0300",
-          "timestamp": 1790512987,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/e6325f3"
-        },
-        {
-          "sha": "6a317ed",
-          "message": "power: camera powerhint change for bourtzi",
-          "author": "Saiteja Bachu",
-          "date": "Tue Aug 11 04:36:44 2026 -0700",
-          "timestamp": 1786448204,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/6a317ed"
-        },
-        {
-          "sha": "6caff22",
-          "message": "Merge 4e22175dece9571ef6dd763ba43f85343da5cee1 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Aug 4 13:40:43 2026 +0530",
-          "timestamp": 1785831043,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/6caff22"
-        },
-        {
-          "sha": "4e22175",
-          "message": "Merge \"power: add powerhint for hamoa_la\" into power.lnx.9.0",
-          "author": "Linux Build Service Account",
-          "date": "Sat Aug 1 02:24:08 2026 -0700",
-          "timestamp": 1785576248,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4e22175"
-        },
-        {
-          "sha": "793b8c8",
-          "message": "power: add powerhint for hamoa_la",
-          "author": "Divya Verma",
-          "date": "Sat Aug 1 01:59:17 2026 -0700",
-          "timestamp": 1785574757,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/793b8c8"
-        },
-        {
-          "sha": "5bf6d06",
-          "message": "Merge \"power: camera powerhint change for bourtzi\" into power.lnx.9.0",
-          "author": "Linux Build Service Account",
-          "date": "Fri Jul 31 10:43:06 2026 -0700",
-          "timestamp": 1785519786,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/5bf6d06"
-        },
-        {
-          "sha": "150e02b",
-          "message": "power: camera powerhint change for bourtzi",
-          "author": "Saiteja Bachu",
-          "date": "Fri Jul 31 12:15:05 2026 +0530",
-          "timestamp": 1785480305,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/150e02b"
-        },
-        {
-          "sha": "ebd32f5",
-          "message": "power:- disable powerhint for preview usecase in CQ2390",
-          "author": "Pawan Prasad",
-          "date": "Thu Jul 30 20:55:07 2026 +0530",
-          "timestamp": 1785425107,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/ebd32f5"
-        },
-        {
-          "sha": "baaac1c",
-          "message": "power: camera powerhint change for bourtzi",
-          "author": "Saiteja Bachu",
-          "date": "Tue Jul 28 02:54:38 2026 -0700",
-          "timestamp": 1785232478,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/baaac1c"
-        },
-        {
-          "sha": "7bcb562",
-          "message": "Merge \"Revert \"Power: camera powerhint initial tuning\"\" into power.lnx.8.0.r4-rel",
-          "author": "Linux Build Service Account",
-          "date": "Tue Jul 28 02:05:02 2026 -0700",
-          "timestamp": 1785229502,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/7bcb562"
-        },
-        {
-          "sha": "4817da4",
-          "message": "power: camera powerhint change for Bourtzi",
-          "author": "Saiteja Bachu",
-          "date": "Mon Jul 27 06:19:07 2026 -0700",
-          "timestamp": 1785158347,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4817da4"
-        },
-        {
-          "sha": "4b6ce7b",
-          "message": "Revert \"Power: camera powerhint initial tuning\"",
-          "author": "Saiteja Bachu",
-          "date": "Mon Jul 27 06:18:02 2026 -0700",
-          "timestamp": 1785158282,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4b6ce7b"
-        },
-        {
-          "sha": "d1b05ad",
-          "message": "power: camera powerhint change for bourtzi",
-          "author": "Saiteja Bachu",
-          "date": "Fri Jul 24 10:07:48 2026 +0530",
-          "timestamp": 1784867868,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/d1b05ad"
         }
       ]
     },
@@ -11069,6 +10948,248 @@
           "date": "Mon Jul 27 06:55:29 2026 -0700",
           "timestamp": 1785160529,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/458bfdf"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-core",
+      "path": "hardware/qcom-caf/sm8850/display/core",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core",
+      "remote": "github",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "3f56965",
+          "message": "Revert \"sdmclient: Avoid extended config ID collisions\"",
+          "author": "Chandu Dyavanapelli",
+          "date": "Sun Sep 27 17:09:42 2026 +0000",
+          "timestamp": 1790528982,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/3f56965"
+        },
+        {
+          "sha": "fb79f10",
+          "message": "sdmclient: Avoid extended config ID collisions",
+          "author": "Akshay Kakatkar",
+          "date": "Tue Sep 22 16:17:03 2026 +0000",
+          "timestamp": 1790093823,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/fb79f10"
+        },
+        {
+          "sha": "8361052",
+          "message": "fixup! sdm: Inline privacy_regions and corner_radius",
+          "author": "LuK1337",
+          "date": "Mon Sep 21 12:29:09 2026 +0200",
+          "timestamp": 1789986549,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/8361052"
+        },
+        {
+          "sha": "8bcaa9c",
+          "message": "sdmclient: Skip device composition for cursor layer",
+          "author": "LuK1337",
+          "date": "Sat Sep 12 15:26:17 2026 +0200",
+          "timestamp": 1789219577,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/8bcaa9c"
+        },
+        {
+          "sha": "b0661fe",
+          "message": "sdm: Inline privacy_regions and corner_radius",
+          "author": "LuK1337",
+          "date": "Sat Sep 12 15:26:17 2026 +0200",
+          "timestamp": 1789219577,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/b0661fe"
+        },
+        {
+          "sha": "2085ae0",
+          "message": "Revert \"sdm: Extend allowed_mode_switch to support up to 256 display modes\"",
+          "author": "LuK1337",
+          "date": "Sat Sep 12 15:26:17 2026 +0200",
+          "timestamp": 1789219577,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/2085ae0"
+        },
+        {
+          "sha": "67c0dfa",
+          "message": "Address -Wformat warnings",
+          "author": "LuK1337",
+          "date": "Sat Sep 12 15:26:17 2026 +0200",
+          "timestamp": 1789219577,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/67c0dfa"
+        },
+        {
+          "sha": "443a38c",
+          "message": "display-core: Remove smmu-proxy headers defaults",
+          "author": "chandu078",
+          "date": "Wed Sep 9 21:06:21 2026 +0200",
+          "timestamp": 1788980781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/443a38c"
+        },
+        {
+          "sha": "9e3c673",
+          "message": "display-core: Remove dependencies of display specific kernel headers",
+          "author": "chandu078",
+          "date": "Wed Sep 9 21:06:21 2026 +0200",
+          "timestamp": 1788980781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/9e3c673"
+        },
+        {
+          "sha": "1a51350",
+          "message": "Add .gitupstream file",
+          "author": "Chirayu Desai",
+          "date": "Wed Sep 9 21:06:21 2026 +0200",
+          "timestamp": 1788980781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/1a51350"
+        },
+        {
+          "sha": "21883c5",
+          "message": "snapalloc: Fix dynamic metadata set for batch mode buffers",
+          "author": "Bikki Srinivasa Rao",
+          "date": "Mon Aug 10 04:20:04 2026 -0700",
+          "timestamp": 1786360804,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/21883c5"
+        },
+        {
+          "sha": "529bed0",
+          "message": "Merge 946a78eb53d170883d3bd18369478cf724a88ace on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Wed Aug 5 09:42:03 2026 +0000",
+          "timestamp": 1785922923,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/529bed0"
+        },
+        {
+          "sha": "946a78e",
+          "message": "Merge \"display-core: Add qdcm files for bourtzi target\"",
+          "author": "QCTECMDR Service",
+          "date": "Sun Aug 2 23:56:30 2026 -0700",
+          "timestamp": 1785740190,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/946a78e"
+        },
+        {
+          "sha": "c72c990",
+          "message": "display-core: Add qdcm files for bourtzi target",
+          "author": "Bikki Srinivasa Rao",
+          "date": "Mon Jul 27 08:00:53 2026 -0700",
+          "timestamp": 1785164453,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/c72c990"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_power",
+      "path": "vendor/qcom/opensource/power",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
+      "remote": "github",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "2a237fa",
+          "message": "power: Bump power HAL VINTF fragment to v7",
+          "author": "Alexander Koskovich",
+          "date": "Mon Oct 19 20:01:07 2026 +0000",
+          "timestamp": 1792440067,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/2a237fa"
+        },
+        {
+          "sha": "b464d90",
+          "message": "power: Add support for multiple DT2W nodes",
+          "author": "Bruno Martins",
+          "date": "Mon Oct 19 18:51:09 2026 +0100",
+          "timestamp": 1792432269,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/b464d90"
+        },
+        {
+          "sha": "e6325f3",
+          "message": "Merge tag 'LA.VENDOR.16.2.0.r1-20500-kaanapali.0' into staging/lineage-24.0_merge-LA.VENDOR.16.2.0.r1-20500-kaanapali.0",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 27 15:43:07 2026 +0300",
+          "timestamp": 1790512987,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/e6325f3"
+        },
+        {
+          "sha": "6a317ed",
+          "message": "power: camera powerhint change for bourtzi",
+          "author": "Saiteja Bachu",
+          "date": "Tue Aug 11 04:36:44 2026 -0700",
+          "timestamp": 1786448204,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/6a317ed"
+        },
+        {
+          "sha": "6caff22",
+          "message": "Merge 4e22175dece9571ef6dd763ba43f85343da5cee1 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Aug 4 13:40:43 2026 +0530",
+          "timestamp": 1785831043,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/6caff22"
+        },
+        {
+          "sha": "4e22175",
+          "message": "Merge \"power: add powerhint for hamoa_la\" into power.lnx.9.0",
+          "author": "Linux Build Service Account",
+          "date": "Sat Aug 1 02:24:08 2026 -0700",
+          "timestamp": 1785576248,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4e22175"
+        },
+        {
+          "sha": "793b8c8",
+          "message": "power: add powerhint for hamoa_la",
+          "author": "Divya Verma",
+          "date": "Sat Aug 1 01:59:17 2026 -0700",
+          "timestamp": 1785574757,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/793b8c8"
+        },
+        {
+          "sha": "5bf6d06",
+          "message": "Merge \"power: camera powerhint change for bourtzi\" into power.lnx.9.0",
+          "author": "Linux Build Service Account",
+          "date": "Fri Jul 31 10:43:06 2026 -0700",
+          "timestamp": 1785519786,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/5bf6d06"
+        },
+        {
+          "sha": "150e02b",
+          "message": "power: camera powerhint change for bourtzi",
+          "author": "Saiteja Bachu",
+          "date": "Fri Jul 31 12:15:05 2026 +0530",
+          "timestamp": 1785480305,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/150e02b"
+        },
+        {
+          "sha": "ebd32f5",
+          "message": "power:- disable powerhint for preview usecase in CQ2390",
+          "author": "Pawan Prasad",
+          "date": "Thu Jul 30 20:55:07 2026 +0530",
+          "timestamp": 1785425107,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/ebd32f5"
+        },
+        {
+          "sha": "baaac1c",
+          "message": "power: camera powerhint change for bourtzi",
+          "author": "Saiteja Bachu",
+          "date": "Tue Jul 28 02:54:38 2026 -0700",
+          "timestamp": 1785232478,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/baaac1c"
+        },
+        {
+          "sha": "7bcb562",
+          "message": "Merge \"Revert \"Power: camera powerhint initial tuning\"\" into power.lnx.8.0.r4-rel",
+          "author": "Linux Build Service Account",
+          "date": "Tue Jul 28 02:05:02 2026 -0700",
+          "timestamp": 1785229502,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/7bcb562"
+        },
+        {
+          "sha": "4817da4",
+          "message": "power: camera powerhint change for Bourtzi",
+          "author": "Saiteja Bachu",
+          "date": "Mon Jul 27 06:19:07 2026 -0700",
+          "timestamp": 1785158347,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4817da4"
+        },
+        {
+          "sha": "4b6ce7b",
+          "message": "Revert \"Power: camera powerhint initial tuning\"",
+          "author": "Saiteja Bachu",
+          "date": "Mon Jul 27 06:18:02 2026 -0700",
+          "timestamp": 1785158282,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4b6ce7b"
         }
       ]
     },
@@ -11979,87 +12100,6 @@
     },
     {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8450",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "a6bcda4",
-          "message": "fixup! taro: Label additional read_ahead_kb node",
-          "author": "Alexander Koskovich",
-          "date": "Tue Oct 6 14:32:15 2026 -0400",
-          "timestamp": 1791311535,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a6bcda4"
-        },
-        {
-          "sha": "693fc15",
-          "message": "taro: Match all read_ahead_kb nodes",
-          "author": "dianlujitao",
-          "date": "Tue Oct 6 14:15:37 2026 -0400",
-          "timestamp": 1791310537,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/693fc15"
-        },
-        {
-          "sha": "dbbd1c3",
-          "message": "Vendor selinux rules MUST not restrict access to \"/dev/hidraw*\"",
-          "author": "Biswajit Paul",
-          "date": "Tue Oct 6 13:59:46 2026 -0400",
-          "timestamp": 1791309586,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dbbd1c3"
-        },
-        {
-          "sha": "67d51dd",
-          "message": "sepolicy_vndr: allow sensors hal to access /dev directory",
-          "author": "Jun-Hyung Kwon",
-          "date": "Tue Oct 6 13:58:35 2026 -0400",
-          "timestamp": 1791309515,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/67d51dd"
-        },
-        {
-          "sha": "ffe72a7",
-          "message": "sepolicy_vndr: add dynamic sensor and hidraw device access",
-          "author": "Jun-Hyung Kwon",
-          "date": "Tue Oct 6 13:58:22 2026 -0400",
-          "timestamp": 1791309502,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ffe72a7"
-        },
-        {
-          "sha": "c72f0b8",
-          "message": "sepolicy: Add Power HAL as client of Display HAL",
-          "author": "Semi",
-          "date": "Tue Oct 6 13:48:11 2026 -0400",
-          "timestamp": 1791308891,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c72f0b8"
-        },
-        {
-          "sha": "a4ce773",
-          "message": "sepolicy_vndr: Add libsdmextension as same_process_hal_file",
-          "author": "Alexander Koskovich",
-          "date": "Tue Oct 6 13:35:38 2026 -0400",
-          "timestamp": 1791308138,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a4ce773"
-        },
-        {
-          "sha": "94f46cb",
-          "message": "sepolicy_vndr: Add label for 64-bit ssgqmigd",
-          "author": "Alexander Koskovich",
-          "date": "Tue Aug 18 22:45:47 2026 +0000",
-          "timestamp": 1787093147,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/94f46cb"
-        },
-        {
-          "sha": "cd277ba",
-          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 17 11:44:25 2026 -0400",
-          "timestamp": 1786981465,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/cd277ba"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
@@ -12136,6 +12176,87 @@
           "date": "Mon Aug 17 11:41:36 2026 -0400",
           "timestamp": 1786981296,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/7a83660"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8450",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "a6bcda4",
+          "message": "fixup! taro: Label additional read_ahead_kb node",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 14:32:15 2026 -0400",
+          "timestamp": 1791311535,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a6bcda4"
+        },
+        {
+          "sha": "693fc15",
+          "message": "taro: Match all read_ahead_kb nodes",
+          "author": "dianlujitao",
+          "date": "Tue Oct 6 14:15:37 2026 -0400",
+          "timestamp": 1791310537,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/693fc15"
+        },
+        {
+          "sha": "dbbd1c3",
+          "message": "Vendor selinux rules MUST not restrict access to \"/dev/hidraw*\"",
+          "author": "Biswajit Paul",
+          "date": "Tue Oct 6 13:59:46 2026 -0400",
+          "timestamp": 1791309586,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dbbd1c3"
+        },
+        {
+          "sha": "67d51dd",
+          "message": "sepolicy_vndr: allow sensors hal to access /dev directory",
+          "author": "Jun-Hyung Kwon",
+          "date": "Tue Oct 6 13:58:35 2026 -0400",
+          "timestamp": 1791309515,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/67d51dd"
+        },
+        {
+          "sha": "ffe72a7",
+          "message": "sepolicy_vndr: add dynamic sensor and hidraw device access",
+          "author": "Jun-Hyung Kwon",
+          "date": "Tue Oct 6 13:58:22 2026 -0400",
+          "timestamp": 1791309502,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ffe72a7"
+        },
+        {
+          "sha": "c72f0b8",
+          "message": "sepolicy: Add Power HAL as client of Display HAL",
+          "author": "Semi",
+          "date": "Tue Oct 6 13:48:11 2026 -0400",
+          "timestamp": 1791308891,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c72f0b8"
+        },
+        {
+          "sha": "a4ce773",
+          "message": "sepolicy_vndr: Add libsdmextension as same_process_hal_file",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 13:35:38 2026 -0400",
+          "timestamp": 1791308138,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a4ce773"
+        },
+        {
+          "sha": "94f46cb",
+          "message": "sepolicy_vndr: Add label for 64-bit ssgqmigd",
+          "author": "Alexander Koskovich",
+          "date": "Tue Aug 18 22:45:47 2026 +0000",
+          "timestamp": 1787093147,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/94f46cb"
+        },
+        {
+          "sha": "cd277ba",
+          "message": "sepolicy: Allow hal_health_default to get vendor_soc_id_prop",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 17 11:44:25 2026 -0400",
+          "timestamp": 1786981465,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/cd277ba"
         }
       ]
     },
@@ -12582,6 +12703,71 @@
           "date": "Thu Oct 8 21:54:45 2026 +0000",
           "timestamp": 1791496485,
           "url": "https://github.com/LineageOS/android_hardware_lineage_compat/commit/f1d606c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_wlan",
+      "path": "hardware/qcom-caf/wlan",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "721c142",
+          "message": "wifi_hal: Only send NAN IC mode TLV if firmware supports it",
+          "author": "Alexander Koskovich",
+          "date": "Fri Oct 9 22:55:12 2026 -0400",
+          "timestamp": 1791600912,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/721c142"
+        },
+        {
+          "sha": "07acccd",
+          "message": "wifi_hal: Accept LOWI version >= 2.1.1",
+          "author": "Alexander Koskovich",
+          "date": "Fri Oct 9 22:46:44 2026 -0400",
+          "timestamp": 1791600404,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/07acccd"
+        },
+        {
+          "sha": "9a49c02",
+          "message": "Merge tag 'WLAN.LA.2.0.r3-10600-kaanapali.0' into staging/lineage-24.0_merge-WLAN.LA.2.0.r3-10600-kaanapali.0",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 27 15:44:53 2026 +0300",
+          "timestamp": 1790513093,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/9a49c02"
+        },
+        {
+          "sha": "4593f9b",
+          "message": "Revert \"wifi-hal: Only try LOWI once\"",
+          "author": "Alexander Koskovich",
+          "date": "Wed Aug 5 15:40:24 2026 +0000",
+          "timestamp": 1785944424,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/4593f9b"
+        },
+        {
+          "sha": "95881c5",
+          "message": "Merge c50c0caaec8143cbacd02f8260c4469c0898242a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Mon Aug 3 23:14:05 2026 -0700",
+          "timestamp": 1785824045,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/95881c5"
+        },
+        {
+          "sha": "c50c0ca",
+          "message": "Merge \"wifi_hal: Remove old peer entries using NIK\"",
+          "author": "CI Build Service",
+          "date": "Wed Jul 29 07:58:23 2026 -0700",
+          "timestamp": 1785337103,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/c50c0ca"
+        },
+        {
+          "sha": "2f0d1c5",
+          "message": "wifi_hal: Remove old peer entries using NIK",
+          "author": "nakul kachhwaha",
+          "date": "Mon Jul 27 12:19:40 2026 +0530",
+          "timestamp": 1785134980,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/2f0d1c5"
         }
       ]
     },
@@ -13440,51 +13626,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "remote": "github",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "3847f83",
-          "message": "Update Chromium Webview to 155.0.8059.39",
+          "sha": "604ad4c",
+          "message": "Update Chromium Webview arm64 to 155.0.8059.39",
           "author": "Kevin F. Haggerty",
-          "date": "Tue Oct 6 16:01:31 2026 -0600",
-          "timestamp": 1791324091,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/3847f83"
+          "date": "Fri Oct 9 17:50:12 2026 -0600",
+          "timestamp": 1791589812,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/604ad4c"
         },
         {
-          "sha": "c90965b",
-          "message": "Update Chromium Webview to 154.0.8037.57",
+          "sha": "394b243",
+          "message": "Update Chromium Webview arm64 to 154.0.8037.57",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 24 20:56:54 2026 -0600",
-          "timestamp": 1790305014,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/c90965b"
+          "date": "Fri Sep 25 20:36:45 2026 -0600",
+          "timestamp": 1790390205,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/394b243"
         },
         {
-          "sha": "b29edae",
-          "message": "Update Chromium Webview to 153.0.8010.36",
+          "sha": "11fd8af",
+          "message": "Update Chromium Webview arm64 to 153.0.8010.36",
           "author": "Kevin F. Haggerty",
-          "date": "Tue Sep 8 21:49:20 2026 -0600",
-          "timestamp": 1788925760,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/b29edae"
+          "date": "Thu Sep 10 05:44:57 2026 -0600",
+          "timestamp": 1789040697,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/11fd8af"
         },
         {
-          "sha": "209a6d2",
-          "message": "Update Chromium Webview to 152.0.7977.64",
+          "sha": "a6b2364",
+          "message": "Update Chromium Webview arm64 to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:08:55 2026 -0600",
-          "timestamp": 1787836135,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/209a6d2"
+          "date": "Thu Aug 27 07:14:20 2026 -0600",
+          "timestamp": 1787836460,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/a6b2364"
         },
         {
-          "sha": "0c68f2f",
-          "message": "Update Chromium Webview to 151.0.7922.71",
+          "sha": "a04c6d4",
+          "message": "Update Chromium Webview arm64 to 151.0.7922.71",
           "author": "Kevin F. Haggerty",
-          "date": "Wed Jul 29 18:48:20 2026 -0600",
-          "timestamp": 1785372500,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
+          "date": "Thu Jul 30 17:53:52 2026 -0600",
+          "timestamp": 1785455632,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/a04c6d4"
         }
       ]
     },
@@ -13538,100 +13724,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
       "remote": "github",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "604ad4c",
-          "message": "Update Chromium Webview arm64 to 155.0.8059.39",
+          "sha": "3847f83",
+          "message": "Update Chromium Webview to 155.0.8059.39",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 9 17:50:12 2026 -0600",
-          "timestamp": 1791589812,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/604ad4c"
+          "date": "Tue Oct 6 16:01:31 2026 -0600",
+          "timestamp": 1791324091,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/3847f83"
         },
         {
-          "sha": "394b243",
-          "message": "Update Chromium Webview arm64 to 154.0.8037.57",
+          "sha": "c90965b",
+          "message": "Update Chromium Webview to 154.0.8037.57",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 25 20:36:45 2026 -0600",
-          "timestamp": 1790390205,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/394b243"
+          "date": "Thu Sep 24 20:56:54 2026 -0600",
+          "timestamp": 1790305014,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/c90965b"
         },
         {
-          "sha": "11fd8af",
-          "message": "Update Chromium Webview arm64 to 153.0.8010.36",
+          "sha": "b29edae",
+          "message": "Update Chromium Webview to 153.0.8010.36",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 10 05:44:57 2026 -0600",
-          "timestamp": 1789040697,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/11fd8af"
+          "date": "Tue Sep 8 21:49:20 2026 -0600",
+          "timestamp": 1788925760,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/b29edae"
         },
         {
-          "sha": "a6b2364",
-          "message": "Update Chromium Webview arm64 to 152.0.7977.64",
+          "sha": "209a6d2",
+          "message": "Update Chromium Webview to 152.0.7977.64",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:20 2026 -0600",
-          "timestamp": 1787836460,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/a6b2364"
+          "date": "Thu Aug 27 07:08:55 2026 -0600",
+          "timestamp": 1787836135,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/209a6d2"
         },
         {
-          "sha": "a04c6d4",
-          "message": "Update Chromium Webview arm64 to 151.0.7922.71",
+          "sha": "0c68f2f",
+          "message": "Update Chromium Webview to 151.0.7922.71",
           "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:53:52 2026 -0600",
-          "timestamp": 1785455632,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/a04c6d4"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "path": "external/chromium-webview/prebuilt/x86_64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "de57895",
-          "message": "Update Chromium Webview x86_64 to 155.0.8059.39",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 9 17:50:54 2026 -0600",
-          "timestamp": 1791589854,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/de57895"
-        },
-        {
-          "sha": "32aceaa",
-          "message": "Update Chromium Webview x86_64 to 154.0.8037.57",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 25 20:36:53 2026 -0600",
-          "timestamp": 1790390213,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/32aceaa"
-        },
-        {
-          "sha": "d676fed",
-          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 10 05:45:38 2026 -0600",
-          "timestamp": 1789040738,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
-        },
-        {
-          "sha": "2767453",
-          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Aug 27 07:14:21 2026 -0600",
-          "timestamp": 1787836461,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
-        },
-        {
-          "sha": "74bc304",
-          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Jul 30 17:55:15 2026 -0600",
-          "timestamp": 1785455715,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
+          "date": "Wed Jul 29 18:48:20 2026 -0600",
+          "timestamp": 1785372500,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/0c68f2f"
         }
       ]
     },
@@ -13685,51 +13822,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_wlan",
-      "path": "hardware/qcom-caf/wlan",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "remote": "github",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "9a49c02",
-          "message": "Merge tag 'WLAN.LA.2.0.r3-10600-kaanapali.0' into staging/lineage-24.0_merge-WLAN.LA.2.0.r3-10600-kaanapali.0",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 27 15:44:53 2026 +0300",
-          "timestamp": 1790513093,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/9a49c02"
+          "sha": "de57895",
+          "message": "Update Chromium Webview x86_64 to 155.0.8059.39",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 9 17:50:54 2026 -0600",
+          "timestamp": 1791589854,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/de57895"
         },
         {
-          "sha": "4593f9b",
-          "message": "Revert \"wifi-hal: Only try LOWI once\"",
-          "author": "Alexander Koskovich",
-          "date": "Wed Aug 5 15:40:24 2026 +0000",
-          "timestamp": 1785944424,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/4593f9b"
+          "sha": "32aceaa",
+          "message": "Update Chromium Webview x86_64 to 154.0.8037.57",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 25 20:36:53 2026 -0600",
+          "timestamp": 1790390213,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/32aceaa"
         },
         {
-          "sha": "95881c5",
-          "message": "Merge c50c0caaec8143cbacd02f8260c4469c0898242a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Mon Aug 3 23:14:05 2026 -0700",
-          "timestamp": 1785824045,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/95881c5"
+          "sha": "d676fed",
+          "message": "Update Chromium Webview x86_64 to 153.0.8010.36",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 10 05:45:38 2026 -0600",
+          "timestamp": 1789040738,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/d676fed"
         },
         {
-          "sha": "c50c0ca",
-          "message": "Merge \"wifi_hal: Remove old peer entries using NIK\"",
-          "author": "CI Build Service",
-          "date": "Wed Jul 29 07:58:23 2026 -0700",
-          "timestamp": 1785337103,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/c50c0ca"
+          "sha": "2767453",
+          "message": "Update Chromium Webview x86_64 to 152.0.7977.64",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Aug 27 07:14:21 2026 -0600",
+          "timestamp": 1787836461,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/2767453"
         },
         {
-          "sha": "2f0d1c5",
-          "message": "wifi_hal: Remove old peer entries using NIK",
-          "author": "nakul kachhwaha",
-          "date": "Mon Jul 27 12:19:40 2026 +0530",
-          "timestamp": 1785134980,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/2f0d1c5"
+          "sha": "74bc304",
+          "message": "Update Chromium Webview x86_64 to 151.0.7922.71",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Jul 30 17:55:15 2026 -0600",
+          "timestamp": 1785455715,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/74bc304"
         }
       ]
     },
@@ -14635,39 +14772,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_google_pixel",
-      "path": "hardware/google/pixel",
-      "repo_url": "https://github.com/LineageOS/android_hardware_google_pixel",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8bd3c71",
-          "message": "power-libperfmgr: Disable AUDIO_PERFORMANCE session mode",
-          "author": "armdebug",
-          "date": "Wed Aug 12 18:21:27 2026 +0300",
-          "timestamp": 1786548087,
-          "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/8bd3c71"
-        },
-        {
-          "sha": "eda7f31",
-          "message": "power-libperfmgr: Bump IPower to v7 for AUDIO_PERFORMANCE session mode",
-          "author": "armdebug",
-          "date": "Wed Aug 12 18:21:18 2026 +0300",
-          "timestamp": 1786548078,
-          "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/eda7f31"
-        },
-        {
-          "sha": "8ec2a74",
-          "message": "power-libperfmgr: Remove pixelstats dependency",
-          "author": "Michael Bestas",
-          "date": "Sat Jul 25 13:48:39 2026 +0300",
-          "timestamp": 1784976519,
-          "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/8ec2a74"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_google_pixel-sepolicy",
       "path": "hardware/google/pixel-sepolicy",
       "repo_url": "https://github.com/LineageOS/android_hardware_google_pixel-sepolicy",
@@ -14697,6 +14801,39 @@
           "date": "Sun Oct 11 19:40:26 2026 +0300",
           "timestamp": 1791736826,
           "url": "https://github.com/LineageOS/android_hardware_google_pixel-sepolicy/commit/534a9a0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_google_pixel",
+      "path": "hardware/google/pixel",
+      "repo_url": "https://github.com/LineageOS/android_hardware_google_pixel",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "8bd3c71",
+          "message": "power-libperfmgr: Disable AUDIO_PERFORMANCE session mode",
+          "author": "armdebug",
+          "date": "Wed Aug 12 18:21:27 2026 +0300",
+          "timestamp": 1786548087,
+          "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/8bd3c71"
+        },
+        {
+          "sha": "eda7f31",
+          "message": "power-libperfmgr: Bump IPower to v7 for AUDIO_PERFORMANCE session mode",
+          "author": "armdebug",
+          "date": "Wed Aug 12 18:21:18 2026 +0300",
+          "timestamp": 1786548078,
+          "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/eda7f31"
+        },
+        {
+          "sha": "8ec2a74",
+          "message": "power-libperfmgr: Remove pixelstats dependency",
+          "author": "Michael Bestas",
+          "date": "Sat Jul 25 13:48:39 2026 +0300",
+          "timestamp": 1784976519,
+          "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/8ec2a74"
         }
       ]
     },
@@ -15641,23 +15778,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_libhevc",
-      "path": "external/libhevc",
-      "repo_url": "https://github.com/LineageOS/android_external_libhevc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e0c3a0d",
-          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
-          "author": "Vivek R Jadhav",
-          "date": "Tue Aug 18 23:57:28 2026 -0400",
-          "timestamp": 1787111848,
-          "url": "https://github.com/LineageOS/android_external_libhevc/commit/e0c3a0d"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_libppd",
       "path": "external/libppd",
       "repo_url": "https://github.com/LineageOS/android_external_libppd",
@@ -15671,6 +15791,23 @@
           "date": "Tue Aug 18 23:57:28 2026 -0400",
           "timestamp": 1787111848,
           "url": "https://github.com/LineageOS/android_external_libppd/commit/1d50d9f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_libhevc",
+      "path": "external/libhevc",
+      "repo_url": "https://github.com/LineageOS/android_external_libhevc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e0c3a0d",
+          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
+          "author": "Vivek R Jadhav",
+          "date": "Tue Aug 18 23:57:28 2026 -0400",
+          "timestamp": 1787111848,
+          "url": "https://github.com/LineageOS/android_external_libhevc/commit/e0c3a0d"
         }
       ]
     },
@@ -15930,23 +16067,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Seedvault",
-      "path": "packages/apps/Seedvault",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Seedvault",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f47750d",
-          "message": "Only treat eng builds as debug",
-          "author": "Chirayu Desai",
-          "date": "Sat Jul 25 17:53:50 2026 +0300",
-          "timestamp": 1784991230,
-          "url": "https://github.com/LineageOS/android_packages_apps_Seedvault/commit/f47750d"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_WallpaperPicker2",
       "path": "packages/apps/WallpaperPicker2",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_WallpaperPicker2",
@@ -16032,23 +16152,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_memory_libdmabufheap",
-      "path": "system/memory/libdmabufheap",
-      "repo_url": "https://github.com/LineageOS/android_system_memory_libdmabufheap",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "57925b7",
-          "message": "libdmabufheap: Restore ION support behind a soong config",
-          "author": "Nolen Johnson",
-          "date": "Fri Aug 28 16:01:55 2026 -0500",
-          "timestamp": 1787950915,
-          "url": "https://github.com/LineageOS/android_system_memory_libdmabufheap/commit/57925b7"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_system_memory_libion",
       "path": "system/memory/libion",
       "repo_url": "https://github.com/LineageOS/android_system_memory_libion",
@@ -16062,6 +16165,40 @@
           "date": "Fri Aug 28 11:49:43 2026 -0500",
           "timestamp": 1787935783,
           "url": "https://github.com/LineageOS/android_system_memory_libion/commit/abd899d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/LineageOS/android_system_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f150131",
+          "message": "audio: Treat DTS as IEC 61937 compatible",
+          "author": "Vitaliy Tomin",
+          "date": "Thu Oct 22 15:44:37 2026 +0000",
+          "timestamp": 1792683877,
+          "url": "https://github.com/LineageOS/android_system_media/commit/f150131"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_memory_libdmabufheap",
+      "path": "system/memory/libdmabufheap",
+      "repo_url": "https://github.com/LineageOS/android_system_memory_libdmabufheap",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "57925b7",
+          "message": "libdmabufheap: Restore ION support behind a soong config",
+          "author": "Nolen Johnson",
+          "date": "Fri Aug 28 16:01:55 2026 -0500",
+          "timestamp": 1787950915,
+          "url": "https://github.com/LineageOS/android_system_memory_libdmabufheap/commit/57925b7"
         }
       ]
     },
