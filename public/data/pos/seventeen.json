@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "seventeen",
-  "generated_at": "2026-10-24T03:12:21.799808+00:00",
-  "since_date": "2026-07-26",
+  "generated_at": "2026-10-25T03:08:00.758370+00:00",
+  "since_date": "2026-07-27",
   "total_projects": 112,
-  "total_commits": 886,
+  "total_commits": 890,
   "projects": [
     {
       "name": "PixelOS-AOSP/android_frameworks_base",
@@ -3602,8 +3602,32 @@
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
       "remote": "lineageos",
-      "commit_count": 22,
+      "commit_count": 25,
       "commits": [
+        {
+          "sha": "c270ee3",
+          "message": "apn: Remove profiles with unlisted MCC/MNC pairs",
+          "author": "dianlujitao",
+          "date": "Wed Oct 21 23:46:07 2026 +0100",
+          "timestamp": 1792622767,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/c270ee3"
+        },
+        {
+          "sha": "a764d38",
+          "message": "apn: Merge upstream profiles at build time",
+          "author": "dianlujitao",
+          "date": "Wed Oct 21 23:46:06 2026 +0100",
+          "timestamp": 1792622766,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/a764d38"
+        },
+        {
+          "sha": "cfcbd9d",
+          "message": "apn: Import Pixel APN snapshot",
+          "author": "dianlujitao",
+          "date": "Wed Oct 21 23:08:26 2026 +0100",
+          "timestamp": 1792620506,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/cfcbd9d"
+        },
         {
           "sha": "35d822d",
           "message": "apn: Remove YT and separate Palestinian APNs from IL",
@@ -4049,6 +4073,127 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
+      "remote": "lineageos",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "a29110e",
+          "message": "atv: Add common rules for Netflix app",
+          "author": "Bruno Martins",
+          "date": "Fri Oct 23 22:38:24 2026 +0100",
+          "timestamp": 1792791504,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a29110e"
+        },
+        {
+          "sha": "6b12f71",
+          "message": "qcom: Allow platform_app_36 to access soter HAL",
+          "author": "Flicker372",
+          "date": "Tue Oct 6 15:29:42 2026 +0000",
+          "timestamp": 1791300582,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6b12f71"
+        },
+        {
+          "sha": "6df6f36",
+          "message": "common: Allow init in recovery to write to proc_firmware_config",
+          "author": "Alexander Koskovich",
+          "date": "Tue Oct 6 15:27:14 2026 +0000",
+          "timestamp": 1791300434,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6df6f36"
+        },
+        {
+          "sha": "e4a88d3",
+          "message": "qcom: vendor: Allow `vendor_init` to set `vendor_ssr_prop` property",
+          "author": "Giovanni Ricca",
+          "date": "Sat Oct 3 14:38:08 2026 +0000",
+          "timestamp": 1791038288,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/e4a88d3"
+        },
+        {
+          "sha": "05c422d",
+          "message": "sepolicy: Label NXP NFC debug mask property",
+          "author": "chandu078",
+          "date": "Sun Sep 27 12:46:27 2026 +0200",
+          "timestamp": 1790505987,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/05c422d"
+        },
+        {
+          "sha": "8db7d3c",
+          "message": "common: private: Extend sysfs_dt_firmware_android dontaudit to dirs",
+          "author": "Nolen Johnson",
+          "date": "Sun Sep 13 22:31:49 2026 +0000",
+          "timestamp": 1789338709,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8db7d3c"
+        },
+        {
+          "sha": "6401af3",
+          "message": "sepolicy: Allow Light HAL to read `vendor.light.backlight.disable` prop",
+          "author": "Yumi Yukimura",
+          "date": "Sat Sep 12 23:55:54 2026 +0000",
+          "timestamp": 1789257354,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6401af3"
+        },
+        {
+          "sha": "89d7484",
+          "message": "sepolicy: Add policy for SensitivePhoneNumbersService",
+          "author": "Nicholas Lim",
+          "date": "Mon Sep 7 08:04:59 2026 +0000",
+          "timestamp": 1788768299,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/89d7484"
+        },
+        {
+          "sha": "6151759",
+          "message": "sepolicy: Label basic USB AIDL HAL service",
+          "author": "Yumi Yukimura",
+          "date": "Sun Aug 30 15:18:21 2026 +0000",
+          "timestamp": 1788103101,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6151759"
+        },
+        {
+          "sha": "b446a7e",
+          "message": "common: private: Don't audit bootanimation searching system_data_file",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 19:06:40 2026 +0000",
+          "timestamp": 1787425600,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/b446a7e"
+        },
+        {
+          "sha": "816baaa",
+          "message": "atv: Don't audit Katniss cgroup spam",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 19:05:22 2026 +0000",
+          "timestamp": 1787425522,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/816baaa"
+        },
+        {
+          "sha": "a85122e",
+          "message": "sepolicy: atv: vendor: Don't audit TvSettings reaching into GMS dirs",
+          "author": "Nolen Johnson",
+          "date": "Sat Aug 22 14:04:57 2026 -0400",
+          "timestamp": 1787421897,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a85122e"
+        },
+        {
+          "sha": "78ed090",
+          "message": "common: private: Extend mediashell dontaudit",
+          "author": "Nolen Johnson",
+          "date": "Fri Aug 7 16:03:59 2026 -0400",
+          "timestamp": 1786133039,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/78ed090"
+        },
+        {
+          "sha": "7dae1c0",
+          "message": "atv: vendor: Drop non-existent apk_verity_prop allowances",
+          "author": "Nolen Johnson",
+          "date": "Mon Aug 3 18:53:03 2026 -0400",
+          "timestamp": 1785797583,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/7dae1c0"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_power",
       "path": "vendor/qcom/opensource/power",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
@@ -4166,119 +4311,6 @@
           "date": "Mon Jul 27 06:18:02 2026 -0700",
           "timestamp": 1785158282,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/4b6ce7b"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
-      "remote": "lineageos",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "6b12f71",
-          "message": "qcom: Allow platform_app_36 to access soter HAL",
-          "author": "Flicker372",
-          "date": "Tue Oct 6 15:29:42 2026 +0000",
-          "timestamp": 1791300582,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6b12f71"
-        },
-        {
-          "sha": "6df6f36",
-          "message": "common: Allow init in recovery to write to proc_firmware_config",
-          "author": "Alexander Koskovich",
-          "date": "Tue Oct 6 15:27:14 2026 +0000",
-          "timestamp": 1791300434,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6df6f36"
-        },
-        {
-          "sha": "e4a88d3",
-          "message": "qcom: vendor: Allow `vendor_init` to set `vendor_ssr_prop` property",
-          "author": "Giovanni Ricca",
-          "date": "Sat Oct 3 14:38:08 2026 +0000",
-          "timestamp": 1791038288,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/e4a88d3"
-        },
-        {
-          "sha": "05c422d",
-          "message": "sepolicy: Label NXP NFC debug mask property",
-          "author": "chandu078",
-          "date": "Sun Sep 27 12:46:27 2026 +0200",
-          "timestamp": 1790505987,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/05c422d"
-        },
-        {
-          "sha": "8db7d3c",
-          "message": "common: private: Extend sysfs_dt_firmware_android dontaudit to dirs",
-          "author": "Nolen Johnson",
-          "date": "Sun Sep 13 22:31:49 2026 +0000",
-          "timestamp": 1789338709,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8db7d3c"
-        },
-        {
-          "sha": "6401af3",
-          "message": "sepolicy: Allow Light HAL to read `vendor.light.backlight.disable` prop",
-          "author": "Yumi Yukimura",
-          "date": "Sat Sep 12 23:55:54 2026 +0000",
-          "timestamp": 1789257354,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6401af3"
-        },
-        {
-          "sha": "89d7484",
-          "message": "sepolicy: Add policy for SensitivePhoneNumbersService",
-          "author": "Nicholas Lim",
-          "date": "Mon Sep 7 08:04:59 2026 +0000",
-          "timestamp": 1788768299,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/89d7484"
-        },
-        {
-          "sha": "6151759",
-          "message": "sepolicy: Label basic USB AIDL HAL service",
-          "author": "Yumi Yukimura",
-          "date": "Sun Aug 30 15:18:21 2026 +0000",
-          "timestamp": 1788103101,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/6151759"
-        },
-        {
-          "sha": "b446a7e",
-          "message": "common: private: Don't audit bootanimation searching system_data_file",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 22 19:06:40 2026 +0000",
-          "timestamp": 1787425600,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/b446a7e"
-        },
-        {
-          "sha": "816baaa",
-          "message": "atv: Don't audit Katniss cgroup spam",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 22 19:05:22 2026 +0000",
-          "timestamp": 1787425522,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/816baaa"
-        },
-        {
-          "sha": "a85122e",
-          "message": "sepolicy: atv: vendor: Don't audit TvSettings reaching into GMS dirs",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 22 14:04:57 2026 -0400",
-          "timestamp": 1787421897,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a85122e"
-        },
-        {
-          "sha": "78ed090",
-          "message": "common: private: Extend mediashell dontaudit",
-          "author": "Nolen Johnson",
-          "date": "Fri Aug 7 16:03:59 2026 -0400",
-          "timestamp": 1786133039,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/78ed090"
-        },
-        {
-          "sha": "7dae1c0",
-          "message": "atv: vendor: Drop non-existent apk_verity_prop allowances",
-          "author": "Nolen Johnson",
-          "date": "Mon Aug 3 18:53:03 2026 -0400",
-          "timestamp": 1785797583,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/7dae1c0"
         }
       ]
     },
@@ -7085,31 +7117,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8450-6.6/display/hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineageos",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "692023c",
-          "message": "display: init: Update cape MSM/APQ/4G display properties",
-          "author": "Alexander Koskovich",
-          "date": "Tue Sep 29 11:09:30 2026 -0400",
-          "timestamp": 1790694570,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/692023c"
-        },
-        {
-          "sha": "5a44e9e",
-          "message": "display: Make sure panel supports HDR before advertising",
-          "author": "Alexander Koskovich",
-          "date": "Tue Sep 29 11:09:27 2026 -0400",
-          "timestamp": 1790694567,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/5a44e9e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8450/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "lineageos",
@@ -7130,6 +7137,31 @@
           "date": "Mon Aug 3 21:22:23 2026 +0000",
           "timestamp": 1785792143,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/222878b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8450-6.6/display/hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "692023c",
+          "message": "display: init: Update cape MSM/APQ/4G display properties",
+          "author": "Alexander Koskovich",
+          "date": "Tue Sep 29 11:09:30 2026 -0400",
+          "timestamp": 1790694570,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/692023c"
+        },
+        {
+          "sha": "5a44e9e",
+          "message": "display: Make sure panel supports HDR before advertising",
+          "author": "Alexander Koskovich",
+          "date": "Tue Sep 29 11:09:27 2026 -0400",
+          "timestamp": 1790694567,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/5a44e9e"
         }
       ]
     },
@@ -7814,23 +7846,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_libhevc",
-      "path": "external/libhevc",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_libhevc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4b4ea30",
-          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
-          "author": "Vivek R Jadhav",
-          "date": "Wed Sep 2 18:02:28 2026 +0000",
-          "timestamp": 1788372148,
-          "url": "https://github.com/PixelOS-AOSP/android_external_libhevc/commit/4b4ea30"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_external_libjxl",
       "path": "external/libjxl",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_libjxl",
@@ -7844,6 +7859,23 @@
           "date": "Wed Sep 2 18:02:28 2026 +0000",
           "timestamp": 1788372148,
           "url": "https://github.com/PixelOS-AOSP/android_external_libjxl/commit/cbd5d8a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_external_libhevc",
+      "path": "external/libhevc",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_external_libhevc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4b4ea30",
+          "message": "libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size",
+          "author": "Vivek R Jadhav",
+          "date": "Wed Sep 2 18:02:28 2026 +0000",
+          "timestamp": 1788372148,
+          "url": "https://github.com/PixelOS-AOSP/android_external_libhevc/commit/4b4ea30"
         }
       ]
     },
