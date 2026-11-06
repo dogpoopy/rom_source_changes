@@ -1,10 +1,10 @@
 {
   "rom_id": "grapheneos",
   "branch": "17",
-  "generated_at": "2026-11-05T05:03:24.660907+00:00",
-  "since_date": "2026-08-07",
+  "generated_at": "2026-11-06T05:01:53.936106+00:00",
+  "since_date": "2026-08-08",
   "total_projects": 104,
-  "total_commits": 1050,
+  "total_commits": 1039,
   "projects": [
     {
       "name": "platform_frameworks_base",
@@ -13,6 +13,14 @@
       "remote": "grapheneos",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "773a397f",
+          "message": "allowlist BROADCAST_CLOSE_SYSTEM_DIALOGS for Dialer",
+          "author": "Artem Smirnov",
+          "date": "Thu Nov 5 01:56:41 2026 -0500",
+          "timestamp": 1793861801,
+          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/773a397f"
+        },
         {
           "sha": "ad133394",
           "message": "Cap oversized icons loaded via PackageManager to prevent crashes",
@@ -804,14 +812,6 @@
           "date": "Wed Sep 9 15:34:53 2026 -0400",
           "timestamp": 1788982493,
           "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/24002c37"
-        },
-        {
-          "sha": "b332b6f0",
-          "message": "Limit knownActivityEmbeddingCerts in manifest",
-          "author": "William Loh",
-          "date": "Wed Sep 9 15:34:53 2026 -0400",
-          "timestamp": 1788982493,
-          "url": "https://github.com/GrapheneOS/platform_frameworks_base/commit/b332b6f0"
         }
       ]
     },
@@ -2756,399 +2756,6 @@
       ]
     },
     {
-      "name": "platform_packages_apps_GmsCompat",
-      "path": "packages/apps/GmsCompat",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat",
-      "remote": "grapheneos",
-      "commit_count": 48,
-      "commits": [
-        {
-          "sha": "9a1e188",
-          "message": "build(deps): bump gradle/actions/wrapper-validation from 6.3.0 to 6.4.1",
-          "author": "dependabot[bot]",
-          "date": "Mon Nov 2 08:50:23 2026 -0500",
-          "timestamp": 1793627423,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/9a1e188"
-        },
-        {
-          "sha": "4120538",
-          "message": "update Gradle to 9.8.2",
-          "author": "GrapheneOS",
-          "date": "Fri Oct 23 13:44:21 2026 -0400",
-          "timestamp": 1792777461,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/4120538"
-        },
-        {
-          "sha": "6792990",
-          "message": "config-holder: increment version to 178",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 23 13:00:31 2026 -0400",
-          "timestamp": 1792774831,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/6792990"
-        },
-        {
-          "sha": "7258ed3",
-          "message": "config: spoof ACCESS_MEDIA_LOCATION self-checks in GmsCore",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Oct 23 12:33:39 2026 -0400",
-          "timestamp": 1792773219,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/7258ed3"
-        },
-        {
-          "sha": "ec76665",
-          "message": "increment versionCode to 1011",
-          "author": "Dmitry Muhomor",
-          "date": "Tue Oct 20 11:16:25 2026 -0400",
-          "timestamp": 1792509385,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/ec76665"
-        },
-        {
-          "sha": "0855f58",
-          "message": "config-holder: increment version to 177",
-          "author": "Daniel Micay",
-          "date": "Mon Oct 19 20:43:01 2026 -0400",
-          "timestamp": 1792456981,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/0855f58"
-        },
-        {
-          "sha": "05e69db",
-          "message": "Add stub for RoleManager.getRoleHolders",
-          "author": "Artem Smirnov",
-          "date": "Mon Oct 19 20:42:41 2026 -0400",
-          "timestamp": 1792456961,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/05e69db"
-        },
-        {
-          "sha": "268a608",
-          "message": "build(deps): bump actions/setup-java from 6.0.1 to 6.1.0",
-          "author": "dependabot[bot]",
-          "date": "Mon Oct 19 12:11:04 2026 -0400",
-          "timestamp": 1792426264,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/268a608"
-        },
-        {
-          "sha": "68ac68e",
-          "message": "increment versionCode to 1010",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/68ac68e"
-        },
-        {
-          "sha": "78d2957",
-          "message": "improve handling of callbacks from GmsCompat app to its clients",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/78d2957"
-        },
-        {
-          "sha": "ea68e48",
-          "message": "cancel \"action required\" notification when main Play Store process dies",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/ea68e48"
-        },
-        {
-          "sha": "036fc07",
-          "message": "remove misleading AndroidManifest <queries>",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/036fc07"
-        },
-        {
-          "sha": "1461759",
-          "message": "remove no longer needed RpcProvider",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/1461759"
-        },
-        {
-          "sha": "17be758",
-          "message": "provide BinderGms2Gca through a service",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/17be758"
-        },
-        {
-          "sha": "d610cea",
-          "message": "simplify reimplementation of privileged Settings API",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/d610cea"
-        },
-        {
-          "sha": "6f66a3c",
-          "message": "provide BinderClientOfGmsCore2Gca through a service",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/6f66a3c"
-        },
-        {
-          "sha": "48eb584",
-          "message": "add definition of CLIENT permission",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/48eb584"
-        },
-        {
-          "sha": "21f4eed",
-          "message": "rename SIGNATURE_PROTECTED_PERMISSION to permission.SELF",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/21f4eed"
-        },
-        {
-          "sha": "5bb95ba",
-          "message": "adjust to GmsCore FileProxyService being provided by GmsCore itself",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Oct 15 20:25:53 2026 -0400",
-          "timestamp": 1792110353,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5bb95ba"
-        },
-        {
-          "sha": "3591218",
-          "message": "update Gradle to 9.8.1",
-          "author": "Daniel Micay",
-          "date": "Wed Oct 14 13:12:47 2026 -0400",
-          "timestamp": 1791997967,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/3591218"
-        },
-        {
-          "sha": "f5b3c7c",
-          "message": "config-holder: increment version to 176",
-          "author": "Daniel Micay",
-          "date": "Sun Oct 4 23:43:46 2026 -0400",
-          "timestamp": 1791171826,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/f5b3c7c"
-        },
-        {
-          "sha": "5c05391",
-          "message": "update Gradle to 9.8.0",
-          "author": "Daniel Micay",
-          "date": "Sun Oct 4 21:40:48 2026 -0400",
-          "timestamp": 1791164448,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5c05391"
-        },
-        {
-          "sha": "8648f8a",
-          "message": "config: avoid Quick Share teardown crash",
-          "author": "maade93791",
-          "date": "Sun Oct 4 20:54:31 2026 -0400",
-          "timestamp": 1791161671,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8648f8a"
-        },
-        {
-          "sha": "280192c",
-          "message": "config: disable scheduled backup state logging",
-          "author": "maade93791",
-          "date": "Sun Oct 4 20:03:17 2026 -0400",
-          "timestamp": 1791158597,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/280192c"
-        },
-        {
-          "sha": "5813871",
-          "message": "config-holder: increment version to 175",
-          "author": "Daniel Micay",
-          "date": "Mon Sep 21 22:15:39 2026 -0400",
-          "timestamp": 1790043339,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5813871"
-        },
-        {
-          "sha": "8d26454",
-          "message": "update dependencies",
-          "author": "Daniel Micay",
-          "date": "Mon Sep 21 22:09:25 2026 -0400",
-          "timestamp": 1790042965,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8d26454"
-        },
-        {
-          "sha": "e8e34d0",
-          "message": "build(deps): bump actions/setup-java from 6.0.0 to 6.0.1",
-          "author": "dependabot[bot]",
-          "date": "Mon Sep 21 22:03:00 2026 -0400",
-          "timestamp": 1790042580,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/e8e34d0"
-        },
-        {
-          "sha": "cda9b36",
-          "message": "config: disable WebView WebAuthn in the Octarine account WebView",
-          "author": "maade93791",
-          "date": "Mon Sep 21 22:02:10 2026 -0400",
-          "timestamp": 1790042530,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/cda9b36"
-        },
-        {
-          "sha": "85924e6",
-          "message": "config-holder: increment version to 174",
-          "author": "Daniel Micay",
-          "date": "Wed Sep 9 22:13:35 2026 -0400",
-          "timestamp": 1789006415,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/85924e6"
-        },
-        {
-          "sha": "094d07c",
-          "message": "update AGP to 9.4.0",
-          "author": "Daniel Micay",
-          "date": "Wed Sep 9 18:57:03 2026 -0400",
-          "timestamp": 1788994623,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/094d07c"
-        },
-        {
-          "sha": "354c8ed",
-          "message": "update Gradle to 9.7.1",
-          "author": "Daniel Micay",
-          "date": "Wed Sep 9 18:14:01 2026 -0400",
-          "timestamp": 1788992041,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/354c8ed"
-        },
-        {
-          "sha": "d2dc136",
-          "message": "config: disable unsupported Gesture Exchange",
-          "author": "inthewaves",
-          "date": "Wed Sep 9 18:12:37 2026 -0400",
-          "timestamp": 1788991957,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/d2dc136"
-        },
-        {
-          "sha": "3fadfe0",
-          "message": "build(deps): bump actions/setup-java from 5.7.0 to 6.0.0",
-          "author": "dependabot[bot]",
-          "date": "Thu Aug 27 10:59:36 2026 -0400",
-          "timestamp": 1787842776,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/3fadfe0"
-        },
-        {
-          "sha": "37cbf5c",
-          "message": "add gradle.properties",
-          "author": "GrapheneOS",
-          "date": "Sun Aug 16 13:25:52 2026 -0400",
-          "timestamp": 1786901152,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/37cbf5c"
-        },
-        {
-          "sha": "d2f2de6",
-          "message": "config-holder: increment version to 173",
-          "author": "Daniel Micay",
-          "date": "Sun Aug 16 13:08:20 2026 -0400",
-          "timestamp": 1786900100,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/d2f2de6"
-        },
-        {
-          "sha": "35bac2a",
-          "message": "update Gradle plugins",
-          "author": "Daniel Micay",
-          "date": "Sun Aug 16 12:19:09 2026 -0400",
-          "timestamp": 1786897149,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/35bac2a"
-        },
-        {
-          "sha": "8db1e26",
-          "message": "update Gradle to 9.7.0",
-          "author": "Daniel Micay",
-          "date": "Sun Aug 16 11:34:41 2026 -0400",
-          "timestamp": 1786894481,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8db1e26"
-        },
-        {
-          "sha": "c6c8b29",
-          "message": "regenerate Gradle verification metadata",
-          "author": "Daniel Micay",
-          "date": "Sun Aug 16 11:31:31 2026 -0400",
-          "timestamp": 1786894291,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/c6c8b29"
-        },
-        {
-          "sha": "518a7d9",
-          "message": "config: add stub for UsageStatsManager.queryEvents()",
-          "author": "Dmitry Muhomor",
-          "date": "Sun Aug 16 11:14:24 2026 -0400",
-          "timestamp": 1786893264,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/518a7d9"
-        },
-        {
-          "sha": "056abed",
-          "message": "config: add stub for SmsManager.injectSmsPdu()",
-          "author": "Dmitry Muhomor",
-          "date": "Sun Aug 16 11:14:24 2026 -0400",
-          "timestamp": 1786893264,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/056abed"
-        },
-        {
-          "sha": "8ee3509",
-          "message": "add missing clear() to implementation of DeviceConfig.setProperties()",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 22:00:40 2026 -0400",
-          "timestamp": 1786154440,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8ee3509"
-        },
-        {
-          "sha": "c5c50d3",
-          "message": "switch to using StringParceledListSlice for privSettingsPutStrings() API",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 22:00:40 2026 -0400",
-          "timestamp": 1786154440,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/c5c50d3"
-        },
-        {
-          "sha": "5da1a07",
-          "message": "adjust raisePackageToForeground() API",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 19:53:22 2026 -0400",
-          "timestamp": 1786146802,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5da1a07"
-        },
-        {
-          "sha": "6f713c4",
-          "message": "add special handling for Android Auto OutOfCarLifecycle crashes",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 19:26:00 2026 -0400",
-          "timestamp": 1786145160,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/6f713c4"
-        },
-        {
-          "sha": "a495e2d",
-          "message": "rename the \"Sandboxed Google Play crashed\" notification channel",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 19:26:00 2026 -0400",
-          "timestamp": 1786145160,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/a495e2d"
-        },
-        {
-          "sha": "791c88a",
-          "message": "narrow down several exception handling blocks in GLocationService",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 19:23:36 2026 -0400",
-          "timestamp": 1786145016,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/791c88a"
-        },
-        {
-          "sha": "6d39759",
-          "message": "fix a race condition in GLocationService.flushLocations()",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 19:23:36 2026 -0400",
-          "timestamp": 1786145016,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/6d39759"
-        },
-        {
-          "sha": "652bed6",
-          "message": "call PersistentFgService.requestStart() before linkToDeath()",
-          "author": "Thomas",
-          "date": "Fri Aug 7 19:23:36 2026 -0400",
-          "timestamp": 1786145016,
-          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/652bed6"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_apps_Seedvault",
       "path": "packages/apps/Seedvault",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Seedvault",
@@ -3887,6 +3494,335 @@
       ]
     },
     {
+      "name": "platform_packages_apps_GmsCompat",
+      "path": "packages/apps/GmsCompat",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat",
+      "remote": "grapheneos",
+      "commit_count": 40,
+      "commits": [
+        {
+          "sha": "9a1e188",
+          "message": "build(deps): bump gradle/actions/wrapper-validation from 6.3.0 to 6.4.1",
+          "author": "dependabot[bot]",
+          "date": "Mon Nov 2 08:50:23 2026 -0500",
+          "timestamp": 1793627423,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/9a1e188"
+        },
+        {
+          "sha": "4120538",
+          "message": "update Gradle to 9.8.2",
+          "author": "GrapheneOS",
+          "date": "Fri Oct 23 13:44:21 2026 -0400",
+          "timestamp": 1792777461,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/4120538"
+        },
+        {
+          "sha": "6792990",
+          "message": "config-holder: increment version to 178",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 23 13:00:31 2026 -0400",
+          "timestamp": 1792774831,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/6792990"
+        },
+        {
+          "sha": "7258ed3",
+          "message": "config: spoof ACCESS_MEDIA_LOCATION self-checks in GmsCore",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Oct 23 12:33:39 2026 -0400",
+          "timestamp": 1792773219,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/7258ed3"
+        },
+        {
+          "sha": "ec76665",
+          "message": "increment versionCode to 1011",
+          "author": "Dmitry Muhomor",
+          "date": "Tue Oct 20 11:16:25 2026 -0400",
+          "timestamp": 1792509385,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/ec76665"
+        },
+        {
+          "sha": "0855f58",
+          "message": "config-holder: increment version to 177",
+          "author": "Daniel Micay",
+          "date": "Mon Oct 19 20:43:01 2026 -0400",
+          "timestamp": 1792456981,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/0855f58"
+        },
+        {
+          "sha": "05e69db",
+          "message": "Add stub for RoleManager.getRoleHolders",
+          "author": "Artem Smirnov",
+          "date": "Mon Oct 19 20:42:41 2026 -0400",
+          "timestamp": 1792456961,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/05e69db"
+        },
+        {
+          "sha": "268a608",
+          "message": "build(deps): bump actions/setup-java from 6.0.1 to 6.1.0",
+          "author": "dependabot[bot]",
+          "date": "Mon Oct 19 12:11:04 2026 -0400",
+          "timestamp": 1792426264,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/268a608"
+        },
+        {
+          "sha": "68ac68e",
+          "message": "increment versionCode to 1010",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/68ac68e"
+        },
+        {
+          "sha": "78d2957",
+          "message": "improve handling of callbacks from GmsCompat app to its clients",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/78d2957"
+        },
+        {
+          "sha": "ea68e48",
+          "message": "cancel \"action required\" notification when main Play Store process dies",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/ea68e48"
+        },
+        {
+          "sha": "036fc07",
+          "message": "remove misleading AndroidManifest <queries>",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/036fc07"
+        },
+        {
+          "sha": "1461759",
+          "message": "remove no longer needed RpcProvider",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/1461759"
+        },
+        {
+          "sha": "17be758",
+          "message": "provide BinderGms2Gca through a service",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/17be758"
+        },
+        {
+          "sha": "d610cea",
+          "message": "simplify reimplementation of privileged Settings API",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/d610cea"
+        },
+        {
+          "sha": "6f66a3c",
+          "message": "provide BinderClientOfGmsCore2Gca through a service",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/6f66a3c"
+        },
+        {
+          "sha": "48eb584",
+          "message": "add definition of CLIENT permission",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/48eb584"
+        },
+        {
+          "sha": "21f4eed",
+          "message": "rename SIGNATURE_PROTECTED_PERMISSION to permission.SELF",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/21f4eed"
+        },
+        {
+          "sha": "5bb95ba",
+          "message": "adjust to GmsCore FileProxyService being provided by GmsCore itself",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Oct 15 20:25:53 2026 -0400",
+          "timestamp": 1792110353,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5bb95ba"
+        },
+        {
+          "sha": "3591218",
+          "message": "update Gradle to 9.8.1",
+          "author": "Daniel Micay",
+          "date": "Wed Oct 14 13:12:47 2026 -0400",
+          "timestamp": 1791997967,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/3591218"
+        },
+        {
+          "sha": "f5b3c7c",
+          "message": "config-holder: increment version to 176",
+          "author": "Daniel Micay",
+          "date": "Sun Oct 4 23:43:46 2026 -0400",
+          "timestamp": 1791171826,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/f5b3c7c"
+        },
+        {
+          "sha": "5c05391",
+          "message": "update Gradle to 9.8.0",
+          "author": "Daniel Micay",
+          "date": "Sun Oct 4 21:40:48 2026 -0400",
+          "timestamp": 1791164448,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5c05391"
+        },
+        {
+          "sha": "8648f8a",
+          "message": "config: avoid Quick Share teardown crash",
+          "author": "maade93791",
+          "date": "Sun Oct 4 20:54:31 2026 -0400",
+          "timestamp": 1791161671,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8648f8a"
+        },
+        {
+          "sha": "280192c",
+          "message": "config: disable scheduled backup state logging",
+          "author": "maade93791",
+          "date": "Sun Oct 4 20:03:17 2026 -0400",
+          "timestamp": 1791158597,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/280192c"
+        },
+        {
+          "sha": "5813871",
+          "message": "config-holder: increment version to 175",
+          "author": "Daniel Micay",
+          "date": "Mon Sep 21 22:15:39 2026 -0400",
+          "timestamp": 1790043339,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/5813871"
+        },
+        {
+          "sha": "8d26454",
+          "message": "update dependencies",
+          "author": "Daniel Micay",
+          "date": "Mon Sep 21 22:09:25 2026 -0400",
+          "timestamp": 1790042965,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8d26454"
+        },
+        {
+          "sha": "e8e34d0",
+          "message": "build(deps): bump actions/setup-java from 6.0.0 to 6.0.1",
+          "author": "dependabot[bot]",
+          "date": "Mon Sep 21 22:03:00 2026 -0400",
+          "timestamp": 1790042580,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/e8e34d0"
+        },
+        {
+          "sha": "cda9b36",
+          "message": "config: disable WebView WebAuthn in the Octarine account WebView",
+          "author": "maade93791",
+          "date": "Mon Sep 21 22:02:10 2026 -0400",
+          "timestamp": 1790042530,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/cda9b36"
+        },
+        {
+          "sha": "85924e6",
+          "message": "config-holder: increment version to 174",
+          "author": "Daniel Micay",
+          "date": "Wed Sep 9 22:13:35 2026 -0400",
+          "timestamp": 1789006415,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/85924e6"
+        },
+        {
+          "sha": "094d07c",
+          "message": "update AGP to 9.4.0",
+          "author": "Daniel Micay",
+          "date": "Wed Sep 9 18:57:03 2026 -0400",
+          "timestamp": 1788994623,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/094d07c"
+        },
+        {
+          "sha": "354c8ed",
+          "message": "update Gradle to 9.7.1",
+          "author": "Daniel Micay",
+          "date": "Wed Sep 9 18:14:01 2026 -0400",
+          "timestamp": 1788992041,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/354c8ed"
+        },
+        {
+          "sha": "d2dc136",
+          "message": "config: disable unsupported Gesture Exchange",
+          "author": "inthewaves",
+          "date": "Wed Sep 9 18:12:37 2026 -0400",
+          "timestamp": 1788991957,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/d2dc136"
+        },
+        {
+          "sha": "3fadfe0",
+          "message": "build(deps): bump actions/setup-java from 5.7.0 to 6.0.0",
+          "author": "dependabot[bot]",
+          "date": "Thu Aug 27 10:59:36 2026 -0400",
+          "timestamp": 1787842776,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/3fadfe0"
+        },
+        {
+          "sha": "37cbf5c",
+          "message": "add gradle.properties",
+          "author": "GrapheneOS",
+          "date": "Sun Aug 16 13:25:52 2026 -0400",
+          "timestamp": 1786901152,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/37cbf5c"
+        },
+        {
+          "sha": "d2f2de6",
+          "message": "config-holder: increment version to 173",
+          "author": "Daniel Micay",
+          "date": "Sun Aug 16 13:08:20 2026 -0400",
+          "timestamp": 1786900100,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/d2f2de6"
+        },
+        {
+          "sha": "35bac2a",
+          "message": "update Gradle plugins",
+          "author": "Daniel Micay",
+          "date": "Sun Aug 16 12:19:09 2026 -0400",
+          "timestamp": 1786897149,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/35bac2a"
+        },
+        {
+          "sha": "8db1e26",
+          "message": "update Gradle to 9.7.0",
+          "author": "Daniel Micay",
+          "date": "Sun Aug 16 11:34:41 2026 -0400",
+          "timestamp": 1786894481,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/8db1e26"
+        },
+        {
+          "sha": "c6c8b29",
+          "message": "regenerate Gradle verification metadata",
+          "author": "Daniel Micay",
+          "date": "Sun Aug 16 11:31:31 2026 -0400",
+          "timestamp": 1786894291,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/c6c8b29"
+        },
+        {
+          "sha": "518a7d9",
+          "message": "config: add stub for UsageStatsManager.queryEvents()",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Aug 16 11:14:24 2026 -0400",
+          "timestamp": 1786893264,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/518a7d9"
+        },
+        {
+          "sha": "056abed",
+          "message": "config: add stub for SmsManager.injectSmsPdu()",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Aug 16 11:14:24 2026 -0400",
+          "timestamp": 1786893264,
+          "url": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat/commit/056abed"
+        }
+      ]
+    },
+    {
       "name": "platform_packages_apps_Launcher3",
       "path": "packages/apps/Launcher3",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Launcher3",
@@ -4261,8 +4197,16 @@
       "path": "device/google/laguna-kernels/6.18",
       "repo_url": "https://github.com/GrapheneOS/device_google_laguna-kernels_6.18",
       "remote": "grapheneos",
-      "commit_count": 20,
+      "commit_count": 21,
       "commits": [
+        {
+          "sha": "803499a",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Nov 5 21:56:19 2026 -0500",
+          "timestamp": 1793933779,
+          "url": "https://github.com/GrapheneOS/device_google_laguna-kernels_6.18/commit/803499a"
+        },
         {
           "sha": "448d14c",
           "message": "rebuild with latest changes",
@@ -4426,159 +4370,6 @@
       ]
     },
     {
-      "name": "device_google_akita-kernels_6.1",
-      "path": "device/google/akita-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 18,
-      "commits": [
-        {
-          "sha": "8162b2a",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Nov 4 20:31:53 2026 -0500",
-          "timestamp": 1793842313,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8162b2a"
-        },
-        {
-          "sha": "513e58a",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Nov 2 13:13:39 2026 -0500",
-          "timestamp": 1793643219,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/513e58a"
-        },
-        {
-          "sha": "6be18e1",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sun Nov 1 14:31:54 2026 -0500",
-          "timestamp": 1793561514,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/6be18e1"
-        },
-        {
-          "sha": "da9cf09",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 30 18:16:53 2026 -0400",
-          "timestamp": 1793398613,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/da9cf09"
-        },
-        {
-          "sha": "121bf45",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 27 12:21:39 2026 -0400",
-          "timestamp": 1793118099,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/121bf45"
-        },
-        {
-          "sha": "6a2246c",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Oct 26 23:25:46 2026 -0400",
-          "timestamp": 1793071546,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/6a2246c"
-        },
-        {
-          "sha": "8e00071",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Oct 21 07:02:34 2026 -0400",
-          "timestamp": 1792580554,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8e00071"
-        },
-        {
-          "sha": "287f929",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 15 16:59:00 2026 -0400",
-          "timestamp": 1792097940,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/287f929"
-        },
-        {
-          "sha": "9ef5d8e",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 15 12:17:49 2026 -0400",
-          "timestamp": 1792081069,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/9ef5d8e"
-        },
-        {
-          "sha": "7a3388d",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 6 00:02:43 2026 -0400",
-          "timestamp": 1791259363,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/7a3388d"
-        },
-        {
-          "sha": "47c26a9",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 2 00:56:31 2026 -0400",
-          "timestamp": 1790916991,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/47c26a9"
-        },
-        {
-          "sha": "6d4174f",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 1 03:41:44 2026 -0400",
-          "timestamp": 1790840504,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/6d4174f"
-        },
-        {
-          "sha": "9b29ba3",
-          "message": "Android 17 QPR1",
-          "author": "Daniel Micay",
-          "date": "Fri Sep 25 17:11:44 2026 -0400",
-          "timestamp": 1790370704,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/9b29ba3"
-        },
-        {
-          "sha": "8afd0e5",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Sep 14 20:16:44 2026 -0400",
-          "timestamp": 1789431404,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8afd0e5"
-        },
-        {
-          "sha": "2cfb2eb",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Sep 10 02:22:31 2026 -0400",
-          "timestamp": 1789021351,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/2cfb2eb"
-        },
-        {
-          "sha": "4f7e394",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Sep 1 01:04:46 2026 -0400",
-          "timestamp": 1788239086,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/4f7e394"
-        },
-        {
-          "sha": "fd01501",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sun Aug 23 00:05:51 2026 -0400",
-          "timestamp": 1787457951,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/fd01501"
-        },
-        {
-          "sha": "8e18bdf",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Aug 12 12:55:05 2026 -0400",
-          "timestamp": 1786553705,
-          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8e18bdf"
-        }
-      ]
-    },
-    {
       "name": "device_google_bluejay-kernels_6.1",
       "path": "device/google/bluejay-kernels/6.1",
       "repo_url": "https://github.com/GrapheneOS/device_google_bluejay-kernels_6.1",
@@ -4732,155 +4523,155 @@
       ]
     },
     {
-      "name": "device_google_comet-kernels_6.1",
-      "path": "device/google/comet-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
+      "name": "device_google_akita-kernels_6.1",
+      "path": "device/google/akita-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1",
       "remote": "grapheneos",
       "commit_count": 18,
       "commits": [
         {
-          "sha": "d3dbaab",
+          "sha": "8162b2a",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Nov 4 20:31:59 2026 -0500",
-          "timestamp": 1793842319,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/d3dbaab"
+          "date": "Wed Nov 4 20:31:53 2026 -0500",
+          "timestamp": 1793842313,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8162b2a"
         },
         {
-          "sha": "a47e097",
+          "sha": "513e58a",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Mon Nov 2 13:13:45 2026 -0500",
-          "timestamp": 1793643225,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a47e097"
+          "date": "Mon Nov 2 13:13:39 2026 -0500",
+          "timestamp": 1793643219,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/513e58a"
         },
         {
-          "sha": "d9b5121",
+          "sha": "6be18e1",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sun Nov 1 14:32:00 2026 -0500",
-          "timestamp": 1793561520,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/d9b5121"
+          "date": "Sun Nov 1 14:31:54 2026 -0500",
+          "timestamp": 1793561514,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/6be18e1"
         },
         {
-          "sha": "bbf88a9",
+          "sha": "da9cf09",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Fri Oct 30 18:17:05 2026 -0400",
-          "timestamp": 1793398625,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bbf88a9"
+          "date": "Fri Oct 30 18:16:53 2026 -0400",
+          "timestamp": 1793398613,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/da9cf09"
         },
         {
-          "sha": "9133683",
+          "sha": "121bf45",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Tue Oct 27 12:21:41 2026 -0400",
-          "timestamp": 1793118101,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/9133683"
+          "date": "Tue Oct 27 12:21:39 2026 -0400",
+          "timestamp": 1793118099,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/121bf45"
         },
         {
-          "sha": "26d3f2f",
+          "sha": "6a2246c",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Mon Oct 26 23:25:52 2026 -0400",
-          "timestamp": 1793071552,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/26d3f2f"
+          "date": "Mon Oct 26 23:25:46 2026 -0400",
+          "timestamp": 1793071546,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/6a2246c"
         },
         {
-          "sha": "e7bd17d",
+          "sha": "8e00071",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Oct 21 07:02:42 2026 -0400",
-          "timestamp": 1792580562,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/e7bd17d"
+          "date": "Wed Oct 21 07:02:34 2026 -0400",
+          "timestamp": 1792580554,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8e00071"
         },
         {
-          "sha": "bdc3b8e",
+          "sha": "287f929",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 15 17:10:23 2026 -0400",
-          "timestamp": 1792098623,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bdc3b8e"
+          "date": "Thu Oct 15 16:59:00 2026 -0400",
+          "timestamp": 1792097940,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/287f929"
         },
         {
-          "sha": "cbb8e6a",
+          "sha": "9ef5d8e",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 15 12:37:20 2026 -0400",
-          "timestamp": 1792082240,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/cbb8e6a"
+          "date": "Thu Oct 15 12:17:49 2026 -0400",
+          "timestamp": 1792081069,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/9ef5d8e"
         },
         {
-          "sha": "f569f92",
+          "sha": "7a3388d",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Tue Oct 6 01:11:40 2026 -0400",
-          "timestamp": 1791263500,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f569f92"
+          "date": "Tue Oct 6 00:02:43 2026 -0400",
+          "timestamp": 1791259363,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/7a3388d"
         },
         {
-          "sha": "1a4a70c",
+          "sha": "47c26a9",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Fri Oct 2 00:56:36 2026 -0400",
-          "timestamp": 1790916996,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/1a4a70c"
+          "date": "Fri Oct 2 00:56:31 2026 -0400",
+          "timestamp": 1790916991,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/47c26a9"
         },
         {
-          "sha": "3ae7c9d",
+          "sha": "6d4174f",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 1 03:54:38 2026 -0400",
-          "timestamp": 1790841278,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/3ae7c9d"
+          "date": "Thu Oct 1 03:41:44 2026 -0400",
+          "timestamp": 1790840504,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/6d4174f"
         },
         {
-          "sha": "947fb3b",
+          "sha": "9b29ba3",
           "message": "Android 17 QPR1",
           "author": "Daniel Micay",
-          "date": "Fri Sep 25 06:03:26 2026 -0400",
-          "timestamp": 1790330606,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/947fb3b"
+          "date": "Fri Sep 25 17:11:44 2026 -0400",
+          "timestamp": 1790370704,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/9b29ba3"
         },
         {
-          "sha": "6d228a5",
+          "sha": "8afd0e5",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Mon Sep 14 20:16:51 2026 -0400",
-          "timestamp": 1789431411,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/6d228a5"
+          "date": "Mon Sep 14 20:16:44 2026 -0400",
+          "timestamp": 1789431404,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8afd0e5"
         },
         {
-          "sha": "24bc89f",
+          "sha": "2cfb2eb",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Sep 10 02:22:50 2026 -0400",
-          "timestamp": 1789021370,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/24bc89f"
+          "date": "Thu Sep 10 02:22:31 2026 -0400",
+          "timestamp": 1789021351,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/2cfb2eb"
         },
         {
-          "sha": "db692fa",
+          "sha": "4f7e394",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Tue Sep 1 01:40:02 2026 -0400",
-          "timestamp": 1788241202,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/db692fa"
+          "date": "Tue Sep 1 01:04:46 2026 -0400",
+          "timestamp": 1788239086,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/4f7e394"
         },
         {
-          "sha": "6515590",
+          "sha": "fd01501",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sun Aug 23 00:20:37 2026 -0400",
-          "timestamp": 1787458837,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/6515590"
+          "date": "Sun Aug 23 00:05:51 2026 -0400",
+          "timestamp": 1787457951,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/fd01501"
         },
         {
-          "sha": "95a043f",
+          "sha": "8e18bdf",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Aug 12 13:18:11 2026 -0400",
-          "timestamp": 1786555091,
-          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/95a043f"
+          "date": "Wed Aug 12 12:55:05 2026 -0400",
+          "timestamp": 1786553705,
+          "url": "https://github.com/GrapheneOS/device_google_akita-kernels_6.1/commit/8e18bdf"
         }
       ]
     },
@@ -5191,6 +4982,159 @@
       ]
     },
     {
+      "name": "device_google_comet-kernels_6.1",
+      "path": "device/google/comet-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 18,
+      "commits": [
+        {
+          "sha": "d3dbaab",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Nov 4 20:31:59 2026 -0500",
+          "timestamp": 1793842319,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/d3dbaab"
+        },
+        {
+          "sha": "a47e097",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 2 13:13:45 2026 -0500",
+          "timestamp": 1793643225,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/a47e097"
+        },
+        {
+          "sha": "d9b5121",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Nov 1 14:32:00 2026 -0500",
+          "timestamp": 1793561520,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/d9b5121"
+        },
+        {
+          "sha": "bbf88a9",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 30 18:17:05 2026 -0400",
+          "timestamp": 1793398625,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bbf88a9"
+        },
+        {
+          "sha": "9133683",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 27 12:21:41 2026 -0400",
+          "timestamp": 1793118101,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/9133683"
+        },
+        {
+          "sha": "26d3f2f",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Oct 26 23:25:52 2026 -0400",
+          "timestamp": 1793071552,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/26d3f2f"
+        },
+        {
+          "sha": "e7bd17d",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Oct 21 07:02:42 2026 -0400",
+          "timestamp": 1792580562,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/e7bd17d"
+        },
+        {
+          "sha": "bdc3b8e",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 15 17:10:23 2026 -0400",
+          "timestamp": 1792098623,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/bdc3b8e"
+        },
+        {
+          "sha": "cbb8e6a",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 15 12:37:20 2026 -0400",
+          "timestamp": 1792082240,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/cbb8e6a"
+        },
+        {
+          "sha": "f569f92",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 6 01:11:40 2026 -0400",
+          "timestamp": 1791263500,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/f569f92"
+        },
+        {
+          "sha": "1a4a70c",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 2 00:56:36 2026 -0400",
+          "timestamp": 1790916996,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/1a4a70c"
+        },
+        {
+          "sha": "3ae7c9d",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 1 03:54:38 2026 -0400",
+          "timestamp": 1790841278,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/3ae7c9d"
+        },
+        {
+          "sha": "947fb3b",
+          "message": "Android 17 QPR1",
+          "author": "Daniel Micay",
+          "date": "Fri Sep 25 06:03:26 2026 -0400",
+          "timestamp": 1790330606,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/947fb3b"
+        },
+        {
+          "sha": "6d228a5",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Sep 14 20:16:51 2026 -0400",
+          "timestamp": 1789431411,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/6d228a5"
+        },
+        {
+          "sha": "24bc89f",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Sep 10 02:22:50 2026 -0400",
+          "timestamp": 1789021370,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/24bc89f"
+        },
+        {
+          "sha": "db692fa",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Sep 1 01:40:02 2026 -0400",
+          "timestamp": 1788241202,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/db692fa"
+        },
+        {
+          "sha": "6515590",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Aug 23 00:20:37 2026 -0400",
+          "timestamp": 1787458837,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/6515590"
+        },
+        {
+          "sha": "95a043f",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Aug 12 13:18:11 2026 -0400",
+          "timestamp": 1786555091,
+          "url": "https://github.com/GrapheneOS/device_google_comet-kernels_6.1/commit/95a043f"
+        }
+      ]
+    },
+    {
       "name": "device_google_lynx-kernels_6.1",
       "path": "device/google/lynx-kernels/6.1",
       "repo_url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1",
@@ -5340,159 +5284,6 @@
           "date": "Wed Aug 12 12:54:51 2026 -0400",
           "timestamp": 1786553691,
           "url": "https://github.com/GrapheneOS/device_google_lynx-kernels_6.1/commit/a71bae3"
-        }
-      ]
-    },
-    {
-      "name": "device_google_raviole-kernels_6.1",
-      "path": "device/google/raviole-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1",
-      "remote": "grapheneos",
-      "commit_count": 18,
-      "commits": [
-        {
-          "sha": "214e91c",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Nov 4 21:10:30 2026 -0500",
-          "timestamp": 1793844630,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/214e91c"
-        },
-        {
-          "sha": "2f47a3d",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Nov 2 13:13:15 2026 -0500",
-          "timestamp": 1793643195,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/2f47a3d"
-        },
-        {
-          "sha": "f5c3870",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sun Nov 1 14:17:55 2026 -0500",
-          "timestamp": 1793560675,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f5c3870"
-        },
-        {
-          "sha": "215f714",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 30 18:00:22 2026 -0400",
-          "timestamp": 1793397622,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/215f714"
-        },
-        {
-          "sha": "e446800",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 27 12:19:43 2026 -0400",
-          "timestamp": 1793117983,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/e446800"
-        },
-        {
-          "sha": "f7e76de",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Oct 26 22:42:20 2026 -0400",
-          "timestamp": 1793068940,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f7e76de"
-        },
-        {
-          "sha": "1446ecd",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Oct 21 06:18:44 2026 -0400",
-          "timestamp": 1792577924,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/1446ecd"
-        },
-        {
-          "sha": "d7cd5ec",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 15 16:58:32 2026 -0400",
-          "timestamp": 1792097912,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/d7cd5ec"
-        },
-        {
-          "sha": "674f389",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 15 12:17:22 2026 -0400",
-          "timestamp": 1792081042,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/674f389"
-        },
-        {
-          "sha": "a49ac7f",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Oct 6 00:02:24 2026 -0400",
-          "timestamp": 1791259344,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/a49ac7f"
-        },
-        {
-          "sha": "bb694c2",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Fri Oct 2 00:25:46 2026 -0400",
-          "timestamp": 1790915146,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/bb694c2"
-        },
-        {
-          "sha": "323f1bb",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 1 03:41:05 2026 -0400",
-          "timestamp": 1790840465,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/323f1bb"
-        },
-        {
-          "sha": "989dd7d",
-          "message": "Android 17 QPR1",
-          "author": "Daniel Micay",
-          "date": "Fri Sep 25 05:46:28 2026 -0400",
-          "timestamp": 1790329588,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/989dd7d"
-        },
-        {
-          "sha": "98082f5",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Mon Sep 14 20:16:17 2026 -0400",
-          "timestamp": 1789431377,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/98082f5"
-        },
-        {
-          "sha": "f696507",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Thu Sep 10 02:22:09 2026 -0400",
-          "timestamp": 1789021329,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f696507"
-        },
-        {
-          "sha": "0879e6e",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Tue Sep 1 01:04:17 2026 -0400",
-          "timestamp": 1788239057,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/0879e6e"
-        },
-        {
-          "sha": "c5b7656",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Sat Aug 22 23:59:26 2026 -0400",
-          "timestamp": 1787457566,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/c5b7656"
-        },
-        {
-          "sha": "938d290",
-          "message": "rebuild with latest changes",
-          "author": "Daniel Micay",
-          "date": "Wed Aug 12 12:54:37 2026 -0400",
-          "timestamp": 1786553677,
-          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/938d290"
         }
       ]
     },
@@ -5650,155 +5441,155 @@
       ]
     },
     {
-      "name": "device_google_stallion-kernels_6.1",
-      "path": "device/google/stallion-kernels/6.1",
-      "repo_url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1",
+      "name": "device_google_raviole-kernels_6.1",
+      "path": "device/google/raviole-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1",
       "remote": "grapheneos",
       "commit_count": 18,
       "commits": [
         {
-          "sha": "604e5d2",
+          "sha": "214e91c",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Nov 4 20:32:06 2026 -0500",
-          "timestamp": 1793842326,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/604e5d2"
+          "date": "Wed Nov 4 21:10:30 2026 -0500",
+          "timestamp": 1793844630,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/214e91c"
         },
         {
-          "sha": "3f19023",
+          "sha": "2f47a3d",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Mon Nov 2 15:46:04 2026 -0500",
-          "timestamp": 1793652364,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/3f19023"
+          "date": "Mon Nov 2 13:13:15 2026 -0500",
+          "timestamp": 1793643195,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/2f47a3d"
         },
         {
-          "sha": "df6387e",
+          "sha": "f5c3870",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sun Nov 1 14:17:50 2026 -0500",
-          "timestamp": 1793560670,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/df6387e"
+          "date": "Sun Nov 1 14:17:55 2026 -0500",
+          "timestamp": 1793560675,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f5c3870"
         },
         {
-          "sha": "cc8f677",
+          "sha": "215f714",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Fri Oct 30 18:17:09 2026 -0400",
-          "timestamp": 1793398629,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/cc8f677"
+          "date": "Fri Oct 30 18:00:22 2026 -0400",
+          "timestamp": 1793397622,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/215f714"
         },
         {
-          "sha": "828cc4f",
+          "sha": "e446800",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Tue Oct 27 12:44:52 2026 -0400",
-          "timestamp": 1793119492,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/828cc4f"
+          "date": "Tue Oct 27 12:19:43 2026 -0400",
+          "timestamp": 1793117983,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/e446800"
         },
         {
-          "sha": "7920e66",
+          "sha": "f7e76de",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Mon Oct 26 22:19:37 2026 -0400",
-          "timestamp": 1793067577,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/7920e66"
+          "date": "Mon Oct 26 22:42:20 2026 -0400",
+          "timestamp": 1793068940,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f7e76de"
         },
         {
-          "sha": "4e74935",
+          "sha": "1446ecd",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Oct 21 07:12:18 2026 -0400",
-          "timestamp": 1792581138,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4e74935"
+          "date": "Wed Oct 21 06:18:44 2026 -0400",
+          "timestamp": 1792577924,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/1446ecd"
         },
         {
-          "sha": "ead1c85",
+          "sha": "d7cd5ec",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 15 20:27:52 2026 -0400",
-          "timestamp": 1792110472,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/ead1c85"
+          "date": "Thu Oct 15 16:58:32 2026 -0400",
+          "timestamp": 1792097912,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/d7cd5ec"
         },
         {
-          "sha": "4e69211",
+          "sha": "674f389",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 15 13:36:53 2026 -0400",
-          "timestamp": 1792085813,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4e69211"
+          "date": "Thu Oct 15 12:17:22 2026 -0400",
+          "timestamp": 1792081042,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/674f389"
         },
         {
-          "sha": "1739d65",
+          "sha": "a49ac7f",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Tue Oct 6 01:18:15 2026 -0400",
-          "timestamp": 1791263895,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/1739d65"
+          "date": "Tue Oct 6 00:02:24 2026 -0400",
+          "timestamp": 1791259344,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/a49ac7f"
         },
         {
-          "sha": "4d2f4fc",
+          "sha": "bb694c2",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Fri Oct 2 01:30:44 2026 -0400",
-          "timestamp": 1790919044,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4d2f4fc"
+          "date": "Fri Oct 2 00:25:46 2026 -0400",
+          "timestamp": 1790915146,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/bb694c2"
         },
         {
-          "sha": "9062dfc",
+          "sha": "323f1bb",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 1 04:06:41 2026 -0400",
-          "timestamp": 1790842001,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/9062dfc"
+          "date": "Thu Oct 1 03:41:05 2026 -0400",
+          "timestamp": 1790840465,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/323f1bb"
         },
         {
-          "sha": "8b4621a",
+          "sha": "989dd7d",
           "message": "Android 17 QPR1",
           "author": "Daniel Micay",
-          "date": "Fri Sep 25 17:11:48 2026 -0400",
-          "timestamp": 1790370708,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/8b4621a"
+          "date": "Fri Sep 25 05:46:28 2026 -0400",
+          "timestamp": 1790329588,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/989dd7d"
         },
         {
-          "sha": "4e484c2",
+          "sha": "98082f5",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Mon Sep 14 20:17:03 2026 -0400",
-          "timestamp": 1789431423,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4e484c2"
+          "date": "Mon Sep 14 20:16:17 2026 -0400",
+          "timestamp": 1789431377,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/98082f5"
         },
         {
-          "sha": "e5cdaa0",
+          "sha": "f696507",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Sep 10 02:22:56 2026 -0400",
-          "timestamp": 1789021376,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/e5cdaa0"
+          "date": "Thu Sep 10 02:22:09 2026 -0400",
+          "timestamp": 1789021329,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/f696507"
         },
         {
-          "sha": "3ccfb9d",
+          "sha": "0879e6e",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Tue Sep 1 01:48:44 2026 -0400",
-          "timestamp": 1788241724,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/3ccfb9d"
+          "date": "Tue Sep 1 01:04:17 2026 -0400",
+          "timestamp": 1788239057,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/0879e6e"
         },
         {
-          "sha": "35cefc3",
+          "sha": "c5b7656",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sun Aug 23 00:20:39 2026 -0400",
-          "timestamp": 1787458839,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/35cefc3"
+          "date": "Sat Aug 22 23:59:26 2026 -0400",
+          "timestamp": 1787457566,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/c5b7656"
         },
         {
-          "sha": "7e382e0",
+          "sha": "938d290",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Aug 12 14:05:17 2026 -0400",
-          "timestamp": 1786557917,
-          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/7e382e0"
+          "date": "Wed Aug 12 12:54:37 2026 -0400",
+          "timestamp": 1786553677,
+          "url": "https://github.com/GrapheneOS/device_google_raviole-kernels_6.1/commit/938d290"
         }
       ]
     },
@@ -5952,6 +5743,159 @@
           "date": "Wed Aug 12 12:55:09 2026 -0400",
           "timestamp": 1786553709,
           "url": "https://github.com/GrapheneOS/device_google_shusky-kernels_6.1/commit/db1128b"
+        }
+      ]
+    },
+    {
+      "name": "device_google_stallion-kernels_6.1",
+      "path": "device/google/stallion-kernels/6.1",
+      "repo_url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1",
+      "remote": "grapheneos",
+      "commit_count": 18,
+      "commits": [
+        {
+          "sha": "604e5d2",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Nov 4 20:32:06 2026 -0500",
+          "timestamp": 1793842326,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/604e5d2"
+        },
+        {
+          "sha": "3f19023",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Nov 2 15:46:04 2026 -0500",
+          "timestamp": 1793652364,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/3f19023"
+        },
+        {
+          "sha": "df6387e",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Nov 1 14:17:50 2026 -0500",
+          "timestamp": 1793560670,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/df6387e"
+        },
+        {
+          "sha": "cc8f677",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 30 18:17:09 2026 -0400",
+          "timestamp": 1793398629,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/cc8f677"
+        },
+        {
+          "sha": "828cc4f",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 27 12:44:52 2026 -0400",
+          "timestamp": 1793119492,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/828cc4f"
+        },
+        {
+          "sha": "7920e66",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Oct 26 22:19:37 2026 -0400",
+          "timestamp": 1793067577,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/7920e66"
+        },
+        {
+          "sha": "4e74935",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Oct 21 07:12:18 2026 -0400",
+          "timestamp": 1792581138,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4e74935"
+        },
+        {
+          "sha": "ead1c85",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 15 20:27:52 2026 -0400",
+          "timestamp": 1792110472,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/ead1c85"
+        },
+        {
+          "sha": "4e69211",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 15 13:36:53 2026 -0400",
+          "timestamp": 1792085813,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4e69211"
+        },
+        {
+          "sha": "1739d65",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Oct 6 01:18:15 2026 -0400",
+          "timestamp": 1791263895,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/1739d65"
+        },
+        {
+          "sha": "4d2f4fc",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Fri Oct 2 01:30:44 2026 -0400",
+          "timestamp": 1790919044,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4d2f4fc"
+        },
+        {
+          "sha": "9062dfc",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 1 04:06:41 2026 -0400",
+          "timestamp": 1790842001,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/9062dfc"
+        },
+        {
+          "sha": "8b4621a",
+          "message": "Android 17 QPR1",
+          "author": "Daniel Micay",
+          "date": "Fri Sep 25 17:11:48 2026 -0400",
+          "timestamp": 1790370708,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/8b4621a"
+        },
+        {
+          "sha": "4e484c2",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Mon Sep 14 20:17:03 2026 -0400",
+          "timestamp": 1789431423,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/4e484c2"
+        },
+        {
+          "sha": "e5cdaa0",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Thu Sep 10 02:22:56 2026 -0400",
+          "timestamp": 1789021376,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/e5cdaa0"
+        },
+        {
+          "sha": "3ccfb9d",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Tue Sep 1 01:48:44 2026 -0400",
+          "timestamp": 1788241724,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/3ccfb9d"
+        },
+        {
+          "sha": "35cefc3",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Sun Aug 23 00:20:39 2026 -0400",
+          "timestamp": 1787458839,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/35cefc3"
+        },
+        {
+          "sha": "7e382e0",
+          "message": "rebuild with latest changes",
+          "author": "Daniel Micay",
+          "date": "Wed Aug 12 14:05:17 2026 -0400",
+          "timestamp": 1786557917,
+          "url": "https://github.com/GrapheneOS/device_google_stallion-kernels_6.1/commit/7e382e0"
         }
       ]
     },
@@ -6266,7 +6210,7 @@
       "path": "external/hardened_malloc",
       "repo_url": "https://github.com/GrapheneOS/hardened_malloc",
       "remote": "grapheneos",
-      "commit_count": 18,
+      "commit_count": 17,
       "commits": [
         {
           "sha": "c5b1ae0",
@@ -6403,14 +6347,6 @@
           "date": "Fri Sep 4 04:26:13 2026 -0400",
           "timestamp": 1788510373,
           "url": "https://github.com/GrapheneOS/hardened_malloc/commit/65ece01"
-        },
-        {
-          "sha": "714abf5",
-          "message": "use pinned commit hashes for GitHub actions",
-          "author": "Daniel Micay",
-          "date": "Sat Aug 8 00:06:03 2026 -0400",
-          "timestamp": 1786161963,
-          "url": "https://github.com/GrapheneOS/hardened_malloc/commit/714abf5"
         }
       ]
     },
@@ -6560,127 +6496,6 @@
       ]
     },
     {
-      "name": "platform_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth",
-      "remote": "grapheneos",
-      "commit_count": 14,
-      "commits": [
-        {
-          "sha": "78710f00b",
-          "message": "Fix L2CAP heap overflow by enforcing minimum MPS",
-          "author": "Duy Truong",
-          "date": "Mon Nov 2 15:55:11 2026 -0500",
-          "timestamp": 1793652911,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/78710f00b"
-        },
-        {
-          "sha": "ff1b01972",
-          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
-          "author": "Brian Delwiche",
-          "date": "Mon Oct 5 21:57:37 2026 -0400",
-          "timestamp": 1791251857,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/ff1b01972"
-        },
-        {
-          "sha": "469799157",
-          "message": "Fix buffer overflow in UUID parsing",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/469799157"
-        },
-        {
-          "sha": "3b889cc7c",
-          "message": "GATT: Fix notifications sent to remote device without security checks",
-          "author": "Jakub Pawłowski",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/3b889cc7c"
-        },
-        {
-          "sha": "68ac7ce42",
-          "message": "Fix out-of-bounds heap write in SnoopLogger",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/68ac7ce42"
-        },
-        {
-          "sha": "e022693b7",
-          "message": "Fix cross-thread UAF in AvrcpService updates",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/e022693b7"
-        },
-        {
-          "sha": "73a2926c0",
-          "message": "Fix uninitialized pointer dereference in MsftExtensionManager",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/73a2926c0"
-        },
-        {
-          "sha": "e63e24280",
-          "message": "[RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/e63e24280"
-        },
-        {
-          "sha": "e197f71ea",
-          "message": "[RESTRICT AUTOMERGE] Enforce incoming CTKD security requirements",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/e197f71ea"
-        },
-        {
-          "sha": "b73c12ca0",
-          "message": "[RESTRICT AUTOMERGE] Fix heap buffer overflow in A2DP Opus decoder",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/b73c12ca0"
-        },
-        {
-          "sha": "eda888f00",
-          "message": "Remove btsec_sdp_database_thread_sync flag and old synchronization.",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/eda888f00"
-        },
-        {
-          "sha": "9fb8e5be0",
-          "message": "Treat encrypted non-SC link as downgrade if SC was previously supported.",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/9fb8e5be0"
-        },
-        {
-          "sha": "0dc7684ec",
-          "message": "Unflag remove_bond_caller_info",
-          "author": "Brian Delwiche",
-          "date": "Wed Sep 9 15:50:44 2026 -0400",
-          "timestamp": 1788983444,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/0dc7684ec"
-        },
-        {
-          "sha": "086b206ff",
-          "message": "handle user profiles when sending broadcasts",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 23:10:07 2026 -0400",
-          "timestamp": 1786158607,
-          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/086b206ff"
-        }
-      ]
-    },
-    {
       "name": "platform_frameworks_av",
       "path": "frameworks/av",
       "repo_url": "https://github.com/GrapheneOS/platform_frameworks_av",
@@ -6790,6 +6605,119 @@
           "date": "Wed Sep 9 15:34:41 2026 -0400",
           "timestamp": 1788982481,
           "url": "https://github.com/GrapheneOS/platform_frameworks_av/commit/6814c2cfb"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth",
+      "remote": "grapheneos",
+      "commit_count": 13,
+      "commits": [
+        {
+          "sha": "78710f00b",
+          "message": "Fix L2CAP heap overflow by enforcing minimum MPS",
+          "author": "Duy Truong",
+          "date": "Mon Nov 2 15:55:11 2026 -0500",
+          "timestamp": 1793652911,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/78710f00b"
+        },
+        {
+          "sha": "ff1b01972",
+          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
+          "author": "Brian Delwiche",
+          "date": "Mon Oct 5 21:57:37 2026 -0400",
+          "timestamp": 1791251857,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/ff1b01972"
+        },
+        {
+          "sha": "469799157",
+          "message": "Fix buffer overflow in UUID parsing",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/469799157"
+        },
+        {
+          "sha": "3b889cc7c",
+          "message": "GATT: Fix notifications sent to remote device without security checks",
+          "author": "Jakub Pawłowski",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/3b889cc7c"
+        },
+        {
+          "sha": "68ac7ce42",
+          "message": "Fix out-of-bounds heap write in SnoopLogger",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/68ac7ce42"
+        },
+        {
+          "sha": "e022693b7",
+          "message": "Fix cross-thread UAF in AvrcpService updates",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/e022693b7"
+        },
+        {
+          "sha": "73a2926c0",
+          "message": "Fix uninitialized pointer dereference in MsftExtensionManager",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/73a2926c0"
+        },
+        {
+          "sha": "e63e24280",
+          "message": "[RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/e63e24280"
+        },
+        {
+          "sha": "e197f71ea",
+          "message": "[RESTRICT AUTOMERGE] Enforce incoming CTKD security requirements",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/e197f71ea"
+        },
+        {
+          "sha": "b73c12ca0",
+          "message": "[RESTRICT AUTOMERGE] Fix heap buffer overflow in A2DP Opus decoder",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/b73c12ca0"
+        },
+        {
+          "sha": "eda888f00",
+          "message": "Remove btsec_sdp_database_thread_sync flag and old synchronization.",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/eda888f00"
+        },
+        {
+          "sha": "9fb8e5be0",
+          "message": "Treat encrypted non-SC link as downgrade if SC was previously supported.",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/9fb8e5be0"
+        },
+        {
+          "sha": "0dc7684ec",
+          "message": "Unflag remove_bond_caller_info",
+          "author": "Brian Delwiche",
+          "date": "Wed Sep 9 15:50:44 2026 -0400",
+          "timestamp": 1788983444,
+          "url": "https://github.com/GrapheneOS/platform_packages_modules_Bluetooth/commit/0dc7684ec"
         }
       ]
     },
@@ -7142,79 +7070,6 @@
       ]
     },
     {
-      "name": "platform_packages_providers_ContactsProvider",
-      "path": "packages/providers/ContactsProvider",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider",
-      "remote": "grapheneos",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "7b2672d",
-          "message": "tests: add ContactScopesTests",
-          "author": "inthewaves",
-          "date": "Thu Sep 10 01:06:38 2026 -0400",
-          "timestamp": 1789016798,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/7b2672d"
-        },
-        {
-          "sha": "8001b4e",
-          "message": "cscopes: workaround legacy LIMIT in sort order",
-          "author": "inthewaves",
-          "date": "Thu Sep 10 01:06:38 2026 -0400",
-          "timestamp": 1789016798,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/8001b4e"
-        },
-        {
-          "sha": "3ded085",
-          "message": "fix strict validation of _count query selections",
-          "author": "inthewaves",
-          "date": "Thu Sep 10 01:06:38 2026 -0400",
-          "timestamp": 1789016798,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/3ded085"
-        },
-        {
-          "sha": "c229e01",
-          "message": "tests: allow storage DCL for ContactsProviderTests",
-          "author": "inthewaves",
-          "date": "Thu Sep 10 01:06:38 2026 -0400",
-          "timestamp": 1789016798,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/c229e01"
-        },
-        {
-          "sha": "6b5c0af",
-          "message": "Restrict max size for Note.NOTE field",
-          "author": "Duy Truong",
-          "date": "Wed Sep 9 16:23:11 2026 -0400",
-          "timestamp": 1788985391,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/6b5c0af"
-        },
-        {
-          "sha": "1fecdea",
-          "message": "Prevent SQL injection in SelectionBuilder",
-          "author": "Duy Truong",
-          "date": "Wed Sep 9 16:23:11 2026 -0400",
-          "timestamp": 1788985391,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/1fecdea"
-        },
-        {
-          "sha": "4196e9c",
-          "message": "cscopes: use identity of the calling app for the filtered query",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 15:16:21 2026 -0400",
-          "timestamp": 1786130181,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/4196e9c"
-        },
-        {
-          "sha": "111f3c0",
-          "message": "Revert \"cscopes: add a workaround for WhatsApp ACCOUNT_TYPE queries\"",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Aug 7 15:16:21 2026 -0400",
-          "timestamp": 1786130181,
-          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/111f3c0"
-        }
-      ]
-    },
-    {
       "name": "platform_frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/GrapheneOS/platform_frameworks_native",
@@ -7516,6 +7371,63 @@
       ]
     },
     {
+      "name": "platform_packages_providers_ContactsProvider",
+      "path": "packages/providers/ContactsProvider",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider",
+      "remote": "grapheneos",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "7b2672d",
+          "message": "tests: add ContactScopesTests",
+          "author": "inthewaves",
+          "date": "Thu Sep 10 01:06:38 2026 -0400",
+          "timestamp": 1789016798,
+          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/7b2672d"
+        },
+        {
+          "sha": "8001b4e",
+          "message": "cscopes: workaround legacy LIMIT in sort order",
+          "author": "inthewaves",
+          "date": "Thu Sep 10 01:06:38 2026 -0400",
+          "timestamp": 1789016798,
+          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/8001b4e"
+        },
+        {
+          "sha": "3ded085",
+          "message": "fix strict validation of _count query selections",
+          "author": "inthewaves",
+          "date": "Thu Sep 10 01:06:38 2026 -0400",
+          "timestamp": 1789016798,
+          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/3ded085"
+        },
+        {
+          "sha": "c229e01",
+          "message": "tests: allow storage DCL for ContactsProviderTests",
+          "author": "inthewaves",
+          "date": "Thu Sep 10 01:06:38 2026 -0400",
+          "timestamp": 1789016798,
+          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/c229e01"
+        },
+        {
+          "sha": "6b5c0af",
+          "message": "Restrict max size for Note.NOTE field",
+          "author": "Duy Truong",
+          "date": "Wed Sep 9 16:23:11 2026 -0400",
+          "timestamp": 1788985391,
+          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/6b5c0af"
+        },
+        {
+          "sha": "1fecdea",
+          "message": "Prevent SQL injection in SelectionBuilder",
+          "author": "Duy Truong",
+          "date": "Wed Sep 9 16:23:11 2026 -0400",
+          "timestamp": 1788985391,
+          "url": "https://github.com/GrapheneOS/platform_packages_providers_ContactsProvider/commit/1fecdea"
+        }
+      ]
+    },
+    {
       "name": "platform_packages_providers_DownloadProvider",
       "path": "packages/providers/DownloadProvider",
       "repo_url": "https://github.com/GrapheneOS/platform_packages_providers_DownloadProvider",
@@ -7671,51 +7583,51 @@
       ]
     },
     {
-      "name": "kernel_prebuilts_common-modules_virtual-device_6.18_arm64",
-      "path": "kernel/prebuilts/common-modules/virtual-device/6.18/arm64",
-      "repo_url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64",
+      "name": "kernel_prebuilts_6.18_arm64",
+      "path": "kernel/prebuilts/6.18/arm64",
+      "repo_url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64",
       "remote": "grapheneos",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "2e50adf",
+          "sha": "d5a71fd",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sat Oct 31 15:56:03 2026 -0400",
-          "timestamp": 1793476563,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/2e50adf"
+          "date": "Sat Oct 31 15:56:00 2026 -0400",
+          "timestamp": 1793476560,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/d5a71fd"
         },
         {
-          "sha": "c7d3ec7",
+          "sha": "6093c63",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 29 14:15:54 2026 -0400",
-          "timestamp": 1793297754,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/c7d3ec7"
+          "date": "Thu Oct 29 14:15:50 2026 -0400",
+          "timestamp": 1793297750,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/6093c63"
         },
         {
-          "sha": "7709050",
+          "sha": "293e58e",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 29 01:28:54 2026 -0400",
-          "timestamp": 1793251734,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/7709050"
+          "date": "Thu Oct 29 01:28:49 2026 -0400",
+          "timestamp": 1793251729,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/293e58e"
         },
         {
-          "sha": "977120b",
+          "sha": "dcc1b04",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Oct 28 00:02:35 2026 -0400",
-          "timestamp": 1793160155,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/977120b"
+          "date": "Wed Oct 28 00:02:28 2026 -0400",
+          "timestamp": 1793160148,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/dcc1b04"
         },
         {
-          "sha": "61546e2",
-          "message": "initial commit",
+          "sha": "4797e80",
+          "message": "initial build",
           "author": "Daniel Micay",
-          "date": "Tue Oct 27 11:51:30 2026 -0400",
-          "timestamp": 1793116290,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/61546e2"
+          "date": "Tue Oct 27 11:51:42 2026 -0400",
+          "timestamp": 1793116302,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/4797e80"
         }
       ]
     },
@@ -7769,51 +7681,51 @@
       ]
     },
     {
-      "name": "kernel_prebuilts_6.18_arm64",
-      "path": "kernel/prebuilts/6.18/arm64",
-      "repo_url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64",
+      "name": "kernel_prebuilts_common-modules_virtual-device_6.18_arm64",
+      "path": "kernel/prebuilts/common-modules/virtual-device/6.18/arm64",
+      "repo_url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64",
       "remote": "grapheneos",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "d5a71fd",
+          "sha": "2e50adf",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Sat Oct 31 15:56:00 2026 -0400",
-          "timestamp": 1793476560,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/d5a71fd"
+          "date": "Sat Oct 31 15:56:03 2026 -0400",
+          "timestamp": 1793476563,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/2e50adf"
         },
         {
-          "sha": "6093c63",
+          "sha": "c7d3ec7",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 29 14:15:50 2026 -0400",
-          "timestamp": 1793297750,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/6093c63"
+          "date": "Thu Oct 29 14:15:54 2026 -0400",
+          "timestamp": 1793297754,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/c7d3ec7"
         },
         {
-          "sha": "293e58e",
+          "sha": "7709050",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Thu Oct 29 01:28:49 2026 -0400",
-          "timestamp": 1793251729,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/293e58e"
+          "date": "Thu Oct 29 01:28:54 2026 -0400",
+          "timestamp": 1793251734,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/7709050"
         },
         {
-          "sha": "dcc1b04",
+          "sha": "977120b",
           "message": "rebuild with latest changes",
           "author": "Daniel Micay",
-          "date": "Wed Oct 28 00:02:28 2026 -0400",
-          "timestamp": 1793160148,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/dcc1b04"
+          "date": "Wed Oct 28 00:02:35 2026 -0400",
+          "timestamp": 1793160155,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/977120b"
         },
         {
-          "sha": "4797e80",
-          "message": "initial build",
+          "sha": "61546e2",
+          "message": "initial commit",
           "author": "Daniel Micay",
-          "date": "Tue Oct 27 11:51:42 2026 -0400",
-          "timestamp": 1793116302,
-          "url": "https://github.com/GrapheneOS/kernel_prebuilts_6.18_arm64/commit/4797e80"
+          "date": "Tue Oct 27 11:51:30 2026 -0400",
+          "timestamp": 1793116290,
+          "url": "https://github.com/GrapheneOS/kernel_prebuilts_common-modules_virtual-device_6.18_arm64/commit/61546e2"
         }
       ]
     },
@@ -8408,6 +8320,39 @@
       ]
     },
     {
+      "name": "platform_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
+      "remote": "grapheneos",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "7b08bec6",
+          "message": "Fix StackOverflowError in SatelliteEntitlementController",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Sep 9 16:26:35 2026 -0400",
+          "timestamp": 1788985595,
+          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/7b08bec6"
+        },
+        {
+          "sha": "017ab9f6",
+          "message": "[Telephony] Secure contact URI access in Call Forwarding",
+          "author": "Steve Statia",
+          "date": "Wed Sep 9 16:26:35 2026 -0400",
+          "timestamp": 1788985595,
+          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/017ab9f6"
+        },
+        {
+          "sha": "30b78199",
+          "message": "Restrict USSD requests to the subscription's associated user.",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Sep 9 16:26:35 2026 -0400",
+          "timestamp": 1788985595,
+          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/30b78199"
+        }
+      ]
+    },
+    {
       "name": "platform_system_sepolicy",
       "path": "system/sepolicy",
       "repo_url": "https://github.com/GrapheneOS/platform_system_sepolicy",
@@ -8470,39 +8415,6 @@
           "date": "Sun Sep 13 16:00:36 2026 -0400",
           "timestamp": 1789329636,
           "url": "https://github.com/GrapheneOS/platform_system_timezone/commit/9d9754d"
-        }
-      ]
-    },
-    {
-      "name": "platform_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/GrapheneOS/platform_packages_services_Telephony",
-      "remote": "grapheneos",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "7b08bec6",
-          "message": "Fix StackOverflowError in SatelliteEntitlementController",
-          "author": "Aishwarya Mallampati",
-          "date": "Wed Sep 9 16:26:35 2026 -0400",
-          "timestamp": 1788985595,
-          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/7b08bec6"
-        },
-        {
-          "sha": "017ab9f6",
-          "message": "[Telephony] Secure contact URI access in Call Forwarding",
-          "author": "Steve Statia",
-          "date": "Wed Sep 9 16:26:35 2026 -0400",
-          "timestamp": 1788985595,
-          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/017ab9f6"
-        },
-        {
-          "sha": "30b78199",
-          "message": "Restrict USSD requests to the subscription's associated user.",
-          "author": "Aishwarya Mallampati",
-          "date": "Wed Sep 9 16:26:35 2026 -0400",
-          "timestamp": 1788985595,
-          "url": "https://github.com/GrapheneOS/platform_packages_services_Telephony/commit/30b78199"
         }
       ]
     },
@@ -8799,23 +8711,6 @@
       ]
     },
     {
-      "name": "platform_external_AppStore",
-      "path": "external/AppStore",
-      "repo_url": "https://github.com/GrapheneOS/platform_external_AppStore",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "57a8107",
-          "message": "version 37",
-          "author": "Daniel Micay",
-          "date": "Sat Oct 31 02:55:47 2026 -0400",
-          "timestamp": 1793429747,
-          "url": "https://github.com/GrapheneOS/platform_external_AppStore/commit/57a8107"
-        }
-      ]
-    },
-    {
       "name": "platform_external_AppCompatConfig",
       "path": "external/AppCompatConfig",
       "repo_url": "https://github.com/GrapheneOS/platform_external_AppCompatConfig",
@@ -8833,19 +8728,19 @@
       ]
     },
     {
-      "name": "platform_external_avb",
-      "path": "external/avb",
-      "repo_url": "https://github.com/GrapheneOS/platform_external_avb",
+      "name": "platform_external_AppStore",
+      "path": "external/AppStore",
+      "repo_url": "https://github.com/GrapheneOS/platform_external_AppStore",
       "remote": "grapheneos",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "f957210",
-          "message": "Fix silent failure in RSA verification on memory allocation error",
-          "author": "Duy Truong",
-          "date": "Mon Nov 2 15:54:49 2026 -0500",
-          "timestamp": 1793652889,
-          "url": "https://github.com/GrapheneOS/platform_external_avb/commit/f957210"
+          "sha": "57a8107",
+          "message": "version 37",
+          "author": "Daniel Micay",
+          "date": "Sat Oct 31 02:55:47 2026 -0400",
+          "timestamp": 1793429747,
+          "url": "https://github.com/GrapheneOS/platform_external_AppStore/commit/57a8107"
         }
       ]
     },
@@ -8863,6 +8758,23 @@
           "date": "Mon Nov 2 15:54:48 2026 -0500",
           "timestamp": 1793652888,
           "url": "https://github.com/GrapheneOS/platform_external_aac/commit/0e6429d"
+        }
+      ]
+    },
+    {
+      "name": "platform_external_avb",
+      "path": "external/avb",
+      "repo_url": "https://github.com/GrapheneOS/platform_external_avb",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f957210",
+          "message": "Fix silent failure in RSA verification on memory allocation error",
+          "author": "Duy Truong",
+          "date": "Mon Nov 2 15:54:49 2026 -0500",
+          "timestamp": 1793652889,
+          "url": "https://github.com/GrapheneOS/platform_external_avb/commit/f957210"
         }
       ]
     },
@@ -8935,23 +8847,6 @@
       ]
     },
     {
-      "name": "platform_external_libjxl",
-      "path": "external/libjxl",
-      "repo_url": "https://github.com/GrapheneOS/platform_external_libjxl",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "5dc3435",
-          "message": "Disable unsigned integer overflow sanitizer in libjxl",
-          "author": "John Reck",
-          "date": "Wed Sep 9 15:32:50 2026 -0400",
-          "timestamp": 1788982370,
-          "url": "https://github.com/GrapheneOS/platform_external_libjxl/commit/5dc3435"
-        }
-      ]
-    },
-    {
       "name": "platform_external_libopenapv",
       "path": "external/libopenapv",
       "repo_url": "https://github.com/GrapheneOS/platform_external_libopenapv",
@@ -8965,6 +8860,23 @@
           "date": "Mon Nov 2 15:54:51 2026 -0500",
           "timestamp": 1793652891,
           "url": "https://github.com/GrapheneOS/platform_external_libopenapv/commit/9d2c934"
+        }
+      ]
+    },
+    {
+      "name": "platform_external_libjxl",
+      "path": "external/libjxl",
+      "repo_url": "https://github.com/GrapheneOS/platform_external_libjxl",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5dc3435",
+          "message": "Disable unsigned integer overflow sanitizer in libjxl",
+          "author": "John Reck",
+          "date": "Wed Sep 9 15:32:50 2026 -0400",
+          "timestamp": 1788982370,
+          "url": "https://github.com/GrapheneOS/platform_external_libjxl/commit/5dc3435"
         }
       ]
     },
@@ -9224,23 +9136,6 @@
       ]
     },
     {
-      "name": "platform_system_libfmq",
-      "path": "system/libfmq",
-      "repo_url": "https://github.com/GrapheneOS/platform_system_libfmq",
-      "remote": "grapheneos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "5b93165",
-          "message": "Reapply \"Handle corrupted read/write pointers in read funcitons\"",
-          "author": "Devin Moore",
-          "date": "Wed Sep 9 16:25:30 2026 -0400",
-          "timestamp": 1788985530,
-          "url": "https://github.com/GrapheneOS/platform_system_libfmq/commit/5b93165"
-        }
-      ]
-    },
-    {
       "name": "platform_system_fs_fs_mgr",
       "path": "system/fs/fs_mgr",
       "repo_url": "https://github.com/GrapheneOS/platform_system_fs_fs_mgr",
@@ -9271,6 +9166,23 @@
           "date": "Wed Sep 9 16:25:28 2026 -0400",
           "timestamp": 1788985528,
           "url": "https://github.com/GrapheneOS/platform_system_libufdt/commit/6764da3"
+        }
+      ]
+    },
+    {
+      "name": "platform_system_libfmq",
+      "path": "system/libfmq",
+      "repo_url": "https://github.com/GrapheneOS/platform_system_libfmq",
+      "remote": "grapheneos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5b93165",
+          "message": "Reapply \"Handle corrupted read/write pointers in read funcitons\"",
+          "author": "Devin Moore",
+          "date": "Wed Sep 9 16:25:30 2026 -0400",
+          "timestamp": 1788985530,
+          "url": "https://github.com/GrapheneOS/platform_system_libfmq/commit/5b93165"
         }
       ]
     },
