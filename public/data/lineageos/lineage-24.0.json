@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-24.0",
-  "generated_at": "2026-11-06T05:00:14.367505+00:00",
-  "since_date": "2026-08-08",
-  "total_projects": 181,
-  "total_commits": 1738,
+  "generated_at": "2026-11-07T04:32:29.701548+00:00",
+  "since_date": "2026-08-09",
+  "total_projects": 183,
+  "total_commits": 1741,
   "projects": [
     {
       "name": "LineageOS/android_frameworks_base",
@@ -3167,8 +3167,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 80,
+      "commit_count": 81,
       "commits": [
+        {
+          "sha": "16f9b0b",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Nov 6 23:30:53 2026 +0000",
+          "timestamp": 1794007853,
+          "url": "https://github.com/LineageOS/hudson/commit/16f9b0b"
+        },
         {
           "sha": "e6e5f90",
           "message": "Regenerate device dependency mappings",
@@ -7684,7 +7692,7 @@
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
       "remote": "github",
-      "commit_count": 22,
+      "commit_count": 21,
       "commits": [
         {
           "sha": "7693bb9",
@@ -7853,14 +7861,6 @@
           "date": "Sat Aug 22 06:48:27 2026 +0000",
           "timestamp": 1787381307,
           "url": "https://github.com/LineageOS/android_vendor_apn/commit/dd249f1"
-        },
-        {
-          "sha": "05ceef7",
-          "message": "DE: Set IPV4V6 as protocol for o2 APNs",
-          "author": "maximilianovermeyer",
-          "date": "Sun Aug 9 01:21:41 2026 +0000",
-          "timestamp": 1786238501,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/05ceef7"
         }
       ]
     },
@@ -13932,39 +13932,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Telephony",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "2d0e6fb0",
-          "message": "Fix StackOverflowError in SatelliteEntitlementController",
-          "author": "Aishwarya Mallampati",
-          "date": "Sat Sep 19 01:17:54 2026 +0200",
-          "timestamp": 1789773474,
-          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/2d0e6fb0"
-        },
-        {
-          "sha": "8b3899cd",
-          "message": "[Telephony] Secure contact URI access in Call Forwarding",
-          "author": "Steve Statia",
-          "date": "Sat Sep 19 01:17:54 2026 +0200",
-          "timestamp": 1789773474,
-          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/8b3899cd"
-        },
-        {
-          "sha": "ad85081d",
-          "message": "Restrict USSD requests to the subscription's associated user.",
-          "author": "Aishwarya Mallampati",
-          "date": "Thu Sep 10 21:18:13 2026 +0000",
-          "timestamp": 1789075093,
-          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/ad85081d"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_system_ca-certificates",
       "path": "system/ca-certificates",
       "repo_url": "https://github.com/LineageOS/android_system_ca-certificates",
@@ -13994,6 +13961,39 @@
           "date": "Tue Oct 20 18:43:18 2026 +0200",
           "timestamp": 1792514598,
           "url": "https://github.com/LineageOS/android_system_ca-certificates/commit/114629c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Telephony",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "2d0e6fb0",
+          "message": "Fix StackOverflowError in SatelliteEntitlementController",
+          "author": "Aishwarya Mallampati",
+          "date": "Sat Sep 19 01:17:54 2026 +0200",
+          "timestamp": 1789773474,
+          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/2d0e6fb0"
+        },
+        {
+          "sha": "8b3899cd",
+          "message": "[Telephony] Secure contact URI access in Call Forwarding",
+          "author": "Steve Statia",
+          "date": "Sat Sep 19 01:17:54 2026 +0200",
+          "timestamp": 1789773474,
+          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/8b3899cd"
+        },
+        {
+          "sha": "ad85081d",
+          "message": "Restrict USSD requests to the subscription's associated user.",
+          "author": "Aishwarya Mallampati",
+          "date": "Thu Sep 10 21:18:13 2026 +0000",
+          "timestamp": 1789075093,
+          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/ad85081d"
         }
       ]
     },
@@ -14268,6 +14268,31 @@
           "date": "Wed Aug 12 18:21:18 2026 +0300",
           "timestamp": 1786548078,
           "url": "https://github.com/LineageOS/android_hardware_google_pixel/commit/eda7f31"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sdm660/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "f79ab9e",
+          "message": "audio-extn: Fix the null pointer dereference",
+          "author": "Srinivasa Reddy M N",
+          "date": "Mon Nov 2 00:37:37 2026 +0200",
+          "timestamp": 1793572657,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/f79ab9e"
+        },
+        {
+          "sha": "0e07d71",
+          "message": "hal: Stop compress VoIP PCM when the call is kept alive",
+          "author": "LuK1337",
+          "date": "Fri Oct 23 20:00:06 2026 +0200",
+          "timestamp": 1792778406,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/0e07d71"
         }
       ]
     },
@@ -14912,18 +14937,35 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sdm660/audio",
+      "path": "hardware/qcom-caf/sm8150/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "0e07d71",
-          "message": "hal: Stop compress VoIP PCM when the call is kept alive",
-          "author": "LuK1337",
-          "date": "Fri Oct 23 20:00:06 2026 +0200",
-          "timestamp": 1792778406,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/0e07d71"
+          "sha": "3ac0f60",
+          "message": "audio-extn: Fix the null pointer dereference",
+          "author": "Srinivasa Reddy M N",
+          "date": "Mon Nov 2 00:36:07 2026 +0200",
+          "timestamp": 1793572567,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/3ac0f60"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sm8250/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "399ade9",
+          "message": "audio-extn: Fix the null pointer dereference",
+          "author": "Srinivasa Reddy M N",
+          "date": "Sun Nov 1 22:14:28 2026 +0000",
+          "timestamp": 1793571268,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/399ade9"
         }
       ]
     },
@@ -15013,23 +15055,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_EuiccPolicy",
-      "path": "packages/apps/EuiccPolicy",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_EuiccPolicy",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3b3c28e",
-          "message": "EuiccPolicy: Always enable EUICC packages",
-          "author": "Michael Bestas",
-          "date": "Sun Oct 11 08:44:52 2026 +0000",
-          "timestamp": 1791708292,
-          "url": "https://github.com/LineageOS/android_packages_apps_EuiccPolicy/commit/3b3c28e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_EmergencyInfo",
       "path": "packages/apps/EmergencyInfo",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_EmergencyInfo",
@@ -15043,6 +15068,23 @@
           "date": "Sat Oct 17 23:34:02 2026 +0800",
           "timestamp": 1792251242,
           "url": "https://github.com/LineageOS/android_packages_apps_EmergencyInfo/commit/fc80d69"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_EuiccPolicy",
+      "path": "packages/apps/EuiccPolicy",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_EuiccPolicy",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3b3c28e",
+          "message": "EuiccPolicy: Always enable EUICC packages",
+          "author": "Michael Bestas",
+          "date": "Sun Oct 11 08:44:52 2026 +0000",
+          "timestamp": 1791708292,
+          "url": "https://github.com/LineageOS/android_packages_apps_EuiccPolicy/commit/3b3c28e"
         }
       ]
     },
@@ -15302,23 +15344,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/LineageOS/android_system_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f150131",
-          "message": "audio: Treat DTS as IEC 61937 compatible",
-          "author": "Vitaliy Tomin",
-          "date": "Thu Oct 22 15:44:37 2026 +0000",
-          "timestamp": 1792683877,
-          "url": "https://github.com/LineageOS/android_system_media/commit/f150131"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_system_memory_libion",
       "path": "system/memory/libion",
       "repo_url": "https://github.com/LineageOS/android_system_memory_libion",
@@ -15332,6 +15357,23 @@
           "date": "Fri Aug 28 11:49:43 2026 -0500",
           "timestamp": 1787935783,
           "url": "https://github.com/LineageOS/android_system_memory_libion/commit/abd899d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/LineageOS/android_system_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f150131",
+          "message": "audio: Treat DTS as IEC 61937 compatible",
+          "author": "Vitaliy Tomin",
+          "date": "Thu Oct 22 15:44:37 2026 +0000",
+          "timestamp": 1792683877,
+          "url": "https://github.com/LineageOS/android_system_media/commit/f150131"
         }
       ]
     },

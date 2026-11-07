@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "seventeen",
-  "generated_at": "2026-11-06T05:00:56.901607+00:00",
-  "since_date": "2026-08-08",
-  "total_projects": 97,
-  "total_commits": 645,
+  "generated_at": "2026-11-07T04:33:02.482074+00:00",
+  "since_date": "2026-08-09",
+  "total_projects": 95,
+  "total_commits": 640,
   "projects": [
     {
       "name": "frameworks_base",
@@ -13,6 +13,22 @@
       "remote": "yaap",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "a99a8a2a",
+          "message": "SystemUI: Fix volume panel not showing in legacy keyguard mode",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 6 08:27:50 2026 -0500",
+          "timestamp": 1793971670,
+          "url": "https://github.com/yaap/frameworks_base/commit/a99a8a2a"
+        },
+        {
+          "sha": "a54caa5a",
+          "message": "SystemUI: Fix UDFPS dim layer opacity and animation cleanup",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 5 16:48:42 2026 -0500",
+          "timestamp": 1793915322,
+          "url": "https://github.com/yaap/frameworks_base/commit/a54caa5a"
+        },
         {
           "sha": "72df06b3",
           "message": "base: PixelPropsUtils: Fix setting primitives via Unsafe",
@@ -796,22 +812,6 @@
           "date": "Wed Aug 26 23:25:49 2026 -0400",
           "timestamp": 1787801149,
           "url": "https://github.com/yaap/frameworks_base/commit/29756b4f"
-        },
-        {
-          "sha": "36907026",
-          "message": "SystemUI: TileHapticsViewModel: Always vibrate for a long click",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Aug 26 23:25:49 2026 -0400",
-          "timestamp": 1787801149,
-          "url": "https://github.com/yaap/frameworks_base/commit/36907026"
-        },
-        {
-          "sha": "7c5c35f2",
-          "message": "Revert \"SystemUI: Different arrow drawable for the non boolean app QS tiles\"",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Aug 26 23:25:49 2026 -0400",
-          "timestamp": 1787801149,
-          "url": "https://github.com/yaap/frameworks_base/commit/7c5c35f2"
         }
       ]
     },
@@ -2751,127 +2751,6 @@
       ]
     },
     {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
-      "remote": "yaap",
-      "commit_count": 14,
-      "commits": [
-        {
-          "sha": "d80d6074a3",
-          "message": "Fix L2CAP heap overflow by enforcing minimum MPS",
-          "author": "Duy Truong",
-          "date": "Thu Nov 5 08:03:04 2026 -0500",
-          "timestamp": 1793883784,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/d80d6074a3"
-        },
-        {
-          "sha": "e6f6638bed",
-          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
-          "author": "Brian Delwiche",
-          "date": "Mon Oct 5 17:06:42 2026 -0400",
-          "timestamp": 1791234402,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/e6f6638bed"
-        },
-        {
-          "sha": "134caf9d56",
-          "message": "Fix buffer overflow in UUID parsing",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/134caf9d56"
-        },
-        {
-          "sha": "95f9a562d5",
-          "message": "Fix out-of-bounds heap write in SnoopLogger",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/95f9a562d5"
-        },
-        {
-          "sha": "3c84d19734",
-          "message": "Fix cross-thread UAF in AvrcpService updates",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/3c84d19734"
-        },
-        {
-          "sha": "182e69ad98",
-          "message": "Fix uninitialized pointer dereference in MsftExtensionManager",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/182e69ad98"
-        },
-        {
-          "sha": "473c63139e",
-          "message": "Fix SDP server heap buffer overflow",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/473c63139e"
-        },
-        {
-          "sha": "6f1d8a5a6c",
-          "message": "Fix heap buffer overflow in A2DP Opus decoder",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/6f1d8a5a6c"
-        },
-        {
-          "sha": "4309633455",
-          "message": "Remove btsec_sdp_database_thread_sync flag and old synchronization.",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/4309633455"
-        },
-        {
-          "sha": "8ad6296107",
-          "message": "Treat encrypted non-SC link as downgrade if SC was previously supported.",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:14 2026 -0400",
-          "timestamp": 1789057934,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8ad6296107"
-        },
-        {
-          "sha": "245a4e206c",
-          "message": "Unflag remove_bond_caller_info",
-          "author": "Brian Delwiche",
-          "date": "Thu Sep 10 12:32:06 2026 -0400",
-          "timestamp": 1789057926,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/245a4e206c"
-        },
-        {
-          "sha": "f9b00e396b",
-          "message": "Revert \"A2DP: Use software encoding for LHDC\"",
-          "author": "John Galt",
-          "date": "Mon Aug 24 14:08:53 2026 -0400",
-          "timestamp": 1787594933,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/f9b00e396b"
-        },
-        {
-          "sha": "982eadb2e7",
-          "message": "A2DP: Use software encoding for LHDC",
-          "author": "Sean Du",
-          "date": "Fri Aug 21 09:41:25 2026 -0400",
-          "timestamp": 1787319685,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/982eadb2e7"
-        },
-        {
-          "sha": "fc3363ed8c",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Aug 8 15:13:48 2026 +0300",
-          "timestamp": 1786191228,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/fc3363ed8c"
-        }
-      ]
-    },
-    {
       "name": "frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/yaap/frameworks_native",
@@ -3094,6 +2973,119 @@
           "date": "Sun Aug 9 19:04:22 2026 +0300",
           "timestamp": 1786291462,
           "url": "https://github.com/yaap/manifest/commit/2c4d707"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
+      "remote": "yaap",
+      "commit_count": 13,
+      "commits": [
+        {
+          "sha": "d80d6074a3",
+          "message": "Fix L2CAP heap overflow by enforcing minimum MPS",
+          "author": "Duy Truong",
+          "date": "Thu Nov 5 08:03:04 2026 -0500",
+          "timestamp": 1793883784,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/d80d6074a3"
+        },
+        {
+          "sha": "e6f6638bed",
+          "message": "Remove unused ext_attrs from playerapplicationsetting_cb",
+          "author": "Brian Delwiche",
+          "date": "Mon Oct 5 17:06:42 2026 -0400",
+          "timestamp": 1791234402,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/e6f6638bed"
+        },
+        {
+          "sha": "134caf9d56",
+          "message": "Fix buffer overflow in UUID parsing",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/134caf9d56"
+        },
+        {
+          "sha": "95f9a562d5",
+          "message": "Fix out-of-bounds heap write in SnoopLogger",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/95f9a562d5"
+        },
+        {
+          "sha": "3c84d19734",
+          "message": "Fix cross-thread UAF in AvrcpService updates",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/3c84d19734"
+        },
+        {
+          "sha": "182e69ad98",
+          "message": "Fix uninitialized pointer dereference in MsftExtensionManager",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/182e69ad98"
+        },
+        {
+          "sha": "473c63139e",
+          "message": "Fix SDP server heap buffer overflow",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/473c63139e"
+        },
+        {
+          "sha": "6f1d8a5a6c",
+          "message": "Fix heap buffer overflow in A2DP Opus decoder",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/6f1d8a5a6c"
+        },
+        {
+          "sha": "4309633455",
+          "message": "Remove btsec_sdp_database_thread_sync flag and old synchronization.",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/4309633455"
+        },
+        {
+          "sha": "8ad6296107",
+          "message": "Treat encrypted non-SC link as downgrade if SC was previously supported.",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:14 2026 -0400",
+          "timestamp": 1789057934,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8ad6296107"
+        },
+        {
+          "sha": "245a4e206c",
+          "message": "Unflag remove_bond_caller_info",
+          "author": "Brian Delwiche",
+          "date": "Thu Sep 10 12:32:06 2026 -0400",
+          "timestamp": 1789057926,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/245a4e206c"
+        },
+        {
+          "sha": "f9b00e396b",
+          "message": "Revert \"A2DP: Use software encoding for LHDC\"",
+          "author": "John Galt",
+          "date": "Mon Aug 24 14:08:53 2026 -0400",
+          "timestamp": 1787594933,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/f9b00e396b"
+        },
+        {
+          "sha": "982eadb2e7",
+          "message": "A2DP: Use software encoding for LHDC",
+          "author": "Sean Du",
+          "date": "Fri Aug 21 09:41:25 2026 -0400",
+          "timestamp": 1787319685,
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/982eadb2e7"
         }
       ]
     },
@@ -4232,63 +4224,6 @@
       ]
     },
     {
-      "name": "packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
-      "remote": "yaap",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "393543ca5",
-          "message": "Do not allow PCC sandbox app without permission to setVendorIes",
-          "author": "Oscar Shu",
-          "date": "Thu Nov 5 08:04:52 2026 -0500",
-          "timestamp": 1793883892,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/393543ca5"
-        },
-        {
-          "sha": "1f8f6fbfc",
-          "message": "Fix LOHS BSSID configuration validation bypass",
-          "author": "Les Lee",
-          "date": "Thu Nov 5 08:04:46 2026 -0500",
-          "timestamp": 1793883886,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/1f8f6fbfc"
-        },
-        {
-          "sha": "ba8460529",
-          "message": "Summary: Fix permission bypass in WifiP2pServiceImpl",
-          "author": "sunilravi",
-          "date": "Thu Nov 5 08:04:42 2026 -0500",
-          "timestamp": 1793883882,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/ba8460529"
-        },
-        {
-          "sha": "5689a2cc3",
-          "message": "Enforce permissions in IWifiP2pListener callback",
-          "author": "Junyu Lai",
-          "date": "Thu Nov 5 08:04:36 2026 -0500",
-          "timestamp": 1793883876,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/5689a2cc3"
-        },
-        {
-          "sha": "d33585ea4",
-          "message": "Fix package spoofing in getMessenger",
-          "author": "Junyu Lai",
-          "date": "Thu Nov 5 08:04:33 2026 -0500",
-          "timestamp": 1793883873,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/d33585ea4"
-        },
-        {
-          "sha": "04be8e3c9",
-          "message": "Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb",
-          "author": "Nate Jiang",
-          "date": "Thu Sep 10 12:45:37 2026 -0400",
-          "timestamp": 1789058737,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/04be8e3c9"
-        }
-      ]
-    },
-    {
       "name": "packages_providers_TelephonyProvider",
       "path": "packages/providers/TelephonyProvider",
       "repo_url": "https://github.com/yaap/packages_providers_TelephonyProvider",
@@ -4342,6 +4277,63 @@
           "date": "Thu Sep 10 12:46:27 2026 -0400",
           "timestamp": 1789058787,
           "url": "https://github.com/yaap/packages_providers_TelephonyProvider/commit/39a36915"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Wifi",
+      "path": "packages/modules/Wifi",
+      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
+      "remote": "yaap",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "393543ca5",
+          "message": "Do not allow PCC sandbox app without permission to setVendorIes",
+          "author": "Oscar Shu",
+          "date": "Thu Nov 5 08:04:52 2026 -0500",
+          "timestamp": 1793883892,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/393543ca5"
+        },
+        {
+          "sha": "1f8f6fbfc",
+          "message": "Fix LOHS BSSID configuration validation bypass",
+          "author": "Les Lee",
+          "date": "Thu Nov 5 08:04:46 2026 -0500",
+          "timestamp": 1793883886,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/1f8f6fbfc"
+        },
+        {
+          "sha": "ba8460529",
+          "message": "Summary: Fix permission bypass in WifiP2pServiceImpl",
+          "author": "sunilravi",
+          "date": "Thu Nov 5 08:04:42 2026 -0500",
+          "timestamp": 1793883882,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/ba8460529"
+        },
+        {
+          "sha": "5689a2cc3",
+          "message": "Enforce permissions in IWifiP2pListener callback",
+          "author": "Junyu Lai",
+          "date": "Thu Nov 5 08:04:36 2026 -0500",
+          "timestamp": 1793883876,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/5689a2cc3"
+        },
+        {
+          "sha": "d33585ea4",
+          "message": "Fix package spoofing in getMessenger",
+          "author": "Junyu Lai",
+          "date": "Thu Nov 5 08:04:33 2026 -0500",
+          "timestamp": 1793883873,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/d33585ea4"
+        },
+        {
+          "sha": "04be8e3c9",
+          "message": "Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb",
+          "author": "Nate Jiang",
+          "date": "Thu Sep 10 12:45:37 2026 -0400",
+          "timestamp": 1789058737,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/04be8e3c9"
         }
       ]
     },
@@ -4649,47 +4641,6 @@
       ]
     },
     {
-      "name": "packages_apps_OpenDelta",
-      "path": "packages/apps/OpenDelta",
-      "repo_url": "https://github.com/yaap/packages_apps_OpenDelta",
-      "remote": "yaap",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "25bb017",
-          "message": "OpenDelta: Point downloads to the new location",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Sep 29 13:37:22 2026 +0300",
-          "timestamp": 1790678242,
-          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/25bb017"
-        },
-        {
-          "sha": "6bca7f0",
-          "message": "OpenDelta: Only fail for version num if the update is somehow newer",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Aug 23 17:33:57 2026 +0300",
-          "timestamp": 1787495637,
-          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/6bca7f0"
-        },
-        {
-          "sha": "84e3235",
-          "message": "OpenDelta: Show the correct version when there's a version mismatch",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Aug 23 12:39:28 2026 +0300",
-          "timestamp": 1787477968,
-          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/84e3235"
-        },
-        {
-          "sha": "7278257",
-          "message": "OpenDelta: fix new errorprone warnings as errors",
-          "author": "John Galt",
-          "date": "Sat Aug 8 11:33:21 2026 -0400",
-          "timestamp": 1786203201,
-          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/7278257"
-        }
-      ]
-    },
-    {
       "name": "system_core",
       "path": "system/core",
       "repo_url": "https://github.com/yaap/system_core",
@@ -4834,6 +4785,39 @@
           "date": "Thu Sep 10 12:48:29 2026 -0400",
           "timestamp": 1789058909,
           "url": "https://github.com/yaap/external_wpa_supplicant_8/commit/b4e1139"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_OpenDelta",
+      "path": "packages/apps/OpenDelta",
+      "repo_url": "https://github.com/yaap/packages_apps_OpenDelta",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "25bb017",
+          "message": "OpenDelta: Point downloads to the new location",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Sep 29 13:37:22 2026 +0300",
+          "timestamp": 1790678242,
+          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/25bb017"
+        },
+        {
+          "sha": "6bca7f0",
+          "message": "OpenDelta: Only fail for version num if the update is somehow newer",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Aug 23 17:33:57 2026 +0300",
+          "timestamp": 1787495637,
+          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/6bca7f0"
+        },
+        {
+          "sha": "84e3235",
+          "message": "OpenDelta: Show the correct version when there's a version mismatch",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Aug 23 12:39:28 2026 +0300",
+          "timestamp": 1787477968,
+          "url": "https://github.com/yaap/packages_apps_OpenDelta/commit/84e3235"
         }
       ]
     },
@@ -5149,31 +5133,6 @@
           "date": "Thu Sep 10 12:28:29 2026 -0400",
           "timestamp": 1789057709,
           "url": "https://github.com/yaap/external_freetype/commit/ee19d8a"
-        }
-      ]
-    },
-    {
-      "name": "frameworks_libs_systemui",
-      "path": "frameworks/libs/systemui",
-      "repo_url": "https://github.com/yaap/frameworks_libs_systemui",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "9dfb94b",
-          "message": "Revert \"iconloaderlib: fix dark/light theme inverted forced themed icons\"",
-          "author": "John Galt",
-          "date": "Sat Aug 8 15:55:38 2026 +0300",
-          "timestamp": 1786193738,
-          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/9dfb94b"
-        },
-        {
-          "sha": "6bf5fae",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Aug 8 15:55:35 2026 +0300",
-          "timestamp": 1786193735,
-          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/6bf5fae"
         }
       ]
     },
@@ -5496,23 +5455,6 @@
       ]
     },
     {
-      "name": "art",
-      "path": "art",
-      "repo_url": "https://github.com/yaap/art",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d864d416",
-          "message": "Make the runtime-generated app image read-only",
-          "author": "Nicolas Geoffray",
-          "date": "Thu Sep 10 12:36:19 2026 -0400",
-          "timestamp": 1789058179,
-          "url": "https://github.com/yaap/art/commit/d864d416"
-        }
-      ]
-    },
-    {
       "name": "external_aac",
       "path": "external/aac",
       "repo_url": "https://github.com/yaap/external_aac",
@@ -5526,6 +5468,23 @@
           "date": "Thu Nov 5 08:25:59 2026 -0500",
           "timestamp": 1793885159,
           "url": "https://github.com/yaap/external_aac/commit/10d2dc0"
+        }
+      ]
+    },
+    {
+      "name": "art",
+      "path": "art",
+      "repo_url": "https://github.com/yaap/art",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d864d416",
+          "message": "Make the runtime-generated app image read-only",
+          "author": "Nicolas Geoffray",
+          "date": "Thu Sep 10 12:36:19 2026 -0400",
+          "timestamp": 1789058179,
+          "url": "https://github.com/yaap/art/commit/d864d416"
         }
       ]
     },
@@ -5836,23 +5795,6 @@
       ]
     },
     {
-      "name": "packages_modules_AdServices",
-      "path": "packages/modules/AdServices",
-      "repo_url": "https://github.com/yaap/packages_modules_AdServices",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0c0c2d80",
-          "message": "Add external/vanadium to visibility for android.ext.adservices",
-          "author": "Shirayuki39",
-          "date": "Mon Oct 12 14:02:13 2026 +0300",
-          "timestamp": 1791802933,
-          "url": "https://github.com/yaap/packages_modules_AdServices/commit/0c0c2d80"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_IntentResolver",
       "path": "packages/modules/IntentResolver",
       "repo_url": "https://github.com/yaap/packages_modules_IntentResolver",
@@ -5883,6 +5825,23 @@
           "date": "Thu Nov 5 08:30:30 2026 -0500",
           "timestamp": 1793885430,
           "url": "https://github.com/yaap/packages_modules_NeuralNetworks/commit/8cffe0d"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_AdServices",
+      "path": "packages/modules/AdServices",
+      "repo_url": "https://github.com/yaap/packages_modules_AdServices",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0c0c2d80",
+          "message": "Add external/vanadium to visibility for android.ext.adservices",
+          "author": "Shirayuki39",
+          "date": "Mon Oct 12 14:02:13 2026 +0300",
+          "timestamp": 1791802933,
+          "url": "https://github.com/yaap/packages_modules_AdServices/commit/0c0c2d80"
         }
       ]
     },
@@ -5938,23 +5897,6 @@
       ]
     },
     {
-      "name": "packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/yaap/packages_services_Telephony",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "b2156fe6d",
-          "message": "Restrict USSD requests to the subscription's associated user.",
-          "author": "Aishwarya Mallampati",
-          "date": "Thu Sep 10 12:49:38 2026 -0400",
-          "timestamp": 1789058978,
-          "url": "https://github.com/yaap/packages_services_Telephony/commit/b2156fe6d"
-        }
-      ]
-    },
-    {
       "name": "system_gsid",
       "path": "system/gsid",
       "repo_url": "https://github.com/yaap/system_gsid",
@@ -5968,6 +5910,23 @@
           "date": "Thu Nov 5 08:10:15 2026 -0500",
           "timestamp": 1793884215,
           "url": "https://github.com/yaap/system_gsid/commit/c8f1aa3"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/yaap/packages_services_Telephony",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "b2156fe6d",
+          "message": "Restrict USSD requests to the subscription's associated user.",
+          "author": "Aishwarya Mallampati",
+          "date": "Thu Sep 10 12:49:38 2026 -0400",
+          "timestamp": 1789058978,
+          "url": "https://github.com/yaap/packages_services_Telephony/commit/b2156fe6d"
         }
       ]
     },
@@ -6002,23 +5961,6 @@
           "date": "Thu Nov 5 08:29:34 2026 -0500",
           "timestamp": 1793885374,
           "url": "https://github.com/yaap/trusty_user_base/commit/aa59e47"
-        }
-      ]
-    },
-    {
-      "name": "system_sepolicy",
-      "path": "system/sepolicy",
-      "repo_url": "https://github.com/yaap/system_sepolicy",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "98a168d2",
-          "message": "Merge tag 'android-17.0.0_r1' into staging/sixteen-android-17.0.0_r1",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Aug 8 09:36:34 2026 -0400",
-          "timestamp": 1786196194,
-          "url": "https://github.com/yaap/system_sepolicy/commit/98a168d2"
         }
       ]
     },
