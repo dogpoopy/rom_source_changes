@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "seventeen",
-  "generated_at": "2026-11-24T08:17:52.953122+00:00",
-  "since_date": "2026-08-26",
+  "generated_at": "2026-11-25T06:55:06.547732+00:00",
+  "since_date": "2026-08-27",
   "total_projects": 87,
-  "total_commits": 594,
+  "total_commits": 589,
   "projects": [
     {
       "name": "frameworks_base",
@@ -1373,8 +1373,16 @@
       "path": "external/vanadium",
       "repo_url": "https://gitlab.com/GrapheneOS/platform_external_vanadium",
       "remote": "gitlab",
-      "commit_count": 45,
+      "commit_count": 46,
       "commits": [
+        {
+          "sha": "c0c4d18",
+          "message": "version 158.0.8127.92.0",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 24 10:52:40 2026 -0500",
+          "timestamp": 1795535560,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/c0c4d18"
+        },
         {
           "sha": "a6b6351",
           "message": "Vanadium Config version 227",
@@ -2288,7 +2296,7 @@
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/yaap/packages_apps_Settings",
       "remote": "yaap",
-      "commit_count": 23,
+      "commit_count": 20,
       "commits": [
         {
           "sha": "b1e68c581",
@@ -2449,30 +2457,6 @@
           "date": "Thu Sep 10 12:30:47 2026 -0400",
           "timestamp": 1789057847,
           "url": "https://github.com/yaap/packages_apps_Settings/commit/6e7dcafae"
-        },
-        {
-          "sha": "c0b80d123",
-          "message": "Settings: Use dynamic colors for biometrics enroll style",
-          "author": "charcoalpt",
-          "date": "Wed Aug 26 15:00:06 2026 -0400",
-          "timestamp": 1787770806,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/c0b80d123"
-        },
-        {
-          "sha": "01c3252c5",
-          "message": "Settings: Backport app icon from CP31.260618.005",
-          "author": "charcoalpt",
-          "date": "Wed Aug 26 15:00:04 2026 -0400",
-          "timestamp": 1787770804,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/01c3252c5"
-        },
-        {
-          "sha": "e7fc0ce95",
-          "message": "Settings: Implement reverse-engineered expressive QR generator",
-          "author": "charcoalpt",
-          "date": "Wed Aug 26 14:59:58 2026 -0400",
-          "timestamp": 1787770798,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/e7fc0ce95"
         }
       ]
     },
@@ -2626,7 +2610,7 @@
       "path": "vendor/yaap",
       "repo_url": "https://github.com/yaap/vendor_yaap",
       "remote": "yaap",
-      "commit_count": 16,
+      "commit_count": 14,
       "commits": [
         {
           "sha": "7ac9801",
@@ -2739,22 +2723,6 @@
           "date": "Sat Sep 12 18:16:56 2026 +0300",
           "timestamp": 1789226216,
           "url": "https://github.com/yaap/vendor_yaap/commit/7da02e5"
-        },
-        {
-          "sha": "7415a38",
-          "message": "Reapply \"release: enable hwui resample_gainmap_regions flag\"",
-          "author": "John Galt",
-          "date": "Wed Aug 26 17:14:23 2026 -0400",
-          "timestamp": 1787778863,
-          "url": "https://github.com/yaap/vendor_yaap/commit/7415a38"
-        },
-        {
-          "sha": "e4791b5",
-          "message": "overlay: Increase config_minNumVisibleRecentTasks to 30",
-          "author": "TadiT7",
-          "date": "Wed Aug 26 10:26:12 2026 -0400",
-          "timestamp": 1787754372,
-          "url": "https://github.com/yaap/vendor_yaap/commit/e4791b5"
         }
       ]
     },
@@ -3268,95 +3236,6 @@
       ]
     },
     {
-      "name": "frameworks_native",
-      "path": "frameworks/native",
-      "repo_url": "https://github.com/yaap/frameworks_native",
-      "remote": "yaap",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "cc7e9b609",
-          "message": "Fix OOB read and UAF in InputDispatcher::flushSensor",
-          "author": "Duy Truong",
-          "date": "Thu Nov 5 08:09:44 2026 -0500",
-          "timestamp": 1793884184,
-          "url": "https://github.com/yaap/frameworks_native/commit/cc7e9b609"
-        },
-        {
-          "sha": "33c3804d2",
-          "message": "Add validation checks for DisplayLuts",
-          "author": "Alec Mouri",
-          "date": "Thu Nov 5 08:09:39 2026 -0500",
-          "timestamp": 1793884179,
-          "url": "https://github.com/yaap/frameworks_native/commit/33c3804d2"
-        },
-        {
-          "sha": "0659f81b3",
-          "message": "Monitor and clean up outgoing connections in Trusty",
-          "author": "Devin Moore",
-          "date": "Thu Nov 5 08:09:32 2026 -0500",
-          "timestamp": 1793884172,
-          "url": "https://github.com/yaap/frameworks_native/commit/0659f81b3"
-        },
-        {
-          "sha": "44140062b",
-          "message": "libbinder: trusty: Disconnect TIPC on server destruction",
-          "author": "Weston Carvalho",
-          "date": "Thu Nov 5 08:09:31 2026 -0500",
-          "timestamp": 1793884171,
-          "url": "https://github.com/yaap/frameworks_native/commit/44140062b"
-        },
-        {
-          "sha": "79d66ac79",
-          "message": "nativewindow: Treat QCOM P010 Venus as YUV",
-          "author": "inferno0230",
-          "date": "Mon Nov 2 08:36:49 2026 -0500",
-          "timestamp": 1793626609,
-          "url": "https://github.com/yaap/frameworks_native/commit/79d66ac79"
-        },
-        {
-          "sha": "cba959805",
-          "message": "surfaceflinger: Use closest refresh rate for per fps durations",
-          "author": "John Galt",
-          "date": "Wed Oct 14 16:08:24 2026 -0400",
-          "timestamp": 1792008504,
-          "url": "https://github.com/yaap/frameworks_native/commit/cba959805"
-        },
-        {
-          "sha": "dcfd792ad",
-          "message": "surfaceflinger: Hookup per fps durations",
-          "author": "AdarshGrewal",
-          "date": "Wed Oct 14 15:17:40 2026 -0400",
-          "timestamp": 1792005460,
-          "url": "https://github.com/yaap/frameworks_native/commit/dcfd792ad"
-        },
-        {
-          "sha": "dafb9c6f2",
-          "message": "sf: Add check for unknown dataspace",
-          "author": "BOREDDY MAHIDHAR",
-          "date": "Wed Oct 14 15:15:26 2026 -0400",
-          "timestamp": 1792005326,
-          "url": "https://github.com/yaap/frameworks_native/commit/dafb9c6f2"
-        },
-        {
-          "sha": "5f11098ba",
-          "message": "fixup! surfaceflinger: Allow ZOrder override for UDFPS dim layer",
-          "author": "ExtremeXT",
-          "date": "Wed Sep 2 10:24:51 2026 -0400",
-          "timestamp": 1788359091,
-          "url": "https://github.com/yaap/frameworks_native/commit/5f11098ba"
-        },
-        {
-          "sha": "a58516425",
-          "message": "surfaceflinger: specifically no vote more layers",
-          "author": "John Galt",
-          "date": "Wed Aug 26 10:41:16 2026 -0400",
-          "timestamp": 1787755276,
-          "url": "https://github.com/yaap/frameworks_native/commit/a58516425"
-        }
-      ]
-    },
-    {
       "name": "frameworks_av",
       "path": "frameworks/av",
       "repo_url": "https://github.com/yaap/frameworks_av",
@@ -3434,6 +3313,87 @@
           "date": "Thu Sep 10 12:29:55 2026 -0400",
           "timestamp": 1789057795,
           "url": "https://github.com/yaap/frameworks_av/commit/78f1d3ae3"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_native",
+      "path": "frameworks/native",
+      "repo_url": "https://github.com/yaap/frameworks_native",
+      "remote": "yaap",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "cc7e9b609",
+          "message": "Fix OOB read and UAF in InputDispatcher::flushSensor",
+          "author": "Duy Truong",
+          "date": "Thu Nov 5 08:09:44 2026 -0500",
+          "timestamp": 1793884184,
+          "url": "https://github.com/yaap/frameworks_native/commit/cc7e9b609"
+        },
+        {
+          "sha": "33c3804d2",
+          "message": "Add validation checks for DisplayLuts",
+          "author": "Alec Mouri",
+          "date": "Thu Nov 5 08:09:39 2026 -0500",
+          "timestamp": 1793884179,
+          "url": "https://github.com/yaap/frameworks_native/commit/33c3804d2"
+        },
+        {
+          "sha": "0659f81b3",
+          "message": "Monitor and clean up outgoing connections in Trusty",
+          "author": "Devin Moore",
+          "date": "Thu Nov 5 08:09:32 2026 -0500",
+          "timestamp": 1793884172,
+          "url": "https://github.com/yaap/frameworks_native/commit/0659f81b3"
+        },
+        {
+          "sha": "44140062b",
+          "message": "libbinder: trusty: Disconnect TIPC on server destruction",
+          "author": "Weston Carvalho",
+          "date": "Thu Nov 5 08:09:31 2026 -0500",
+          "timestamp": 1793884171,
+          "url": "https://github.com/yaap/frameworks_native/commit/44140062b"
+        },
+        {
+          "sha": "79d66ac79",
+          "message": "nativewindow: Treat QCOM P010 Venus as YUV",
+          "author": "inferno0230",
+          "date": "Mon Nov 2 08:36:49 2026 -0500",
+          "timestamp": 1793626609,
+          "url": "https://github.com/yaap/frameworks_native/commit/79d66ac79"
+        },
+        {
+          "sha": "cba959805",
+          "message": "surfaceflinger: Use closest refresh rate for per fps durations",
+          "author": "John Galt",
+          "date": "Wed Oct 14 16:08:24 2026 -0400",
+          "timestamp": 1792008504,
+          "url": "https://github.com/yaap/frameworks_native/commit/cba959805"
+        },
+        {
+          "sha": "dcfd792ad",
+          "message": "surfaceflinger: Hookup per fps durations",
+          "author": "AdarshGrewal",
+          "date": "Wed Oct 14 15:17:40 2026 -0400",
+          "timestamp": 1792005460,
+          "url": "https://github.com/yaap/frameworks_native/commit/dcfd792ad"
+        },
+        {
+          "sha": "dafb9c6f2",
+          "message": "sf: Add check for unknown dataspace",
+          "author": "BOREDDY MAHIDHAR",
+          "date": "Wed Oct 14 15:15:26 2026 -0400",
+          "timestamp": 1792005326,
+          "url": "https://github.com/yaap/frameworks_native/commit/dafb9c6f2"
+        },
+        {
+          "sha": "5f11098ba",
+          "message": "fixup! surfaceflinger: Allow ZOrder override for UDFPS dim layer",
+          "author": "ExtremeXT",
+          "date": "Wed Sep 2 10:24:51 2026 -0400",
+          "timestamp": 1788359091,
+          "url": "https://github.com/yaap/frameworks_native/commit/5f11098ba"
         }
       ]
     },
@@ -3803,71 +3763,6 @@
       ]
     },
     {
-      "name": "hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/yaap/hardware_interfaces",
-      "remote": "yaap",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "f63be7932",
-          "message": "Add model input/output out-of-bounds validation tests",
-          "author": "Michael Butler",
-          "date": "Thu Nov 5 08:05:31 2026 -0500",
-          "timestamp": 1793883931,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/f63be7932"
-        },
-        {
-          "sha": "5efa9da97",
-          "message": "Fix CAS HAL integer truncation vulnerability",
-          "author": "Haofan Wang",
-          "date": "Thu Nov 5 08:05:30 2026 -0500",
-          "timestamp": 1793883930,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/5efa9da97"
-        },
-        {
-          "sha": "175d25944",
-          "message": "AIDL CAS HAL: Fix incorrect mmap failure check",
-          "author": "Haofan Wang",
-          "date": "Thu Sep 10 12:40:38 2026 -0400",
-          "timestamp": 1789058438,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/175d25944"
-        },
-        {
-          "sha": "6ea484cdd",
-          "message": "compatibility_matrices: Add kernel_config_t_4.14",
-          "author": "Nick Reuter",
-          "date": "Sun Aug 30 23:04:10 2026 +0800",
-          "timestamp": 1788102250,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/6ea484cdd"
-        },
-        {
-          "sha": "8100e52fd",
-          "message": "compatibility_matrices: Add kernel_config_t_5.4",
-          "author": "Michael Bestas",
-          "date": "Sun Aug 30 23:04:06 2026 +0800",
-          "timestamp": 1788102246,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/8100e52fd"
-        },
-        {
-          "sha": "a553064d9",
-          "message": "compatibility_matrices: Add kernel_config_t_4.19",
-          "author": "Thomas Turner",
-          "date": "Sun Aug 30 23:04:01 2026 +0800",
-          "timestamp": 1788102241,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/a553064d9"
-        },
-        {
-          "sha": "d703e6d1f",
-          "message": "compatibility_matrices: Allow radio 1.5 on target-level 7",
-          "author": "Yumi Yukimura",
-          "date": "Sun Aug 30 23:03:55 2026 +0800",
-          "timestamp": 1788102235,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/d703e6d1f"
-        }
-      ]
-    },
-    {
       "name": "kernel_configs",
       "path": "kernel/configs",
       "repo_url": "https://github.com/yaap/kernel_configs",
@@ -3929,6 +3824,71 @@
           "date": "Sun Aug 30 23:04:31 2026 +0800",
           "timestamp": 1788102271,
           "url": "https://github.com/yaap/kernel_configs/commit/42d43b0"
+        }
+      ]
+    },
+    {
+      "name": "hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/yaap/hardware_interfaces",
+      "remote": "yaap",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "f63be7932",
+          "message": "Add model input/output out-of-bounds validation tests",
+          "author": "Michael Butler",
+          "date": "Thu Nov 5 08:05:31 2026 -0500",
+          "timestamp": 1793883931,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/f63be7932"
+        },
+        {
+          "sha": "5efa9da97",
+          "message": "Fix CAS HAL integer truncation vulnerability",
+          "author": "Haofan Wang",
+          "date": "Thu Nov 5 08:05:30 2026 -0500",
+          "timestamp": 1793883930,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/5efa9da97"
+        },
+        {
+          "sha": "175d25944",
+          "message": "AIDL CAS HAL: Fix incorrect mmap failure check",
+          "author": "Haofan Wang",
+          "date": "Thu Sep 10 12:40:38 2026 -0400",
+          "timestamp": 1789058438,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/175d25944"
+        },
+        {
+          "sha": "6ea484cdd",
+          "message": "compatibility_matrices: Add kernel_config_t_4.14",
+          "author": "Nick Reuter",
+          "date": "Sun Aug 30 23:04:10 2026 +0800",
+          "timestamp": 1788102250,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/6ea484cdd"
+        },
+        {
+          "sha": "8100e52fd",
+          "message": "compatibility_matrices: Add kernel_config_t_5.4",
+          "author": "Michael Bestas",
+          "date": "Sun Aug 30 23:04:06 2026 +0800",
+          "timestamp": 1788102246,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/8100e52fd"
+        },
+        {
+          "sha": "a553064d9",
+          "message": "compatibility_matrices: Add kernel_config_t_4.19",
+          "author": "Thomas Turner",
+          "date": "Sun Aug 30 23:04:01 2026 +0800",
+          "timestamp": 1788102241,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/a553064d9"
+        },
+        {
+          "sha": "d703e6d1f",
+          "message": "compatibility_matrices: Allow radio 1.5 on target-level 7",
+          "author": "Yumi Yukimura",
+          "date": "Sun Aug 30 23:03:55 2026 +0800",
+          "timestamp": 1788102235,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/d703e6d1f"
         }
       ]
     },
@@ -4063,63 +4023,6 @@
       ]
     },
     {
-      "name": "packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
-      "remote": "yaap",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "393543ca5",
-          "message": "Do not allow PCC sandbox app without permission to setVendorIes",
-          "author": "Oscar Shu",
-          "date": "Thu Nov 5 08:04:52 2026 -0500",
-          "timestamp": 1793883892,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/393543ca5"
-        },
-        {
-          "sha": "1f8f6fbfc",
-          "message": "Fix LOHS BSSID configuration validation bypass",
-          "author": "Les Lee",
-          "date": "Thu Nov 5 08:04:46 2026 -0500",
-          "timestamp": 1793883886,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/1f8f6fbfc"
-        },
-        {
-          "sha": "ba8460529",
-          "message": "Summary: Fix permission bypass in WifiP2pServiceImpl",
-          "author": "sunilravi",
-          "date": "Thu Nov 5 08:04:42 2026 -0500",
-          "timestamp": 1793883882,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/ba8460529"
-        },
-        {
-          "sha": "5689a2cc3",
-          "message": "Enforce permissions in IWifiP2pListener callback",
-          "author": "Junyu Lai",
-          "date": "Thu Nov 5 08:04:36 2026 -0500",
-          "timestamp": 1793883876,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/5689a2cc3"
-        },
-        {
-          "sha": "d33585ea4",
-          "message": "Fix package spoofing in getMessenger",
-          "author": "Junyu Lai",
-          "date": "Thu Nov 5 08:04:33 2026 -0500",
-          "timestamp": 1793883873,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/d33585ea4"
-        },
-        {
-          "sha": "04be8e3c9",
-          "message": "Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb",
-          "author": "Nate Jiang",
-          "date": "Thu Sep 10 12:45:37 2026 -0400",
-          "timestamp": 1789058737,
-          "url": "https://github.com/yaap/packages_modules_Wifi/commit/04be8e3c9"
-        }
-      ]
-    },
-    {
       "name": "packages_providers_TelephonyProvider",
       "path": "packages/providers/TelephonyProvider",
       "repo_url": "https://github.com/yaap/packages_providers_TelephonyProvider",
@@ -4173,6 +4076,63 @@
           "date": "Thu Sep 10 12:46:27 2026 -0400",
           "timestamp": 1789058787,
           "url": "https://github.com/yaap/packages_providers_TelephonyProvider/commit/39a36915"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Wifi",
+      "path": "packages/modules/Wifi",
+      "repo_url": "https://github.com/yaap/packages_modules_Wifi",
+      "remote": "yaap",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "393543ca5",
+          "message": "Do not allow PCC sandbox app without permission to setVendorIes",
+          "author": "Oscar Shu",
+          "date": "Thu Nov 5 08:04:52 2026 -0500",
+          "timestamp": 1793883892,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/393543ca5"
+        },
+        {
+          "sha": "1f8f6fbfc",
+          "message": "Fix LOHS BSSID configuration validation bypass",
+          "author": "Les Lee",
+          "date": "Thu Nov 5 08:04:46 2026 -0500",
+          "timestamp": 1793883886,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/1f8f6fbfc"
+        },
+        {
+          "sha": "ba8460529",
+          "message": "Summary: Fix permission bypass in WifiP2pServiceImpl",
+          "author": "sunilravi",
+          "date": "Thu Nov 5 08:04:42 2026 -0500",
+          "timestamp": 1793883882,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/ba8460529"
+        },
+        {
+          "sha": "5689a2cc3",
+          "message": "Enforce permissions in IWifiP2pListener callback",
+          "author": "Junyu Lai",
+          "date": "Thu Nov 5 08:04:36 2026 -0500",
+          "timestamp": 1793883876,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/5689a2cc3"
+        },
+        {
+          "sha": "d33585ea4",
+          "message": "Fix package spoofing in getMessenger",
+          "author": "Junyu Lai",
+          "date": "Thu Nov 5 08:04:33 2026 -0500",
+          "timestamp": 1793883873,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/d33585ea4"
+        },
+        {
+          "sha": "04be8e3c9",
+          "message": "Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb",
+          "author": "Nate Jiang",
+          "date": "Thu Sep 10 12:45:37 2026 -0400",
+          "timestamp": 1789058737,
+          "url": "https://github.com/yaap/packages_modules_Wifi/commit/04be8e3c9"
         }
       ]
     },
@@ -4964,40 +4924,6 @@
       ]
     },
     {
-      "name": "art",
-      "path": "art",
-      "repo_url": "https://github.com/yaap/art",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d864d416",
-          "message": "Make the runtime-generated app image read-only",
-          "author": "Nicolas Geoffray",
-          "date": "Thu Sep 10 12:36:19 2026 -0400",
-          "timestamp": 1789058179,
-          "url": "https://github.com/yaap/art/commit/d864d416"
-        }
-      ]
-    },
-    {
-      "name": "build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/yaap/build_soong",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "dd61360d",
-          "message": "systemfeatures: Only update outputs when their contents change",
-          "author": "Alexander Koskovich",
-          "date": "Thu Nov 12 08:52:33 2026 -0500",
-          "timestamp": 1794491553,
-          "url": "https://github.com/yaap/build_soong/commit/dd61360d"
-        }
-      ]
-    },
-    {
       "name": "external_aac",
       "path": "external/aac",
       "repo_url": "https://github.com/yaap/external_aac",
@@ -5015,6 +4941,23 @@
       ]
     },
     {
+      "name": "art",
+      "path": "art",
+      "repo_url": "https://github.com/yaap/art",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d864d416",
+          "message": "Make the runtime-generated app image read-only",
+          "author": "Nicolas Geoffray",
+          "date": "Thu Sep 10 12:36:19 2026 -0400",
+          "timestamp": 1789058179,
+          "url": "https://github.com/yaap/art/commit/d864d416"
+        }
+      ]
+    },
+    {
       "name": "external_avb",
       "path": "external/avb",
       "repo_url": "https://github.com/yaap/external_avb",
@@ -5028,6 +4971,23 @@
           "date": "Thu Nov 5 08:19:38 2026 -0500",
           "timestamp": 1793884778,
           "url": "https://github.com/yaap/external_avb/commit/57d1703"
+        }
+      ]
+    },
+    {
+      "name": "build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/yaap/build_soong",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "dd61360d",
+          "message": "systemfeatures: Only update outputs when their contents change",
+          "author": "Alexander Koskovich",
+          "date": "Thu Nov 12 08:52:33 2026 -0500",
+          "timestamp": 1794491553,
+          "url": "https://github.com/yaap/build_soong/commit/dd61360d"
         }
       ]
     },
@@ -5423,23 +5383,6 @@
       ]
     },
     {
-      "name": "system_gsid",
-      "path": "system/gsid",
-      "repo_url": "https://github.com/yaap/system_gsid",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c8f1aa3",
-          "message": "gsid: Reject reserved names and validate slot name in openInstall",
-          "author": "Howard Chen",
-          "date": "Thu Nov 5 08:10:15 2026 -0500",
-          "timestamp": 1793884215,
-          "url": "https://github.com/yaap/system_gsid/commit/c8f1aa3"
-        }
-      ]
-    },
-    {
       "name": "packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/yaap/packages_services_Telephony",
@@ -5453,6 +5396,23 @@
           "date": "Thu Sep 10 12:49:38 2026 -0400",
           "timestamp": 1789058978,
           "url": "https://github.com/yaap/packages_services_Telephony/commit/b2156fe6d"
+        }
+      ]
+    },
+    {
+      "name": "system_gsid",
+      "path": "system/gsid",
+      "repo_url": "https://github.com/yaap/system_gsid",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c8f1aa3",
+          "message": "gsid: Reject reserved names and validate slot name in openInstall",
+          "author": "Howard Chen",
+          "date": "Thu Nov 5 08:10:15 2026 -0500",
+          "timestamp": 1793884215,
+          "url": "https://github.com/yaap/system_gsid/commit/c8f1aa3"
         }
       ]
     },
@@ -5508,23 +5468,6 @@
       ]
     },
     {
-      "name": "yaosp/vendor_google_gms",
-      "path": "vendor/google/gms",
-      "repo_url": "https://gitlab.com/yaosp/vendor_google_gms",
-      "remote": "gitlab",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0007778",
-          "message": "gms: Update for 17",
-          "author": "sidharthify",
-          "date": "Tue Oct 13 15:08:55 2026 +0300",
-          "timestamp": 1791893335,
-          "url": "https://gitlab.com/yaosp/vendor_google_gms/commit/0007778"
-        }
-      ]
-    },
-    {
       "name": "yaosp/vendor_google_pixel",
       "path": "vendor/google/pixel",
       "repo_url": "https://gitlab.com/yaosp/vendor_google_pixel",
@@ -5538,6 +5481,23 @@
           "date": "Tue Oct 13 15:06:09 2026 +0300",
           "timestamp": 1791893169,
           "url": "https://gitlab.com/yaosp/vendor_google_pixel/commit/49783fa"
+        }
+      ]
+    },
+    {
+      "name": "yaosp/vendor_google_gms",
+      "path": "vendor/google/gms",
+      "repo_url": "https://gitlab.com/yaosp/vendor_google_gms",
+      "remote": "gitlab",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0007778",
+          "message": "gms: Update for 17",
+          "author": "sidharthify",
+          "date": "Tue Oct 13 15:08:55 2026 +0300",
+          "timestamp": 1791893335,
+          "url": "https://gitlab.com/yaosp/vendor_google_gms/commit/0007778"
         }
       ]
     }
